@@ -1,0 +1,27 @@
+---
+pagetitle: "Opportunities | ECLIPSE Lab"
+toc: true
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Opportunities</li>
+  </ol>
+</nav>
+```
+
+## For Undergraduate Students
+The lab is frequently home to undergraduate students from the Materials Science department(and occasionally others). 
+
+## For Prospective Graduate Students
+The [FAU Materials Science Department](https://www.fau.eu/education/degree-programmes/international-degree-programmes/degree-programmes-taught-exclusively-in-english/materials-science-and-engineering/) grants doctoral degrees in Materials Science and Engineering. Doctoral degrees in Physics can be arranged with a joint supervision. 
+
+Dr. Pelz advises graduate students in the **Materials Science Department** and is a particularly good match for students with interests in computational imaging, inverse problems, and computational methods in materials characterization.
+
+Graduate students will receive a world-class education in the scientific method and have many opportunities to contribute to ongoing research projects.
+
+
+## For Prospective Postdocs and Staff
+Postdoctoral fellowships and other staff positions in the lab will be made available as funding permits. Please check the [News](news.qmd) page for more information.

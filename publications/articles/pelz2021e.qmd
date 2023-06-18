@@ -1,0 +1,29 @@
+---
+title: "Prismatic 2.0–Simulation software for scanning and high resolution transmission electron microscopy (STEM and HRTEM)"
+type: "article"
+author: "PM Pelz, C Groschner, A Bruefach, A Satariano, C Ophus, MC Scott"
+year: "2021"
+publication: "Micron"
+preprint: ""
+doi: "https://doi.org/10.1021/acsnano.1c07772"
+materials: ""
+toc: false
+categories:
+  - simulation
+  - electron microscopy
+  - journal article
+---
+
+## Citation (APA 7)
+
+> Prismatic 2.0–Simulation software for scanning and high resolution transmission electron microscopy (STEM and HRTEM)
+Luis Rangel DaCosta, Hamish G Brown, Philipp M Pelz, Alexander Rakowski, Natolya Barber, Peter O’Donovan, Patrick McBean, Lewys Jones, Jim Ciston, MC Scott, Colin Ophus
+Micron 151, 103141
+
+
+## Abstract
+
+Scanning transmission electron microscopy (STEM), where a converged electron probe is scanned over a sample's surface and an imaging, diffraction, or spectroscopic signal is measured as a function of probe position, is an extremely powerful tool for materials characterization. The widespread adoption of hardware aberration correction, direct electron detectors, and computational imaging methods have made STEM one of the most important tools for atomic-resolution materials science. Many of these imaging methods rely on accurate imaging and diffraction simulations in order to interpret experimental results. However, STEM simulations have traditionally required large calculation times, as modeling the electron scattering requires a separate simulation for each of the typically millions of probe positions. We have created the Prismatic simulation code for fast simulation of STEM experiments with support for multi-CPU and multi-GPU (graphics processing unit) systems, using both the conventional multislice and our recently-introduced PRISM method. In this paper, we introduce Prismatic version 2.0, which adds many new algorithmic improvements, an updated graphical user interface (GUI), post-processing of simulation data, and additional operating modes such as plane-wave TEM. We review various aspects of the simulation methods and codes in detail and provide various simulation examples. Prismatic 2.0 is freely available both as an open-source package that can be run using a C++ or Python command line interface, or GUI, as well within a Docker container environment.
+
+
+

@@ -1,0 +1,22 @@
+---
+pagetitle: "ECLIPSE Lab"
+title: ""
+# page-layout: full
+toc: false
+---
+::: {.hero}
+![](./img/eclipse_header.png)
+:::
+::: {.lead}
+  We are an [interdisciplinary]{.fw-bolder} research group based within the [Department of Materials Science](https://www.ww.tf.fau.de/){.text-primary .text-decoration-none .fw-semibold} at the [Friedrich-Alexander University of Erlangen-Nürnberg](https://www.fau.de/){.text-primary .text-decoration-none .fw-semibold}. 
+We develop advanced algorithms for efficient processing, reliable reconstruction, and automated information extraction from multidimensional microscopy datasets, predominantly in electron and X-ray microscopy. We have expertise in [deep learning, large-scale optimization, signal and image processing, and experimental design]{.fw-bolder} for advanced [X-ray and electron microscopy]{.fw-bolder} experiments. 
+:::
+
+
+
+<!-- ::: {.callout-note} -->
+<!-- ## We are currently recruiting! -->
+
+<!-- If you are interested in joining the lab as a Psychology PhD student, please consider applying.<br /> -->
+<!-- You can find more information about this recruitment cycle at [this blog post](./posts/recruitment2023) (or under News). -->
+<!-- ::: -->

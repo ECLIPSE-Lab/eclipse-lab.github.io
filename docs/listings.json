@@ -1,0 +1,31 @@
+[
+  {
+    "listing": "/news.html",
+    "items": [
+      "/posts/imc20/index.html"
+    ]
+  },
+  {
+    "listing": "/people.html",
+    "items": [
+      "/people/staff/pelz_philipp.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/articles/pelz2023a.html",
+      "/publications/articles/pelz2023b.html",
+      "/publications/articles/pelz2022.html",
+      "/publications/articles/pelz2021e.html",
+      "/publications/articles/pelz2021f.html",
+      "/publications/articles/pelz2021c.html",
+      "/publications/articles/pelz2021d.html",
+      "/publications/articles/pelz2021.html",
+      "/publications/articles/pelz2021b.html",
+      "/publications/articles/pelz2019.html",
+      "/publications/articles/pelz2017.html",
+      "/publications/articles/pelz2014.html"
+    ]
+  }
+]

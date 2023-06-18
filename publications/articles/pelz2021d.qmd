@@ -1,0 +1,29 @@
+---
+title: "Scattering Matrix Determination in Crystalline Materials from 4D Scanning Transmission Electron Microscopy at a Single Defocus Value"
+type: "article"
+author: "PM Pelz, C Groschner, A Bruefach, A Satariano, C Ophus, MC Scott"
+year: "2021"
+publication: "ACS nano"
+preprint: ""
+doi: "https://doi.org/10.1021/acsnano.1c07772"
+materials: ""
+toc: false
+categories:
+  - simulation
+  - electron microscopy
+  - journal article
+---
+
+## Citation (APA 7)
+
+> Simultaneous Successive Twinning Captured by Atomic Electron Tomography
+PM Pelz, C Groschner, A Bruefach, A Satariano, C Ophus, MC Scott
+ACS nano 16 (1), 588-596
+
+
+## Abstract
+
+Shape-controlled synthesis of multiply twinned nanostructures is heavily emphasized in nanoscience, in large part due to the desire to control the size, shape, and terminating facets of metal nanoparticles for applications in catalysis. Direct control of the size and shape of solution-grown nanoparticles relies on an understanding of how synthetic parameters alter nanoparticle structures during synthesis. However, while outcome populations can be effectively studied with standard electron microscopy methods, transient structures that appear during some synthetic routes are difficult to study using conventional high resolution imaging methods due to the high complexity of the 3D nanostructures. Here, we have studied the prevalence of transient structures during growth of multiply twinned particles and employed atomic electron tomography to reveal the atomic-scale three-dimensional structure of a Pd nanoparticle …
+
+
+

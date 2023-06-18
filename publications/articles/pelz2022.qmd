@@ -1,0 +1,33 @@
+---
+title: "Observation of formation and local structures of metal-organic layers via complementary electron microscopy techniques"
+type: "article"
+author: "Xinxing Peng, Philipp M Pelz, Qiubo Zhang, Peican Chen, Lingyun Cao, Yaqian Zhang, Hong-Gang Liao, Haimei Zheng, Cheng Wang, Shi-Gang Sun, Mary C Scott"
+year: "2021"
+publication: "Nature Communications"
+preprint: ""
+doi: "https://doi.org/10.1109/MSP.2021.3120981"
+materials: ""
+toc: false
+categories:
+  - in-situ
+  - ptychography
+  - cryo-EM
+  - liquid-cell EM
+  - electron microscopy
+  - journal article
+---
+
+## Citation (APA 7)
+
+> Observation of formation and local structures of metal-organic layers via complementary electron microscopy techniques
+Xinxing Peng, Philipp M Pelz, Qiubo Zhang, Peican Chen, Lingyun Cao, Yaqian Zhang, Hong-Gang Liao, Haimei Zheng, Cheng Wang, Shi-Gang Sun, Mary C Scott
+Nature communications 13 (1), 5197
+
+
+
+## Abstract
+
+Metal-organic layers (MOLs) are highly attractive for application in catalysis, separation, sensing and biomedicine, owing to their tunable framework structure. However, it is challenging to obtain comprehensive information about the formation and local structures of MOLs using standard electron microscopy methods due to serious damage under electron beam irradiation. Here, we investigate the growth processes and local structures of MOLs utilizing a combination of liquid-phase transmission electron microscopy, cryogenic electron microscopy and electron ptychography. Our results show a multistep formation process, where precursor clusters first form in solution, then they are complexed with ligands to form non-crystalline solids, followed by the arrangement of the cluster-ligand complex into crystalline sheets, with additional possible growth by the addition of clusters to surface edges. Moreover, high-resolution …
+
+
+

@@ -1,0 +1,27 @@
+---
+title: "On-the-fly scans for X-ray ptychography"
+type: "article"
+author: "PM Pelz, M Guizar-Sicairos, P Thibault, I Johnson, M Holler, A Menzel"
+year: "2014"
+publication: "Applied Physics Letters 105 (25), 251101"
+preprint: ""
+doi: "https://doi.org/10.1063/1.4904943"
+materials: ""
+toc: false
+categories:
+  - ptychography
+  - X-ray microscopy
+  - journal article
+---
+
+## Citation (APA 7)
+
+> On-the-fly scans for X-ray ptychography
+PM Pelz, M Guizar-Sicairos, P Thibault, I Johnson, M Holler, A Menzel
+Applied Physics Letters 105 (25), 251101
+
+
+## Abstract
+
+With the increasing importance of nanotechnology, the need for reliable real-time imaging of mesoscopic objects with nanometer resolution is rising. For X-ray ptychography, a scanning microscopy technique that provides nanometric resolution on extended fields of view, and the settling time of the scanning system is one of the bottlenecks for fast imaging. Here, we demonstrate that ptychographic on-the-fly scans, i.e., collecting diffraction patterns while the sample is scanned with constant velocity, can be modelled as a state mixture of the probing radiation and allow for reliable image recovery. Characteristics of the probe modes are discussed for various scan parameters, and the application to significantly reducing the scanning time is considered.
+

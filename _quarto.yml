@@ -1,0 +1,47 @@
+project:
+  type: website
+  resources:
+    - CNAME
+  output-dir: docs
+
+execute:
+    freeze: auto
+
+website:
+  title: "ECLIPSE Lab"
+  favicon: favicon-32x32.png
+  navbar:
+    background: primary
+    right:
+      - href: news.qmd
+        text: News
+      - href: people.qmd
+        text: People
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: resources.qmd
+        text: Resources
+      - href: opportunities.qmd
+        text: Opportunities
+      - href: contact.qmd
+        text: Contact
+  page-footer:    
+    background: "#000000"
+    center: 
+      - text: "Imprint"
+        href: about.qmd
+      - text: "Privacy"
+        href: license.qmd
+      - text: "Accesibility"
+        href: trademark.qmd
+  google-analytics: "G-TVZKKP7YNR"
+  site-url: https://ECLIPSE.ku.edu
+  repo-url: https://github.com/PhilippPelz/ECLIPSElab
+
+format:
+  html:
+    theme: darkly
+    css: styles.css
+    toc: true

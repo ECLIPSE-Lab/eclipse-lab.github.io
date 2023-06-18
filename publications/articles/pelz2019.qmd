@@ -1,0 +1,32 @@
+---
+title: "Phase-contrast imaging of multiply-scattering extended objects at atomic resolution by reconstruction of the scattering matrix"
+type: "article"
+author: "Philipp M Pelz, Hamish G Brown, Scott Stonemeyer, Scott D Findlay, Alex Zettl, Peter Ercius, Yaqian Zhang, Jim Ciston, MC Scott, Colin Ophus"
+year: "2018"
+publication: "Physical Review Research"
+preprint: ""
+doi: "https://doi.org/10.1103/PhysRevResearch.3.023159"
+materials: ""
+toc: false
+categories:
+  - ptychography
+  - electron microscopy
+  - journal article
+---
+
+## Citation (APA 7)
+
+> Phase-contrast imaging of multiply-scattering extended objects at atomic resolution by reconstruction of the scattering matrix
+PM Pelz, HG Brown, S Stonemeyer, SD Findlay, A Zettl, P Ercius, Y Zhang, ...
+Physical Review Research 3 (2), 023159
+
+
+## Abstract
+
+Three-dimensional phase-contrast imaging of multiply-scattering samples in x-ray and electron microscopy is challenging due to small numerical apertures, the unavailability of wave front shaping optics, and the highly nonlinear inversion required from intensity-only measurements. In this work, we present an algorithm using the scattering matrix formalism to solve the scattering from a noncrystalline medium from scanning diffraction measurements and simultaneously recover the illumination aberrations. We demonstrate our method experimentally in a scanning transmission electron microscope, recovering the scattering matrix of a heterogeneous sample with two layers of multiwall carbon nanotubes filled with 
+TaTe
+2
+ core-shell structures, spaced 
+10
+nm
+ apart in the axial direction. Our work enables phase contrast imaging and materials characterization in multiply-scattering samples at high resolution for a wide range of materials.

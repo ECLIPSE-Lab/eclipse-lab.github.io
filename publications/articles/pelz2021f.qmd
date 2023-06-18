@@ -1,0 +1,30 @@
+---
+title: "Real-Time Interactive 4D-STEM Phase-Contrast Imaging From Electron Event Representation Data: Less computation with the right representation"
+type: "article"
+author: "PM Pelz, I Johnson, C Ophus, P Ercius, MC Scott"
+year: "2021"
+publication: "IEEE Signal Processing Magazine"
+preprint: ""
+doi: "https://doi.org/10.1109/MSP.2021.3120981"
+materials: ""
+toc: false
+categories:
+  - real-time
+  - electron microscopy
+  - journal article
+---
+
+## Citation (APA 7)
+
+> Real-Time Interactive 4D-STEM Phase-Contrast Imaging From Electron Event Representation Data: Less computation with the right representation
+PM Pelz, I Johnson, C Ophus, P Ercius, MC Scott
+IEEE Signal Processing Magazine 39 (1), 25-31	11	2021
+
+
+
+## Abstract
+
+The arrival of direct electron detectors (DEDs) with high frame rates in the field of scanning transmission electron microscopy (TEM) has enabled many experimental techniques that require collection of a full diffraction pattern at each scan position, a field which is subsumed under the name four-dimensional scanning transmission electron microscopy ( 4D-STEM ). DED frame rates approaching 100 kHz require data transmission rates and data storage capabilities that exceed those of the commonly available computing infrastructures. Current commercial DEDs allow the user to make compromises in pixel bit depth, detector binning, or windowing to reduce the per-frame file size and allow higher frame rates. This change in detector specifications requires decisions to be made before data acquisition that may reduce or lose information that could have been advantageous during data analysis.
+
+
+

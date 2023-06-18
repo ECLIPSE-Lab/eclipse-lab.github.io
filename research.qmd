@@ -1,0 +1,52 @@
+---
+pagetitle: "Research | ECLIPSE Lab"
+toc: true
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Research</li>
+  </ol>
+</nav>
+```
+
+## Research Topics
+
+### 4D-STEM method development
+
+- **Large-scale dose-efficient 3D imaging** – We are leaders in development of 3D imaging methods based on 4D-STEM measurements. We have produced the first atomic-resolution 3D volumes from 4D-STEM tomography and are working on scaling to very large samples.
+
+- **Fast simulators for electron microscopy** We are developing fast simulators for electron microscopy 
+
+### Multi-modal microscopy
+
+Stay tuned
+
+### Self-driving equipment
+
+Stay tuned
+
+
+## Research Funding
+
+### Current Funding
+
+- *"ScatterEM: Utilizing scattering to enhance throughput and sensitivity in electron microscopy"*
+    - EAM Starting grant
+    - **Pelz** (PI)
+    - 01/2023
+
+### Completed Funding
+
+
+## Research Framework
+
+### Holistic microscopy - using as much of the scattering information as possible
+
+The substantive focus of our work is on incorporating prior physical knowledge about scattering mechanisms and multiple signal channels into the image reconstruction.
+
+### ML-driven microscopy
+
+We use modern machine learning tools to make microscopy faster and better

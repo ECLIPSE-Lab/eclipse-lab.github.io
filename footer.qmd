@@ -1,0 +1,39 @@
+
+
+
+```{=html}
+
+<div class="container">
+    <div class="footer-row"> 
+        <div class="footer-logo fau">
+            <svg height="55" width="144">
+                <use xlink:href="#fau-logo-2021" class="fau-logo-footer" />
+            </svg>
+        </div>
+        <div class="footer-address">
+            <address itemscope itemtype="http://schema.org/PostalAddress">
+                <meta itemprop="name"
+                    content="Professur für Computational Materials Microscopy, Universität Erlangen-Nürnberg">
+                <span>Professur für Computational Materials Microscopy<br>Universität
+                    Erlangen-Nürnberg</span><br>
+                <span itemprop="streetAddress">Cauerstr. 3</span><br>
+                <span itemprop="postalCode">91058</span> <span
+                    itemprop="addressLocality">Erlangen</span><br>
+                <span itemprop="addressCountry">Germany</span>
+            </address>
+        </div>
+        <div class="footer-meta">
+            <nav aria-label="Contact, imprint and additional information">
+                <ul id="footer-nav" class="menu">
+                    <li class="tos menu-item menu-item-type-custom menu-item-object-custom menu-item-195"><a
+                            href="https://www.tf.fau.de/imprint">Imprint</a></li>
+                    <li class="tos menu-item menu-item-type-custom menu-item-object-custom menu-item-196"><a
+                            href="https://www.tf.fau.de/privacy">Privacy</a></li>
+                    <li class="tos menu-item menu-item-type-custom menu-item-object-custom menu-item-197"><a
+                            href="https://www.tf.fau.de/accessibility">Accessibility</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+```

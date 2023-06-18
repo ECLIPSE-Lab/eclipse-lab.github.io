@@ -1,0 +1,29 @@
+---
+title: "py4DSTEM: a software package for four-dimensional scanning transmission electron microscopy data analysis"
+type: "article"
+author: "Philipp M Pelz, Alexander Rakowski, Luis Rangel DaCosta, Benjamin H Savitzky, Mary C Scott, Colin Ophus"
+year: "2021"
+publication: "Microscopy and Microanalysis"
+preprint: ""
+doi: "https://doi.org/10.1017/S1431927621012083"
+materials: ""
+toc: false
+categories:
+  - simulation
+  - electron microscopy
+  - journal article
+---
+
+## Citation (APA 7)
+
+> A Fast Algorithm for Scanning Transmission Electron Microscopy Imaging and 4D-STEM Diffraction Simulations
+PM Pelz, A Rakowski, LR DaCosta, BH Savitzky, MC Scott, C Ophus
+Microscopy and Microanalysis 27 (4), 835-848
+
+
+## Abstract
+
+Scanning transmission electron microscopy (STEM) is an extremely versatile method for studying materials on the atomic scale. Many STEM experiments are supported or validated with electron scattering simulations. However, using the conventional multislice algorithm to perform these simulations can require extremely large calculation times, particularly for experiments with millions of probe positions as each probe position must be simulated independently. Recently, the plane-wave reciprocal-space interpolated scattering matrix (PRISM) algorithm was developed to reduce calculation times for large STEM simulations. Here, we introduce a new method for STEM simulation: partitioning of the STEM probe into “beamlets,” given by a natural neighbor interpolation of the parent beams. This idea is compatible with PRISM simulations and can lead to even larger improvements in simulation time, as well requiring significantly less computer random access memory (RAM). We have performed various simulations to demonstrate the advantages and disadvantages of partitioned PRISM STEM simulations. We find that this new algorithm is particularly useful for 4D-STEM simulations of large fields of view. We also provide a reference implementation of the multislice, PRISM, and partitioned PRISM algorithms.
+
+
+

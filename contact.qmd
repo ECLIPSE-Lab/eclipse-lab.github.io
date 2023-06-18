@@ -1,0 +1,31 @@
+---
+pagetitle: "Contact | ECLIPSE Lab"
+toc: false
+email-obfuscation: javascript
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Contact</li>
+  </ol>
+</nav>
+```
+
+## Visit Us
+
+The ECLIPSE Lab is located in the **Interdisciplinary Center for Nanostructured Films** at the Friedrich-Alexander Universität Erlangen-Nürnberg.
+
+> **Street Address:** Cauerstr. 3, 91058 Erlangen
+>
+> **Visitor Parking:** Cauerstr. 3, 91058 Erlangen
+
+```{=html}
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2587.377552389518!2d11.024604777894988!3d49.57176675023858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a1ffc21ef76f0f%3A0x6d3dca01aece2f3!2sInterdisciplinary%20Center%20for%20Nanostructured%20Films!5e0!3m2!1sen!2sde!4v1687014013048!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+```
+
+## Email Us
+
+philipp.pelz@fau.de
+

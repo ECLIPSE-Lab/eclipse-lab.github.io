@@ -1,0 +1,31 @@
+---
+title: "The 4D Camera: an 87 kHz direct electron detector for scanning/transmission electron microscopy"
+type: "article"
+author: "Peter Ercius, Ian J Johnson, Philipp Pelz, Benjamin H Savitzky, Lauren Hughes, Hamish G Brown, Steven E Zeltmann, Shang-Lin Hsu, Cassio Pedroso, Bruce E Cohen, Ramamoorthy Ramesh, David Paul, John M Joseph, Thorsten Stezelberger, Cory Czarnik, Matthew Lent, Erin Fong, Jim Ciston, Mary C Scott, Colin Ophus, Andrew M Minor"
+year: "2023"
+publication: "under review"
+preprint: "https://arxiv.org/abs/2305.11961"
+doi: ""
+materials: ""
+toc: false
+categories:
+  - 4D-STEM
+  - detectors
+  - electron microscopy
+  - journal article
+---
+
+## Citation (APA 7)
+
+> The 4D Camera: an 87 kHz direct electron detector for scanning/transmission electron microscopy
+P Ercius, IJ Johnson, P Pelz, BH Savitzky, L Hughes, HG Brown, ...
+arXiv preprint arXiv:2305.11961
+
+
+
+## Abstract
+
+Four-dimensional scanning transmission electron microscopy (4D-STEM) has recently gained widespread attention for its ability to image atomic electric fields with sub-{\AA}ngstrom spatial resolution. These electric field maps represent the integrated effect of the nucleus, core electrons and valence electrons, and separating their contributions is non-trivial. In this paper, we utilized simultaneously acquired 4D-STEM center of mass (CoM) images and annular dark field (ADF) images to determine the electron charge density in monolayer MoS2. We find that both the core electrons and the valence electrons contribute to the derived electron charge density. However, due to blurring by the probe shape, the valence electron contribution forms a nearly featureless background while most of the spatial modulation comes from the core electrons. Our findings highlight the importance of probe shape in interpreting charge densities derived from 4D STEM.
+
+
+

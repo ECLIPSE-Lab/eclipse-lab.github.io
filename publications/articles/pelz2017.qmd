@@ -1,0 +1,27 @@
+---
+title: "Low-dose cryo electron ptychography via non-convex Bayesian optimization"
+type: "article"
+author: "PM Pelz, WX Qiu, B Robert, G Kassier, RJD Miller"
+year: "2017"
+publication: "Scientific Reports, 9883"
+preprint: ""
+doi: "https://doi.org/10.1038/s41598-017-07488-y"
+materials: ""
+toc: false
+categories:
+  - ptychography
+  - electron microscopy
+  - journal article
+---
+
+## Citation (APA 7)
+
+> Low-dose cryo electron ptychography via non-convex Bayesian optimization
+PM Pelz, WX Qiu, B Robert, G Kassier, RJD Miller
+Scientific Reports, 9883
+
+
+## Abstract
+
+Electron ptychography has seen a recent surge of interest for phase sensitive imaging at atomic or near-atomic resolution. However, applications are so far mainly limited to radiation-hard samples, because the required doses are too high for imaging biological samples at high resolution. We propose the use of non-convex Bayesian optimization to overcome this problem, and show via numerical simulations that the dose required for successful reconstruction can be reduced by two orders of magnitude compared to previous experiments. As an important application we suggest to use this method for imaging single biological macromolecules at cryogenic temperatures and demonstrate 2D single-particle reconstructions from simulated data with a resolution up to 5.4 Å at a dose of 20e −/Å2. When averaging over only 30 low-dose datasets, a 2D resolution around 3.5 Å is possible for macromolecular complexes even below 100 kDa. With its independence from the microscope transfer function, direct recovery of phase contrast, and better scaling of signal-to-noise ratio, low-dose cryo electron ptychography may become a promising alternative to Zernike phase-contrast microscopy.
+

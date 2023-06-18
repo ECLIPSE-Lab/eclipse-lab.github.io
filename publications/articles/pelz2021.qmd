@@ -1,0 +1,28 @@
+---
+title: "py4DSTEM: a software package for four-dimensional scanning transmission electron microscopy data analysis"
+type: "article"
+author: "Benjamin H Savitzky, Steven E Zeltmann, Lauren A Hughes, Hamish G Brown, Shiteng Zhao, Philipp M Pelz, Thomas C Pekin, Edward S Barnard, Jennifer Donohue, Luis Rangel DaCosta, Ellis Kennedy, Yujun Xie, Matthew T Janish, Matthew M Schneider, Patrick Herring, Chirranjeevi Gopal, Abraham Anapolsky, Rohan Dhall, Karen C Bustillo, Peter Ercius, Mary C Scott, Jim Ciston, Andrew M Minor, Colin Ophus"
+year: "2021"
+publication: "Microscopy and Microanalysis"
+preprint: ""
+doi: "https://doi.org/10.1017/S1431927621000477"
+materials: ""
+toc: false
+categories:
+  - ptychography
+  - electron microscopy
+  - journal article
+---
+
+## Citation (APA 7)
+
+> py4DSTEM: a software package for four-dimensional scanning transmission electron microscopy data analysis
+BH Savitzky, SE Zeltmann, LA Hughes, HG Brown, S Zhao, PM Pelz, ...
+Microscopy and Microanalysis 27 (4), 712-743
+
+
+## Abstract
+
+Due to the advent of direct electron-counting detectors and improvements in algorithms, cryo-electron microscopy (cryo-EM) has rapidly developed into a mainstream technique for solving the structures of biological macromolecules. The key to improving the resolution even further lies in measuring more effectively the phase shift which the molecules impart on the high-energy electron wave.
+In a previous paper [1] we have shown that, with the help of multi-slice simulations, electron ptychography in combination with Bayesian reconstruction algorithms provides up to two orders of magnitude improvement in signal-to-noise ratio at 3 Å resolution compared to Zernike-type phase contrast and phase contrast from defocus aberration. Therefore, ptychography may become a more efficient alternative to conventional phase contrast imaging methods in cryo-EM. Recently Pennycook et al.[2] showed that single side-band …
+
