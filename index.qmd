@@ -37,7 +37,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 					Solving Complex Nanostructures With Ptychographic Atomic Electron Tomography
  (preprint)
 				</div>
-        <img src="img/dwcnt.gif" alt="c">
+        <img src="img/dwcnt.png" alt="c">
 
 		</ul>
   </div>
