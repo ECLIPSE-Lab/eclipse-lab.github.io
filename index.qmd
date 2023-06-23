@@ -71,8 +71,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 ![](./img/eclipse_header.png)
 :::
 ::: {.lead}
-  We are an [interdisciplinary]{.fw-bolder} research group based within the [Department of Materials Science](https://www.ww.tf.fau.de/){.text-primary .text-decoration-none .fw-semibold} at the [Friedrich-Alexander University of Erlangen-Nürnberg](https://www.fau.de/){.text-primary .text-decoration-none .fw-semibold}. 
-We develop advanced algorithms for efficient processing, reliable reconstruction, and automated information extraction from multidimensional microscopy datasets, predominantly in electron and X-ray microscopy. We have expertise in [deep learning, large-scale optimization, signal and image processing, and experimental design]{.fw-bolder} for advanced [X-ray and electron microscopy]{.fw-bolder} experiments. 
+  We are an [interdisciplinary]{.fw-bolder} research group based within the [Department of Materials Science](https://www.ww.tf.fau.de/){.text-primary .text-decoration-none .fw-semibold} at the [Friedrich-Alexander University of Erlangen-Nürnberg](https://www.fau.de/){.text-primary .text-decoration-none .fw-semibold}. We have expertise in [deep learning, large-scale optimization, signal and image processing, and experimental design]{.fw-bolder} for advanced [X-ray and electron microscopy]{.fw-bolder} experiments. 
 
 We are part of the [Institute of Micro- and Nanostructure Research](https://www.em.tf.fau.de/) and the [Center for Nanoanalysis and Electron Microscopy](https://www.cenem.fau.de/) and part of the Competence Unit [Engineering of Advanced Materials](https://www.eam.fau.eu/).
 :::
