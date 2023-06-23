@@ -4,7 +4,17 @@ title: ""
 # page-layout: full
 toc: false
 ---
+::: {.lead}
+  Welcome to the ECLIPSE Lab!
+:::
 
+::: {.hero2}
+  We develop computational tools to enable new capabilities in electron and X-ray microscopes.
+:::
+
+::: {.lead}
+  Publication Highlights
+:::
 ```{=html}
 <script src="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
@@ -16,21 +26,19 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   <div class="splide__track">
 		<ul class="splide__list">
 			<li class="splide__slide">
-        <img src="img/grey_waves1.jpg" alt="c">
         <div>
-					Palladium Nanoparticle (ACS Nano 2021)
+					Simultaneous Successive Twinning Captured by Atomic Electron Tomography (ACS Nano 2021)
 				</div>
+        <img src="img/grey_waves1.jpg" alt="c">
+        
       </li>
 			<li class="splide__slide">
-        <img src="img/grey_waves1.jpg" alt="c">
         <div>
-					Palladium Nanoparticle (ACS Nano 2021)
-				</div></li>
-			<li class="splide__slide">
-        <img src="img/grey_waves1.jpg" alt="c">
-        <div>
-					Palladium Nanoparticle (ACS Nano 2021)
-				</div></li>
+					Solving Complex Nanostructures With Ptychographic Atomic Electron Tomography
+ (preprint)
+				</div>
+        <img src="img/dwcnt.gif" alt="c">
+
 		</ul>
   </div>
   <div class="splide__progress">
@@ -54,6 +62,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
  
 </script>
 ```
+
+
+
+
 
 ::: {.hero}
 ![](./img/eclipse_header.png)

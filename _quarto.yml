@@ -52,10 +52,10 @@ website:
         href: license.qmd
       - text: "Accesibility"
         href: trademark.qmd
-  cookie-consent:
-    type: express
-    style: headline
-    palette: dark
+  # cookie-consent:
+  #   type: express
+  #   style: headline
+  #   palette: dark
   google-analytics:
     tracking-id: "G-TVZKKP7YNR"  
     anonymize-ip: true  
