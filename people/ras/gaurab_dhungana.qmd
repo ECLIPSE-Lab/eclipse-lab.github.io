@@ -1,0 +1,61 @@
+---
+title: "Gaurab Dhungana"
+sortby: "1"
+subtitle: "Research Assistant"
+# image: pelz_philipp.jpg
+started: "June 2023"
+toc: false
+resources: 
+  - "girard_cv.pdf"
+about:
+  id: person-profile
+  template: jolla
+  # links:
+    # - icon: link
+    #   text: website
+    #   href: https://philipppelz.github.io
+    # - icon: file-earmark-text
+    #   text: vitae
+    #   href: ./people/staff/girard_cv.pdf
+    # - icon: mortarboard
+    #   text: scholar
+    #   href: https://scholar.google.de/citations?hl=en&user=d-lXKR8AAAAJ
+    # - icon: github
+    #   text: github
+    #   href: https://github.com/PhilippPelz
+    # - icon: twitter
+    #   text: twitter
+    #   href: https://twitter.com/PhilippPelz
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Research Staff</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Research Interests
+computational imaging & microscopy
+
+## Brief Bio
+
+Gaurab Bio
+
+## Experience
+
+
+
+<!-- ## Journal Editing -->
+
+
+## Education
+
+
