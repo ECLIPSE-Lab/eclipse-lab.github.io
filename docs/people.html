@@ -33,6 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="./favicon-32x32.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -121,6 +123,34 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-admin-assistants .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-started',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-admin-assistants'] = new List('listing-admin-assistants', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-alumni .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -149,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TVZKKP7YNR"></script>
 
-<script type="text/javascript">
+<script type="text/plain" cookie-consent="tracking">
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
@@ -157,10 +187,33 @@ gtag('js', new Date());
 gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 </script>
 
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"headline",
+  "consent_type":"express",
+  "palette":"dark",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
+
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="People | ECLIPSE Lab">
+<meta property="og:image" content="https://pelzlab.science/people/staff/pelz_philipp.jpg">
+<meta property="og:site-name" content="ECLIPSE Lab">
+<meta name="twitter:title" content="People | ECLIPSE Lab">
+<meta name="twitter:image" content="https://pelzlab.science/people/staff/pelz_philipp.jpg">
+<meta name="twitter:creator" content="@PhilippPelz">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -170,7 +223,10 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a href="https://pelzlab.science" class="navbar-brand navbar-brand-logo">
+    <img src="././img/FAU.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="https://pelzlab.science">
     <span class="navbar-title">ECLIPSE Lab</span>
     </a>
   </div>
@@ -183,6 +239,10 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
   <li class="nav-item">
     <a class="nav-link" href="./news.html" rel="" target="">
  <span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html" rel="" target="">
+ <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./people.html" rel="" target="" aria-current="page">
@@ -210,6 +270,17 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
+    <a href="https://twitter.com/PhilippPelz" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/ECLIPSE-Lab">
+            Source Code
+            </a>
+          </li>
+      </ul>
+    </div>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -250,7 +321,7 @@ Postdoc
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1687530001939" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1687534787947" data-listing-reading-time-sort="2">
 <a href="./people/staff/pelz_philipp.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -277,10 +348,12 @@ No matching items
 <h2 class="anchored" data-anchor-id="research-assistants">Research Assistants</h2>
 <div id="listing-research-assistants" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1687530027831" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1687531323127" data-listing-reading-time-sort="1">
 <a href="./people/ras/gaurab_dhungana.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
-<div class="listing-item-img-placeholder card-img-top" style="height: 225px;">&nbsp;</div>
+<p class="card-img-top">
+<img src="./people/ras/gaurab.jpg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Gaurab Dhungana
@@ -296,6 +369,72 @@ Started
 </td>
 <td class="started">
 June 2023
+</td>
+</tr>
+
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="administrative-assistants" class="level2">
+<h2 class="anchored" data-anchor-id="administrative-assistants">Administrative Assistants</h2>
+<div id="listing-admin-assistants" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1687531301966" data-listing-reading-time-sort="1">
+<a href="./people/admins/birke.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="./people/admins/birke.jpg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Birke Kohlheim
+</h5>
+<div class="card-subtitle listing-subtitle">
+Secretary
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+started
+</td>
+<td class="started">
+</td>
+</tr>
+
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1687531307011" data-listing-reading-time-sort="1">
+<a href="./people/admins/inga_schaefer.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="./people/admins/inga.jpg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Inga Schäfer
+</h5>
+<div class="card-subtitle listing-subtitle">
+Secretary
+</div>
+
+<table class="card-other-values">
+<tbody><tr>
+<td>
+started
+</td>
+<td class="started">
 </td>
 </tr>
 
@@ -621,7 +760,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <a class="nav-link" href="./trademark.qmd">Accesibility</a>
   </li>  
 </ul>
-    </div>
+    <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

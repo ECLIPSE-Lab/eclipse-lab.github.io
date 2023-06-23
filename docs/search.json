@@ -18,7 +18,7 @@
     "href": "contact.html#email-us",
     "title": "ECLIPSE Lab",
     "section": "Email Us",
-    "text": "Email Us\nphilipp.pelz@fau.de"
+    "text": "Email Us\nphilipp pelz at fau de"
   },
   {
     "objectID": "girard/index.html",
@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "ECLIPSE Lab",
     "section": "",
-    "text": "We are an interdisciplinary research group based within the Department of Materials Science at the Friedrich-Alexander University of Erlangen-Nürnberg. We develop advanced algorithms for efficient processing, reliable reconstruction, and automated information extraction from multidimensional microscopy datasets, predominantly in electron and X-ray microscopy. We have expertise in deep learning, large-scale optimization, signal and image processing, and experimental design for advanced X-ray and electron microscopy experiments."
+    "text": "Palladium Nanoparticle (ACS Nano 2021)\n                \n      \n            \n        \n        \n                    Palladium Nanoparticle (ACS Nano 2021)\n                \n            \n        \n        \n                    Palladium Nanoparticle (ACS Nano 2021)\n                \n        \n  \n  \n        \n        \n  \n\n\n\n\n\n\n\nWe are an interdisciplinary research group based within the Department of Materials Science at the Friedrich-Alexander University of Erlangen-Nürnberg. We develop advanced algorithms for efficient processing, reliable reconstruction, and automated information extraction from multidimensional microscopy datasets, predominantly in electron and X-ray microscopy. We have expertise in deep learning, large-scale optimization, signal and image processing, and experimental design for advanced X-ray and electron microscopy experiments.\nWe are part of the Institute of Micro- and Nanostructure Research and the Center for Nanoanalysis and Electron Microscopy and part of the Competence Unit Engineering of Advanced Materials."
   },
   {
     "objectID": "news.html",
@@ -669,7 +669,7 @@
     "href": "people.html#research-assistants",
     "title": "ECLIPSE Lab",
     "section": "Research Assistants",
-    "text": "Research Assistants\n\n\n\n\n\n\n\n\nGaurab Dhungana\n\n\nResearch Assistant\n\n\n\n\n\nStarted\n\n\nJune 2023\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Research Assistants\n\n\n\n\n\n\n\n\n\n\nGaurab Dhungana\n\n\nResearch Assistant\n\n\n\n\n\nStarted\n\n\nJune 2023\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people.html#alumni",
@@ -2916,7 +2916,7 @@
     "href": "people/ras/gaurab_dhungana.html",
     "title": "Gaurab Dhungana",
     "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Gaurab Dhungana"
+    "text": "Home\n    People\n    Research Assistants\n    Gaurab Dhungana"
   },
   {
     "objectID": "people/ras/gaurab_dhungana.html#research-interests",
@@ -2980,5 +2980,54 @@
     "title": "Andrey Romanov",
     "section": "Education",
     "text": "Education"
+  },
+  {
+    "objectID": "people.html#administrative-assistants",
+    "href": "people.html#administrative-assistants",
+    "title": "ECLIPSE Lab",
+    "section": "Administrative Assistants",
+    "text": "Administrative Assistants\n\n\n\n\n\n\n\n\n\n\nBirke Kohlheim\n\n\nSecretary\n\n\n\n\n\nstarted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInga Schäfer\n\n\nSecretary\n\n\n\n\n\nstarted\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people/admins/birke.html",
+    "href": "people/admins/birke.html",
+    "title": "Birke Kohlheim",
+    "section": "",
+    "text": "Home\n    People\n    Admin Staff\n    Birke Kohlheim"
+  },
+  {
+    "objectID": "people/admins/birke.html#contact",
+    "href": "people/admins/birke.html#contact",
+    "title": "Birke Kohlheim",
+    "section": "Contact",
+    "text": "Contact\nBirke Kohlheim\nCauerstraße 3\n91058 Erlangen\nPhone number:+49 9131 85-70402\nEmail:birke.kohlheim@fau.de\nWebsite:http://www.em.tf.fau.de"
+  },
+  {
+    "objectID": "people/admins/inga_schaefer.html",
+    "href": "people/admins/inga_schaefer.html",
+    "title": "Inga Schäfer",
+    "section": "",
+    "text": "Home\n    People\n    Admin Staff\n    Inga Schäfer"
+  },
+  {
+    "objectID": "people/admins/inga_schaefer.html#research-interests",
+    "href": "people/admins/inga_schaefer.html#research-interests",
+    "title": "Inga Schäfer",
+    "section": "Research Interests",
+    "text": "Research Interests\nMehr ›Details for Birke Kohlheim Inga Schäfer Inga Schäfer Cauerstraße 3 91058 Erlangen Phone number:+49 9131 85-70397 Email:inga.schaefer@fau.de Website:http://www.em.techfak.uni-erlangen.de"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "ECLIPSE Lab",
+    "section": "",
+    "text": "Home\n    Contact"
+  },
+  {
+    "objectID": "teaching.html#summer-semester-2023",
+    "href": "teaching.html#summer-semester-2023",
+    "title": "ECLIPSE Lab",
+    "section": "Summer Semester 2023",
+    "text": "Summer Semester 2023\nLecture Materials & Structure\nLecture Data Science for Electron Microscopy\nSeminar Machine Leanring for Microscopy"
   }
 ]

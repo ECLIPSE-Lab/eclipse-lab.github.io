@@ -1,6 +1,4 @@
 /* css styles */
-
-
 .hero {
   max-width: 700px;
   
@@ -9,6 +7,11 @@
   display: block;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.splide__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .navbar-dark {
   background-color: #000000;

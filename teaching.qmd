@@ -1,0 +1,23 @@
+---
+pagetitle: "Teaching"
+toc: false
+email-obfuscation: javascript
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Contact</li>
+  </ol>
+</nav>
+```
+
+## Summer Semester 2023
+
+Lecture Materials & Structure
+
+Lecture Data Science for Electron Microscopy
+
+Seminar Machine Leanring for Microscopy
+

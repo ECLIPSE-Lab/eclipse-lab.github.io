@@ -8,13 +8,29 @@ execute:
     freeze: auto
 
 website:
-  title: "ECLIPSE Lab"
+  title: "ECLIPSE Lab"  
   favicon: favicon-32x32.png
+  open-graph: true
+  twitter-card: 
+    creator: "@PhilippPelz"
+  site-url: https://pelzlab.science
   navbar:
+    logo: ./img/FAU.png
+    logo-href: https://pelzlab.science
     background: primary
-    right:
+    search: true
+    tools:
+      - icon: twitter
+        href: https://twitter.com/PhilippPelz
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://github.com/ECLIPSE-Lab
+    right:     #TODO: Outreach    
       - href: news.qmd
         text: News
+      - href: teaching.qmd
+        text: Teaching
       - href: people.qmd
         text: People
       - href: research.qmd
@@ -36,10 +52,18 @@ website:
         href: license.qmd
       - text: "Accesibility"
         href: trademark.qmd
-  google-analytics: "G-TVZKKP7YNR"
-  site-url: https://ECLIPSE.ku.edu
+  cookie-consent:
+    type: express
+    style: headline
+    palette: dark
+  google-analytics:
+    tracking-id: "G-TVZKKP7YNR"  
+    anonymize-ip: true  
   repo-url: https://github.com/PhilippPelz/ECLIPSElab
-
+theme:
+  light: flatly
+  dark: darkly
+  
 format:
   html:
     theme: darkly

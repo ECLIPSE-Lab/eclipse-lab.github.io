@@ -4,12 +4,65 @@ title: ""
 # page-layout: full
 toc: false
 ---
+
+```{=html}
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+<div class="splide" role="group" aria-label="Image Slider">
+  <div class="splide__track">
+		<ul class="splide__list">
+			<li class="splide__slide">
+        <img src="img/grey_waves1.jpg" alt="c">
+        <div>
+					Palladium Nanoparticle (ACS Nano 2021)
+				</div>
+      </li>
+			<li class="splide__slide">
+        <img src="img/grey_waves1.jpg" alt="c">
+        <div>
+					Palladium Nanoparticle (ACS Nano 2021)
+				</div></li>
+			<li class="splide__slide">
+        <img src="img/grey_waves1.jpg" alt="c">
+        <div>
+					Palladium Nanoparticle (ACS Nano 2021)
+				</div></li>
+		</ul>
+  </div>
+  <div class="splide__progress">
+		<div class="splide__progress__bar">
+		</div>
+  </div>
+</div>
+
+<script>
+
+  document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '.splide', {
+  type   : 'loop',  
+  interval: 5000,
+  speed: 1000,
+  autoplay: true,
+  height: 600,
+  heightRatio: 0.5,
+}).mount();
+  } );
+ 
+</script>
+```
+
 ::: {.hero}
 ![](./img/eclipse_header.png)
 :::
 ::: {.lead}
   We are an [interdisciplinary]{.fw-bolder} research group based within the [Department of Materials Science](https://www.ww.tf.fau.de/){.text-primary .text-decoration-none .fw-semibold} at the [Friedrich-Alexander University of Erlangen-Nürnberg](https://www.fau.de/){.text-primary .text-decoration-none .fw-semibold}. 
 We develop advanced algorithms for efficient processing, reliable reconstruction, and automated information extraction from multidimensional microscopy datasets, predominantly in electron and X-ray microscopy. We have expertise in [deep learning, large-scale optimization, signal and image processing, and experimental design]{.fw-bolder} for advanced [X-ray and electron microscopy]{.fw-bolder} experiments. 
+
+We are part of the [Institute of Micro- and Nanostructure Research](https://www.em.tf.fau.de/) and the [Center for Nanoanalysis and Electron Microscopy](https://www.cenem.fau.de/) and part of the Competence Unit [Engineering of Advanced Materials](https://www.eam.fau.eu/).
 :::
 
 

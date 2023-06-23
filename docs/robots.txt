@@ -1,1 +1,1 @@
-Sitemap: https://ECLIPSE.ku.edu/sitemap.xml
+Sitemap: https://pelzlab.science/sitemap.xml

@@ -22,6 +22,16 @@ listing:
     field-display-names: 
       started: "Started"
     grid-item-align: center
+  - id: admin-assistants
+    contents: "people/admins/*.qmd"
+    type: grid
+    image-height: 225px
+    grid-columns: 3
+    sort: sortby
+    fields: [image, title, subtitle, started]
+    # field-display-names: 
+      # started: "Started"
+    grid-item-align: center
   - id: alumni
     contents: "people/alumni/*.qmd"
     type: table
@@ -54,6 +64,11 @@ listing:
 ## Research Assistants
 
 :::{#research-assistants}
+:::
+
+## Administrative Assistants
+
+:::{#admin-assistants}
 :::
 
 ## Alumni

@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./favicon-32x32.png" rel="icon" type="image/png">
+<script src="site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -62,7 +64,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-TVZKKP7YNR"></script>
 
-<script type="text/javascript">
+<script type="text/plain" cookie-consent="tracking">
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
@@ -70,8 +72,31 @@ gtag('js', new Date());
 gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 </script>
 
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"headline",
+  "consent_type":"express",
+  "palette":"dark",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
+
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="ECLIPSE Lab">
+<meta property="og:image" content="https://pelzlab.science/img/grey_waves1.jpg">
+<meta property="og:site-name" content="ECLIPSE Lab">
+<meta name="twitter:title" content="ECLIPSE Lab">
+<meta name="twitter:image" content="https://pelzlab.science/img/grey_waves1.jpg">
+<meta name="twitter:creator" content="@PhilippPelz">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -81,7 +106,10 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a href="https://pelzlab.science" class="navbar-brand navbar-brand-logo">
+    <img src="././img/FAU.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="https://pelzlab.science">
     <span class="navbar-title">ECLIPSE Lab</span>
     </a>
   </div>
@@ -94,6 +122,10 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
   <li class="nav-item">
     <a class="nav-link" href="./news.html" rel="" target="">
  <span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html" rel="" target="">
+ <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./people.html" rel="" target="">
@@ -121,6 +153,17 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
+    <a href="https://twitter.com/PhilippPelz" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/ECLIPSE-Lab">
+            Source Code
+            </a>
+          </li>
+      </ul>
+    </div>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -136,11 +179,58 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 
 
 
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+<div class="splide" role="group" aria-label="Image Slider">
+  <div class="splide__track">
+        <ul class="splide__list">
+            <li class="splide__slide">
+        <img src="img/grey_waves1.jpg" alt="c">
+        <div>
+                    Palladium Nanoparticle (ACS Nano 2021)
+                </div>
+      </li>
+            <li class="splide__slide">
+        <img src="img/grey_waves1.jpg" alt="c">
+        <div>
+                    Palladium Nanoparticle (ACS Nano 2021)
+                </div></li>
+            <li class="splide__slide">
+        <img src="img/grey_waves1.jpg" alt="c">
+        <div>
+                    Palladium Nanoparticle (ACS Nano 2021)
+                </div></li>
+        </ul>
+  </div>
+  <div class="splide__progress">
+        <div class="splide__progress__bar">
+        </div>
+  </div>
+</div>
+
+<script>
+
+  document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '.splide', {
+  type   : 'loop',  
+  interval: 5000,
+  autoplay: true,
+  height: 600,
+  heightRatio: 0.5,
+}).mount();
+  } );
+ 
+</script>
 <div class="hero">
 <p><img src="./img/eclipse_header.png" class="img-fluid"></p>
 </div>
 <div class="lead">
 <p>We are an <span class="fw-bolder">interdisciplinary</span> research group based within the <a href="https://www.ww.tf.fau.de/" class="text-primary text-decoration-none fw-semibold">Department of Materials Science</a> at the <a href="https://www.fau.de/" class="text-primary text-decoration-none fw-semibold">Friedrich-Alexander University of Erlangen-Nürnberg</a>. We develop advanced algorithms for efficient processing, reliable reconstruction, and automated information extraction from multidimensional microscopy datasets, predominantly in electron and X-ray microscopy. We have expertise in <span class="fw-bolder">deep learning, large-scale optimization, signal and image processing, and experimental design</span> for advanced <span class="fw-bolder">X-ray and electron microscopy</span> experiments.</p>
+<p>We are part of the <a href="https://www.em.tf.fau.de/">Institute of Micro- and Nanostructure Research</a> and the <a href="https://www.cenem.fau.de/">Center for Nanoanalysis and Electron Microscopy</a> and part of the Competence Unit <a href="https://www.eam.fau.eu/">Engineering of Advanced Materials</a>.</p>
 </div>
 <!-- ::: {.callout-note} -->
 <!-- ## We are currently recruiting! -->
@@ -402,7 +492,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <a class="nav-link" href="./trademark.qmd">Accesibility</a>
   </li>  
 </ul>
-    </div>
+    <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
