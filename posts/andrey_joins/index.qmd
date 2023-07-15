@@ -1,0 +1,18 @@
+---
+title: "Andrey Romanov joins the team"
+description: "Andrey Romanov joins the team"
+author: "Philipp Pelz"
+date: "2023-07-01"
+image: andrey.jpg
+draft: false
+categories:
+  - announcement  
+---
+
+Andrey Romanov joins the group after completing his PhD in Physics on Inverse Problems in Light Scattering. 
+
+![](andrey.jpg)
+
+
+
+

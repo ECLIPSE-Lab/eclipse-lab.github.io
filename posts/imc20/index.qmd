@@ -1,6 +1,6 @@
 ---
 title: "International Microscopy Congress 2023"
-description: "International Microscopy Congress 2023"
+description: "Philipp will attend the International Microscopy Conference 2023 in Busan, Korea and give an invited talk in the ptychography session."
 author: "Philipp Pelz"
 date: "2023-04-11"
 image: imc.png
