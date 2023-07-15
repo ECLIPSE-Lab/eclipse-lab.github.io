@@ -2,7 +2,7 @@
 title: "Andrey Romanov"
 sortby: "1"
 subtitle: "Postdoc"
-# image: pelz_philipp.jpg
+image: andrey.jpg
 started: "Fall 2023"
 toc: false
 resources: 
