@@ -1,11 +1,11 @@
 ---
-title: "Scattering Matrix Determination in Crystalline Materials from 4D Scanning Transmission Electron Microscopy at a Single Defocus Value"
+title: "Simultaneous Successive Twinning Captured by Atomic Electron Tomography"
 type: "article"
 author: "PM Pelz, C Groschner, A Bruefach, A Satariano, C Ophus, MC Scott"
 year: "2021"
 publication: "ACS nano"
 preprint: ""
-doi: "https://doi.org/10.1021/acsnano.1c07772"
+doi: "https://pubs.acs.org/doi/10.1021/acsnano.1c07772"
 materials: ""
 toc: false
 categories:

@@ -5,7 +5,7 @@ author: "PM Pelz, C Groschner, A Bruefach, A Satariano, C Ophus, MC Scott"
 year: "2021"
 publication: "Micron"
 preprint: ""
-doi: "https://doi.org/10.1021/acsnano.1c07772"
+doi: "https://doi.org/10.1016/j.micron.2021.103141"
 materials: ""
 toc: false
 categories:

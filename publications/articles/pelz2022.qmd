@@ -5,7 +5,7 @@ author: "Xinxing Peng, Philipp M Pelz, Qiubo Zhang, Peican Chen, Lingyun Cao, Ya
 year: "2021"
 publication: "Nature Communications"
 preprint: ""
-doi: "https://doi.org/10.1109/MSP.2021.3120981"
+doi: "https://www.nature.com/articles/s41467-022-32330-z"
 materials: ""
 toc: false
 categories:

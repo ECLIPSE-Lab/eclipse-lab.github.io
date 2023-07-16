@@ -1,5 +1,5 @@
 ---
-title: "py4DSTEM: a software package for four-dimensional scanning transmission electron microscopy data analysis"
+title: "A Fast Algorithm for Scanning Transmission Electron Microscopy Imaging and 4D-STEM Diffraction Simulations"
 type: "article"
 author: "Philipp M Pelz, Alexander Rakowski, Luis Rangel DaCosta, Benjamin H Savitzky, Mary C Scott, Colin Ophus"
 year: "2021"
