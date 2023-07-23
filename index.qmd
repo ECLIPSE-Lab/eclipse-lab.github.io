@@ -38,6 +38,13 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
  (preprint)
 				</div>
         <img src="img/dwcnt.png" alt="c">
+      </li>
+<li class="splide__slide">
+        <div>
+					Imaging the electron charge density in monolayer MoS2 at the Angstrom scale (Nat Comm 2023)
+				</div>
+        <img src="img/charge_density.svg" alt="c">
+      </li>
 
 		</ul>
   </div>

@@ -3,9 +3,9 @@ title: "Imaging the electron charge density in monolayer MoS2 at the Angstrom sc
 type: "article"
 author: "Joel Martis, Sandhya Susarla, Archith Rayabharam, Cong Su, Timothy Paule, Philipp Pelz, Cassandra Huff, Xintong Xu, Hao-Kun Li, Marc Jaikissoon, Victoria Chen, Eric Pop, Krishna Saraswat, Alex Zettl, Narayana R Aluru, Ramamoorthy Ramesh, Peter Ercius, Arun Majumdar"
 year: "2023"
-publication: "Nature Communications (accepted)"
+publication: "Nat Commun 14, 4363"
 preprint: "https://arxiv.org/pdf/2210.09478"
-# doi: "https://doi.org/10.48550/arXiv.2210.09478"
+doi: "https://www.nature.com/articles/s41467-023-39304-9"
 materials: ""
 toc: false
 categories:
