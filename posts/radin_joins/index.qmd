@@ -1,0 +1,18 @@
+---
+title: "Radin Rahimi joins the team"
+description: "Radin Rahimi joins the team"
+author: "Philipp Pelz"
+date: "2023-07-01"
+image: radin.jpeg
+draft: false
+categories:
+  - announcement  
+---
+
+Radin Rahimi joins the team working on 4D-STEM method development.
+
+![](radin.jpg)
+
+
+
+
