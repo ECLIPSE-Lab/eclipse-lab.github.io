@@ -1,8 +1,8 @@
 ---
 title: "Radin Rahimi joins the team"
-description: "Radin Rahimi joins the team"
+description: "Radin Rahimi joins as a Research Assistant working on 4D-STEM method development."
 author: "Philipp Pelz"
-date: "2023-07-01"
+date: "2023-09-15"
 image: radin.jpeg
 draft: false
 categories:

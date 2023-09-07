@@ -2,7 +2,7 @@
 title: "EMC 2024 conference"
 description: "Philipp will attend the European Microscopy conference 2024 in Copenhagen and give an invited talk in the session 'Phase-related Techniques (IM-03)'."
 author: "Philipp Pelz"
-date: "2023-04-11"
+date: "2023-09-07"
 image: emc2024.png
 draft: false
 categories:

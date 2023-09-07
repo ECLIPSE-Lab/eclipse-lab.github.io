@@ -2,6 +2,8 @@
   {
     "listing": "/news.html",
     "items": [
+      "/posts/radin_joins/index.html",
+      "/posts/emc2024/index.html",
       "/posts/andrey_joins/index.html",
       "/posts/imc20/index.html",
       "/posts/mrs2023/index.html"
@@ -13,6 +15,7 @@
       "/people/staff/andrey_romanov.html",
       "/people/staff/pelz_philipp.html",
       "/people/ras/gaurab_dhungana.html",
+      "/people/ras/radin_rahimi.html",
       "/people/admins/birke.html",
       "/people/admins/inga_schaefer.html"
     ]

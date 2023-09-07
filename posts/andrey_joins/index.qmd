@@ -1,6 +1,6 @@
 ---
 title: "Andrey Romanov joins the team"
-description: "Andrey Romanov joins the team"
+description: "Andrey Romanov joins the group as a Postdoc."
 author: "Philipp Pelz"
 date: "2023-07-01"
 image: andrey.jpg

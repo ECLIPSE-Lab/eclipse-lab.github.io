@@ -39,7 +39,7 @@
     "href": "news.html",
     "title": "ECLIPSE Lab",
     "section": "",
-    "text": "Home\n    News\n  \n\n\n\n\n\n\n\n\n\n  \n\n\n\n\nAndrey Romanov joins the team\n\n\n\n\n\n\n\nannouncement\n\n\n\n\nAndrey Romanov joins the team\n\n\n\n\n\n\nJul 1, 2023\n\n\nPhilipp Pelz\n\n\n\n\n\n\n  \n\n\n\n\nInternational Microscopy Congress 2023\n\n\n\n\n\n\n\nannouncement\n\n\nconference\n\n\n\n\nPhilipp will attend the International Microscopy Conference 2023 in Busan, Korea and give an invited talk in the ptychography session.\n\n\n\n\n\n\nApr 11, 2023\n\n\nPhilipp Pelz\n\n\n\n\n\n\n  \n\n\n\n\nMRS Fall 2023 conference\n\n\n\n\n\n\n\nannouncement\n\n\nconference\n\n\n\n\nPhilipp will attend the MRS Fall 2023 conference in Boston, US and give an invited talk in the session ‘CH04: Emerging Electron Microscopy Techniques to Understand Structure-Property Relationship in Quantum Materials’.\n\n\n\n\n\n\nApr 11, 2023\n\n\nPhilipp Pelz\n\n\n\n\n\n\nNo matching items"
+    "text": "Home\n    News\n  \n\n\n\n\n\n\n\n\n\n  \n\n\n\n\nRadin Rahimi joins the team\n\n\n\n\n\n\n\nannouncement\n\n\n\n\nRadin Rahimi joins as a Research Assistant working on 4D-STEM method development.\n\n\n\n\n\n\nSep 15, 2023\n\n\nPhilipp Pelz\n\n\n\n\n\n\n  \n\n\n\n\nEMC 2024 conference\n\n\n\n\n\n\n\nannouncement\n\n\nconference\n\n\n\n\nPhilipp will attend the European Microscopy conference 2024 in Copenhagen and give an invited talk in the session ‘Phase-related Techniques (IM-03)’.\n\n\n\n\n\n\nSep 7, 2023\n\n\nPhilipp Pelz\n\n\n\n\n\n\n  \n\n\n\n\nAndrey Romanov joins the team\n\n\n\n\n\n\n\nannouncement\n\n\n\n\nAndrey Romanov joins the group as a Postdoc.\n\n\n\n\n\n\nJul 1, 2023\n\n\nPhilipp Pelz\n\n\n\n\n\n\n  \n\n\n\n\nInternational Microscopy Congress 2023\n\n\n\n\n\n\n\nannouncement\n\n\nconference\n\n\n\n\nPhilipp will attend the International Microscopy Conference 2023 in Busan, Korea and give an invited talk in the ptychography session.\n\n\n\n\n\n\nApr 11, 2023\n\n\nPhilipp Pelz\n\n\n\n\n\n\n  \n\n\n\n\nMRS Fall 2023 conference\n\n\n\n\n\n\n\nannouncement\n\n\nconference\n\n\n\n\nPhilipp will attend the MRS Fall 2023 conference in Boston, US and give an invited talk in the session ‘CH04: Emerging Electron Microscopy Techniques to Understand Structure-Property Relationship in Quantum Materials’.\n\n\n\n\n\n\nApr 11, 2023\n\n\nPhilipp Pelz\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "opportunities.html",
@@ -669,7 +669,7 @@
     "href": "people.html#research-assistants",
     "title": "ECLIPSE Lab",
     "section": "Research Assistants",
-    "text": "Research Assistants\n\n\n\n\n\n\n\n\n\n\nGaurab Dhungana\n\n\nResearch Assistant\n\n\n\n\n\nStarted\n\n\nJune 2023\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Research Assistants\n\n\n\n\n\n\n\n\n\n\nGaurab Dhungana\n\n\nResearch Assistant\n\n\n\n\n\nStarted\n\n\nJune 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRadin Rahimi\n\n\nResearch Assistant\n\n\n\n\n\nStarted\n\n\nSeptember 2023\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people.html#alumni",
@@ -3064,5 +3064,54 @@
     "title": "Resolution of Virtual Depth Sectioning from Four-Dimensional Scanning Transmission Electron Microscopy",
     "section": "Abstract",
     "text": "Abstract\nOne approach to three-dimensional structure determination using the wealth of scattering data in four-dimensional (4D) scanning transmission electron microscopy (STEM) is the parallax method proposed by Ophus et al. (2019. Advanced phase reconstruction methods enabled by 4D scanning transmission electron microscopy, Microsc Microanal 25, 10–11), which determines the scattering matrix and uses it to synthesize a virtual depth-sectioning reconstruction of the sample structure. Drawing on an equivalence with a hypothetical confocal imaging mode, we derive contrast transfer and point spread functions for this parallax method applied to weakly scattering objects, showing them identical to earlier depth-sectioning STEM modes when only bright field signal is used, but that improved depth resolution is possible if dark field signal can be used. Through a simulation-based study of doped Si, we show that this depth resolution is preserved for thicker samples, explore the impact of shot noise on the parallax reconstructions, discuss challenges to making use of dark field signal, and identify cases where the interpretation of the parallax reconstruction breaks down."
+  },
+  {
+    "objectID": "people/ras/radin_rahimi.html",
+    "href": "people/ras/radin_rahimi.html",
+    "title": "Radin Rahimi",
+    "section": "",
+    "text": "Home\n    People\n    Research Assistants\n    Radin Rahimi"
+  },
+  {
+    "objectID": "people/ras/radin_rahimi.html#research-interests",
+    "href": "people/ras/radin_rahimi.html#research-interests",
+    "title": "Radin Rahimi",
+    "section": "Research Interests",
+    "text": "Research Interests\n4D-STEM method development"
+  },
+  {
+    "objectID": "people/ras/radin_rahimi.html#brief-bio",
+    "href": "people/ras/radin_rahimi.html#brief-bio",
+    "title": "Radin Rahimi",
+    "section": "Brief Bio",
+    "text": "Brief Bio\nRadin Bio"
+  },
+  {
+    "objectID": "people/ras/radin_rahimi.html#experience",
+    "href": "people/ras/radin_rahimi.html#experience",
+    "title": "Radin Rahimi",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/ras/radin_rahimi.html#education",
+    "href": "people/ras/radin_rahimi.html#education",
+    "title": "Radin Rahimi",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "posts/emc2024/index.html",
+    "href": "posts/emc2024/index.html",
+    "title": "EMC 2024 conference",
+    "section": "",
+    "text": "Philipp will attend the European Microscopy conference 2024 in Copenhagen and give an invited talk in the session ‘Phase-related Techniques (IM-03)’"
+  },
+  {
+    "objectID": "posts/radin_joins/index.html",
+    "href": "posts/radin_joins/index.html",
+    "title": "Radin Rahimi joins the team",
+    "section": "",
+    "text": "Radin Rahimi joins the team working on 4D-STEM method development."
   }
 ]
