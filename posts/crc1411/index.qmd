@@ -10,7 +10,7 @@ categories:
   - conference
 ---
 
-Philipp will attend the CRC 1411 Symposium in Erlangen, Germany and give a keynote talk.
+Philipp will attend the CRC 1411 Symposium in Erlangen, Germany and give a [keynote talk](https://www.crc1411.research.fau.eu/upcoming-events/crc1411_symposium_2023/#Pelz). 
 
 ![](LOGO_SFB1411_figures_4.png)
 
