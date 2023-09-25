@@ -1,0 +1,19 @@
+---
+title: "CRC 1411 Symposium"
+description: "Philipp will attend the CRC 1411 Symposium in Erlangen, Germany and give a keynote talk."
+author: "Philipp Pelz"
+date: "2023-03-01"
+image: LOGO_SFB1411_figures_4.png
+draft: false
+categories:
+  - announcement
+  - conference
+---
+
+Philipp will attend the CRC 1411 Symposium in Erlangen, Germany and give a keynote talk.
+
+![](LOGO_SFB1411_figures_4.png)
+
+
+
+
