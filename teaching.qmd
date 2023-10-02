@@ -13,6 +13,14 @@ email-obfuscation: javascript
 </nav>
 ```
 
+## Winter Semester 2023
+
+Lecture Materials & Structure
+
+Lecture Data Science for Electron Microscopy
+
+Seminar Machine Learning for Microscopy
+
 ## Summer Semester 2023
 
 Lecture Materials & Structure
