@@ -17,9 +17,9 @@ email-obfuscation: javascript
 
 Lecture Materials & Structure
 
-Lecture Data Science for Electron Microscopy
+[Lecture Data Science for Electron Microscopy: Tue 8:30h - 10:00h](https://www.studon.fau.de/campo/course/401180)
 
-Seminar Machine Learning for Microscopy
+[Seminar Machine Learning for Microscopy: Thu 8:30h - 10:00h](https://www.studon.fau.de/campo/course/401181)
 
 ## Summer Semester 2023
 
