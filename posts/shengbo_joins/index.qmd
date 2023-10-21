@@ -3,7 +3,7 @@ title: "Shengbo You joins the team"
 description: "Shengbo joins as a postdoc working on ptychographic tomography."
 author: "Philipp Pelz"
 date: "2023-09-15"
-image: radin.jpeg
+image: shengbo.jpg
 draft: false
 categories:
   - announcement  
@@ -11,7 +11,7 @@ categories:
 
 Shengbo joins the team working on ptychographic tomography.
 
-![](radin.jpg)
+![](shengbo.jpg)
 
 
 
