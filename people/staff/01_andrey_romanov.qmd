@@ -3,7 +3,7 @@ title: "Andrey Romanov"
 sortby: "1"
 subtitle: "Postdoc"
 image: andrey.jpg
-started: "Fall 2023"
+started: "Juli 2023"
 toc: false
 resources: 
   - "girard_cv.pdf"

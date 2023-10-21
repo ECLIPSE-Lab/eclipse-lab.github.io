@@ -4,6 +4,7 @@ sortby: "1"
 subtitle: "Research Assistant"
 image: gaurab.jpg
 started: "June 2023"
+ended: "Oct 2023"
 toc: false
 resources: 
   - "girard_cv.pdf"

@@ -25,6 +25,14 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 <div class="splide" role="group" aria-label="Image Slider">
   <div class="splide__track">
 		<ul class="splide__list">
+      <li class="splide__slide">
+        <div>
+					Solving Complex Nanostructures With Ptychographic Atomic Electron Tomography
+ (accepted to Nat Comm 2023)
+				</div>
+        <img src="img/zr_te_structure.png" alt="c">
+      </li>
+
 			<li class="splide__slide">
         <div>
 					Simultaneous Successive Twinning Captured by Atomic Electron Tomography (ACS Nano 2021)
@@ -32,14 +40,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <img src="img/grey_waves1.jpg" alt="c">
         
       </li>
-			<li class="splide__slide">
-        <div>
-					Solving Complex Nanostructures With Ptychographic Atomic Electron Tomography
- (preprint)
-				</div>
-        <img src="img/dwcnt.png" alt="c">
-      </li>
-<li class="splide__slide">
+
+      <li class="splide__slide">
         <div>
 					Imaging the electron charge density in monolayer MoS2 at the Angstrom scale (Nat Comm 2023)
 				</div>

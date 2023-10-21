@@ -2,7 +2,9 @@
   {
     "listing": "/news.html",
     "items": [
+      "/posts/radin_joins copy/index.html",
       "/posts/radin_joins/index.html",
+      "/posts/shengbo_joins/index.html",
       "/posts/emc2024/index.html",
       "/posts/andrey_joins/index.html",
       "/posts/imc20/index.html",
@@ -13,12 +15,13 @@
   {
     "listing": "/people.html",
     "items": [
-      "/people/staff/andrey_romanov.html",
-      "/people/staff/pelz_philipp.html",
-      "/people/ras/gaurab_dhungana.html",
+      "/people/staff/00_pelz_philipp.html",
+      "/people/staff/01_andrey_romanov.html",
+      "/people/staff/02_shengbo_you.html",
       "/people/ras/radin_rahimi.html",
       "/people/admins/birke.html",
-      "/people/admins/inga_schaefer.html"
+      "/people/admins/inga_schaefer.html",
+      "/people/alumni/gaurab_dhungana.html"
     ]
   },
   {
