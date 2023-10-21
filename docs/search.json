@@ -1705,7 +1705,7 @@
     "href": "resources.html#datasets",
     "title": "ECLIPSE Lab",
     "section": "Datasets",
-    "text": "Datasets\nEMDatasets is a python package where we collect electron microscopy datasets for teaching purposes."
+    "text": "Datasets\nEMDatasets is a python package where we collect electron microscopy datasets for teaching purposes.\nPtychographic Atomic Tomography Dataset"
   },
   {
     "objectID": "resources.html#software",
