@@ -16,4 +16,5 @@ toc: true
 
 ## Datasets
 
+[EMDatasets](http://www.pelzlab.science/EMDatasets/) is a python package where we collect electron microscopy datasets for teaching purposes.
 
