@@ -9,7 +9,7 @@ categories:
   - announcement  
 ---
 
-Philipp is organizing a topical session at the DPG spring meeting 2024. 
+Philipp is organizing a topical session at the DPG spring meeting 2024 together with Christian Liebscher and Luca Ghiringhelli. 
 
 Title:
 In Situ and Multimodal Microscopy in Materials Physics

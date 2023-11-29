@@ -1,0 +1,19 @@
+---
+title: "HKIAS Forum and 5th Sino-German Symposium on Advanced Electron Microscopy and Instrumentation"
+description: "Philipp will attend the HKIAS Forum and 5th Sino-German Symposium on Advanced Electron Microscopy and Instrumentation in Hong Kong and give an invited talk."
+author: "Philipp Pelz"
+date: "2023-11-29"
+image: hongkong.png
+draft: false
+categories:
+  - announcement
+  - conference
+---
+
+Philipp will attend the HKIAS Forum and 5th Sino-German Symposium on Advanced Electron Microscopy
+
+![](hongkong.png)
+
+
+
+
