@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "ECLIPSE Lab",
     "section": "",
-    "text": "Welcome to the ECLIPSE Lab!\n\n\nWe develop computational tools to enable new capabilities in electron and X-ray microscopes.\n\n\nPublication Highlights\n\n\n\n\n  \n        \n      \n        \n                    Solving Complex Nanostructures With Ptychographic Atomic Electron Tomography\n (accepted to Nat Comm 2023)\n                \n        \n      \n\n            \n        \n                    Simultaneous Successive Twinning Captured by Atomic Electron Tomography (ACS Nano 2021)\n                \n        \n        \n      \n\n      \n        \n                    Imaging the electron charge density in monolayer MoS2 at the Angstrom scale (Nat Comm 2023)\n                \n        \n      \n\n        \n  \n  \n        \n        \n  \n\n\n\n\n\n\n\nWe are an interdisciplinary research group based within the Department of Materials Science at the Friedrich-Alexander University of Erlangen-Nürnberg. We have expertise in deep learning, large-scale optimization, signal and image processing, and experimental design for advanced X-ray and electron microscopy experiments.\nWe are part of the Institute of Micro- and Nanostructure Research and the Center for Nanoanalysis and Electron Microscopy and part of the Competence Unit Engineering of Advanced Materials."
+    "text": "Welcome to the ECLIPSE Lab!\n\n\nWe develop computational tools to enable new capabilities in electron and X-ray microscopes and apply them to challenging materials science questions.\n\n\nPublication Highlights\n\n\n\n\n  \n        \n      \n        \n                    Solving Complex Nanostructures With Ptychographic Atomic Electron Tomography\n (accepted to Nat Comm 2023)\n                \n        \n      \n\n            \n        \n                    Simultaneous Successive Twinning Captured by Atomic Electron Tomography (ACS Nano 2021)\n                \n        \n        \n      \n\n      \n        \n                    Imaging the electron charge density in monolayer MoS2 at the Angstrom scale (Nat Comm 2023)\n                \n        \n      \n\n        \n  \n  \n        \n        \n  \n\n\n\n\n\n\n\nWe are an interdisciplinary research group based within the Department of Materials Science at the Friedrich-Alexander University of Erlangen-Nürnberg. We have expertise in deep learning, large-scale optimization, signal and image processing, and experimental design for advanced X-ray and electron microscopy experiments.\nWe are part of the Institute of Micro- and Nanostructure Research and the Center for Nanoanalysis and Electron Microscopy and part of the Competence Unit Engineering of Advanced Materials."
   },
   {
     "objectID": "news.html",
@@ -1705,7 +1705,7 @@
     "href": "resources.html#datasets",
     "title": "ECLIPSE Lab",
     "section": "Datasets",
-    "text": "Datasets"
+    "text": "Datasets\nEMDatasets is a python package where we collect electron microscopy datasets for teaching purposes.\nPtychographic Atomic Tomography Dataset"
   },
   {
     "objectID": "resources.html#software",
