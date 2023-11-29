@@ -11,8 +11,8 @@ categories:
 ---
 
 Philipp will attend the HKIAS Forum and 5th Sino-German Symposium on Advanced Electron Microscopy
-
-![](hongkong.png)
+[Forum link](https://www.cityu.edu.hk/hkiasforum/2023/)
+![https://www.cityu.edu.hk/hkiasforum/2023/](hongkong.png)
 
 
 
