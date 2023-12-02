@@ -4,7 +4,7 @@ type: "article"
 author: "Philipp M. Pelz, Sinéad M. Griffin, Scott Stonemeyer, Derek Popple, Hannah DeVyldere, Peter Ercius, Alex Zettl, Mary C. Scott & Colin Ophus"
 year: "2023"
 publication: "Nat Commun 14, 7906"
-preprint: "https://arxiv.org/abs/2305.11961"
+preprint: "https://arxiv.org/abs/2206.08958"
 doi: "https://doi.org/10.1038/s41467-023-43634-z"
 materials: ""
 toc: false
