@@ -3,18 +3,6 @@ from bs4 import BeautifulSoup
 import json
 import requests
 import orcid
-user_id = '0000-0002-8009-4515'
-user_password = '2Heavy!?'
-redirect_uri = 'https://orcid.org'
-institution_key = 'APP-UHOPZU183KN6U7LM'
-institution_secret = '149b79f7-e28b-4e9e-a86e-7e024cfd837e'
-# %%
-
-# api = orcid.PublicAPI(institution_key, institution_secret, sandbox=True)
-# token = api.get_token(user_id, user_password, redirect_uri)
-# summary = api.read_record_public('0000-0002-8009-4515', 'activities', token)
-# # summary = api.read_record_public('0000-0001-1111-1111', 'record', token)
-# print(summary)
 
 # %%
 
