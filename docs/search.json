@@ -3358,5 +3358,12 @@
     "title": "Solving complex nanostructures with ptychographic atomic electron tomography.",
     "section": "Abstract",
     "text": "Abstract\nTransmission electron microscopy (TEM) is essential for determining atomic scale structures in structural biology and materials science. In structural biology, three-dimensional structures of proteins are routinely determined from thousands of identical particles using phase-contrast TEM. In materials science, three-dimensional atomic structures of complex nanomaterials have been determined using atomic electron tomography (AET). However, neither of these methods can determine the three-dimensional atomic structure of heterogeneous nanomaterials containing light elements. Here, we perform ptychographic electron tomography from 34.5 million diffraction patterns to reconstruct an atomic resolution tilt series of a double wall-carbon nanotube (DW-CNT) encapsulating a complex ZrTe sandwich structure. Class averaging the resulting tilt series images and subpixel localization of the atomic peaks reveals a Zr11Te50 structure containing a previously unobserved ZrTe2 phase in the core. The experimental realization of atomic resolution ptychographic electron tomography will allow for the structural determination of a wide range of beam-sensitive nanomaterials containing light elements."
+  },
+  {
+    "objectID": "teaching.html#summer-semester-2024",
+    "href": "teaching.html#summer-semester-2024",
+    "title": "ECLIPSE Lab",
+    "section": "Summer Semester 2024",
+    "text": "Summer Semester 2024\nLecture Materials & Structure (BSc Clean Energy Processes): Thu 10:15h - 11:45h\nLecture Data Science for Electron Microscopy: Wed 10:15h - 11:45h IZNF Rm 01.160\nSeminar Machine Learning for Microscopy: Wed 8:30h - 10:00h IZNF Rm 01.160"
   }
 ]
