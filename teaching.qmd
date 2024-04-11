@@ -18,7 +18,7 @@ email-obfuscation: javascript
 
 [Lecture Data Science for Electron Microscopy: Wed 10:15h - 11:45h IZNF Rm 01.160](https://www.studon.fau.de/campo/course/421887)
 
-[Seminar Machine Learning for Microscopy: Wed 8:30h - 10:00h IZNF Rm 01.160](https://www.studon.fau.de/campo/course/401181)
+[Seminar Machine Learning for Microscopy: Wed 8:30h - 10:00h IZNF Rm 01.160](https://www.studon.fau.de/campo/course/421847)
 
 ## Winter Semester 2023
 
