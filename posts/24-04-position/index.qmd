@@ -1,5 +1,5 @@
 ---
-title: "PhD position available"
+title: "PhD position filled"
 description: "A PhD position on 4D-STEM tomography method development is available starting June 1st"
 author: "Philipp Pelz"
 date: "2024-04-19"
