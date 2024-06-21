@@ -46,8 +46,7 @@ about:
 computational imaging & microscopy
 
 ## Brief Bio
-
-Andrey Bio
+Andrey obtained his PhD in Physics from Russian Academy of Sciences, Novosibirsk. Andrey was a Postdoctoral Researcher in the group from Jul 2023 - June 2024. He worked on atomic resolution ptychographic electron tomography. He went on to become a [ML R&D Engineer at Huawei](https://www.linkedin.com/in/avmromanov/).
 
 ## Experience
 
