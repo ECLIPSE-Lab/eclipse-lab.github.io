@@ -1,0 +1,13 @@
+---
+title: "Study Commission in \"AI for Materials Technology\""
+description: "Philipp becomes Chair of the Study Commission in the BSc program KI-Materialtechnologie"
+author: "Philipp Pelz"
+date: "2024-07-12"
+image: ai4mat.png
+draft: false
+categories:
+  - announcement
+---
+
+FAU is starting Germany's first undergraduate program combining AI and Materials Science under the name [KI-Materialtechnologie](https://www.mat.studium.fau.de/neu-ki-materialtechnologie/).
+Philipp becomes Chair of the Study Commission of the new program in October 2024. 
