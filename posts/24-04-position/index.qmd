@@ -1,8 +1,8 @@
 ---
-title: "PhD position filled"
-description: "A PhD position on 4D-STEM tomography method development is available starting June 1st"
+title: "PhD position open"
+description: "A PhD position on computational imaging in electron microscopy is available starting September 15th"
 author: "Philipp Pelz"
-date: "2024-04-19"
+date: "2024-07-15"
 image: 4DSTEM_render.jpg
 draft: false
 categories:
@@ -15,7 +15,7 @@ The Computational Microscopy group of Prof. Dr. Philipp Pelz at FAU Erlangen-Nü
 ## Ph.D. Student Computational Imaging in Electron Microscopy (m/f/x) 
 **(subject to personal qualifications, remuneration according to salary group E 13 TV-L 100%)**
 
-starting June 1st 2024 or earliest date possible. 
+starting September 15th 2024 or earliest date possible. 
 
 Position and tasks
 
