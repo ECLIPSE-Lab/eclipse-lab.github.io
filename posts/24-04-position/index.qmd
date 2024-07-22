@@ -13,7 +13,7 @@ categories:
 The Computational Microscopy group of Prof. Dr. Philipp Pelz at FAU Erlangen-Nürnberg offers a position as 
 
 ## Ph.D. Student Computational Imaging in Electron Microscopy (m/f/x) 
-**(subject to personal qualifications, remuneration according to salary group E 13 TV-L 100%)**
+**(subject to personal qualifications, remuneration according to salary group E 13 TV-L 75-100%)**
 
 starting September 15th 2024 or earliest date possible. 
 
@@ -25,7 +25,7 @@ Position and tasks
 
 Position Requirements
 
--	M.Sc. in computer science, computational engineering, physical sciences, materials science, applied mathemat-ics or a related discipline.
+-	M.Sc. in computer science, computational engineering, physical sciences, materials science, applied mathematics or a related discipline.
 -	Proficiency in scientific Python programming.
 -	Excellent communication and interpersonal skills to be able to interact effectively with a diverse group of scien-tists and technical staff.
 -	Self-motivated and able to work in a team environment.
