@@ -1,0 +1,46 @@
+---
+pagetitle: "ERC Starting Grant HyperScaleEM | ECLIPSE Lab"
+toc: true
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Opportunities</li>
+  </ol>
+</nav>
+```
+
+## Vision of HyperScaleEM
+
+Electron microscopy is essential to understanding structure-property-function relationships in modern
+materials engineering, condensed matter physics, chemistry, and structural biology. Yet, due to complicated
+scattering physics, today’s electron microscopes can only image tiny volumes with 3D atomic resolution.
+Within this project, I will turn the tables by utilizing and inverting the scattering physics to image scale-
+bridging volumes with atomic detail and chemical superresolution. Combining compressive data-acquisition
+protocols, state-of-the-art electron optics and detectors, and co-designed computational imaging algorithms
+will make this possible.
+
+I will use tomographic experiments and computationally invert the multiple scattering from multidimensional
+measurements in scanning transmission electron microscopy to determine 3D atomic structure and chemistry
+in technologically valuable volumes. This has not been realized yet due to significant bottlenecks in the
+computational complexity of the underlying algorithms and a lack of experimental automation, which I plan to
+overcome in this project.
+
+The project is divided into three main objectives:
+
+1) Imaging 3D atomic structure in large volumes
+2) Visualizing atomic chemistry in scale-bridging volumes
+3) Profiling 3D atomic structure, chemistry, and dynamics in controlled in-situ experiments across scales
+
+These methods will be applied to essential materials, including examining single hydrogen atoms at grain
+boundaries in structural metals and studying concealed, extensive interfaces in modern semiconductor
+materials. In the final phase, I will record atomistic movies of material fracture in tungsten and alloys.
+Fracture is one of the most critical failure modes of functional and structural materials with catastrophic
+consequences. The details of crack nucleation and propagation through the breaking of bonds are still largely
+unexplored and will be measured directly and compared with large-scale atomistic simulations.
+
+## Hiring for HyperScaleEM
+
+I am currently hiring a Postoc (2 years + 3 years) and a PhD student (4 years) for the HyperScaleEM project for a start on Nov 1st.
