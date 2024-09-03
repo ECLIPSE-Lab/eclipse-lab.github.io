@@ -84,7 +84,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 We are part of the [Institute of Micro- and Nanostructure Research](https://www.em.tf.fau.de/) and the [Center for Nanoanalysis and Electron Microscopy](https://www.cenem.fau.de/) and part of the Competence Unit [Engineering of Advanced Materials](https://www.eam.fau.eu/).
 :::
 
-
+<a class="twitter-timeline" href="https://twitter.com/PhilippPelz?ref_src=twsrc%5Etfw">Tweets by PhilippPelz</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <!-- ::: {.callout-note} -->
 <!-- ## We are currently recruiting! -->
