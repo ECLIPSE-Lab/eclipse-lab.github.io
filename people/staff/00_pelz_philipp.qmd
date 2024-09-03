@@ -20,12 +20,19 @@ about:
     - icon: mortarboard
       text: scholar
       href: https://scholar.google.de/citations?hl=en&user=d-lXKR8AAAAJ
+    - icon: mortarboard
+      text: Web of Science
+      href: https://www.webofscience.com/wos/author/record/JZT-3950-2024
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0002-8009-4515     
     - icon: github
       text: github
       href: https://github.com/PhilippPelz
     - icon: twitter
       text: twitter
       href: https://twitter.com/PhilippPelz
+     
 ---
 
 ```{=html}
@@ -43,7 +50,12 @@ about:
 :::
 
 ## Research Interests
-computational imaging & microscopy, autonomous systems, large-scale inverse problems, electron & X-ray microscopy
+- computational imaging & microscopy
+- autonomous systems
+- large-scale inverse problems
+- electron & X-ray microscopy
+- quantum tomography
+- scattering physics
 
 ## Brief Bio
 
@@ -75,6 +87,5 @@ Philipp Pelz received Bachelor degrees in Physics (2011) and Informatics (2012),
 - **University of Montpellier 2** | Montpellier, France<br />
   Master 2 Chemistry | 2012 - 2013<br />
 
-
-- **Univeristy of Torino** | Torino, Italy<br />
+- **University of Torino** | Torino, Italy<br />
 M.Sc. Materials Science | 2011 - 2013<br />
