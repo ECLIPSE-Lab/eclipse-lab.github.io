@@ -20,12 +20,15 @@ about:
     - icon: mortarboard
       text: scholar
       href: https://scholar.google.de/citations?hl=en&user=d-lXKR8AAAAJ
-    - icon: mortarboard
+    - icon: book-half
       text: Web of Science
       href: https://www.webofscience.com/wos/author/record/JZT-3950-2024
-    - icon: mortarboard
+    - icon: book-fill
       text: ORCID
-      href: https://orcid.org/0000-0002-8009-4515     
+      href: https://orcid.org/0000-0002-8009-4515   
+    - icon: book
+      text: Scopus ID
+      href: https://www.scopus.com/authid/detail.uri?authorId=56005365900      
     - icon: github
       text: github
       href: https://github.com/PhilippPelz
