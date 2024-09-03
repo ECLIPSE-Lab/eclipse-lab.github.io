@@ -43,4 +43,4 @@ unexplored and will be measured directly and compared with large-scale atomistic
 
 ## Hiring for HyperScaleEM
 
-I am currently hiring a Postoc (2 years + 3 years) and a PhD student (4 years) for the HyperScaleEM project for a start on Nov 1st.
+I am currently hiring a [Postoc (2 years + 3 years)](https://www.pelzlab.science/posts/2024-09-03_HyperScaleEM_postdoc/) and a [PhD student (4 years)](https://www.pelzlab.science/posts/2024-09-03_HyperScaleEM_phd/) for the HyperScaleEM project for a start on Nov 1st.
