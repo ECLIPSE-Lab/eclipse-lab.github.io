@@ -16,9 +16,9 @@ email-obfuscation: javascript
 
 [Lecture Materials & Structure (BSc Clean Energy Processes): Thu 10:15h - 11:45h](https://www.studon.fau.de/studon/goto.php?target=crs_5609585&client_id=StudOn)
 
-[Lecture Data Science for Electron Microscopy: Wed 10:15h - 11:45h IZNF Rm 01.160](https://www.studon.fau.de/campo/course/421887)
+[Lecture Data Science for Electron Microscopy: Wed 10:15h - 11:45h IZNF Rm 01.160](https://www.studon.fau.de/campo/course/421992)
 
-[Seminar Machine Learning for Microscopy: Wed 8:30h - 10:00h IZNF Rm 01.160](https://www.studon.fau.de/campo/course/421847)
+[Seminar Machine Learning for Microscopy: Wed 8:30h - 10:00h IZNF Rm 01.160](https://www.studon.fau.de/campo/course/421966)
 
 ## Winter Semester 2023
 
