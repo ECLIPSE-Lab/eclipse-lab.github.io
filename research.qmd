@@ -16,7 +16,10 @@ toc: true
 
 ### 4D-STEM method development
 
-- **Large-scale dose-efficient 3D imaging** – We are leaders in development of 3D imaging methods based on 4D-STEM measurements. We have produced the first atomic-resolution 3D volumes from 4D-STEM tomography and are working on scaling to very large samples.
+- **Large-scale dose-efficient 3D imaging** – We are leaders in development of 3D imaging methods based on 4D-STEM measurements. 
+
+  - [first atomic-resolution 3D volume from 4D-STEM tomography](https://www.nature.com/articles/s41467-023-43634-z) 
+  - 
 
 - **Fast simulators for electron microscopy** We are developing fast simulators for electron microscopy 
 

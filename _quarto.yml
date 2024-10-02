@@ -20,13 +20,17 @@ website:
     background: primary
     search: true
     tools:
+      - icon: ./img/erc_logo.svg
+        href: hyperscale.qmd
       - icon: twitter
         href: https://twitter.com/PhilippPelz
       - icon: github
         menu:
           - text: Source Code
             url:  https://github.com/ECLIPSE-Lab
-    right:     #TODO: Outreach    
+    right:     #TODO: Outreach   
+      - href: hyperscale.qmd
+        text: ERCStg HyperScaleEM         
       - href: news.qmd
         text: News
       - href: teaching.qmd
@@ -43,6 +47,7 @@ website:
         text: Opportunities
       - href: contact.qmd
         text: Contact
+
   page-footer:    
     background: "#000000"
     center: 

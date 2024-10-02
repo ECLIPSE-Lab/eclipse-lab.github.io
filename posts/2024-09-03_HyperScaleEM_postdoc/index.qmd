@@ -1,0 +1,54 @@
+---
+title: "ERC Stg Postdoc position open"
+description: "A Postdoc position on the ERC Stg HyperScaleEM project is available starting Nov 1st"
+author: "Philipp Pelz"
+date: "2024-09-03"
+image: erc_logo.svg
+draft: false
+categories:
+  - announcement
+  - job
+---
+
+The Computational Microscopy group of Prof. Dr. Philipp Pelz at FAU Erlangen-Nürnberg offers a position as 
+
+## Postdoctoral Researcher Hyperspectral Atomic Resolution Tomography (m/f/x) 
+**(subject to personal qualifications, remuneration according to salary group E 13 TV-L 100% (approx. 3200 EUR/month after taxes))**
+
+starting Nov 1st 2024 or earliest date possible. 
+
+Position and tasks
+
+-	Develop and test new approaches and algorithms for the large-scale reconstruction hyperspectral volumes at atomic resolution from 4D-STEM measurements
+-	Design, optimize, automate, and execute multidimensional STEM experiments at our Spectra 30-200 microscope equipped with an DECTRIS ARINA direct electron detector and a CEOS CEFID energy filter
+-	Publish and present the results of these studies to the community.
+
+Position Requirements
+
+-	Ph.D. in physics (preferred), computer science, computational engineering, materials science, applied mathematics or a related discipline.
+-	Proficiency in scientific Python programming.
+-	Excellent communication and interpersonal skills to be able to interact effectively with a diverse group of scien-tists and technical staff.
+-	Self-motivated and able to work in a team environment.
+
+Preferred Knowledge, Skills, and Abilities (experience in one or more of the following):
+
+-	Experience with machine learning frameworks such as PyTorch, TensorFlow, Jax
+-	Background in diffraction physics, crystallography, or modern microscopy methods 
+-	Data acquisition at aberration-corrected STEMs
+-	Developing and deploying AI models.
+-	Background in Computer Vision or Computational Imaging
+-	Demonstrated record of collaborative software development, especially in distributed teams.
+
+Our group develops advanced algorithms for efficient processing, reliable reconstruction, and automated information extraction from multidimensional microscopy datasets, predominantly in electron and X-ray microscopy. 
+
+We have for the first time reconstructed large phase-contrast volumes at atomic resolution beyond the traditional limits of electron microscopy. 
+
+The HyperScaleEM project aims at extending the technique to large-volume reconstructions of the typical sample geometries in electron microscopy. Think: imaging whole transistors in 3D, visualizing every atom and it's element. 
+
+The postdoctoral researcher will be responsible for developing and implementing hyperspectral reconstruction algorithms and demonstrating them on challenging materials systems. The position is initially limited to 2 years and can be extended to a total of up to 5 years.
+
+We offer access to state-of-the-art aberration-corrected electron microscopes (TFS Spectra 30-200, ARINA detector, CEOS CEFID filter) at the Center for Nanoanalysis and Electron Microscopy, access to high-performance computing resources at the Erlangen National High-Performance Computing Center, and the enthusiastic support of an early-career principal investigator.
+
+For informal inquiries, please get in touch with Philipp Pelz (philipp.pelz@fau.de). Applications from underrepresented minorities are particularly welcome. Your application (in English or German) must include a motivation letter and your CV.
+
+Applications will be accepted until the position is filled. 

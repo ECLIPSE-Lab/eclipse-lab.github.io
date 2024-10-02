@@ -12,6 +12,15 @@ email-obfuscation: javascript
   </ol>
 </nav>
 ```
+
+## Winter Semester 2024
+
+[Lecture Materials & Structure (MAP): Fr 10:15h - 11:45h](https://www.studon.fau.de/studon)
+
+[Lecture Data Science for Electron Microscopy: Fr 8:30h - 10h IZNF Rm 01.160](https://www.studon.fau.de/campo/)
+
+[Seminar Machine Learning for Microscopy: Wed 8:30h - 10:00h IZNF Rm 01.160](https://www.studon.fau.de/campo/)
+
 ## Summer Semester 2024
 
 [Lecture Materials & Structure (BSc Clean Energy Processes): Thu 10:15h - 11:45h](https://www.studon.fau.de/studon/goto.php?target=crs_5609585&client_id=StudOn)

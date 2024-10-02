@@ -41,17 +41,13 @@ about:
 :::
 
 ## Research Interests
-computational imaging & microscopy
+computational imaging & microscopy, tomography, ptychography
 
 ## Brief Bio
 
-
+Shengbo got his Ph.D. in Electrical Engineering at the University of Sheffield working iwth Andrew Maiden. 
 
 ## Experience
 
 
 
-<!-- ## Journal Editing -->
-
-
-## Education
