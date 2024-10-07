@@ -19,19 +19,19 @@ toc: true
 - **Large-scale dose-efficient 3D imaging** – We are leaders in development of 3D imaging methods based on 4D-STEM measurements. 
   - [first atomic-resolution 3D volume from 4D-STEM tomography](https://www.nature.com/articles/s41467-023-43634-z) 
   - first atomic-resolution phase-contrast volume beyond the depth of field limit
-  - first end-to-end reconstruction reaching sub-Angstrom resolution
+  - [first end-to-end reconstruction reaching sub-Angstrom resolution](https://arxiv.org/abs/2407.19407)
 
 - **Fast simulators for electron microscopy** We are developing fast simulators for electron microscopy 
 
-  - \>100x faster simulations
+  - [\>100x faster simulations](https://academic.oup.com/mam/article/27/4/835/6888048)
 
-### Multi-modal microscopy
+<!-- ### Multi-modal microscopy
 
 Stay tuned
 
 ### Self-driving equipment
 
-Stay tuned
+Stay tuned -->
 
 
 ## Research Funding
@@ -41,7 +41,7 @@ Stay tuned
 - *[HyperScaleEM: Revealing 3D Atomic Structure and Chemistry in Scale-Bridging Volumes via 5D Hyperspectral Electron Tomography](https://www.pelzlab.science/hyperscale.htm)*
     - ERC Starting grant
     - **Pelz** (PI)
-    - 12/2024
+    - 12/2024 - 11/2029
 
 ### Completed Funding
 
