@@ -25,13 +25,13 @@ toc: true
 
   - [\>100x faster simulations](https://academic.oup.com/mam/article/27/4/835/6888048)
 
-<!-- ### Multi-modal microscopy
+### Multi-modal microscopy
 
 Stay tuned
 
 ### Self-driving equipment
 
-Stay tuned -->
+Stay tuned 
 
 
 ## Research Funding
