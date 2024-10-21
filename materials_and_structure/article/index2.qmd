@@ -1,0 +1,242 @@
+---
+title: "Scattering Matrix Tomography"
+pdf-engine: pdflatex
+author:
+  - name: Philipp Michael Pelz
+    orcid: 0000-0002-0760-5497
+    corresponding: true
+    email: steve@curvenote.com
+    roles:
+      - Investigation
+      - Project administration
+      - Software
+      - Visualization
+    affiliations:
+      - Friedrich-Alexander Universitaet Erlangen-Nuernberg
+      - CENEM
+      - EAM
+format: 
+  pdf: 
+    include-in-header:
+      - text: |
+          \usepackage{siunitx}
+          \usepackage{graphicx}
+          \usepackage{bm}
+          \newcommand{\angstroms}{\text{\normalfont\AA}}
+          \newcommand{\f}[2][]{\mathcal{F}_{#1}\left[#2\right]}
+          \newcommand{\finv}[2][]{\mathcal{F}_{#1}^{\dagger} \left[#2\right]}
+          \renewcommand{\vec}[1]{\mathbf{#1}}
+          \newcommand{\mvec}[1]{\bm{#1}}
+          \newcommand{\smatrix}[0]{$\mathcal{S}$-matrix}
+          \newcommand{\beamlet}[0]{\mvec{\hat{\psi}}}
+    documentclass: article
+    classoption: [twocolumn]
+    # lof: true
+    # lot: true
+    geometry:
+      - top=30mm
+      - left=20mm
+      - heightrounded
+    mainfont: Lato
+    monofont: Roboto
+    colorlinks: true
+    bibliography: references.bib
+keywords:
+  - ptychography
+  - electron microscopy
+abstract: |
+  Some more text. Our SMPR-3D algorithm retrieves an adaptive approximation to the scattering matrix and refines probe positions and non-parametric probe aberrations. In a second step, we retrieve the three-dimensional scattering potential from the scattering matrix by solving an inverse multislice problem. Compared to direct multi-slice inversion from scanning diffraction measurements, our algorithm enjoys favorable computational complexity, accelerating large field-of-view reconstructions. We demonstrate the algorithm experimentally ....
+date: last-modified
+---
+
+## Introduction
+
+Spurred by the development and widespread availability of fast pixelated direct electron detectors (DEDs), scanning transmission electron microscopy (STEM) is undergoing a computational imaging renaissance. Single-electron-sensitive, high-speed, and high-dynamic-range DEDs combined with advanced reconstruction algorithms enable computational imaging methods that surpass conventional methods in resolution and sensitivity. Electron ptychography, a coherent diffractive imaging method that retrieves phase-information from 4D-STEM datasets, is finally reaching the full potential its inventors envisioned decades ago. Diffraction-limited resolution far beyond the numerical aperture of the microscope and, in the case of multiple-scattering samples, lattice vibration-limited resolution are now possible with suitable materials. We can visualize beam-sensitive specimens with higher contrast and resolution than conventional methods, as researchers have demonstrated with X, Y, and Z. For thicker samples, we can extract three-dimensional information by undoing beam propagation and multiple scattering effects. 
+Many proposed and demonstrated algorithms for undoing multiple scattering effects in the STEM for general samples treat the propagation of every single probe position separately. Although this strategy is highly parallelizable, it has a high computational complexity for thick samples and large fields of view.
+Here, we introduce a three-dimensional inversion algorithm based on the scattering matrix formalism that scales favorably to large 4D-STEM datasets. It is inspired by a fast, memory-efficient forward model for simulating 4D-STEM experiments called the partitioned Plane-wave Reciprocal-space Interpolated S-matrix (partitioned PRISM) algorithm. We first introduce this forward model with the necessary nomenclature, then formulate the corresponding inverse problem given 4D-STEM measurements, and finally demonstrate it experimentally with two applications in materials and life sciences.
+
+
+## Approximate solutions to the Schroedinger equation for fast electrons
+The evolution of the slow-moving portion of the wavefunction along the optical axis $z$ can be described by the Schr\"{o}dinger equation for fast electrons @kirkland2020advanced
+$$
+    \frac{\partial}{\partial z}\psi(\vec{r}) = \frac{i \lambda}{4 \pi} {\nabla_{xy}}^2 \psi(\vec{r})
+    + i \sigma V(\vec{r}) \psi(\vec{r}),    
+$${#eq-paraxial_schroedinger}
+where $\lambda$ is the relativistic electron wavelength, ${\nabla_{xy}}^2$ is the 2D Laplacian operator, $\sigma$ is the relativistic beam-sample interaction constant and $V(\vec{r})$ is the electrostatic potential of the sample.
+The formal operator solution to Eq.@eq-paraxial_schroedinger is given by @kirkland2020advanced, 
+$$
+    \psi_f(\vec{r}) = 
+    \exp \left\{
+        \int_{0}^{z} \left[
+        \frac{i \lambda}{4 \pi}\nabla^2_{xy} + i\sigma V(x,y,z')
+        \right] dz'
+    \right\}
+    \psi_0(\vec{r}),     
+$${#eq-formal_soln}
+where $\psi_f(\vec{r})$ is the exit wavefunction after traveling a distance $z$ from the initial wave $\psi_0(\vec{r})$. This expression is commonly approximately solved with the multislice algorithm first given by \cite{cowley1957scattering}, which alternates solving the two operators using only the linear term in the series expansion of the exponential operator.
+In the multislice algorithm, we first divide up the sample of total thickness $t$ into a series of thin slices with thickness $\Delta z$. Solving for the first operator on Eq.~\ref{eq:formal_soln} yields an expression for free space propagation between slices separated by $\Delta z$, with the solution given by 
+$$
+    \psi_f(\vec{r}) = \mathcal{P}^{\Delta z} \psi_0(\vec{r}),
+$$
+where $\mathcal{P}^{\Delta z}$ is the Fresnel propagator defined by
+$$
+    \mathcal{P}^{\Delta z}\psi:=
+    \finv[\vec{q}]{\f[\vec{r}]{\psi}e^{-i \pi \lambda \vec{q}^2 \Delta z}},
+$$
+where $\vec{q}=(q_x,q_y)$ are the 2D Fourier coordinates and $\vec{r}=(x,y)$ are the 2D real space coordinates.
+$\f[\vec{x}]{\,\cdot\,}$ denotes the two-dimensional Fourier transform with respect to $\vec{x}$ and $\finv[\vec{x}]{\,\cdot\,}$ the 2D inverse Fourier transform with respect to $\vec{x}$.
+We can then write one iteration of the multislice algorithm as 
+$$
+\mathcal{T}^V_k \psi = \psi\cdot e^{i\sigma V_{k}}
+$${#eq-multiply_propagate}
+where $V_{k}$ is the projected potential at slice $k$.
+<!-- The multi-slice algorithm $\mathcal{M}_{\mathsf{T}} : \mathbb{C}^{\mathsf{N}_1 \times \mathsf{N}_2} \rightarrow \mathbb{C}^{\mathsf{N}_1 \times \mathsf{N}_2}$ can be written as a succession of $\mathsf{T}$ pairs of transmission and propagation operators -->
+$$
+\mathcal{M}^V_{\mathsf{T}}\psi = \prod_{\mathsf{k}=0}^{\mathsf{T}} \left(\mathcal{P}^{\Delta z}\mathcal{T}^V_{\mathsf{k}}\right)\psi
+$$
+The 4D-STEM intensity is then 
+$$    
+    I(\vec{q},\mvec{\rho}) = \left|\f[\vec{r}]{\sum_{\vec{h}<h_{max}}\Psi(\vec{h})e^{-2\pi i\vec{h}\cdot\mvec{\rho}}\mathcal{M}^V_{\mathsf{T}} e^{2 \pi i\vec{h} \cdot\vec{r}}}\right|^2.
+$$
+Defining the interpolation weights as a matrix $w \in \mathbb{R}^{|\mathcal{P}| \times B}$ that stores the interpolation weights for each beam, we can then compute the 4D-STEM intensities as
+$$
+     I(\vec{q},\mvec{\rho}) = \Bigg|\mathcal{F}_{\vec{r}}\Bigg[\sum^{\mathsf{B}}_{\mathsf{b = 1}}\Psi(\vec{h}_{\mathsf{b}})\,e^{-2 \pi i \vec{h}_{\mathsf{b}}\cdot\bm{\rho}}\,
+      \cdot \mathbf{C}_{\mvec{\rho},\vec{r}}\bigg[e^{2 \pi i \vec{h}_{\mathsf{b}}\cdot\bm{r}}\sum_{\mathsf{p} \in \mathcal{P}}w_{\mathsf{p},\mathsf{b}}e^{-2 \pi i \vec{h}_{\mathsf{p}}\cdot\bm{r}}\mathcal{S}_{\vec{r},\mathsf{p}}\bigg]\Bigg]\Bigg|^2.
+$$
+<!-- After factoring out the summation over the Fourier basis, the 4D-STEM intensities can then be calculated as
+\begin{equation}
+     I(\vec{q},\mvec{\rho}) = \left|\f[\vec{r}]{\sum_{\mathsf{p} \in \mathcal{P}}\hat{\psi}_{\mathsf{p}}\,\mathbf{C}_{\mvec{\rho},\vec{r}}\left[\mathcal{S}_{\vec{r},\mathsf{p}}\,e^{-2 \pi i \vec{h}_{\mathsf{p}}\cdot\vec{r}}\right]}\right|^2,
+\label{equ:prism_beamlist_pixel}
+\end{equation}
+with
+\begin{equation}
+    \hat{\psi}_{\mathsf{p}}(\vec{r},\mvec{\rho}) = \sum^{\mathsf{B}}_{\mathsf{b = 1}} w_{\mathsf{p},\mathsf{b}}\,\Psi(\vec{h}_\mathsf{b})\,e^{2 \pi i \vec{h}_\mathsf{b}\cdot(\vec{r}-\mvec{\rho})}.
+\end{equation}
+\section{\label{sec:smatrix_inversion}Reconstructing the partitioned \smatrix{}}
+Let the detector be sampled with $\mathsf{M}_1 \times \mathsf{M}_2$ pixels. We perform a scan with $\mathsf{K}$ positions and label a single position with \textsf{k}. Then the measured intensities have the dimension $\mathbf{I} \in \mathbb{R}^{\mathsf{K} \cdot \mathsf{M}_1 \cdot \mathsf{M}_2}$. For ease of notation, we enumerate all $\mathsf{P} = |\mathcal{P}|$ parent beams in $|\vec{h}| < h_{max}$ with indices $\mathsf{p} = 1, ..., \mathsf{P}$. The \smatrix{} measurement operator maps the \textsf{P} parent beams of the $\mathcal{S}$-matrix sampled on a discrete grid of $\mathsf{N}_1 \times \mathsf{N}_2$ pixels to $\mathsf{K}$ diffraction patterns of size $\mathsf{M}_1 \times \mathsf{M}_2$. ${\mathcal{A} : \mathbb{C}^{\mathsf{P} \times \mathsf{N}_1 \times \mathsf{N}_2} \times \mathbb{C}^{\mathsf{P} \times \mathsf{M}_1 \times \mathsf{M}_2} \times \mathbb{C}^{\mathsf{K} \times \mathsf{2}}  \rightarrow \mathbb{C}^{\mathsf{K}\mathsf{M}_1 \mathsf{M}_2}}$. For better readability, we first define the measurement operator for position $\mathsf{k}$ : ${\mathcal{A}_{\mathsf{k}} : \mathbb{C}^{\mathsf{P} \times \mathsf{N}_1 \times \mathsf{N}_2} \times \mathbb{C}^{\mathsf{P} \times \mathsf{M}_1 \times \mathsf{M}_2} \times \mathbb{C}^{\mathsf{2}} \rightarrow \mathbb{C}^{\mathsf{M}_1 \cdot \mathsf{M}_2}}$:
+\begin{equation}
+    \label{equ:forward_model2}
+    \mathcal{A}_{\mathsf{k}}(\mvec{\mathcal{S}}, \beamlet, \bm{\rho}_{\mathsf{k}}) := \left[\f[\vec{r}]{\sum^{\mathsf{P}}_{\mathsf{p = 1}}\beamlet_{\mathsf{p}}\,\mathbf{C}_{\mvec{\rho},\vec{r}}\left[\mvec{\mathcal{S}}_{\mathsf{p},\vec{r}}\,e^{-2 \pi i \vec{h}_{\mathsf{p}}\cdot\vec{r}}\right]}\right]^{V},
+\end{equation}
+where $[\cdot]^V$ is a vectorization from 2D to 1D. We have also introduced the linear cropping operator ${\mathbf{C}_{\mathsf{k}} := \mathbf{C}_{\bm{\rho}_{\mathsf{k}},\vec{r}}: \mathbb{C}^{\mathsf{P} \times \mathsf{N}_1 \times \mathsf{N}_2} \rightarrow \mathbb{C}^{\mathsf{P} \times \mathsf{M}_1 \times \mathsf{M}_2}}$, which extracts a real-space patch of size $\mathsf{M}_1 \times \mathsf{M}_2$ from each beam of a given \smatrix{} at the position with index \textsf{k} for the phase modulation \textsf{d}. 
+\begin{equation}
+    \mathbf{C}_{\mvec{\rho},\vec{r}} = \begin{cases}
+        1 & \mbox{if } \left|\vec{r} - \mvec{\rho}\right| \leq |\left|\mvec{\Delta}/2\right|,\\
+        0 & \mbox{otherwise}
+ \nonumber
+ \end{cases}
+ \label{eq:cropping_op}
+\end{equation}
+where the absolute value is used element-wise.
+The measurement operator for the full experiment is just the operators for each probe and position stacked on top of each other: ${\mathcal{A}(\mathcal{S}, \beamlet,\bm{\rho})=\left[\mathcal{A}_{\mathsf{1}}(\mathcal{S}, \beamlet,\bm{\rho}), \mathcal{A}_{\mathsf{2}}(\mathcal{S}, \beamlet,\bm{\rho}), ..., \mathcal{A}_{\mathsf{K}}(\mathcal{S}, \beamlet,\bm{\rho})\right]^T}$. We can then write the forward model for the measured intensities as 
+\begin{equation}
+\mathbf{y}=\left|\mathcal{A}(\mvec{\mathcal{S}}, \beamlet, \mvec{\rho})\right|^2.
+\label{equ:forward_model}
+\end{equation}
+Given this forward model and a set of intensity measurements $\mathbf{I}$ we can formulate the phase retrieval problem for joint $\mathcal{S}$-matrix and probe retrieval as 
+\begin{eqnarray}
+    &&  
+    \mathrm{Find}\,\mathcal{S} \in \mathbb{C}^{\mathsf{P} \times \mathsf{N}_1 \times \mathsf{N}_2},\,\beamlet \in \mathbb{C}^{\mathsf{P} \times \mathsf{M}_1 \times \mathsf{M}_2}\, \nonumber \,\mathrm{and}\,\mvec{\rho} \in  \mathbb{R}^{\mathsf{K} \times \mathsf{2}}\\
+    && 
+    \textrm{Subject to} \quad\left|\mathcal{A}(\mathcal{S}, \beamlet, \mvec{\rho})\right|^2 = \mathbf{I} \nonumber.
+\end{eqnarray}
+
+The augmented Langrangian of the partitioned \smatrix{} retrieval problem is
+\begin{align}
+\begin{split}
+     \label{equ:loss}
+     \mathcal{L}_{\beta}(\mathcal{S}, \beamlet, \mvec{\rho}, \mathbf{z}, \mathbf{\Lambda}) =&\,\,\mathcal{D}(\mathbf{z}) \\&+ \Re{\mathbf{\Lambda}^{\dagger}\left(\mathcal{A}(\mathcal{S}, \beamlet, \mvec{\rho})-\mathbf{z}\right)}\\& + \frac{\beta}{2}\|\mathcal{A}(\mathcal{S},  \beamlet, \mvec{\rho})-\mathbf{z}\|^2_2,
+ \end{split}
+\end{align}
+ where $\|\cdot\|_2$ is the $l_2$ norm and we have introduced the auxiliary variables $\mathbf{z} \in \mathbb{C}^{\mathsf{K} \cdot \mathsf{D} \cdot \mathsf{M}_1 \cdot \mathsf{M}_2}$ and $\mathbf\Lambda \in \mathbb{C}^{\mathsf{K} \cdot \mathsf{D} \cdot \mathsf{M}_1 \cdot \mathsf{M}_2}$. We seek to solve for $\mathcal{S}$, $\beamlet$ and $\mvec{\rho}$ such that $\mathcal{L}(\mathcal{S}, \beamlet, \mvec{\rho}, \mathbf z,\mathbf\Lambda)$ is minimized:
+ \begin{equation}
+ \label{equ:argminS}
+     \left(\mathcal{S}^*, \beamlet^*, \mvec{\rho}^*, \mathbf z^*, \mathbf\Lambda^*\right) = \operatorname*{arg\,max}_{\Lambda}\operatorname*{arg\,min}_{S, \beamlet, \mvec{\rho}, \mathbf z}\displaystyle\mathcal{L}(\mathcal{S}, \beamlet, \mvec{\rho}, \mathbf z, \mathbf\Lambda)
+ \end{equation}
+ ADMM decouples the joint problem into subproblems and solves them step by step:
+ %% + \frac{\alpha_1}{2} \|\Psi-\Psi^{\textsf{l}}\|_2
+ %% + \frac{\alpha_2}{2} \|\mathcal{S}-\mathcal{S}^{\textsf{l}}\|_2
+\begin{align}
+\begin{split}
+ % \mathrm{step\,1:}&\quad\mvec{\rho}^{\textsf{l+1}} =  \operatorname*{arg\,min}_{\mvec{\rho}}\, \mathcal{L}_{\beta}(\mathcal{S}^{\textsf{l}}, \beamlet^{\textsf{l}}, \mvec{\rho}, z^{\textsf{l}}, \mathbf{\Lambda}^{\textsf{l}}) \\
+ \mathrm{step\,1:}&\quad\beamlet^{\textsf{l+1}} =  \operatorname*{arg\,min}_{\beamlet}\, \mathcal{L}_{\beta}(\mathcal{S}^{\textsf{l}}, \beamlet, z^{\textsf{l}}, \mathbf{\Lambda}^{\textsf{l}}) + \frac{\alpha_1}{2}\|\beamlet-\beamlet^{\textsf{l}}\|^2_{M_1^{\textsf{l}}}\\
+ \mathrm{step\,2:}&\quad\mathcal{S}^{\textsf{l+1}} =  \operatorname*{arg\,min}_{\mathcal{S}}\, \mathcal{L}_{\beta}(\mathcal{S}, \beamlet^{\textsf{l+1}}, z^{\textsf{l}}, \mathbf{\Lambda}^{\textsf{l}}) + \frac{\alpha_2}{2}\|\mathcal{S}-\mathcal{S}^{\textsf{l}}\|^2_{M_2^{\textsf{l}}}\\
+ \mathrm{step\,3:}&\quad z^{\textsf{l+1}} = \operatorname*{arg\,min}_{z}\,
+ \mathcal{L}_{\beta}(\mathcal{S}^{\textsf{l+1}}, \beamlet^{\textsf{l+1}}, z, \mathbf{\Lambda}^{\textsf{l}})\\
+ \mathrm{step\,4:}&\quad\mathbf{\Lambda}^{\textsf{l+1}} = \mathbf{\Lambda}^{\textsf{l}} + \beta (z^{\textsf{l+1}} - \mathcal{A}(\mathcal{S}^{\textsf{l+1}},  \beamlet^{\textsf{l+1}})) 
+ \end{split}
+\end{align}
+In step 1 and step 2 we have added preconditioning terms with diagonal positive semidefinite matrices $M_1^{\textsf{l}}$ and $M_2^{\textsf{l}}$ and two penalization parameters $\alpha_1, \alpha_2>0,$ where $\|\Psi\|^2_{M_1^k}:=\langle M_1^k\Psi,\Psi\rangle$ and
+$\|u\|^2_{M_2^k}:=\langle M_2^ku,u\rangle$.
+ % \subsection{Subproblem w.r.t. $\rho$}
+ % The closed-form solution to the subproblem w.r.t. $\mv-ec{\rho}$ is
+ %    \begin{equation}
+ %    \label{equ:rho_update}
+ %     \rho^{\textsf{l+1}}_{\mathsf{k}} = \frac{
+ %     \sum_{\vec{r}}\sum_{\mathsf{p=1}}^{\mathsf{P}}\Re{\left(\frac{\partial}{\partial\vec{r}}\left(\mathbf{C}_{\mathsf{k}}\mathcal{S}^{\textsf{l}}_{\textsf{p}}\right)\psi_{\textsf{p}}^{\textsf{l}}\right)^{\dagger} \mathbf{\hat{z}}^{\textsf{l}}_{\mathsf{k}}}
+ %     }
+ %     {
+ %     \sum_{\vec{r}}\sum_{\mathsf{p=1}}^{\mathsf{P}}\left|\frac{\partial}{\partial\vec{r}}\left(\mathbf{C}_{\mathsf{k}}\mathcal{S}^{\textsf{l}}_{\textsf{p}}\right)\right|^2
+ %     }.
+ % \end{equation}
+ \subsection{Subproblem w.r.t. $\hat{\psi}$}
+ The closed-form solution to the subproblem w.r.t. $\beamlet$ is
+    \begin{equation}
+    \label{equ:psi_update}
+     \hat{\psi}^{\textsf{l+1}} = \frac{
+     \sum_{\mathsf{k=1}}^{\mathsf{K}}\left(\mathbf{C}_{\mathsf{k}}\mathcal{S}^{\textsf{l}}\right)^{\dagger}\finv[\vec{q}]{\mathbf{\hat{z}}^{\textsf{l}}}+\alpha_1\,\mathrm{diag}M_1^{\mathsf{k}}\,\psi^{\textsf{l}}
+     }
+     {
+     \sum_{\mathsf{k=1}}^{\mathsf{K}}\mathbf{C}_{\mathsf{k}}\left[|\mathcal{S}^{\textsf{l}}|^2\right]+\alpha_1\,\mathrm{diag}M_1^{\mathsf{k}}
+     }.
+ \end{equation}
+\subsection{Subproblem w.r.t. $\mathcal{S}$}
+The closed-form solution to the subproblem w.r.t. $\mvec{\mathcal{S}}$ is
+  \begin{equation}
+  \label{equ:s_update}
+     \mathcal{S}^{\textsf{l+1}} = \frac{
+     \sum_{\mathsf{k=1}}^{\mathsf{K}}\mathbf{C}_{\mathsf{k}}^{T}\left[\psi^{\textsf{l+1}}\finv[\vec{q}]{\mathbf{\hat{z}}^{\textsf{l}}}\right]+\alpha_2\,\mathrm{diag}M_2^{\mathsf{k}}\,\mathcal{S}^{\textsf{l}}
+     }
+     {
+     \sum_{\mathsf{k=1}}^{\mathsf{K}}\mathbf{C}_{\mathsf{k}}^{T}\left[|\psi^{\textsf{l+1}}|^2\right]+\alpha_2\,\mathrm{diag}M_2^{\mathsf{k}}
+     }.
+ \end{equation}
+
+ \subsection{Subproblem w.r.t. z}
+ The subproblem w.r.t. \textbf{z} was solved elsewhere \cite{Wen_Yang_Liu_Marchesini_2012}. The solution is
+ \begin{equation}
+ \label{equ:z_update}
+     \mathbf{z}^{\textsf{l+1}} = \frac{\mathrm{sgn}(\mathbf{\hat{z}})\left[\sqrt{\mathbf{I}} + \beta |\mathbf{\hat{z}}|\right]}{(1+\beta)}.
+ \end{equation}
+The full ADMM algorithm is then given as:
+
+\begin{algorithm}
+	\caption{\small{\textsf{SMART-ADAPT} : Joint partitioned \smatrix{} and probe retrieval via ADMM}}
+	\label{alg:smatrix_admm}
+ 	\begin{flushleft}
+    \begin{tabularx}{\textwidth}{llX}
+	\textbf{Input:}&measured intensities &$\mathbf{I} \in \mathbb{R}^{\mathsf{K} \times\mathsf{M}_1 \times\mathsf{M}_2}$\\
+	&scan positions &$\mvec{\rho} \in \mathbb{R}^{\mathsf{K}\times 2}$\\
+	&initial beamlets &$\psi \in \mathbb{C}^{\mathsf{B} \times\mathsf{M}_1 \times\mathsf{M}_2}$\\
+	&step size &$\beta \in \mathbb{R}$\\
+	\end{tabularx}
+	\textbf{Initialize:} \\
+	set $(\mathsf{N}_1,\mathsf{N}_2)=\lceil\frac{\mathrm{max}(\vec{r}_s)+\mathsf{M}}{\mathsf{M}}\rceil\cdot \mathsf{M}$ such that the plane waves $e^{2 \pi i\vec{h}\cdot\vec{r}}$ have periodic boundary conditions\\
+	calculate $\mathbf{I}^{mean} = \frac{1}{K}\sum_\mathsf{k=1}^{\mathsf{K}}\mathbf{I}_{\mathsf{k}}$ and \\
+	$a_{max} = \mathrm{max}\{||\mathbf{I}_{\mathsf{k}}||_1 \forall \mathsf{k}=\{1, ... , K\}\}$\\
+	set $\Psi^0 \gets \frac{a_{max}}{\sqrt{||\mathbf{I}^{mean}||_1}}\mathbf{I}^{mean}e^{i\mvec\chi^0}$\\
+	$\mathcal{S}^0 \gets \vec{1} \in \mathbb{C}^{\mathsf{P}\times\mathsf{N}_1\times \mathsf{N}_2}$\\
+	\end{flushleft}
+		\For{$\mathsf l=0$ to $\mathrm{L}$}{
+		$\mathbf{\hat{z}} = \mathbf z^{\textsf{l}} + \frac{\mathbf{\Lambda}^{\textsf{l}}}{\beta}$\;
+		% calculate $\rho^{\textsf{l+1}}$ according to Equ. \ref{equ:rho_update}\;
+		calculate $\psi^{\textsf{l+1}}$ according to Equ. \ref{equ:psi_update}\;
+		calculate $\mathcal{S}^{\textsf{l+1}}$ according to Equ. \ref{equ:s_update}\;
+		calculate $\mathbf z^{\textsf{l+1}}$ according to Equ. \ref{equ:z_update}\;
+		$\mathbf\Lambda^{\textsf{l+1}} \gets \mathbf\Lambda^{\textsf{l}} + \beta (\mathbf z^{\textsf{l+1}} - \mathcal{A}(\mathcal{S}^{\textsf{l+1}},  \Psi^{\textsf{l+1}}))$\;
+		}
+	\textbf{Output:}
+	$\mathcal{S}^* = \mathcal{S}^{\mathrm{L}}$,\,$\rho^* = \rho^{\mathrm{L}}$,\,$\psi^* = \psi^{\mathrm{L}}$
+\end{algorithm} -->
+
+## References  
