@@ -1,5 +1,5 @@
 ---
-title: "ERC Stg PhD position open"
+title: "ERC Stg PhD position FILLED"
 description: "A PhD position on the ERC Stg HyperScaleEM project is available starting Nov 1st"
 author: "Philipp Pelz"
 date: "2024-09-03"
