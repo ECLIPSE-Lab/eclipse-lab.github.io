@@ -17,7 +17,7 @@ email-obfuscation: javascript
 
 [Lecture Materials & Structure (MAP): Fr 10:15h - 11:45h Seminar Room 0.68 WW building](https://www.studon.fau.de/studon)
 
-[Lecture Data Science for Electron Microscopy: Fr 8:30h - 10h IZNF Rm 01.160](https://www.studon.fau.de/campo/course/421992)
+[Lecture Data Science for Electron Microscopy: Fr 8:30h - 10h IZNF Rm 01.160](https://pelzlab.science/DataScienceForElectronMicroscopy/)
 
 [Seminar Machine Learning for Microscopy: Wed 8:30h - 10:00h IZNF Rm 01.160](https://www.studon.fau.de/campo/course/421966)
 

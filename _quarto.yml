@@ -17,7 +17,7 @@ website:
   navbar:
     logo: ./img/FAU.png
     logo-href: https://pelzlab.science
-    background: primary
+    background: "#000000"
     search: true
     tools:
       - icon: ./img/erc_logo.svg
