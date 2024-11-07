@@ -19,7 +19,7 @@ email-obfuscation: javascript
 
 [Lecture Data Science for Electron Microscopy: Fr 8:30h - 10h IZNF Rm 01.160](https://pelzlab.science/DataScienceForElectronMicroscopy/)
 
-[Seminar Machine Learning for Microscopy: Wed 8:30h - 10:00h IZNF Rm 01.160](https://www.studon.fau.de/campo/course/421966)
+[Seminar Machine Learning for Microscopy: Wed 8:30h - 10:00h IZNF Rm 01.140](https://www.studon.fau.de/campo/course/421966)
 
 ## Summer Semester 2024
 
