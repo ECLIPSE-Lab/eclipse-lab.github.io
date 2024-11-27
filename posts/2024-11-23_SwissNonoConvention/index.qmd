@@ -1,0 +1,12 @@
+---
+title: "Philipp will chair a session at the Swiss NanoConvention 2025"
+description: "Annual meeting of the swiss nanoscience community. This year it will be hosted in Zurich from June 12-13."
+author: "Philipp Pelz"
+date: "2024-11-23"
+image: swissnanoconventionbanner_master_2025.png
+draft: false
+categories:
+  - announcement 
+---
+
+"The Swiss NanoConvention brings together Swiss and international leaders from science and industry in the field of «nano», key figures in innovation and technology, entrepreneurs, investors, administrators and politicians. The Swiss NanoConvention is a platform for connecting people, networking, debating and exchanging ideas – or even generating new ones. Key players are able to gather the best available information on the potential, but also on the risks of one of the key emerging technologies of the 21st century, and its opportunities for innovative technologies, products and services. The Swiss NanoConvention is the prime showcase for nanotechnology in Switzerland, jointly organized by the «who-is-who» in the Swiss nano scene. It is the venue for meeting the great minds in nanoscience and technology."

@@ -1,7 +1,28 @@
 [
   {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/articles/pelz2023a.html",
+      "/publications/articles/terzoudis2023.html",
+      "/publications/articles/pelz2023c.html",
+      "/publications/articles/pelz2023b.html",
+      "/publications/articles/pelz2021b.html",
+      "/publications/articles/pelz2022.html",
+      "/publications/articles/pelz2021e.html",
+      "/publications/articles/pelz2021f.html",
+      "/publications/articles/pelz2021c.html",
+      "/publications/articles/pelz2021d.html",
+      "/publications/articles/pelz2021.html",
+      "/publications/articles/pelz2019.html",
+      "/publications/articles/pelz2017.html",
+      "/publications/articles/pelz2014.html"
+    ]
+  },
+  {
     "listing": "/news.html",
     "items": [
+      "/posts/2024-11-23_M&M2025/index.html",
+      "/posts/2024-11-23_SwissNonoConvention/index.html",
       "/posts/2024-09-03_HyperScaleEM_postdoc/index.html",
       "/posts/2024-09-03_HyperScaleEM_phd/index.html",
       "/posts/24-04-position/index.html",
@@ -28,25 +49,6 @@
       "/people/admins/inga_schaefer.html",
       "/people/alumni/01_andrey_romanov.html",
       "/people/alumni/gaurab_dhungana.html"
-    ]
-  },
-  {
-    "listing": "/publications.html",
-    "items": [
-      "/publications/articles/pelz2023a.html",
-      "/publications/articles/terzoudis2023.html",
-      "/publications/articles/pelz2023c.html",
-      "/publications/articles/pelz2023b.html",
-      "/publications/articles/pelz2021b.html",
-      "/publications/articles/pelz2022.html",
-      "/publications/articles/pelz2021e.html",
-      "/publications/articles/pelz2021f.html",
-      "/publications/articles/pelz2021c.html",
-      "/publications/articles/pelz2021d.html",
-      "/publications/articles/pelz2021.html",
-      "/publications/articles/pelz2019.html",
-      "/publications/articles/pelz2017.html",
-      "/publications/articles/pelz2014.html"
     ]
   }
 ]

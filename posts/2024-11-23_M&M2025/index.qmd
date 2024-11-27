@@ -1,0 +1,12 @@
+---
+title: "Philipp will give an invited talk at M&M 2025 about the frontiers of ptychographic electron tomography"
+description: "The 2025 meeting of the Microscopy & Microanalysis society will be hosted in Salt Lake City"
+author: "Philipp Pelz"
+date: "2024-11-23"
+image: mandm.png
+draft: false
+categories:
+  - announcement 
+---
+
+The M&M 2025 meeting will be hosted in SaltLake City from July 20-25.
