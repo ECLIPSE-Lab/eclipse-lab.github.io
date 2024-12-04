@@ -27,6 +27,14 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 		<ul class="splide__list">
       <li class="splide__slide">
         <div>
+          <a href="https://doi.org/10.1088/1402-4896/ad9a1a">New Resolution Record in 3D Phase-Contrast Imaging
+ (Phys Scripta 2024)</a>
+					
+				</div>
+        <img src="img/vol1.png" alt="c">
+      </li>
+      <li class="splide__slide">
+        <div>
           <a href="https://www.nature.com/articles/s41467-023-43634-z">Solving Complex Nanostructures With Ptychographic Atomic Electron Tomography
  (Nat Comm 2023)</a>
 					
