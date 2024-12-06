@@ -3,15 +3,6 @@ pagetitle: "ERC Starting Grant HyperScaleEM | ECLIPSE Lab"
 toc: true
 ---
 
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Opportunities</li>
-  </ol>
-</nav>
-```
-
 ## Vision of HyperScaleEM
 
 Electron microscopy is essential to understanding structure-property-function relationships in modern
@@ -36,11 +27,12 @@ The project is divided into three main objectives:
 
 These methods will be applied to essential materials, including examining single hydrogen atoms at grain
 boundaries in structural metals and studying concealed, extensive interfaces in modern semiconductor
-materials. In the final phase, I will record atomistic movies of material fracture in tungsten and alloys.
-Fracture is one of the most critical failure modes of functional and structural materials with catastrophic
-consequences. The details of crack nucleation and propagation through the breaking of bonds are still largely
-unexplored and will be measured directly and compared with large-scale atomistic simulations.
+materials. 
 
-## Hiring for HyperScaleEM
+<!-- ## Roadmap
 
-I am currently hiring a [Postoc (2 years + 3 years)](https://www.pelzlab.science/posts/2024-09-03_HyperScaleEM_postdoc/) and a [PhD student (4 years)](https://www.pelzlab.science/posts/2024-09-03_HyperScaleEM_phd/) for the HyperScaleEM project for a start on Nov 1st.
+### Volume Sizes
+
+- 2023: 
+- 2024: $(18.2nm)^3$
+- 2024: $(11nm)^3$ -->
