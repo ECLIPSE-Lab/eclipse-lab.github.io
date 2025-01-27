@@ -15,12 +15,12 @@ The Computational Microscopy group of Prof. Dr. Philipp Pelz at FAU Erlangen-Nü
 ## Ph.D. Student Computational Imaging in Electron Microscopy (m/f/x) 
 **(subject to personal qualifications, remuneration according to salary group E 13 TV-L 75%)**
 
-starting September 15th 2024 or earliest date possible. 
+starting April 1st 2025 or earliest date possible. 
 
 Position and tasks 
 ·	Develop and test new approaches for real-time 3D imaging in the electron microscope
 ·	Develop approaches for sample-adaptive imaging and diffraction
-·	Design, optimize, and execute Computational Electron Microscopy experiments at our state-of-the-art micro-scopes
+·	Design, optimize, and execute Computational Electron Microscopy experiments at our state-of-the-art microscopes
 ·	Publish and present the results of these studies to the community.
 
 Position Requirements
