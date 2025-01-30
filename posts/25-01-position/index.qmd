@@ -1,6 +1,6 @@
 ---
-title: "PhD position open"
-description: "A PhD position on computational imaging in electron microscopy is available starting April 1st"
+title: "Doctoral Researcher or Postdoctoral Researcher position open"
+description: "A position on computational imaging in electron microscopy is available starting April 1st"
 author: "Philipp Pelz"
 date: "2025-01-27"
 image: 4DSTEM_render.jpg
@@ -12,30 +12,33 @@ categories:
 
 The Computational Microscopy group of Prof. Dr. Philipp Pelz at FAU Erlangen-Nürnberg offers a position as 
 
-## Ph.D. Student Computational Imaging in Electron Microscopy (m/f/x) 
-**(subject to personal qualifications, remuneration according to salary group E 13 TV-L 75%)**
+## Doctoral Researcher or Postdoctoral Researcher Computational Imaging in Electron Microscopy (m/f/x) 
+**(subject to personal qualifications, remuneration according to salary group E 13 TV-L 75%-100%)**
 
 starting April 1st 2025 or earliest date possible. 
 
 Position and tasks 
-·	Develop and test new approaches for real-time 3D imaging in the electron microscope
-·	Develop approaches for sample-adaptive imaging and diffraction
-·	Design, optimize, and execute Computational Electron Microscopy experiments at our state-of-the-art microscopes
-·	Publish and present the results of these studies to the community.
+
+- Develop and test new approaches for real-time 3D imaging in the electron microscope
+- Develop approaches for sample-adaptive imaging and diffraction
+- Design, optimize, and execute Computational Electron Microscopy experiments at our state-of-the-art microscopes
+- Publish and present the results of these studies to the community.
 
 Position Requirements
-·	M.Sc. in computer science, computational engineering, physical sciences, applied mathematics or a related dis-cipline.
-·	Proficiency in scientific Python programming.
-·	Experience with machine learning frameworks such as PyTorch, Jax
-·	Excellent communication and interpersonal skills to be able to interact effectively with a diverse group of scien-tists and technical staff.
-·	Self-motivated and able to work in a team environment.
+
+- M.Sc. in computer science, computational engineering, physical sciences, applied mathematics or a related discipline.
+- Proficiency in scientific Python programming.
+- Experience with machine learning frameworks such as PyTorch, Jax
+- Excellent communication and interpersonal skills to be able to interact effectively with a diverse group of scientists and technical staff.
+- Self-motivated and able to work in a team environment.
 
 Preferred Knowledge, Skills, and Abilities (experience in two or more of the following):
-·	Background in diffraction physics, crystallography, or modern microscopy methods 
-·	Data acquisition at aberration-corrected STEMs
-·	Developing and deploying AI models.
-·	Background in Computer Vision or Computational Imaging
-·	Demonstrated record of collaborative software development, especially in distributed teams.
+
+- Background in diffraction physics, crystallography, or modern microscopy methods 
+- Data acquisition at aberration-corrected STEMs
+- Developing and deploying AI models.
+- Background in Computer Vision or Computational Imaging
+- Demonstrated record of collaborative software development, especially in distributed teams.
 
 
 Our group develops advanced algorithms for efficient processing, reliable reconstruction, and automated information extraction from multidimensional microscopy datasets, predominantly in electron and X-ray microscopy. We have ex-pertise in deep learning, large-scale optimization, signal and image processing, and experimental design for advanced X-ray and electron microscopy experiments. 
