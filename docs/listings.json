@@ -1,21 +1,15 @@
 [
   {
-    "listing": "/publications.html",
+    "listing": "/people.html",
     "items": [
-      "/publications/articles/pelz2023a.html",
-      "/publications/articles/terzoudis2023.html",
-      "/publications/articles/pelz2023c.html",
-      "/publications/articles/pelz2023b.html",
-      "/publications/articles/pelz2021b.html",
-      "/publications/articles/pelz2022.html",
-      "/publications/articles/pelz2021e.html",
-      "/publications/articles/pelz2021f.html",
-      "/publications/articles/pelz2021c.html",
-      "/publications/articles/pelz2021d.html",
-      "/publications/articles/pelz2021.html",
-      "/publications/articles/pelz2019.html",
-      "/publications/articles/pelz2017.html",
-      "/publications/articles/pelz2014.html"
+      "/people/staff/00_pelz_philipp.html",
+      "/people/staff/02_shengbo_you.html",
+      "/people/staff/03_nikita_palatkin.html",
+      "/people/ras/radin_rahimi.html",
+      "/people/admins/birke.html",
+      "/people/admins/inga_schaefer.html",
+      "/people/alumni/01_andrey_romanov.html",
+      "/people/alumni/gaurab_dhungana.html"
     ]
   },
   {
@@ -40,16 +34,22 @@
     ]
   },
   {
-    "listing": "/people.html",
+    "listing": "/publications.html",
     "items": [
-      "/people/staff/00_pelz_philipp.html",
-      "/people/staff/02_shengbo_you.html",
-      "/people/staff/03_nikita_palatkin.html",
-      "/people/ras/radin_rahimi.html",
-      "/people/admins/birke.html",
-      "/people/admins/inga_schaefer.html",
-      "/people/alumni/01_andrey_romanov.html",
-      "/people/alumni/gaurab_dhungana.html"
+      "/publications/articles/pelz2023a.html",
+      "/publications/articles/terzoudis2023.html",
+      "/publications/articles/pelz2023c.html",
+      "/publications/articles/pelz2023b.html",
+      "/publications/articles/pelz2021b.html",
+      "/publications/articles/pelz2022.html",
+      "/publications/articles/pelz2021e.html",
+      "/publications/articles/pelz2021f.html",
+      "/publications/articles/pelz2021c.html",
+      "/publications/articles/pelz2021d.html",
+      "/publications/articles/pelz2021.html",
+      "/publications/articles/pelz2019.html",
+      "/publications/articles/pelz2017.html",
+      "/publications/articles/pelz2014.html"
     ]
   }
 ]

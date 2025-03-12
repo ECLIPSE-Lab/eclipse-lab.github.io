@@ -12,6 +12,26 @@ email-obfuscation: javascript
   </ol>
 </nav>
 ```
+## Summer Semester 2025
+
+- Lecture Materials & Structure (Clean Energy Processes)
+  - Tue 10:15h - 11:45h Seminar Room 0.68 WW building
+  - [studon](https://www.studon.fau.de/studon)
+
+- Lecture Data Science for Electron Microscopy
+  - Tue 16:15h - 17:45h IZNF Rm 01.160
+  - [studon](https://www.studon.fau.de/campo/course/489020)
+  - [website](https://pelzlab.science/DataScienceForElectronMicroscopy/)
+
+- Seminar Machine Learning for Microscopy
+  - Thu 16:15h - 17:45h IZNF Rm 01.160
+  - [studon](https://www.studon.fau.de/campo/course/491599)
+  - [website](https://pelzlab.science/MachineLearningForMicroscopy/)
+
+- Seminar Materials & Structure (Clean Energy Processes)
+  - Thu 16:15h - 17:45h Seminar Room 0.68 WW building
+  - [studon](https://www.studon.fau.de/studon/ilias.php?baseClass=ilrepositorygui&cmdNode=116:p8&cmdClass=ilObjCourseGUI&cmd=view&ref_id=6216946)
+  - [website](https://pelzlab.science/MaterialsAndStructureSeminar/)
 
 ## Winter Semester 2024
 
