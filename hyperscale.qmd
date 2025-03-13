@@ -8,15 +8,15 @@ toc: true
 Electron microscopy is essential to understanding structure-property-function relationships in modern
 materials engineering, condensed matter physics, chemistry, and structural biology. Yet, due to complicated
 scattering physics, today’s electron microscopes can only image tiny volumes with 3D atomic resolution.
-Within this project, I will turn the tables by utilizing and inverting the scattering physics to image scale-
+Within this project, we will turn the tables by utilizing and inverting the scattering physics to image scale-
 bridging volumes with atomic detail and chemical superresolution. Combining compressive data-acquisition
 protocols, state-of-the-art electron optics and detectors, and co-designed computational imaging algorithms
 will make this possible.
 
-I will use tomographic experiments and computationally invert the multiple scattering from multidimensional
+We will use tomographic experiments and computationally invert the multiple scattering from multidimensional
 measurements in scanning transmission electron microscopy to determine 3D atomic structure and chemistry
 in technologically valuable volumes. This has not been realized yet due to significant bottlenecks in the
-computational complexity of the underlying algorithms and a lack of experimental automation, which I plan to
+computational complexity of the underlying algorithms and a lack of experimental automation, which we plan to
 overcome in this project.
 
 The project is divided into three main objectives:
@@ -25,9 +25,7 @@ The project is divided into three main objectives:
 2) Visualizing atomic chemistry in scale-bridging volumes
 3) Profiling 3D atomic structure, chemistry, and dynamics in controlled in-situ experiments across scales
 
-These methods will be applied to essential materials, including examining single hydrogen atoms at grain
-boundaries in structural metals and studying concealed, extensive interfaces in modern semiconductor
-materials. 
+
 
 <!-- ## Roadmap
 
