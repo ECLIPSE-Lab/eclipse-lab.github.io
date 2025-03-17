@@ -291,7 +291,7 @@
     "href": "people.html#research-staff",
     "title": "ECLIPSE Lab",
     "section": "Research Staff",
-    "text": "Research Staff\n\n\n\n\n\n\n\n\n\n\nPhilipp Pelz\n\n\nPrincipal Investigator\n\n\n\n\n\n\n\n\n\n\n\n\n\nShengbo You\n\n\nPostdoc\n\n\n\n\n\n\n\n\n\n\n\n\n\nNikita Palatkin\n\n\nDoctoral Researcher\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Research Staff\n\n\n\n\n\n\n\n\n\n\nPhilipp Pelz\n\n\nPrincipal Investigator\n\n\n\n\n\n\n\n\n\n\n\n\n\nShengbo You\n\n\nPostdoc\n\n\n\n\n\n\n\n\n\n\n\n\n\nNikita Palatkin\n\n\nDoctoral Researcher\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhilipp Herz\n\n\nDoctoral Researcher\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people.html#research-assistants",
@@ -887,5 +887,61 @@
     "title": "ECLIPSE Lab",
     "section": "Datasets",
     "text": "Datasets\nEMDatasets is a python package where we collect published electron microscopy datasets for teaching purposes.\nPtychographic Atomic Tomography Dataset"
+  },
+  {
+    "objectID": "people/staff/03_nikita_palatkin copy.html",
+    "href": "people/staff/03_nikita_palatkin copy.html",
+    "title": "Nikita Palatkin",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Nikita Palatkin"
+  },
+  {
+    "objectID": "people/staff/03_nikita_palatkin copy.html#research-interests",
+    "href": "people/staff/03_nikita_palatkin copy.html#research-interests",
+    "title": "Nikita Palatkin",
+    "section": "Research Interests",
+    "text": "Research Interests\ncomputational imaging & microscopy, tomography, ptychography"
+  },
+  {
+    "objectID": "people/staff/03_nikita_palatkin copy.html#brief-bio",
+    "href": "people/staff/03_nikita_palatkin copy.html#brief-bio",
+    "title": "Nikita Palatkin",
+    "section": "Brief Bio",
+    "text": "Brief Bio\nNikita earned his MSc. in Physics."
+  },
+  {
+    "objectID": "people/staff/03_nikita_palatkin copy.html#experience",
+    "href": "people/staff/03_nikita_palatkin copy.html#experience",
+    "title": "Nikita Palatkin",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/staff/04_philipp_herz.html",
+    "href": "people/staff/04_philipp_herz.html",
+    "title": "Philipp Herz",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Philipp Herz"
+  },
+  {
+    "objectID": "people/staff/04_philipp_herz.html#research-interests",
+    "href": "people/staff/04_philipp_herz.html#research-interests",
+    "title": "Philipp Herz",
+    "section": "Research Interests",
+    "text": "Research Interests\n\nML for microscopy\n3D imaging"
+  },
+  {
+    "objectID": "people/staff/04_philipp_herz.html#brief-bio",
+    "href": "people/staff/04_philipp_herz.html#brief-bio",
+    "title": "Philipp Herz",
+    "section": "Brief Bio",
+    "text": "Brief Bio\nPhilipp earned his MSc. in Physics from Heidelberg University."
+  },
+  {
+    "objectID": "people/staff/04_philipp_herz.html#experience",
+    "href": "people/staff/04_philipp_herz.html#experience",
+    "title": "Philipp Herz",
+    "section": "Experience",
+    "text": "Experience"
   }
 ]
