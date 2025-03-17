@@ -1,8 +1,8 @@
 ---
-title: "Inga Schäfer"
+title: "Jenny Wirth"
 sortby: "1"
 subtitle: "Secretary"
-image: inga.jpg
+image: jenny.jpg
 started: ""
 toc: false
 about:
@@ -40,16 +40,11 @@ about:
 :::{#person-profile}
 :::
 
-## Research Interests
-
-
-Mehr ›Details for Birke Kohlheim
-Inga Schäfer
-Inga Schäfer
+Jenny Wirth
 Cauerstraße 3
 91058 Erlangen
 Phone number:+49 9131 85-70397
-Email:inga.schaefer@fau.de
+Email:jenny.wirth@fau.de
 Website:http://www.em.techfak.uni-erlangen.de
 
 
