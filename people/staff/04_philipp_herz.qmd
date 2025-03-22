@@ -2,7 +2,7 @@
 title: "Philipp Herz"
 sortby: "1"
 subtitle: "Doctoral Researcher"
-image: placeholder.png
+image: philipp_herz.jpg
 started: "Mar 2025"
 toc: false
 about:
