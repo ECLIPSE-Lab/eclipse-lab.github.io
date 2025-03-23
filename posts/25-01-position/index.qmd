@@ -1,5 +1,5 @@
 ---
-title: "Doctoral Researcher or Postdoctoral Researcher position open"
+title: "Doctoral Researcher or Postdoctoral Researcher position FILLED"
 description: "A position on computational imaging in electron microscopy is available starting April 1st"
 author: "Philipp Pelz"
 date: "2025-01-27"
