@@ -60,7 +60,7 @@
     "href": "research.html#research-funding",
     "title": "ECLIPSE Lab",
     "section": "Research Funding",
-    "text": "Research Funding\n\nCurrent Funding\n\nHyperScaleEM: Revealing 3D Atomic Structure and Chemistry in Scale-Bridging Volumes via 5D Hyperspectral Electron Tomography\n\nERC Starting grant\nPelz (PI)\n12/2024 - 11/2029\n\n\n\n\nCompleted Funding\n\n“ScatterEM: Utilizing scattering to enhance throughput and sensitivity in electron microscopy”\n\nEAM Starting grant\nPelz (PI)\n01/2023"
+    "text": "Research Funding\n\nCurrent Funding\n\nHyperScaleEM: Revealing 3D Atomic Structure and Chemistry in Scale-Bridging Volumes via 5D Hyperspectral Electron Tomography\n\nERC Starting grant\nPelz (PI)\n12/2024 - 11/2029\n\n\n\n\nCompleted Funding\n\nScatterEM: Utilizing scattering to enhance throughput and sensitivity in electron microscopy\n\nEAM Starting grant\nPelz (PI)\n01/2023 - 12/2024"
   },
   {
     "objectID": "research.html#research-framework",
@@ -928,21 +928,21 @@
     "href": "people/staff/04_philipp_herz.html#research-interests",
     "title": "Philipp Herz",
     "section": "Research Interests",
-    "text": "Research Interests\n\nML for microscopy\n3D imaging"
+    "text": "Research Interests\n\nMachine Learning\nQuantum Physics"
   },
   {
     "objectID": "people/staff/04_philipp_herz.html#brief-bio",
     "href": "people/staff/04_philipp_herz.html#brief-bio",
     "title": "Philipp Herz",
     "section": "Brief Bio",
-    "text": "Brief Bio\nPhilipp earned his MSc. in Physics from Heidelberg University."
+    "text": "Brief Bio\nPhilipp Herz earned his Bachelor degree (2020) and Master degree (2023) in Physics from the University of Heidelberg."
   },
   {
     "objectID": "people/staff/04_philipp_herz.html#experience",
     "href": "people/staff/04_philipp_herz.html#experience",
     "title": "Philipp Herz",
     "section": "Experience",
-    "text": "Experience"
+    "text": "Experience\n\nDeloitte GmbH | Frankfurt/Munich, Germany Audit Analytics Professional | 2023 - 2024\ncellcentric GmbH | Esslingen, Germany Data Science Working Student | 2021 - 2023"
   },
   {
     "objectID": "people/admins/jenny_wirth.html",
@@ -950,5 +950,12 @@
     "title": "Jenny Wirth",
     "section": "",
     "text": "Home\n    People\n    Admin Staff\n    Jenny Wirth\n  \n\n\n  \n \n  \n\n\nJenny Wirth Cauerstraße 3 91058 Erlangen Phone number:+49 9131 85-70397 Email:jenny.wirth@fau.de Website:http://www.em.techfak.uni-erlangen.de"
+  },
+  {
+    "objectID": "people/staff/04_philipp_herz.html#education",
+    "href": "people/staff/04_philipp_herz.html#education",
+    "title": "Philipp Herz",
+    "section": "Education",
+    "text": "Education\n\nRuprechts-Karls-Universität Heidelberg | Heidelberg, Germany M.Sc. Physics | 2020 - 2023 B.Sc. Physics | 2017 - 2020"
   }
 ]

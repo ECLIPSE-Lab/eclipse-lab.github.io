@@ -56,10 +56,10 @@ Stay tuned for the first results!
 
 ### Completed Funding
 
-- *"ScatterEM: Utilizing scattering to enhance throughput and sensitivity in electron microscopy"*
+- *[ScatterEM: Utilizing scattering to enhance throughput and sensitivity in electron microscopy](https://www.pelzlab.science/scatter.html)*
     - EAM Starting grant
     - **Pelz** (PI)
-    - 01/2023
+    - 01/2023 - 12/2024
 
 ## Research Framework
 
