@@ -1,7 +1,7 @@
 ---
 title: "Radin Rahimi"
 sortby: "1"
-subtitle: "Research Assistant"
+subtitle: "Master Thesis Student"
 image: radin.jpeg
 started: "September 2023"
 toc: false

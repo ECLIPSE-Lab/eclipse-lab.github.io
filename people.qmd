@@ -12,6 +12,26 @@ listing:
     sort: sortby
     field-display-names: 
       started: "Started"
+  - id: bsc_students
+    contents: "people/bsc/*.qmd"
+    type: grid
+    image-height: 225px
+    grid-columns: 3
+    sort: sortby
+    fields: [image, title, subtitle, started]
+    field-display-names: 
+      started: "Started"
+    grid-item-align: center
+  - id: msc_students
+    contents: "people/msc/*.qmd"
+    type: grid
+    image-height: 225px
+    grid-columns: 3
+    sort: sortby
+    fields: [image, title, subtitle, started]
+    field-display-names: 
+      started: "Started"
+    grid-item-align: center
   - id: research-assistants
     contents: "people/ras/*.qmd"
     type: grid
@@ -61,13 +81,22 @@ listing:
 :::{#research-staff}
 :::
 
+## MSc Students
+
+:::{#msc_students}
+:::
+
 ## Research Assistants
 
 :::{#research-assistants}
 :::
 
-## Administrative Assistants
+## BSc Students
 
+:::{#bsc_students}
+:::
+
+## Administrative Assistants
 :::{#admin-assistants}
 :::
 
