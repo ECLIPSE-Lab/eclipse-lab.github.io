@@ -2,7 +2,7 @@
 title: "Shengbo You"
 sortby: "1"
 subtitle: "Postdoc"
-image: shengbo.jpg
+image: shengbo_crop.JPG
 started: "Oct 2023"
 toc: false
 about:
