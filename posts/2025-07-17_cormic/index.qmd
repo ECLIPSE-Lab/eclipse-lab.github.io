@@ -1,0 +1,12 @@
+---
+title: "Open PhD position for Sensor Fusion of 4D-STEM with EELS, Raman, and Atom Probe Tomography"
+description: "In the framework of the new CorMic Graduate School, we are looking for a PhD student to work on the fusion of 4D-STEM with EELS, Raman, and Atom Probe Tomography stating April 1 2026."
+author: "Philipp Pelz"
+date: "2025-07-17"
+image: cormic_logo.png
+draft: false
+categories:
+  - announcement 
+---
+
+![Structure of the new CorMic Graduate School](cormic.jpg)

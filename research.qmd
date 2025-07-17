@@ -49,6 +49,11 @@ Stay tuned for the first results!
 
 ### Current Funding
 
+- *CorMic Graduate School*
+    - DFG Graduate School
+    - **Pelz** (Co-PI)
+    - 04/2026 - 03/2031
+
 - *[HyperScaleEM: Revealing 3D Atomic Structure and Chemistry in Scale-Bridging Volumes via 5D Hyperspectral Electron Tomography](https://www.pelzlab.science/hyperscale.html)*
     - ERC Starting grant
     - **Pelz** (PI)
