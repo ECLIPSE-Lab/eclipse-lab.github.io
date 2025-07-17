@@ -1,0 +1,30 @@
+---
+title: "Real-Time Interactive 4D-STEM Phase-Contrast Imaging From Electron Event Representation Data: Less computation with the right representation"
+type: "article"
+author: "P. M. Pelz, I. Johnson, C. Ophus, P. Ercius, M. C. Scott"
+year: "2022"
+publication: "IEEE Signal Processing Magazine 39, 25-31"
+preprint: ""
+doi: "10.1109/MSP.2021.3120981"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - imaging
+  - journal article
+---
+
+## Citation (APA 7)
+
+> Real-Time Interactive 4D-STEM Phase-Contrast Imaging From Electron Event Representation Data: Less computation with the right representation
+P. M. Pelz, I. Johnson, C. Ophus, P. Ercius, M. C. Scott
+IEEE Signal Processing Magazine 39, 25-31
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+

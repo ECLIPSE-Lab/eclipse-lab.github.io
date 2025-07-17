@@ -1,0 +1,30 @@
+---
+title: "Simultaneous Successive Twinning Captured by Atomic Electron Tomography"
+type: "article"
+author: "P. M. Pelz, C. Groschner, A. Bruefach, A. Satariano, C. Ophus, M. C. Scott"
+year: "2022"
+publication: "ACS Nano 16, 588-596"
+preprint: ""
+doi: "10.1021/acsnano.1c07772"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - tomography
+  - atomic resolution
+  - journal article
+---
+
+## Citation (APA 7)
+
+> Simultaneous Successive Twinning Captured by Atomic Electron Tomography
+P. M. Pelz, C. Groschner, A. Bruefach, A. Satariano, C. Ophus, M. C. Scott
+ACS Nano 16, 588-596
+
+
+## Abstract
+
+Shape-controlled synthesis of multiply twinned nanostructures is heavily emphasized in nanoscience, in large part due to the desire to control the size, shape, and terminating facets of metal nanoparticles for applications in catalysis. Direct control of the size and shape of solution-grown nanoparticles relies on an understanding of how synthetic parameters alter nanoparticle structures during synthesis. However, while outcome populations can be effectively studied with standard electron microscopy methods, transient structures that appear during some synthetic routes are difficult to study using conventional high resolution imaging methods due to the high complexity of the 3D nanostructures. Here, we have studied the prevalence of transient structures during growth of multiply twinned particles and employed atomic electron tomography to reveal the atomic-scale three-dimensional structure of a Pd nanoparticle undergoing a shape transition. By identifying over 20 000 atoms within the structure and classifying them according to their local crystallographic environment, we observe a multiply twinned structure consistent with a simultaneous successive twinning from a decahedral to icosahedral structure.
+
+

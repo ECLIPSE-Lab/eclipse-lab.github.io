@@ -1,0 +1,32 @@
+---
+title: "Scattering Matrix Determination in Crystalline Materials from 4D Scanning Transmission Electron Microscopy at a Single Defocus Value"
+type: "article"
+author: "S. D. Findlay, H. G. Brown, P. M. Pelz, C. Ophus, J. Ciston, L. J. Allen"
+year: "2021"
+publication: "Microscopy and Microanalysis 27, 744-757"
+preprint: ""
+doi: "10.1017/S1431927621000490"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - materials science
+  - imaging
+  - physics
+  - journal article
+---
+
+## Citation (APA 7)
+
+> Scattering Matrix Determination in Crystalline Materials from 4D Scanning Transmission Electron Microscopy at a Single Defocus Value
+S. D. Findlay, H. G. Brown, P. M. Pelz, C. Ophus, J. Ciston, L. J. Allen
+Microscopy and Microanalysis 27, 744-757
+
+
+## Abstract
+
+Recent work has revived interest in the scattering matrix formulation of electron scattering in transmission electron microscopy as a stepping stone toward atomic-resolution structure determination in the presence of multiple scattering. We discuss ways of visualizing the scattering matrix that make its properties clear. Through a simulation-based case study incorporating shot noise, we shown how regularizing on this continuity enables the scattering matrix to be reconstructed from 4D scanning transmission electron microscopy (STEM) measurements from a single defocus value. Intriguingly, for crystalline samples, this process also yields the sample thickness to nanometer accuracy with no a priori knowledge about the sample structure. The reconstruction quality is gauged by using the reconstructed scattering matrix to simulate STEM images at defocus values different from that of the data from which it was reconstructed.
+
+

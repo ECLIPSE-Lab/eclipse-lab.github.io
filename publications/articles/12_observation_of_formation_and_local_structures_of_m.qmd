@@ -1,0 +1,31 @@
+---
+title: "Observation of formation and local structures of metal-organic layers via complementary electron microscopy techniques"
+type: "article"
+author: "X. Peng, P. M. Pelz, Q. Zhang, P. Chen, L. Cao, Y. Zhang, H. Liao, H. Zheng, C. Wang, S. Sun, M. C. Scott"
+year: "2022"
+publication: "Nature Communications 13"
+preprint: ""
+doi: "10.1038/s41467-022-32330-z"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - imaging
+  - chemistry
+  - journal article
+---
+
+## Citation (APA 7)
+
+> Observation of formation and local structures of metal-organic layers via complementary electron microscopy techniques
+X. Peng, P. M. Pelz, Q. Zhang, P. Chen, L. Cao, Y. Zhang, H. Liao, H. Zheng, C. Wang, S. Sun, M. C. Scott
+Nature Communications 13
+
+
+## Abstract
+
+Metal-organic layers (MOLs) are highly attractive for application in catalysis, separation, sensing and biomedicine, owing to their tunable framework structure. However, it is challenging to obtain comprehensive information about the formation and local structures of MOLs using standard electron microscopy methods due to serious damage under electron beam irradiation. Here, we investigate the growth processes and local structures of MOLs utilizing a combination of liquid-phase transmission electron microscopy, cryogenic electron microscopy and electron ptychography. Our results show a multistep formation process, where precursor clusters first form in solution, then they are complexed with ligands to form non-crystalline solids, followed by the arrangement of the cluster-ligand complex into crystalline sheets, with additional possible growth by the addition of clusters to surface edges. Moreover, high-resolution imaging allows us to identify missing clusters, dislocations, loop and flat surface terminations and ligand connectors in the MOLs. Our observations provide insights into controllable MOL crystal morphology, defect engineering, and surface modification, thus assisting novel MOL design and synthesis.
+
+

@@ -2,20 +2,22 @@
   {
     "listing": "/publications.html",
     "items": [
-      "/publications/articles/pelz2023a.html",
-      "/publications/articles/terzoudis2023.html",
-      "/publications/articles/pelz2023c.html",
-      "/publications/articles/pelz2023b.html",
-      "/publications/articles/pelz2021b.html",
-      "/publications/articles/pelz2022.html",
-      "/publications/articles/pelz2021e.html",
-      "/publications/articles/pelz2021f.html",
-      "/publications/articles/pelz2021c.html",
-      "/publications/articles/pelz2021d.html",
-      "/publications/articles/pelz2021.html",
-      "/publications/articles/pelz2019.html",
-      "/publications/articles/pelz2017.html",
-      "/publications/articles/pelz2014.html"
+      "/publications/articles/15_multi_slice_electron_ptychographic_tomography_for_.html",
+      "/publications/articles/16_near_isotropic_sub_ångstrom_3d_resolution_phase_co.html",
+      "/publications/articles/14_solving_complex_nanostructures_with_ptychographic_.html",
+      "/publications/articles/13_using_a_fast_hybrid_pixel_detector_for_dose_effici.html",
+      "/publications/articles/09_a_three_dimensional_reconstruction_algorithm_for_s.html",
+      "/publications/articles/12_observation_of_formation_and_local_structures_of_m.html",
+      "/publications/articles/10_real_time_interactive_4d_stem_phase_contrast_imagi.html",
+      "/publications/articles/11_simultaneous_successive_twinning_captured_by_atomi.html",
+      "/publications/articles/04_a_fast_algorithm_for_scanning_transmission_electro.html",
+      "/publications/articles/07_phase_contrast_imaging_of_multiply_scattering_exte.html",
+      "/publications/articles/08_prismatic_20_simulation_software_for_scanning_and_.html",
+      "/publications/articles/05_py4dstem_a_software_package_for_four_dimensional_s.html",
+      "/publications/articles/06_scattering_matrix_determination_in_crystalline_mat.html",
+      "/publications/articles/03_low_dose_cryo_electron_ptychography_via_non_convex.html",
+      "/publications/articles/01_on_the_fly_scans_for_x_ray_ptychography.html",
+      "/publications/articles/02_photo_double_ionization_of_ethylene_and_acetylene_.html"
     ]
   },
   {

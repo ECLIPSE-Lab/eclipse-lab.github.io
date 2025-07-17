@@ -1,0 +1,32 @@
+---
+title: "Prismatic 2.0 – Simulation software for scanning and high resolution transmission electron microscopy (STEM and HRTEM)"
+type: "article"
+author: "L. R. DaCosta, H. G. Brown, P. M. Pelz, A. Rakowski, N. Barber, P. O’Donovan, P. McBean, L. Jones, J. Ciston, M. Scott, C. Ophus"
+year: "2021"
+publication: "Micron 151, 103141"
+preprint: ""
+doi: "10.1016/j.micron.2021.103141"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - software
+  - imaging
+  - computational
+  - journal article
+---
+
+## Citation (APA 7)
+
+> Prismatic 2.0 – Simulation software for scanning and high resolution transmission electron microscopy (STEM and HRTEM)
+L. R. DaCosta, H. G. Brown, P. M. Pelz, A. Rakowski, N. Barber, P. O’Donovan, P. McBean, L. Jones, J. Ciston, M. Scott, C. Ophus
+Micron 151, 103141
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+

@@ -1,0 +1,63 @@
+---
+title: "Multi-slice electron ptychographic tomography for three-dimensional phase-contrast microscopy beyond the depth of focus limits"
+type: "article"
+author: "A. Romanov, M. G. Cho, M. C. Scott, P. Pelz"
+year: "2025"
+publication: "Journal of Physics: Materials 8, 015005"
+preprint: ""
+doi: "10.1088/2515-7639/ad9ad2"
+materials: ""
+code_url: "https://github.com/ECLIPSE-Lab/MSPT_code"
+project_page_url: "https://pelzlab.science/MSPT/"
+toc: false
+categories:
+  - ptychography
+  - tomography
+  - imaging
+  - journal article
+---
+
+## Citation (APA 7)
+
+> Multi-slice electron ptychographic tomography for three-dimensional phase-contrast microscopy beyond the depth of focus limits
+A. Romanov, M. G. Cho, M. C. Scott, P. Pelz
+Journal of Physics: Materials 8, 015005
+
+
+## Abstract
+
+Electron ptychography is a powerful computational method for atomic-resolution imaging with high contrast for weakly and strongly scattering elements. Modern algorithms coupled with fast and efficient detectors allow imaging specimens with tens of nanometers thicknesses with sub-0.5 Ångstrom lateral resolution. However, the axial resolution in these approaches is currently limited to a few nanometers, limiting their ability to solve novel atomic structures ab initio. Here, we experimentally demonstrate multi-slice ptychographic electron tomography, which allows atomic resolution three-dimensional phase-contrast imaging in a volume surpassing the depth of field limits. We reconstruct tilt-series 4D-STEM measurements of a <jats:inline-formula>
+ <jats:tex-math/>
+ <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+ <mml:mrow>
+ <mml:mrow>
+ <mml:msub>
+ <mml:mi>Co</mml:mi>
+ <mml:mn>3</mml:mn>
+ </mml:msub>
+ <mml:msub>
+ <mml:mi mathvariant="normal">O</mml:mi>
+ <mml:mn>4</mml:mn>
+ </mml:msub>
+ </mml:mrow>
+ </mml:mrow>
+ </mml:math>
+ </jats:inline-formula> nanocube, yielding 2 Å axial and 0.7 Å transverse resolution in a reconstructed volume of <jats:inline-formula>
+ <jats:tex-math/>
+ <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" overflow="scroll">
+ <mml:mrow>
+ <mml:mrow>
+ <mml:mo stretchy="false">(</mml:mo>
+ <mml:mn>18.2</mml:mn>
+ <mml:mstyle scriptlevel="0"/>
+ <mml:mi>nm</mml:mi>
+ <mml:msup>
+ <mml:mo stretchy="false">)</mml:mo>
+ <mml:mn>3</mml:mn>
+ </mml:msup>
+ </mml:mrow>
+ </mml:mrow>
+ </mml:math>
+ </jats:inline-formula>. Our results demonstrate a 13.5-fold improvement in axial resolution compared to multi-slice ptychography while retaining the atomic lateral resolution and the capability to image volumes beyond the depth of field limit. Multi-slice ptychographic electron tomography significantly expands the volume of materials accessible using high-resolution electron microscopy. We discuss further experimental and algorithmic improvements necessary to also resolve single weakly scattering atoms in 3D.
+
+

@@ -1,0 +1,32 @@
+---
+title: "A Three-Dimensional Reconstruction Algorithm for Scanning Transmission Electron Microscopy Data from a Single Sample Orientation"
+type: "article"
+author: "H. G. Brown, P. M. Pelz, S. Hsu, Z. Zhang, R. Ramesh, K. Inzani, E. Sheridan, S. M. Griffin, M. Schloz, T. C. Pekin, C. T. Koch, S. D. Findlay, L. J. Allen, M. C. Scott, C. Ophus, J. Ciston"
+year: "2022"
+publication: "Microscopy and Microanalysis 28, 1632-1640"
+preprint: ""
+doi: "10.1017/S1431927622012090"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - software
+  - imaging
+  - computational
+  - journal article
+---
+
+## Citation (APA 7)
+
+> A Three-Dimensional Reconstruction Algorithm for Scanning Transmission Electron Microscopy Data from a Single Sample Orientation
+H. G. Brown, P. M. Pelz, S. Hsu, Z. Zhang, R. Ramesh, K. Inzani, E. Sheridan, S. M. Griffin, M. Schloz, T. C. Pekin, C. T. Koch, S. D. Findlay, L. J. Allen, M. C. Scott, C. Ophus, J. Ciston
+Microscopy and Microanalysis 28, 1632-1640
+
+
+## Abstract
+
+Increasing interest in three-dimensional nanostructures adds impetus to electron microscopy techniques capable of imaging at or below the nanoscale in three dimensions. We present a reconstruction algorithm that takes as input a focal series of four-dimensional scanning transmission electron microscopy (4D-STEM) data. We apply the approach to a lead iridate, PbIrO, and yttrium-stabilized zirconia, YZrO, heterostructure from data acquired with the specimen in a single plan-view orientation, with the epitaxial layers stacked along the beam direction. We demonstrate that Pb–Ir atomic columns are visible in the uppermost layers of the reconstructed volume. We compare this approach to the alternative techniques of depth sectioning using differential phase contrast scanning transmission electron microscopy (DPC-STEM) and multislice ptychographic reconstruction.
+
+

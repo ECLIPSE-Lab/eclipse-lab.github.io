@@ -1,0 +1,32 @@
+---
+title: "Solving complex nanostructures with ptychographic atomic electron tomography"
+type: "article"
+author: "P. M. Pelz, S. M. Griffin, S. Stonemeyer, D. Popple, H. DeVyldere, P. Ercius, A. Zettl, M. C. Scott, C. Ophus"
+year: "2023"
+publication: "Nature Communications 14"
+preprint: ""
+doi: "10.1038/s41467-023-43634-z"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - ptychography
+  - tomography
+  - atomic resolution
+  - nanoparticles
+  - journal article
+---
+
+## Citation (APA 7)
+
+> Solving complex nanostructures with ptychographic atomic electron tomography
+P. M. Pelz, S. M. Griffin, S. Stonemeyer, D. Popple, H. DeVyldere, P. Ercius, A. Zettl, M. C. Scott, C. Ophus
+Nature Communications 14
+
+
+## Abstract
+
+Transmission electron microscopy (TEM) is essential for determining atomic scale structures in structural biology and materials science. In structural biology, three-dimensional structures of proteins are routinely determined from thousands of identical particles using phase-contrast TEM. In materials science, three-dimensional atomic structures of complex nanomaterials have been determined using atomic electron tomography (AET). However, neither of these methods can determine the three-dimensional atomic structure of heterogeneous nanomaterials containing light elements. Here, we perform ptychographic electron tomography from 34.5 million diffraction patterns to reconstruct an atomic resolution tilt series of a double wall-carbon nanotube (DW-CNT) encapsulating a complex ZrTe sandwich structure. Class averaging the resulting tilt series images and subpixel localization of the atomic peaks reveals a Zr<sub>11</sub>Te<sub>50</sub> structure containing a previously unobserved ZrTe<sub>2</sub> phase in the core. The experimental realization of atomic resolution ptychographic electron tomography will allow for the structural determination of a wide range of beam-sensitive nanomaterials containing light elements.
+
+

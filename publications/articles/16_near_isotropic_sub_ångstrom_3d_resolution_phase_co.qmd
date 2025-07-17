@@ -1,0 +1,32 @@
+---
+title: "Near-isotropic sub-Ångstrom 3d resolution phase contrast imaging achieved by end-to-end ptychographic electron tomography"
+type: "article"
+author: "S. You, A. Romanov, P. M. Pelz"
+year: "2025"
+publication: "Physica Scripta 100, 015404"
+preprint: ""
+doi: "10.1088/1402-4896/ad9a1a"
+materials: ""
+code_url: "https://github.com/ECLIPSE-Lab/End2EndPtychoTomo_code"
+project_page_url: "https://pelzlab.science/End2EndPtychoTomo/"
+toc: false
+categories:
+  - ptychography
+  - tomography
+  - atomic resolution
+  - imaging
+  - journal article
+---
+
+## Citation (APA 7)
+
+> Near-isotropic sub-Ångstrom 3d resolution phase contrast imaging achieved by end-to-end ptychographic electron tomography
+S. You, A. Romanov, P. M. Pelz
+Physica Scripta 100, 015404
+
+
+## Abstract
+
+Three-dimensional atomic resolution imaging using transmission electron microscopes is a unique capability that requires challenging experiments. Linear electron tomography methods are limited by the missing wedge effect, requiring a high tilt range. Multislice ptychography can achieve deep sub-Ångstrom resolution in the transverse direction, but depth resolution is limited to 2 to 3 nanometers. In this paper, we propose and demonstrate an end-to-end approach to reconstructing the electrostatic potential volume of the sample directly from the 4D-STEM datasets. End-to-end multislice ptychographic tomography recovers several slices at each tomography tilt angle and compensates for the missing wedge effect. The algorithm is initially tested in simulation with a Pt@Al<sub>2</sub>O<sub>3</sub> core–shell nanoparticle, where both heavy and light atoms are recovered in 3D from an unaligned 4D-STEM tilt series with a restricted tilt range of 90 degrees. We also demonstrate the algorithm experimentally, recovering a Te nanoparticle with sub-Ångstrom resolution.
+
+

@@ -1,0 +1,31 @@
+---
+title: "Phase-contrast imaging of multiply-scattering extended objects at atomic resolution by reconstruction of the scattering matrix"
+type: "article"
+author: "P. M. Pelz, H. G. Brown, S. Stonemeyer, S. D. Findlay, A. Zettl, P. Ercius, Y. Zhang, J. Ciston, M. C. Scott, C. Ophus"
+year: "2021"
+publication: "Physical Review Research 3"
+preprint: ""
+doi: "10.1103/PhysRevResearch.3.023159"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - atomic resolution
+  - imaging
+  - physics
+  - journal article
+---
+
+## Citation (APA 7)
+
+> Phase-contrast imaging of multiply-scattering extended objects at atomic resolution by reconstruction of the scattering matrix
+P. M. Pelz, H. G. Brown, S. Stonemeyer, S. D. Findlay, A. Zettl, P. Ercius, Y. Zhang, J. Ciston, M. C. Scott, C. Ophus
+Physical Review Research 3
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+

@@ -1,0 +1,31 @@
+---
+title: "Using a fast hybrid pixel detector for dose-efficient diffraction imaging beam-sensitive organic molecular thin films"
+type: "article"
+author: "M. Wu, D. G. Stroppa, P. Pelz, E. Spiecker"
+year: "2023"
+publication: "Journal of Physics: Materials 6, 045008"
+preprint: ""
+doi: "10.1088/2515-7639/acf524"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - imaging
+  - physics
+  - chemistry
+  - journal article
+---
+
+## Citation (APA 7)
+
+> Using a fast hybrid pixel detector for dose-efficient diffraction imaging beam-sensitive organic molecular thin films
+M. Wu, D. G. Stroppa, P. Pelz, E. Spiecker
+Journal of Physics: Materials 6, 045008
+
+
+## Abstract
+
+We discuss the benefits and showcase the applications of using a fast, hybrid-pixel detector (HPD) for 4D-STEM experiments and emphasize that in diffraction imaging the structure of molecular nano-crystallites in organic solar cell thin films with a dose-efficient modality 4D-scanning confocal electron diffraction (4D-SCED). With 4D-SCED, spot diffraction patterns form from an interaction area of a few nm while the electron beam rasters over the sample, resulting in high dose effectiveness yet highly demanding on the detector in frame speed, sensitivity, and single-pixel count rate. We compare the datasets acquired with 4D-SCED using a fast HPD with those using state-of-the-art complementary metal-oxide-semiconductor (CMOS) cameras to map the in-plane orientation of π-stacking nano-crystallites of small molecule DRCN5T in a blend of DRCN5T: PC<sub>71</sub>BM after solvent vapor annealing. The high-speed CMOS camera, using a scintillator optimized for low doses, showed impressive results for electron sensitivity and low noise. However, the limited speed restricted practical experimental conditions and caused unintended damage to small and weak nano-crystallites. The fast HPD, with a speed three orders of magnitude higher, allows a much higher probe current yet a lower total dose on the sample, and more scan points cover a large field of view in less time. A lot more faint diffraction signals that correspond to just a few electron events are detected. The improved performance of direct electron detectors opens more possibilities to enhance the characterization of beam-sensitive materials using 4D-STEM techniques.
+
+
