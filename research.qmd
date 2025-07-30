@@ -42,7 +42,8 @@ Stay tuned for the first results!
 
 We are developing automation methods for electron microscopy.
 
-Stay tuned for the first results!
+- [Automated End-to-end ptychographic tomography](https://doi.org/10.1093/mam/ozaf048.070)
+
 
 
 ## Research Funding
