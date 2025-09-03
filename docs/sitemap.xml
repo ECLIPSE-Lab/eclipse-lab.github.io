@@ -2,39 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pelzlab.science/teaching.html</loc>
-    <lastmod>2025-05-09T15:27:24.330Z</lastmod>
+    <lastmod>2025-03-13T17:46:29.057Z</lastmod>
   </url>
   <url>
     <loc>https://pelzlab.science/research.html</loc>
     <lastmod>2025-07-30T10:39:22.867Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/publications/articles/terzoudis2023.html</loc>
-    <lastmod>2025-03-12T09:36:32.733Z</lastmod>
+    <loc>https://pelzlab.science/publications/articles/16_near_isotropic_sub_ångstrom_3d_resolution_phase_co.html</loc>
+    <lastmod>2025-07-17T10:40:18.767Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/publications/articles/pelz2023b.html</loc>
-    <lastmod>2025-03-12T09:36:32.732Z</lastmod>
+    <loc>https://pelzlab.science/publications/articles/14_solving_complex_nanostructures_with_ptychographic_.html</loc>
+    <lastmod>2025-07-17T10:40:18.673Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/publications/articles/pelz2022.html</loc>
-    <lastmod>2025-03-12T09:36:32.731Z</lastmod>
+    <loc>https://pelzlab.science/publications/articles/12_observation_of_formation_and_local_structures_of_m.html</loc>
+    <lastmod>2025-07-17T10:40:18.571Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/publications/articles/pelz2021e.html</loc>
-    <lastmod>2025-03-12T09:36:32.730Z</lastmod>
+    <loc>https://pelzlab.science/publications/articles/10_real_time_interactive_4d_stem_phase_contrast_imagi.html</loc>
+    <lastmod>2025-07-17T10:40:18.481Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/publications/articles/pelz2021c.html</loc>
-    <lastmod>2025-03-12T09:36:32.729Z</lastmod>
+    <loc>https://pelzlab.science/publications/articles/08_prismatic_20_simulation_software_for_scanning_and_.html</loc>
+    <lastmod>2025-07-17T10:40:18.303Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/publications/articles/pelz2021.html</loc>
-    <lastmod>2025-03-12T09:36:32.728Z</lastmod>
+    <loc>https://pelzlab.science/publications/articles/06_scattering_matrix_determination_in_crystalline_mat.html</loc>
+    <lastmod>2025-07-17T10:40:18.252Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/publications/articles/pelz2017.html</loc>
-    <lastmod>2025-03-12T09:36:32.727Z</lastmod>
+    <loc>https://pelzlab.science/publications/articles/04_a_fast_algorithm_for_scanning_transmission_electro.html</loc>
+    <lastmod>2025-07-17T10:40:18.113Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pelzlab.science/publications/articles/02_photo_double_ionization_of_ethylene_and_acetylene_.html</loc>
+    <lastmod>2025-07-17T10:40:18.062Z</lastmod>
   </url>
   <url>
     <loc>https://pelzlab.science/posts/shengbo_joins/index.html</loc>
@@ -61,72 +65,80 @@
     <lastmod>2025-03-12T09:36:32.546Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/posts/2024-11-23_M&amp;M2025/index.html</loc>
-    <lastmod>2025-03-12T09:36:32.538Z</lastmod>
+    <loc>https://pelzlab.science/posts/2024-11-23_SwissNonoConvention/index.html</loc>
+    <lastmod>2025-03-12T09:36:32.540Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/posts/2024-09-03_HyperScaleEM_phd/index.html</loc>
-    <lastmod>2025-03-12T09:36:32.535Z</lastmod>
+    <loc>https://pelzlab.science/posts/2024-09-03_HyperScaleEM_postdoc/index.html</loc>
+    <lastmod>2025-03-12T09:36:32.537Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/people.html</loc>
-    <lastmod>2025-05-14T08:02:39.445Z</lastmod>
+    <loc>https://pelzlab.science/posts/2023_DPG_spring/index.html</loc>
+    <lastmod>2025-03-12T09:36:32.533Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pelzlab.science/people/staff/04_philipp_herz.html</loc>
+    <lastmod>2025-05-14T08:02:39.452Z</lastmod>
   </url>
   <url>
     <loc>https://pelzlab.science/people/staff/02_shengbo_you.html</loc>
-    <lastmod>2025-03-12T09:36:32.516Z</lastmod>
+    <lastmod>2025-05-14T08:02:39.450Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/people/ras/radin_rahimi.html</loc>
-    <lastmod>2025-03-12T09:36:32.515Z</lastmod>
+    <loc>https://pelzlab.science/people/msc/radin_rahimi.html</loc>
+    <lastmod>2025-05-14T08:02:39.448Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/people/alumni/01_andrey_romanov.html</loc>
-    <lastmod>2025-03-12T09:36:32.512Z</lastmod>
+    <loc>https://pelzlab.science/people/alumni/gaurab_dhungana.html</loc>
+    <lastmod>2025-03-12T09:36:32.514Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/people/admins/birke.html</loc>
-    <lastmod>2025-03-17T16:10:34.008Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/news.html</loc>
-    <lastmod>2025-03-12T09:36:32.508Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/hyperscale.html</loc>
-    <lastmod>2025-03-12T13:06:57.016Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/footer.html</loc>
-    <lastmod>2025-03-12T09:36:32.195Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/about.html</loc>
-    <lastmod>2025-03-12T09:36:32.069Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/contact.html</loc>
-    <lastmod>2025-03-12T09:36:32.072Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/girard/index.html</loc>
-    <lastmod>2025-03-12T09:36:32.195Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/index.html</loc>
-    <lastmod>2025-07-30T10:47:56.383Z</lastmod>
+    <loc>https://pelzlab.science/people/admins/jenny_wirth.html</loc>
+    <lastmod>2025-09-01T15:06:01.545Z</lastmod>
   </url>
   <url>
     <loc>https://pelzlab.science/opportunities.html</loc>
     <lastmod>2025-03-12T09:36:32.508Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/people/admins/inga_schaefer.html</loc>
-    <lastmod>2025-03-12T09:36:32.511Z</lastmod>
+    <loc>https://pelzlab.science/index.html</loc>
+    <lastmod>2025-07-30T10:47:56.383Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/people/alumni/gaurab_dhungana.html</loc>
-    <lastmod>2025-03-12T09:36:32.514Z</lastmod>
+    <loc>https://pelzlab.science/girard/index.html</loc>
+    <lastmod>2025-03-12T09:36:32.195Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pelzlab.science/contact.html</loc>
+    <lastmod>2025-03-12T09:36:32.072Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pelzlab.science/about.html</loc>
+    <lastmod>2025-03-12T09:36:32.069Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pelzlab.science/footer.html</loc>
+    <lastmod>2025-03-12T09:36:32.195Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pelzlab.science/hyperscale.html</loc>
+    <lastmod>2025-03-12T13:06:57.016Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pelzlab.science/news.html</loc>
+    <lastmod>2025-03-12T09:36:32.508Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pelzlab.science/people/admins/birke.html</loc>
+    <lastmod>2025-03-17T16:10:34.008Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pelzlab.science/people/alumni/01_andrey_romanov.html</loc>
+    <lastmod>2025-03-12T09:36:32.512Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pelzlab.science/people/msc/dasun.html</loc>
+    <lastmod>2025-05-14T08:04:38.916Z</lastmod>
   </url>
   <url>
     <loc>https://pelzlab.science/people/staff/00_pelz_philipp.html</loc>
@@ -137,16 +149,20 @@
     <lastmod>2025-05-14T08:02:39.451Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/posts/2023_DPG_spring/index.html</loc>
-    <lastmod>2025-03-12T09:36:32.533Z</lastmod>
+    <loc>https://pelzlab.science/people.html</loc>
+    <lastmod>2025-05-14T08:02:39.445Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/posts/2024-09-03_HyperScaleEM_postdoc/index.html</loc>
-    <lastmod>2025-03-12T09:36:32.537Z</lastmod>
+    <loc>https://pelzlab.science/posts/2024-09-03_HyperScaleEM_phd/index.html</loc>
+    <lastmod>2025-03-12T09:36:32.535Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/posts/2024-11-23_SwissNonoConvention/index.html</loc>
-    <lastmod>2025-03-12T09:36:32.540Z</lastmod>
+    <loc>https://pelzlab.science/posts/2024-11-23_M&amp;M2025/index.html</loc>
+    <lastmod>2025-03-12T09:36:32.538Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pelzlab.science/posts/2025-07-17_cormic/index.html</loc>
+    <lastmod>2025-07-29T13:52:54.246Z</lastmod>
   </url>
   <url>
     <loc>https://pelzlab.science/posts/24-04-position/index.html</loc>
@@ -169,32 +185,36 @@
     <lastmod>2025-03-12T09:36:32.723Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/publications/articles/pelz2014.html</loc>
-    <lastmod>2025-03-12T09:36:32.727Z</lastmod>
+    <loc>https://pelzlab.science/publications/articles/01_on_the_fly_scans_for_x_ray_ptychography.html</loc>
+    <lastmod>2025-07-17T10:40:18.038Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/publications/articles/pelz2019.html</loc>
-    <lastmod>2025-03-12T09:36:32.728Z</lastmod>
+    <loc>https://pelzlab.science/publications/articles/03_low_dose_cryo_electron_ptychography_via_non_convex.html</loc>
+    <lastmod>2025-07-17T10:40:18.087Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/publications/articles/pelz2021b.html</loc>
-    <lastmod>2025-03-12T09:36:32.728Z</lastmod>
+    <loc>https://pelzlab.science/publications/articles/05_py4dstem_a_software_package_for_four_dimensional_s.html</loc>
+    <lastmod>2025-07-17T10:40:18.131Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/publications/articles/pelz2021d.html</loc>
-    <lastmod>2025-03-12T09:36:32.729Z</lastmod>
+    <loc>https://pelzlab.science/publications/articles/07_phase_contrast_imaging_of_multiply_scattering_exte.html</loc>
+    <lastmod>2025-07-17T10:40:18.277Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/publications/articles/pelz2021f.html</loc>
-    <lastmod>2025-03-12T09:36:32.730Z</lastmod>
+    <loc>https://pelzlab.science/publications/articles/09_a_three_dimensional_reconstruction_algorithm_for_s.html</loc>
+    <lastmod>2025-07-17T10:40:18.328Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/publications/articles/pelz2023a.html</loc>
-    <lastmod>2025-03-12T09:36:32.731Z</lastmod>
+    <loc>https://pelzlab.science/publications/articles/11_simultaneous_successive_twinning_captured_by_atomi.html</loc>
+    <lastmod>2025-07-17T10:40:18.511Z</lastmod>
   </url>
   <url>
-    <loc>https://pelzlab.science/publications/articles/pelz2023c.html</loc>
-    <lastmod>2025-03-12T09:36:32.732Z</lastmod>
+    <loc>https://pelzlab.science/publications/articles/13_using_a_fast_hybrid_pixel_detector_for_dose_effici.html</loc>
+    <lastmod>2025-07-17T10:40:18.617Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pelzlab.science/publications/articles/15_multi_slice_electron_ptychographic_tomography_for_.html</loc>
+    <lastmod>2025-07-17T10:40:18.727Z</lastmod>
   </url>
   <url>
     <loc>https://pelzlab.science/publications.html</loc>
@@ -202,158 +222,6 @@
   </url>
   <url>
     <loc>https://pelzlab.science/resources.html</loc>
-    <lastmod>2025-07-31T11:35:49.298Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/people/staff/03_nikita_palatkin copy.html</loc>
-    <lastmod>2025-03-12T09:36:32.516Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/people/staff/04_philipp_herz.html</loc>
-    <lastmod>2025-05-09T15:26:40.129Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/people/admins/jenny_wirth.html</loc>
-    <lastmod>2025-03-17T16:10:11.847Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/people/msc/radin_rahimi.html</loc>
-    <lastmod>2025-05-09T16:34:08.706Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/people/msc/dasun.html</loc>
-    <lastmod>2025-05-14T08:04:38.916Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles_test/15_multi_slice_electron_ptychographic_tomography_for_.html</loc>
-    <lastmod>2025-07-17T10:17:53.844Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles_test/13_using_a_fast_hybrid_pixel_detector_for_dose_effici.html</loc>
-    <lastmod>2025-07-17T10:17:53.833Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles_test/11_simultaneous_successive_twinning_captured_by_atomi.html</loc>
-    <lastmod>2025-07-17T10:17:53.815Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles_test/09_a_three_dimensional_reconstruction_algorithm_for_s.html</loc>
-    <lastmod>2025-07-17T10:17:53.773Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles_test/07_phase_contrast_imaging_of_multiply_scattering_exte.html</loc>
-    <lastmod>2025-07-17T10:17:53.743Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles_test/05_py4dstem_a_software_package_for_four_dimensional_s.html</loc>
-    <lastmod>2025-07-17T10:17:53.698Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles_test/03_low_dose_cryo_electron_ptychography_via_non_convex.html</loc>
-    <lastmod>2025-07-17T10:17:53.623Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles_test/01_on_the_fly_scans_for_x_ray_ptychography.html</loc>
-    <lastmod>2025-07-17T10:17:53.605Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles_test/02_photo_double_ionization_of_ethylene_and_acetylene_.html</loc>
-    <lastmod>2025-07-17T10:17:53.615Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles_test/04_a_fast_algorithm_for_scanning_transmission_electro.html</loc>
-    <lastmod>2025-07-17T10:17:53.643Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles_test/06_scattering_matrix_determination_in_crystalline_mat.html</loc>
-    <lastmod>2025-07-17T10:17:53.736Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles_test/08_prismatic_20_simulation_software_for_scanning_and_.html</loc>
-    <lastmod>2025-07-17T10:17:53.757Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles_test/10_real_time_interactive_4d_stem_phase_contrast_imagi.html</loc>
-    <lastmod>2025-07-17T10:17:53.805Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles_test/12_observation_of_formation_and_local_structures_of_m.html</loc>
-    <lastmod>2025-07-17T10:17:53.822Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles_test/14_solving_complex_nanostructures_with_ptychographic_.html</loc>
-    <lastmod>2025-07-17T10:17:53.838Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles_test/16_near_isotropic_sub_ångstrom_3d_resolution_phase_co.html</loc>
-    <lastmod>2025-07-17T10:17:53.853Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles/15_multi_slice_electron_ptychographic_tomography_for_.html</loc>
-    <lastmod>2025-07-17T10:40:18.727Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles/13_using_a_fast_hybrid_pixel_detector_for_dose_effici.html</loc>
-    <lastmod>2025-07-17T10:40:18.617Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles/11_simultaneous_successive_twinning_captured_by_atomi.html</loc>
-    <lastmod>2025-07-17T10:40:18.511Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles/09_a_three_dimensional_reconstruction_algorithm_for_s.html</loc>
-    <lastmod>2025-07-17T10:40:18.328Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles/07_phase_contrast_imaging_of_multiply_scattering_exte.html</loc>
-    <lastmod>2025-07-17T10:40:18.277Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles/05_py4dstem_a_software_package_for_four_dimensional_s.html</loc>
-    <lastmod>2025-07-17T10:40:18.131Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles/03_low_dose_cryo_electron_ptychography_via_non_convex.html</loc>
-    <lastmod>2025-07-17T10:40:18.087Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles/01_on_the_fly_scans_for_x_ray_ptychography.html</loc>
-    <lastmod>2025-07-17T10:40:18.038Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles/02_photo_double_ionization_of_ethylene_and_acetylene_.html</loc>
-    <lastmod>2025-07-17T10:40:18.062Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles/04_a_fast_algorithm_for_scanning_transmission_electro.html</loc>
-    <lastmod>2025-07-17T10:40:18.113Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles/06_scattering_matrix_determination_in_crystalline_mat.html</loc>
-    <lastmod>2025-07-17T10:40:18.252Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles/08_prismatic_20_simulation_software_for_scanning_and_.html</loc>
-    <lastmod>2025-07-17T10:40:18.303Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles/10_real_time_interactive_4d_stem_phase_contrast_imagi.html</loc>
-    <lastmod>2025-07-17T10:40:18.481Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles/12_observation_of_formation_and_local_structures_of_m.html</loc>
-    <lastmod>2025-07-17T10:40:18.571Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles/14_solving_complex_nanostructures_with_ptychographic_.html</loc>
-    <lastmod>2025-07-17T10:40:18.673Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/publications/articles/16_near_isotropic_sub_ångstrom_3d_resolution_phase_co.html</loc>
-    <lastmod>2025-07-17T10:40:18.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pelzlab.science/posts/2025-07-17_cormic/index.html</loc>
-    <lastmod>2025-07-29T13:52:54.246Z</lastmod>
+    <lastmod>2025-09-01T15:04:56.666Z</lastmod>
   </url>
 </urlset>

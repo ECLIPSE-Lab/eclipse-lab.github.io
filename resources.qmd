@@ -18,7 +18,7 @@ toc: true
 
 ## Tutorials
 
-- [2025-09-XX MC 2025 Ptychography Tutorial (invited)](https://pelzlab.science/public_presentations/conference_talks/MC2025/template.html#/title-slide)
+- [2025-08-31 MC 2025 Ptychography Tutorial (invited)](https://pelzlab.science/public_presentations/conference_talks/2025_MC/template.html#/title-slide)
 
 ## Datasets
 
