@@ -1,8 +1,8 @@
 ---
-title: "Doctoral Researcher or Postdoctoral Researcher position FILLED"
-description: "A position on computational imaging in electron microscopy is available starting April 1st"
+title: "Doctoral Researcher or Postdoctoral Researcher position OPEN"
+description: "A position on computational imaging in electron microscopy is available starting Nov 1st"
 author: "Philipp Pelz"
-date: "2025-01-27"
+date: "2025-09-11"
 image: 4DSTEM_render.jpg
 draft: false
 categories:
@@ -15,7 +15,7 @@ The Computational Microscopy group of Prof. Dr. Philipp Pelz at FAU Erlangen-Nü
 ## Doctoral Researcher or Postdoctoral Researcher Computational Imaging in Electron Microscopy (m/f/x) 
 **(subject to personal qualifications, remuneration according to salary group E 13 TV-L 75%-100%)**
 
-starting April 1st 2025 or earliest date possible. 
+starting Oct 1st 2025 or earliest date possible. 
 
 Position and tasks 
 
@@ -30,7 +30,7 @@ Position Requirements
 - Proficiency in scientific Python programming.
 - Experience with machine learning frameworks such as PyTorch, Jax
 - Excellent communication and interpersonal skills to be able to interact effectively with a diverse group of scientists and technical staff.
-- Self-motivated and able to work in a team environment.
+- Self-motivated, ambitious and able to work in a team environment.
 
 Preferred Knowledge, Skills, and Abilities (experience in two or more of the following):
 

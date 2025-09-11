@@ -4,6 +4,7 @@ sortby: "1"
 subtitle: "Doctoral Researcher"
 image: philipp_herz_crop.JPG
 started: "Mar 2025"
+ended: "Sep 2025"
 toc: false
 about:
   id: person-profile
