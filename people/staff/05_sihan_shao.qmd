@@ -8,22 +8,13 @@ toc: false
 about:
   id: person-profile
   template: jolla
-   links:
-     - icon: link
-       text: website
-       href: https://sihan-shao.github.io/
-  #   # - icon: file-earmark-text
-  #   #   text: vitae
-  #   #   href: ./people/staff/girard_cv.pdf
-  #   - icon: mortarboard
-  #     text: scholar
-  #     href: https://scholar.google.de/citations?hl=en&user=d-lXKR8AAAAJ
-     - icon: github
-       text: github
-       href: https://github.com/sihan-shao
-  #   - icon: twitter
-  #     text: twitter
-  #     href: https://twitter.com/PhilippPelz
+  links:
+    - icon: link
+      text: website
+      href: https://sihan-shao.github.io/ 
+    - icon: github
+      text: github
+      href: https://github.com/sihan-shao 
 ---
  
 ```{=html}
