@@ -1055,6 +1055,7 @@
     "title": "ECLIPSE Lab",
     "section": "Datasets",
     "text": "Datasets\nEMDatasets is a python package where we collect published electron microscopy datasets for teaching purposes.\nPtychographic Atomic Tomography Dataset"
+<<<<<<< HEAD
   },
   {
     "objectID": "posts/25-09-position/index.html",
@@ -1073,36 +1074,159 @@
   {
     "objectID": "people/alumni/04_philipp_herz.html",
     "href": "people/alumni/04_philipp_herz.html",
+=======
+<<<<<<< HEAD
+=======
+  },
+  {
+    "objectID": "people/staff/03_nikita_palatkin copy.html",
+    "href": "people/staff/03_nikita_palatkin copy.html",
+    "title": "Nikita Palatkin",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Nikita Palatkin"
+  },
+  {
+    "objectID": "people/staff/03_nikita_palatkin copy.html#research-interests",
+    "href": "people/staff/03_nikita_palatkin copy.html#research-interests",
+    "title": "Nikita Palatkin",
+    "section": "Research Interests",
+    "text": "Research Interests\ncomputational imaging & microscopy, tomography, ptychography"
+  },
+  {
+    "objectID": "people/staff/03_nikita_palatkin copy.html#brief-bio",
+    "href": "people/staff/03_nikita_palatkin copy.html#brief-bio",
+    "title": "Nikita Palatkin",
+    "section": "Brief Bio",
+    "text": "Brief Bio\nNikita earned his MSc. in Physics."
+  },
+  {
+    "objectID": "people/staff/03_nikita_palatkin copy.html#experience",
+    "href": "people/staff/03_nikita_palatkin copy.html#experience",
+    "title": "Nikita Palatkin",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/staff/04_philipp_herz.html",
+    "href": "people/staff/04_philipp_herz.html",
+>>>>>>> efd5b602348f30a655157a1d4fd8c1a35bb78265
     "title": "Philipp Herz",
     "section": "",
     "text": "Home\n    People\n    Research Staff\n    Philipp Herz"
   },
   {
+<<<<<<< HEAD
     "objectID": "people/alumni/04_philipp_herz.html#research-interests",
     "href": "people/alumni/04_philipp_herz.html#research-interests",
+=======
+    "objectID": "people/staff/04_philipp_herz.html#research-interests",
+    "href": "people/staff/04_philipp_herz.html#research-interests",
+>>>>>>> efd5b602348f30a655157a1d4fd8c1a35bb78265
     "title": "Philipp Herz",
     "section": "Research Interests",
     "text": "Research Interests\n\nMachine Learning\nQuantum Physics"
   },
   {
+<<<<<<< HEAD
     "objectID": "people/alumni/04_philipp_herz.html#brief-bio",
     "href": "people/alumni/04_philipp_herz.html#brief-bio",
+=======
+    "objectID": "people/staff/04_philipp_herz.html#brief-bio",
+    "href": "people/staff/04_philipp_herz.html#brief-bio",
+>>>>>>> efd5b602348f30a655157a1d4fd8c1a35bb78265
     "title": "Philipp Herz",
     "section": "Brief Bio",
     "text": "Brief Bio\nPhilipp Herz earned his Bachelor degree (2020) and Master degree (2023) in Physics from the University of Heidelberg."
   },
   {
+<<<<<<< HEAD
     "objectID": "people/alumni/04_philipp_herz.html#experience",
     "href": "people/alumni/04_philipp_herz.html#experience",
+=======
+    "objectID": "people/staff/04_philipp_herz.html#experience",
+    "href": "people/staff/04_philipp_herz.html#experience",
+>>>>>>> efd5b602348f30a655157a1d4fd8c1a35bb78265
     "title": "Philipp Herz",
     "section": "Experience",
     "text": "Experience\n\nDeloitte GmbH | Frankfurt/Munich, Germany Audit Analytics Professional | 2023 - 2024\ncellcentric GmbH | Esslingen, Germany Data Science Working Student | 2021 - 2023"
   },
   {
+<<<<<<< HEAD
     "objectID": "people/alumni/04_philipp_herz.html#education",
     "href": "people/alumni/04_philipp_herz.html#education",
     "title": "Philipp Herz",
     "section": "Education",
     "text": "Education\n\nRuprechts-Karls-Universität Heidelberg | Heidelberg, Germany M.Sc. Physics | 2020 - 2023 B.Sc. Physics | 2017 - 2020"
+=======
+    "objectID": "people/admins/jenny_wirth.html",
+    "href": "people/admins/jenny_wirth.html",
+    "title": "Jenny Wirth",
+    "section": "",
+    "text": "Home\n    People\n    Admin Staff\n    Jenny Wirth\n  \n\n\n  \n \n  \n\n\nJenny Wirth Cauerstraße 3 91058 Erlangen Phone number:+49 9131 85-70397 Email:jenny.wirth@fau.de Website:http://www.em.techfak.uni-erlangen.de"
+  },
+  {
+    "objectID": "people/staff/04_philipp_herz.html#education",
+    "href": "people/staff/04_philipp_herz.html#education",
+    "title": "Philipp Herz",
+    "section": "Education",
+    "text": "Education\n\nRuprechts-Karls-Universität Heidelberg | Heidelberg, Germany M.Sc. Physics | 2020 - 2023 B.Sc. Physics | 2017 - 2020"
+  },
+  {
+    "objectID": "people.html#msc-students",
+    "href": "people.html#msc-students",
+    "title": "ECLIPSE Lab",
+    "section": "MSc Students",
+    "text": "MSc Students\n\n\n\n\n\n\n\n\n\n\nRadin Rahimi\n\n\nMaster Thesis Student\n\n\n\n\n\nStarted\n\n\nSeptember 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#bsc-students",
+    "href": "people.html#bsc-students",
+    "title": "ECLIPSE Lab",
+    "section": "BSc Students",
+    "text": "BSc Students\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people/msc/radin_rahimi.html",
+    "href": "people/msc/radin_rahimi.html",
+    "title": "Radin Rahimi",
+    "section": "",
+    "text": "Home\n    People\n    Research Assistants\n    Radin Rahimi"
+  },
+  {
+    "objectID": "people/msc/radin_rahimi.html#research-interests",
+    "href": "people/msc/radin_rahimi.html#research-interests",
+    "title": "Radin Rahimi",
+    "section": "Research Interests",
+    "text": "Research Interests\n4D-STEM method development"
+  },
+  {
+    "objectID": "people/msc/radin_rahimi.html#brief-bio",
+    "href": "people/msc/radin_rahimi.html#brief-bio",
+    "title": "Radin Rahimi",
+    "section": "Brief Bio",
+    "text": "Brief Bio\nRadin Bio"
+  },
+  {
+    "objectID": "people/msc/radin_rahimi.html#experience",
+    "href": "people/msc/radin_rahimi.html#experience",
+    "title": "Radin Rahimi",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/msc/radin_rahimi.html#education",
+    "href": "people/msc/radin_rahimi.html#education",
+    "title": "Radin Rahimi",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "teaching.html#winter-semester-20252026",
+    "href": "teaching.html#winter-semester-20252026",
+    "title": "ECLIPSE Lab",
+    "section": "Winter Semester 2025/2026",
+    "text": "Winter Semester 2025/2026\n\nLecture Materials & Structure (MAP)\n\nFr 10:15h - 11:45h H10 \n\nLecture Data Science for Electron Microscopy\n\nFr 12:15h - 13:45h IZNF Rm 01.160 \nwebsite\n\nSeminar Machine Learning for Microscopy\n\nFr 14:15h - 15:45h IZNF Rm 01.160 \nwebsite"
+>>>>>>> 07850ce (teaching update)
+>>>>>>> efd5b602348f30a655157a1d4fd8c1a35bb78265
   }
 ]

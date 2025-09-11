@@ -12,6 +12,22 @@ email-obfuscation: javascript
   </ol>
 </nav>
 ```
+## Winter Semester 2025/2026
+
+- Lecture Materials & Structure (MAP)
+  - Fr 10:15h - 11:45h H10
+  <!-- - [studon](https://www.studon.fau.de/studon) -->
+
+- Lecture Data Science for Electron Microscopy
+  - Fr 12:15h - 13:45h IZNF Rm 01.160
+  <!-- - [studon](https://www.studon.fau.de/campo/course/489020) -->
+  - [website](https://pelzlab.science/DataScienceForElectronMicroscopy/)
+
+- Seminar Machine Learning for Microscopy
+  - Fr 14:15h - 15:45h IZNF Rm 01.160
+  <!-- - [studon](https://www.studon.fau.de/campo/course/491599) -->
+  - [website](https://pelzlab.science/MachineLearningForMicroscopy/)
+
 ## Summer Semester 2025
 
 - Lecture Materials & Structure (Clean Energy Processes)
