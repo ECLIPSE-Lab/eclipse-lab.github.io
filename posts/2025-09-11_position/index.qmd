@@ -1,5 +1,5 @@
 ---
-title: "Doctoral Researcher or Postdoctoral Researcher position OPEN"
+title: "OPEN Doctoral Researcher or Postdoctoral Researcher position"
 description: "A position on computational imaging in electron microscopy is available starting Nov 1st"
 author: "Philipp Pelz"
 date: "2025-09-11"
@@ -46,4 +46,6 @@ We have for the first time reconstructed large phase-contrast volumes at atomic 
 We offer access to state-of-the-art aberration-corrected electron microscopes and a lab-based x-ray microscope at the Center for Nanoanalysis and Electron Microscopy, access to high-performance computing resources at the Erlangen National High-Performance Computing Center, and the enthusiastic support of an early-career principal investigator.
 
 For informal inquiries, please get in touch with Philipp Pelz (philipp.pelz@fau.de). Applications from underrepresented minorities are particularly welcome. Your application (in English or German) must include a motivation letter and your CV. Applications will be accepted until the position is filled. 
+
+Include in the subject line: "[Realtime3D application]"
 
