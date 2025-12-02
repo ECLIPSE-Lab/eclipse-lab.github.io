@@ -1,0 +1,14 @@
+---
+title: "International Microscopy Conference (IMC21)"
+description: "Philipp is giving an invited talk at the International Microscopy Conference (IMC21) in Liverpool, UK"
+author: "Philipp Pelz"
+date: "2025-12-02"
+image: IMC21-Header-Logo.png
+draft: false
+categories:
+  - announcement  
+---
+
+Philipp is giving an invited talk at the International Microscopy Conference (IMC21) in Liverpool, UK.
+
+

@@ -1,0 +1,12 @@
+---
+title: "DPG Spring meeting 2026"
+description: "Philipp is giving an invited talk at the DPG spring meeting Dresden2026"
+author: "Philipp Pelz"
+date: "2025-11-19"
+image: dd26a.gif
+draft: false
+categories:
+  - announcement  
+---
+
+Philipp is giving an invited talk at the DPG spring meeting Dresden2026 on the topic of "Computational Imaging in Electron Microscopy".

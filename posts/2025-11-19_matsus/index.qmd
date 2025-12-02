@@ -1,0 +1,14 @@
+---
+title: "Materials for Sustainable Development Conference (MATSUS26)"
+description: "Philipp is giving an invited talk at the Materials for Sustainable Development Conference (MATSUS26) in Barcelona, Spain"
+author: "Philipp Pelz"
+date: "2025-11-19"
+image: matsus.png
+draft: false
+categories:
+  - announcement  
+---
+
+Philipp is giving an invited talk at the Materials for Sustainable Development Conference (MATSUS26) in Barcelona, Spain on the topic of "Computational Imaging in Electron Microscopy".
+
+
