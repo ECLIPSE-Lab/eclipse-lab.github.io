@@ -12,6 +12,25 @@ email-obfuscation: javascript
   </ol>
 </nav>
 ```
+
+## Summer Semester 2026
+
+- Lecture Materialgenomik
+  -  time TBD
+  - [website](https://pelzlab.science/MaterialsGenomics/)
+
+- Lecture Machine Learning for Processing & Characterization
+  -time TBD
+  <!-- - [studon](https://www.studon.fau.de/campo/course/489020) -->
+  - [website](https://pelzlab.science/MachineLearningForCharacterizationAndProcessing/)
+
+- Mathematical Foundations of AI/ML
+  - time TBD
+  <!-- - [studon](https://www.studon.fau.de/campo/course/491599) -->
+  - [website](https://pelzlab.science/MathematicalFoundationsForAIML/)
+
+
+
 ## Winter Semester 2025/2026
 
 - Lecture Materials & Structure (MAP)
