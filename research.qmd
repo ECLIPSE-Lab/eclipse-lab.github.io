@@ -50,6 +50,10 @@ We are developing automation methods for electron microscopy.
 
 ### Current Funding
 
+- *BacaTec FAU-Stanford Collaboration*
+    - 01/2026 - 12/2027
+    - **Pelz** (PI)
+
 - *CorMic Graduate School*
     - DFG Graduate School
     - **Pelz** (Co-PI)
