@@ -16,16 +16,16 @@ email-obfuscation: javascript
 ## Summer Semester 2026
 
 - Lecture Materialgenomik
-  -  time TBD
+  -  Tue 16:15h - 17:45h Seminar Room 0.68 WW building
   - [website](https://pelzlab.science/MaterialsGenomics/)
 
 - Lecture Machine Learning for Processing & Characterization
-  -time TBD
+  - Tue 14:15h - 15:45h Seminar Room 0.68 WW building
   <!-- - [studon](https://www.studon.fau.de/campo/course/489020) -->
   - [website](https://pelzlab.science/MachineLearningForCharacterizationAndProcessing/)
 
 - Mathematical Foundations of AI/ML
-  - time TBD
+  - Mon 10:15-11:45h Seminar Room 01.156 IZNF
   <!-- - [studon](https://www.studon.fau.de/campo/course/491599) -->
   - [website](https://pelzlab.science/MathematicalFoundationsForAIML/)
 
