@@ -25,22 +25,6 @@
     ]
   },
   {
-    "listing": "/people.html",
-    "items": [
-      "/people/staff/00_pelz_philipp.html",
-      "/people/staff/02_shengbo_you.html",
-      "/people/staff/03_nikita_palatkin.html",
-      "/people/staff/05_sihan_shao.html",
-      "/people/msc/dasun.html",
-      "/people/msc/radin_rahimi.html",
-      "/people/admins/birke.html",
-      "/people/admins/jenny_wirth.html",
-      "/people/alumni/01_andrey_romanov.html",
-      "/people/alumni/04_philipp_herz.html",
-      "/people/alumni/gaurab_dhungana.html"
-    ]
-  },
-  {
     "listing": "/publications.html",
     "items": [
       "/publications/articles/15_multi_slice_electron_ptychographic_tomography_for_.html",
@@ -59,6 +43,23 @@
       "/publications/articles/03_low_dose_cryo_electron_ptychography_via_non_convex.html",
       "/publications/articles/01_on_the_fly_scans_for_x_ray_ptychography.html",
       "/publications/articles/02_photo_double_ionization_of_ethylene_and_acetylene_.html"
+    ]
+  },
+  {
+    "listing": "/people.html",
+    "items": [
+      "/people/staff/00_pelz_philipp.html",
+      "/people/staff/02_shengbo_you.html",
+      "/people/staff/03_nikita_palatkin.html",
+      "/people/staff/05_sihan_shao.html",
+      "/people/staff/06_williams.html",
+      "/people/msc/dasun.html",
+      "/people/msc/radin_rahimi.html",
+      "/people/admins/birke.html",
+      "/people/admins/jenny_wirth.html",
+      "/people/alumni/01_andrey_romanov.html",
+      "/people/alumni/04_philipp_herz.html",
+      "/people/alumni/gaurab_dhungana.html"
     ]
   }
 ]
