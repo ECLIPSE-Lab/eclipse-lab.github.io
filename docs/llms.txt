@@ -1,0 +1,34 @@
+# ECLIPSE Lab — LLM/Agent Navigation
+
+This file provides a concise map of key pages for LLM agents and web crawlers.
+Canonical site: https://pelzlab.science
+
+## Key pages
+- About — https://pelzlab.science/about.html
+- Contact — https://pelzlab.science/contact.html
+- Hyperscale — https://pelzlab.science/hyperscale.html
+-  — https://pelzlab.science/
+- News — https://pelzlab.science/news.html
+- Opportunities — https://pelzlab.science/opportunities.html
+- People — https://pelzlab.science/people.html
+- Publications — https://pelzlab.science/publications.html
+- Research — https://pelzlab.science/research.html
+- Resources — https://pelzlab.science/resources.html
+- Teaching — https://pelzlab.science/teaching.html
+
+## Recent posts
+- Shengbo You joins the team — https://pelzlab.science/posts/shengbo_joins/
+- Radin Rahimi joins the team — https://pelzlab.science/posts/radin_joins/
+- MRS Fall 2023 conference — https://pelzlab.science/posts/mrs2023/
+- International Microscopy Congress 2023 — https://pelzlab.science/posts/imc20/
+- EMC 2024 conference — https://pelzlab.science/posts/emc2024/
+- CRC 1411 Symposium — https://pelzlab.science/posts/crc1411/
+- Andrey Romanov joins the team — https://pelzlab.science/posts/andrey_joins/
+- Study Commission in \"AI for Materials Technology\ — https://pelzlab.science/posts/24-07_study_commission/
+- PhD position open — https://pelzlab.science/posts/24-04-position/
+- HKIAS Forum and 5th Sino-German Symposium on Advanced Electron Microscopy and Instrumentation — https://pelzlab.science/posts/23-12-hongkong/
+- International Microscopy Conference (IMC21) — https://pelzlab.science/posts/2025-12-02_imc21/
+- Materials for Sustainable Development Conference (MATSUS26) — https://pelzlab.science/posts/2025-11-19_matsus/
+- DPG Spring meeting 2026 — https://pelzlab.science/posts/2025-11-19_dpg/
+- OPEN Doctoral Researcher or Postdoctoral Researcher position — https://pelzlab.science/posts/2025-09-11_position/
+- Open PhD Position: Dose-efficient Data Fusion for Crystalline Mapping and Imaging of Functional Thin Films — https://pelzlab.science/posts/2025-07-17_cormic/
