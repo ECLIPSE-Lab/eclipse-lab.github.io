@@ -102,7 +102,11 @@ We are part of the [Institute of Micro- and Nanostructure Research](https://www.
 
 Learn about open positions, projects, and how to join the lab.
 
-[Explore opportunities](opportunities.qmd){.btn .btn-primary}
+- MSc and PhD theses
+- Postdoctoral positions
+- Short-term research projects
+
+[See open opportunities](opportunities.qmd){.btn .btn-primary title="Open positions, projects, and how to join the lab"}
 :::
 
 ::: {.column width="33%"}
@@ -110,8 +114,12 @@ Learn about open positions, projects, and how to join the lab.
 
 See our research directions and how we work with partners.
 
-[Browse research](research.qmd){.btn .btn-primary .me-1}
-[Resources](resources.qmd){.btn .btn-outline-secondary}
+- Advanced electron and X-ray microscopy
+- Method development and software
+- Access to instrumentation and expertise
+
+[See research themes](research.qmd){.btn .btn-primary .me-1 title="Overview of our research directions and capabilities"}
+[Browse resources](resources.qmd){.btn .btn-outline-secondary title="Software, datasets, and practical information for collaborators"}
 :::
 
 ::: {.column width="34%"}
@@ -119,7 +127,11 @@ See our research directions and how we work with partners.
 
 Talks, awards, and other recent lab news.
 
-[View news](news.qmd){.btn .btn-primary}
+- Recent talks and workshops
+- Grants, awards, and recognitions
+- New people and projects
+
+[Read lab news](news.qmd){.btn .btn-primary title="Recent talks, awards, people, and other lab news"}
 :::
 
 ::::
