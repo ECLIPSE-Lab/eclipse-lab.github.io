@@ -56,7 +56,7 @@ website:
         href: about.qmd
       - text: "Privacy"
         href: license.qmd
-      - text: "Accesibility"
+      - text: "Accessibility"
         href: trademark.qmd
   # cookie-consent:
   #   type: express

@@ -91,12 +91,35 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
 We are part of the [Institute of Micro- and Nanostructure Research](https://www.em.tf.fau.de/) and the [Center for Nanoanalysis and Electron Microscopy](https://www.cenem.fau.de/) and part of the Competence Unit [Engineering of Advanced Materials](https://www.eam.fau.eu/).
 :::
+::: {.lead}
+  How can we help you today?
+:::
 
-<a class="twitter-timeline" href="https://twitter.com/PhilippPelz?ref_src=twsrc%5Etfw">Tweets by PhilippPelz</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+:::: {.columns}
 
-<!-- ::: {.callout-note} -->
-<!-- ## We are currently recruiting! -->
+::: {.column width="33%"}
+#### Prospective students & researchers
 
-<!-- If you are interested in joining the lab as a Psychology PhD student, please consider applying.<br /> -->
-<!-- You can find more information about this recruitment cycle at [this blog post](./posts/recruitment2023) (or under News). -->
-<!-- ::: -->
+Learn about open positions, projects, and how to join the lab.
+
+[Explore opportunities](opportunities.qmd){.btn .btn-primary}
+:::
+
+::: {.column width="33%"}
+#### Collaborators & facilities
+
+See our research directions and how we work with partners.
+
+[Browse research](research.qmd){.btn .btn-primary .me-1}
+[Resources](resources.qmd){.btn .btn-outline-secondary}
+:::
+
+::: {.column width="34%"}
+#### What’s new?
+
+Talks, awards, and other recent lab news.
+
+[View news](news.qmd){.btn .btn-primary}
+:::
+
+::::
