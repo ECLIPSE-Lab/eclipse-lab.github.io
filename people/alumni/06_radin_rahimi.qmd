@@ -1,9 +1,10 @@
 ---
-title: "Jenny Wirth"
+title: "Radin Rahimi"
 sortby: "1"
-subtitle: "Secretary"
-image: jenny.jpg
-started: ""
+subtitle: "Master Thesis Student"
+image: radin.jpeg
+started: "September 2023"
+ended: "2026"
 toc: false
 about:
   id: person-profile
@@ -31,7 +32,7 @@ about:
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
     <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
-    <li class="breadcrumb-item active">Admin Staff</li>
+    <li class="breadcrumb-item active">Alumni</li>
     <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
   </ol>
 </nav>
@@ -40,11 +41,20 @@ about:
 :::{#person-profile}
 :::
 
-Jenny Wirth
-Cauerstraße 3
-91058 Erlangen
-Phone number:+49 9131 85-70397
-Email:jenny.wirth@fau.de
-Website:http://www.em.techfak.uni-erlangen.de
+## Research Interests
+4D-STEM method development
+
+## Brief Bio
+
+Radin Bio
+
+## Experience
+
+
+
+<!-- ## Journal Editing -->
+
+
+## Education
 
 

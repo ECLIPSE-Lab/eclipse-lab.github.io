@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,14 +35,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3ba8b827a6e52fd0e07e70532ca784c0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-577223e6cac1d4c9d26d565a3d731813.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -123,7 +124,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -161,7 +162,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="https://pelzlab.science" class="navbar-brand navbar-brand-logo">
-    <img src="././img/FAU.png" alt="" class="navbar-logo">
+    <img src="././img/FAU.png" alt="" class="navbar-logo light-content">
+    <img src="././img/FAU.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="https://pelzlab.science">
     <span class="navbar-title">ECLIPSE Lab</span>
@@ -252,7 +254,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1764630000000" data-listing-file-modified-sort="1769783726434" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="quarto-post image-right" data-index="0" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1764630000000" data-listing-file-modified-sort="1772479588316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <div class="thumbnail"><a href="./posts/2025-12-02_imc21/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/2025-12-02_imc21/IMC21-Header-Logo.png" class="thumbnail-image">
@@ -282,7 +284,7 @@ Philipp Pelz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1763506800000" data-listing-file-modified-sort="1769783726433" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21">
+<div class="quarto-post image-right" data-index="1" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1763506800000" data-listing-file-modified-sort="1772479588316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21">
 <div class="thumbnail"><a href="./posts/2025-11-19_dpg/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/2025-11-19_dpg/dd26a.gif" class="thumbnail-image">
@@ -312,7 +314,7 @@ Philipp Pelz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1763506800000" data-listing-file-modified-sort="1769783726433" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
+<div class="quarto-post image-right" data-index="2" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1763506800000" data-listing-file-modified-sort="1772479588316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
 <div class="thumbnail"><a href="./posts/2025-11-19_matsus/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/2025-11-19_matsus/matsus.png" class="thumbnail-image">
@@ -342,7 +344,7 @@ Philipp Pelz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="YW5ub3VuY2VtZW50JTJDam9i" data-listing-date-sort="1757541600000" data-listing-file-modified-sort="1764681699974" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="354">
+<div class="quarto-post image-right" data-index="3" data-categories="YW5ub3VuY2VtZW50JTJDam9i" data-listing-date-sort="1757541600000" data-listing-file-modified-sort="1772479588316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="354">
 <div class="thumbnail"><a href="./posts/2025-09-11_position/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/2025-09-11_position/4DSTEM_render.jpg" class="thumbnail-image">
@@ -374,7 +376,7 @@ Philipp Pelz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1752703200000" data-listing-file-modified-sort="1764681699974" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="564">
+<div class="quarto-post image-right" data-index="4" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1752703200000" data-listing-file-modified-sort="1772479588315" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="564">
 <div class="thumbnail"><a href="./posts/2025-07-17_cormic/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/2025-07-17_cormic/cormic_logo.png" class="thumbnail-image">
@@ -404,7 +406,7 @@ Philipp Pelz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1732316400000" data-listing-file-modified-sort="1764681699973" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
+<div class="quarto-post image-right" data-index="5" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1732316400000" data-listing-file-modified-sort="1772479588313" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
 <div class="thumbnail"><a href="./posts/2024-11-23_M&amp;M2025/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/2024-11-23_M&amp;M2025/mandm.png" class="thumbnail-image">
@@ -434,7 +436,7 @@ Philipp Pelz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1732316400000" data-listing-file-modified-sort="1764681699974" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
+<div class="quarto-post image-right" data-index="6" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1732316400000" data-listing-file-modified-sort="1772479588314" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
 <div class="thumbnail"><a href="./posts/2024-11-23_SwissNonoConvention/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/2024-11-23_SwissNonoConvention/swissnanoconventionbanner_master_2025.png" class="thumbnail-image">
@@ -464,7 +466,7 @@ Philipp Pelz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="YW5ub3VuY2VtZW50JTJDam9i" data-listing-date-sort="1725487200000" data-listing-file-modified-sort="1764681699973" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="396">
+<div class="quarto-post image-right" data-index="7" data-categories="YW5ub3VuY2VtZW50JTJDam9i" data-listing-date-sort="1725487200000" data-listing-file-modified-sort="1772479588313" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="396">
 <div class="thumbnail"><a href="./posts/2024-09-03_HyperScaleEM_postdoc/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/2024-09-03_HyperScaleEM_postdoc/erc_logo.svg" class="thumbnail-image">
@@ -496,7 +498,7 @@ Philipp Pelz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="YW5ub3VuY2VtZW50JTJDam9i" data-listing-date-sort="1725314400000" data-listing-file-modified-sort="1764681699973" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="357">
+<div class="quarto-post image-right" data-index="8" data-categories="YW5ub3VuY2VtZW50JTJDam9i" data-listing-date-sort="1725314400000" data-listing-file-modified-sort="1772479588313" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="357">
 <div class="thumbnail"><a href="./posts/2024-09-03_HyperScaleEM_phd/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/2024-09-03_HyperScaleEM_phd/erc_logo.svg" class="thumbnail-image">
@@ -528,7 +530,7 @@ Philipp Pelz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="YW5ub3VuY2VtZW50JTJDam9i" data-listing-date-sort="1720994400000" data-listing-file-modified-sort="1764681699977" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="324">
+<div class="quarto-post image-right" data-index="9" data-categories="YW5ub3VuY2VtZW50JTJDam9i" data-listing-date-sort="1720994400000" data-listing-file-modified-sort="1772479588318" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="324">
 <div class="thumbnail"><a href="./posts/24-04-position/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/24-04-position/4DSTEM_render.jpg" class="thumbnail-image">
@@ -560,7 +562,7 @@ Philipp Pelz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1720735200000" data-listing-file-modified-sort="1764681699977" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
+<div class="quarto-post image-right" data-index="10" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1720735200000" data-listing-file-modified-sort="1772479588318" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
 <div class="thumbnail"><a href="./posts/24-07_study_commission/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/24-07_study_commission/ai4mat.png" class="thumbnail-image">
@@ -590,7 +592,7 @@ Philipp Pelz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="YW5ub3VuY2VtZW50JTJDY29uZmVyZW5jZQ==" data-listing-date-sort="1701212400000" data-listing-file-modified-sort="1764681699975" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="quarto-post image-right" data-index="11" data-categories="YW5ub3VuY2VtZW50JTJDY29uZmVyZW5jZQ==" data-listing-date-sort="1701212400000" data-listing-file-modified-sort="1772479588317" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <div class="thumbnail"><a href="./posts/23-12-hongkong/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/23-12-hongkong/hongkong.png" class="thumbnail-image">
@@ -622,7 +624,7 @@ Philipp Pelz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1697839200000" data-listing-file-modified-sort="1764681699971" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="403">
+<div class="quarto-post image-right" data-index="12" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1697839200000" data-listing-file-modified-sort="1772479588312" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="403">
 <div class="thumbnail"><a href="./posts/2023_DPG_spring/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/2023_DPG_spring/dpg.png" class="thumbnail-image">
@@ -652,7 +654,7 @@ Philipp Pelz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1694728800000" data-listing-file-modified-sort="1764681700055" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
+<div class="quarto-post image-right" data-index="13" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1694728800000" data-listing-file-modified-sort="1772479588422" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
 <div class="thumbnail"><a href="./posts/radin_joins/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/radin_joins/radin.jpeg" class="thumbnail-image">
@@ -682,7 +684,7 @@ Philipp Pelz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1694728800000" data-listing-file-modified-sort="1764681700056" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
+<div class="quarto-post image-right" data-index="14" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1694728800000" data-listing-file-modified-sort="1772479588422" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="8">
 <div class="thumbnail"><a href="./posts/shengbo_joins/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/shengbo_joins/shengbo.jpg" class="thumbnail-image">
@@ -712,7 +714,7 @@ Philipp Pelz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="YW5ub3VuY2VtZW50JTJDY29uZmVyZW5jZQ==" data-listing-date-sort="1694037600000" data-listing-file-modified-sort="1764681700054" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21">
+<div class="quarto-post image-right" data-index="15" data-categories="YW5ub3VuY2VtZW50JTJDY29uZmVyZW5jZQ==" data-listing-date-sort="1694037600000" data-listing-file-modified-sort="1772479588420" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21">
 <div class="thumbnail"><a href="./posts/emc2024/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/emc2024/emc2024.png" class="thumbnail-image">
@@ -744,7 +746,7 @@ Philipp Pelz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1688162400000" data-listing-file-modified-sort="1764681699977" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
+<div class="quarto-post image-right" data-index="16" data-categories="YW5ub3VuY2VtZW50" data-listing-date-sort="1688162400000" data-listing-file-modified-sort="1772479588318" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
 <div class="thumbnail"><a href="./posts/andrey_joins/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/andrey_joins/andrey.jpg" class="thumbnail-image">
@@ -774,7 +776,7 @@ Philipp Pelz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="YW5ub3VuY2VtZW50JTJDY29uZmVyZW5jZQ==" data-listing-date-sort="1681164000000" data-listing-file-modified-sort="1764681700055" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
+<div class="quarto-post image-right" data-index="17" data-categories="YW5ub3VuY2VtZW50JTJDY29uZmVyZW5jZQ==" data-listing-date-sort="1681164000000" data-listing-file-modified-sort="1772479588421" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="thumbnail"><a href="./posts/imc20/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/imc20/imc.png" class="thumbnail-image">
@@ -806,7 +808,7 @@ Philipp Pelz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="YW5ub3VuY2VtZW50JTJDY29uZmVyZW5jZQ==" data-listing-date-sort="1681164000000" data-listing-file-modified-sort="1764681700055" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
+<div class="quarto-post image-right" data-index="18" data-categories="YW5ub3VuY2VtZW50JTJDY29uZmVyZW5jZQ==" data-listing-date-sort="1681164000000" data-listing-file-modified-sort="1772479588421" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
 <div class="thumbnail"><a href="./posts/mrs2023/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/mrs2023/mrs_fall_2023.png" class="thumbnail-image">
@@ -838,7 +840,7 @@ Philipp Pelz
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="YW5ub3VuY2VtZW50JTJDY29uZmVyZW5jZQ==" data-listing-date-sort="1677625200000" data-listing-file-modified-sort="1764681700052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
+<div class="quarto-post image-right" data-index="19" data-categories="YW5ub3VuY2VtZW50JTJDY29uZmVyZW5jZQ==" data-listing-date-sort="1677625200000" data-listing-file-modified-sort="1772479588419" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
 <div class="thumbnail"><a href="./posts/crc1411/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/crc1411/LOGO_SFB1411_figures_4.png" class="thumbnail-image">
@@ -924,13 +926,14 @@ Philipp Pelz
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -1292,7 +1295,7 @@ Philipp Pelz
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="./trademark.qmd">
-<p>Accesibility</p>
+<p>Accessibility</p>
 </a>
   </li>  
 </ul>

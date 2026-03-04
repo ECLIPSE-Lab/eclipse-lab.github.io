@@ -1,9 +1,10 @@
 ---
-title: "Radin Rahimi"
+title: "Dasun Ranakawa"
 sortby: "1"
 subtitle: "Master Thesis Student"
-image: radin.jpeg
-started: "September 2023"
+image: dasun.jpg
+started: "May 2025"
+ended: "2026"
 toc: false
 about:
   id: person-profile
@@ -31,7 +32,7 @@ about:
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
     <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
-    <li class="breadcrumb-item active">Research Assistants</li>
+    <li class="breadcrumb-item active">Alumni</li>
     <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
   </ol>
 </nav>
@@ -41,19 +42,11 @@ about:
 :::
 
 ## Research Interests
-4D-STEM method development
+ptychography
 
 ## Brief Bio
 
-Radin Bio
+Dasun studies Advanced Materials & Processes at FAU.
 
-## Experience
-
-
-
-<!-- ## Journal Editing -->
-
-
-## Education
 
 

@@ -1,3 +1,1 @@
 Sitemap: https://pelzlab.science/sitemap.xml
-# LLM index
-# https://pelzlab.science/llms.txt
