@@ -32,6 +32,6 @@ computational imaging & microscopy, tomography, ptychography
  
 ## Brief Bio
  
-Sihan earned his MSc. in AI from Friedrich-Alexander-Universität Erlangen-Nürnberg.
+Williams earned his MSc in Artificial Intelligence at Friedrich-Alexander-Universität Erlangen-Nürnberg in September 2025. His background spans computer vision, deep learning, reinforcement learning, and computational visual perception.
  
 ## Experience
