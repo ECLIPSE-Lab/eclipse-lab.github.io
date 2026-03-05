@@ -1,0 +1,21 @@
+---
+title: "Accessibility"
+---
+
+## Accessibility Statement
+
+ECLIPSE Lab aims to make this website accessible and usable for all visitors.
+
+### Our goals
+
+- Clear page structure and headings
+- Readable contrast and typography
+- Keyboard-friendly navigation where possible
+
+### Known limitations
+
+Some legacy content and embedded media may not fully meet current accessibility best practices.
+
+### Feedback
+
+If you encounter an accessibility barrier, please let us know via the [Contact](contact.qmd) page so we can improve the site.

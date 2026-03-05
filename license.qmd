@@ -1,0 +1,21 @@
+---
+title: "Privacy"
+---
+
+## Privacy Notice
+
+ECLIPSE Lab is committed to collecting as little personal data as possible.
+
+### What we collect
+
+- Basic aggregated website analytics (Google Analytics) to understand overall site usage.
+- Information you voluntarily provide when contacting us (e.g., by email).
+
+### What we do not do
+
+- We do not sell personal data.
+- We do not use advertising trackers.
+
+### Contact
+
+If you have privacy questions, please use the contact details on the [Contact](contact.qmd) page.
