@@ -1,0 +1,59 @@
+name: Publication and site refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * 1" # Mondays 04:17 UTC
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install beautifulsoup4 requests orcid
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Regenerate publications
+        run: python generate_publications.py
+
+      - name: Render site
+        run: quarto render
+
+      - name: Create refresh PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "chore: automated publication/news refresh"
+          branch: automation/publication-refresh
+          delete-branch: true
+          title: "chore: automated publication/news refresh"
+          body: |
+            Automated weekly refresh.
+
+            ### What changed
+            - Regenerated publication entries from ORCID/Crossref (`generate_publications.py`)
+            - Re-rendered Quarto output (`docs/`) to keep news/publications pages in sync
+
+            ### Why
+            Keep website content current with low-maintenance, reviewable updates.
+          labels: |
+            automation
+            content-refresh
