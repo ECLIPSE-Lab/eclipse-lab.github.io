@@ -52,6 +52,8 @@ Dr. Pelz advises graduate students in the **Materials Science Department**, espe
 ### Prospective postdocs and staff
 Postdoctoral fellowships and staff positions are opened as funding permits. Please also monitor the [News](news.qmd) page for current calls.
 
+We also encourage and actively support applications for external funding, including the [Marie Skłodowska-Curie Postdoctoral Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships) and the [Alexander von Humboldt Research Fellowship](https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship).
+
 ## Application {#application}
 
 Please send one concise application email with the following:
