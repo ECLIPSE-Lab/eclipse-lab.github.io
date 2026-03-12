@@ -41,6 +41,8 @@ website:
         text: People
       - href: research.qmd
         text: Research
+      - href: research-by-problem.qmd
+        text: By Problem
       - href: publications.qmd
         text: Publications
       - href: resources.qmd

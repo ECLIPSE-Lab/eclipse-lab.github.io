@@ -14,6 +14,8 @@ toc: true
 
 ## Research Topics
 
+Prefer a problem-first view? See [Research by Problem](research-by-problem.qmd).
+
 ### Computational imaging
 
 - **Large-scale dose-efficient 3D imaging**
