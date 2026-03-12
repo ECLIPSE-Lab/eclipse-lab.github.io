@@ -816,7 +816,7 @@
     "href": "people/staff/06_williams.html#brief-bio",
     "title": "Umah Chukwudi Williams",
     "section": "Brief Bio",
-    "text": "Brief Bio\nWilliams earned his MSc in Artificial Intelligence at Friedrich-Alexander-Universität Erlangen-Nürnberg (final grade 1.9, September 2025). His background spans computer vision, deep learning, reinforcement learning, and computational visual perception."
+    "text": "Brief Bio\nWilliams earned his MSc in Artificial Intelligence at Friedrich-Alexander-Universität Erlangen-Nürnberg in September 2025. His background spans computer vision, deep learning, reinforcement learning, and computational visual perception."
   },
   {
     "objectID": "people/staff/06_williams.html#experience",
@@ -1117,7 +1117,7 @@
     "href": "opportunities.html",
     "title": "ECLIPSE Lab",
     "section": "",
-    "text": "Home\n    Opportunities"
+    "text": "Home\n    Join the Lab"
   },
   {
     "objectID": "opportunities.html#for-undergraduate-students",
@@ -1143,14 +1143,14 @@
   {
     "objectID": "license.html",
     "href": "license.html",
-    "title": "Accessibility",
+    "title": "Privacy",
     "section": "",
     "text": "ECLIPSE Lab is committed to collecting as little personal data as possible.\n\n\n\nBasic aggregated website analytics (Google Analytics) to understand overall site usage.\nInformation you voluntarily provide when contacting us (e.g., by email).\n\n\n\n\n\nWe do not sell personal data.\nWe do not use advertising trackers.\n\n\n\n\nIf you have privacy questions, please use the contact details on the Contact page."
   },
   {
     "objectID": "license.html#privacy-notice",
     "href": "license.html#privacy-notice",
-    "title": "Accessibility",
+    "title": "Privacy",
     "section": "",
     "text": "ECLIPSE Lab is committed to collecting as little personal data as possible.\n\n\n\nBasic aggregated website analytics (Google Analytics) to understand overall site usage.\nInformation you voluntarily provide when contacting us (e.g., by email).\n\n\n\n\n\nWe do not sell personal data.\nWe do not use advertising trackers.\n\n\n\n\nIf you have privacy questions, please use the contact details on the Contact page."
   },
@@ -1174,5 +1174,40 @@
     "title": "Accessibility",
     "section": "",
     "text": "ECLIPSE Lab aims to make this website accessible and usable for all visitors.\n\n\n\nClear page structure and headings\nReadable contrast and typography\nKeyboard-friendly navigation where possible\n\n\n\n\nSome legacy content and embedded media may not fully meet current accessibility best practices.\n\n\n\nIf you encounter an accessibility barrier, please let us know via the Contact page so we can improve the site."
+  },
+  {
+    "objectID": "opportunities.html#join-the-eclipse-lab",
+    "href": "opportunities.html#join-the-eclipse-lab",
+    "title": "ECLIPSE Lab",
+    "section": "Join the ECLIPSE Lab",
+    "text": "Join the ECLIPSE Lab\nWe welcome motivated students and researchers who want to work on computational imaging, inverse problems, and AI-enabled materials characterization.\n\n\n\n\n\n\nFast track\n\n\n\nIf this sounds like your research direction, apply now.\nApply to join the lab"
+  },
+  {
+    "objectID": "opportunities.html#who-should-apply",
+    "href": "opportunities.html#who-should-apply",
+    "title": "ECLIPSE Lab",
+    "section": "Who should apply?",
+    "text": "Who should apply?\nYou are a strong fit if you have some of the following:\n\nBackground in materials science, physics, electrical engineering, computer science, or related fields\nExperience in one or more of:\n\nScientific programming (Python/Julia/Matlab/C++)\nOptimization, inverse problems, computational imaging, or signal processing\nMachine learning for scientific data\nElectron microscopy or diffraction data analysis\n\nInterest in rigorous, interdisciplinary research with real experimental relevance"
+  },
+  {
+    "objectID": "opportunities.html#open-pathways",
+    "href": "opportunities.html#open-pathways",
+    "title": "ECLIPSE Lab",
+    "section": "Open pathways",
+    "text": "Open pathways\n\nUndergraduate students\nThe lab regularly hosts undergraduate students (primarily from Materials Science, and occasionally related departments) for thesis projects and research assistant roles.\n\n\nProspective graduate students\nThe FAU Materials Science Department grants doctoral degrees in Materials Science and Engineering. Doctoral degrees in Physics can be arranged via joint supervision.\nDr. Pelz advises graduate students in the Materials Science Department, especially in:\n\ncomputational imaging\ninverse problems\ncomputational methods in materials characterization\n\n\n\nProspective postdocs and staff\nPostdoctoral fellowships and staff positions are opened as funding permits. Please also monitor the News page for current calls."
+  },
+  {
+    "objectID": "opportunities.html#application",
+    "href": "opportunities.html#application",
+    "title": "ECLIPSE Lab",
+    "section": "Application",
+    "text": "Application\nPlease send one concise application email with the following:\n\nCV (max 2 pages preferred)\nTranscript(s) and degree status\nShort motivation statement (5–10 sentences):\n\nyour research interests\nwhy ECLIPSE Lab\nwhat you want to work on\n\nOptional supporting material:\n\nGitHub/portfolio\npreprints/publications\ncode or project samples\n\n\n\nSelection timeline\n\nAcknowledgement: within ~1 week\nInitial evaluation: 1–3 weeks\nInterview / technical discussion (if shortlisted): typically within 2–5 weeks\nFinal decision: timing depends on position type and funding cycle"
+  },
+  {
+    "objectID": "opportunities.html#contact",
+    "href": "opportunities.html#contact",
+    "title": "ECLIPSE Lab",
+    "section": "Contact",
+    "text": "Contact\nFor applications and position-related inquiries:\n\nContact Dr. Pelz\nOr email with subject line: Application – [Your Name] – [Level: UG/PhD/Postdoc]"
   }
 ]

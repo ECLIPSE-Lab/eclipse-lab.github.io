@@ -20,7 +20,7 @@ We welcome motivated students and researchers who want to work on **computationa
 ### Fast track
 If this sounds like your research direction, apply now.
 
-[**Apply to join the lab**](#application) {.btn .btn-primary}
+[**Apply to join the lab**](#application){.btn .btn-primary}
 :::
 
 ## Who should apply?

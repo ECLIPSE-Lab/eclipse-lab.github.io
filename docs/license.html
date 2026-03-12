@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.7.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Accessibility – ECLIPSE Lab</title>
+<title>Privacy – ECLIPSE Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,15 +33,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="./favicon-32x32.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-577223e6cac1d4c9d26d565a3d731813.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-b3ca0db2ce2957d07763d558392a7733.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -98,8 +97,7 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="https://pelzlab.science" class="navbar-brand navbar-brand-logo">
-    <img src="././img/FAU.png" alt="" class="navbar-logo light-content">
-    <img src="././img/FAU.png" alt="" class="navbar-logo dark-content">
+    <img src="././img/FAU.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="https://pelzlab.science">
     <span class="navbar-title">ECLIPSE Lab</span>
@@ -181,12 +179,6 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
   <li><a href="#what-we-do-not-do" id="toc-what-we-do-not-do" class="nav-link" data-scroll-target="#what-we-do-not-do">What we do not do</a></li>
   <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
   </ul></li>
-  <li><a href="#accessibility-statement" id="toc-accessibility-statement" class="nav-link" data-scroll-target="#accessibility-statement">Accessibility Statement</a>
-  <ul class="collapse">
-  <li><a href="#our-goals" id="toc-our-goals" class="nav-link" data-scroll-target="#our-goals">Our goals</a></li>
-  <li><a href="#known-limitations" id="toc-known-limitations" class="nav-link" data-scroll-target="#known-limitations">Known limitations</a></li>
-  <li><a href="#feedback" id="toc-feedback" class="nav-link" data-scroll-target="#feedback">Feedback</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -195,7 +187,7 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Accessibility</h1>
+<h1 class="title">Privacy</h1>
 </div>
 
 
@@ -234,26 +226,6 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 <p>If you have privacy questions, please use the contact details on the <a href="./contact.html">Contact</a> page.</p>
 
 
-</section>
-</section>
-<section id="accessibility-statement" class="level2">
-<h2 class="anchored" data-anchor-id="accessibility-statement">Accessibility Statement</h2>
-<p>ECLIPSE Lab aims to make this website accessible and usable for all visitors.</p>
-<section id="our-goals" class="level3">
-<h3 class="anchored" data-anchor-id="our-goals">Our goals</h3>
-<ul>
-<li>Clear page structure and headings</li>
-<li>Readable contrast and typography</li>
-<li>Keyboard-friendly navigation where possible</li>
-</ul>
-</section>
-<section id="known-limitations" class="level3">
-<h3 class="anchored" data-anchor-id="known-limitations">Known limitations</h3>
-<p>Some legacy content and embedded media may not fully meet current accessibility best practices.</p>
-</section>
-<section id="feedback" class="level3">
-<h3 class="anchored" data-anchor-id="feedback">Feedback</h3>
-<p>If you encounter an accessibility barrier, please let us know via the <a href="./contact.html">Contact</a> page so we can improve the site.</p>
 </section>
 </section>
 
@@ -309,14 +281,13 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
