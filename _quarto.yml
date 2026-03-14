@@ -13,8 +13,10 @@ website:
   title: "ECLIPSE Lab"  
   favicon: favicon-32x32.png
   open-graph: true
+  image: ./img/eclipse_header.png
   twitter-card: 
     creator: "@PhilippPelz"
+    image: ./img/eclipse_header.png
   site-url: https://pelzlab.science
   navbar:
     logo: ./img/FAU.png
@@ -68,7 +70,8 @@ website:
   google-analytics:
     tracking-id: "G-TVZKKP7YNR"  
     anonymize-ip: true  
-  repo-url: https://github.com/PhilippPelz/ECLIPSElab
+  repo-url: https://github.com/ECLIPSE-Lab/eclipse-lab.github.io
+  repo-actions: [source, issue]
 theme:
   light: flatly
   dark: darkly
