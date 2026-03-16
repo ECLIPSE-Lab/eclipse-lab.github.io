@@ -27,8 +27,10 @@ for entry in "${IMAGES[@]}"; do
     ffmpeg -loglevel error -y -i "$src_path" -vf "scale=${width}:-2:flags=lanczos" \
       -frames:v 1 -c:v libwebp -quality 80 "$OUT_DIR/${base}-${width}.webp"
 
-    ffmpeg -loglevel error -y -i "$src_path" -vf "scale=${width}:-2:flags=lanczos" \
-      -frames:v 1 -c:v libaom-av1 -still-picture 1 -crf 40 -b:v 0 "$OUT_DIR/${base}-${width}.avif"
+    if [[ "$base" != "eclipse_header" ]]; then
+      ffmpeg -loglevel error -y -i "$src_path" -vf "scale=${width}:-2:flags=lanczos" \
+        -frames:v 1 -c:v libaom-av1 -still-picture 1 -crf 40 -b:v 0 "$OUT_DIR/${base}-${width}.avif"
+    fi
   done
 
 done

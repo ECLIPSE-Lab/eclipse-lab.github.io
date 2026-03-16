@@ -7,7 +7,6 @@ toc: false
 ::: {.lead}
   Welcome to the
   <picture>
-    <source type="image/avif" srcset="./img/optimized/eclipse_header-540.avif 540w, ./img/optimized/eclipse_header-810.avif 810w, ./img/optimized/eclipse_header-1080.avif 1080w" sizes="65vw">
     <source type="image/webp" srcset="./img/optimized/eclipse_header-540.webp 540w, ./img/optimized/eclipse_header-810.webp 810w, ./img/optimized/eclipse_header-1080.webp 1080w" sizes="65vw">
     <img src="./img/eclipse_header.png" alt="ECLIPSE Lab" style="width: 65%; height: auto;" loading="eager" decoding="async">
   </picture>
