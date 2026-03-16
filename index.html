@@ -83,11 +83,13 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 <meta property="og:title" content="ECLIPSE Lab">
 <meta property="og:image" content="https://pelzlab.science/img/eclipse_header.png">
 <meta property="og:site_name" content="ECLIPSE Lab">
+<meta property="og:image:alt" content="ECLIPSE Lab">
 <meta property="og:image:height" content="554">
 <meta property="og:image:width" content="1080">
 <meta name="twitter:title" content="ECLIPSE Lab">
 <meta name="twitter:image" content="https://pelzlab.science/img/eclipse_header.png">
 <meta name="twitter:creator" content="@PhilippPelz">
+<meta name="twitter:image:alt" content="ECLIPSE Lab">
 <meta name="twitter:image-height" content="554">
 <meta name="twitter:image-width" content="1080">
 <meta name="twitter:card" content="summary_large_image">
@@ -179,8 +181,92 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://pelzlab.science/#organization",
+      "name": "ECLIPSE Lab",
+      "url": "https://pelzlab.science",
+      "logo": "https://pelzlab.science/img/eclipse_header.png",
+      "parentOrganization": {
+        "@type": "CollegeOrUniversity",
+        "name": "Friedrich-Alexander University Erlangen-Nürnberg",
+        "url": "https://www.fau.de/"
+      },
+      "sameAs": [
+        "https://github.com/ECLIPSE-Lab",
+        "https://twitter.com/PhilippPelz"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://pelzlab.science/#website",
+      "url": "https://pelzlab.science",
+      "name": "ECLIPSE Lab",
+      "publisher": {
+        "@id": "https://pelzlab.science/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://pelzlab.science/#publication-highlights",
+      "name": "ECLIPSE Lab Publication Highlights",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "New Resolution Record in 3D Phase-Contrast Imaging",
+            "isPartOf": "Physica Scripta",
+            "datePublished": "2024",
+            "url": "https://doi.org/10.1088/1402-4896/ad9a1a"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "Solving Complex Nanostructures With Ptychographic Atomic Electron Tomography",
+            "isPartOf": "Nature Communications",
+            "datePublished": "2023",
+            "url": "https://www.nature.com/articles/s41467-023-43634-z"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "Simultaneous Successive Twinning Captured by Atomic Electron Tomography",
+            "isPartOf": "ACS Nano",
+            "datePublished": "2021",
+            "url": "https://pubs.acs.org/doi/10.1021/acsnano.1c07772"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "Imaging the electron charge density in monolayer MoS2 at the Angstrom scale",
+            "isPartOf": "Nature Communications",
+            "datePublished": "2023",
+            "url": "https://www.nature.com/articles/s41467-023-39304-9"
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 <div class="lead">
-<p>Welcome to the <img src="./img/eclipse_header.png" class="img-fluid" style="width:65.0%"></p>
+<p>Welcome to the <picture> <source type="image/avif" srcset="./img/optimized/eclipse_header-540.avif 540w, ./img/optimized/eclipse_header-810.avif 810w, ./img/optimized/eclipse_header-1080.avif 1080w" sizes="65vw"> <source type="image/webp" srcset="./img/optimized/eclipse_header-540.webp 540w, ./img/optimized/eclipse_header-810.webp 810w, ./img/optimized/eclipse_header-1080.webp 1080w" sizes="65vw"> <img src="./img/eclipse_header.png" alt="ECLIPSE Lab" style="width: 65%; height: auto;" loading="eager" decoding="async"> </picture></p>
 </div>
 <div class="hero2">
 <p>We develop computational tools to enable new capabilities in electron and X-ray microscopes and apply them to challenging materials science questions.</p>
@@ -188,12 +274,8 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 <div class="lead">
 <p>Publication Highlights</p>
 </div>
-<script src="
-https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
-"></script>
-<link href="
-https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
-" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
 <div class="splide" role="group" aria-label="Image Slider">
   <div class="splide__track">
         <ul class="splide__list">
@@ -203,7 +285,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
  (Phys Scripta 2024)</a>
                     
                 </div>
-        <img src="img/vol1.png" alt="c">
+        <picture>
+          <source type="image/avif" srcset="img/optimized/vol1-600.avif 600w, img/optimized/vol1-900.avif 900w, img/optimized/vol1-1200.avif 1200w" sizes="100vw">
+          <source type="image/webp" srcset="img/optimized/vol1-600.webp 600w, img/optimized/vol1-900.webp 900w, img/optimized/vol1-1200.webp 1200w" sizes="100vw">
+          <img src="img/vol1.png" alt="New Resolution Record in 3D Phase-Contrast Imaging" loading="lazy" decoding="async">
+        </picture>
       </li>
       <li class="splide__slide">
         <div>
@@ -211,14 +297,22 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
  (Nat Comm 2023)</a>
                     
                 </div>
-        <img src="img/zr_te_structure.png" alt="c">
+        <picture>
+          <source type="image/avif" srcset="img/optimized/zr_te_structure-300.avif 300w, img/optimized/zr_te_structure-450.avif 450w, img/optimized/zr_te_structure-600.avif 600w" sizes="100vw">
+          <source type="image/webp" srcset="img/optimized/zr_te_structure-300.webp 300w, img/optimized/zr_te_structure-450.webp 450w, img/optimized/zr_te_structure-600.webp 600w" sizes="100vw">
+          <img src="img/zr_te_structure.png" alt="Solving Complex Nanostructures With Ptychographic Atomic Electron Tomography" loading="lazy" decoding="async">
+        </picture>
       </li>
 
             <li class="splide__slide">
         <div>
           <a href="https://pubs.acs.org/doi/10.1021/acsnano.1c07772">Simultaneous Successive Twinning Captured by Atomic Electron Tomography (ACS Nano 2021)</a>
                 </div>
-        <img src="img/grey_waves1.jpg" alt="c">        
+        <picture>
+          <source type="image/avif" srcset="img/optimized/grey_waves1-300.avif 300w, img/optimized/grey_waves1-450.avif 450w, img/optimized/grey_waves1-595.avif 595w" sizes="100vw">
+          <source type="image/webp" srcset="img/optimized/grey_waves1-300.webp 300w, img/optimized/grey_waves1-450.webp 450w, img/optimized/grey_waves1-595.webp 595w" sizes="100vw">
+          <img src="img/grey_waves1.jpg" alt="Simultaneous Successive Twinning Captured by Atomic Electron Tomography" loading="lazy" decoding="async">
+        </picture>
       </li>
       <li class="splide__slide">
         <div>
@@ -253,13 +347,45 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 <p>We are an <span class="fw-bolder">interdisciplinary</span> research group based within the <a href="https://www.ww.tf.fau.de/" class="text-primary text-decoration-none fw-semibold">Department of Materials Science</a> at the <a href="https://www.fau.de/" class="text-primary text-decoration-none fw-semibold">Friedrich-Alexander University of Erlangen-Nürnberg</a>. We have expertise in <span class="fw-bolder">condensed matter physics, deep learning, large-scale optimization, signal and image processing, and experimental design</span> for advanced <span class="fw-bolder">X-ray and electron microscopy</span> experiments.</p>
 <p>We are part of the <a href="https://www.em.tf.fau.de/">Institute of Micro- and Nanostructure Research</a> and the <a href="https://www.cenem.fau.de/">Center for Nanoanalysis and Electron Microscopy</a> and part of the Competence Unit <a href="https://www.eam.fau.eu/">Engineering of Advanced Materials</a>.</p>
 </div>
-<a class="twitter-timeline" href="https://twitter.com/PhilippPelz?ref_src=twsrc%5Etfw">Tweets by PhilippPelz</a>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<!-- ::: {.callout-note} -->
-<!-- ## We are currently recruiting! -->
-<!-- If you are interested in joining the lab as a Psychology PhD student, please consider applying.<br /> -->
-<!-- You can find more information about this recruitment cycle at [this blog post](./posts/recruitment2023) (or under News). -->
-<!-- ::: -->
+<div class="lead">
+<p>How can we help you today?</p>
+</div>
+<div class="columns">
+<div class="column" style="width:33%;">
+<section id="prospective-students-researchers" class="level4">
+<h4 class="anchored" data-anchor-id="prospective-students-researchers">Prospective students &amp; researchers</h4>
+<p>Learn about open positions, projects, and how to join the lab.</p>
+<ul>
+<li>MSc and PhD theses</li>
+<li>Postdoctoral positions</li>
+<li>Short-term research projects</li>
+</ul>
+<p><a href="./opportunities.html" class="btn btn-primary" title="Open positions, projects, and how to join the lab">See open opportunities</a></p>
+</section>
+</div><div class="column" style="width:33%;">
+<section id="collaborators-facilities" class="level4">
+<h4 class="anchored" data-anchor-id="collaborators-facilities">Collaborators &amp; facilities</h4>
+<p>See our research directions and how we work with partners.</p>
+<ul>
+<li>Advanced electron and X-ray microscopy</li>
+<li>Method development and software</li>
+<li>Access to instrumentation and expertise</li>
+</ul>
+<p><a href="./research.html" class="btn btn-primary me-1" title="Overview of our research directions and capabilities">See research themes</a> <a href="./resources.html" class="btn btn-outline-secondary" title="Software, datasets, and practical information for collaborators">Browse resources</a></p>
+</section>
+</div><div class="column" style="width:34%;">
+<section id="whats-new" class="level4">
+<h4 class="anchored" data-anchor-id="whats-new">What’s new?</h4>
+<p>Talks, awards, and other recent lab news.</p>
+<ul>
+<li>Recent talks and workshops</li>
+<li>Grants, awards, and recognitions</li>
+<li>New people and projects</li>
+</ul>
+<p><a href="./news.html" class="btn btn-primary" title="Recent talks, awards, people, and other lab news">Read lab news</a></p>
+</section>
+</div>
+</div>
 
 
 
@@ -677,13 +803,13 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./license.qmd">
+    <a class="nav-link" href="./license.html">
 <p>Privacy</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./trademark.qmd">
-<p>Accesibility</p>
+    <a class="nav-link" href="./trademark.html">
+<p>Accessibility</p>
 </a>
   </li>  
 </ul>
