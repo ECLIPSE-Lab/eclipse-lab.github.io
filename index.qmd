@@ -1,7 +1,6 @@
 ---
 pagetitle: "ECLIPSE Lab"
 title: ""
-# page-layout: full
 toc: false
 ---
 ::: {.lead}
