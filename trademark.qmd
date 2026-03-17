@@ -14,7 +14,7 @@ ECLIPSE Lab aims to make this website accessible and usable for all visitors.
 
 ### Known limitations
 
-Some legacy content and embedded media may not fully meet current accessibility best practices.
+Some legacy content and embedded media may not yet fully meet current accessibility best practices.
 
 ### Feedback
 

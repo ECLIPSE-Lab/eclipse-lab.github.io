@@ -9,7 +9,7 @@ ECLIPSE Lab is committed to collecting as little personal data as possible.
 ### What we collect
 
 - Basic aggregated website analytics (Google Analytics) to understand overall site usage.
-- Information you voluntarily provide when contacting us (e.g., by email).
+- Information you voluntarily provide when contacting us (for example by email).
 
 ### What we do not do
 
