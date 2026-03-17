@@ -15,6 +15,36 @@ toc: false
   We develop computational tools to enable new capabilities in electron and X-ray microscopes and apply them to challenging materials science questions.
 :::
 
+## Start here
+
+If you are new to the lab, the shortest useful summary is this: we work on difficult imaging problems where better reconstruction, automation, and physically informed computation can unlock new scientific measurements.
+
+:::: {.columns}
+
+::: {.column width="33%"}
+### What problem are we solving?
+Modern microscopy often produces rich but difficult-to-interpret measurements. We develop methods that make 3D structure, chemistry, and weak signals more accessible at higher throughput and lower dose.
+
+[See research by problem](research-by-problem.qmd){.btn .btn-primary}
+:::
+
+::: {.column width="33%"}
+### Why does it matter now?
+Better algorithms and automation make it possible to extract more information from advanced microscopes while improving speed, sensitivity, and experimental reliability.
+
+[Explore research directions](research.qmd){.btn .btn-primary}
+:::
+
+::: {.column width="34%"}
+### Where should I go next?
+Whether you want to join the lab, collaborate on a project, or understand our current work, start with the pathways below.
+
+[Join the lab](opportunities.qmd){.btn .btn-primary .me-1}
+[Contact us](contact.qmd){.btn .btn-outline-secondary}
+:::
+
+::::
+
 ::: {.lead}
   Publication Highlights
 :::
@@ -63,7 +93,7 @@ toc: false
         <div>
           <a href="https://www.nature.com/articles/s41467-023-39304-9">Imaging the electron charge density in monolayer MoS2 at the Angstrom scale (Nat Comm 2023)</a>
 				</div>
-        <img src="img/charge_density.svg" alt="c">
+        <img src="img/charge_density.svg" alt="Imaging the electron charge density in monolayer MoS2 at the Angstrom scale">
       </li>
 
 		</ul>
@@ -89,12 +119,6 @@ toc: false
  
 </script>
 ```
-
-
-
-
-
-
 
 ::: {.lead}
   We are an [interdisciplinary]{.fw-bolder} research group based within the [Department of Materials Science](https://www.ww.tf.fau.de/){.text-primary .text-decoration-none .fw-semibold} at the [Friedrich-Alexander University of Erlangen-Nürnberg](https://www.fau.de/){.text-primary .text-decoration-none .fw-semibold}. We have expertise in [condensed matter physics, deep learning, large-scale optimization, signal and image processing, and experimental design]{.fw-bolder} for advanced [X-ray and electron microscopy]{.fw-bolder} experiments. 

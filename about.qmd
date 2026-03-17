@@ -1,5 +1,9 @@
 ---
-title: "About"
+title: "Imprint"
 ---
 
-About this site
+## Imprint
+
+This website presents the ECLIPSE Lab and related research, teaching, and opportunity information.
+
+For official institutional and contact details, please use the [Contact](contact.qmd) page and the relevant Friedrich-Alexander University Erlangen-Nürnberg resources.

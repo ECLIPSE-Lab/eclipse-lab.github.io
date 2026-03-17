@@ -12,41 +12,69 @@ toc: true
 </nav>
 ```
 
-## Research Topics
+## Research
 
 Prefer a problem-first view? See [Research by Problem](research-by-problem.qmd).
 
-### Computational imaging
+## Capability areas
 
-- **Large-scale dose-efficient 3D imaging**
+### Computational imaging for difficult 3D measurements
 
-  We are leaders in the development of 3D imaging methods based on 4D-STEM measurements. 
+**What we build**  
+We develop 3D imaging methods based on 4D-STEM and related computational reconstruction pipelines for large-scale, dose-efficient, high-resolution measurements.
 
-    - [2023: first atomic-resolution 3D volume from 4D-STEM tomography](https://www.nature.com/articles/s41467-023-43634-z) 
-    - [2024: first atomic-resolution phase-contrast volume beyond the depth of focus limit](https://doi.org/10.1088/2515-7639/ad9ad2)
-    - [2024: first end-to-end reconstruction reaching sub-Angstrom resolution](https://doi.org/10.1088/1402-4896/ad9a1a)
+**Why it matters**  
+Many important materials problems require 3D information at high resolution, but conventional workflows remain too slow, too dose-intensive, or too limited for weakly scattering structures.
 
-  These methods will enable high-throughput, high-resolution, and high-sensitivity 3D imaging of large samples. Especially weakly scattering atoms can be resolved with unprecedented accuracy.
+**Representative results**
+- [2023: first atomic-resolution 3D volume from 4D-STEM tomography](https://www.nature.com/articles/s41467-023-43634-z)
+- [2024: first atomic-resolution phase-contrast volume beyond the depth of focus limit](https://doi.org/10.1088/2515-7639/ad9ad2)
+- [2024: first end-to-end reconstruction reaching sub-Angstrom resolution](https://doi.org/10.1088/1402-4896/ad9a1a)
 
-- **Fast simulators for electron microscopy** 
+**Collaboration angle**  
+We are interested in collaborations where new reconstruction methods can unlock 3D structure, chemistry, or sensitivity in experimentally challenging datasets.
 
-  We are developing fast simulators for electron microscopy.
+### Fast simulation and model-based electron microscopy
 
-  - [\>100x faster simulations](https://academic.oup.com/mam/article/27/4/835/6888048)
+**What we build**  
+We develop fast simulators and model-based workflows for electron microscopy that support method design, reconstruction, and quantitative interpretation.
+
+**Why it matters**  
+Simulation is essential for testing algorithms, understanding signal formation, and scaling new microscopy methods to realistic experiments.
+
+**Representative result**
+- [>100x faster simulations](https://academic.oup.com/mam/article/27/4/835/6888048)
+
+**Collaboration angle**  
+This is relevant for groups who need reliable forward models, synthetic benchmarks, or tighter coupling between experiment and computation.
 
 ### Multi-modal microscopy
 
+**What we build**  
 We are developing new approaches for multi-modal 3D imaging, down to the atomic scale.
 
-Stay tuned for the first results!
+**Why it matters**  
+Combining complementary signals can reveal structure, chemistry, and function more effectively than single-mode imaging alone.
 
-### Self-driving equipment
+**Current status**  
+Stay tuned for the first results.
 
-We are developing automation methods for electron microscopy.
+**Collaboration angle**  
+We welcome collaborations where multimodal data fusion or cross-signal interpretation is the limiting step.
 
-- [Automated End-to-end ptychographic tomography](https://doi.org/10.1093/mam/ozaf048.070)
+### Self-driving and automated microscopy
 
+**What we build**  
+We develop automation methods for electron microscopy, including end-to-end and self-driving workflows.
 
+**Why it matters**  
+Automation reduces friction in advanced experiments, improves repeatability, and enables higher-throughput scientific discovery.
+
+**Representative result**
+- [Automated end-to-end ptychographic tomography](https://doi.org/10.1093/mam/ozaf048.070)
+
+**Collaboration angle**  
+This is particularly relevant for partners who want more robust acquisition, scalable pipelines, or autonomous microscopy workflows.
 
 ## Research Funding
 
@@ -75,10 +103,10 @@ We are developing automation methods for electron microscopy.
 
 ## Research Framework
 
-### Holistic microscopy - using as much of the scattering information as possible
+### Holistic microscopy
 
-The substantive focus of our work is on incorporating prior physical knowledge about scattering mechanisms and multiple signal channels into the image reconstruction.
+The substantive focus of our work is on incorporating prior physical knowledge about scattering mechanisms and multiple signal channels into image reconstruction.
 
 ### ML-driven microscopy
 
-We use modern machine learning tools to make microscopy faster and better
+We use modern machine learning tools to make microscopy faster, more robust, and more informative.

@@ -59,10 +59,10 @@ website:
     center: 
       - text: "Imprint"
         href: about.qmd
-      - text: "Privacy"
-        href: license.html
-      - text: "Accessibility"
-        href: trademark.html
+      - text: "Privacy Notice"
+        href: license.qmd
+      - text: "Accessibility Statement"
+        href: trademark.qmd
   # cookie-consent:
   #   type: express
   #   style: headline

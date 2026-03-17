@@ -82,10 +82,18 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Research | ECLIPSE Lab">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://pelzlab.science/img/eclipse_header.png">
 <meta property="og:site_name" content="ECLIPSE Lab">
+<meta property="og:image:height" content="554">
+<meta property="og:image:width" content="1080">
 <meta name="twitter:title" content="Research | ECLIPSE Lab">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://pelzlab.science/img/eclipse_header.png">
 <meta name="twitter:creator" content="@PhilippPelz">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image-height" content="554">
+<meta name="twitter:image-width" content="1080">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -128,6 +136,10 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
   <li class="nav-item">
     <a class="nav-link active" href="./research.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research-by-problem.html"> 
+<span class="menu-text">By Problem</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
@@ -173,11 +185,13 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#research-topics" id="toc-research-topics" class="nav-link active" data-scroll-target="#research-topics">Research Topics</a>
+  <li><a href="#research" id="toc-research" class="nav-link active" data-scroll-target="#research">Research</a></li>
+  <li><a href="#capability-areas" id="toc-capability-areas" class="nav-link" data-scroll-target="#capability-areas">Capability areas</a>
   <ul class="collapse">
-  <li><a href="#computational-imaging" id="toc-computational-imaging" class="nav-link" data-scroll-target="#computational-imaging">Computational imaging</a></li>
+  <li><a href="#computational-imaging-for-difficult-3d-measurements" id="toc-computational-imaging-for-difficult-3d-measurements" class="nav-link" data-scroll-target="#computational-imaging-for-difficult-3d-measurements">Computational imaging for difficult 3D measurements</a></li>
+  <li><a href="#fast-simulation-and-model-based-electron-microscopy" id="toc-fast-simulation-and-model-based-electron-microscopy" class="nav-link" data-scroll-target="#fast-simulation-and-model-based-electron-microscopy">Fast simulation and model-based electron microscopy</a></li>
   <li><a href="#multi-modal-microscopy" id="toc-multi-modal-microscopy" class="nav-link" data-scroll-target="#multi-modal-microscopy">Multi-modal microscopy</a></li>
-  <li><a href="#self-driving-equipment" id="toc-self-driving-equipment" class="nav-link" data-scroll-target="#self-driving-equipment">Self-driving equipment</a></li>
+  <li><a href="#self-driving-and-automated-microscopy" id="toc-self-driving-and-automated-microscopy" class="nav-link" data-scroll-target="#self-driving-and-automated-microscopy">Self-driving and automated microscopy</a></li>
   </ul></li>
   <li><a href="#research-funding" id="toc-research-funding" class="nav-link" data-scroll-target="#research-funding">Research Funding</a>
   <ul class="collapse">
@@ -186,11 +200,11 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
   </ul></li>
   <li><a href="#research-framework" id="toc-research-framework" class="nav-link" data-scroll-target="#research-framework">Research Framework</a>
   <ul class="collapse">
-  <li><a href="#holistic-microscopy---using-as-much-of-the-scattering-information-as-possible" id="toc-holistic-microscopy---using-as-much-of-the-scattering-information-as-possible" class="nav-link" data-scroll-target="#holistic-microscopy---using-as-much-of-the-scattering-information-as-possible">Holistic microscopy - using as much of the scattering information as possible</a></li>
+  <li><a href="#holistic-microscopy" id="toc-holistic-microscopy" class="nav-link" data-scroll-target="#holistic-microscopy">Holistic microscopy</a></li>
   <li><a href="#ml-driven-microscopy" id="toc-ml-driven-microscopy" class="nav-link" data-scroll-target="#ml-driven-microscopy">ML-driven microscopy</a></li>
   </ul></li>
   </ul>
-</nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/ECLIPSE-Lab/eclipse-lab.github.io/blob/main/research.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ECLIPSE-Lab/eclipse-lab.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
@@ -204,37 +218,52 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
     <li class="breadcrumb-item active" aria-current="page">Research</li>
   </ol>
 </nav>
-<section id="research-topics" class="level2">
-<h2 class="anchored" data-anchor-id="research-topics">Research Topics</h2>
-<section id="computational-imaging" class="level3">
-<h3 class="anchored" data-anchor-id="computational-imaging">Computational imaging</h3>
-<ul>
-<li><p><strong>Large-scale dose-efficient 3D imaging</strong></p>
-<p>We are leaders in the development of 3D imaging methods based on 4D-STEM measurements.</p>
-<ul>
-<li><a href="https://www.nature.com/articles/s41467-023-43634-z">2023: first atomic-resolution 3D volume from 4D-STEM tomography</a></li>
-<li><a href="https://doi.org/10.1088/2515-7639/ad9ad2">2024: first atomic-resolution phase-contrast volume beyond the depth of focus limit</a></li>
-<li><a href="https://doi.org/10.1088/1402-4896/ad9a1a">2024: first end-to-end reconstruction reaching sub-Angstrom resolution</a></li>
-</ul>
-<p>These methods will enable high-throughput, high-resolution, and high-sensitivity 3D imaging of large samples. Especially weakly scattering atoms can be resolved with unprecedented accuracy.</p></li>
-<li><p><strong>Fast simulators for electron microscopy</strong></p>
-<p>We are developing fast simulators for electron microscopy.</p>
-<ul>
-<li><a href="https://academic.oup.com/mam/article/27/4/835/6888048">&gt;100x faster simulations</a></li>
-</ul></li>
-</ul>
+<section id="research" class="level2">
+<h2 class="anchored" data-anchor-id="research">Research</h2>
+<p>Prefer a problem-first view? See <a href="./research-by-problem.html">Research by Problem</a>.</p>
+</section>
+<section id="capability-areas" class="level2">
+<h2 class="anchored" data-anchor-id="capability-areas">Capability areas</h2>
+<section id="computational-imaging-for-difficult-3d-measurements" class="level3">
+<h3 class="anchored" data-anchor-id="computational-imaging-for-difficult-3d-measurements">Computational imaging for difficult 3D measurements</h3>
+<p><strong>What we build</strong><br>
+We develop 3D imaging methods based on 4D-STEM and related computational reconstruction pipelines for large-scale, dose-efficient, high-resolution measurements.</p>
+<p><strong>Why it matters</strong><br>
+Many important materials problems require 3D information at high resolution, but conventional workflows remain too slow, too dose-intensive, or too limited for weakly scattering structures.</p>
+<p><strong>Representative results</strong> - <a href="https://www.nature.com/articles/s41467-023-43634-z">2023: first atomic-resolution 3D volume from 4D-STEM tomography</a> - <a href="https://doi.org/10.1088/2515-7639/ad9ad2">2024: first atomic-resolution phase-contrast volume beyond the depth of focus limit</a> - <a href="https://doi.org/10.1088/1402-4896/ad9a1a">2024: first end-to-end reconstruction reaching sub-Angstrom resolution</a></p>
+<p><strong>Collaboration angle</strong><br>
+We are interested in collaborations where new reconstruction methods can unlock 3D structure, chemistry, or sensitivity in experimentally challenging datasets.</p>
+</section>
+<section id="fast-simulation-and-model-based-electron-microscopy" class="level3">
+<h3 class="anchored" data-anchor-id="fast-simulation-and-model-based-electron-microscopy">Fast simulation and model-based electron microscopy</h3>
+<p><strong>What we build</strong><br>
+We develop fast simulators and model-based workflows for electron microscopy that support method design, reconstruction, and quantitative interpretation.</p>
+<p><strong>Why it matters</strong><br>
+Simulation is essential for testing algorithms, understanding signal formation, and scaling new microscopy methods to realistic experiments.</p>
+<p><strong>Representative result</strong> - <a href="https://academic.oup.com/mam/article/27/4/835/6888048">&gt;100x faster simulations</a></p>
+<p><strong>Collaboration angle</strong><br>
+This is relevant for groups who need reliable forward models, synthetic benchmarks, or tighter coupling between experiment and computation.</p>
 </section>
 <section id="multi-modal-microscopy" class="level3">
 <h3 class="anchored" data-anchor-id="multi-modal-microscopy">Multi-modal microscopy</h3>
-<p>We are developing new approaches for multi-modal 3D imaging, down to the atomic scale.</p>
-<p>Stay tuned for the first results!</p>
+<p><strong>What we build</strong><br>
+We are developing new approaches for multi-modal 3D imaging, down to the atomic scale.</p>
+<p><strong>Why it matters</strong><br>
+Combining complementary signals can reveal structure, chemistry, and function more effectively than single-mode imaging alone.</p>
+<p><strong>Current status</strong><br>
+Stay tuned for the first results.</p>
+<p><strong>Collaboration angle</strong><br>
+We welcome collaborations where multimodal data fusion or cross-signal interpretation is the limiting step.</p>
 </section>
-<section id="self-driving-equipment" class="level3">
-<h3 class="anchored" data-anchor-id="self-driving-equipment">Self-driving equipment</h3>
-<p>We are developing automation methods for electron microscopy.</p>
-<ul>
-<li><a href="https://doi.org/10.1093/mam/ozaf048.070">Automated End-to-end ptychographic tomography</a></li>
-</ul>
+<section id="self-driving-and-automated-microscopy" class="level3">
+<h3 class="anchored" data-anchor-id="self-driving-and-automated-microscopy">Self-driving and automated microscopy</h3>
+<p><strong>What we build</strong><br>
+We develop automation methods for electron microscopy, including end-to-end and self-driving workflows.</p>
+<p><strong>Why it matters</strong><br>
+Automation reduces friction in advanced experiments, improves repeatability, and enables higher-throughput scientific discovery.</p>
+<p><strong>Representative result</strong> - <a href="https://doi.org/10.1093/mam/ozaf048.070">Automated end-to-end ptychographic tomography</a></p>
+<p><strong>Collaboration angle</strong><br>
+This is particularly relevant for partners who want more robust acquisition, scalable pipelines, or autonomous microscopy workflows.</p>
 </section>
 </section>
 <section id="research-funding" class="level2">
@@ -275,13 +304,13 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 </section>
 <section id="research-framework" class="level2">
 <h2 class="anchored" data-anchor-id="research-framework">Research Framework</h2>
-<section id="holistic-microscopy---using-as-much-of-the-scattering-information-as-possible" class="level3">
-<h3 class="anchored" data-anchor-id="holistic-microscopy---using-as-much-of-the-scattering-information-as-possible">Holistic microscopy - using as much of the scattering information as possible</h3>
-<p>The substantive focus of our work is on incorporating prior physical knowledge about scattering mechanisms and multiple signal channels into the image reconstruction.</p>
+<section id="holistic-microscopy" class="level3">
+<h3 class="anchored" data-anchor-id="holistic-microscopy">Holistic microscopy</h3>
+<p>The substantive focus of our work is on incorporating prior physical knowledge about scattering mechanisms and multiple signal channels into image reconstruction.</p>
 </section>
 <section id="ml-driven-microscopy" class="level3">
 <h3 class="anchored" data-anchor-id="ml-driven-microscopy">ML-driven microscopy</h3>
-<p>We use modern machine learning tools to make microscopy faster and better</p>
+<p>We use modern machine learning tools to make microscopy faster, more robust, and more informative.</p>
 
 
 </section>
@@ -703,16 +732,16 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="./license.html">
-<p>Privacy</p>
+<p>Privacy Notice</p>
 </a>
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="./trademark.html">
-<p>Accessibility</p>
+<p>Accessibility Statement</p>
 </a>
   </li>  
 </ul>
-    </div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ECLIPSE-Lab/eclipse-lab.github.io/blob/main/research.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ECLIPSE-Lab/eclipse-lab.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
