@@ -54,6 +54,33 @@ Postdoctoral fellowships and staff positions are opened as funding permits. Plea
 
 We also encourage and actively support applications for external funding, including the [Marie Skłodowska-Curie Postdoctoral Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships) and the [Alexander von Humboldt Research Fellowship](https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship).
 
+
+## How to Apply Internationally
+
+**Q1: Can I apply if I am currently outside Germany?**  
+Yes. We welcome applications from international candidates at all levels.
+
+**Q2: Which language is used in the lab?**  
+Day-to-day research communication is typically in English.
+
+**Q3: What should international applicants include in addition to the standard application?**  
+Please include your expected availability/start date, current location, and visa status (if known) together with the [application package](#application).
+
+**Q4: Are there funding routes for international postdocs?**  
+Yes. We actively support applications to external fellowships, especially the [Marie Skłodowska-Curie Postdoctoral Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships) and the [Alexander von Humboldt Research Fellowship](https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship).
+
+**Q5: Will the lab support proposal preparation?**  
+Yes. For strong-fit candidates, we support proposal framing, scope alignment, and supervision planning.
+
+**Q6: Is prior electron microscopy experience mandatory?**  
+Not always. Strong foundations in math, physics, computation, or inverse problems can also be an excellent fit.
+
+**Q7: What timeline should I expect if I apply from abroad?**  
+Initial feedback is usually within 1–3 weeks, but final timelines can depend on fellowship, enrollment, and visa processes.
+
+**Q8: Who should I contact if I am unsure about fit before applying?**  
+Use the [contact page](contact.qmd) with a short summary of your background and interests, and we can advise on fit before full application.
+
 ## Application {#application}
 
 Please send one concise application email with the following:

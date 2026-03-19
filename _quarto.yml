@@ -13,8 +13,10 @@ website:
   title: "ECLIPSE Lab"  
   favicon: favicon-32x32.png
   open-graph: true
+  image: ./img/eclipse_header.png
   twitter-card: 
     creator: "@PhilippPelz"
+    image: ./img/eclipse_header.png
   site-url: https://pelzlab.science
   navbar:
     logo: ./img/FAU.png
@@ -41,6 +43,8 @@ website:
         text: People
       - href: research.qmd
         text: Research
+      - href: research-by-problem.qmd
+        text: By Problem
       - href: publications.qmd
         text: Publications
       - href: resources.qmd
@@ -55,10 +59,10 @@ website:
     center: 
       - text: "Imprint"
         href: about.qmd
-      - text: "Privacy"
-        href: license.html
-      - text: "Accessibility"
-        href: trademark.html
+      - text: "Privacy Notice"
+        href: license.qmd
+      - text: "Accessibility Statement"
+        href: trademark.qmd
   # cookie-consent:
   #   type: express
   #   style: headline
@@ -66,7 +70,8 @@ website:
   google-analytics:
     tracking-id: "G-TVZKKP7YNR"  
     anonymize-ip: true  
-  repo-url: https://github.com/PhilippPelz/ECLIPSElab
+  repo-url: https://github.com/ECLIPSE-Lab/eclipse-lab.github.io
+  repo-actions: [source, issue]
 theme:
   light: flatly
   dark: darkly

@@ -41,6 +41,7 @@ jobs:
       - name: Create refresh PR
         uses: peter-evans/create-pull-request@v7
         with:
+          token: ${{ secrets.ECLIPSELAB_PR_TOKEN || github.token }}
           commit-message: "chore: automated publication/news refresh"
           branch: automation/publication-refresh
           delete-branch: true

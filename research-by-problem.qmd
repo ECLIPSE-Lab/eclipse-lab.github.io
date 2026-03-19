@@ -1,0 +1,80 @@
+---
+pagetitle: "Research by Problem | ECLIPSE Lab"
+toc: true
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="research.html">Research</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Research by Problem</li>
+  </ol>
+</nav>
+```
+
+## Research by Problem
+
+This page maps our work to concrete scientific bottlenecks in electron microscopy and computational imaging.
+
+## 1) Low-dose, high-resolution 3D imaging
+
+**Problem**  
+Atomic-scale 3D imaging often requires long acquisition times and high electron dose, which can damage beam-sensitive materials.
+
+**Why this is hard**  
+Signal is weak, data are noisy, and conventional reconstructions struggle to preserve fine structure at practical dose levels.
+
+**Our approach**  
+We combine physics-based inverse methods with ptychographic and 4D-STEM reconstruction pipelines to recover more information per electron.
+
+**Representative results**
+- [Atomic-resolution 3D volume from 4D-STEM tomography (Nature Communications, 2023)](https://www.nature.com/articles/s41467-023-43634-z)
+- [Atomic-resolution phase-contrast volume beyond depth-of-focus limits (Physica Scripta, 2024)](https://doi.org/10.1088/2515-7639/ad9ad2)
+
+## 2) Large-volume 3D reconstruction at practical throughput
+
+**Problem**  
+Many materials questions require statistically meaningful volumes, not only small proof-of-concept reconstructions.
+
+**Why this is hard**  
+Scaling to larger fields of view and many tilt conditions quickly increases compute cost and reconstruction complexity.
+
+**Our approach**  
+We design scalable reconstruction workflows and efficient compute strategies for high-throughput, high-fidelity 3D imaging.
+
+**Representative results**
+- [Sub-Ångström end-to-end reconstruction pipeline (Physica Scripta, 2024)](https://doi.org/10.1088/1402-4896/ad9a1a)
+- [Fast electron microscopy simulations (>100x) supporting rapid method development (Microscopy and Microanalysis, 2021)](https://academic.oup.com/mam/article/27/4/835/6888048)
+
+## 3) Robust reconstruction under model mismatch and experimental complexity
+
+**Problem**  
+Real experiments deviate from idealized assumptions (aberrations, partial coherence, drift, sample complexity), reducing reconstruction reliability.
+
+**Why this is hard**  
+Small modeling errors can accumulate and create artifacts or bias quantitative interpretation.
+
+**Our approach**  
+We integrate physical priors, uncertainty-aware optimization, and automation to stabilize reconstructions in realistic conditions.
+
+**Representative results**
+- [Automated end-to-end ptychographic tomography workflow (Microscopy and Microanalysis, 2025)](https://doi.org/10.1093/mam/ozaf048.070)
+
+## 4) Multi-modal integration for richer materials insight
+
+**Problem**  
+Single-mode imaging often cannot jointly resolve structure, chemistry, and functional context.
+
+**Why this is hard**  
+Combining modalities requires careful alignment, calibration, and reconstruction across heterogeneous signals.
+
+**Our approach**  
+We develop multimodal computational frameworks to fuse complementary signals in 3D at high resolution.
+
+**Status**
+- Ongoing work; updates will be added as results are released.
+
+## Collaboration
+
+If your project matches one of the problems above, please see [Opportunities](opportunities.qmd) or [Contact](contact.qmd).
