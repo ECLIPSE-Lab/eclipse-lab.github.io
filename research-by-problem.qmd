@@ -29,6 +29,7 @@ Signal is weak, data are noisy, and conventional reconstructions struggle to pre
 We combine physics-based inverse methods with ptychographic and 4D-STEM reconstruction pipelines to recover more information per electron.
 
 **Representative results**
+
 - [Atomic-resolution 3D volume from 4D-STEM tomography (Nature Communications, 2023)](https://www.nature.com/articles/s41467-023-43634-z)
 - [Atomic-resolution phase-contrast volume beyond depth-of-focus limits (Physica Scripta, 2024)](https://doi.org/10.1088/2515-7639/ad9ad2)
 
@@ -44,6 +45,7 @@ Scaling to larger fields of view and many tilt conditions quickly increases comp
 We design scalable reconstruction workflows and efficient compute strategies for high-throughput, high-fidelity 3D imaging.
 
 **Representative results**
+
 - [Sub-Ångström end-to-end reconstruction pipeline (Physica Scripta, 2024)](https://doi.org/10.1088/1402-4896/ad9a1a)
 - [Fast electron microscopy simulations (>100x) supporting rapid method development (Microscopy and Microanalysis, 2021)](https://academic.oup.com/mam/article/27/4/835/6888048)
 
@@ -59,6 +61,7 @@ Small modeling errors can accumulate and create artifacts or bias quantitative i
 We integrate physical priors, uncertainty-aware optimization, and automation to stabilize reconstructions in realistic conditions.
 
 **Representative results**
+
 - [Automated end-to-end ptychographic tomography workflow (Microscopy and Microanalysis, 2025)](https://doi.org/10.1093/mam/ozaf048.070)
 
 ## 4) Multi-modal integration for richer materials insight
