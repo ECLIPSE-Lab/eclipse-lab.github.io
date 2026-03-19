@@ -5,6 +5,58 @@ email-obfuscation: javascript
 ---
 
 ```{=html}
+<style>
+.lecture-card {
+  position: relative;
+  overflow: hidden;
+  height: 280px; /* Reduced height so the landscape background image isn't heavily zoomed/cropped by `cover` */
+  background-size: cover;
+  background-position: center;
+  border: none !important;
+  padding: 0 !important;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.lecture-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.lecture-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 10%, rgba(0,0,0,0.85) 90%);
+  z-index: 2;
+}
+.lecture-card-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem;
+  z-index: 3;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.lecture-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: white;
+  line-height: 1.3;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+.lecture-meta {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+</style>
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
@@ -15,19 +67,53 @@ email-obfuscation: javascript
 
 ## Summer Semester 2026
 
-- Lecture Materialgenomik
-  -  Tue 16:15h - 17:45h Seminar Room 0.68 WW building
-  - [website](https://pelzlab.science/MaterialsGenomics/)
+:::: {.columns}
 
-- Lecture Machine Learning for Processing & Characterization
-  - Tue 14:15h - 15:45h Seminar Room 0.68 WW building
-  <!-- - [studon](https://www.studon.fau.de/campo/course/489020) -->
-  - [website](https://pelzlab.science/MachineLearningForCharacterizationAndProcessing/)
+::: {.column .lecture-card style="width: 33%; background-image: url('img/lecturecard_MG.jpg');"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Materialgenomik</div>
+  <div class="lecture-meta">
+    🗓️ Tue 16:15h - 17:45h<br>
+    📍 0.68 WW building
+  </div>
+  <a href="https://pelzlab.science/MaterialsGenomics/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
+</div>
+```
+:::
 
-- Mathematical Foundations of AI/ML
-  - Mon 10:15-11:45h Seminar Room 01.156 IZNF
-  <!-- - [studon](https://www.studon.fau.de/campo/course/491599) -->
-  - [website](https://pelzlab.science/MathematicalFoundationsForAIML/)
+::: {.column .lecture-card style="width: 33%; background-image: url('img/lecturecard_ML-PC.jpg');"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Machine Learning for <br>Processing & Characterization</div>
+  <div class="lecture-meta">
+    🗓️ Tue 14:15h - 15:45h<br>
+    📍 0.68 WW building
+  </div>
+  <!-- <a href="https://www.studon.fau.de/campo/course/489020" class="btn btn-secondary lecture-link" style="margin-bottom: 0.5rem; align-self: flex-start;">Studon</a> -->
+  <a href="https://pelzlab.science/MachineLearningForCharacterizationAndProcessing/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
+</div>
+```
+:::
+
+::: {.column .lecture-card style="width: 34%; background-image: url('img/lecturecard_MF-AIML.jpg');"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Mathematical Foundations <br> of AI/ML</div>
+  <div class="lecture-meta">
+    🗓️ Mon 10:15h - 11:45h<br>
+    📍 Rm 01.156 IZNF
+  </div>
+  <!-- <a href="https://www.studon.fau.de/campo/course/491599" class="btn btn-secondary lecture-link" style="margin-bottom: 0.5rem; align-self: flex-start;">Studon</a> -->
+  <a href="https://pelzlab.science/MathematicalFoundationsForAIML/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
+</div>
+```
+:::
+
+::::
 
 
 
