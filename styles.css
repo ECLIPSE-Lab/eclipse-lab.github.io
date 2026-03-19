@@ -26,9 +26,7 @@
   height: 100%;
   object-fit: cover;
 }
-.navbar-dark {
-  background-color: #000000;
-}
+
 .quarto-about-jolla p.subtitle {
  text-align: center;
 }

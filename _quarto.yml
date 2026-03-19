@@ -21,7 +21,6 @@ website:
   navbar:
     logo: ./img/FAU.png
     logo-href: https://pelzlab.science
-    background: "#000000"
     search: true
     tools:
       - icon: ./img/erc_logo.svg
@@ -55,7 +54,6 @@ website:
         text: Contact
 
   page-footer:    
-    background: "#000000"
     center: 
       - text: "Imprint"
         href: about.qmd
@@ -72,12 +70,12 @@ website:
     anonymize-ip: true  
   repo-url: https://github.com/ECLIPSE-Lab/eclipse-lab.github.io
   repo-actions: [source, issue]
-theme:
-  light: flatly
-  dark: darkly
+
   
 format:
   html:
-    theme: darkly
+    theme:
+      - darkly
+      - custom.scss
     css: styles.css
     toc: true

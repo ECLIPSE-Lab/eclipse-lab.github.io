@@ -94,7 +94,7 @@ toc: false
   Welcome to the
   <picture>
     <source type="image/webp" srcset="./img/optimized/eclipse_header-540.webp 540w, ./img/optimized/eclipse_header-810.webp 810w, ./img/optimized/eclipse_header-1080.webp 1080w" sizes="65vw">
-    <img src="./img/eclipse_header.png" alt="ECLIPSE Lab" style="width: 65%; height: auto;" loading="eager" decoding="async">
+    <img src="./img/eclipse_header.png" alt="ECLIPSE Lab" style="width: 55%; height: auto;" loading="eager" decoding="async">
   </picture>
 :::
 
@@ -102,16 +102,12 @@ toc: false
   We develop computational tools to enable new capabilities in electron and X-ray microscopes and apply them to challenging materials science questions.
 :::
 
-## Start here
-
-If you are new to the lab, the shortest useful summary is this: we work on difficult imaging problems where better reconstruction, automation, and physically informed computation can unlock new scientific measurements.
-
 :::: {.columns}
 
 ::: {.column width="33%"}
 ### What problem are we solving?
 Modern microscopy often produces rich but difficult-to-interpret measurements. We develop methods that make 3D structure, chemistry, and weak signals more accessible at higher throughput and lower dose.
-
+ 
 [See research by problem](research-by-problem.qmd){.btn .btn-primary}
 :::
 
@@ -211,7 +207,9 @@ Whether you want to join the lab, collaborate on a project, or understand our cu
   We are an [interdisciplinary]{.fw-bolder} research group based within the [Department of Materials Science](https://www.ww.tf.fau.de/){.text-primary .text-decoration-none .fw-semibold} at the [Friedrich-Alexander University of Erlangen-Nürnberg](https://www.fau.de/){.text-primary .text-decoration-none .fw-semibold}. We have expertise in [condensed matter physics, deep learning, large-scale optimization, signal and image processing, and experimental design]{.fw-bolder} for advanced [X-ray and electron microscopy]{.fw-bolder} experiments. 
 
 We are part of the [Institute of Micro- and Nanostructure Research](https://www.em.tf.fau.de/) and the [Center for Nanoanalysis and Electron Microscopy](https://www.cenem.fau.de/) and part of the Competence Unit [Engineering of Advanced Materials](https://www.eam.fau.eu/).
+
 :::
+
 ::: {.lead}
   How can we help you today?
 :::
@@ -219,7 +217,7 @@ We are part of the [Institute of Micro- and Nanostructure Research](https://www.
 :::: {.columns}
 
 ::: {.column width="33%"}
-#### Prospective students & researchers
+### Prospective students & researchers
 
 Learn about open positions, projects, and how to join the lab.
 
@@ -228,10 +226,10 @@ Learn about open positions, projects, and how to join the lab.
 - Short-term research projects
 
 [See open opportunities](opportunities.qmd){.btn .btn-primary title="Open positions, projects, and how to join the lab"}
-:::
-
+::: 
 ::: {.column width="33%"}
-#### Collaborators & facilities
+
+### Collaborators & facilities
 
 See our research directions and how we work with partners.
 
@@ -243,8 +241,8 @@ See our research directions and how we work with partners.
 [Browse resources](resources.qmd){.btn .btn-outline-secondary title="Software, datasets, and practical information for collaborators"}
 :::
 
-::: {.column width="34%"}
-#### What’s new?
+::: {.column width="34%"} 
+### What’s new?
 
 Talks, awards, and other recent lab news.
 
