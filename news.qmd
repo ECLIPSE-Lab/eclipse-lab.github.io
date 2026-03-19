@@ -23,7 +23,6 @@ listing:
 This page collects recent lab highlights across talks, awards, positions, people, and project milestones.
 
 ::: {.callout-note appearance="simple"}
-### Featured highlight
 **Join the ECLIPSE Lab.** We are actively building the group across computational imaging, inverse problems, and AI-enabled materials characterization.
 
 - Explore [open opportunities](opportunities.qmd)
