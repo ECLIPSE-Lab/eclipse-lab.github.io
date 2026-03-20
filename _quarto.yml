@@ -10,7 +10,9 @@ execute:
     freeze: auto
 
 website:
-  include-in-header: _includes/org-jsonld.html
+  include-in-header:
+  - _includes/org-jsonld.html
+  - _includes/og-tags.html
   title: "ECLIPSE Lab"  
   favicon: favicon-32x32.png
   open-graph: true

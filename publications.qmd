@@ -1,5 +1,6 @@
 ---
 pagetitle: "Publications | ECLIPSE Lab"
+description: "Full list of publications from the ECLIPSE Lab — computational microscopy, ptychography, electron tomography, and related methods."
 toc: false
 listing:
   - id: articles
@@ -10,7 +11,7 @@ listing:
       - "year desc"
       - "title"
     sort-ui: [title,author,publication,year]
-    filter-ui: [title,author,publication,year]
+    filter-ui: [title,author,publication,year,type]
     page-size: 20
     field-display-names: 
       publication: "Publication"
