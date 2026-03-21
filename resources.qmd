@@ -1,6 +1,8 @@
 ---
 pagetitle: "Resources | ECLIPSE Lab"
 toc: true
+description: "Resources from ECLIPSE Lab — microscopy datasets, software tools, and links for computational materials microscopy research."
+
 ---
 
 ```{=html}

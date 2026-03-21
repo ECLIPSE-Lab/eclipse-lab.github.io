@@ -1,6 +1,8 @@
 ---
 pagetitle: "Join the Lab | ECLIPSE Lab"
 toc: true
+description: "Open PhD, MSc, BSc, and postdoctoral positions at ECLIPSE Lab, FAU Erlangen-Nürnberg. Join us in computational materials microscopy and electron imaging."
+
 ---
 
 ```{=html}

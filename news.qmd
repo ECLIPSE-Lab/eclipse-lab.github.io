@@ -7,6 +7,8 @@ listing:
   type: default
   categories: true
   max-items: 12
+description: "Latest news, conference presentations, and lab updates from ECLIPSE Lab at FAU Erlangen-Nürnberg."
+
 ---
 
 ```{=html}

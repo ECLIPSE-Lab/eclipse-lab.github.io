@@ -1,5 +1,7 @@
 ---
 title: "Imprint"
+description: "Imprint and legal information for ECLIPSE Lab, headed by Prof. Philipp Pelz at Friedrich-Alexander-Universität Erlangen-Nürnberg."
+
 ---
 
 ## Imprint

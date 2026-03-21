@@ -2,6 +2,8 @@
 pagetitle: "Contact | ECLIPSE Lab"
 toc: false
 email-obfuscation: javascript
+description: "Contact ECLIPSE Lab at FAU Erlangen-Nürnberg. Reach Prof. Philipp Pelz and the team for collaborations, questions, and visiting."
+
 ---
 
 ```{=html}
