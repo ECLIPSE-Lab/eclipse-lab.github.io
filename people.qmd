@@ -64,6 +64,8 @@ listing:
       subtitle: "Role"
       started: "Started"
       ended: "Ended"
+description: "Meet the ECLIPSE Lab team at FAU Erlangen-Nürnberg — researchers, PhD students, and alumni working on computational microscopy and electron imaging."
+
 ---
 
 ```{=html}

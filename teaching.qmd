@@ -2,6 +2,8 @@
 pagetitle: "Teaching"
 toc: false
 email-obfuscation: javascript
+description: "Teaching materials and courses offered by Prof. Philipp Pelz at FAU Erlangen-Nürnberg, covering computational imaging and electron microscopy."
+
 ---
 
 ```{=html}

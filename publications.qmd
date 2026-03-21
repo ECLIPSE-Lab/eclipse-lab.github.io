@@ -15,6 +15,8 @@ listing:
     field-display-names: 
       publication: "Publication"
       year: "Year"
+description: "Full list of publications from ECLIPSE Lab — computational microscopy, ptychography, electron tomography, and related methods."
+
 ---
 
 ```{=html}
