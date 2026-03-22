@@ -107,26 +107,26 @@ description: "ECLIPSE Lab at FAU Erlangen-Nürnberg — computational materials 
 
 :::: {.columns}
 
-::: {.column width="33%"}
-### What problem are we solving?
-Modern microscopy often produces rich but difficult-to-interpret measurements. We develop methods that make 3D structure, chemistry, and weak signals more accessible at higher throughput and lower dose.
- 
-[See research by problem](research-by-problem.qmd){.btn .btn-primary}
-:::
-
-::: {.column width="33%"}
-### Why does it matter now?
-Better algorithms and automation make it possible to extract more information from advanced microscopes while improving speed, sensitivity, and experimental reliability.
-
-[Explore research directions](research.qmd){.btn .btn-primary}
-:::
-
 ::: {.column width="34%"}
-### Where should I go next?
-Whether you want to join the lab, collaborate on a project, or understand our current work, start with the pathways below.
+### Join the Lab
+**Prospective students, postdocs, and researchers** — find open positions, funding routes, and application guidance.
 
-[Join the lab](opportunities.qmd){.btn .btn-primary .me-1}
+[See opportunities](opportunities.qmd){.btn .btn-primary}
 [Contact us](contact.qmd){.btn .btn-outline-secondary}
+:::
+
+::: {.column width="33%"}
+### Our Research
+**From inverse problems to autonomous microscopy** — computational methods that make electron & X-ray imaging faster, more sensitive, and more informative.
+
+[Explore by problem](research-by-problem.qmd){.btn .btn-primary}
+:::
+
+::: {.column width="33%"}
+### Why It Matters Now
+**Better algorithms + automation** are unlocking new capabilities in electron microscopes — at higher speed, lower dose, and larger scale than ever before.
+
+[Research directions](research.qmd){.btn .btn-primary}
 :::
 
 ::::
