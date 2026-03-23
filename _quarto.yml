@@ -23,7 +23,7 @@ website:
     logo-href: https://pelzlab.science
     search: true
     tools:
-      - icon: ./img/erc_logo.svg
+      - icon: stars
         href: hyperscale.qmd
       - icon: twitter
         href: https://twitter.com/PhilippPelz
@@ -33,7 +33,7 @@ website:
             url:  https://github.com/ECLIPSE-Lab
     right:     #TODO: Outreach   
       - href: hyperscale.qmd
-        text: "<img src='img/ERC-LOGO-01.svg' height='30' style='vertical-align: middle; margin-right: 5px;' alt='ERC Logo'/> HyperScaleEM"
+        text: "<img src='/img/ERC-LOGO-01.svg' height='30' style='vertical-align: middle; margin-right: 5px;' alt='ERC Logo'/> HyperScaleEM"
       - href: news.qmd
         text: News
       - href: teaching.qmd
