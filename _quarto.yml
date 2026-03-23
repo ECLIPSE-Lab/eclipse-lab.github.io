@@ -50,6 +50,8 @@ website:
         text: Resources
       - href: opportunities.qmd
         text: Opportunities
+      - href: values.qmd
+        text: Values
       - href: contact.qmd
         text: Contact
 

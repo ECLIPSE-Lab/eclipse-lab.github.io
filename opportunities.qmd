@@ -18,6 +18,8 @@ description: "Open PhD, MSc, BSc, and postdoctoral positions at ECLIPSE Lab, FAU
 
 We welcome motivated students and researchers who want to work on **computational imaging**, **inverse problems**, and **AI-enabled materials characterization**.
 
+Before applying, you may also want to read about **[how we work as a group](values.qmd)** — the kind of scientific culture we try to build matters to us.
+
 ::: {.callout-tip appearance="simple"}
 ### Fast track
 If this sounds like your research direction, apply now.
