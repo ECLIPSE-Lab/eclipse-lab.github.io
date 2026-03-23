@@ -3,7 +3,6 @@ pagetitle: "ECLIPSE Lab"
 title: ""
 description: "ECLIPSE Lab at FAU Erlangen-Nürnberg — computational materials microscopy, electron & X-ray imaging, autonomous systems, and large-scale inverse problems."
 toc: false
-description: "ECLIPSE Lab at FAU Erlangen-Nürnberg — computational materials microscopy, electron & X-ray imaging, autonomous microscopy systems, and large-scale inverse problems."
 
 ---
 

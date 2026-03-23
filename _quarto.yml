@@ -5,9 +5,6 @@ project:
     - llms.txt
     - img/optimized/*
   output-dir: docs
-  include-in-header:
-    - _includes/org-jsonld.html
-    - _includes/og-tags.html
 
 execute:
     freeze: auto
@@ -82,3 +79,9 @@ format:
       - custom.scss
     css: styles.css
     toc: true
+    header-includes:
+      - <link rel="canonical" href="https://pelzlab.science{{ page_url }}">
+      - <meta property="og:site_name" content="ECLIPSE Lab">
+      - <meta property="og:type" content="website">
+      - <meta name="twitter:card" content="summary_large_image">
+      - <meta name="twitter:creator" content="@PhilippPelz">
