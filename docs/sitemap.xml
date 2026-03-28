@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pelzlab.science/research.html</loc>
-    <lastmod>2026-03-22T20:08:10.808Z</lastmod>
+    <lastmod>2026-03-28T12:33:51.259Z</lastmod>
   </url>
   <url>
     <loc>https://pelzlab.science/values.html</loc>
-    <lastmod>2026-03-23T10:08:18.952Z</lastmod>
+    <lastmod>2026-03-28T12:33:51.288Z</lastmod>
   </url>
   <url>
     <loc>https://pelzlab.science/footer.html</loc>
@@ -74,7 +74,7 @@
   </url>
   <url>
     <loc>https://pelzlab.science/people.html</loc>
-    <lastmod>2026-03-22T20:08:10.808Z</lastmod>
+    <lastmod>2026-03-28T12:33:51.240Z</lastmod>
   </url>
   <url>
     <loc>https://pelzlab.science/license.html</loc>
@@ -82,7 +82,7 @@
   </url>
   <url>
     <loc>https://pelzlab.science/teaching.html</loc>
-    <lastmod>2026-03-22T20:11:10.155Z</lastmod>
+    <lastmod>2026-03-28T12:33:51.282Z</lastmod>
   </url>
   <url>
     <loc>https://pelzlab.science/posts/2025-11-19_dpg/index.html</loc>
@@ -134,7 +134,7 @@
   </url>
   <url>
     <loc>https://pelzlab.science/news.html</loc>
-    <lastmod>2026-03-22T20:08:10.807Z</lastmod>
+    <lastmod>2026-03-28T12:33:51.226Z</lastmod>
   </url>
   <url>
     <loc>https://pelzlab.science/posts/crc1411/index.html</loc>
@@ -178,15 +178,15 @@
   </url>
   <url>
     <loc>https://pelzlab.science/resources.html</loc>
-    <lastmod>2026-03-22T20:08:10.808Z</lastmod>
+    <lastmod>2026-03-28T12:33:51.272Z</lastmod>
   </url>
   <url>
     <loc>https://pelzlab.science/hyperscale.html</loc>
-    <lastmod>2026-03-22T20:08:10.807Z</lastmod>
+    <lastmod>2026-03-28T12:33:51.202Z</lastmod>
   </url>
   <url>
     <loc>https://pelzlab.science/index.html</loc>
-    <lastmod>2026-03-23T08:15:22.697Z</lastmod>
+    <lastmod>2026-03-28T12:38:54.472Z</lastmod>
   </url>
   <url>
     <loc>https://pelzlab.science/people/staff/02_shengbo_you.html</loc>
@@ -246,7 +246,7 @@
   </url>
   <url>
     <loc>https://pelzlab.science/publications.html</loc>
-    <lastmod>2026-03-23T08:15:22.697Z</lastmod>
+    <lastmod>2026-03-28T12:33:51.250Z</lastmod>
   </url>
   <url>
     <loc>https://pelzlab.science/contact.html</loc>
@@ -255,5 +255,9 @@
   <url>
     <loc>https://pelzlab.science/teaching.html</loc>
     <lastmod>2026-03-19T17:33:16.533Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pelzlab.science/opportunities.html</loc>
+    <lastmod>2026-03-28T12:33:51.235Z</lastmod>
   </url>
 </urlset>

@@ -28,9 +28,7 @@ website:
       - icon: twitter
         href: https://twitter.com/PhilippPelz
       - icon: github
-        menu:
-          - text: Source Code
-            url:  https://github.com/ECLIPSE-Lab
+        href: https://github.com/ECLIPSE-Lab
     right:     #TODO: Outreach   
       - href: hyperscale.qmd
         text: "<img src='/img/ERC-LOGO-01.svg' height='30' style='vertical-align: middle; margin-right: 5px;' alt='ERC Logo'/> HyperScaleEM"
@@ -42,13 +40,8 @@ website:
         text: People
       - href: research.qmd
         text: Research
-      - href: research-by-problem.qmd
-        text: By Problem
       - href: publications.qmd
-        text: Publications
-      - href: https://pelzlab.science/public_presentations/
-        text: Presentations
-        target: _blank
+        text: Publications 
       - href: resources.qmd
         text: Resources
       - href: opportunities.qmd
