@@ -1,0 +1,90 @@
+---
+pagetitle: "Lab Values | ECLIPSE Lab"
+title: "Lab Values"
+toc: true
+description: "How the ECLIPSE Lab works: collaborative, communicative, inclusive, ambitious, and humane research culture at FAU Erlangen-Nürnberg."
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Lab Values</li>
+  </ol>
+</nav>
+```
+
+## How we work
+
+At ECLIPSE Lab, we want to build excellent science **and** an environment in which people can do their best work over the long term. Research is demanding; our goal is to make it intellectually ambitious, collaborative, and sustainable.
+
+We do not think of lab culture as separate from scientific quality. Clear communication, mutual respect, and intellectual generosity are part of how strong research actually gets done.
+
+## 1. We are collaborative
+
+The best science is rarely produced in isolation. We want the lab to be a place where people actively help each other think, troubleshoot, and grow.
+
+That means:
+
+- sharing ideas early rather than hiding unfinished work
+- helping each other debug code, experiments, and arguments
+- treating colleagues as collaborators, not competitors
+- giving credit generously and accurately
+
+We value individual initiative, but we want success to feel collective.
+
+## 2. We communicate clearly and respectfully
+
+Good research depends on good communication — from everyday conversations in the office to group meetings, talks, manuscripts, and outreach.
+
+We want lab members to:
+
+- speak up when they have questions, ideas, or concerns
+- listen seriously to others
+- give honest but constructive feedback
+- write and present with clarity rather than unnecessary complexity
+
+A strong lab is one where people feel heard and where disagreement improves the work instead of becoming personal.
+
+## 3. We value diversity of background and thought
+
+We believe that excellent science benefits from different perspectives, training paths, and life experiences. A diverse group is not only socially better — it is also intellectually stronger.
+
+We therefore aim to maintain a welcoming environment for people of different:
+
+- national and cultural backgrounds
+- gender identities and sexual orientations
+- disciplinary paths and research styles
+- physical abilities and personal circumstances
+
+We expect all members of the lab to contribute to an atmosphere of respect, fairness, and professionalism.
+
+## 4. We aim high, but sustainably
+
+We care about ambitious research problems: difficult measurements, hard inverse problems, and methods that can genuinely move microscopy forward. That work requires persistence and seriousness.
+
+But sustained excellence does **not** come from chaos, burnout, or constant urgency. We want people to do focused, high-quality work with room for rest, family life, and long-term development.
+
+We support a version of academic life that is compatible with being a whole person.
+
+## 5. We want science to be meaningful and enjoyable
+
+Science is ultimately driven by curiosity. We are here because discovering how nature works — and building tools that let others see more clearly — is exciting.
+
+We want the lab to be a place where people can:
+
+- take ideas seriously without taking themselves too seriously
+- enjoy learning new things
+- celebrate progress together
+- stay connected to the broader purpose of the work
+
+Rigorous science and genuine enthusiasm should go together.
+
+## What this means for joining the lab
+
+If you are considering applying, we hope you will see the lab not only as a place to publish strong work, but also as a place to develop as a scientist, colleague, and independent thinker.
+
+If this sounds like the kind of environment in which you would thrive, we would be glad to hear from you.
+
+[Explore opportunities](opportunities.qmd){.btn .btn-primary .me-2}
+[Contact the lab](contact.qmd){.btn .btn-outline-secondary}

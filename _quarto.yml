@@ -10,7 +10,6 @@ execute:
     freeze: auto
 
 website:
-  include-in-header: _includes/org-jsonld.html
   title: "ECLIPSE Lab"  
   favicon: favicon-32x32.png
   open-graph: true
@@ -24,7 +23,7 @@ website:
     logo-href: https://pelzlab.science
     search: true
     tools:
-      - icon: ./img/erc_logo.svg
+      - icon: stars
         href: hyperscale.qmd
       - icon: twitter
         href: https://twitter.com/PhilippPelz
@@ -34,7 +33,7 @@ website:
             url:  https://github.com/ECLIPSE-Lab
     right:     #TODO: Outreach   
       - href: hyperscale.qmd
-        text: "<img src='img/ERC-LOGO-01.svg' height='30' style='vertical-align: middle; margin-right: 5px;' alt='ERC Logo'/> HyperScaleEM"
+        text: "<img src='/img/ERC-LOGO-01.svg' height='30' style='vertical-align: middle; margin-right: 5px;' alt='ERC Logo'/> HyperScaleEM"
       - href: news.qmd
         text: News
       - href: teaching.qmd
@@ -47,10 +46,15 @@ website:
         text: By Problem
       - href: publications.qmd
         text: Publications
+      - href: https://pelzlab.science/public_presentations/
+        text: Presentations
+        target: _blank
       - href: resources.qmd
         text: Resources
       - href: opportunities.qmd
         text: Opportunities
+      - href: values.qmd
+        text: Values
       - href: contact.qmd
         text: Contact
 
@@ -80,3 +84,139 @@ format:
       - custom.scss
     css: styles.css
     toc: true
+    header-includes:
+      - <link rel="canonical" href="https://pelzlab.science{{ page_url }}">
+      - <meta property="og:site_name" content="ECLIPSE Lab">
+      - <meta property="og:type" content="website">
+      - <meta name="twitter:card" content="summary_large_image">
+      - <meta name="twitter:creator" content="@PhilippPelz">
+      - |
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "Course",
+                "name": "Materialgenomik",
+                "description": "Computational materials discovery through databases, simulation, structure representations, and machine learning. Part of the ECLIPSE Lab teaching programme at FAU Erlangen-Nürnberg.",
+                "url": "https://pelzlab.science/MaterialsGenomics/",
+                "instructor": {
+                  "@type": "Person",
+                  "name": "Prof. Philipp Pelz",
+                  "sameAs": "https://orcid.org/0000-0002-8009-4515"
+                },
+                "provider": {
+                  "@type": "Organization",
+                  "name": "ECLIPSE Lab, FAU Erlangen-Nürnberg",
+                  "sameAs": "https://pelzlab.science"
+                },
+                "eventStatus": "https://schema.org/EventScheduled",
+                "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                "location": {
+                  "@type": "Place",
+                  "name": "0.68 WW building, FAU Erlangen-Nürnberg"
+                },
+                "startDate": "2026-04-14",
+                "endDate": "2026-07-17",
+                "timeRequired": "PT2H30M",
+                "hasCourseInstance": {
+                  "@type": "CourseInstance",
+                  "courseSchedule": {
+                    "@type": "Schedule",
+                    "recurrentSchedule": {
+                      "@type": "RailwaySchedule",
+                      "departureTime": "16:15–17:45",
+                      "daysOfWeek": "Tuesday"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "Course",
+                "name": "Machine Learning for Processing & Characterization",
+                "description": "Application-focused course on machine learning for experimental materials data, from images and spectra to process signals. Part of the ECLIPSE Lab teaching programme at FAU Erlangen-Nürnberg.",
+                "url": "https://pelzlab.science/MachineLearningForCharacterizationAndProcessing/",
+                "instructor": {
+                  "@type": "Person",
+                  "name": "Prof. Philipp Pelz",
+                  "sameAs": "https://orcid.org/0000-0002-8009-4515"
+                },
+                "provider": {
+                  "@type": "Organization",
+                  "name": "ECLIPSE Lab, FAU Erlangen-Nürnberg",
+                  "sameAs": "https://pelzlab.science"
+                },
+                "eventStatus": "https://schema.org/EventScheduled",
+                "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                "location": {
+                  "@type": "Place",
+                  "name": "0.68 WW building, FAU Erlangen-Nürnberg"
+                },
+                "startDate": "2026-04-14",
+                "endDate": "2026-07-17",
+                "timeRequired": "PT2H30M",
+                "hasCourseInstance": {
+                  "@type": "CourseInstance",
+                  "courseSchedule": {
+                    "@type": "Schedule",
+                    "recurrentSchedule": {
+                      "@type": "RailwaySchedule",
+                      "departureTime": "14:15–15:45",
+                      "daysOfWeek": "Tuesday"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "Course",
+                "name": "Mathematical Foundations of AI/ML",
+                "description": "Foundations course for the ECLIPSE teaching track in machine learning, computational imaging, and materials data science. Covers mathematical underpinnings of modern AI/ML methods with emphasis on applications in microscopy and imaging.",
+                "url": "https://pelzlab.science/MathematicalFoundationsForAIML/",
+                "instructor": {
+                  "@type": "Person",
+                  "name": "Prof. Philipp Pelz",
+                  "sameAs": "https://orcid.org/0000-0002-8009-4515"
+                },
+                "provider": {
+                  "@type": "Organization",
+                  "name": "ECLIPSE Lab, FAU Erlangen-Nürnberg",
+                  "sameAs": "https://pelzlab.science"
+                },
+                "eventStatus": "https://schema.org/EventScheduled",
+                "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                "location": {
+                  "@type": "Place",
+                  "name": "Rm 01.156 IZNF, FAU Erlangen-Nürnberg"
+                },
+                "startDate": "2026-04-14",
+                "endDate": "2026-07-17",
+                "timeRequired": "PT2H30M",
+                "hasCourseInstance": {
+                  "@type": "CourseInstance",
+                  "courseSchedule": {
+                    "@type": "Schedule",
+                    "recurrentSchedule": {
+                      "@type": "RailwaySchedule",
+                      "departureTime": "10:15–11:45",
+                      "daysOfWeek": "Monday"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+        </script>
+        

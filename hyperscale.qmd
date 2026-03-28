@@ -1,6 +1,8 @@
 ---
 pagetitle: "ERC Starting Grant HyperScaleEM | ECLIPSE Lab"
 toc: true
+description: "HyperScaleEM — ERC Starting Grant project at ECLIPSE Lab developing next-generation autonomous electron microscopy with physics-informed AI."
+
 ---
 
 ## Vision of HyperScaleEM

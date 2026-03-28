@@ -1,6 +1,7 @@
 ---
-pagetitle: "Resources | ECLIPSE Lab"
+title: Resources
 toc: true
+description: Software, datasets, and other resources from the ECLIPSE Lab at FAU Erlangen-Nürnberg.
 ---
 
 ```{=html}
@@ -12,16 +13,16 @@ toc: true
 </nav>
 ```
 
-## Talk slides
+## Software
 
-- [2025-07-29 M&M 2025:Sub-Ångstrom 3D Resolution, Large-Volume Imaging and Automation Advances in Electron Ptychography (invited)](https://pelzlab.science/public_presentations/conference_talks/2025_MandM/template.html#/title-slide)
+· [ECLIPSE Lab GitHub](https://github.com/ECLIPSE-Lab) — all open-source projects from the lab
+· [ECLIPSE-Lab Materials Database](https://github.com/ECLIPSE-Lab/materials-database) — curated dataset collection
+· [fast electron microscope simulator](https://github.com/ECLIPSE-Lab/fast-em-simulator) — >100× faster than standard MULTEM
 
-## Tutorials
+## Presentations & Teaching
 
-- [2025-08-31 MC 2025 Ptychography Tutorial (invited)](https://pelzlab.science/public_presentations/conference_talks/2025_MC/template.html#/title-slide)
+· [Lecture slides & course materials](https://pelzlab.science/public_presentations/) — slides, decks, and course presentations from the ECLIPSE Lab teaching programme
 
 ## Datasets
 
-[EMDatasets](http://www.pelzlab.science/EMDatasets/) is a python package where we collect published electron microscopy datasets for teaching purposes.
-
-[Ptychographic Atomic Tomography Dataset](https://doi.org/10.5281/zenodo.8300707)
+· [FAU materials microscopy datasets on DaME](https://dame2.fau.de) — hosted by the FAU Data Centre
