@@ -16,8 +16,6 @@ description: Software, datasets, and other resources from the ECLIPSE Lab at FAU
 ## Software
 
 · [ECLIPSE Lab GitHub](https://github.com/ECLIPSE-Lab) — all open-source projects from the lab
-· [ECLIPSE-Lab Materials Database](https://github.com/ECLIPSE-Lab/materials-database) — curated dataset collection
-· [fast electron microscope simulator](https://github.com/ECLIPSE-Lab/fast-em-simulator) — >100× faster than standard MULTEM
 
 ## Presentations & Teaching
 
@@ -25,4 +23,4 @@ description: Software, datasets, and other resources from the ECLIPSE Lab at FAU
 
 ## Datasets
 
-· [FAU materials microscopy datasets on DaME](https://dame2.fau.de) — hosted by the FAU Data Centre
+Stay tuned
