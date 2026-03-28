@@ -46,6 +46,9 @@ website:
         text: By Problem
       - href: publications.qmd
         text: Publications
+      - href: https://pelzlab.science/public_presentations/
+        text: Presentations
+        target: _blank
       - href: resources.qmd
         text: Resources
       - href: opportunities.qmd
