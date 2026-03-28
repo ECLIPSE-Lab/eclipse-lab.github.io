@@ -9,7 +9,7 @@ email-obfuscation: javascript
 .lecture-card {
   position: relative;
   overflow: hidden;
-  height: 280px; /* Reduced height so the landscape background image isn't heavily zoomed/cropped by `cover` */
+  height: 608px; /* Reduced height so the landscape background image isn't heavily zoomed/cropped by `cover` */
   background-size: cover;
   background-position: center;
   border: none !important;
@@ -28,7 +28,7 @@ email-obfuscation: javascript
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 10%, rgba(0,0,0,0.85) 90%);
+
   z-index: 2;
 }
 .lecture-card-body {
