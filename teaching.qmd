@@ -6,6 +6,10 @@ description: "Teaching materials and courses offered by Prof. Philipp Pelz at FA
 
 ---
 
+
+The ECLIPSE Lab teaches undergraduate and graduate courses in materials science and applied data science at FAU Erlangen-Nürnberg. All courses are open to students in Materials Science and related programmes — see individual course cards below for enrollment links and lecture details.
+
+
 ```{=html}
 <style>
 .lecture-card {
