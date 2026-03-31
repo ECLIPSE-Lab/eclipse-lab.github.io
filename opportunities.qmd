@@ -60,6 +60,81 @@ Postdoctoral fellowships and staff positions are opened as funding permits. Plea
 We also encourage and actively support applications for external funding, including the [Marie Skłodowska-Curie Postdoctoral Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships) and the [Alexander von Humboldt Research Fellowship](https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship).
 
 
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I apply if I am currently outside Germany?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We welcome applications from international candidates at all levels."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which language is used in the lab?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Day-to-day research communication is typically in English."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should international applicants include in addition to the standard application?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Please include your expected availability/start date, current location, and visa status (if known) together with the application package."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there funding routes for international postdocs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We actively support applications to external fellowships, especially the Marie Sk\u0142odowska-Curie Postdoctoral Fellowships and the Alexander von Humboldt Research Fellowship."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will the lab support proposal preparation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. For strong-fit candidates, we support proposal framing, scope alignment, and supervision planning."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is prior electron microscopy experience mandatory?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not always. Strong foundations in math, physics, computation, or inverse problems can also be an excellent fit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What timeline should I expect if I apply from abroad?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Initial feedback is usually within 1\u20133 weeks, but final timelines can depend on fellowship, enrollment, and visa processes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who should I contact if I am unsure about fit before applying?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use the contact page with a short summary of your background and interests, and we can advise on fit before full application."
+      }
+    }
+  ]
+}
+</script>
+```
+
 ## How to Apply Internationally
 
 **Q1: Can I apply if I am currently outside Germany?**  
