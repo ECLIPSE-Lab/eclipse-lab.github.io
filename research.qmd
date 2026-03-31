@@ -59,7 +59,7 @@ We are developing new approaches for multi-modal 3D imaging, down to the atomic 
 Combining complementary signals can reveal structure, chemistry, and function more effectively than single-mode imaging alone.
 
 **Current status**  
-We recently demonstrated gap-free, quantitative 3D structure retrieval at atomic resolution by fusing tilt-corrected dark-field and direct ptychography in 4D-STEM (arXiv:2512.19460, You et al., 2025). This approach overcomes the depth-of-focus limitation of conventional ADF tomography, enabling truly gap-free information transfer across spatial frequencies.
+We recently demonstrated gap-free, quantitative 3D structure retrieval at atomic resolution by fusing tilt-corrected dark-field and direct ptychography in 4D-STEM [(arXiv:2512.19460)](https://arxiv.org/abs/2512.19460), You et al., 2025). This approach overcomes the depth-of-focus limitation of conventional ADF tomography, enabling truly gap-free information transfer across spatial frequencies.
 
 **Collaboration angle**  
 We welcome collaborations where multimodal data fusion or cross-signal interpretation is the limiting step.
