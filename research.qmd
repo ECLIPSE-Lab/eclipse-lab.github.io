@@ -18,6 +18,41 @@ description: "Research areas of the ECLIPSE Lab: electron ptychography, atomic e
 
 Prefer a problem-first view? See [Research by Problem](research-by-problem.qmd).
 
+
+## Key Milestones
+
+::: {.columns}
+
+::: {.column}
+::::: {.milestone-card}
+**2021** · ACS Nano
+Atomic-scale 3D structure of crystal defects and grain boundaries resolved by atomic electron tomography.
+:::::
+:::
+
+::: {.column}
+::::: {.milestone-card}
+**2023** · Nat. Commun.
+First atomic-resolution 3D volume from 4D-STEM tomography — breaking the depth-of-focus barrier.
+:::::
+:::
+
+::: {.column}
+::::: {.milestone-card}
+**2024** · Phys. Scripta
+Sub-Ångstrom end-to-end reconstruction reaching the information limit of the instrument.
+:::::
+:::
+
+::: {.column}
+::::: {.milestone-card}
+**2025** · arXiv:2512.19460
+Gap-free atomic 3D via fusion of tilt-corrected dark-field and direct ptychography.
+:::::
+:::
+
+:::
+
 ## Capability areas
 
 ### Computational imaging for difficult 3D measurements

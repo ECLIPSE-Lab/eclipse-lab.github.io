@@ -199,6 +199,7 @@ toc: false
   interval: 5000,
   speed: 1000,
   autoplay: true,
+  pauseOnHover: true,
   height: 600,
   heightRatio: 0.5,
 }).mount();

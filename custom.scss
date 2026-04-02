@@ -208,3 +208,26 @@ h1, h2, h3, h4, h5, h6, .lead {
   margin-bottom: 1rem;
   line-height: 1.6;
 }
+
+/* Milestone cards for research page */
+.milestone-card {
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  background: rgba(20, 30, 60, 0.6);
+  backdrop-filter: blur(6px);
+  height: 100%;
+  min-height: 120px;
+}
+.milestone-card p {
+  color: #e2e8f0;
+  font-size: 0.82rem;
+  line-height: 1.4;
+  margin: 0;
+}
+.milestone-card strong {
+  color: #93c5fd;
+  font-size: 0.78rem;
+  display: block;
+  margin-bottom: 0.3rem;
+}
