@@ -231,3 +231,13 @@ h1, h2, h3, h4, h5, h6, .lead {
   display: block;
   margin-bottom: 0.3rem;
 }
+
+
+/* Learning outcome text in lecture cards */
+.lecture-outcome {
+  font-size: 0.72rem;
+  color: rgba(200, 220, 240, 0.85);
+  margin: 0.4rem 0 0.5rem 0;
+  line-height: 1.35;
+  font-style: italic;
+}

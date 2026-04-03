@@ -1,6 +1,7 @@
 ---
 pagetitle: "Research | ECLIPSE Lab"
 toc: true
+image: img/og/research-og.png
 description: "Research areas of the ECLIPSE Lab: electron ptychography, atomic electron tomography, 4D-STEM imaging, autonomous microscopy, and computational image reconstruction."
 
 ---
