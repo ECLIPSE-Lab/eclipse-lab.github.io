@@ -56,7 +56,7 @@ website:
       - text: "Imprint"
         href: about.qmd
       - text: "Privacy Notice"
-        href: license.qmd
+        href: privacy.qmd
       - text: "Accessibility Statement"
         href: trademark.qmd
   # cookie-consent:

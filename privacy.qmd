@@ -1,0 +1,121 @@
+---
+title: "Privacy Policy"
+description: "Privacy policy for the ECLIPSE Lab website at FAU Erlangen-Nürnberg. Information about data collection, cookies, and your rights under GDPR."
+toc: false
+---
+
+## Privacy Policy
+
+The ECLIPSE Lab website at [pelzlab.science](https://pelzlab.science) is operated by the ECLIPSE Lab group at the **Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)**, Germany. We are committed to protecting your personal data and to being transparent about how we collect and use information from visitors to this website.
+
+---
+
+## Who is responsible for your data?
+
+**Data controller:**  
+Prof. Philipp Pelz  
+ECLIPSE Lab  
+Interdisciplinary Center for Nanostructured Films  
+Friedrich-Alexander-Universität Erlangen-Nürnberg  
+Cauerstr. 3, 91058 Erlangen, Germany  
+
+Email: [contact the lab](contact.qmd)
+
+---
+
+## What personal data do we collect?
+
+### 1. Website analytics
+
+We use **Google Analytics** (anonymised) to understand aggregate traffic patterns on our website. This collects:
+
+- Pages visited and approximate time on pages
+- General geographic location (country/region level, not precise)
+- Browser type and device category (desktop/mobile)
+
+**We do not collect your IP address in full.** Google Analytics is configured with IP anonymisation (`anonymize_ip`) enabled. This data cannot be used to identify you personally.
+
+### 2. Contact enquiries
+
+If you contact us via the form on our [Contact page](contact.qmd) or by email, we collect the information you voluntarily provide (such as your name, affiliation, and email address). This data is used solely to respond to your enquiry and is not shared with third parties beyond our email hosting provider.
+
+### 3. Embedded content from third-party services
+
+Our website may include embedded content from external platforms such as:
+
+- **YouTube** (videos)
+- **Twitter / X** (social posts)
+- **arXiv** (academic preprints)
+
+These services may set their own cookies and collect data according to their own privacy policies. We have no control over their data practices.
+
+---
+
+## What is the legal basis for processing?
+
+We process personal data on the following legal bases under GDPR (Article 6):
+
+- **Legitimate interests** (Art. 6(1)(f)): Aggregate website analytics help us improve the site. This does not override your rights or freedoms.
+- **Consent** (Art. 6(1)(a)): Where required (e.g., non-essential cookies), we obtain your consent before setting cookies.
+- **Contract** (Art. 6(1)(b)): If you enter into a contractual relationship with us (e.g., as a student or employee), we process necessary data to fulfil that contract.
+- **Legal obligation** (Art. 6(1)(c)): Where required by applicable law.
+
+---
+
+## Cookies
+
+Our website uses a minimal number of cookies:
+
+| Cookie | Purpose | Duration |
+|:---|:---|:---|
+| `_ga`, `_gat` | Google Analytics (anonymised) | 2 years / 1 day |
+| `CookieConsent` | Remembers your cookie consent preference | 1 year |
+
+You can manage or withdraw your cookie consent at any time by clearing cookies in your browser.
+
+---
+
+## Who do we share your data with?
+
+We do not sell, trade, or otherwise transfer your personal data to outside parties, except as described below:
+
+- **Google Analytics**: Data is processed by Google under a data processing agreement. Google may retain data in accordance with their [privacy policy](https://policies.google.com/privacy).
+- **FAU IT Services**: Website hosting and email are provided by FAU's IT infrastructure, which operates under FAU's institutional data protection policies.
+- **Email hosting**: If you contact us, your message is processed by our email provider in accordance with standard institutional data protection agreements.
+
+---
+
+## How long do we retain your data?
+
+- **Analytics data**: Retained by Google for 26 months in aggregate form.
+- **Contact enquiries**: Retained for as long as necessary to respond to your enquiry and up to 2 years thereafter for follow-up purposes.
+- **Cookies**: As specified in the cookie table above.
+
+---
+
+## What rights do you have?
+
+Under the GDPR (Articles 15–21), you have the right to:
+
+- **Access** — Request a copy of the personal data we hold about you.
+- **Rectification** — Request correction of inaccurate data.
+- **Erasure** — Request deletion of your personal data ("right to be forgotten"), where applicable.
+- **Restriction** — Request that we restrict processing of your data.
+- **Portability** — Request a machine-readable copy of data you provided.
+- **Objection** — Object to processing based on legitimate interests.
+
+To exercise any of these rights, please contact us using the details above. You also have the right to lodge a complaint with the **Bavarian State Office for Data Protection Supervision (BayLfD)**, the relevant supervisory authority for FAU.
+
+---
+
+## Third-party links
+
+This privacy policy applies only to data collected by our website. Our site may contain links to external websites. We are not responsible for the privacy practices of those sites and encourage you to review their privacy policies.
+
+---
+
+## Changes to this policy
+
+We may update this privacy policy from time to time. Any changes will be posted on this page with an updated revision date. Significant changes will be communicated via the news section of this website.
+
+**Last reviewed:** April 2026
