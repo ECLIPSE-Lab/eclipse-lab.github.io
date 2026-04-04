@@ -7,9 +7,7 @@ description: "Teaching materials and courses offered by Prof. Philipp Pelz at FA
 ---
 
 
-The ECLIPSE Lab teaches undergraduate and graduate courses in materials science and applied data science at FAU Erlangen-Nürnberg. All courses are open to students in Materials Science and related programmes.
-
-**Our teaching philosophy:** We train the next generation of computational microscopists — researchers who understand both the physics of electron and X-ray imaging and the modern tools of machine learning and data science. Graduates leave with practical skills in imaging, inverse problems, and large-scale data analysis that are directly transferable to academic and industry research environments.
+The ECLIPSE Lab teaches undergraduate and graduate courses in materials science and applied data science at FAU Erlangen-Nürnberg. All courses are open to students in Materials Science and related programmes — see individual course cards below for enrollment links and lecture details.
 
 
 ```{=html}
@@ -34,11 +32,10 @@ The ECLIPSE Lab teaches undergraduate and graduate courses in materials science 
     🗓️ Tue 16:15h - 17:45h<br>
     📍 0.68 WW building
   </div>
-  <p class="lecture-outcome">Genome-inspired materials discovery: navigate materials databases, use structure descriptors, and apply ML for property prediction.</p>
-  <a href="https://pelzlab.science/MaterialsGenomics/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Course Website</a>
+  <a href="https://pelzlab.science/MaterialsGenomics/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
 </div>
 ```
-::
+:::
 
 ::: {.column .lecture-card style="width: 33%; background-image: url('img/lecturecard_ML-PC.jpg');"}
 ```{=html}
@@ -49,8 +46,8 @@ The ECLIPSE Lab teaches undergraduate and graduate courses in materials science 
     🗓️ Tue 14:15h - 15:45h<br>
     📍 0.68 WW building
   </div>
-  <p class="lecture-outcome">Apply modern ML to microscopy data: preprocessing pipelines, classification, regression, and physical interpretation of model outputs.</p>
-  <a href="https://pelzlab.science/MachineLearningForCharacterizationAndProcessing/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Course Website</a>
+  <!-- <a href="https://www.studon.fau.de/campo/course/489020" class="btn btn-secondary lecture-link" style="margin-bottom: 0.5rem; align-self: flex-start;">Studon</a> -->
+  <a href="https://pelzlab.science/MachineLearningForCharacterizationAndProcessing/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
 </div>
 ```
 :::
@@ -64,8 +61,8 @@ The ECLIPSE Lab teaches undergraduate and graduate courses in materials science 
     🗓️ Mon 10:15h - 11:45h<br>
     📍 Rm 01.156 IZNF
   </div>
-  <p class="lecture-outcome">Build the mathematical intuition behind modern ML: linear algebra, probability, and optimization. Understand why models work, not just how to call them.</p>
-  <a href="https://pelzlab.science/MathematicalFoundationsForAIML/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Course Website</a>
+  <!-- <a href="https://www.studon.fau.de/campo/course/491599" class="btn btn-secondary lecture-link" style="margin-bottom: 0.5rem; align-self: flex-start;">Studon</a> -->
+  <a href="https://pelzlab.science/MathematicalFoundationsForAIML/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
 </div>
 ```
 :::
