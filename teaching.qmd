@@ -1,9 +1,10 @@
 ---
-pagetitle: "Teaching"
+pagetitle: "Teaching "
 toc: false
 email-obfuscation: javascript
 description: "Teaching materials and courses offered by Prof. Philipp Pelz at FAU Erlangen-Nürnberg, covering computational imaging and electron microscopy."
-
+resources:
+  - "img/lecturecard_*.jpg"
 ---
 
 
@@ -73,82 +74,112 @@ The ECLIPSE Lab teaches undergraduate and graduate courses in materials science 
 
 ## Winter Semester 2025/2026
 
-::: {.columns}
-::: {.column}
-::: {.lecture-card style="width:33%; background: linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);"}
+:::: {.columns}
+
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);"}
+```{=html}
 <div class="lecture-card-overlay"></div>
 <div class="lecture-card-body">
-  <div class="lecture-title">Materials & Structure (MAP)</div>
-  <div class="lecture-meta">🗓️ Fri 10:15h - 11:45h · H10</div>
-  <a href="https://www.studon.fau.de/studon" class="btn btn-primary lecture-link" style="align-self:flex-start;">Studon</a>
+  <div class="lecture-title">Materials & <br>Structure (MAP)</div>
+  <div class="lecture-meta">
+    🗓️ Fri 10:15h - 11:45h<br>
+    📍 H10
+  </div>
+  <a href="https://www.studon.fau.de/studon" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
 </div>
+```
 :::
-:::
-::: {.column}
-::: {.lecture-card style="width:33%; background: linear-gradient(135deg,#2d1b4e 0%,#1a1030 100%);"}
+
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#2d1b4e 0%,#1a1030 100%);"}
+```{=html}
 <div class="lecture-card-overlay"></div>
 <div class="lecture-card-body">
-  <div class="lecture-title">Data Science for Electron Microscopy</div>
-  <div class="lecture-meta">🗓️ Fri 12:15h - 13:45h · IZNF Rm 01.160</div>
-  <a href="https://pelzlab.science/DataScienceForElectronMicroscopy/" class="btn btn-primary lecture-link" style="align-self:flex-start;">Website</a>
+  <div class="lecture-title">Data Science for <br>Electron Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Fri 12:15h - 13:45h<br>
+    📍 IZNF Rm 01.160
+  </div>
+  <a href="https://pelzlab.science/DataScienceForElectronMicroscopy/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
 </div>
+```
 :::
-:::
-::: {.column}
-::: {.lecture-card style="width:34%; background: linear-gradient(135deg,#1b4a3a 0%,#0d2820 100%);"}
+
+::: {.column .lecture-card style="width: 34%; background: linear-gradient(135deg,#1b4a3a 0%,#0d2820 100%);"}
+```{=html}
 <div class="lecture-card-overlay"></div>
 <div class="lecture-card-body">
-  <div class="lecture-title">Machine Learning for Microscopy</div>
-  <div class="lecture-meta">🗓️ Fri 14:15h - 15:45h · IZNF Rm 01.160</div>
-  <a href="https://pelzlab.science/MachineLearningForMicroscopy/" class="btn btn-primary lecture-link" style="align-self:flex-start;">Website</a>
+  <div class="lecture-title">Machine Learning <br>for Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Fri 14:15h - 15:45h<br>
+    📍 IZNF Rm 01.160
+  </div>
+  <a href="https://pelzlab.science/MachineLearningForMicroscopy/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
 </div>
+```
 :::
-:::
+
 ::::
 
 ## Summer Semester 2025
 
-::: {.columns}
-::: {.column}
-::: {.lecture-card style="width:50%; background: linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);"}
+:::: {.columns}
+
+::: {.column .lecture-card style="width: 50%; background: linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);"}
+```{=html}
 <div class="lecture-card-overlay"></div>
 <div class="lecture-card-body">
-  <div class="lecture-title">Materials & Structure (Clean Energy)</div>
-  <div class="lecture-meta">🗓️ Tue 10:15h - 11:45h · 0.68 WW building</div>
-  <a href="https://www.studon.fau.de/studon" class="btn btn-primary lecture-link" style="align-self:flex-start;">Studon</a>
+  <div class="lecture-title">Materials & Structure <br>(Clean Energy)</div>
+  <div class="lecture-meta">
+    🗓️ Tue 10:15h - 11:45h<br>
+    📍 0.68 WW building
+  </div>
+  <a href="https://www.studon.fau.de/studon" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
 </div>
+```
 :::
-:::
-::: {.column}
-::: {.lecture-card style="width:50%; background: linear-gradient(135deg,#2d1b4e 0%,#1a1030 100%);"}
+
+::: {.column .lecture-card style="width: 50%; background: linear-gradient(135deg,#2d1b4e 0%,#1a1030 100%);"}
+```{=html}
 <div class="lecture-card-overlay"></div>
 <div class="lecture-card-body">
-  <div class="lecture-title">Data Science for Electron Microscopy</div>
-  <div class="lecture-meta">🗓️ Tue 16:15h - 17:45h · IZNF Rm 01.160</div>
-  <a href="https://pelzlab.science/DataScienceForElectronMicroscopy/" class="btn btn-primary lecture-link" style="align-self:flex-start;">Website</a>
+  <div class="lecture-title">Data Science for <br>Electron Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Tue 16:15h - 17:45h<br>
+    📍 IZNF Rm 01.160
+  </div>
+  <a href="https://pelzlab.science/DataScienceForElectronMicroscopy/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
 </div>
+```
 :::
-:::
-::: {.column}
-::: {.lecture-card style="width:50%; background: linear-gradient(135deg,#1b4a3a 0%,#0d2820 100%);"}
+
+::: {.column .lecture-card style="width: 50%; background: linear-gradient(135deg,#1b4a3a 0%,#0d2820 100%);"}
+```{=html}
 <div class="lecture-card-overlay"></div>
 <div class="lecture-card-body">
-  <div class="lecture-title">Machine Learning for Microscopy</div>
-  <div class="lecture-meta">🗓️ Thu 16:15h - 17:45h · IZNF Rm 01.160</div>
-  <a href="https://pelzlab.science/MachineLearningForMicroscopy/" class="btn btn-primary lecture-link" style="align-self:flex-start;">Website</a>
+  <div class="lecture-title">Machine Learning <br>for Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Thu 16:15h - 17:45h<br>
+    📍 IZNF Rm 01.160
+  </div>
+  <a href="https://pelzlab.science/MachineLearningForMicroscopy/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
 </div>
+```
 :::
-:::
-::: {.column}
-::: {.lecture-card style="width:50%; background: linear-gradient(135deg,#3a2d1b 0%,#201510 100%);"}
+
+::: {.column .lecture-card style="width: 50%; background: linear-gradient(135deg,#3a2d1b 0%,#201510 100%);"}
+```{=html}
 <div class="lecture-card-overlay"></div>
 <div class="lecture-card-body">
-  <div class="lecture-title">Materials & Structure Seminar</div>
-  <div class="lecture-meta">🗓️ Thu 16:15h - 17:45h · 0.68 WW building</div>
-  <a href="https://pelzlab.science/MaterialsAndStructureSeminar/" class="btn btn-primary lecture-link" style="align-self:flex-start;">Website</a>
+  <div class="lecture-title">Materials & Structure <br>Seminar</div>
+  <div class="lecture-meta">
+    🗓️ Thu 16:15h - 17:45h<br>
+    📍 0.68 WW building
+  </div>
+  <a href="https://pelzlab.science/MaterialsAndStructureSeminar/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
 </div>
+```
 :::
-:::
+
 ::::
 
 ## Winter Semester 2024
