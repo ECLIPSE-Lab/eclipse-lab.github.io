@@ -21,23 +21,6 @@
     ]
   },
   {
-    "listing": "/people.html",
-    "items": [
-      "/people/staff/00_pelz_philipp.html",
-      "/people/staff/02_shengbo_you.html",
-      "/people/staff/03_nikita_palatkin.html",
-      "/people/staff/05_sihan_shao.html",
-      "/people/staff/06_williams.html",
-      "/people/admins/birke.html",
-      "/people/admins/yesim_tosun.html",
-      "/people/alumni/01_andrey_romanov.html",
-      "/people/alumni/04_philipp_herz.html",
-      "/people/alumni/06_radin_rahimi.html",
-      "/people/alumni/07_dasun_ranakawa.html",
-      "/people/alumni/gaurab_dhungana.html"
-    ]
-  },
-  {
     "listing": "/news.html",
     "items": [
       "/posts/2025-12-02_imc21/index.html",
@@ -60,6 +43,23 @@
       "/posts/imc20/index.html",
       "/posts/mrs2023/index.html",
       "/posts/crc1411/index.html"
+    ]
+  },
+  {
+    "listing": "/people.html",
+    "items": [
+      "/people/staff/00_pelz_philipp.html",
+      "/people/staff/02_shengbo_you.html",
+      "/people/staff/03_nikita_palatkin.html",
+      "/people/staff/05_sihan_shao.html",
+      "/people/staff/06_williams.html",
+      "/people/admins/birke.html",
+      "/people/admins/yesim_tosun.html",
+      "/people/alumni/01_andrey_romanov.html",
+      "/people/alumni/04_philipp_herz.html",
+      "/people/alumni/06_radin_rahimi.html",
+      "/people/alumni/07_dasun_ranakawa.html",
+      "/people/alumni/gaurab_dhungana.html"
     ]
   }
 ]
