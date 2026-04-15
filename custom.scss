@@ -263,3 +263,45 @@ h6,
   line-height: 1.35;
   font-style: italic;
 }
+/* PI Hero section */
+#pi-profile {
+  text-align: center;
+  padding: 2rem;
+}
+.pi-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(59, 130, 246, 0.4);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.2);
+  margin: 0 auto 1.2rem;
+  display: block;
+}
+#pi-profile h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #f8fafc;
+  margin-bottom: 0.3rem;
+}
+#pi-profile p {
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+.pi-link {
+  color: #93c5fd;
+  text-decoration: none;
+  font-size: 0.88rem;
+  margin: 0 0.4rem;
+}
+.pi-link:hover {
+  color: #bfdbfe;
+  text-decoration: underline;
+}
+.pi-subtitle {
+  font-size: 1.1rem;
+  color: #93c5fd;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
