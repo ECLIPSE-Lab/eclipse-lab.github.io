@@ -10,7 +10,6 @@ resources:
 about:
   id: person-profile
   template: jolla
-  class: pi-card
   links:
     - icon: link
       text: website
