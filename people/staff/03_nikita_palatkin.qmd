@@ -8,10 +8,7 @@ toc: false
 about:
   id: person-profile
   template: jolla
-  links:
-    - icon: file-earmark-text
-      text: CV
-      href: ./people/staff/nikita_palatkin_cv.pdf
+
 ---
 
 ```{=html}
@@ -39,7 +36,7 @@ about:
 
 Nikita joined the ECLIPSE Lab as a doctoral researcher in November 2024, co-funded through his PhD position at the University of Canterbury, New Zealand.
 
-He holds a BSc in Physics (2020, GPA 3.94/4.0, Honours) and an MSc in Physics (2022, GPA 3.53/4.0) from **Novosibirsk State University**, Russia. Alongside his MSc, he completed a two-year professional retraining programme in **Software Engineering and Data Science** at the Computer Science Center.
+He holds a BSc in Physics (2020, Honours) and an MSc in Physics (2022) from **Novosibirsk State University**, Russia. Alongside his MSc, he completed a two-year professional retraining programme in **Software Engineering and Data Science** at the Computer Science Center.
 
 Prior to joining ECLIPSE, Nikita worked as a Research Engineer at **Motive Neuromorphic Technologies** (2022–present), developing algorithms and software for neuromorphic AI accelerators (AltAI 2 and AltAI 3). He previously held research positions at the International Tomography Center SB RAS (2019–2021) and the Institute of Chemical Kinetics and Combustion SB RAS (2021–2022).
 
