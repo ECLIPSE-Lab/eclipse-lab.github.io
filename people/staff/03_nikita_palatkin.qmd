@@ -34,7 +34,7 @@ about:
 
 ## Background
 
-Nikita joined the ECLIPSE Lab as a doctoral researcher in November 2024, co-funded through his PhD position at the University of Canterbury, New Zealand.
+Nikita joined the ECLIPSE Lab as a doctoral researcher in November 2024.
 
 He holds a BSc in Physics (2020, Honours) and an MSc in Physics (2022) from **Novosibirsk State University**, Russia. Alongside his MSc, he completed a two-year professional retraining programme in **Software Engineering and Data Science** at the Computer Science Center.
 
