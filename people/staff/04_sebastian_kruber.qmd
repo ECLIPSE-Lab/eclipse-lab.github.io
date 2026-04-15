@@ -36,6 +36,6 @@ Sebastian joined the ECLIPSE Lab as a postdoctoral researcher in April 2025. His
 
 ## Background
 
-Sebastian holds a PhD in Materials Science / Physics, with prior research experience in computational imaging, electron microscopy, and applied machine learning.
+Sebastian holds a PhD in Physics from the Max Planck Institute for the Structure and Dynamics of Matter in Hamburg. His research experience spans laser physics, electron microscopy, and scientific software development.
 
 **Contact:** sebastian.kruber@fau.de
