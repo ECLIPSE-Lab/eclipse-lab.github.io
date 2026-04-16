@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.7.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,9 +10,6 @@
 
 <title>ERC Starting Grant HyperScaleEM | ECLIPSE Lab – ECLIPSE Lab</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -41,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-aaf32c2afe291d78cb494e81f7e4bfb1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-0285065c697bd4cca8b26a21140528d6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -240,8 +237,7 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="https://pelzlab.science" class="navbar-brand navbar-brand-logo">
-    <img src="././img/FAU.png" alt="" class="navbar-logo light-content">
-    <img src="././img/FAU.png" alt="" class="navbar-logo dark-content">
+    <img src="././img/FAU.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="https://pelzlab.science">
     <span class="navbar-title">ECLIPSE Lab</span>
@@ -313,6 +309,9 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
    
   <ul>
   <li><a href="#vision-of-hyperscaleem" id="toc-vision-of-hyperscaleem" class="nav-link active" data-scroll-target="#vision-of-hyperscaleem">Vision of HyperScaleEM</a></li>
+  <li><a href="#what-were-building" id="toc-what-were-building" class="nav-link" data-scroll-target="#what-were-building">What we’re building</a></li>
+  <li><a href="#project-roadmap" id="toc-project-roadmap" class="nav-link" data-scroll-target="#project-roadmap">Project roadmap</a></li>
+  <li><a href="#team-open-positions" id="toc-team-open-positions" class="nav-link" data-scroll-target="#team-open-positions">Team &amp; open positions</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ECLIPSE-Lab/eclipse-lab.github.io/blob/main/hyperscale.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ECLIPSE-Lab/eclipse-lab.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -324,14 +323,58 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 
 <section id="vision-of-hyperscaleem" class="level2">
 <h2 class="anchored" data-anchor-id="vision-of-hyperscaleem">Vision of HyperScaleEM</h2>
-<p>Electron microscopy is essential to understanding structure-property-function relationships in modern materials engineering, condensed matter physics, chemistry, and structural biology. Yet, due to complicated scattering physics, today’s electron microscopes can only image tiny volumes with 3D atomic resolution. Within this project, we will turn the tables by utilizing and inverting the scattering physics to image scale- bridging volumes with atomic detail and chemical superresolution. Combining compressive data-acquisition protocols, state-of-the-art electron optics and detectors, and co-designed computational imaging algorithms will make this possible.</p>
-<p>We will use tomographic experiments and computationally invert the multiple scattering from multidimensional measurements in scanning transmission electron microscopy to determine 3D atomic structure and chemistry in technologically valuable volumes. This has not been realized yet due to significant bottlenecks in the computational complexity of the underlying algorithms and a lack of experimental automation, which we plan to overcome in this project.</p>
-<p>The project is divided into three main objectives:</p>
-<ol type="1">
-<li>Imaging 3D atomic structure in large volumes</li>
-<li>Visualizing atomic chemistry in scale-bridging volumes</li>
-<li>Profiling 3D atomic structure, chemistry, and dynamics in controlled in-situ experiments across scales</li>
-</ol>
+<p>Electron microscopy is essential to understanding structure-property-function relationships in modern materials engineering, condensed matter physics, chemistry, and structural biology. Yet, due to complicated scattering physics, today’s electron microscopes can only image tiny volumes with 3D atomic resolution. Within this project, we will turn the tables by utilizing and inverting the scattering physics to image scale-bridging volumes with atomic detail and chemical superresolution. Combining compressive data-acquisition protocols, state-of-the-art electron optics and detectors, and co-designed computational imaging algorithms will make this possible.</p>
+</section>
+<section id="what-were-building" class="level2">
+<h2 class="anchored" data-anchor-id="what-were-building">What we’re building</h2>
+<p>HyperScaleEM is building the microscopy workflow that doesn’t exist yet: an automated pipeline that can image <strong>hundreds of nanometres across</strong> with atomic-level resolution and chemical composition — in 3D, at the speed of a modern electron microscope, without human intervention at every step.</p>
+<p>The core challenge isn’t the hardware — it’s that the computational methods required to reconstruct this data are too slow, too brittle, and too manual. We solve this by designing <strong>physics-informed AI</strong> that learns the microscope’s forward model and inverts it at scale, combined with <strong>closed-loop acquisition</strong> that decides where to measure next based on what it’s already seen.</p>
+<p><strong>What this enables:</strong> A biologist studying a virus particle, a battery engineer characterising a dendrite, or a chemist imaging a catalyst — all getting the same quality of 3D atomic structure data that today only a handful of world-leading centres can produce, in hours not weeks.</p>
+</section>
+<section id="project-roadmap" class="level2">
+<h2 class="anchored" data-anchor-id="project-roadmap">Project roadmap</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Milestone</th>
+<th style="text-align: left;">Target</th>
+<th style="text-align: left;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">3D atomic resolution in volumes &gt;10nm</td>
+<td style="text-align: left;">2023–2024</td>
+<td style="text-align: left;">✅ Achieved — <a href="https://iopscience.iop.org/article/10.1088/2515-7639/ad9ad2">Multi-slice electron ptychographic tomography for three-dimensional phase-contrast microscopy beyond the depth of focus limits</a>, <a href="https://arxiv.org/abs/2512.19460">arXiv:2512.19460</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Scale-bridging imaging pipeline (18nm³)</td>
+<td style="text-align: left;">2024</td>
+<td style="text-align: left;">🔬 In progress — <a href="https://academic.oup.com/mam/article/31/Supplement_1/ozaf048.070/8212757?guestAccessKey=">Progress</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Automated 3D chemical mapping across volumes</td>
+<td style="text-align: left;">2027</td>
+<td style="text-align: left;">🔬 Ramping up</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">In-situ dynamics capture with autonomous acquisition</td>
+<td style="text-align: left;">2027–2029</td>
+<td style="text-align: left;">🔬 Ramping up</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Cross-scale integration: atomic-to-nanometre bridging</td>
+<td style="text-align: left;">2028–2030</td>
+<td style="text-align: left;">🔬 Ramping up</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="team-open-positions" class="level2">
+<h2 class="anchored" data-anchor-id="team-open-positions">Team &amp; open positions</h2>
+<p>HyperScaleEM is led by <strong>Prof.&nbsp;Philipp Pelz</strong> (PI) and a multidisciplinary team of postdoctoral researchers, PhD students, and visiting collaborators. The project is integrated with the broader <a href="./index.html">ECLIPSE Lab</a> and the <a href="https://www.cenem.fau.de/">CENEM</a> Centre for Nanoanalysis at FAU Erlangen-Nürnberg.</p>
+<p><strong>Open positions</strong> funded through HyperScaleEM are advertised on the <a href="./opportunities.html">ECLIPSE Lab Opportunities page</a>. We actively encourage applications from candidates with backgrounds in physics, materials science, computer science, or applied mathematics.</p>
+<p>Interested in collaboration? <a href="./contact.html">Contact the lab →</a></p>
 <!-- ## Roadmap
 
 ### Volume Sizes
@@ -395,14 +438,13 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

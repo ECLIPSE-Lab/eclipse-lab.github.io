@@ -22,11 +22,11 @@ The core challenge isn't the hardware — it's that the computational methods re
 
 | Milestone | Target | Status |
 |:---|:---|:---|
-| 3D atomic resolution in volumes >10nm | 2023–2024 | ✅ Achieved — [arXiv:2512.19460](https://arxiv.org/abs/2512.19460) |
-| Scale-bridging imaging pipeline (18nm³) | 2024 | 🔬 In progress |
-| Automated 3D chemical mapping across volumes | 2025 | 🔬 In progress |
-| In-situ dynamics capture with autonomous acquisition | 2026–2027 | 🔬 In progress |
-| Cross-scale integration: atomic-to-nanometre bridging | 2028–2029 | 🔬 In progress |
+| 3D atomic resolution in volumes >10nm | 2023–2024 | ✅ Achieved — [Multi-slice electron ptychographic tomography for three-dimensional phase-contrast microscopy beyond the depth of focus limits](https://iopscience.iop.org/article/10.1088/2515-7639/ad9ad2), [arXiv:2512.19460](https://arxiv.org/abs/2512.19460) |
+| Scale-bridging imaging pipeline | 2025 - 2027 | 🔬 In progress — [Progress](https://academic.oup.com/mam/article/31/Supplement_1/ozaf048.070/8212757?guestAccessKey=) |
+| Automated 3D chemical mapping across volumes | 2026 - 2028 | 🔬 Ramping up |
+| In-situ dynamics capture with autonomous acquisition | 2027–2029 | 🔬 Ramping up |
+| Cross-scale integration: atomic-to-nanometre bridging | 2028–2030 | 🔬 Ramping up |
 
 ## Team & open positions
 
