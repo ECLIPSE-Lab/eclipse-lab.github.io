@@ -448,6 +448,27 @@
     "text": "Electron microscopy is essential to understanding structure-property-function relationships in modern materials engineering, condensed matter physics, chemistry, and structural biology. Yet, due to complicated scattering physics, today’s electron microscopes can only image tiny volumes with 3D atomic resolution. Within this project, we will turn the tables by utilizing and inverting the scattering physics to image scale-bridging volumes with atomic detail and chemical superresolution. Combining compressive data-acquisition protocols, state-of-the-art electron optics and detectors, and co-designed computational imaging algorithms will make this possible."
   },
   {
+    "objectID": "hyperscale.html#what-were-building",
+    "href": "hyperscale.html#what-were-building",
+    "title": "ECLIPSE Lab",
+    "section": "What we’re building",
+    "text": "What we’re building\nHyperScaleEM is building the microscopy workflow that doesn’t exist yet: an automated pipeline that can image hundreds of nanometres across with atomic-level resolution and chemical composition — in 3D, at the speed of a modern electron microscope, without human intervention at every step.\nThe core challenge isn’t the hardware — it’s that the computational methods required to reconstruct this data are too slow, too brittle, and too manual. We solve this by designing physics-informed AI that learns the microscope’s forward model and inverts it at scale, combined with closed-loop acquisition that decides where to measure next based on what it’s already seen.\nWhat this enables: A biologist studying a virus particle, a battery engineer characterising a dendrite, or a chemist imaging a catalyst — all getting the same quality of 3D atomic structure data that today only a handful of world-leading centres can produce, in hours not weeks."
+  },
+  {
+    "objectID": "hyperscale.html#project-roadmap",
+    "href": "hyperscale.html#project-roadmap",
+    "title": "ECLIPSE Lab",
+    "section": "Project roadmap",
+    "text": "Project roadmap\n\n\n\nMilestone\nTarget\nStatus\n\n\n\n\n3D atomic resolution in volumes &gt;10nm\n2023–2024\n✅ Achieved — Multi-slice electron ptychographic tomography for three-dimensional phase-contrast microscopy beyond the depth of focus limits, arXiv:2512.19460\n\n\nScale-bridging imaging pipeline\n2025 - 2027\n🔬 In progress — Progress\n\n\nAutomated 3D chemical mapping across volumes\n2026 - 2028\n🔬 Ramping up\n\n\nIn-situ dynamics capture with autonomous acquisition\n2027–2029\n🔬 Ramping up\n\n\nCross-scale integration: atomic-to-nanometre bridging\n2028–2030\n🔬 Ramping up"
+  },
+  {
+    "objectID": "hyperscale.html#team-open-positions",
+    "href": "hyperscale.html#team-open-positions",
+    "title": "ECLIPSE Lab",
+    "section": "Team & open positions",
+    "text": "Team & open positions\nHyperScaleEM is led by Prof. Philipp Pelz (PI) and a multidisciplinary team of postdoctoral researchers, PhD students, and visiting collaborators. The project is integrated with the broader ECLIPSE Lab and the CENEM Centre for Nanoanalysis at FAU Erlangen-Nürnberg.\nOpen positions funded through HyperScaleEM are advertised on the ECLIPSE Lab Opportunities page. We actively encourage applications from candidates with backgrounds in physics, materials science, computer science, or applied mathematics.\nInterested in collaboration? Contact the lab →"
+  },
+  {
     "objectID": "news.html",
     "href": "news.html",
     "title": "ECLIPSE Lab",
@@ -623,11 +644,11 @@
     "text": "Research Interests\n\n4D-STEM imaging and computational tomography\nPtychographic reconstruction and phase retrieval\nPhysics-informed neural networks for microscopy\nSignal processing and inverse problems"
   },
   {
-    "objectID": "people/staff/03_nikita_palatkin.html#brief-bio",
-    "href": "people/staff/03_nikita_palatkin.html#brief-bio",
+    "objectID": "people/staff/03_nikita_palatkin.html#background",
+    "href": "people/staff/03_nikita_palatkin.html#background",
     "title": "Nikita Palatkin",
-    "section": "Brief Bio",
-    "text": "Brief Bio\nNikita earned his MSc. in Physics."
+    "section": "Background",
+    "text": "Background\nNikita joined the ECLIPSE Lab as a doctoral researcher in November 2024.\nHe holds a BSc in Physics (2020, Honours) and an MSc in Physics (2022) from Novosibirsk State University, Russia. Alongside his MSc, he completed a two-year professional retraining programme in Software Engineering and Data Science at the Computer Science Center.\nPrior to joining ECLIPSE, Nikita worked as a Research Engineer at Motive Neuromorphic Technologies (2022–present), developing algorithms and software for neuromorphic AI accelerators (AltAI 2 and AltAI 3). He previously held research positions at the International Tomography Center SB RAS (2019–2021) and the Institute of Chemical Kinetics and Combustion SB RAS (2021–2022)."
   },
   {
     "objectID": "people/staff/03_nikita_palatkin.html#experience",
@@ -635,6 +656,104 @@
     "title": "Nikita Palatkin",
     "section": "Experience",
     "text": "Experience\n\nECLIPSE Lab, FAU Erlangen-Nürnberg · Doctoral Researcher · Since Nov 2024\nUniversity of Canterbury · PhD (ongoing) · School of Physical and Chemical Sciences\nLLC Motive Neuromorphic Technologies · Research Engineer · Aug 2022–Jul 2024\nInstitute of Chemical Kinetics and Combustion SB RAS · Engineer · Nov 2021–Jul 2022\nInternational Tomography Center SB RAS · Junior Researcher · Sep 2019–Sep 2021"
+  },
+  {
+    "objectID": "people/staff/03_nikita_palatkin.html#technical-skills",
+    "href": "people/staff/03_nikita_palatkin.html#technical-skills",
+    "title": "Nikita Palatkin",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\nProgramming: Python, C, C++\nDeep learning: PyTorch, TensorFlow 2, PyG, Transformers\nComputer vision: OpenCV\nSpiking networks: snnTorch, Nengo, NengoDL\nML: scikit-learn, CatBoost\nOther: NumPy, SciPy, Pandas, PostgreSQL, Docker, Linux, Git"
+  },
+  {
+    "objectID": "people/staff/04_sebastian_kruber.html",
+    "href": "people/staff/04_sebastian_kruber.html",
+    "title": "Sebastian Kruber",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Sebastian Kruber"
+  },
+  {
+    "objectID": "people/staff/04_sebastian_kruber.html#research-interests",
+    "href": "people/staff/04_sebastian_kruber.html#research-interests",
+    "title": "Sebastian Kruber",
+    "section": "Research Interests",
+    "text": "Research Interests\n\n4D-STEM imaging and analysis\nComputational image reconstruction\nMachine learning for electron microscopy\nAutomated acquisition and reconstruction pipelines"
+  },
+  {
+    "objectID": "people/staff/04_sebastian_kruber.html#brief-bio",
+    "href": "people/staff/04_sebastian_kruber.html#brief-bio",
+    "title": "Sebastian Kruber",
+    "section": "Brief Bio",
+    "text": "Brief Bio\nSebastian joined the ECLIPSE Lab as a postdoctoral researcher in April 2025. His work focuses on developing and applying 4D-STEM methods for high-resolution, dose-efficient imaging, with a particular interest in combining physics-informed models and machine learning to push the limits of what electron microscopes can reveal."
+  },
+  {
+    "objectID": "people/staff/04_sebastian_kruber.html#background",
+    "href": "people/staff/04_sebastian_kruber.html#background",
+    "title": "Sebastian Kruber",
+    "section": "Background",
+    "text": "Background\nSebastian holds a PhD in Physics from the Max Planck Institute for the Structure and Dynamics of Matter in Hamburg. His research experience spans laser physics, electron microscopy, and scientific software development.\nContact: sebastian.kruber@fau.de"
+  },
+  {
+    "objectID": "people/staff/06_williams.html",
+    "href": "people/staff/06_williams.html",
+    "title": "Umah Chukwudi Williams",
+    "section": "",
+    "text": "Home\nPeople\nResearch Staff\nUmah Chukwudi Williams"
+  },
+  {
+    "objectID": "people/staff/06_williams.html#research-interests",
+    "href": "people/staff/06_williams.html#research-interests",
+    "title": "Umah Chukwudi Williams",
+    "section": "Research Interests",
+    "text": "Research Interests\ncomputational imaging & microscopy, tomography, ptychography"
+  },
+  {
+    "objectID": "people/staff/06_williams.html#brief-bio",
+    "href": "people/staff/06_williams.html#brief-bio",
+    "title": "Umah Chukwudi Williams",
+    "section": "Brief Bio",
+    "text": "Brief Bio\nWilliams earned his MSc in Artificial Intelligence at Friedrich-Alexander-Universität Erlangen-Nürnberg in September 2025. His background spans computer vision, deep learning, reinforcement learning, and computational visual perception."
+  },
+  {
+    "objectID": "people/staff/06_williams.html#experience",
+    "href": "people/staff/06_williams.html#experience",
+    "title": "Umah Chukwudi Williams",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/staff/05_sihan_shao.html",
+    "href": "people/staff/05_sihan_shao.html",
+    "title": "Sihan Shao",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Sihan Shao"
+  },
+  {
+    "objectID": "people/staff/05_sihan_shao.html#research-interests",
+    "href": "people/staff/05_sihan_shao.html#research-interests",
+    "title": "Sihan Shao",
+    "section": "Research Interests",
+    "text": "Research Interests\n\nComputational imaging in X-ray and electron microscopy\nTomography and ptychography\nMachine learning for microscopy\nOptimization methods for imaging"
+  },
+  {
+    "objectID": "people/staff/05_sihan_shao.html#background",
+    "href": "people/staff/05_sihan_shao.html#background",
+    "title": "Sihan Shao",
+    "section": "Background",
+    "text": "Background\nSihan is a doctoral researcher in the ECLIPSE Lab, supervised by Prof. Philipp Pelz. His research focuses on computational imaging in X-ray and electron microscopy, particularly in tomography and ptychography."
+  },
+  {
+    "objectID": "people/staff/05_sihan_shao.html#education",
+    "href": "people/staff/05_sihan_shao.html#education",
+    "title": "Sihan Shao",
+    "section": "Education",
+    "text": "Education\n\n2025 – present: Ph.D. in Computational Microscopy, FAU Erlangen-Nürnberg, Germany\n2022 – 2024: M.Sc. in Electronics and Nanotechnology (major) & Machine Learning (minor), Aalto University, Finland\n2018 – 2022: B.Sc. in Opto-Electronics Information Science and Engineering, CUST, China"
+  },
+  {
+    "objectID": "people/staff/05_sihan_shao.html#publications-projects",
+    "href": "people/staff/05_sihan_shao.html#publications-projects",
+    "title": "Sihan Shao",
+    "section": "Publications & Projects",
+    "text": "Publications & Projects\n\nRim-Integrated Bluetooth Antenna for Smart Watches with Full-Metallic Structure\nA. Kourani, S. Shao et al. — EuCAP 2025\ncode\nNeural Dispersive Hologram for Computational Submillimeter-wave Imaging\nMaster’s thesis, 2024 — developed multi-wavelength wave propagation simulation using PyTorch\ncode\nQuantized THz Diffractive Optics Design via Automatic Differentiation\nS. Shao, A. Tamminen, S. Pälli, S. Gamaethige, Z. Taylor — IRMMW-THz 2024"
   },
   {
     "objectID": "people/staff/00_pelz_philipp.html",
@@ -670,62 +789,6 @@
     "title": "Philipp Pelz",
     "section": "Education",
     "text": "Education\n\nTechnische Universität München | Munich, Germany M.Sc. Applied & Engineering Physics | 2011 - 2013 B.Sc. Informatics | 2009 - 2012 B.Sc. Physics | 2008 - 2011\nUniversity of Montpellier 2 | Montpellier, France Master 2 Chemistry | 2012 - 2013\nUniversity of Torino | Torino, Italy M.Sc. Materials Science | 2011 - 2013"
-  },
-  {
-    "objectID": "people/staff/05_sihan_shao.html",
-    "href": "people/staff/05_sihan_shao.html",
-    "title": "Sihan Shao",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Sihan Shao"
-  },
-  {
-    "objectID": "people/staff/05_sihan_shao.html#research-interests",
-    "href": "people/staff/05_sihan_shao.html#research-interests",
-    "title": "Sihan Shao",
-    "section": "Research Interests",
-    "text": "Research Interests\n\nComputational imaging in X-ray and electron microscopy\nTomography and ptychography\nMachine learning for microscopy\nOptimization methods for imaging"
-  },
-  {
-    "objectID": "people/staff/05_sihan_shao.html#brief-bio",
-    "href": "people/staff/05_sihan_shao.html#brief-bio",
-    "title": "Sihan Shao",
-    "section": "Brief Bio",
-    "text": "Brief Bio\nSihan earned his MSc. in Electronics and Nanotechnology from Aalto University."
-  },
-  {
-    "objectID": "people/staff/05_sihan_shao.html#experience",
-    "href": "people/staff/05_sihan_shao.html#experience",
-    "title": "Sihan Shao",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/staff/06_williams.html",
-    "href": "people/staff/06_williams.html",
-    "title": "Umah Chukwudi Williams",
-    "section": "",
-    "text": "Home\nPeople\nResearch Staff\nUmah Chukwudi Williams"
-  },
-  {
-    "objectID": "people/staff/06_williams.html#research-interests",
-    "href": "people/staff/06_williams.html#research-interests",
-    "title": "Umah Chukwudi Williams",
-    "section": "Research Interests",
-    "text": "Research Interests\ncomputational imaging & microscopy, tomography, ptychography"
-  },
-  {
-    "objectID": "people/staff/06_williams.html#brief-bio",
-    "href": "people/staff/06_williams.html#brief-bio",
-    "title": "Umah Chukwudi Williams",
-    "section": "Brief Bio",
-    "text": "Brief Bio\nWilliams earned his MSc in Artificial Intelligence at Friedrich-Alexander-Universität Erlangen-Nürnberg in September 2025. His background spans computer vision, deep learning, reinforcement learning, and computational visual perception."
-  },
-  {
-    "objectID": "people/staff/06_williams.html#experience",
-    "href": "people/staff/06_williams.html#experience",
-    "title": "Umah Chukwudi Williams",
-    "section": "Experience",
-    "text": "Experience"
   },
   {
     "objectID": "people/staff/02_shengbo_you.html",
@@ -1412,89 +1475,5 @@
     "title": "Multi-slice electron ptychographic tomography for three-dimensional phase-contrast microscopy beyond the depth of focus limits",
     "section": "Abstract",
     "text": "Abstract\nElectron ptychography is a powerful computational method for atomic-resolution imaging with high contrast for weakly and strongly scattering elements. Modern algorithms coupled with fast and efficient detectors allow imaging specimens with tens of nanometers thicknesses with sub-0.5 Ångstrom lateral resolution. However, the axial resolution in these approaches is currently limited to a few nanometers, limiting their ability to solve novel atomic structures ab initio. Here, we experimentally demonstrate multi-slice ptychographic electron tomography, which allows atomic resolution three-dimensional phase-contrast imaging in a volume surpassing the depth of field limits. We reconstruct tilt-series 4D-STEM measurements of a       Co 3   O 4      nanocube, yielding 2 Å axial and 0.7 Å transverse resolution in a reconstructed volume of      ( 18.2  nm  ) 3     . Our results demonstrate a 13.5-fold improvement in axial resolution compared to multi-slice ptychography while retaining the atomic lateral resolution and the capability to image volumes beyond the depth of field limit. Multi-slice ptychographic electron tomography significantly expands the volume of materials accessible using high-resolution electron microscopy. We discuss further experimental and algorithmic improvements necessary to also resolve single weakly scattering atoms in 3D."
-  },
-  {
-    "objectID": "hyperscale.html#what-were-building",
-    "href": "hyperscale.html#what-were-building",
-    "title": "ECLIPSE Lab",
-    "section": "What we’re building",
-    "text": "What we’re building\nHyperScaleEM is building the microscopy workflow that doesn’t exist yet: an automated pipeline that can image hundreds of nanometres across with atomic-level resolution and chemical composition — in 3D, at the speed of a modern electron microscope, without human intervention at every step.\nThe core challenge isn’t the hardware — it’s that the computational methods required to reconstruct this data are too slow, too brittle, and too manual. We solve this by designing physics-informed AI that learns the microscope’s forward model and inverts it at scale, combined with closed-loop acquisition that decides where to measure next based on what it’s already seen.\nWhat this enables: A biologist studying a virus particle, a battery engineer characterising a dendrite, or a chemist imaging a catalyst — all getting the same quality of 3D atomic structure data that today only a handful of world-leading centres can produce, in hours not weeks."
-  },
-  {
-    "objectID": "hyperscale.html#project-roadmap",
-    "href": "hyperscale.html#project-roadmap",
-    "title": "ECLIPSE Lab",
-    "section": "Project roadmap",
-    "text": "Project roadmap\n\n\n\nMilestone\nTarget\nStatus\n\n\n\n\n3D atomic resolution in volumes &gt;10nm\n2023–2024\n✅ Achieved — Multi-slice electron ptychographic tomography for three-dimensional phase-contrast microscopy beyond the depth of focus limits, arXiv:2512.19460\n\n\nScale-bridging imaging pipeline (18nm³)\n2024\n🔬 In progress — Progress\n\n\nAutomated 3D chemical mapping across volumes\n2027\n🔬 Ramping up\n\n\nIn-situ dynamics capture with autonomous acquisition\n2027–2029\n🔬 Ramping up\n\n\nCross-scale integration: atomic-to-nanometre bridging\n2028–2030\n🔬 Ramping up"
-  },
-  {
-    "objectID": "hyperscale.html#team-open-positions",
-    "href": "hyperscale.html#team-open-positions",
-    "title": "ECLIPSE Lab",
-    "section": "Team & open positions",
-    "text": "Team & open positions\nHyperScaleEM is led by Prof. Philipp Pelz (PI) and a multidisciplinary team of postdoctoral researchers, PhD students, and visiting collaborators. The project is integrated with the broader ECLIPSE Lab and the CENEM Centre for Nanoanalysis at FAU Erlangen-Nürnberg.\nOpen positions funded through HyperScaleEM are advertised on the ECLIPSE Lab Opportunities page. We actively encourage applications from candidates with backgrounds in physics, materials science, computer science, or applied mathematics.\nInterested in collaboration? Contact the lab →"
-  },
-  {
-    "objectID": "people/staff/04_sebastian_kruber.html",
-    "href": "people/staff/04_sebastian_kruber.html",
-    "title": "Sebastian Kruber",
-    "section": "",
-    "text": "Home\n    People\n    Research Staff\n    Sebastian Kruber"
-  },
-  {
-    "objectID": "people/staff/04_sebastian_kruber.html#research-interests",
-    "href": "people/staff/04_sebastian_kruber.html#research-interests",
-    "title": "Sebastian Kruber",
-    "section": "Research Interests",
-    "text": "Research Interests\n\n4D-STEM imaging and analysis\nComputational image reconstruction\nMachine learning for electron microscopy\nAutomated acquisition and reconstruction pipelines"
-  },
-  {
-    "objectID": "people/staff/04_sebastian_kruber.html#brief-bio",
-    "href": "people/staff/04_sebastian_kruber.html#brief-bio",
-    "title": "Sebastian Kruber",
-    "section": "Brief Bio",
-    "text": "Brief Bio\nSebastian joined the ECLIPSE Lab as a postdoctoral researcher in April 2025. His work focuses on developing and applying 4D-STEM methods for high-resolution, dose-efficient imaging, with a particular interest in combining physics-informed models and machine learning to push the limits of what electron microscopes can reveal."
-  },
-  {
-    "objectID": "people/staff/04_sebastian_kruber.html#background",
-    "href": "people/staff/04_sebastian_kruber.html#background",
-    "title": "Sebastian Kruber",
-    "section": "Background",
-    "text": "Background\nSebastian holds a PhD in Physics from the Max Planck Institute for the Structure and Dynamics of Matter in Hamburg. His research experience spans laser physics, electron microscopy, and scientific software development.\nContact: sebastian.kruber@fau.de"
-  },
-  {
-    "objectID": "people/staff/03_nikita_palatkin.html#background",
-    "href": "people/staff/03_nikita_palatkin.html#background",
-    "title": "Nikita Palatkin",
-    "section": "Background",
-    "text": "Background\nNikita joined the ECLIPSE Lab as a doctoral researcher in November 2024.\nHe holds a BSc in Physics (2020, Honours) and an MSc in Physics (2022) from Novosibirsk State University, Russia. Alongside his MSc, he completed a two-year professional retraining programme in Software Engineering and Data Science at the Computer Science Center.\nPrior to joining ECLIPSE, Nikita worked as a Research Engineer at Motive Neuromorphic Technologies (2022–present), developing algorithms and software for neuromorphic AI accelerators (AltAI 2 and AltAI 3). He previously held research positions at the International Tomography Center SB RAS (2019–2021) and the Institute of Chemical Kinetics and Combustion SB RAS (2021–2022)."
-  },
-  {
-    "objectID": "people/staff/03_nikita_palatkin.html#technical-skills",
-    "href": "people/staff/03_nikita_palatkin.html#technical-skills",
-    "title": "Nikita Palatkin",
-    "section": "Technical Skills",
-    "text": "Technical Skills\n\nProgramming: Python, C, C++\nDeep learning: PyTorch, TensorFlow 2, PyG, Transformers\nComputer vision: OpenCV\nSpiking networks: snnTorch, Nengo, NengoDL\nML: scikit-learn, CatBoost\nOther: NumPy, SciPy, Pandas, PostgreSQL, Docker, Linux, Git"
-  },
-  {
-    "objectID": "people/staff/05_sihan_shao.html#background",
-    "href": "people/staff/05_sihan_shao.html#background",
-    "title": "Sihan Shao",
-    "section": "Background",
-    "text": "Background\nSihan is a doctoral researcher in the ECLIPSE Lab, supervised by Prof. Philipp Pelz. His research focuses on computational imaging in X-ray and electron microscopy, particularly in tomography and ptychography."
-  },
-  {
-    "objectID": "people/staff/05_sihan_shao.html#education",
-    "href": "people/staff/05_sihan_shao.html#education",
-    "title": "Sihan Shao",
-    "section": "Education",
-    "text": "Education\n\n2025 – present: Ph.D. in Computational Microscopy, FAU Erlangen-Nürnberg, Germany\n2022 – 2024: M.Sc. in Electronics and Nanotechnology (major) & Machine Learning (minor), Aalto University, Finland\n2018 – 2022: B.Sc. in Opto-Electronics Information Science and Engineering, CUST, China"
-  },
-  {
-    "objectID": "people/staff/05_sihan_shao.html#publications-projects",
-    "href": "people/staff/05_sihan_shao.html#publications-projects",
-    "title": "Sihan Shao",
-    "section": "Publications & Projects",
-    "text": "Publications & Projects\n\nRim-Integrated Bluetooth Antenna for Smart Watches with Full-Metallic Structure\nA. Kourani, S. Shao et al. — EuCAP 2025\ncode\nNeural Dispersive Hologram for Computational Submillimeter-wave Imaging\nMaster’s thesis, 2024 — developed multi-wavelength wave propagation simulation using PyTorch\ncode\nQuantized THz Diffractive Optics Design via Automatic Differentiation\nS. Shao, A. Tamminen, S. Pälli, S. Gamaethige, Z. Taylor — IRMMW-THz 2024"
   }
 ]
