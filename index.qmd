@@ -101,7 +101,7 @@ toc: false
 :::
 
 ::: {.hero2}
-  We develop computational tools to enable new capabilities in electron and X-ray microscopes and apply them to challenging materials science questions.
+  We build computational imaging methods that push electron microscopes beyond their textbook limits — from sub-Ångstrom 3D reconstructions to autonomous scanning workflows.
 :::
 
 :::: {.columns}
