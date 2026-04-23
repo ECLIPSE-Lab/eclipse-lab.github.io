@@ -4,6 +4,7 @@ sortby: "2"
 subtitle: "Doctoral Researcher"
 image: nikita_crop3.JPG
 started: "Nov 2024"
+interests: "4D-STEM · Ptychography · Physics-informed neural networks"
 toc: false
 about:
   id: person-profile
