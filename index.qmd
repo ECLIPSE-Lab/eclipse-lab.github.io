@@ -134,8 +134,8 @@ toc: false
   Publication Highlights
 :::
 ```{=html}
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+<script src="lib/splide/splide.min.js"></script>
+<link href="lib/splide/splide.min.css" rel="stylesheet">
 <div class="splide" role="group" aria-label="Image Slider">
   <div class="splide__track">
 		<ul class="splide__list">
