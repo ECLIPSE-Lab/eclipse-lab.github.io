@@ -4,6 +4,7 @@ sortby: "3"
 subtitle: "Doctoral Researcher"
 image: sihan.jpg
 started: "2025"
+interests: "Computational imaging · Tomography · Ptychography"
 toc: false
 about:
   id: person-profile

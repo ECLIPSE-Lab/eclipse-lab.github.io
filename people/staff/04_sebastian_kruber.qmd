@@ -3,6 +3,7 @@ title: "Sebastian Kruber"
 subtitle: "Postdoc"
 image: sebastian_kruber.jpg
 started: "April 2025"
+interests: "4D-STEM · Computational reconstruction · ML for EM"
 toc: false
 about:
   id: person-profile

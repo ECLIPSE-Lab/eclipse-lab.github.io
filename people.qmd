@@ -7,7 +7,7 @@ listing:
     type: grid
     image-height: 225px
     grid-columns: 3
-    fields: [image, title, subtitle]
+    fields: [image, title, subtitle, interests]
     grid-item-align: center
     sort: sortby
     field-display-names: 
