@@ -78,7 +78,7 @@ format:
     css: styles.css
     toc: true
     header-includes:
-      - <link rel="canonical" href="https://pelzlab.science{{ page_url }}">
+
       - <meta property="og:site_name" content="ECLIPSE Lab">
       - <meta property="og:type" content="website">
       - <meta name="twitter:card" content="summary_large_image">
