@@ -117,16 +117,18 @@ This is particularly relevant for partners who want more robust acquisition, sca
 ### Current Funding
 
 | | Project / Grant | Role | Period |
-|:---:|:---|:---|:---| 
-| <img src="https://www.bacatec.de/files/theme/images/bacatec-logo-on-white-4.svg" height="80"> | [*BacaTec FAU-Stanford Collaboration*](https://www.bacatec.de/en/) | **Pelz** (PI) | 01/2026 - 12/2027 |
-| <img src="https://www.grk3103.forschung.fau.de/files/2025/10/cropped-CorMic_Logo_v2-scaled-1.jpg" height="80"> | [*CorMic Graduate School*<br>DFG Graduate School Correlative Materials Microscopy](https://www.grk3103.forschung.fau.de/) | **Pelz** (Co-PI) | 04/2026 - 03/2031 |
-| <img src="https://i0.wp.com/www.ensure.polimi.it/wp-content/uploads/2016/09/cropped-ERC-logo-1.png" height="80"> | *[HyperScaleEM: Revealing 3D Atomic Structure and Chemistry in Scale-Bridging Volumes via 5D Hyperspectral Electron Tomography](https://www.pelzlab.science/hyperscale.html)*<br>ERC Starting grant | **Pelz** (PI) | 02/2025 - 01/2030 |
+|:---:|:---|:---|:---|
+| <img src="img/funding-logos/bacatec.svg" height="80"> | [*BacaTec FAU-Stanford Collaboration*](https://www.bacatec.de/en/) | **Pelz** (PI) | 01/2026 – 12/2027 |
+| <img src="img/funding-logos/cormic.jpg" height="80"> | [*CorMic Graduate School*<br>DFG Graduate School Correlative Materials Microscopy](https://www.grk3103.forschung.fau.de/) | **Pelz** (Co-PI) | 04/2026 – 03/2031 |
+| <img src="img/funding-logos/erc.png" height="80"> | *[HyperScaleEM: Revealing 3D Atomic Structure and Chemistry in Scale-Bridging Volumes via 5D Hyperspectral Electron Tomography](https://www.pelzlab.science/hyperscale.html)*<br>ERC Starting grant | **Pelz** (PI) | 02/2025 – 01/2030 |
 
 ### Completed Funding
 
 | | Project / Grant | Role | Period |
 |:---:|:---|:---|:---|
-| <img src="https://www.eam.fau.eu/files/2024/05/cropped-EAM_CC-2048x779-1.png" height="40"> | *[ScatterEM: Utilizing scattering to enhance throughput and sensitivity in electron microscopy](https://www.pelzlab.science/scatter.html)*<br>EAM Starting grant | **Pelz** (PI) | 01/2023 - 12/2024 |
+| <img src="img/funding-logos/eam.png" height="40"> | *[ScatterEM: Utilizing scattering to enhance throughput and sensitivity in electron microscopy](https://www.pelzlab.science/ScatterEM/)<br>EAM Starting grant | **Pelz** (PI) | 01/2023 – 12/2024 |
+
+\* *ScatterEM project page coming soon*
 
 ## Research Methodology
 
