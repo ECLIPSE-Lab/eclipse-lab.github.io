@@ -78,31 +78,37 @@ description: "Meet the ECLIPSE Lab team at FAU Erlangen-Nürnberg — researcher
 ```
 
 
-## Research Staff
+## Jump to
+
+[Research Staff](#research-staff) · [MSc Students](#msc-students) · [Research Assistants](#research-assistants) · [BSc Students](#bsc-students) · [Admin Assistants](#admin-assistants) · [Alumni](#alumni)
+
+---
+
+## Research Staff {#research-staff}
 
 :::{#research-staff}
 :::
 
-## MSc Students
+## MSc Students {#msc-students}
 
 :::{#msc_students}
 :::
 
-## Research Assistants
+## Research Assistants {#research-assistants}
 
 :::{#research-assistants}
 :::
 
-## BSc Students
+## BSc Students {#bsc-students}
 
 :::{#bsc_students}
 :::
 
-## Administrative Assistants
+## Administrative Assistants {#admin-assistants}
 :::{#admin-assistants}
 :::
 
-## Alumni
+## Alumni {#alumni}
 
 :::{#alumni}
 :::

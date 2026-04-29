@@ -320,33 +320,191 @@ The ECLIPSE Lab teaches undergraduate and graduate courses in materials science 
 
 ## Winter Semester 2024
 
-[Lecture Materials & Structure (MAP): Fr 10:15h - 11:45h Seminar Room 0.68 WW building](https://www.studon.fau.de/studon)
+:::: {.columns}
 
-[Lecture Data Science for Electron Microscopy: Fr 8:30h - 10h IZNF Rm 01.160](https://pelzlab.science/DataScienceForElectronMicroscopy/)
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Materials & <br>Structure (MAP)</div>
+  <div class="lecture-meta">
+    🗓️ Fri 10:15h – 11:45h<br>
+    📍 Seminar Room 0.68 WW building
+  </div>
+  <a href="https://www.studon.fau.de/studon" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
 
-[Seminar Machine Learning for Microscopy: Wed 8:30h - 10:00h IZNF Rm 01.140](https://www.studon.fau.de/campo/course/421966)
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#2d1b4e 0%,#1a1030 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Data Science for <br>Electron Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Fri 8:30h – 10:00h<br>
+    📍 IZNF Rm 01.160
+  </div>
+  <a href="https://pelzlab.science/DataScienceForElectronMicroscopy/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
+</div>
+```
+:::
+
+::: {.column .lecture-card style="width: 34%; background: linear-gradient(135deg,#1b4a3a 0%,#0d2820 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Machine Learning <br>for Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Wed 8:30h – 10:00h<br>
+    📍 IZNF Rm 01.140
+  </div>
+  <a href="https://www.studon.fau.de/campo/course/421966" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
+
+::::
 
 ## Summer Semester 2024
 
-[Lecture Materials & Structure (BSc Clean Energy Processes): Thu 10:15h - 11:45h](https://www.studon.fau.de/studon/goto.php?target=crs_5609585&client_id=StudOn)
+:::: {.columns}
 
-[Lecture Data Science for Electron Microscopy: Wed 10:15h - 11:45h IZNF Rm 01.160](https://www.studon.fau.de/campo/course/421992)
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Materials & Structure <br>(BSc Clean Energy)</div>
+  <div class="lecture-meta">
+    🗓️ Thu 10:15h – 11:45h<br>
+    📍 FAU
+  </div>
+  <a href="https://www.studon.fau.de/studon/goto.php?target=crs_5609585&client_id=StudOn" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
 
-[Seminar Machine Learning for Microscopy: Wed 8:30h - 10:00h IZNF Rm 01.160](https://www.studon.fau.de/campo/course/421966)
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#2d1b4e 0%,#1a1030 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Data Science for <br>Electron Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Wed 10:15h – 11:45h<br>
+    📍 IZNF Rm 01.160
+  </div>
+  <a href="https://www.studon.fau.de/campo/course/421992" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
+
+::: {.column .lecture-card style="width: 34%; background: linear-gradient(135deg,#1b4a3a 0%,#0d2820 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Machine Learning <br>for Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Wed 8:30h – 10:00h<br>
+    📍 IZNF Rm 01.160
+  </div>
+  <a href="https://www.studon.fau.de/campo/course/421966" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
+
+::::
 
 ## Winter Semester 2023
 
-[Lecture Materials & Structure](https://www.studon.fau.de/crs5223702_join.html)
+:::: {.columns}
 
-[Lecture Data Science for Electron Microscopy: Tue 8:30h - 10:00h IZNF Rm 01.160](https://www.studon.fau.de/campo/course/401180)
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Materials & <br>Structure</div>
+  <div class="lecture-meta">
+    🗓️ Check Studon for schedule
+  </div>
+  <a href="https://www.studon.fau.de/crs5223702_join.html" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
 
-[Seminar Machine Learning for Microscopy: Thu 8:30h - 10:00h IZNF Rm 01.160](https://www.studon.fau.de/campo/course/401181)
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#2d1b4e 0%,#1a1030 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Data Science for <br>Electron Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Tue 8:30h – 10:00h<br>
+    📍 IZNF Rm 01.160
+  </div>
+  <a href="https://www.studon.fau.de/campo/course/401180" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
+
+::: {.column .lecture-card style="width: 34%; background: linear-gradient(135deg,#1b4a3a 0%,#0d2820 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Machine Learning <br>for Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Thu 8:30h – 10:00h<br>
+    📍 IZNF Rm 01.160
+  </div>
+  <a href="https://www.studon.fau.de/campo/course/401181" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
+
+::::
 
 ## Summer Semester 2023
 
-Lecture Materials & Structure
+:::: {.columns}
 
-Lecture Data Science for Electron Microscopy
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Materials & <br>Structure</div>
+  <div class="lecture-meta">
+    🗓️ Check Studon for schedule
+  </div>
+  <a href="https://www.studon.fau.de/studon" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
 
-Seminar Machine Leanring for Microscopy
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#2d1b4e 0%,#1a1030 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Data Science for <br>Electron Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Check Studon for schedule
+  </div>
+  <a href="https://pelzlab.science/DataScienceForElectronMicroscopy/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
+</div>
+```
+:::
+
+::: {.column .lecture-card style="width: 34%; background: linear-gradient(135deg,#1b4a3a 0%,#0d2820 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Machine Learning <br>for Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Check Studon for schedule
+  </div>
+  <a href="https://www.studon.fau.de/studon" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
+
+::::
+
+
 
