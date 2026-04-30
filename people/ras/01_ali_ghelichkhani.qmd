@@ -1,8 +1,8 @@
 ---
-title: "Ali Ghelichkani"
+title: "Ali Ghelichkhani"
 sortby: "1"
 subtitle: "Research Assistant"
-image: placeholder.png
+image: ali.jpg
 started: "2026"
 interests: "Machine Learning · Materials Informatics · MD Simulations"
 toc: false
@@ -30,8 +30,7 @@ about:
 
 - Machine Learning & Deep Learning
 - Materials Informatics & AI-driven Discovery
-- Computational Materials Science
-- Molecular Dynamics (MD) Simulations
+- Computational Materials Science & Microscopy
 
 ## Education
 
@@ -42,11 +41,6 @@ about:
 ## Work Experience
 
 - **AI Software Engineer** · Nobitex, Tehran, Iran (Sep 2021 - Sep 2025)
-  - Developed a blockchain analysis system to identify suspicious nodes, enhancing security protocols.
-  - Designed and implemented a RAG-based chatbot using a self-fine-tuned LLM, significantly reducing response time for the Customer Support Team.
-  - Built comprehensive ERP and operation monitoring panels to streamline transaction tracking.
-- **Data Science Intern** · Lotus Adli Ferroalloy, Hamedan, Iran (Jun 2023 - Sep 2023)
-  - Collaborated on developing an AI optimizer system utilizing Physics-Informed Neural Networks (PINNs) and Reinforcement Learning to reduce electricity consumption and optimize product purity (R&D Phase).
 
 ## Research Experience
 
