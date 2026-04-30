@@ -2,7 +2,7 @@
 title: "Ali Ghelichkani"
 sortby: "1"
 subtitle: "Research Assistant"
-image: ../staff/placeholder.png
+image: placeholder.png
 started: "2026"
 interests: "Machine Learning · Materials Informatics · MD Simulations"
 toc: false

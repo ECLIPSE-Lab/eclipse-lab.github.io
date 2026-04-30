@@ -1,14 +1,14 @@
 ---
-title: "Bardia Nasiri Sharaf"
-sortby: "2"
-subtitle: "MSc Student"
-image: placeholder.png
+title: "Yan Mei"
+sortby: "7"
+subtitle: "Doctoral Researcher"
+image: yan.jpg
 started: "2026"
+interests: ""
 toc: false
 about:
   id: person-profile
   template: jolla
-
 ---
 
 ```{=html}
@@ -16,7 +16,7 @@ about:
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
     <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
-    <li class="breadcrumb-item active">MSc Students</li>
+    <li class="breadcrumb-item active">PhD Students</li>
     <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
   </ol>
 </nav>
@@ -24,3 +24,7 @@ about:
 
 :::{#person-profile}
 :::
+
+## Background
+
+Yan Mei is a doctoral researcher in the CorMic graduate school, co-supervised with Prof. Luca Ghiringhelli (KIT).

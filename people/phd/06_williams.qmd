@@ -4,7 +4,7 @@
 title: "Umah Chukwudi Williams"
 sortby: "1"
 subtitle: "Doctoral Researcher"
-image: williams.jpeg
+image: williams.jpg
 started: "Jul 2025"
 toc: false
 about:

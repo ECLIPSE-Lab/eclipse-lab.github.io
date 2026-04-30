@@ -58,6 +58,14 @@ listing:
     sort: sortby
     fields: [image, title, subtitle, started]
     grid-item-align: center
+  - id: honorary-members
+    contents: "people/honorary/*.qmd"
+    type: grid
+    image-height: 225px
+    grid-columns: 3
+    sort: sortby
+    fields: [image, title, subtitle, started]
+    grid-item-align: center
   - id: alumni
     contents: "people/alumni/*.qmd"
     type: table
@@ -86,7 +94,7 @@ description: "Meet the ECLIPSE Lab team at FAU Erlangen-Nürnberg — researcher
 
 ## Jump to
 
-[Principal Investigator](#principal-investigator) · [Postdocs](#postdocs) · [PhD Students](#phd-students) · [MSc Students](#msc-students) · [Research Assistants](#research-assistants) · [BSc Students](#bsc-students) · [Admin Assistants](#admin-assistants) · [Alumni](#alumni)
+[Principal Investigator](#principal-investigator) · [Postdocs](#postdocs) · [PhD Students](#phd-students) · [MSc Students](#msc-students) · [Research Assistants](#research-assistants) · [BSc Students](#bsc-students) · [Admin Assistants](#admin-assistants) · [Honorary Members](#honorary-members) · [Alumni](#alumni)
 
 ---
 
@@ -115,6 +123,10 @@ description: "Meet the ECLIPSE Lab team at FAU Erlangen-Nürnberg — researcher
 :::{#research-assistants}
 :::
 
+## Honorary Members {#honorary-members}
+:::{#honorary-members}
+:::
+
 ## BSc Students {#bsc-students}
 
 Currently no BSc students are listed.
@@ -122,6 +134,8 @@ Currently no BSc students are listed.
 ## Administrative Assistants {#admin-assistants}
 :::{#admin-assistants}
 :::
+
+
 
 ## Alumni {#alumni}
 

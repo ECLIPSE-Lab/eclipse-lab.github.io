@@ -2,7 +2,7 @@
 title: "Mohsen Moazam"
 sortby: "3"
 subtitle: "MSc Student"
-image: ../staff/placeholder.png
+image: placeholder.png
 started: "2026"
 toc: false
 about:
