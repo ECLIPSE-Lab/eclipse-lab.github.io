@@ -396,7 +396,7 @@
     "href": "teaching.html#winter-semester-20252026",
     "title": "ECLIPSE Lab",
     "section": "Winter Semester 2025/2026",
-    "text": "Winter Semester 2025/2026\n\n\n\n\n  Materials & Structure (MAP)\n  \n    🗓️ Fri 10:15h - 11:45h\n    📍 H10\n  \n  Studon\n\n\n\n\n  Data Science for Electron Microscopy\n  \n    🗓️ Fri 12:15h - 13:45h\n    📍 IZNF Rm 01.160\n  \n  Website\n\n\n\n\n  Machine Learning for Microscopy\n  \n    🗓️ Fri 14:15h - 15:45h\n    📍 IZNF Rm 01.160\n  \n  Website"
+    "text": "Winter Semester 2025/2026\n\n\n\n\n  Materials & Structure (MAP)\n  \n    🗓️ Tue 12:00h - 13:30h \n    📍 H14 Cauerstr. 3\n  \n  Studon\n\n\n\n\n  Basics of Microscopy\n  \n    🗓️ Wed 12:00h - 13:30h \n    📍 H15 Cauerstr. 3\n  \n  Studon\n\n\n\n\n  Mathematical Foundations of AI/ML\n  \n    🗓️ Mon 10:15h - 11:45h\n    📍 Rm 01.156 IZNF\n  \n  Studon"
   },
   {
     "objectID": "teaching.html#summer-semester-2025",
@@ -508,28 +508,28 @@
     "href": "people.html#research-staff",
     "title": "ECLIPSE Lab",
     "section": "Research Staff",
-    "text": "Research Staff\n\n\n\n\n\n\n\n\n\n\nPhilipp Pelz\n\n\nPrincipal Investigator\n\n\n\n\n\n\n\n\n\n\n\n\nShengbo You\n\n\nPostdoc\n\n\n\n\n\n\n\n\n\n\n\n\nUmah Chukwudi Williams\n\n\nDoctoral Researcher\n\n\n\n\n\n\n\n\n\n\n\n\nNikita Palatkin\n\n\nDoctoral Researcher\n\n\n\n\n\n\n\n\n\n\n\n\nSihan Shao\n\n\nDoctoral Researcher\n\n\n\n\n\n\n\n\n\n\n\n\nSebastian Kruber\n\n\nPostdoc\n\n\n\n\n\nNo matching items"
+    "text": "Research Staff\n\n\n\n\n\n\n\n\n\n\nPhilipp Pelz\n\n\nPrincipal Investigator\n\n\n\n\n\ninterests\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShengbo You\n\n\nPostdoc\n\n\n\n\n\ninterests\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUmah Chukwudi Williams\n\n\nDoctoral Researcher\n\n\n\n\n\ninterests\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNikita Palatkin\n\n\nDoctoral Researcher\n\n\n\n\n\ninterests\n\n\n4D-STEM · Ptychography · Physics-informed neural networks\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSihan Shao\n\n\nDoctoral Researcher\n\n\n\n\n\ninterests\n\n\nComputational imaging · Tomography · Ptychography\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSebastian Kruber\n\n\nPostdoc\n\n\n\n\n\ninterests\n\n\n4D-STEM · Computational reconstruction · ML for EM\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people.html#msc-students",
     "href": "people.html#msc-students",
     "title": "ECLIPSE Lab",
     "section": "MSc Students",
-    "text": "MSc Students\n\n\n\n\nNo matching items"
+    "text": "MSc Students\n\n\n\n\n\n\n\n\n\n\nHuseyn Shahuseynov\n\n\nMSc Student\n\n\n\n\n\nStarted\n\n\n2026\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people.html#research-assistants",
     "href": "people.html#research-assistants",
     "title": "ECLIPSE Lab",
     "section": "Research Assistants",
-    "text": "Research Assistants\n\n\n\n\nNo matching items"
+    "text": "Research Assistants\nCurrently no research assistants are listed."
   },
   {
     "objectID": "people.html#bsc-students",
     "href": "people.html#bsc-students",
     "title": "ECLIPSE Lab",
     "section": "BSc Students",
-    "text": "BSc Students\n\n\n\n\nNo matching items"
+    "text": "BSc Students\nCurrently no BSc students are listed."
   },
   {
     "objectID": "people.html#administrative-assistants",
@@ -1475,5 +1475,19 @@
     "title": "Multi-slice electron ptychographic tomography for three-dimensional phase-contrast microscopy beyond the depth of focus limits",
     "section": "Abstract",
     "text": "Abstract\nElectron ptychography is a powerful computational method for atomic-resolution imaging with high contrast for weakly and strongly scattering elements. Modern algorithms coupled with fast and efficient detectors allow imaging specimens with tens of nanometers thicknesses with sub-0.5 Ångstrom lateral resolution. However, the axial resolution in these approaches is currently limited to a few nanometers, limiting their ability to solve novel atomic structures ab initio. Here, we experimentally demonstrate multi-slice ptychographic electron tomography, which allows atomic resolution three-dimensional phase-contrast imaging in a volume surpassing the depth of field limits. We reconstruct tilt-series 4D-STEM measurements of a       Co 3   O 4      nanocube, yielding 2 Å axial and 0.7 Å transverse resolution in a reconstructed volume of      ( 18.2  nm  ) 3     . Our results demonstrate a 13.5-fold improvement in axial resolution compared to multi-slice ptychography while retaining the atomic lateral resolution and the capability to image volumes beyond the depth of field limit. Multi-slice ptychographic electron tomography significantly expands the volume of materials accessible using high-resolution electron microscopy. We discuss further experimental and algorithmic improvements necessary to also resolve single weakly scattering atoms in 3D."
+  },
+  {
+    "objectID": "people.html#jump-to",
+    "href": "people.html#jump-to",
+    "title": "ECLIPSE Lab",
+    "section": "Jump to",
+    "text": "Jump to\nResearch Staff · MSc Students · Research Assistants · BSc Students · Admin Assistants · Alumni"
+  },
+  {
+    "objectID": "people.html#admin-assistants",
+    "href": "people.html#admin-assistants",
+    "title": "ECLIPSE Lab",
+    "section": "Administrative Assistants",
+    "text": "Administrative Assistants\n\n\n\n\n\n\n\n\n\n\nBirke Kohlheim\n\n\nSecretary\n\n\n\n\n\nstarted\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYesim Tosun\n\n\nSecretary\n\n\n\n\n\nstarted\n\n\n \n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

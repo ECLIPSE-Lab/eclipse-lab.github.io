@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,9 +10,6 @@
 
 <title>Teaching – ECLIPSE Lab</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -37,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="./favicon-32x32.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4e034b227438ee090b00361cc574afe6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-993060eb52d6357dd8d07fd1253316a2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -120,13 +118,14 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
         "timeRequired": "PT2H30M",
         "hasCourseInstance": {
           "@type": "CourseInstance",
+          "courseMode": "face-to-face",
           "courseSchedule": {
             "@type": "Schedule",
-            "recurrentSchedule": {
-              "@type": "RailwaySchedule",
-              "departureTime": "16:15–17:45",
-              "daysOfWeek": "Tuesday"
-            }
+            "byDay": ["Tuesday"],
+            "startTime": "16:15",
+            "endTime": "17:45",
+            "duration": "PT1H30M",
+            "repeatFrequency": "P1W"
           }
         }
       }
@@ -160,13 +159,14 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
         "timeRequired": "PT2H30M",
         "hasCourseInstance": {
           "@type": "CourseInstance",
+          "courseMode": "face-to-face",
           "courseSchedule": {
             "@type": "Schedule",
-            "recurrentSchedule": {
-              "@type": "RailwaySchedule",
-              "departureTime": "14:15–15:45",
-              "daysOfWeek": "Tuesday"
-            }
+            "byDay": ["Tuesday"],
+            "startTime": "14:15",
+            "endTime": "15:45",
+            "duration": "PT1H30M",
+            "repeatFrequency": "P1W"
           }
         }
       }
@@ -200,13 +200,14 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
         "timeRequired": "PT2H30M",
         "hasCourseInstance": {
           "@type": "CourseInstance",
+          "courseMode": "face-to-face",
           "courseSchedule": {
             "@type": "Schedule",
-            "recurrentSchedule": {
-              "@type": "RailwaySchedule",
-              "departureTime": "10:15–11:45",
-              "daysOfWeek": "Monday"
-            }
+            "byDay": ["Monday"],
+            "startTime": "10:15",
+            "endTime": "11:45",
+            "duration": "PT1H30M",
+            "repeatFrequency": "P1W"
           }
         }
       }
@@ -367,103 +368,33 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 <div class="lecture-card-body">
   <div class="lecture-title">Materials &amp; <br>Structure (MAP)</div>
   <div class="lecture-meta">
-    🗓️ Fri 10:15h - 11:45h<br>
-    📍 H10
+    🗓️ Tue 12:00h - 13:30h <br>
+    📍 H14 Cauerstr. 3
   </div>
-  <a href="https://www.studon.fau.de/studon" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+  <a href="https://www.studon.fau.de/campo/course/491742" class="btn btn-secondary lecture-link" style="margin-bottom: 0.5rem; align-self: flex-start;">Studon</a>
 </div>
-</div><div class="column lecture-card" style="width: 33%; background: linear-gradient(135deg,#2d1b4e 0%,#1a1030 100%);">
+</div><div class="column lecture-card" style="width: 33%; background-image: url('img/lecturecard_BM.png');">
 <div class="lecture-card-overlay"></div>
 <div class="lecture-card-body">
-  <div class="lecture-title">Data Science for <br>Electron Microscopy</div>
+  <div class="lecture-title">Basics of Microscopy</div>
   <div class="lecture-meta">
-    🗓️ Fri 12:15h - 13:45h<br>
-    📍 IZNF Rm 01.160
+    🗓️ Wed 12:00h - 13:30h <br>
+    📍 H15 Cauerstr. 3
   </div>
-  <a href="https://pelzlab.science/DataScienceForElectronMicroscopy/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
+  <a href="https://www.studon.fau.de/campo/course/496234" class="btn btn-secondary lecture-link" style="margin-bottom: 0.5rem; align-self: flex-start;">Studon</a>
 </div>
-</div><div class="column lecture-card" style="width: 34%; background: linear-gradient(135deg,#1b4a3a 0%,#0d2820 100%);">
+</div><div class="column lecture-card" style="width: 33%; background-image: url('img/lecturecard_MF-AIML.jpg');">
 <div class="lecture-card-overlay"></div>
 <div class="lecture-card-body">
-  <div class="lecture-title">Machine Learning <br>for Microscopy</div>
+  <div class="lecture-title">Mathematical Foundations of AI/ML</div>
   <div class="lecture-meta">
-    🗓️ Fri 14:15h - 15:45h<br>
-    📍 IZNF Rm 01.160
+    🗓️ Mon 10:15h - 11:45h<br>
+    📍 Rm 01.156 IZNF
   </div>
-  <a href="https://pelzlab.science/MachineLearningForMicroscopy/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
+  <a href="https://www.studon.fau.de/campo/course/496690" class="btn btn-secondary lecture-link" style="align-self: flex-start;">Studon</a>
 </div>
 </div>
 </div>
-</section>
-<section id="summer-semester-2025" class="level2">
-<h2 class="anchored" data-anchor-id="summer-semester-2025">Summer Semester 2025</h2>
-<div class="columns">
-<div class="column lecture-card" style="width: 50%; background: linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);">
-<div class="lecture-card-overlay"></div>
-<div class="lecture-card-body">
-  <div class="lecture-title">Materials &amp; Structure <br>(Clean Energy)</div>
-  <div class="lecture-meta">
-    🗓️ Tue 10:15h - 11:45h<br>
-    📍 0.68 WW building
-  </div>
-  <a href="https://www.studon.fau.de/studon" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
-</div>
-</div><div class="column lecture-card" style="width: 50%; background: linear-gradient(135deg,#2d1b4e 0%,#1a1030 100%);">
-<div class="lecture-card-overlay"></div>
-<div class="lecture-card-body">
-  <div class="lecture-title">Data Science for <br>Electron Microscopy</div>
-  <div class="lecture-meta">
-    🗓️ Tue 16:15h - 17:45h<br>
-    📍 IZNF Rm 01.160
-  </div>
-  <a href="https://pelzlab.science/DataScienceForElectronMicroscopy/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
-</div>
-</div><div class="column lecture-card" style="width: 50%; background: linear-gradient(135deg,#1b4a3a 0%,#0d2820 100%);">
-<div class="lecture-card-overlay"></div>
-<div class="lecture-card-body">
-  <div class="lecture-title">Machine Learning <br>for Microscopy</div>
-  <div class="lecture-meta">
-    🗓️ Thu 16:15h - 17:45h<br>
-    📍 IZNF Rm 01.160
-  </div>
-  <a href="https://pelzlab.science/MachineLearningForMicroscopy/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
-</div>
-</div><div class="column lecture-card" style="width: 50%; background: linear-gradient(135deg,#3a2d1b 0%,#201510 100%);">
-<div class="lecture-card-overlay"></div>
-<div class="lecture-card-body">
-  <div class="lecture-title">Materials &amp; Structure <br>Seminar</div>
-  <div class="lecture-meta">
-    🗓️ Thu 16:15h - 17:45h<br>
-    📍 0.68 WW building
-  </div>
-  <a href="https://pelzlab.science/MaterialsAndStructureSeminar/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
-</div>
-</div>
-</div>
-</section>
-<section id="winter-semester-2024" class="level2">
-<h2 class="anchored" data-anchor-id="winter-semester-2024">Winter Semester 2024</h2>
-<p><a href="https://www.studon.fau.de/studon">Lecture Materials &amp; Structure (MAP): Fr 10:15h - 11:45h Seminar Room 0.68 WW building</a></p>
-<p><a href="https://pelzlab.science/DataScienceForElectronMicroscopy/">Lecture Data Science for Electron Microscopy: Fr 8:30h - 10h IZNF Rm 01.160</a></p>
-<p><a href="https://www.studon.fau.de/campo/course/421966">Seminar Machine Learning for Microscopy: Wed 8:30h - 10:00h IZNF Rm 01.140</a></p>
-</section>
-<section id="summer-semester-2024" class="level2">
-<h2 class="anchored" data-anchor-id="summer-semester-2024">Summer Semester 2024</h2>
-<p><a href="https://www.studon.fau.de/studon/goto.php?target=crs_5609585&amp;client_id=StudOn">Lecture Materials &amp; Structure (BSc Clean Energy Processes): Thu 10:15h - 11:45h</a></p>
-<p><a href="https://www.studon.fau.de/campo/course/421992">Lecture Data Science for Electron Microscopy: Wed 10:15h - 11:45h IZNF Rm 01.160</a></p>
-<p><a href="https://www.studon.fau.de/campo/course/421966">Seminar Machine Learning for Microscopy: Wed 8:30h - 10:00h IZNF Rm 01.160</a></p>
-</section>
-<section id="winter-semester-2023" class="level2">
-<h2 class="anchored" data-anchor-id="winter-semester-2023">Winter Semester 2023</h2>
-<p><a href="https://www.studon.fau.de/crs5223702_join.html">Lecture Materials &amp; Structure</a></p>
-<p><a href="https://www.studon.fau.de/campo/course/401180">Lecture Data Science for Electron Microscopy: Tue 8:30h - 10:00h IZNF Rm 01.160</a></p>
-<p><a href="https://www.studon.fau.de/campo/course/401181">Seminar Machine Learning for Microscopy: Thu 8:30h - 10:00h IZNF Rm 01.160</a></p>
-</section>
-<section id="summer-semester-2023" class="level2">
-<h2 class="anchored" data-anchor-id="summer-semester-2023">Summer Semester 2023</h2>
-<p>Lecture Materials &amp; Structure</p>
-<p>Lecture Data Science for Electron Microscopy</p>
-<p>Seminar Machine Leanring for Microscopy</p>
 
 
 </section>

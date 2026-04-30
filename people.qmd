@@ -12,28 +12,8 @@ listing:
     sort: sortby
     field-display-names: 
       started: "Started"
-  - id: bsc_students
-    contents: "people/bsc/*.qmd"
-    type: grid
-    image-height: 225px
-    grid-columns: 3
-    sort: sortby
-    fields: [image, title, subtitle, started]
-    field-display-names: 
-      started: "Started"
-    grid-item-align: center
   - id: msc_students
     contents: "people/msc/*.qmd"
-    type: grid
-    image-height: 225px
-    grid-columns: 3
-    sort: sortby
-    fields: [image, title, subtitle, started]
-    field-display-names: 
-      started: "Started"
-    grid-item-align: center
-  - id: research-assistants
-    contents: "people/ras/*.qmd"
     type: grid
     image-height: 225px
     grid-columns: 3
@@ -49,8 +29,6 @@ listing:
     grid-columns: 3
     sort: sortby
     fields: [image, title, subtitle, started]
-    # field-display-names: 
-      # started: "Started"
     grid-item-align: center
   - id: alumni
     contents: "people/alumni/*.qmd"
@@ -96,13 +74,11 @@ description: "Meet the ECLIPSE Lab team at FAU Erlangen-Nürnberg — researcher
 
 ## Research Assistants {#research-assistants}
 
-:::{#research-assistants}
-:::
+Currently no research assistants are listed.
 
 ## BSc Students {#bsc-students}
 
-:::{#bsc_students}
-:::
+Currently no BSc students are listed.
 
 ## Administrative Assistants {#admin-assistants}
 :::{#admin-assistants}
