@@ -111,7 +111,6 @@ toc: false
 **Prospective students, postdocs, and researchers** — find open positions, funding routes, and application guidance.
 
 [See opportunities](opportunities.qmd){.btn .btn-primary}
-[Contact us](contact.qmd){.btn .btn-outline-secondary}
 :::
 
 ::: {.column width="33%"}
@@ -242,8 +241,7 @@ See our research directions and how we work with partners.
 - Method development and software
 - Access to instrumentation and expertise
 
-[See research themes](research.qmd){.btn .btn-primary .me-1 title="Overview of our research directions and capabilities"}
-[Browse resources](resources.qmd){.btn .btn-outline-secondary title="Software, datasets, and practical information for collaborators"}
+[See research themes](research.qmd){.btn .btn-primary .me-1 title="Overview of our research directions and capabilities"} 
 :::
 
 ::: {.column width="34%"} 
