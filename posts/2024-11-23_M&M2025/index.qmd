@@ -7,6 +7,7 @@ image: mandm.png
 draft: false
 categories:
   - announcement 
+  - conference
 ---
 
 The M&M 2025 meeting will be hosted in SaltLake City from July 20-25.

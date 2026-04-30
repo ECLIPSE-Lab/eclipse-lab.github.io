@@ -230,28 +230,69 @@ h6,
 }
 
 /* Milestone cards for research page */
+.columns.milestones > .column {
+  width: 25% !important;
+}
+
+@media (max-width: 768px) {
+  .columns.milestones > .column {
+    width: 100% !important;
+  }
+}
+
 .milestone-card {
-  border: 1px solid rgba(59, 130, 246, 0.2);
+  position: relative;
+  overflow: hidden;
+  border: none !important;
+  padding: 0 !important;
   border-radius: 12px;
-  padding: 1rem 1.2rem;
-  background: rgba(20, 30, 60, 0.6);
-  backdrop-filter: blur(6px);
-  height: 100%;
-  min-height: 120px;
+  background: linear-gradient(135deg, #1a3a5c 0%, #0d2137 100%) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-height: 220px;
+  display: flex !important;
+  flex-direction: column;
 }
 
-.milestone-card p {
-  color: #e2e8f0;
-  font-size: 0.82rem;
-  line-height: 1.4;
-  margin: 0;
+.milestone-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.milestone-card strong {
+.milestone-card-body {
+  padding: 1.25rem;
+  z-index: 3;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-decoration: none;
+}
+
+a.milestone-card-body:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.milestone-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+  color: white;
+  line-height: 1.2;
+}
+
+.milestone-venue {
+  font-size: 0.85rem;
+  font-weight: 400;
   color: #93c5fd;
-  font-size: 0.78rem;
-  display: block;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.6rem;
+}
+
+.milestone-meta {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.85rem;
+  line-height: 1.5;
 }
 
 

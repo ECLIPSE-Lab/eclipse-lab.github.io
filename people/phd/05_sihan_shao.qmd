@@ -1,0 +1,67 @@
+---
+title: "Sihan Shao"
+sortby: "3"
+subtitle: "Doctoral Researcher"
+image: sihan.jpg
+started: "2025"
+interests: "Computational imaging · Tomography · Ptychography"
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:sh.shao@outlook.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/sihan-shao
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/sihan-shao-046b50265/
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">PhD Students</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Research Interests
+
+- Computational imaging in X-ray and electron microscopy
+- Tomography and ptychography
+- Machine learning for microscopy
+- Optimization methods for imaging
+
+## Background
+
+Sihan is a doctoral researcher in the ECLIPSE Lab, supervised by Prof. Philipp Pelz. His research focuses on computational imaging in X-ray and electron microscopy, particularly in tomography and ptychography.
+
+## Education
+
+- **2025 – present:** Ph.D. in Computational Microscopy, FAU Erlangen-Nürnberg, Germany
+- **2022 – 2024:** M.Sc. in Electronics and Nanotechnology (major) & Machine Learning (minor), Aalto University, Finland
+- **2018 – 2022:** B.Sc. in Opto-Electronics Information Science and Engineering, CUST, China
+
+## Publications & Projects
+
+- **Rim-Integrated Bluetooth Antenna for Smart Watches with Full-Metallic Structure**  
+  A. Kourani, S. Shao et al. — *EuCAP 2025*  
+  [code](https://github.com/sihan-shao/EuCAP2025)
+
+- **Neural Dispersive Hologram for Computational Submillimeter-wave Imaging**  
+  Master's thesis, 2024 — developed multi-wavelength wave propagation simulation using PyTorch  
+  [code](https://version.aalto.fi/gitlab/shaos3/NeuralDispersiveHologram)
+
+- **Quantized THz Diffractive Optics Design via Automatic Differentiation**  
+  S. Shao, A. Tamminen, S. Pälli, S. Gamaethige, Z. Taylor — *IRMMW-THz 2024*
+

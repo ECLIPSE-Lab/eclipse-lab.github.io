@@ -1,0 +1,37 @@
+
+
+---
+title: "Umah Chukwudi Williams"
+sortby: "1"
+subtitle: "Doctoral Researcher"
+image: williams.jpeg
+started: "Jul 2025"
+toc: false
+about:
+  id: person-profile
+  template: jolla
+ 
+---
+ 
+```{=html}
+<nav aria-label="breadcrumb">
+<ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+<li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+<li class="breadcrumb-item active">PhD Students</li>
+<li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+</ol>
+</nav>
+```
+ 
+:::{#person-profile}
+:::
+ 
+## Research Interests
+computational imaging & microscopy, tomography, ptychography
+ 
+## Brief Bio
+ 
+Williams earned his MSc in Artificial Intelligence at Friedrich-Alexander-Universität Erlangen-Nürnberg in September 2025. His background spans computer vision, deep learning, reinforcement learning, and computational visual perception.
+ 
+## Experience

@@ -1,0 +1,58 @@
+---
+title: "Ali Ghelichkani"
+sortby: "1"
+subtitle: "Research Assistant"
+image: ../staff/placeholder.png
+started: "2026"
+interests: "Machine Learning · Materials Informatics · MD Simulations"
+toc: false
+about:
+  id: person-profile
+  template: jolla
+
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Research Assistants</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Research Interests
+
+- Machine Learning & Deep Learning
+- Materials Informatics & AI-driven Discovery
+- Computational Materials Science
+- Molecular Dynamics (MD) Simulations
+
+## Education
+
+- **Sharif University of Technology, Tehran, Iran**
+  - Bachelor of Science, Materials Science and Engineering (Sep 2019 - Jul 2024)
+  - Minor in Computer Science (Sep 2020 - Jul 2024)
+
+## Work Experience
+
+- **AI Software Engineer** · Nobitex, Tehran, Iran (Sep 2021 - Sep 2025)
+  - Developed a blockchain analysis system to identify suspicious nodes, enhancing security protocols.
+  - Designed and implemented a RAG-based chatbot using a self-fine-tuned LLM, significantly reducing response time for the Customer Support Team.
+  - Built comprehensive ERP and operation monitoring panels to streamline transaction tracking.
+- **Data Science Intern** · Lotus Adli Ferroalloy, Hamedan, Iran (Jun 2023 - Sep 2023)
+  - Collaborated on developing an AI optimizer system utilizing Physics-Informed Neural Networks (PINNs) and Reinforcement Learning to reduce electricity consumption and optimize product purity (R&D Phase).
+
+## Research Experience
+
+- **Research Assistant** · Sharif University of Technology (May 2022 - Jun 2023)
+  - Deep Learning in Structure Analysis of Bulk Metallic Glasses
+  - Supervisor: Dr. Rouhollah Tavakoli
+  - Developed a Neural Network to predict Voronoi indices of atoms in simulated Bulk Metallic Glass (BMG) samples.
+  - Combined Molecular Dynamics (MD) simulation data with Deep Learning models.
+

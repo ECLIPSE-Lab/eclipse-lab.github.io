@@ -22,34 +22,42 @@ Prefer a problem-first view? See [Research by Problem](research-by-problem.qmd).
 
 ## Key Milestones
 
-::: {.columns}
-
-::: {.column}
-::::: {.milestone-card}
-**2021** · ACS Nano
-Atomic-scale 3D structure of crystal defects and grain boundaries resolved by atomic electron tomography.
-:::::
+::: {.columns .milestones}
+ 
+::: {.column .milestone-card}
+```{=html}
+<a href="https://www.nature.com/articles/s41467-023-43634-z" target="_blank" class="milestone-card-body">
+  <div class="milestone-title">2023</div>
+  <div class="milestone-venue">Nat. Commun.</div>
+  <div class="milestone-meta">
+    First atomic-resolution 3D volume from 4D-STEM tomography 
+  </div>
+</a>
+```
 :::
 
-::: {.column}
-::::: {.milestone-card}
-**2023** · Nat. Commun.
-First atomic-resolution 3D volume from 4D-STEM tomography — breaking the depth-of-focus barrier.
-:::::
+::: {.column .milestone-card}
+```{=html}
+<a href="https://doi.org/10.1088/1402-4896/ad9a1a" target="_blank" class="milestone-card-body">
+  <div class="milestone-title">2024</div>
+  <div class="milestone-venue">Phys. Scripta</div>
+  <div class="milestone-meta">
+    Sub-Ångstrom end-to-end reconstruction - new 3D phase-contrast resolution record 
+  </div>
+</a>
+```
 :::
 
-::: {.column}
-::::: {.milestone-card}
-**2024** · Phys. Scripta
-Sub-Ångstrom end-to-end reconstruction reaching the information limit of the instrument.
-:::::
-:::
-
-::: {.column}
-::::: {.milestone-card}
-**2025** · arXiv:2512.19460
-Gap-free atomic 3D via fusion of tilt-corrected dark-field and direct ptychography.
-:::::
+::: {.column .milestone-card}
+```{=html}
+<a href="https://arxiv.org/abs/2512.19460" target="_blank" class="milestone-card-body">
+  <div class="milestone-title">2025</div>
+  <div class="milestone-venue">arXiv:2512.19460</div>
+  <div class="milestone-meta">
+    Gap-free atomic contrast transfer via fusion of dark-field and bright-field signals.
+  </div>
+</a>
+```
 :::
 
 :::
@@ -65,6 +73,7 @@ We develop 3D imaging methods based on 4D-STEM and related computational reconst
 Many important materials problems require 3D information at high resolution, but conventional workflows remain too slow, too dose-intensive, or too limited for weakly scattering structures.
 
 **Representative results**
+
 - [2023: first atomic-resolution 3D volume from 4D-STEM tomography](https://www.nature.com/articles/s41467-023-43634-z)
 - [2024: first atomic-resolution phase-contrast volume beyond the depth of focus limit](https://doi.org/10.1088/2515-7639/ad9ad2)
 - [2024: first end-to-end reconstruction reaching sub-Angstrom resolution](https://doi.org/10.1088/1402-4896/ad9a1a)
@@ -81,6 +90,7 @@ We develop fast simulators and model-based workflows for electron microscopy tha
 Simulation is essential for testing algorithms, understanding signal formation, and scaling new microscopy methods to realistic experiments.
 
 **Representative result**
+
 - [>100x faster simulations](https://academic.oup.com/mam/article/27/4/835/6888048)
 
 **Collaboration angle**  
@@ -132,7 +142,7 @@ This is particularly relevant for partners who want more robust acquisition, sca
 
 ## Research Methodology
 
-Physics-informed reconstruction is at the core of everything we do. We incorporate prior physical knowledge — from scattering physics and diffraction theory to spectral response characteristics — directly into the inverse problem formulation. This means our image reconstruction does not treat the microscope as a black box, but as a well-characterised physical system with known error modes, noise characteristics, and signal transfer functions. Combining complementary signal channels — including annular dark-field, ptychography, EELS, and EDS — lets us recover information that no single modality can capture alone, enabling truly gap-free 3D structure determination at atomic resolution.
+Physics-informed reconstruction is at the core of everything we do. We incorporate prior physical knowledge — from scattering physics and diffraction theory to spectral response characteristics — directly into the inverse problem formulation. This means our image reconstruction does not treat the microscope as a black box, but as a well-characterised physical system with known error modes, noise characteristics, and signal transfer functions. Combining complementary signal channels — including annular dark-field, ptychography, EELS, and EDS — lets us recover information that no single modality can capture alone.
 
 Modern machine learning tools are woven into our workflow at every stage. We use deep learning to accelerate expensive forward simulations, to robustify phase retrieval against experimental imperfections such as beam damage and sample drift, and to extract chemically meaningful features from high-dimensional 4D-STEM datasets. Importantly, we treat ML as a tool augmenting physics-based models rather than replacing them — our reconstructions remain interpretable and physically grounded.
 

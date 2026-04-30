@@ -7,6 +7,7 @@ image: IMC21-Header-Logo.png
 draft: false
 categories:
   - announcement  
+  - conference
 ---
 
 Philipp is giving an invited talk at the International Microscopy Conference (IMC21) in Liverpool, UK.

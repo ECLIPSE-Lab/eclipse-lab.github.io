@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.7.30">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,15 +36,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2b3e328b71be8d25427581baeb23079b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-993060eb52d6357dd8d07fd1253316a2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-7b1d373c3d02d9327e99467d9eeb588c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,20 +74,76 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-research-staff .list');
+    const listingTargetEl = window.document.querySelector('#listing-pi .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-interests',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-research-staff'] = new List('listing-research-staff', options);
+    window['quarto-listings']['listing-pi'] = new List('listing-pi', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-postdocs .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-postdocs'] = new List('listing-postdocs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-phd-students .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-phd-students'] = new List('listing-phd-students', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -117,6 +172,34 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-msc_students'] = new List('listing-msc_students', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-research-assistants .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-started',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-research-assistants'] = new List('listing-research-assistants', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -214,7 +297,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+      if (mathElements[i].tagName == "SPAN") {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -233,7 +316,7 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="People | ECLIPSE Lab">
 <meta property="og:description" content="Meet the ECLIPSE Lab team at FAU Erlangen-Nürnberg — researchers, PhD students, and alumni working on computational microscopy and electron imaging.">
-<meta property="og:image" content="https://pelzlab.science/people/staff/pelz_philipp.jpg">
+<meta property="og:image" content="https://pelzlab.science/people/pi/pelz_philipp.jpg">
 <meta property="og:site_name" content="ECLIPSE Lab">
 <meta name="twitter:title" content="People | ECLIPSE Lab">
 <meta name="twitter:description" content="Meet the ECLIPSE Lab team at FAU Erlangen-Nürnberg — researchers, PhD students, and alumni working on computational microscopy and electron imaging.">
@@ -252,8 +335,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="https://pelzlab.science" class="navbar-brand navbar-brand-logo">
-    <img src="././img/FAU.png" alt="" class="navbar-logo light-content">
-    <img src="././img/FAU.png" alt="" class="navbar-logo dark-content">
+    <img src="././img/FAU.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="https://pelzlab.science">
     <span class="navbar-title">ECLIPSE Lab</span>
@@ -334,18 +416,18 @@ window.Quarto = {
 </nav>
 <section id="jump-to" class="level2">
 <h2 class="anchored" data-anchor-id="jump-to">Jump to</h2>
-<p><a href="#research-staff">Research Staff</a> · <a href="#msc-students">MSc Students</a> · <a href="#research-assistants">Research Assistants</a> · <a href="#bsc-students">BSc Students</a> · <a href="#admin-assistants">Admin Assistants</a> · <a href="#alumni">Alumni</a></p>
+<p><a href="#principal-investigator">Principal Investigator</a> · <a href="#postdocs">Postdocs</a> · <a href="#phd-students">PhD Students</a> · <a href="#msc-students">MSc Students</a> · <a href="#research-assistants">Research Assistants</a> · <a href="#bsc-students">BSc Students</a> · <a href="#admin-assistants">Admin Assistants</a> · <a href="#alumni">Alumni</a></p>
 <hr>
 </section>
-<section id="research-staff" class="level2">
-<h2 class="anchored" data-anchor-id="research-staff">Research Staff</h2>
-<div id="listing-research-staff" class="quarto-listing quarto-listing-container-grid">
+<section id="principal-investigator" class="level2">
+<h2 class="anchored" data-anchor-id="principal-investigator">Principal Investigator</h2>
+<div id="listing-pi" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1776275715355" data-listing-reading-time-sort="2" data-listing-word-count-sort="270">
-<a href="./people/staff/00_pelz_philipp.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1725374464942" data-listing-reading-time-sort="2" data-listing-word-count-sort="270">
+<a href="./people/pi/00_pelz_philipp.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./people/staff/pelz_philipp.jpg" class="thumbnail-image card-img" style="height: 225px;">
+<img loading="lazy" src="./people/pi/pelz_philipp.jpg" class="thumbnail-image card-img" style="height: 225px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -354,26 +436,22 @@ Philipp Pelz
 <div class="card-subtitle listing-subtitle">
 Principal Investigator
 </div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-interests
-</td>
-<td class="interests">
-&nbsp;
-</td>
-</tr>
-
-</tbody></table>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1772479588295" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
-<a href="./people/staff/02_shengbo_you.html" class="quarto-grid-link">
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="postdocs" class="level2">
+<h2 class="anchored" data-anchor-id="postdocs">Postdocs</h2>
+<div id="listing-postdocs" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1777560996088" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
+<a href="./people/postdocs/02_shengbo_you.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./people/staff/shengbo_crop.JPG" class="thumbnail-image card-img" style="height: 225px;">
+<img loading="lazy" src="./people/postdocs/shengbo_crop.JPG" class="thumbnail-image card-img" style="height: 225px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -382,110 +460,14 @@ Shengbo You
 <div class="card-subtitle listing-subtitle">
 Postdoc
 </div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-interests
-</td>
-<td class="interests">
-&nbsp;
-</td>
-</tr>
-
-</tbody></table>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1772656165718" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
-<a href="./people/staff/06_williams.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1777560998097" data-listing-reading-time-sort="1" data-listing-word-count-sort="132">
+<a href="./people/postdocs/04_sebastian_kruber.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="./people/staff/williams.jpeg" class="thumbnail-image card-img" style="height: 225px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Umah Chukwudi Williams
-</h5>
-<div class="card-subtitle listing-subtitle">
-Doctoral Researcher
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-interests
-</td>
-<td class="interests">
-&nbsp;
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1777488207706" data-listing-reading-time-sort="2" data-listing-word-count-sort="252">
-<a href="./people/staff/03_nikita_palatkin.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./people/staff/nikita_crop3.JPG" class="thumbnail-image card-img" style="height: 225px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Nikita Palatkin
-</h5>
-<div class="card-subtitle listing-subtitle">
-Doctoral Researcher
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-interests
-</td>
-<td class="interests">
-4D-STEM · Ptychography · Physics-informed neural networks
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1777488207707" data-listing-reading-time-sort="1" data-listing-word-count-sort="200">
-<a href="./people/staff/05_sihan_shao.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./people/staff/sihan.jpg" class="thumbnail-image card-img" style="height: 225px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Sihan Shao
-</h5>
-<div class="card-subtitle listing-subtitle">
-Doctoral Researcher
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-interests
-</td>
-<td class="interests">
-Computational imaging · Tomography · Ptychography
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1777488207706" data-listing-reading-time-sort="1" data-listing-word-count-sort="133">
-<a href="./people/staff/04_sebastian_kruber.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="./people/staff/sebastian_kruber.jpg" class="thumbnail-image card-img" style="height: 225px;">
+<img loading="lazy" src="./people/postdocs/sebastian_kruber.jpg" class="thumbnail-image card-img" style="height: 225px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -494,18 +476,62 @@ Sebastian Kruber
 <div class="card-subtitle listing-subtitle">
 Postdoc
 </div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-interests
-</td>
-<td class="interests">
-4D-STEM · Computational reconstruction · ML for EM
-</td>
-</tr>
-
-</tbody></table>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="phd-students" class="level2">
+<h2 class="anchored" data-anchor-id="phd-students">PhD Students</h2>
+<div id="listing-phd-students" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1777561016899" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
+<a href="./people/phd/06_williams.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./people/phd/williams.jpeg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Umah Chukwudi Williams
+</h5>
+<div class="card-subtitle listing-subtitle">
+Doctoral Researcher
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1777561000135" data-listing-reading-time-sort="2" data-listing-word-count-sort="252">
+<a href="./people/phd/03_nikita_palatkin.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./people/phd/nikita_crop3.JPG" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Nikita Palatkin
+</h5>
+<div class="card-subtitle listing-subtitle">
+Doctoral Researcher
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1777561002176" data-listing-reading-time-sort="1" data-listing-word-count-sort="200">
+<a href="./people/phd/05_sihan_shao.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./people/phd/sihan.jpg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sihan Shao
+</h5>
+<div class="card-subtitle listing-subtitle">
+Doctoral Researcher
+</div>
 </div>
 </div></a>
 </div>
@@ -517,8 +543,100 @@ interests
 <h2 class="anchored" data-anchor-id="msc-students">MSc Students</h2>
 <div id="listing-msc_students" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1777534109535" data-listing-reading-time-sort="1" data-listing-word-count-sort="36">
-<a href="./people/msc/01_huseyn_shahuseynov.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1777560423481" data-listing-reading-time-sort="1" data-listing-word-count-sort="36">
+<a href="./people/msc/02_bardia_nasiri_sharaf.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./people/staff/placeholder.png" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bardia Nasiri Sharaf
+</h5>
+<div class="card-subtitle listing-subtitle">
+MSc Student
+</div>
+<table class="card-other-values">
+
+<tbody><tr>
+<td>
+Started
+</td>
+<td class="started">
+2026
+</td>
+</tr>
+
+</tbody></table>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1777560461024" data-listing-reading-time-sort="1" data-listing-word-count-sort="36">
+<a href="./people/msc/03_mohsen_moazam.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./people/staff/placeholder.png" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mohsen Moazam
+</h5>
+<div class="card-subtitle listing-subtitle">
+MSc Student
+</div>
+<table class="card-other-values">
+
+<tbody><tr>
+<td>
+Started
+</td>
+<td class="started">
+2026
+</td>
+</tr>
+
+</tbody></table>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="research-assistants" class="level2">
+<h2 class="anchored" data-anchor-id="research-assistants">Research Assistants</h2>
+<div id="listing-research-assistants" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1777560241833" data-listing-reading-time-sort="2" data-listing-word-count-sort="250">
+<a href="./people/ras/01_ali_ghelichkani.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./people/staff/placeholder.png" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ali Ghelichkani
+</h5>
+<div class="card-subtitle listing-subtitle">
+Research Assistant
+</div>
+<table class="card-other-values">
+
+<tbody><tr>
+<td>
+Started
+</td>
+<td class="started">
+2026
+</td>
+</tr>
+
+</tbody></table>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1777559827700" data-listing-reading-time-sort="1" data-listing-word-count-sort="36">
+<a href="./people/ras/01_huseyn_shahuseynov.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
 <img loading="lazy" src="./people/staff/placeholder.png" class="thumbnail-image card-img" style="height: 225px;">
@@ -545,13 +663,37 @@ Started
 </div>
 </div></a>
 </div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1777560374213" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
+<a href="./people/ras/02_nadia_haddadnia.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="./people/ras/nadia.png" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Nadia Haddadnia
+</h5>
+<div class="card-subtitle listing-subtitle">
+MSc Student
+</div>
+<table class="card-other-values">
+
+<tbody><tr>
+<td>
+Started
+</td>
+<td class="started">
+Apr 2026
+</td>
+</tr>
+
+</tbody></table>
+</div>
+</div></a>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-</section>
-<section id="research-assistants" class="level2">
-<h2 class="anchored" data-anchor-id="research-assistants">Research Assistants</h2>
-<p>Currently no research assistants are listed.</p>
 </section>
 <section id="bsc-students" class="level2">
 <h2 class="anchored" data-anchor-id="bsc-students">BSc Students</h2>
@@ -561,7 +703,7 @@ Started
 <h2 class="anchored" data-anchor-id="admin-assistants">Administrative Assistants</h2>
 <div id="listing-admin-assistants" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1772479588292" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1746803392202" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
 <a href="./people/admins/birke.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -589,7 +731,7 @@ started
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1772656165717" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1773422267814" data-listing-reading-time-sort="1" data-listing-word-count-sort="42">
 <a href="./people/admins/yesim_tosun.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -673,7 +815,7 @@ started
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-file-modified-sort="1772479588292" data-listing-reading-time-sort="1" data-listing-word-count-sort="91" data-listing-title-sort="Andrey Romanov" data-listing-filename-sort="01_andrey_romanov.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1725363522051" data-listing-reading-time-sort="1" data-listing-word-count-sort="91" data-listing-title-sort="Andrey Romanov" data-listing-filename-sort="01_andrey_romanov.qmd">
 <td>
 <a href="./people/alumni/01_andrey_romanov.html" class="title listing-title">Andrey Romanov</a>
 </td>
@@ -689,7 +831,7 @@ started
 
 </tr>
 
-<tr data-index="1" data-listing-file-modified-sort="1772479588292" data-listing-reading-time-sort="1" data-listing-word-count-sort="114" data-listing-title-sort="Philipp Herz" data-listing-filename-sort="04_philipp_herz.qmd">
+<tr data-index="1" data-listing-file-modified-sort="1763578158211" data-listing-reading-time-sort="1" data-listing-word-count-sort="114" data-listing-title-sort="Philipp Herz" data-listing-filename-sort="04_philipp_herz.qmd">
 <td>
 <a href="./people/alumni/04_philipp_herz.html" class="title listing-title">Philipp Herz</a>
 </td>
@@ -705,7 +847,7 @@ started
 
 </tr>
 
-<tr data-index="2" data-listing-file-modified-sort="1772656165717" data-listing-reading-time-sort="1" data-listing-word-count-sort="46" data-listing-title-sort="Radin Rahimi" data-listing-filename-sort="06_radin_rahimi.qmd">
+<tr data-index="2" data-listing-file-modified-sort="1773422267814" data-listing-reading-time-sort="1" data-listing-word-count-sort="46" data-listing-title-sort="Radin Rahimi" data-listing-filename-sort="06_radin_rahimi.qmd">
 <td>
 <a href="./people/alumni/06_radin_rahimi.html" class="title listing-title">Radin Rahimi</a>
 </td>
@@ -721,7 +863,7 @@ started
 
 </tr>
 
-<tr data-index="3" data-listing-file-modified-sort="1772656165718" data-listing-reading-time-sort="1" data-listing-word-count-sort="44" data-listing-title-sort="Dasun Ranakawa" data-listing-filename-sort="07_dasun_ranakawa.qmd">
+<tr data-index="3" data-listing-file-modified-sort="1773422267814" data-listing-reading-time-sort="1" data-listing-word-count-sort="44" data-listing-title-sort="Dasun Ranakawa" data-listing-filename-sort="07_dasun_ranakawa.qmd">
 <td>
 <a href="./people/alumni/07_dasun_ranakawa.html" class="title listing-title">Dasun Ranakawa</a>
 </td>
@@ -737,7 +879,7 @@ started
 
 </tr>
 
-<tr data-index="4" data-listing-file-modified-sort="1772479588292" data-listing-reading-time-sort="1" data-listing-word-count-sort="48" data-listing-title-sort="Gaurab Dhungana" data-listing-filename-sort="gaurab_dhungana.qmd">
+<tr data-index="4" data-listing-file-modified-sort="1725363522052" data-listing-reading-time-sort="1" data-listing-word-count-sort="48" data-listing-title-sort="Gaurab Dhungana" data-listing-filename-sort="gaurab_dhungana.qmd">
 <td>
 <a href="./people/alumni/gaurab_dhungana.html" class="title listing-title">Gaurab Dhungana</a>
 </td>
@@ -814,14 +956,13 @@ started
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

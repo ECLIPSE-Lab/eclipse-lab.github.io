@@ -38,17 +38,16 @@ This page collects recent lab highlights across talks, awards, positions, people
 
 ::: {.column width="33%"}
 ### Talks & conferences
-- [EMC 2024 conference](posts/emc2024/index.qmd)
-- [International Microscopy Congress 2023](posts/imc20/index.qmd)
-- [MRS Fall 2023 conference](posts/mrs2023/index.qmd)
-- [CRC 1411 Symposium](posts/crc1411/index.qmd)
+- [International Microscopy Conference (IMC21)](posts/2025-12-02_imc21/index.qmd)
+- [Materials for Sustainable Development Conference (MATSUS26)](posts/2025-11-19_matsus/index.qmd)
+- [DPG Spring meeting 2026](posts/2025-11-19_dpg/index.qmd)
 :::
 
 ::: {.column width="33%"}
 ### People & positions
+- [Open position announcement](posts/24-04-position/index.qmd)
 - [Shengbo You joins the team](posts/shengbo_joins/index.qmd)
 - [Radin Rahimi joins the team](posts/radin_joins/index.qmd)
-- [Open position announcement](posts/24-04-position/index.qmd)
 :::
 
 ::: {.column width="34%"}
