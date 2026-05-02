@@ -1,0 +1,28 @@
+---
+title: "Kinetically Controlled Seed-Mediated Synthesis of Colloidal Copper Nanotetrahedra with Intricate Internal Structure"
+type: "article"
+author: "S. Jeong, M. Wu, R. X. Skalla, B. Paranzino, A. Kichigin, B. Zhu, A. N. Butrum-Griffith, X. Zhan, Y. Zhong, C. Yan, P. Pelz, C. Ophus, S. Rechberger, Y. Wang, J. Chen, A. Yasuhara, Y. Aoyama, M. Kakefuda, K. A. Willets, E. Spiecker, X. Ye"
+year: "2025"
+publication: "Journal of the American Chemical Society 147, 37622-37633"
+preprint: ""
+doi: "10.1021/jacs.5c12614"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - nanoparticles
+---
+
+## Citation (APA 7)
+
+> Kinetically Controlled Seed-Mediated Synthesis of Colloidal Copper Nanotetrahedra with Intricate Internal Structure
+S. Jeong, M. Wu, R. X. Skalla, B. Paranzino, A. Kichigin, B. Zhu, A. N. Butrum-Griffith, X. Zhan, Y. Zhong, C. Yan, P. Pelz, C. Ophus, S. Rechberger, Y. Wang, J. Chen, A. Yasuhara, Y. Aoyama, M. Kakefuda, K. A. Willets, E. Spiecker, X. Ye
+Journal of the American Chemical Society 147, 37622-37633
+
+
+## Abstract
+
+The controlled synthesis of non-noble metal nanocrystals, such as Cu, with well-defined shapes and internal structures remains a major challenge in nanochemistry, primarily due to the limited mechanistic understanding of their nucleation and growth pathways. Here, we report a heterometallic seed-mediated synthesis of monodisperse, size-tunable Cu truncated bitetrahedra (TBT) and tetrahedra using preformed Au nanocrystals as seeds. Systematic variation of the Au seed concentration enables precise control over nanocrystal size, while rapid reduction kinetics and sustained Cu monomer supply facilitate the evolution of TBT intermediates into well-defined Cu tetrahedra. Electron microscopy analyses reveal that the penta-twinned Au seeds induce asymmetric Cu overgrowth and initiate the formation of central twin boundaries in TBT. Four-dimensional scanning transmission electron microscopy of individual Cu tetrahedra at various tilt angles uncovers twinned layers on three facets and 5-fold axes along three edges. These structural features are rarely observed in previously reported noble-metal tetrahedra. The resulting Cu nanocrystals exhibit sharp, size-dependent localized surface plasmon resonance peaks in the visible range and demonstrate excellent activity in surface-enhanced Raman scattering. Near-field plasmon excitation mapping using electron energy-loss spectroscopy, supported by electromagnetic simulations, confirms distinct plasmon modes at individual Cu tetrahedra. This work highlights the potential of heterometallic twinned seeds for directing the synthesis of low-symmetry Cu nanocrystals and opens new opportunities for the design of non-noble-metal nanocrystals with tailored optical and catalytic properties.
+
+

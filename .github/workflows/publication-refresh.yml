@@ -27,12 +27,18 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install beautifulsoup4 requests orcid
+          pip install requests pytest
+
+      - name: Test publication updater
+        run: python -m pytest tests/test_generate_publications.py -q
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Regenerate publications
+        env:
+          SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
+          WOS_API_KEY: ${{ secrets.WOS_API_KEY }}
         run: python generate_publications.py
 
       - name: Render site
@@ -50,7 +56,7 @@ jobs:
             Automated weekly refresh.
 
             ### What changed
-            - Regenerated publication entries from ORCID/Crossref (`generate_publications.py`)
+            - Regenerated publication entries from active people profile IDs (`generate_publications.py`)
             - Re-rendered Quarto output (`docs/`) to keep news/publications pages in sync
 
             ### Why

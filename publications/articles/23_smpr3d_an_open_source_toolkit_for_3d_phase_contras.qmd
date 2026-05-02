@@ -1,0 +1,29 @@
+---
+title: "smpr3d: an open-source toolkit for 3D phase-contrast imaging from 4D-STEM datasets"
+type: "article"
+author: "P. Pelz, H. Brown, P. Ercius, I. Johnson, J. Ciston, M. Scott, C. Ophus"
+year: "2021"
+publication: "Microscopy and Microanalysis 27, 1524-1526"
+preprint: ""
+doi: "10.1017/s1431927621005638"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - imaging
+---
+
+## Citation (APA 7)
+
+> smpr3d: an open-source toolkit for 3D phase-contrast imaging from 4D-STEM datasets
+P. Pelz, H. Brown, P. Ercius, I. Johnson, J. Ciston, M. Scott, C. Ophus
+Microscopy and Microanalysis 27, 1524-1526
+
+
+## Abstract
+
+Most current phase-contrast reconstruction algorithms for 4D-STEM datasets, like differential phase contrast [1] and ptychography [2], assume and reconstruct a 2-dimensional image. Yet modern electron microscopes allow aberration-corrected imaging with numerical apertures that enable axial resolution on the sub-10nm scale, such that three-dimensional information is available from a single view for most samples of interest. Reconstruction algorithms that allow to access this 3D phase-contrast information include multi-slice ptychography [6,7] and S-matrix phase-retrieval [3] and depth-sectioning [4,5]. Both algorithms have only recently been demonstrated for samples thicker than 2 depths of focus [4, 6], and are currently not widely available to the community. In this talk we introduce smpr3d (pronounced “semper 3d”, which stands for S - M atrix P hase R etrieval and 3D imaging; semper is latin for “always”, meaning there is (almost) always 3D information in your data), an open-source toolkit implemented using python and pytorch, that allows reconstruction of 3D phase-contrast images from single 4D-STEM scans and 4D-STEM focal-series measurements, both on single commodity hardware accelerators and High-Performance Computing architectures. We discuss common experimental parameters and preprocessing steps to produce 3D phase-contrast volumes from 4D-STEM measurements at the atomic scale.
+
+

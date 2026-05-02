@@ -1,0 +1,31 @@
+---
+title: "Sub-Ångstrom 3D Resolution, Volume Imaging Beyond the Depth of Focus Limit, and Automated Tomography Using Electron Ptychography"
+type: "article"
+author: "P. Pelz, S. You, M. Wu, N. Palatkin"
+year: "2025"
+publication: "Microscopy and Microanalysis 31"
+preprint: ""
+doi: "10.1093/mam/ozaf048.041"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - ptychography
+  - tomography
+  - atomic resolution
+  - imaging
+---
+
+## Citation (APA 7)
+
+> Sub-Ångstrom 3D Resolution, Volume Imaging Beyond the Depth of Focus Limit, and Automated Tomography Using Electron Ptychography
+P. Pelz, S. You, M. Wu, N. Palatkin
+Microscopy and Microanalysis 31
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+

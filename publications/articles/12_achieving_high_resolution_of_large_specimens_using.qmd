@@ -1,0 +1,28 @@
+---
+title: "Achieving High-resolution of Large Specimens Using Aberration-corrected Tomography"
+type: "article"
+author: "R. Yalisove, S. H. Sung, J. Schwartz, C. Groschner, P. Pelz, H. Zheng, Y. Jiang, C. Ophus, M. Scott, P. Ercius, R. Hovden"
+year: "2020"
+publication: "Microscopy and Microanalysis 26, 1860-1862"
+preprint: ""
+doi: "10.1017/s1431927620019625"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - tomography
+---
+
+## Citation (APA 7)
+
+> Achieving High-resolution of Large Specimens Using Aberration-corrected Tomography
+R. Yalisove, S. H. Sung, J. Schwartz, C. Groschner, P. Pelz, H. Zheng, Y. Jiang, C. Ophus, M. Scott, P. Ercius, R. Hovden
+Microscopy and Microanalysis 26, 1860-1862
+
+
+## Abstract
+
+Aberration-corrected electron microscopy can resolve the smallest atomic bond-lengths in nature [1-3]. However, the high-convergence angles that enable spectacular resolution in 2D can only achieve limited 3D atomic resolution for all but the smallest objects (c.a. 5 - 10 nm). We show aberration-corrected electron tomography can offer new limits to 3D imaging by sampling several focal planes at each specimen tilt. We present a theoretical foundation for aberration-corrected electron tomography by establishing analytic descriptions for resolution, sampling, object size, and dose—with direct analogy to the Crowther-Klug criterion. 2D resolving power to 3D objects >
+
+

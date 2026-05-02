@@ -1,0 +1,28 @@
+---
+title: "The 4D Camera – An 87 kHz Frame-rate Detector for Counted 4D-STEM Experiments"
+type: "article"
+author: "P. Ercius, I. Johnson, H. Brown, P. Pelz, S. Hsu, B. Draney, E. Fong, A. Goldschmidt, J. Joseph, J. Lee, J. Ciston, C. Ophus, M. Scott, A. Selvarajan, D. Paul, D. Skinner, M. Hanwell, C. Harris, P. Avery, T. Stezelberger, C. Tindall, R. Ramesh, A. Minor, P. Denes"
+year: "2020"
+publication: "Microscopy and Microanalysis 26, 1896-1897"
+preprint: ""
+doi: "10.1017/s1431927620019753"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+---
+
+## Citation (APA 7)
+
+> The 4D Camera – An 87 kHz Frame-rate Detector for Counted 4D-STEM Experiments
+P. Ercius, I. Johnson, H. Brown, P. Pelz, S. Hsu, B. Draney, E. Fong, A. Goldschmidt, J. Joseph, J. Lee, J. Ciston, C. Ophus, M. Scott, A. Selvarajan, D. Paul, D. Skinner, M. Hanwell, C. Harris, P. Avery, T. Stezelberger, C. Tindall, R. Ramesh, A. Minor, P. Denes
+Microscopy and Microanalysis 26, 1896-1897
+
+
+## Abstract
+
+,
+
+

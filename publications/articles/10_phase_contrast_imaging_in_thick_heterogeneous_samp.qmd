@@ -1,0 +1,28 @@
+---
+title: "Phase Contrast Imaging in Thick, Heterogeneous Samples via S-Matrix Phase Retrieval and Depth Sectioning"
+type: "article"
+author: "P. Pelz, H. Brown, S. Findlay, M. Scott, J. Ciston, C. Ophus"
+year: "2020"
+publication: "Microscopy and Microanalysis 26, 462-464"
+preprint: ""
+doi: "10.1017/s1431927620014749"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - imaging
+---
+
+## Citation (APA 7)
+
+> Phase Contrast Imaging in Thick, Heterogeneous Samples via S-Matrix Phase Retrieval and Depth Sectioning
+P. Pelz, H. Brown, S. Findlay, M. Scott, J. Ciston, C. Ophus
+Microscopy and Microanalysis 26, 462-464
+
+
+## Abstract
+
+Three-dimensional phase-contrast imaging of thick, multiply scattering samples in electron microscopy requires the inversion of the paraxial Schroedinger equation for fast electrons which describes the propagation of coherent high-energy electrons in an electrostatic potential. The most prominent method for calculating a coherent exit-wave from a multiple-scattering sample is the multi-slice algorithm [1]. Due to its popularity for forward calculations, the inverse multi-slice algorithm has mostly been used in algorithms for inverting the scattering process, to retrieve a sample structure from measured intensities in real [2,4] or Fourier space [3,4,5].
+
+

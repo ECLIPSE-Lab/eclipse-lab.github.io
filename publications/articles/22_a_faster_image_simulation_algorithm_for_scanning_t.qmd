@@ -1,0 +1,31 @@
+---
+title: "A faster image simulation algorithm for scanning transmission electron microscopy"
+type: "article"
+author: "P. Pelz, L. DaCosta, A. M. Rakowski, M. Scott, C. Ophus"
+year: "2021"
+publication: "Microscopy and Microanalysis 27, 1272-1275"
+preprint: ""
+doi: "10.1017/s1431927621004773"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - software
+  - imaging
+  - computational
+---
+
+## Citation (APA 7)
+
+> A faster image simulation algorithm for scanning transmission electron microscopy
+P. Pelz, L. DaCosta, A. M. Rakowski, M. Scott, C. Ophus
+Microscopy and Microanalysis 27, 1272-1275
+
+
+## Abstract
+
+Image simulations are an integral part of research in scanning transmission electron microscopy (STEM), yet large-scale simulations can still require extended simulation times, and can quickly become infeasible.
+
+

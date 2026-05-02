@@ -1,0 +1,29 @@
+---
+title: "Controlled Self-Assembly of Gold Nanotetrahedra into Quasicrystals and Complex Periodic Supracrystals"
+type: "article"
+author: "Y. Wang, J. Chen, R. Li, A. Götz, D. Drobek, T. Przybilla, S. Hübner, P. Pelz, L. Yang, B. A. Zubiri, E. Spiecker, M. Engel, X. Ye"
+year: "2023"
+publication: "Journal of the American Chemical Society 145, 17902-17911"
+preprint: ""
+doi: "10.1021/jacs.3c05299"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - nanoparticles
+  - materials science
+---
+
+## Citation (APA 7)
+
+> Controlled Self-Assembly of Gold Nanotetrahedra into Quasicrystals and Complex Periodic Supracrystals
+Y. Wang, J. Chen, R. Li, A. Götz, D. Drobek, T. Przybilla, S. Hübner, P. Pelz, L. Yang, B. A. Zubiri, E. Spiecker, M. Engel, X. Ye
+Journal of the American Chemical Society 145, 17902-17911
+
+
+## Abstract
+
+The self-assembly of shape-anisotropic nanocrystals into large-scale structures is a versatile and scalable approach to creating multifunctional materials. The tetrahedral geometry is ubiquitous in natural and manmade materials, yet regular tetrahedra present a formidable challenge in understanding their self-assembly behavior as they do not tile space. Here, we report diverse supracrystals from gold nanotetrahedra including the quasicrystal (QC) and the dimer packing predicted more than a decade ago and hitherto unknown phases. We solve the complex three-dimensional (3D) structure of the QC by a combination of electron microscopy, tomography, and synchrotron X-ray scattering. Nanotetrahedron vertex sharpness, surface ligands, and assembly conditions work in concert to regulate supracrystal structure. We also discover that the surface curvature of supracrystals can induce structural changes of the QC tiling and eventually, for small supracrystals with high curvature, stabilize a hexagonal approximant. Our findings bridge the gap between computational design and experimental realization of soft matter assemblies and demonstrate the importance of accurate control over nanocrystal attributes and the assembly conditions to realize increasingly complex nanopolyhedron supracrystals.
+
+

@@ -1,0 +1,29 @@
+---
+title: "Materials Science Applications and Analysis of Very Large 4D-STEM Experiments"
+type: "article"
+author: "C. Ophus, B. Savitzky, P. Pelz, A. M. Rakowski, L. R. DaCosta, L. Hughes, S. Zeltmann, K. C. Bustillo, M. Scott, A. Minor"
+year: "2021"
+publication: "Microscopy and Microanalysis 27, 14-15"
+preprint: ""
+doi: "10.1017/s1431927621000635"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - materials science
+---
+
+## Citation (APA 7)
+
+> Materials Science Applications and Analysis of Very Large 4D-STEM Experiments
+C. Ophus, B. Savitzky, P. Pelz, A. M. Rakowski, L. R. DaCosta, L. Hughes, S. Zeltmann, K. C. Bustillo, M. Scott, A. Minor
+Microscopy and Microanalysis 27, 14-15
+
+
+## Abstract
+
+With the introduction of high speed direct electron detectors, scanning transmission electron microscopy (STEM) can now record full images of the diffracted electron probe scanned over the sample, producing a four-dimensional dataset, we refer to as a 4D-STEM experiment [1]. Figure 1a shows the experimental geometry of 4D-STEM measurements, using conventional apertures, bullseye patterned apertures to enhance strain measurements [2], and multibeam apertures which enable multiple simultaneous diffraction experiments [3]. These diffraction images of the electron probe are extremely rich in atomic-scale information, such as the sample structure, phase, orientation, composition, presence of defects, and more. The STEM probe size can vary over multiple orders of magnitude, ranging from sub-atomic to tens of nanometers, allowing measurements ranging from the position of single atoms to robust statistical measurements of properties such as lattice spacing over many crystalline unit cells. Because the size of a STEM probe is decoupled from the step size between measurements, we can tune the field of view of a given measurement to any desired length scales. The high speed of modern detectors has made recording up to a million diffraction images per dataset routine, requiring new approaches and software tools to deal with this “data deluge.”
+
+

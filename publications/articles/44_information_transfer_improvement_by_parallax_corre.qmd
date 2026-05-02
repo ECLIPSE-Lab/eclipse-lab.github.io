@@ -1,0 +1,29 @@
+---
+title: "Information Transfer Improvement by Parallax Correction and Ptychography Reconstruction Applied to Fast Large-Area 4D STEM Experiments"
+type: "article"
+author: "D. G. Stroppa, S. Ribet, G. Varnavides, C. Ophus, P. Pelz"
+year: "2024"
+publication: "Microscopy and Microanalysis 30"
+preprint: ""
+doi: "10.1093/mam/ozae044.149"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - ptychography
+  - electron microscopy
+---
+
+## Citation (APA 7)
+
+> Information Transfer Improvement by Parallax Correction and Ptychography Reconstruction Applied to Fast Large-Area 4D STEM Experiments
+D. G. Stroppa, S. Ribet, G. Varnavides, C. Ophus, P. Pelz
+Microscopy and Microanalysis 30
+
+
+## Abstract
+
+Scanning Transmission Electron Microscopy (STEM) is currently a reference technique for high spatial resolution imaging, with wide adoption in the characterization of material science samples and with growing use in life science studies. 4D-STEM [1] approach presents a more detailed recording of the electron scattering pattern using pixelated electron detectors and extends the imaging possibilities by combining the real-space scanning and reciprocal-space scattering components. Recent improvements in the direct electron detector technology allow 4D-STEM experiments at similar speeds to STEM imaging [2], and motivates its exploration as a possible substitute to conventional imaging. This study addresses the information retrieval from 4D STEM datasets using virtual bright field imaging, parallax-corrected phase imaging, and ptychography reconstruction. Large fields-of-view (> 500 nm) of reference samples were measured with fast 4D-STEM (10 µs dwell time), moderate defocus (~100 nm), and scanning sampling between 0.3 and 2.4 nm/pixel. The 4D STEM datasets were processed with the open-source python-based py4DSTEM package [3, 4], including the preliminary assessment and subset selection by virtual STEM images. Defocused probe parallax imaging and a ptychographic gradient descent method were used to correct probe aberrations, particularly defocus. These methods resulted in reconstructed images with effective upsampling, due to the information retrieval from both real and reciprocal spaces. While the 4D STEM reconstruction with a virtual BF approach resulted in an image with spatial resolution limited by either probe aberration or sampling, equivalent to conventional BF STEM imaging, both parallax-corrected phase imaging and ptychography reconstruction allowed for information retrieval down to lattice level (< 0.2 nm). The findings indicate that 4D STEM reconstruction methods can yield resolution beyond real-space sampling, possibly limited by the effective electron dose used in fast 4D STEM experiments. A current challenge is to extend and optimize these image reconstruction methods to recover resolution from the full field of view of such large-area scans. However, with the increasing efficiency and
+
+

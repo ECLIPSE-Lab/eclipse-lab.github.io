@@ -1,0 +1,29 @@
+---
+title: "Advanced Phase Reconstruction Methods Enabled by Four-Dimensional Scanning Transmission Electron Microscopy"
+type: "article"
+author: "C. Ophus, T. R. Harvey, F. S. Yasin, H. G. Brown, P. M. Pelz, B. H. Savitzky, J. Ciston, B. J. McMorran"
+year: "2019"
+publication: "Microscopy and Microanalysis 25, 10-11"
+preprint: ""
+doi: "10.1017/s1431927619000783"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - imaging
+---
+
+## Citation (APA 7)
+
+> Advanced Phase Reconstruction Methods Enabled by Four-Dimensional Scanning Transmission Electron Microscopy
+C. Ophus, T. R. Harvey, F. S. Yasin, H. G. Brown, P. M. Pelz, B. H. Savitzky, J. Ciston, B. J. McMorran
+Microscopy and Microanalysis 25, 10-11
+
+
+## Abstract
+
+By converging an electron probe to small dimensions and measuring the diffracted signal, we can measure atomic-scale information about a sample’s structure, orientation, deformation, composition, and more. A measurement of full 2D diffraction images over a 2D grid of probe positions produces a 4D dataset, referred to as four-dimensional scanning transmission electron microscopy (4D-STEM). With modern electron detectors, we can now measure thousands of diffraction patterns, which enables many new imaging methods. A large class of useful 4D-STEM imaging modes produce phase contrast images of specimens, for example differential phase contrast (DPC) and ptychography [1]. By combining 4DSTEM with phase plates, additional phase contrast imaging methods become possible [2]. The first topic of this talk will be to describe a related phase plate method called STEM holography (STEM-H) [3, 4], and its extension using ptychographic reconstruction. STEM-H is performed by using a diffraction grating in the probe forming aperture to produce multiple STEM beams, and then using a pixelated detector to measure the holographic fringe patterns, shown in Figure 1a. The primary advantage of STEM-H is that it produces phase contrast images on an absolute scale, which for example can be used to measure weak, extended electrostatic or electromagnetic fields as in Figures 1b. There, we see that for a conductive lacey carbon sample both the HAADF intensity and STEM-H phase shift show a similar decay into the vacuum. By contrast, for a semiconducting nanoparticle sample, we measure a phase shift due to an electrostatic field extending from the vacuum edge beyond the sample, which does not generate contrast in the HAADF channel. We have also extended STEM-H imaging to atomic resolution, shown in Figure 1c. STEM-H can quantitatively image the absolute phase shift of a sample, with the simple addition of a diffraction grating and large area, high speed direct electron detector.
+
+

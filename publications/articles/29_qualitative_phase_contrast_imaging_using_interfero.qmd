@@ -1,0 +1,29 @@
+---
+title: "Qualitative Phase Contrast Imaging using Interferometric 4DSTEM"
+type: "article"
+author: "A. Ducharme, P. Pelz, L. Brown, P. Ercius, B. McMorran"
+year: "2022"
+publication: "Microscopy and Microanalysis 28, 2504-2505"
+preprint: ""
+doi: "10.1017/s1431927622009576"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - imaging
+---
+
+## Citation (APA 7)
+
+> Qualitative Phase Contrast Imaging using Interferometric 4DSTEM
+A. Ducharme, P. Pelz, L. Brown, P. Ercius, B. McMorran
+Microscopy and Microanalysis 28, 2504-2505
+
+
+## Abstract
+
+Phase contrast imaging has been implemented inside the TEM column in the last decade at atomic resolution through differential phase contrast (DPC) and ptychography [1-2]. This imaging mode has higher contrast than more direct TEM imaging techniques, unlocking measurements of low Z and 2D materials and nanoscale electric fields [3-4]. Another route to phase contrast imaging is through structuring the electron beam prior to sample interaction, such as in MIDI-STEM [5]
+
+

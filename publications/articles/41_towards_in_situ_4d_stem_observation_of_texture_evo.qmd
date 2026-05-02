@@ -1,0 +1,30 @@
+---
+title: "Towards in-situ 4D-STEM observation of texture evolution in nano-crystalline thin films"
+type: "article"
+author: "M. Wu, C. Hsieh, D. Stroppa, P. Pelz, C. Ophus, P. Lu, R. Dunin-Borkowski, C. Harreiss, P. Denninger, E. Spiecker"
+year: "2024"
+publication: "BIO Web of Conferences 129, 07006"
+preprint: ""
+doi: "10.1051/bioconf/202412907006"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - nanoparticles
+  - materials science
+---
+
+## Citation (APA 7)
+
+> Towards in-situ 4D-STEM observation of texture evolution in nano-crystalline thin films
+M. Wu, C. Hsieh, D. Stroppa, P. Pelz, C. Ophus, P. Lu, R. Dunin-Borkowski, C. Harreiss, P. Denninger, E. Spiecker
+BIO Web of Conferences 129, 07006
+
+
+## Abstract
+
+Texture describes the preferred orientation of grains in crystalline materials, which dictates their anisotropic, for example, (opto-)electronic, thermal transport, and mechanical properties. The texture is evaluated conventionally by probing the reciprocal space using X-ray and/or electron diffraction methods, where spatial information, e.g., the orientation relationship of particular grains, is hardly accessible. Probing the local diffraction pattern with a focused electron beam, i
+
+

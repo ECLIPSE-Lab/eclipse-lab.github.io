@@ -1,0 +1,29 @@
+---
+title: "Resolution of Virtual Depth Sectioning from Four-Dimensional Scanning Transmission Electron Microscopy"
+type: "article"
+author: "E. W. C. Terzoudis-Lumsden, T. C. Petersen, H. G. Brown, P. M. Pelz, C. Ophus, S. D. Findlay"
+year: "2023"
+publication: "Microscopy and Microanalysis 29, 1409-1421"
+preprint: ""
+doi: "10.1093/micmic/ozad068"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - imaging
+---
+
+## Citation (APA 7)
+
+> Resolution of Virtual Depth Sectioning from Four-Dimensional Scanning Transmission Electron Microscopy
+E. W. C. Terzoudis-Lumsden, T. C. Petersen, H. G. Brown, P. M. Pelz, C. Ophus, S. D. Findlay
+Microscopy and Microanalysis 29, 1409-1421
+
+
+## Abstract
+
+One approach to three-dimensional structure determination using the wealth of scattering data in four-dimensional (4D) scanning transmission electron microscopy (STEM) is the parallax method proposed by Ophus et al. (2019. Advanced phase reconstruction methods enabled by 4D scanning transmission electron microscopy, Microsc Microanal25, 10–11), which determines the scattering matrix and uses it to synthesize a virtual depth-sectioning reconstruction of the sample structure. Drawing on an equivalence with a hypothetical confocal imaging mode, we derive contrast transfer and point spread functions for this parallax method applied to weakly scattering objects, showing them identical to earlier depth-sectioning STEM modes when only bright field signal is used, but that improved depth resolution is possible if dark field signal can be used. Through a simulation-based study of doped Si, we show that this depth resolution is preserved for thicker samples, explore the impact of shot noise on the parallax reconstructions, discuss challenges to making use of dark field signal, and identify cases where the interpretation of the parallax reconstruction breaks down.
+
+

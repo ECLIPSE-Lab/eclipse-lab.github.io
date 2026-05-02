@@ -1,0 +1,29 @@
+---
+title: "Imaging the electron charge density in monolayer MoS2 at the Ångstrom scale"
+type: "article"
+author: "J. Martis, S. Susarla, A. Rayabharam, C. Su, T. Paule, P. Pelz, C. Huff, X. Xu, H. Li, M. Jaikissoon, V. Chen, E. Pop, K. Saraswat, A. Zettl, N. R. Aluru, R. Ramesh, P. Ercius, A. Majumdar"
+year: "2023"
+publication: "Nature Communications 14"
+preprint: ""
+doi: "10.1038/s41467-023-39304-9"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - atomic resolution
+  - imaging
+---
+
+## Citation (APA 7)
+
+> Imaging the electron charge density in monolayer MoS2 at the Ångstrom scale
+J. Martis, S. Susarla, A. Rayabharam, C. Su, T. Paule, P. Pelz, C. Huff, X. Xu, H. Li, M. Jaikissoon, V. Chen, E. Pop, K. Saraswat, A. Zettl, N. R. Aluru, R. Ramesh, P. Ercius, A. Majumdar
+Nature Communications 14
+
+
+## Abstract
+
+Four-dimensional scanning transmission electron microscopy (4D-STEM) has recently gained widespread attention for its ability to image atomic electric fields with sub-Ångstrom spatial resolution. These electric field maps represent the integrated effect of the nucleus, core electrons and valence electrons, and separating their contributions is non-trivial. In this paper, we utilized simultaneously acquired 4D-STEM center of mass (CoM) images and annular dark field (ADF) images to determine the projected electron charge density in monolayer MoS<sub>2</sub>. We evaluate the contributions of both the core electrons and the valence electrons to the derived electron charge density; however, due to blurring by the probe shape, the valence electron contribution forms a nearly featureless background while most of the spatial modulation comes from the core electrons. Our findings highlight the importance of probe shape in interpreting charge densities derived from 4D-STEM and the need for smaller electron probes.
+
+

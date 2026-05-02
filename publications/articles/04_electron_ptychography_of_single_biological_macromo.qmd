@@ -1,0 +1,29 @@
+---
+title: "Electron Ptychography of Single Biological Macromolecules"
+type: "article"
+author: "P. M. Pelz, R. Bücker, G. Ramm, H. Venugopal, G. Kassier, D. Eggert, P. Lu, R. E. Dunin-Borkowski, R. J. D. Miller"
+year: "2019"
+publication: "Microscopy and Microanalysis 25, 72-73"
+preprint: ""
+doi: "10.1017/s1431927619001090"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - ptychography
+  - biology
+---
+
+## Citation (APA 7)
+
+> Electron Ptychography of Single Biological Macromolecules
+P. M. Pelz, R. Bücker, G. Ramm, H. Venugopal, G. Kassier, D. Eggert, P. Lu, R. E. Dunin-Borkowski, R. J. D. Miller
+Microscopy and Microanalysis 25, 72-73
+
+
+## Abstract
+
+1. Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany 2. Department of Chemistry and Physics, University of Toronto, Toronto, Canada 3. Monash Ramaciotti Centre for Cryo-Electron Microscopy, Monash University, Melbourne, VIC, 3800, Australia 4. Department of Biochemistry and Molecular Biology, Monash University, Melbourne, Australia 5. Biomedicine Discovery Institute, Monash University, Melbourne, Australia 6. Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons and Peter Grünberg Institute, Forschungszentrum Jülich, Jülich, Germany 7. Materials Science and Engineering, UC Berkeley, Berkeley, CA 8. Molecular Foundry, Lawrence Berkeley National Laboratory, Berkeley, USA
+
+

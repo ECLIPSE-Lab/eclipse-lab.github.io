@@ -1,0 +1,31 @@
+---
+title: "3D Imaging Using HAADF-STEM and HRTEM Atomic Electron Tomography"
+type: "article"
+author: "C. Ophus, D. Ren, J. Zhou, H. Devyldere, M. Chen, P. M. Pelz, P. Ercius, J. Miao, M. Scott, L. Waller"
+year: "2019"
+publication: "Microscopy and Microanalysis 25, 394-395"
+preprint: ""
+doi: "10.1017/s1431927619002708"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - tomography
+  - atomic resolution
+  - imaging
+---
+
+## Citation (APA 7)
+
+> 3D Imaging Using HAADF-STEM and HRTEM Atomic Electron Tomography
+C. Ophus, D. Ren, J. Zhou, H. Devyldere, M. Chen, P. M. Pelz, P. Ercius, J. Miao, M. Scott, L. Waller
+Microscopy and Microanalysis 25, 394-395
+
+
+## Abstract
+
+1. NCEM, Molecular Foundry, Lawrence Berkeley National Laboratory, Berkeley, USA. 2. Dept. of Electrical Engineering and Computer Sciences, Univ. of California Berkeley, Berkeley, USA. 3. Dept. of Physics and Astronomy, Univ. of California Los Angeles, Los Angeles, USA. 4. Dept. of Materials Science and Engineering, Univ. of California Berkeley, Berkeley, USA. * Corresponding author: cophus@gmail.com
+
+

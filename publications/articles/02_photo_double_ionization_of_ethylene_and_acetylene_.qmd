@@ -5,7 +5,7 @@ author: "B. Gaire, S. Y. Lee, D. J. Haxton, P. M. Pelz, I. Bocharova, F. P. Stur
 year: "2014"
 publication: "Physical Review A 89"
 preprint: ""
-doi: "10.1103/PhysRevA.89.013403"
+doi: "10.1103/physreva.89.013403"
 materials: ""
 code_url: ""
 project_page_url: ""

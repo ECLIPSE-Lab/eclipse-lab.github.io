@@ -1,0 +1,28 @@
+---
+title: "Real-time interactive ptychography from electron event representation data"
+type: "article"
+author: "P. Pelz, P. Ercius, C. Ophus, I. Johnson, M. Scott"
+year: "2021"
+publication: "Microscopy and Microanalysis 27, 188-189"
+preprint: ""
+doi: "10.1017/s1431927621001288"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - ptychography
+---
+
+## Citation (APA 7)
+
+> Real-time interactive ptychography from electron event representation data
+P. Pelz, P. Ercius, C. Ophus, I. Johnson, M. Scott
+Microscopy and Microanalysis 27, 188-189
+
+
+## Abstract
+
+The arrival of direct electron detectors (DEDs) with high frame rates in the field of scanning transmission electron microscopy (TEM) has enabled many experimental techniques that require collection of a full diffraction pattern at each scan position, a field which is subsumed under the name four-dimensional scanning transmission electron microscopy (4D-STEM). DED frame rates approaching 100 kHz require data transmission rates and data storage capabilities that exceed those of the commonly available computing infrastructures. Current commercial DEDs allow the user to make compromises in pixel bit depth, detector binning, or windowing to reduce the per-frame file size and allow higher frame rates. This change in detector specifications requires decisions to be made before data acquisition that may reduce or lose information that could have been advantageous during data analysis.
+
+

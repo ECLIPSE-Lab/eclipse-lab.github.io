@@ -1,0 +1,30 @@
+---
+title: "Virtual imaging enabled by scattering matrix reconstruction from 4D scanning transmission electron microscopy"
+type: "article"
+author: "E. W. C. Terzoudis-Lumsden, T. C. Petersen, H. G. Brown, P. M. Pelz, C. Ophus, S. D. Findlay"
+year: "2023"
+publication: "Acta Crystallographica Section A Foundations and Advances 79, C1092-C1092"
+preprint: ""
+doi: "10.1107/s2053273323085297"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - imaging
+  - physics
+---
+
+## Citation (APA 7)
+
+> Virtual imaging enabled by scattering matrix reconstruction from 4D scanning transmission electron microscopy
+E. W. C. Terzoudis-Lumsden, T. C. Petersen, H. G. Brown, P. M. Pelz, C. Ophus, S. D. Findlay
+Acta Crystallographica Section A Foundations and Advances 79, C1092-C1092
+
+
+## Abstract
+
+depth resolution; and the inaccuracies shot noise introduces in our reconstructions. Using simulations, and leveraging a derived mathematical equivalence with a hypothetical direct phase-imaging technique, we begin by defining the depth resolution based on the characteristics of the probe when the sample is a weak phase object. Doped Si is then used as a case study to test the obfuscating effects of dynamical diffraction to the depth sensitive detection of dopants along the column. Varying the incident dose, we observe how the quality of our reconstructions change. Drawing on preliminary 4D-STEM experimental work using fast-readout direct electron detectors, we discuss some further limitations of practice.
+
+

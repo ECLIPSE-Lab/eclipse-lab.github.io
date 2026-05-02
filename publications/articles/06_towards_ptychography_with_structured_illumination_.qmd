@@ -1,0 +1,30 @@
+---
+title: "Towards Ptychography with Structured Illumination, and a Derivative-Based Reconstruction Algorithm"
+type: "article"
+author: "W. V. d. Broek, M. Schloz, T. Pekin, P. Pelz, P. Lu, M. Kruth, V. Grillo, R. Dunin-Borkowski, R. Miller, C. Koch"
+year: "2019"
+publication: "Microscopy and Microanalysis 25, 58-59"
+preprint: ""
+doi: "10.1017/s1431927619001028"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - ptychography
+  - software
+  - computational
+---
+
+## Citation (APA 7)
+
+> Towards Ptychography with Structured Illumination, and a Derivative-Based Reconstruction Algorithm
+W. V. d. Broek, M. Schloz, T. Pekin, P. Pelz, P. Lu, M. Kruth, V. Grillo, R. Dunin-Borkowski, R. Miller, C. Koch
+Microscopy and Microanalysis 25, 58-59
+
+
+## Abstract
+
+1. Institut für Physik & IRIS Adlershof, Humboldt-Universität zu Berlin, Berlin, Germany 2. Max Planck Institute for the Structure and Dynamics of Matter, Center for Free Electron Laser Science, Hamburg, Germany 3. Ernst Ruska-Centre (ER-C) for Microscopy and Spectroscopy with Electrons, Forschungszentrum Jülich, Jülich, Germany 4. CNR-Istituto Nanoscienze, Centro S3, Modena, Italy 5. Departments of Chemistry and Physics, University of Toronto, Toronto, Canada. * Corresponding author: vandenbroek@physik.hu-berlin.de
+
+

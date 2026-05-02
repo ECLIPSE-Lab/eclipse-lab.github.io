@@ -1,0 +1,31 @@
+---
+title: "Analysis of Strain and Defects in Tellurium-WSe<sub>2</sub> Moiré Heterostructures Using Scanning Nanodiffraction"
+type: "article"
+author: "B. Sari, S. E. Zeltmann, C. Zhao, P. M. Pelz, A. Javey, A. M. Minor, C. Ophus, M. C. Scott"
+year: "2023"
+publication: "ACS Nano 17, 22326-22333"
+preprint: ""
+doi: "10.1021/acsnano.3c04283"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - nanoparticles
+  - materials science
+  - machine learning
+  - physics
+---
+
+## Citation (APA 7)
+
+> Analysis of Strain and Defects in Tellurium-WSe<sub>2</sub> Moiré Heterostructures Using Scanning Nanodiffraction
+B. Sari, S. E. Zeltmann, C. Zhao, P. M. Pelz, A. Javey, A. M. Minor, C. Ophus, M. C. Scott
+ACS Nano 17, 22326-22333
+
+
+## Abstract
+
+In recent years, there has been an increasing focus on 2D nongraphene materials that range from insulators to semiconductors to metals. As a single-elemental van der Waals semiconductor, tellurium (Te) has captivating anisotropic physical properties. Recent work demonstrated growth of ultrathin Te on WSe2 with the atomic chains of Te aligned with the armchair directions of the substrate using physical vapor deposition (PVD). In this system, a moiré superlattice is formed where micrometer-scale Te flakes sit on top of the continuous WSe2 film. Here, we determined the precise orientation of the Te flakes with respect to the substrate and detailed structure of the resulting moiré lattice by combining electron microscopy with image simulations. We directly visualized the moiré lattice using center of mass-differential phase contrast (CoM-DPC). We also investigated the local strain within the Te/WSe2 layered materials using scanning nanodiffraction techniques. There is a significant tensile strain at the edges of flakes along the direction perpendicular to the Te chain direction, which is an indication of the preferred orientation for the growth of Te on WSe2. In addition, we observed local strain relaxation regions within the Te film, specifically attributed to misfit dislocations, which we characterize as having a screw-like nature. The detailed structural analysis gives insight into the growth mechanisms and strain relaxation in this moiré heterostructure.
+
+

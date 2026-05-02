@@ -1,0 +1,28 @@
+---
+title: "Scalable multicomponent spectral analysis for high-throughput data\n annotation"
+type: "article"
+author: "R. P. Xian, R. Ernstorfer, P. Pelz"
+year: "2021"
+publication: "arXiv (Cornell University)"
+preprint: ""
+doi: "10.48550/arxiv.2102.05604"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - research
+---
+
+## Citation (APA 7)
+
+> Scalable multicomponent spectral analysis for high-throughput data\n annotation
+R. P. Xian, R. Ernstorfer, P. Pelz
+arXiv (Cornell University)
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+

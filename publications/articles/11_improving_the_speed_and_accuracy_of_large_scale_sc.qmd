@@ -1,0 +1,31 @@
+---
+title: "Improving the Speed and Accuracy of Large-scale Scanning Transmission Electron Microscopy (STEM) Electron Scattering Simulations"
+type: "article"
+author: "C. Ophus, H. Brown, L. R. Dacosta, P. Pelz, J. Schwartz, R. Yalisove, R. Hovden, J. Ciston, B. Savitzky"
+year: "2020"
+publication: "Microscopy and Microanalysis 26, 456-458"
+preprint: ""
+doi: "10.1017/s1431927620014725"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - imaging
+  - computational
+  - physics
+---
+
+## Citation (APA 7)
+
+> Improving the Speed and Accuracy of Large-scale Scanning Transmission Electron Microscopy (STEM) Electron Scattering Simulations
+C. Ophus, H. Brown, L. R. Dacosta, P. Pelz, J. Schwartz, R. Yalisove, R. Hovden, J. Ciston, B. Savitzky
+Microscopy and Microanalysis 26, 456-458
+
+
+## Abstract
+
+In a scanning transmission electron microscopy (STEM) experiment, a converged electron probe is typically scanned across a sample in a 2D grid of probe positions. At each STEM probe position, various signal channels can be recorded. These include imaging modes concerned primarily with electron scattering, such as annular bright field (ABF), annular dark field (ADF), or segmented-detector differential phase contrast (DPC), where we use a few monolithic detectors that measure the number of electrons which are scattered to various angular ranges to produce 2D image outputs. We can also perform spectroscopy, by either electron energy loss spectroscopy (EELS) on the forward scattered inelastic electrons, or by energy dispersive X-ray (EDX) spectroscopy where x-rays produced by the STEM probe interacting with the sample is used to perform chemical mapping, both of which produce 3D datasets. And finally, modern high-speed electron detectors also allow us to measure a full 2D image of the forwarddiffracted STEM probe at each probe position, producing a 4D dataset often referred to as a 4D-STEM experiment [1]. In many of these experiments, performing a quantitative analysis of the results requires us to perform electron scattering simulations for every position of the scanned electron probe.
+
+

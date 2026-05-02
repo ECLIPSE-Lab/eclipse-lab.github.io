@@ -1,0 +1,31 @@
+---
+title: "Using Phase Contrast 4D-STEM to solve 3D Inorganic and Biological Nanostructures"
+type: "article"
+author: "C. Ophus, S. Ribet, G. Varnavides, P. M. Pelz"
+year: "2024"
+publication: "Microscopy and Microanalysis 30"
+preprint: ""
+doi: "10.1093/mam/ozae044.883"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - nanoparticles
+  - chemistry
+  - biology
+---
+
+## Citation (APA 7)
+
+> Using Phase Contrast 4D-STEM to solve 3D Inorganic and Biological Nanostructures
+C. Ophus, S. Ribet, G. Varnavides, P. M. Pelz
+Microscopy and Microanalysis 30
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+

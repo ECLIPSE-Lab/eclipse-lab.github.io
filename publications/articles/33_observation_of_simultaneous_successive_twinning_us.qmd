@@ -1,0 +1,29 @@
+---
+title: "Observation of Simultaneous Successive Twinning Using Atomic Electron Tomography"
+type: "article"
+author: "P. M. Pelz, C. Groschner, A. Bruefach, C. Ophus, M. C. Scott"
+year: "2023"
+publication: "Microscopy and Microanalysis 29, 707-708"
+preprint: ""
+doi: "10.1093/micmic/ozad067.348"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - tomography
+  - atomic resolution
+---
+
+## Citation (APA 7)
+
+> Observation of Simultaneous Successive Twinning Using Atomic Electron Tomography
+P. M. Pelz, C. Groschner, A. Bruefach, C. Ophus, M. C. Scott
+Microscopy and Microanalysis 29, 707-708
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+

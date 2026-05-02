@@ -1,0 +1,29 @@
+---
+title: "Identification of polytypism and their dislocations in bilayer MoS2 using correlative transmission electron microscopy and Raman spectroscopy"
+type: "article"
+author: "X. Zhou, T. Dierke, M. Wu, S. You, K. Götz, T. Unruh, P. Pelz, J. Will, J. Maultzsch, E. Spiecker"
+year: "2025"
+publication: "npj 2D Materials and Applications 9"
+preprint: ""
+doi: "10.1038/s41699-025-00575-z"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - imaging
+---
+
+## Citation (APA 7)
+
+> Identification of polytypism and their dislocations in bilayer MoS2 using correlative transmission electron microscopy and Raman spectroscopy
+X. Zhou, T. Dierke, M. Wu, S. You, K. Götz, T. Unruh, P. Pelz, J. Will, J. Maultzsch, E. Spiecker
+npj 2D Materials and Applications 9
+
+
+## Abstract
+
+Stacking orders and topological defects substantially influence the physical properties of 2D van der Waals (vdW) materials. However, the inherent features of 2D materials challenge the effectiveness of single characterization techniques in identifying stacking sequences, necessitating correlative approaches. Using bilayer MoS<sub>2</sub> as a benchmark, we differentiate its polytypism and specific dislocations through transmission electron microscopy (TEM) and Raman spectroscopy. Perfect and partial dislocations were revealed in TEM, which are closely linked to the stacking sequences, thus indirectly indicating the 2H and 3R polytypes. Quantitative analysis of reciprocal lattice from 3D electron diffraction and low-frequency Raman spectroscopy further validated these polytypes owing to their reliance on crystal symmetry. Surprisingly, we unexpectedly resolved both polytypes despite starting with 2H bulk crystal, pointing to a possible phase transition during mechanical exfoliation. The correlative TEM-Raman approach can be extended to other 2D materials, paving the way for property alteration via stacking and defect engineering.
+
+

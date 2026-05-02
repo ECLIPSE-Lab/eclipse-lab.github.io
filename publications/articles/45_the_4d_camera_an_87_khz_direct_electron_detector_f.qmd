@@ -1,0 +1,29 @@
+---
+title: "The 4D Camera: An 87 kHz Direct Electron Detector for Scanning/Transmission Electron Microscopy"
+type: "article"
+author: "P. Ercius, I. J. Johnson, P. Pelz, B. H. Savitzky, L. Hughes, H. G. Brown, S. E. Zeltmann, S. Hsu, C. C. S. Pedroso, B. E. Cohen, R. Ramesh, D. Paul, J. M. Joseph, T. Stezelberger, C. Czarnik, M. Lent, E. Fong, J. Ciston, M. C. Scott, C. Ophus, A. M. Minor, P. Denes"
+year: "2024"
+publication: "Microscopy and Microanalysis 30, 903-912"
+preprint: ""
+doi: "10.1093/mam/ozae086"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - imaging
+---
+
+## Citation (APA 7)
+
+> The 4D Camera: An 87 kHz Direct Electron Detector for Scanning/Transmission Electron Microscopy
+P. Ercius, I. J. Johnson, P. Pelz, B. H. Savitzky, L. Hughes, H. G. Brown, S. E. Zeltmann, S. Hsu, C. C. S. Pedroso, B. E. Cohen, R. Ramesh, D. Paul, J. M. Joseph, T. Stezelberger, C. Czarnik, M. Lent, E. Fong, J. Ciston, M. C. Scott, C. Ophus, A. M. Minor, P. Denes
+Microscopy and Microanalysis 30, 903-912
+
+
+## Abstract
+
+We describe the development, operation, and application of the 4D Camera—a 576 by 576 pixel active pixel sensor for scanning/transmission electron microscopy which operates at 87,000 Hz. The detector generates data at ∼480 Gbit/s which is captured by dedicated receiver computers with a parallelized software infrastructure that has been implemented to process the resulting 10–700 Gigabyte-sized raw datasets. The back illuminated detector provides the ability to detect single electron events at accelerating voltages from 30 to 300 kV. Through electron counting, the resulting sparse data sets are reduced in size by 10--300× compared to the raw data, and open-source sparsity-based processing algorithms offer rapid data analysis. The high frame rate allows for large and complex scanning diffraction experiments to be accomplished with typical scanning transmission electron microscopy scanning parameters.
+
+

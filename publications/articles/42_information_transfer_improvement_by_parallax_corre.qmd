@@ -1,0 +1,29 @@
+---
+title: "Information Transfer Improvement by Parallax Correction and Ptychography Reconstruction Applied to Large-Area 4D STEM Experiments"
+type: "article"
+author: "D. Stroppa, S. Ribet, G. Varnavides, C. Ophus, P. Pelz"
+year: "2024"
+publication: "BIO Web of Conferences 129, 04027"
+preprint: ""
+doi: "10.1051/bioconf/202412904027"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - ptychography
+  - electron microscopy
+---
+
+## Citation (APA 7)
+
+> Information Transfer Improvement by Parallax Correction and Ptychography Reconstruction Applied to Large-Area 4D STEM Experiments
+D. Stroppa, S. Ribet, G. Varnavides, C. Ophus, P. Pelz
+BIO Web of Conferences 129, 04027
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+

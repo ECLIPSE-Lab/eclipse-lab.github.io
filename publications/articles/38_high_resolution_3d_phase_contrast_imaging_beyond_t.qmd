@@ -1,0 +1,30 @@
+---
+title: "High-resolution 3D phase-contrast imaging beyond the depth of field limit via ptychographic multi-slice electron tomography"
+type: "article"
+author: "A. V. Romanov, M. G. Cho, M. Scott, C. Ophus, P. Pelz"
+year: "2023"
+publication: "arXiv (Cornell University)"
+preprint: ""
+doi: "10.48550/arxiv.2311.02580"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - ptychography
+  - tomography
+  - imaging
+---
+
+## Citation (APA 7)
+
+> High-resolution 3D phase-contrast imaging beyond the depth of field limit via ptychographic multi-slice electron tomography
+A. V. Romanov, M. G. Cho, M. Scott, C. Ophus, P. Pelz
+arXiv (Cornell University)
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+

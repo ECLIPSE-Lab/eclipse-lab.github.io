@@ -1,0 +1,30 @@
+---
+title: "Engineering Chiral Structures Through Strain Release: Electron Tomography Study of Twisted Nanowires"
+type: "article"
+author: "X. Song, A. Bruefach, P. M. Pelz, H. Devyldere, M. Scott"
+year: "2019"
+publication: "Microscopy and Microanalysis 25, 1804-1805"
+preprint: ""
+doi: "10.1017/s1431927619009759"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - tomography
+  - nanoparticles
+  - machine learning
+---
+
+## Citation (APA 7)
+
+> Engineering Chiral Structures Through Strain Release: Electron Tomography Study of Twisted Nanowires
+X. Song, A. Bruefach, P. M. Pelz, H. Devyldere, M. Scott
+Microscopy and Microanalysis 25, 1804-1805
+
+
+## Abstract
+
+Defects and strain play a strong role in material functionality on the nanoscale, but they are also important in directing the growth of many nanomaterials. For example, an axial screw dislocation is behind the asymmetric growth that creates many types of nanowires [1, 2]. In general, asymmetric nanomaterials are of technological interest due to their novel optoelectronic properties. Beyond individual properties, chiral and helical structures allow one to tune parameters such as diameter, helix pitch and spacing between individual helices. These hierarchical length scales create the capability to encode complementary properties in a single nanomaterial, such as tuning catalytic and optical properties for idealized photocatalysis. Coupled optical and plasmonic properties depend on material spacing, so the ability to create interlocking and tunable morphologies of helical structures holds great promise. However, before these materials can be widely implemented in technological applications, a better understanding of the factors that govern their synthetic routes must be developed.
+
+

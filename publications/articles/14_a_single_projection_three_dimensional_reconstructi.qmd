@@ -1,0 +1,31 @@
+---
+title: "A single-projection three-dimensional reconstruction algorithm for scanning transmission electron microscopy data"
+type: "article"
+author: "H. G. Brown, P. Pelz, S. Hsu, Z. Zhang, R. Ramesh, K. Inzani, E. Sheridan, S. M. Griffin, M. Schloz, T. C. Pekin, C. T. Koch, S. D. Findlay, L. J. Allen, M. Scott, C. Ophus, J. Ciston"
+year: "2020"
+publication: "arXiv (Cornell University)"
+preprint: ""
+doi: "10.48550/arxiv.2011.07652"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - software
+  - imaging
+  - computational
+---
+
+## Citation (APA 7)
+
+> A single-projection three-dimensional reconstruction algorithm for scanning transmission electron microscopy data
+H. G. Brown, P. Pelz, S. Hsu, Z. Zhang, R. Ramesh, K. Inzani, E. Sheridan, S. M. Griffin, M. Schloz, T. C. Pekin, C. T. Koch, S. D. Findlay, L. J. Allen, M. Scott, C. Ophus, J. Ciston
+arXiv (Cornell University)
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+
