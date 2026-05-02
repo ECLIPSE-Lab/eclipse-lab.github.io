@@ -13,8 +13,14 @@ toc: false
 categories:
   - ptychography
   - electron microscopy
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 0
+fwci: 0.00
+citation_percentile: 11.8
+oa_status: closed
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Information Transfer Improvement by Parallax Correction and Ptychography Reconstruction Applied to Fast Large-Area 4D STEM Experiments

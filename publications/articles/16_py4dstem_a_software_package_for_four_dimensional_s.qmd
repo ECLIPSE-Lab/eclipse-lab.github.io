@@ -15,8 +15,26 @@ categories:
   - software
   - imaging
   - journal article
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 295
+fwci: 34.80
+citation_percentile: 99.8
+is_top_1_percent: true
+is_top_10_percent: true
+is_oa: true
+oa_status: hybrid
+counts_by_year:
+  - [2019, 0]
+  - [2020, 1]
+  - [2021, 17]
+  - [2022, 32]
+  - [2023, 58]
+  - [2024, 83]
+  - [2025, 84]
+  - [2026, 20]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Py4DSTEM: A Software Package for Four-Dimensional Scanning Transmission Electron Microscopy Data Analysis

@@ -15,8 +15,24 @@ categories:
   - imaging
   - computational
   - physics
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 2
+fwci: 0.17
+citation_percentile: 46.3
+is_oa: true
+oa_status: bronze
+counts_by_year:
+  - [2014, 0]
+  - [2015, 0]
+  - [2016, 0]
+  - [2017, 0]
+  - [2018, 0]
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 2]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Improving the Speed and Accuracy of Large-scale Scanning Transmission Electron Microscopy (STEM) Electron Scattering Simulations

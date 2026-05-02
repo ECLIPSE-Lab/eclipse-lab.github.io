@@ -14,8 +14,15 @@ categories:
   - electron microscopy
   - nanoparticles
   - materials science
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 0
+fwci: 0.00
+citation_percentile: 10.0
+is_oa: true
+oa_status: diamond
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Towards in-situ 4D-STEM observation of texture evolution in nano-crystalline thin films

@@ -15,8 +15,25 @@ categories:
   - imaging
   - chemistry
   - journal article
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 43
+fwci: 3.23
+citation_percentile: 92.7
+is_top_10_percent: true
+is_oa: true
+oa_status: gold
+counts_by_year:
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 0]
+  - [2022, 1]
+  - [2023, 12]
+  - [2024, 16]
+  - [2025, 11]
+  - [2026, 3]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Observation of formation and local structures of metal-organic layers via complementary electron microscopy techniques

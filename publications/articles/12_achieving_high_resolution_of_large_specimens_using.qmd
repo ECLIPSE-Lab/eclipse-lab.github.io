@@ -12,8 +12,15 @@ project_page_url: ""
 toc: false
 categories:
   - tomography
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 0
+fwci: 0.00
+citation_percentile: 3.5
+is_oa: true
+oa_status: bronze
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Achieving High-resolution of Large Specimens Using Aberration-corrected Tomography

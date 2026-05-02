@@ -12,8 +12,25 @@ project_page_url: ""
 toc: false
 categories:
   - electron microscopy
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 37
+fwci: 7.23
+citation_percentile: 97.1
+is_top_10_percent: true
+is_oa: true
+oa_status: bronze
+counts_by_year:
+  - [2018, 0]
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 14]
+  - [2022, 13]
+  - [2023, 5]
+  - [2024, 3]
+  - [2025, 2]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > The 4D Camera – An 87 kHz Frame-rate Detector for Counted 4D-STEM Experiments

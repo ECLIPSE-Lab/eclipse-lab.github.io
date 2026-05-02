@@ -15,8 +15,24 @@ categories:
   - materials science
   - machine learning
   - physics
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 16
+fwci: 1.49
+citation_percentile: 81.1
+is_oa: true
+oa_status: hybrid
+counts_by_year:
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 0]
+  - [2022, 0]
+  - [2023, 0]
+  - [2024, 3]
+  - [2025, 8]
+  - [2026, 5]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Analysis of Strain and Defects in Tellurium-WSe<sub>2</sub> Moiré Heterostructures Using Scanning Nanodiffraction

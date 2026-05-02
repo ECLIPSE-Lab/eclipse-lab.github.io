@@ -1,0 +1,2319 @@
+{
+  "count": 50,
+  "generated_at": "2026-05-02T16:15:23Z",
+  "metrics": {
+    "10.1016/j.micron.2021.103141": {
+      "citation_percentile": 99.06432699999999,
+      "cited_by_count": 94,
+      "counts_by_year": [
+        {
+          "cited_by_count": 3,
+          "year": 2026
+        },
+        {
+          "cited_by_count": 20,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 20,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 17,
+          "year": 2023
+        },
+        {
+          "cited_by_count": 27,
+          "year": 2022
+        },
+        {
+          "cited_by_count": 6,
+          "year": 2021
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2020
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          1
+        ],
+        [
+          2021,
+          6
+        ],
+        [
+          2022,
+          27
+        ],
+        [
+          2023,
+          17
+        ],
+        [
+          2024,
+          20
+        ],
+        [
+          2025,
+          20
+        ],
+        [
+          2026,
+          3
+        ]
+      ],
+      "fwci": 12.8199,
+      "is_oa": true,
+      "is_top_10_percent": true,
+      "is_top_1_percent": true,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "hybrid"
+    },
+    "10.1017/s1431927619000783": {
+      "citation_percentile": 85.735513,
+      "cited_by_count": 12,
+      "counts_by_year": [
+        {
+          "cited_by_count": 1,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 3,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2023
+        },
+        {
+          "cited_by_count": 3,
+          "year": 2022
+        },
+        {
+          "cited_by_count": 2,
+          "year": 2021
+        },
+        {
+          "cited_by_count": 2,
+          "year": 2020
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          2
+        ],
+        [
+          2021,
+          2
+        ],
+        [
+          2022,
+          3
+        ],
+        [
+          2023,
+          1
+        ],
+        [
+          2024,
+          3
+        ],
+        [
+          2025,
+          1
+        ]
+      ],
+      "fwci": 1.192,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "bronze"
+    },
+    "10.1017/s1431927619001028": {
+      "citation_percentile": 74.740758,
+      "cited_by_count": 7,
+      "counts_by_year": [
+        {
+          "cited_by_count": 4,
+          "year": 2023
+        },
+        {
+          "cited_by_count": 3,
+          "year": 2021
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2016,
+          0
+        ],
+        [
+          2017,
+          0
+        ],
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          3
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          4
+        ]
+      ],
+      "fwci": 0.9015,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "bronze"
+    },
+    "10.1017/s1431927619001090": {
+      "citation_percentile": 81.217309,
+      "cited_by_count": 4,
+      "counts_by_year": [
+        {
+          "cited_by_count": 1,
+          "year": 2026
+        },
+        {
+          "cited_by_count": 2,
+          "year": 2021
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2020
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          1
+        ],
+        [
+          2021,
+          2
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          0
+        ],
+        [
+          2024,
+          0
+        ],
+        [
+          2025,
+          0
+        ],
+        [
+          2026,
+          1
+        ]
+      ],
+      "fwci": 0.525,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "bronze"
+    },
+    "10.1017/s1431927619002708": {
+      "citation_percentile": 5.745419,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": 0.0,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "bronze"
+    },
+    "10.1017/s1431927619009759": {
+      "citation_percentile": 42.599396,
+      "cited_by_count": 1,
+      "counts_by_year": [
+        {
+          "cited_by_count": 1,
+          "year": 2020
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2013,
+          0
+        ],
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          0
+        ],
+        [
+          2016,
+          0
+        ],
+        [
+          2017,
+          0
+        ],
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          1
+        ]
+      ],
+      "fwci": 0.0978,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "bronze"
+    },
+    "10.1017/s1431927620014725": {
+      "citation_percentile": 46.302587,
+      "cited_by_count": 2,
+      "counts_by_year": [
+        {
+          "cited_by_count": 2,
+          "year": 2021
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          0
+        ],
+        [
+          2016,
+          0
+        ],
+        [
+          2017,
+          0
+        ],
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          2
+        ]
+      ],
+      "fwci": 0.1729,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "bronze"
+    },
+    "10.1017/s1431927620014749": {
+      "citation_percentile": 65.813654,
+      "cited_by_count": 2,
+      "counts_by_year": [
+        {
+          "cited_by_count": 2,
+          "year": 2021
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          0
+        ],
+        [
+          2016,
+          0
+        ],
+        [
+          2017,
+          0
+        ],
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          2
+        ]
+      ],
+      "fwci": 0.5148,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "bronze"
+    },
+    "10.1017/s1431927620019625": {
+      "citation_percentile": 3.5161739999999995,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": 0.0,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "bronze"
+    },
+    "10.1017/s1431927620019753": {
+      "citation_percentile": 97.120279,
+      "cited_by_count": 37,
+      "counts_by_year": [
+        {
+          "cited_by_count": 2,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 3,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 5,
+          "year": 2023
+        },
+        {
+          "cited_by_count": 13,
+          "year": 2022
+        },
+        {
+          "cited_by_count": 14,
+          "year": 2021
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          14
+        ],
+        [
+          2022,
+          13
+        ],
+        [
+          2023,
+          5
+        ],
+        [
+          2024,
+          3
+        ],
+        [
+          2025,
+          2
+        ]
+      ],
+      "fwci": 7.2273,
+      "is_oa": true,
+      "is_top_10_percent": true,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "bronze"
+    },
+    "10.1017/s1431927621000477": {
+      "citation_percentile": 99.766082,
+      "cited_by_count": 295,
+      "counts_by_year": [
+        {
+          "cited_by_count": 20,
+          "year": 2026
+        },
+        {
+          "cited_by_count": 84,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 83,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 58,
+          "year": 2023
+        },
+        {
+          "cited_by_count": 32,
+          "year": 2022
+        },
+        {
+          "cited_by_count": 17,
+          "year": 2021
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2020
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          1
+        ],
+        [
+          2021,
+          17
+        ],
+        [
+          2022,
+          32
+        ],
+        [
+          2023,
+          58
+        ],
+        [
+          2024,
+          83
+        ],
+        [
+          2025,
+          84
+        ],
+        [
+          2026,
+          20
+        ]
+      ],
+      "fwci": 34.7969,
+      "is_oa": true,
+      "is_top_10_percent": true,
+      "is_top_1_percent": true,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "hybrid"
+    },
+    "10.1017/s1431927621000490": {
+      "citation_percentile": 86.432749,
+      "cited_by_count": 9,
+      "counts_by_year": [
+        {
+          "cited_by_count": 1,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 2,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 3,
+          "year": 2023
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2022
+        },
+        {
+          "cited_by_count": 2,
+          "year": 2021
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          2
+        ],
+        [
+          2022,
+          1
+        ],
+        [
+          2023,
+          3
+        ],
+        [
+          2024,
+          2
+        ],
+        [
+          2025,
+          1
+        ]
+      ],
+      "fwci": 1.4651,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "green"
+    },
+    "10.1017/s1431927621000635": {
+      "citation_percentile": 5.826836,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": 0.0,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "bronze"
+    },
+    "10.1017/s1431927621001288": {
+      "citation_percentile": 82.481562,
+      "cited_by_count": 6,
+      "counts_by_year": [
+        {
+          "cited_by_count": 1,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2023
+        },
+        {
+          "cited_by_count": 3,
+          "year": 2022
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2021
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2017,
+          0
+        ],
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          1
+        ],
+        [
+          2022,
+          3
+        ],
+        [
+          2023,
+          1
+        ],
+        [
+          2024,
+          1
+        ]
+      ],
+      "fwci": 1.6426,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "bronze"
+    },
+    "10.1017/s1431927621004773": {
+      "citation_percentile": 6.565448999999999,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": 0.0,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "bronze"
+    },
+    "10.1017/s1431927621005638": {
+      "citation_percentile": 10.476441,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": 0.0,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "bronze"
+    },
+    "10.1017/s1431927621012083": {
+      "citation_percentile": 90.29239799999999,
+      "cited_by_count": 16,
+      "counts_by_year": [
+        {
+          "cited_by_count": 2,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 4,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 3,
+          "year": 2023
+        },
+        {
+          "cited_by_count": 5,
+          "year": 2022
+        },
+        {
+          "cited_by_count": 2,
+          "year": 2021
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          2
+        ],
+        [
+          2022,
+          5
+        ],
+        [
+          2023,
+          3
+        ],
+        [
+          2024,
+          4
+        ],
+        [
+          2025,
+          2
+        ]
+      ],
+      "fwci": 2.564,
+      "is_oa": true,
+      "is_top_10_percent": true,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "hybrid"
+    },
+    "10.1017/s1431927622002288": {
+      "citation_percentile": 74.721397,
+      "cited_by_count": 4,
+      "counts_by_year": [
+        {
+          "cited_by_count": 1,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 3,
+          "year": 2023
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2017,
+          0
+        ],
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          3
+        ],
+        [
+          2024,
+          1
+        ]
+      ],
+      "fwci": 1.0552,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "bronze"
+    },
+    "10.1017/s1431927622009576": {
+      "citation_percentile": 9.426077,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": 0.0,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "bronze"
+    },
+    "10.1017/s1431927622012090": {
+      "citation_percentile": 71.333907,
+      "cited_by_count": 13,
+      "counts_by_year": [
+        {
+          "cited_by_count": 1,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 6,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 3,
+          "year": 2023
+        },
+        {
+          "cited_by_count": 3,
+          "year": 2022
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          3
+        ],
+        [
+          2023,
+          3
+        ],
+        [
+          2024,
+          6
+        ],
+        [
+          2025,
+          1
+        ]
+      ],
+      "fwci": 0.98,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "green"
+    },
+    "10.1021/acsnano.1c07772": {
+      "citation_percentile": 93.489279,
+      "cited_by_count": 24,
+      "counts_by_year": [
+        {
+          "cited_by_count": 4,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 7,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 6,
+          "year": 2023
+        },
+        {
+          "cited_by_count": 7,
+          "year": 2022
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          7
+        ],
+        [
+          2023,
+          6
+        ],
+        [
+          2024,
+          7
+        ],
+        [
+          2025,
+          4
+        ]
+      ],
+      "fwci": 3.6628,
+      "is_oa": true,
+      "is_top_10_percent": true,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "green"
+    },
+    "10.1021/acsnano.3c04283": {
+      "citation_percentile": 81.105458,
+      "cited_by_count": 16,
+      "counts_by_year": [
+        {
+          "cited_by_count": 5,
+          "year": 2026
+        },
+        {
+          "cited_by_count": 8,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 3,
+          "year": 2024
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          0
+        ],
+        [
+          2024,
+          3
+        ],
+        [
+          2025,
+          8
+        ],
+        [
+          2026,
+          5
+        ]
+      ],
+      "fwci": 1.4873,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "hybrid"
+    },
+    "10.1021/jacs.3c05299": {
+      "citation_percentile": 90.606493,
+      "cited_by_count": 28,
+      "counts_by_year": [
+        {
+          "cited_by_count": 4,
+          "year": 2026
+        },
+        {
+          "cited_by_count": 10,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 14,
+          "year": 2024
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          0
+        ],
+        [
+          2024,
+          14
+        ],
+        [
+          2025,
+          10
+        ],
+        [
+          2026,
+          4
+        ]
+      ],
+      "fwci": 2.6028,
+      "is_oa": true,
+      "is_top_10_percent": true,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "green"
+    },
+    "10.1021/jacs.5c12614": {
+      "citation_percentile": 61.081111,
+      "cited_by_count": 1,
+      "counts_by_year": [
+        {
+          "cited_by_count": 1,
+          "year": 2026
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          0
+        ],
+        [
+          2024,
+          0
+        ],
+        [
+          2025,
+          0
+        ],
+        [
+          2026,
+          1
+        ]
+      ],
+      "fwci": 0.3812,
+      "is_oa": false,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "closed"
+    },
+    "10.1038/s41467-022-32330-z": {
+      "citation_percentile": 92.685315,
+      "cited_by_count": 43,
+      "counts_by_year": [
+        {
+          "cited_by_count": 3,
+          "year": 2026
+        },
+        {
+          "cited_by_count": 11,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 16,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 12,
+          "year": 2023
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2022
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          1
+        ],
+        [
+          2023,
+          12
+        ],
+        [
+          2024,
+          16
+        ],
+        [
+          2025,
+          11
+        ],
+        [
+          2026,
+          3
+        ]
+      ],
+      "fwci": 3.2307,
+      "is_oa": true,
+      "is_top_10_percent": true,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "gold"
+    },
+    "10.1038/s41467-023-39304-9": {
+      "citation_percentile": 96.462639,
+      "cited_by_count": 26,
+      "counts_by_year": [
+        {
+          "cited_by_count": 3,
+          "year": 2026
+        },
+        {
+          "cited_by_count": 12,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 10,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2023
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          1
+        ],
+        [
+          2024,
+          10
+        ],
+        [
+          2025,
+          12
+        ],
+        [
+          2026,
+          3
+        ]
+      ],
+      "fwci": 7.0014,
+      "is_oa": true,
+      "is_top_10_percent": true,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "gold"
+    },
+    "10.1038/s41467-023-43634-z": {
+      "citation_percentile": 99.509804,
+      "cited_by_count": 48,
+      "counts_by_year": [
+        {
+          "cited_by_count": 3,
+          "year": 2026
+        },
+        {
+          "cited_by_count": 25,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 16,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 4,
+          "year": 2023
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          4
+        ],
+        [
+          2024,
+          16
+        ],
+        [
+          2025,
+          25
+        ],
+        [
+          2026,
+          3
+        ]
+      ],
+      "fwci": 16.569,
+      "is_oa": true,
+      "is_top_10_percent": true,
+      "is_top_1_percent": true,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "gold"
+    },
+    "10.1038/s41598-017-07488-y": {
+      "citation_percentile": 98.01394,
+      "cited_by_count": 83,
+      "counts_by_year": [
+        {
+          "cited_by_count": 1,
+          "year": 2026
+        },
+        {
+          "cited_by_count": 9,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 11,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 20,
+          "year": 2023
+        },
+        {
+          "cited_by_count": 11,
+          "year": 2022
+        },
+        {
+          "cited_by_count": 7,
+          "year": 2021
+        },
+        {
+          "cited_by_count": 7,
+          "year": 2020
+        },
+        {
+          "cited_by_count": 10,
+          "year": 2019
+        },
+        {
+          "cited_by_count": 6,
+          "year": 2018
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2017
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2019,
+          10
+        ],
+        [
+          2020,
+          7
+        ],
+        [
+          2021,
+          7
+        ],
+        [
+          2022,
+          11
+        ],
+        [
+          2023,
+          20
+        ],
+        [
+          2024,
+          11
+        ],
+        [
+          2025,
+          9
+        ],
+        [
+          2026,
+          1
+        ]
+      ],
+      "fwci": 8.1463,
+      "is_oa": true,
+      "is_top_10_percent": true,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "gold"
+    },
+    "10.1038/s41699-025-00575-z": {
+      "citation_percentile": 72.927215,
+      "cited_by_count": 2,
+      "counts_by_year": [
+        {
+          "cited_by_count": 2,
+          "year": 2026
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          0
+        ],
+        [
+          2024,
+          0
+        ],
+        [
+          2025,
+          0
+        ],
+        [
+          2026,
+          2
+        ]
+      ],
+      "fwci": 0.9002,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "gold"
+    },
+    "10.1051/bioconf/202412904027": {
+      "citation_percentile": 26.459961,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": 0.0,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "diamond"
+    },
+    "10.1051/bioconf/202412907006": {
+      "citation_percentile": 9.965896,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": 0.0,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "diamond"
+    },
+    "10.1063/1.4904943": {
+      "citation_percentile": 98.813479,
+      "cited_by_count": 137,
+      "counts_by_year": [
+        {
+          "cited_by_count": 2,
+          "year": 2026
+        },
+        {
+          "cited_by_count": 8,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 10,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 9,
+          "year": 2023
+        },
+        {
+          "cited_by_count": 11,
+          "year": 2022
+        },
+        {
+          "cited_by_count": 7,
+          "year": 2021
+        },
+        {
+          "cited_by_count": 16,
+          "year": 2020
+        },
+        {
+          "cited_by_count": 26,
+          "year": 2019
+        },
+        {
+          "cited_by_count": 19,
+          "year": 2018
+        },
+        {
+          "cited_by_count": 15,
+          "year": 2017
+        },
+        {
+          "cited_by_count": 8,
+          "year": 2016
+        },
+        {
+          "cited_by_count": 5,
+          "year": 2015
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2014
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2019,
+          26
+        ],
+        [
+          2020,
+          16
+        ],
+        [
+          2021,
+          7
+        ],
+        [
+          2022,
+          11
+        ],
+        [
+          2023,
+          9
+        ],
+        [
+          2024,
+          10
+        ],
+        [
+          2025,
+          8
+        ],
+        [
+          2026,
+          2
+        ]
+      ],
+      "fwci": 11.5705,
+      "is_oa": false,
+      "is_top_10_percent": true,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "closed"
+    },
+    "10.1088/1402-4896/ad9a1a": {
+      "citation_percentile": 96.486942,
+      "cited_by_count": 9,
+      "counts_by_year": [
+        {
+          "cited_by_count": 7,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 2,
+          "year": 2024
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          0
+        ],
+        [
+          2024,
+          2
+        ],
+        [
+          2025,
+          7
+        ]
+      ],
+      "fwci": 5.2444,
+      "is_oa": true,
+      "is_top_10_percent": true,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "hybrid"
+    },
+    "10.1088/2515-7639/acf524": {
+      "citation_percentile": 79.899835,
+      "cited_by_count": 10,
+      "counts_by_year": [
+        {
+          "cited_by_count": 1,
+          "year": 2026
+        },
+        {
+          "cited_by_count": 3,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 6,
+          "year": 2024
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          0
+        ],
+        [
+          2024,
+          6
+        ],
+        [
+          2025,
+          3
+        ],
+        [
+          2026,
+          1
+        ]
+      ],
+      "fwci": 1.2734,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "gold"
+    },
+    "10.1088/2515-7639/ad9ad2": {
+      "citation_percentile": 92.500952,
+      "cited_by_count": 6,
+      "counts_by_year": [
+        {
+          "cited_by_count": 6,
+          "year": 2025
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          0
+        ],
+        [
+          2024,
+          0
+        ],
+        [
+          2025,
+          6
+        ]
+      ],
+      "fwci": 3.0166,
+      "is_oa": true,
+      "is_top_10_percent": true,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "gold"
+    },
+    "10.1093/mam/ozae044.149": {
+      "citation_percentile": 11.842777,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": 0.0,
+      "is_oa": false,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "closed"
+    },
+    "10.1093/mam/ozae044.883": {
+      "citation_percentile": 4.810726,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": 0.0,
+      "is_oa": false,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "closed"
+    },
+    "10.1093/mam/ozae086": {
+      "citation_percentile": 96.01288799999999,
+      "cited_by_count": 29,
+      "counts_by_year": [
+        {
+          "cited_by_count": 7,
+          "year": 2026
+        },
+        {
+          "cited_by_count": 19,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 2,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2023
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          1
+        ],
+        [
+          2024,
+          2
+        ],
+        [
+          2025,
+          19
+        ],
+        [
+          2026,
+          7
+        ]
+      ],
+      "fwci": 4.7743,
+      "is_oa": true,
+      "is_top_10_percent": true,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "hybrid"
+    },
+    "10.1093/micmic/ozad067.348": {
+      "citation_percentile": 9.183994,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": 0.0,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "bronze"
+    },
+    "10.1093/micmic/ozad068": {
+      "citation_percentile": 92.888359,
+      "cited_by_count": 13,
+      "counts_by_year": [
+        {
+          "cited_by_count": 3,
+          "year": 2026
+        },
+        {
+          "cited_by_count": 4,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 6,
+          "year": 2024
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          0
+        ],
+        [
+          2024,
+          6
+        ],
+        [
+          2025,
+          4
+        ],
+        [
+          2026,
+          3
+        ]
+      ],
+      "fwci": 3.5021,
+      "is_oa": true,
+      "is_top_10_percent": true,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "hybrid"
+    },
+    "10.1103/physreva.89.013403": {
+      "citation_percentile": 93.588083,
+      "cited_by_count": 50,
+      "counts_by_year": [
+        {
+          "cited_by_count": 3,
+          "year": 2026
+        },
+        {
+          "cited_by_count": 3,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 3,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2023
+        },
+        {
+          "cited_by_count": 6,
+          "year": 2022
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2021
+        },
+        {
+          "cited_by_count": 8,
+          "year": 2020
+        },
+        {
+          "cited_by_count": 4,
+          "year": 2019
+        },
+        {
+          "cited_by_count": 4,
+          "year": 2018
+        },
+        {
+          "cited_by_count": 8,
+          "year": 2017
+        },
+        {
+          "cited_by_count": 5,
+          "year": 2016
+        },
+        {
+          "cited_by_count": 3,
+          "year": 2015
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2014
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2019,
+          4
+        ],
+        [
+          2020,
+          8
+        ],
+        [
+          2021,
+          1
+        ],
+        [
+          2022,
+          6
+        ],
+        [
+          2023,
+          1
+        ],
+        [
+          2024,
+          3
+        ],
+        [
+          2025,
+          3
+        ],
+        [
+          2026,
+          3
+        ]
+      ],
+      "fwci": 3.7059,
+      "is_oa": true,
+      "is_top_10_percent": true,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "bronze"
+    },
+    "10.1103/physrevresearch.3.023159": {
+      "citation_percentile": 95.799189,
+      "cited_by_count": 19,
+      "counts_by_year": [
+        {
+          "cited_by_count": 1,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 7,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 4,
+          "year": 2023
+        },
+        {
+          "cited_by_count": 5,
+          "year": 2022
+        },
+        {
+          "cited_by_count": 2,
+          "year": 2021
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          2
+        ],
+        [
+          2022,
+          5
+        ],
+        [
+          2023,
+          4
+        ],
+        [
+          2024,
+          7
+        ],
+        [
+          2025,
+          1
+        ]
+      ],
+      "fwci": 4.8143,
+      "is_oa": true,
+      "is_top_10_percent": true,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "gold"
+    },
+    "10.1107/s2053273323085297": {
+      "citation_percentile": 21.787257,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": 0.0,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "bronze"
+    },
+    "10.1107/s2053273323093609": {
+      "citation_percentile": 21.946282,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": 0.0,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "bronze"
+    },
+    "10.1109/msp.2021.3120981": {
+      "citation_percentile": 93.46199299999999,
+      "cited_by_count": 24,
+      "counts_by_year": [
+        {
+          "cited_by_count": 4,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 4,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 11,
+          "year": 2023
+        },
+        {
+          "cited_by_count": 5,
+          "year": 2022
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          5
+        ],
+        [
+          2023,
+          11
+        ],
+        [
+          2024,
+          4
+        ],
+        [
+          2025,
+          4
+        ]
+      ],
+      "fwci": 3.6418,
+      "is_oa": true,
+      "is_top_10_percent": true,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "green"
+    },
+    "10.48550/arxiv.2008.12768": {
+      "citation_percentile": null,
+      "cited_by_count": 6,
+      "counts_by_year": [
+        {
+          "cited_by_count": 5,
+          "year": 2021
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2020
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2014,
+          0
+        ],
+        [
+          2015,
+          0
+        ],
+        [
+          2016,
+          0
+        ],
+        [
+          2017,
+          0
+        ],
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          1
+        ],
+        [
+          2021,
+          5
+        ]
+      ],
+      "fwci": null,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "green"
+    },
+    "10.48550/arxiv.2011.07652": {
+      "citation_percentile": null,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": null,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "green"
+    },
+    "10.48550/arxiv.2102.05604": {
+      "citation_percentile": null,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": null,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "green"
+    },
+    "10.48550/arxiv.2311.02580": {
+      "citation_percentile": null,
+      "cited_by_count": 1,
+      "counts_by_year": [
+        {
+          "cited_by_count": 1,
+          "year": 2025
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2018,
+          0
+        ],
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          0
+        ],
+        [
+          2024,
+          0
+        ],
+        [
+          2025,
+          1
+        ]
+      ],
+      "fwci": null,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "green"
+    },
+    "10.48550/arxiv.2512.19460": {
+      "citation_percentile": null,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": null,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "metrics_updated": "2026-05-02T16:15:23Z",
+      "oa_status": "green"
+    }
+  },
+  "source": "openalex"
+}

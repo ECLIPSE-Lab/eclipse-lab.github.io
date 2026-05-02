@@ -16,8 +16,26 @@ categories:
   - imaging
   - computational
   - journal article
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 94
+fwci: 12.82
+citation_percentile: 99.1
+is_top_1_percent: true
+is_top_10_percent: true
+is_oa: true
+oa_status: hybrid
+counts_by_year:
+  - [2019, 0]
+  - [2020, 1]
+  - [2021, 6]
+  - [2022, 27]
+  - [2023, 17]
+  - [2024, 20]
+  - [2025, 20]
+  - [2026, 3]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Prismatic 2.0 – Simulation software for scanning and high resolution transmission electron microscopy (STEM and HRTEM)

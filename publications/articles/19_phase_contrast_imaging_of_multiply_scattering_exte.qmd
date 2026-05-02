@@ -15,8 +15,25 @@ categories:
   - imaging
   - physics
   - journal article
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 19
+fwci: 4.81
+citation_percentile: 95.8
+is_top_10_percent: true
+is_oa: true
+oa_status: gold
+counts_by_year:
+  - [2018, 0]
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 2]
+  - [2022, 5]
+  - [2023, 4]
+  - [2024, 7]
+  - [2025, 1]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Phase-contrast imaging of multiply-scattering extended objects at atomic resolution by reconstruction of the scattering matrix

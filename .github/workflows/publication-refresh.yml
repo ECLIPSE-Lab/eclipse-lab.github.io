@@ -41,6 +41,9 @@ jobs:
           WOS_API_KEY: ${{ secrets.WOS_API_KEY }}
         run: python generate_publications.py
 
+      - name: Refresh citation metrics (OpenAlex)
+        run: python fetch_citation_metrics.py
+
       - name: Render site
         run: quarto render
 

@@ -13,8 +13,25 @@ toc: false
 categories:
   - electron microscopy
   - imaging
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 29
+fwci: 4.77
+citation_percentile: 96.0
+is_top_10_percent: true
+is_oa: true
+oa_status: hybrid
+counts_by_year:
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 0]
+  - [2022, 0]
+  - [2023, 1]
+  - [2024, 2]
+  - [2025, 19]
+  - [2026, 7]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > The 4D Camera: An 87 kHz Direct Electron Detector for Scanning/Transmission Electron Microscopy

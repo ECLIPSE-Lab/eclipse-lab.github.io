@@ -15,8 +15,14 @@ categories:
   - nanoparticles
   - chemistry
   - biology
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 0
+fwci: 0.00
+citation_percentile: 4.8
+oa_status: closed
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Using Phase Contrast 4D-STEM to solve 3D Inorganic and Biological Nanostructures

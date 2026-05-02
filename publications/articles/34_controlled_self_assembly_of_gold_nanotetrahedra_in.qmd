@@ -13,8 +13,25 @@ toc: false
 categories:
   - nanoparticles
   - materials science
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 28
+fwci: 2.60
+citation_percentile: 90.6
+is_top_10_percent: true
+is_oa: true
+oa_status: green
+counts_by_year:
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 0]
+  - [2022, 0]
+  - [2023, 0]
+  - [2024, 14]
+  - [2025, 10]
+  - [2026, 4]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Controlled Self-Assembly of Gold Nanotetrahedra into Quasicrystals and Complex Periodic Supracrystals

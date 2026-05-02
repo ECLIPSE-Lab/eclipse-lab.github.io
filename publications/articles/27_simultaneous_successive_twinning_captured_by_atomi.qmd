@@ -14,8 +14,25 @@ categories:
   - tomography
   - atomic resolution
   - journal article
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 24
+fwci: 3.66
+citation_percentile: 93.5
+is_top_10_percent: true
+is_oa: true
+oa_status: green
+counts_by_year:
+  - [2018, 0]
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 0]
+  - [2022, 7]
+  - [2023, 6]
+  - [2024, 7]
+  - [2025, 4]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Simultaneous Successive Twinning Captured by Atomic Electron Tomography

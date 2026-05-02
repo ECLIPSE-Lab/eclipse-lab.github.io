@@ -15,8 +15,25 @@ categories:
   - tomography
   - imaging
   - journal article
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 6
+fwci: 3.02
+citation_percentile: 92.5
+is_top_10_percent: true
+is_oa: true
+oa_status: gold
+counts_by_year:
+  - [2018, 0]
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 0]
+  - [2022, 0]
+  - [2023, 0]
+  - [2024, 0]
+  - [2025, 6]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Multi-slice electron ptychographic tomography for three-dimensional phase-contrast microscopy beyond the depth of focus limits

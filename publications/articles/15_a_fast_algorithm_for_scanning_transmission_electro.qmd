@@ -17,8 +17,25 @@ categories:
   - computational
   - physics
   - journal article
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 16
+fwci: 2.56
+citation_percentile: 90.3
+is_top_10_percent: true
+is_oa: true
+oa_status: hybrid
+counts_by_year:
+  - [2018, 0]
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 2]
+  - [2022, 5]
+  - [2023, 3]
+  - [2024, 4]
+  - [2025, 2]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > A Fast Algorithm for Scanning Transmission Electron Microscopy Imaging and 4D-STEM Diffraction Simulations

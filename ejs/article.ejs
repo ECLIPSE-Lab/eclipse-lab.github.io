@@ -1,4 +1,3 @@
-
 ```{=html}
 <ul class="pub-list list">
 <% for (const item of items) { %>
@@ -7,6 +6,81 @@
     <span class="listing-author"><%= item.author %></span><br />
     <span class="listing-publication fst-italic "><%= item.publication %></span>
     <span class="listing-year">(<%= item.year %>)</span><br />
+
+    <%
+      // ---- citation metrics row (rendered only when data present) ----
+      const cited = (item.cited_by_count !== undefined && item.cited_by_count !== null) ? Number(item.cited_by_count) : null;
+      const fwci = (item.fwci !== undefined && item.fwci !== null) ? Number(item.fwci) : null;
+      const isTop1 = item.is_top_1_percent === true || item.is_top_1_percent === "true";
+      const isTop10 = item.is_top_10_percent === true || item.is_top_10_percent === "true";
+      const isOA = item.is_oa === true || item.is_oa === "true";
+      const oaStatus = item.oa_status || "";
+
+      // counts_by_year may arrive as array of [year, count] tuples (YAML flow seq) or array of arrays.
+      let yearly = Array.isArray(item.counts_by_year) ? item.counts_by_year : [];
+      // normalize: each entry should be [year, count]
+      yearly = yearly
+        .map(p => Array.isArray(p) ? [Number(p[0]), Number(p[1])] : null)
+        .filter(p => p && !Number.isNaN(p[0]) && !Number.isNaN(p[1]));
+
+      const hasMetrics = cited !== null || fwci !== null || yearly.length > 0 || isOA;
+      const sparkMax = yearly.length ? Math.max(1, ...yearly.map(p => p[1])) : 0;
+    %>
+
+    <% if (hasMetrics) { %>
+    <div class="pub-metrics">
+      <% if (cited !== null) { %>
+      <span class="metric metric-citations" title="Total citations (OpenAlex)">
+        <i class="bi bi-quote"></i>
+        <span class="metric-value"><%= cited %></span>
+        <span class="metric-label">cit<%= cited === 1 ? "" : "s" %></span>
+      </span>
+      <% } %>
+
+      <% if (yearly.length > 0 && sparkMax > 0) { %>
+      <span class="metric metric-spark" title="Citations per year (last <%= yearly.length %> years)">
+        <span class="spark">
+          <% for (const [yr, ct] of yearly) { %>
+            <% const h = Math.max(6, Math.round((ct / sparkMax) * 100)); %>
+            <span class="spark-bar" style="height: <%= h %>%;" data-year="<%= yr %>" data-count="<%= ct %>"></span>
+          <% } %>
+        </span>
+      </span>
+      <% } %>
+
+      <% if (fwci !== null && fwci >= 1.5) { %>
+      <span class="metric metric-fwci" title="Field-Weighted Citation Impact (1.0 = field average)">
+        <i class="bi bi-graph-up-arrow"></i>
+        <%= fwci.toFixed(1) %>× field avg
+      </span>
+      <% } %>
+
+      <% if (isTop1) { %>
+      <span class="metric metric-top1" title="Top 1% most-cited in field">
+        <i class="bi bi-trophy-fill"></i> Top 1%
+      </span>
+      <% } else if (isTop10) { %>
+      <span class="metric metric-top10" title="Top 10% most-cited in field">
+        <i class="bi bi-award-fill"></i> Top 10%
+      </span>
+      <% } %>
+
+      <% if (isOA) { %>
+      <span class="metric metric-oa metric-oa-<%= oaStatus %>" title="Open Access<%= oaStatus ? ' (' + oaStatus + ')' : '' %>">
+        <i class="bi bi-unlock-fill"></i> Open Access
+      </span>
+      <% } %>
+
+      <% if (item.doi) { %>
+      <span class="altmetric-embed metric-altmetric"
+            data-badge-type="donut"
+            data-badge-popover="left"
+            data-hide-no-mentions="true"
+            data-doi="<%- item.doi %>"></span>
+      <% } %>
+    </div>
+    <% } %>
+
     <a href="<%- item.path %>" class="btn btn-primary">
       Details
     </a>
@@ -39,4 +113,5 @@
 <% } %>
 </ul>
 
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 ```

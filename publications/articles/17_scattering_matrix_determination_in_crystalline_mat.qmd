@@ -16,8 +16,24 @@ categories:
   - imaging
   - physics
   - journal article
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 9
+fwci: 1.47
+citation_percentile: 86.4
+is_oa: true
+oa_status: green
+counts_by_year:
+  - [2018, 0]
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 2]
+  - [2022, 1]
+  - [2023, 3]
+  - [2024, 2]
+  - [2025, 1]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Scattering Matrix Determination in Crystalline Materials from 4D Scanning Transmission Electron Microscopy at a Single Defocus Value

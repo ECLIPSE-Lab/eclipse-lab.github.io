@@ -14,8 +14,25 @@ categories:
   - ptychography
   - cryo-EM
   - journal article
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 83
+fwci: 8.15
+citation_percentile: 98.0
+is_top_10_percent: true
+is_oa: true
+oa_status: gold
+counts_by_year:
+  - [2019, 10]
+  - [2020, 7]
+  - [2021, 7]
+  - [2022, 11]
+  - [2023, 20]
+  - [2024, 11]
+  - [2025, 9]
+  - [2026, 1]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Low-dose cryo electron ptychography via non-convex Bayesian optimization

@@ -14,8 +14,24 @@ categories:
   - ptychography
   - X-ray microscopy
   - journal article
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 137
+fwci: 11.57
+citation_percentile: 98.8
+is_top_10_percent: true
+oa_status: closed
+counts_by_year:
+  - [2019, 26]
+  - [2020, 16]
+  - [2021, 7]
+  - [2022, 11]
+  - [2023, 9]
+  - [2024, 10]
+  - [2025, 8]
+  - [2026, 2]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > On-the-fly scans for X-ray ptychography

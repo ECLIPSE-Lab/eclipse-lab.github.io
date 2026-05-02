@@ -12,8 +12,24 @@ project_page_url: ""
 toc: false
 categories:
   - ptychography
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 6
+fwci: 1.64
+citation_percentile: 82.5
+is_oa: true
+oa_status: bronze
+counts_by_year:
+  - [2017, 0]
+  - [2018, 0]
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 1]
+  - [2022, 3]
+  - [2023, 1]
+  - [2024, 1]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Real-time interactive ptychography from electron event representation data

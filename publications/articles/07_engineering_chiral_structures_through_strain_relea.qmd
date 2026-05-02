@@ -14,8 +14,24 @@ categories:
   - tomography
   - nanoparticles
   - machine learning
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 1
+fwci: 0.10
+citation_percentile: 42.6
+is_oa: true
+oa_status: bronze
+counts_by_year:
+  - [2013, 0]
+  - [2014, 0]
+  - [2015, 0]
+  - [2016, 0]
+  - [2017, 0]
+  - [2018, 0]
+  - [2019, 0]
+  - [2020, 1]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Engineering Chiral Structures Through Strain Release: Electron Tomography Study of Twisted Nanowires

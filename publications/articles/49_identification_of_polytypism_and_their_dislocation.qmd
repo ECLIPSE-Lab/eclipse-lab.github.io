@@ -13,8 +13,24 @@ toc: false
 categories:
   - electron microscopy
   - imaging
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 2
+fwci: 0.90
+citation_percentile: 72.9
+is_oa: true
+oa_status: gold
+counts_by_year:
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 0]
+  - [2022, 0]
+  - [2023, 0]
+  - [2024, 0]
+  - [2025, 0]
+  - [2026, 2]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Identification of polytypism and their dislocations in bilayer MoS2 using correlative transmission electron microscopy and Raman spectroscopy

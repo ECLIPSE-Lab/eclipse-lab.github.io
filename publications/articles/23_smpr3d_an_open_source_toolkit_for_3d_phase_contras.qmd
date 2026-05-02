@@ -13,8 +13,15 @@ toc: false
 categories:
   - electron microscopy
   - imaging
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 0
+fwci: 0.00
+citation_percentile: 10.5
+is_oa: true
+oa_status: bronze
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > smpr3d: an open-source toolkit for 3D phase-contrast imaging from 4D-STEM datasets

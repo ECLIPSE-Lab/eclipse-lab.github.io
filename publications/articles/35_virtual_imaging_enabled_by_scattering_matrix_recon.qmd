@@ -14,8 +14,15 @@ categories:
   - electron microscopy
   - imaging
   - physics
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 0
+fwci: 0.00
+citation_percentile: 21.8
+is_oa: true
+oa_status: bronze
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Virtual imaging enabled by scattering matrix reconstruction from 4D scanning transmission electron microscopy

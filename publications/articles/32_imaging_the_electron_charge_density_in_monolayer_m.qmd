@@ -13,8 +13,25 @@ toc: false
 categories:
   - atomic resolution
   - imaging
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 26
+fwci: 7.00
+citation_percentile: 96.5
+is_top_10_percent: true
+is_oa: true
+oa_status: gold
+counts_by_year:
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 0]
+  - [2022, 0]
+  - [2023, 1]
+  - [2024, 10]
+  - [2025, 12]
+  - [2026, 3]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Imaging the electron charge density in monolayer MoS2 at the Ångstrom scale

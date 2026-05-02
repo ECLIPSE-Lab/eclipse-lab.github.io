@@ -14,8 +14,24 @@ categories:
   - ptychography
   - software
   - computational
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 7
+fwci: 0.90
+citation_percentile: 74.7
+is_oa: true
+oa_status: bronze
+counts_by_year:
+  - [2016, 0]
+  - [2017, 0]
+  - [2018, 0]
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 3]
+  - [2022, 0]
+  - [2023, 4]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Towards Ptychography with Structured Illumination, and a Derivative-Based Reconstruction Algorithm

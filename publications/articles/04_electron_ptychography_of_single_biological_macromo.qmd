@@ -13,8 +13,24 @@ toc: false
 categories:
   - ptychography
   - biology
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 4
+fwci: 0.53
+citation_percentile: 81.2
+is_oa: true
+oa_status: bronze
+counts_by_year:
+  - [2019, 0]
+  - [2020, 1]
+  - [2021, 2]
+  - [2022, 0]
+  - [2023, 0]
+  - [2024, 0]
+  - [2025, 0]
+  - [2026, 1]
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Electron Ptychography of Single Biological Macromolecules

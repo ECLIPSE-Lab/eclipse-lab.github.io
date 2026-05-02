@@ -13,8 +13,13 @@ toc: false
 categories:
   - electron microscopy
   - physics
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 0
+is_oa: true
+oa_status: green
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Gap-free Information Transfer in 4D-STEM via Fusion of Complementary Scattering Channels

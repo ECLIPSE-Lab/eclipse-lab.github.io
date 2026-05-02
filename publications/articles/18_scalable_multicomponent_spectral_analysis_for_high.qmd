@@ -12,8 +12,13 @@ project_page_url: ""
 toc: false
 categories:
   - research
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 0
+is_oa: true
+oa_status: green
+metrics_updated: "2026-05-02T16:15:23Z"
+# --- end citation metrics ---
 ---
-
 ## Citation (APA 7)
 
 > Scalable multicomponent spectral analysis for high-throughput data\n annotation
