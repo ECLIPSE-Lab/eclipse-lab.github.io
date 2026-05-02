@@ -204,6 +204,7 @@ h6,
 .lecture-card-body {
   position: absolute;
   top: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
   padding: 1.5rem;
@@ -211,6 +212,11 @@ h6,
   color: white;
   display: flex;
   flex-direction: column;
+}
+
+/* Push the first link (and any siblings after it) to the bottom of the card */
+.lecture-card-body .lecture-link:first-of-type {
+  margin-top: auto;
 }
 
 .lecture-title {
