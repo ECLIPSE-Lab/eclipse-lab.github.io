@@ -28,7 +28,11 @@ counts_by_year:
   - [2023, 1]
   - [2024, 3]
   - [2025, 1]
-metrics_updated: "2026-05-02T16:15:23Z"
+keywords:
+  - "Scanning transmission electron microscopy"
+  - "Transmission electron microscopy"
+  - "Scanning confocal electron microscopy"
+metrics_updated: "2026-05-02T16:35:20Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

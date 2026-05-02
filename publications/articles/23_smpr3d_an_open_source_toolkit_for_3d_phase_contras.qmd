@@ -19,7 +19,10 @@ fwci: 0.00
 citation_percentile: 10.5
 is_oa: true
 oa_status: bronze
-metrics_updated: "2026-05-02T16:15:23Z"
+keywords:
+  - "Phase contrast microscopy"
+  - "Open source"
+metrics_updated: "2026-05-02T16:35:20Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

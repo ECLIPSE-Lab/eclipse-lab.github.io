@@ -30,7 +30,13 @@ counts_by_year:
   - [2024, 3]
   - [2025, 8]
   - [2026, 5]
-metrics_updated: "2026-05-02T16:15:23Z"
+keywords:
+  - "Heterojunction"
+  - "Tellurium"
+  - "Semiconductor"
+  - "Condensed matter physics"
+  - "Moiré pattern"
+metrics_updated: "2026-05-02T16:35:20Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

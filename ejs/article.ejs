@@ -7,6 +7,14 @@
     <span class="listing-publication fst-italic "><%= item.publication %></span>
     <span class="listing-year">(<%= item.year %>)</span><br />
 
+    <% if (Array.isArray(item.keywords) && item.keywords.length > 0) { %>
+    <div class="pub-keywords">
+      <% for (const kw of item.keywords) { %>
+        <span class="pub-keyword"><%= kw %></span>
+      <% } %>
+    </div>
+    <% } %>
+
     <%
       // ---- citation metrics row (rendered only when data present) ----
       const cited = (item.cited_by_count !== undefined && item.cited_by_count !== null) ? Number(item.cited_by_count) : null;

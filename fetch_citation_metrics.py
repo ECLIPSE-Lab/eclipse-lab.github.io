@@ -25,6 +25,21 @@ METRICS_JSON = Path("publication_metrics.json")
 SPARKLINE_YEARS = 8
 OPENALEX_BATCH_SIZE = 50
 
+KEYWORD_MIN_SCORE = 0.5
+KEYWORD_MAX_COUNT = 6
+KEYWORD_DENYLIST = {
+    "physics",
+    "materials science",
+    "computer science",
+    "chemistry",
+    "biology",
+    "mathematics",
+    "engineering",
+    "science",
+    "research",
+    "technology",
+}
+
 METRICS_BEGIN = "# --- citation metrics (auto-managed; do not edit) ---"
 METRICS_END = "# --- end citation metrics ---"
 
@@ -126,6 +141,14 @@ def render_managed_block(metrics):
         for year, count in counts:
             lines.append(f"  - [{int(year)}, {int(count)}]")
 
+    keywords = metrics.get("keywords") or []
+    if keywords:
+        lines.append("keywords:")
+        for kw in keywords:
+            # quote to be safe with parens, hyphens, colons, etc.
+            safe = str(kw).replace('"', '\\"')
+            lines.append(f'  - "{safe}"')
+
     metrics_updated = metrics.get("metrics_updated")
     if metrics_updated:
         lines.append(f'metrics_updated: "{metrics_updated}"')
@@ -159,8 +182,43 @@ OPENALEX_SELECT = ",".join(
         "fwci",
         "citation_normalized_percentile",
         "open_access",
+        "keywords",
     ]
 )
+
+
+def filter_openalex_keywords(raw_keywords):
+    """Pick paper-specific keywords from OpenAlex output.
+
+    OpenAlex returns ~10 keywords per paper with scores 0..1 and noisy entries
+    like "Physics" or "Resolution (logic)" (a Wikidata mis-disambiguation).
+    Keep only the strongest, drop generic single-domain terms and (logic)
+    variants, dedupe case-insensitively, cap at KEYWORD_MAX_COUNT.
+    """
+    if not raw_keywords:
+        return []
+    seen = set()
+    out = []
+    for kw in raw_keywords:
+        name = (kw.get("display_name") or "").strip()
+        score = kw.get("score") or 0.0
+        if not name or score < KEYWORD_MIN_SCORE:
+            continue
+        # OpenAlex uses Wikidata disambiguators ("Frame (networking)",
+        # "Content (measure theory)", ...) that are usually wrong-context
+        # for physics/microscopy papers. Drop any disambiguated entry.
+        if "(" in name and ")" in name:
+            continue
+        if name.lower() in KEYWORD_DENYLIST:
+            continue
+        key = name.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(name)
+        if len(out) >= KEYWORD_MAX_COUNT:
+            break
+    return out
 
 
 def fetch_openalex_batch(dois):
@@ -196,6 +254,7 @@ def fetch_openalex_batch(dois):
             "is_oa": bool(oa.get("is_oa")),
             "oa_status": oa.get("oa_status"),
             "counts_by_year": work.get("counts_by_year") or [],
+            "keywords": filter_openalex_keywords(work.get("keywords") or []),
         }
     return out
 

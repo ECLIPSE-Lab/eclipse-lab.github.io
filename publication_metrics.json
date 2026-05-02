@@ -1,6 +1,6 @@
 {
   "count": 50,
-  "generated_at": "2026-05-02T16:15:23Z",
+  "generated_at": "2026-05-02T16:35:20Z",
   "metrics": {
     "10.1016/j.micron.2021.103141": {
       "citation_percentile": 99.06432699999999,
@@ -73,7 +73,11 @@
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": true,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Computational science",
+        "Scanning transmission electron microscopy"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "hybrid"
     },
     "10.1017/s1431927619000783": {
@@ -143,7 +147,12 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Scanning transmission electron microscopy",
+        "Transmission electron microscopy",
+        "Scanning confocal electron microscopy"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927619001028": {
@@ -197,7 +206,8 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927619001090": {
@@ -255,7 +265,8 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927619002708": {
@@ -267,7 +278,12 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "High-resolution transmission electron microscopy",
+        "Electron tomography",
+        "Scanning transmission electron microscopy"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927619009759": {
@@ -317,7 +333,12 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Nanowire",
+        "Electron tomography",
+        "Electron"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927620014725": {
@@ -367,7 +388,13 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Scanning transmission electron microscopy",
+        "Electron",
+        "Scattering",
+        "Transmission electron microscopy"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927620014749": {
@@ -417,7 +444,11 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Phase contrast microscopy",
+        "Phase-contrast imaging"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927620019625": {
@@ -429,7 +460,10 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Tomography"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927620019753": {
@@ -495,7 +529,10 @@
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Detector"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621000477": {
@@ -569,7 +606,10 @@
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": true,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Software"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "hybrid"
     },
     "10.1017/s1431927621000490": {
@@ -635,7 +675,14 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Scattering",
+        "Scanning transmission electron microscopy",
+        "Optics",
+        "Transmission electron microscopy",
+        "Electron scattering"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "green"
     },
     "10.1017/s1431927621000635": {
@@ -647,7 +694,8 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621001288": {
@@ -709,7 +757,13 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Detector",
+        "Ptychography",
+        "Frame rate",
+        "Scanning transmission electron microscopy"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621004773": {
@@ -721,7 +775,11 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Transmission electron microscopy",
+        "Scanning transmission electron microscopy"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621005638": {
@@ -733,7 +791,11 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Phase contrast microscopy",
+        "Open source"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621012083": {
@@ -799,7 +861,12 @@
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Prism",
+        "Scanning transmission electron microscopy",
+        "Scattering"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "hybrid"
     },
     "10.1017/s1431927622002288": {
@@ -853,7 +920,11 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Atomic units",
+        "Ptychography"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927622009576": {
@@ -865,7 +936,12 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Interferometry",
+        "Phase contrast microscopy",
+        "Phase-contrast imaging"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927622012090": {
@@ -927,7 +1003,15 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Electron tomography",
+        "Scanning confocal electron microscopy",
+        "Transmission electron microscopy",
+        "Scanning transmission electron microscopy",
+        "Microscopy",
+        "Optics"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "green"
     },
     "10.1021/acsnano.1c07772": {
@@ -989,7 +1073,15 @@
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Crystal twinning",
+        "Icosahedral symmetry",
+        "Nanostructure",
+        "Electron tomography",
+        "Nanoparticle",
+        "Atomic units"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "green"
     },
     "10.1021/acsnano.3c04283": {
@@ -1047,7 +1139,14 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Heterojunction",
+        "Tellurium",
+        "Semiconductor",
+        "Condensed matter physics",
+        "Moir\u00e9 pattern"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "hybrid"
     },
     "10.1021/jacs.3c05299": {
@@ -1105,7 +1204,13 @@
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Quasicrystal",
+        "Tetrahedron",
+        "Self-assembly",
+        "Curvature"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "green"
     },
     "10.1021/jacs.5c12614": {
@@ -1155,7 +1260,15 @@
       "is_oa": false,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Nanocrystal",
+        "Nucleation",
+        "Transmission electron microscopy",
+        "Copper",
+        "Surface plasmon resonance",
+        "Monomer"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "closed"
     },
     "10.1038/s41467-022-32330-z": {
@@ -1221,7 +1334,11 @@
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Transmission electron microscopy",
+        "Electron microscope"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "gold"
     },
     "10.1038/s41467-023-39304-9": {
@@ -1283,7 +1400,15 @@
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Core charge",
+        "Electron",
+        "Core electron",
+        "Scanning transmission electron microscopy",
+        "Atomic physics",
+        "Valence electron"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "gold"
     },
     "10.1038/s41467-023-43634-z": {
@@ -1345,7 +1470,14 @@
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": true,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Electron tomography",
+        "Nanomaterials",
+        "Atomic units",
+        "Electron diffraction",
+        "High-resolution transmission electron microscopy"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "gold"
     },
     "10.1038/s41598-017-07488-y": {
@@ -1431,7 +1563,12 @@
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Ptychography",
+        "Phase retrieval",
+        "Optics"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "gold"
     },
     "10.1038/s41699-025-00575-z": {
@@ -1481,7 +1618,13 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Raman spectroscopy",
+        "Correlative",
+        "Transmission electron microscopy",
+        "Bilayer"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "gold"
     },
     "10.1051/bioconf/202412904027": {
@@ -1493,7 +1636,11 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Parallax",
+        "Ptychography"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "diamond"
     },
     "10.1051/bioconf/202412907006": {
@@ -1505,7 +1652,11 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "In situ",
+        "Nano-"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "diamond"
     },
     "10.1063/1.4904943": {
@@ -1603,7 +1754,12 @@
       "is_oa": false,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Ptychography",
+        "Optics",
+        "Mesoscopic physics"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "closed"
     },
     "10.1088/1402-4896/ad9a1a": {
@@ -1657,7 +1813,14 @@
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Tomography",
+        "Isotropy",
+        "Phase-contrast imaging",
+        "Phase contrast microscopy",
+        "Optics"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "hybrid"
     },
     "10.1088/2515-7639/acf524": {
@@ -1715,7 +1878,12 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Detector",
+        "Crystallite",
+        "Optics"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "gold"
     },
     "10.1088/2515-7639/ad9ad2": {
@@ -1765,7 +1933,8 @@
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "gold"
     },
     "10.1093/mam/ozae044.149": {
@@ -1777,7 +1946,12 @@
       "is_oa": false,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Parallax",
+        "Ptychography",
+        "Optics"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "closed"
     },
     "10.1093/mam/ozae044.883": {
@@ -1789,7 +1963,12 @@
       "is_oa": false,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Phase contrast microscopy",
+        "Nanostructure",
+        "Nanotechnology"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "closed"
     },
     "10.1093/mam/ozae086": {
@@ -1851,7 +2030,15 @@
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Electron",
+        "Scanning transmission electron microscopy",
+        "Detector",
+        "Scanning confocal electron microscopy",
+        "Conventional transmission electron microscope",
+        "Transmission electron microscopy"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "hybrid"
     },
     "10.1093/micmic/ozad067.348": {
@@ -1863,7 +2050,12 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Crystal twinning",
+        "Electron tomography",
+        "Electron"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "bronze"
     },
     "10.1093/micmic/ozad068": {
@@ -1921,7 +2113,15 @@
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Optical sectioning",
+        "Optics",
+        "Parallax",
+        "Dark field microscopy",
+        "Scanning transmission electron microscopy",
+        "Scattering"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "hybrid"
     },
     "10.1103/physreva.89.013403": {
@@ -2019,7 +2219,15 @@
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Dication",
+        "Double ionization",
+        "Ionization",
+        "Atomic physics",
+        "Excited state",
+        "Singlet state"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "bronze"
     },
     "10.1103/physrevresearch.3.023159": {
@@ -2085,7 +2293,11 @@
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Scattering",
+        "Optics"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "gold"
     },
     "10.1107/s2053273323085297": {
@@ -2097,7 +2309,12 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Scanning transmission electron microscopy",
+        "Scattering",
+        "Transmission electron microscopy"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "bronze"
     },
     "10.1107/s2053273323093609": {
@@ -2109,7 +2326,10 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Nanoscopic scale"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "bronze"
     },
     "10.1109/msp.2021.3120981": {
@@ -2171,7 +2391,12 @@
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Detector",
+        "Scanning transmission electron microscopy",
+        "Frame rate"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "green"
     },
     "10.48550/arxiv.2008.12768": {
@@ -2225,7 +2450,13 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Scattering",
+        "Optics",
+        "Diffraction",
+        "Wavefront"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "green"
     },
     "10.48550/arxiv.2011.07652": {
@@ -2237,7 +2468,15 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Electron tomography",
+        "Scanning confocal electron microscopy",
+        "Transmission electron microscopy",
+        "Scanning transmission electron microscopy",
+        "Microscopy",
+        "Yttrium"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "green"
     },
     "10.48550/arxiv.2102.05604": {
@@ -2249,7 +2488,15 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Scalability",
+        "Throughput",
+        "Computational science",
+        "Annotation",
+        "Software",
+        "Parametric statistics"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "green"
     },
     "10.48550/arxiv.2311.02580": {
@@ -2299,7 +2546,12 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Electron tomography",
+        "Optics",
+        "Phase-contrast imaging"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "green"
     },
     "10.48550/arxiv.2512.19460": {
@@ -2311,7 +2563,11 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "metrics_updated": "2026-05-02T16:15:23Z",
+      "keywords": [
+        "Scattering",
+        "Phase-contrast imaging"
+      ],
+      "metrics_updated": "2026-05-02T16:35:20Z",
       "oa_status": "green"
     }
   },

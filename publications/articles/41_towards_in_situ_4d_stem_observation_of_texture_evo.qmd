@@ -20,7 +20,10 @@ fwci: 0.00
 citation_percentile: 10.0
 is_oa: true
 oa_status: diamond
-metrics_updated: "2026-05-02T16:15:23Z"
+keywords:
+  - "In situ"
+  - "Nano-"
+metrics_updated: "2026-05-02T16:35:20Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

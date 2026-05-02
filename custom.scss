@@ -347,6 +347,27 @@ a.milestone-card-body:hover {
   margin-bottom: 0.8rem;
 }
 
+/* ---- Publication keyword chips ---- */
+.pub-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin: 0.45rem 0 0.2rem;
+}
+
+.pub-keyword {
+  display: inline-block;
+  padding: 0.12rem 0.55rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.01em;
+  color: #cbd5e1;
+  background: rgba(148, 163, 184, 0.10);
+  border: 1px solid rgba(148, 163, 184, 0.20);
+  border-radius: 4px;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
 /* ---- Publication metrics row ---- */
 .pub-metrics {
   display: flex;

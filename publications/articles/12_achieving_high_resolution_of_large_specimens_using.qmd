@@ -18,7 +18,9 @@ fwci: 0.00
 citation_percentile: 3.5
 is_oa: true
 oa_status: bronze
-metrics_updated: "2026-05-02T16:15:23Z"
+keywords:
+  - "Tomography"
+metrics_updated: "2026-05-02T16:35:20Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

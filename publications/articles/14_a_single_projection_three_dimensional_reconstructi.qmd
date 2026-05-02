@@ -19,7 +19,14 @@ categories:
 cited_by_count: 0
 is_oa: true
 oa_status: green
-metrics_updated: "2026-05-02T16:15:23Z"
+keywords:
+  - "Electron tomography"
+  - "Scanning confocal electron microscopy"
+  - "Transmission electron microscopy"
+  - "Scanning transmission electron microscopy"
+  - "Microscopy"
+  - "Yttrium"
+metrics_updated: "2026-05-02T16:35:20Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

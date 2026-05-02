@@ -31,7 +31,13 @@ counts_by_year:
   - [2023, 3]
   - [2024, 2]
   - [2025, 1]
-metrics_updated: "2026-05-02T16:15:23Z"
+keywords:
+  - "Scattering"
+  - "Scanning transmission electron microscopy"
+  - "Optics"
+  - "Transmission electron microscopy"
+  - "Electron scattering"
+metrics_updated: "2026-05-02T16:35:20Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
