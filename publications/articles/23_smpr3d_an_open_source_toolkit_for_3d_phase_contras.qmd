@@ -22,7 +22,7 @@ oa_status: bronze
 keywords:
   - "Phase contrast microscopy"
   - "Open source"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-05-04T07:24:55Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
