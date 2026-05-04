@@ -31,7 +31,7 @@ counts_by_year:
 keywords:
   - "Atomic units"
   - "Ptychography"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-05-04T07:24:55Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
