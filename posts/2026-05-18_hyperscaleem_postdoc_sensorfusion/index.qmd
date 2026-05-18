@@ -1,6 +1,6 @@
 ---
 title: "OPEN Postdoc position — Multi-modal Sensor Fusion in Electron Microscopy"
-description: "An ERC-funded HyperScaleEM Postdoc position on multi-modal sensor fusion for hyperspectral atomic-resolution imaging is available starting Sep 15th 2026"
+description: "An ERC-funded HyperScaleEM Postdoc position on multi-modal sensor fusion for hyperspectral atomic-resolution imaging is available starting Oct 15th 2026"
 author: "Philipp Pelz"
 date: "2026-05-18"
 image: erc_logo.svg
@@ -15,7 +15,7 @@ The ECLIPSE Lab of Prof. Dr. Philipp Pelz at FAU Erlangen-Nürnberg offers a pos
 ## PostDoc Multi-modal Sensor Fusion in Electron Microscopy (m/f/x)
 **(subject to personal qualifications, remuneration: salary group E 13 TV-L 100%)**
 
-starting Sep 15th 2026.
+starting Oct 15th 2026.
 
 We are seeking an outstanding postdoctoral researcher to lead the scale-up phase of the ERC-funded HyperScaleEM project during years 3-5. The position focuses on pushing hyperspectral atomic-resolution imaging from proof-of-principle toward scalable, automated, and experimentally validated workflows for 3D chemistry at the atomic scale.
 
