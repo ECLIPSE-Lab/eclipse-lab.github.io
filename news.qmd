@@ -45,7 +45,7 @@ This page collects recent lab highlights across talks, awards, positions, people
 
 ::: {.column width="33%"}
 ### People & positions
-- [Open position announcement](posts/24-04-position/index.qmd)
+- [Open Postdoc: Multi-modal Sensor Fusion](posts/2026-05-18_hyperscaleem_postdoc_sensorfusion/index.qmd)
 - [Shengbo You joins the team](posts/shengbo_joins/index.qmd)
 - [Radin Rahimi joins the team](posts/radin_joins/index.qmd)
 :::

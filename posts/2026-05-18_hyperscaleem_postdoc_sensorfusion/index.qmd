@@ -1,0 +1,66 @@
+---
+title: "OPEN Postdoc position — Multi-modal Sensor Fusion in Electron Microscopy"
+description: "An ERC-funded HyperScaleEM Postdoc position on multi-modal sensor fusion for hyperspectral atomic-resolution imaging is available starting Sep 15th"
+author: "Philipp Pelz"
+date: "2026-05-18"
+image: erc_logo.svg
+draft: false
+categories:
+  - announcement
+  - job
+---
+
+The ECLIPSE Lab of Prof. Dr. Philipp Pelz at FAU Erlangen-Nürnberg offers a position as
+
+## PostDoc Multi-modal Sensor Fusion in Electron Microscopy (m/f/x)
+**(subject to personal qualifications, remuneration: salary group E 13 TV-L 100%)**
+
+starting Sep 15th.
+
+We are seeking an outstanding postdoctoral researcher to lead the scale-up phase of the ERC-funded HyperScaleEM project during years 3-5. The position focuses on pushing hyperspectral atomic-resolution imaging from proof-of-principle toward scalable, automated, and experimentally validated workflows for 3D chemistry at the atomic scale.
+
+The successful candidate will work at the interface of computational imaging, electron scattering physics, spectroscopy, and microscope automation. The role will connect large-scale simulation, inversion algorithms, new compressive energy-resolved 5D-STEM acquisition strategies, and their deployment on aberration-corrected scanning transmission electron microscopes.
+
+### Position and Tasks
+
+- Develop scalable methods for hyperspectral atomic-resolution imaging, with emphasis on core-loss filtered 4D-STEM and energy-resolved XD-STEM.
+- Advance large-scale simulation and inversion pipelines for atom-by-atom chemical identification in strongly scattering materials.
+- Design and validate automated experimental workflows that couple spectroscopy, diffraction, and tomography at aberration-corrected STEM instruments.
+- Help establish robust acquisition strategies for the HyperScaleEM years 3-5 milestones, including proof-of-principle demonstrations and challenging materials applications.
+- Collaborate closely with students, microscope scientists, and project partners, and publish and present results internationally.
+
+### Position Requirements
+
+- PhD in physics, materials science, electrical engineering, computer science, computational engineering, applied mathematics, or a related discipline.
+- Strong track record in computational microscopy, computational imaging, inverse problems, electron microscopy, spectroscopy, or a closely related field.
+- Excellent scientific programming skills, preferably in Python, and experience with modern numerical or machine learning frameworks such as PyTorch or JAX.
+- Ability to work independently while contributing actively to a collaborative and interdisciplinary research environment.
+- Very good communication skills in English.
+
+### Preferred Knowledge, Skills, and Abilities
+
+- Background in diffraction physics, inelastic scattering, EELS, 4D-STEM, STEM tomography, or related spectroscopy methods.
+- Experience with large-scale optimization, Bayesian inference, or physics-based reconstruction methods.
+- Hands-on experience with aberration-corrected STEM instrumentation, detector integration, or microscope automation.
+- Experience with high-performance computing, GPU programming, or scalable scientific software development.
+- Interest in helping shape a growing research program and mentoring junior researchers.
+
+### Research Environment
+
+- Our group develops advanced algorithms for efficient processing, reliable reconstruction, and automated information extraction from multidimensional microscopy datasets in electron and X-ray microscopy.
+- HyperScaleEM aims to unite structural and chemical inversion at atomic resolution, scaling from simulated and synthetic benchmarks to automated experimental demonstrations and, ultimately, in-situ 3D atomic movies.
+- The postdoc will contribute directly to the chemical imaging scale-up phase of the project, laying the foundations for later in-situ studies on complex materials.
+- We offer access to state-of-the-art aberration-corrected electron microscopes at the Center for Nanoanalysis and Electron Microscopy and high-performance computing resources at the Erlangen National High-Performance Computing Center.
+
+### What We Offer
+
+- A central scientific role in an ambitious long-term project on next-generation atomic-resolution microscopy.
+- A highly interdisciplinary environment spanning computational imaging, microscopy, spectroscopy, and automation.
+- The opportunity to build new methods that connect theory, software, and experiment.
+- Enthusiastic support from an early-career principal investigator and close interaction with international collaborators.
+
+### Application
+
+For informal inquiries, please contact Philipp Pelz (philipp.pelz@fau.de).
+
+Applications from underrepresented groups are particularly welcome. Your application in English or German should include a motivation letter, CV, publication list, and contact information for references. Applications will be accepted until the position is filled.
