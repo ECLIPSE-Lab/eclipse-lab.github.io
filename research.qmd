@@ -19,6 +19,16 @@ description: "Research areas of the ECLIPSE Lab: electron ptychography, atomic e
 
 Prefer a problem-first view? See [Research by Problem](research-by-problem.qmd).
 
+```{=html}
+<figure class="research-figure research-figure-hero">
+  <picture>
+    <source type="image/avif" srcset="img/optimized/zr_te_structure-300.avif 300w, img/optimized/zr_te_structure-450.avif 450w, img/optimized/zr_te_structure-600.avif 600w" sizes="(max-width: 680px) 100vw, 600px">
+    <source type="image/webp" srcset="img/optimized/zr_te_structure-300.webp 300w, img/optimized/zr_te_structure-450.webp 450w, img/optimized/zr_te_structure-600.webp 600w" sizes="(max-width: 680px) 100vw, 600px">
+    <img src="img/zr_te_structure.png" alt="Three-dimensional atomic-resolution reconstruction of a complex nanostructure" loading="eager" decoding="async">
+  </picture>
+  <figcaption>The complete <strong>3D atomic structure</strong> of a complex nanomaterial — recovered from a single 4D-STEM measurement by ptychographic atomic electron tomography, where conventional methods fall short. <a href="https://www.nature.com/articles/s41467-023-43634-z"><em>Nat. Commun.</em>, 2023</a></figcaption>
+</figure>
+```
 
 ## Key Milestones
 
@@ -78,7 +88,18 @@ Many important materials problems require 3D information at high resolution, but
 - [2024: first atomic-resolution phase-contrast volume beyond the depth of focus limit](https://doi.org/10.1088/2515-7639/ad9ad2)
 - [2024: first end-to-end reconstruction reaching sub-Angstrom resolution](https://doi.org/10.1088/1402-4896/ad9a1a)
 
-**Collaboration angle**  
+```{=html}
+<figure class="research-figure">
+  <picture>
+    <source type="image/avif" srcset="img/optimized/vol1-600.avif 600w, img/optimized/vol1-900.avif 900w, img/optimized/vol1-1200.avif 1200w" sizes="(max-width: 680px) 100vw, 680px">
+    <source type="image/webp" srcset="img/optimized/vol1-600.webp 600w, img/optimized/vol1-900.webp 900w, img/optimized/vol1-1200.webp 1200w" sizes="(max-width: 680px) 100vw, 680px">
+    <img src="img/vol1.png" alt="Sub-Angstrom three-dimensional phase-contrast reconstruction inside a volume box" loading="lazy" decoding="async">
+  </picture>
+  <figcaption>A <strong>sub-Ångström 3D phase-contrast volume</strong> — a resolution record set by an end-to-end pipeline that recovers more structure per electron, opening low-dose 3D imaging of beam-sensitive materials. <a href="https://doi.org/10.1088/1402-4896/ad9a1a"><em>Phys. Scripta</em>, 2024</a></figcaption>
+</figure>
+```
+
+**Collaboration angle**<br>
 We are interested in collaborations where new reconstruction methods can unlock 3D structure, chemistry, or sensitivity in experimentally challenging datasets.
 
 ### Fast simulation and model-based electron microscopy
@@ -101,10 +122,17 @@ This is relevant for groups who need reliable forward models, synthetic benchmar
 **What we build**  
 We are developing new approaches for multi-modal 3D imaging, down to the atomic scale.
 
-**Why it matters**  
+**Why it matters**<br>
 Combining complementary signals can reveal structure, chemistry, and function more effectively than single-mode imaging alone.
 
-**Collaboration angle**  
+```{=html}
+<figure class="research-figure">
+  <img src="img/charge_density.svg" alt="Electron charge-density map of monolayer MoS2 resolved at the Angstrom scale" loading="lazy" decoding="async">
+  <figcaption>Beyond atomic positions: the <strong>electron charge density</strong> of monolayer MoS&#8322; resolved at the Ångström scale — the kind of richer, multi-faceted information that fusing complementary signals can reveal. <a href="https://www.nature.com/articles/s41467-023-39304-9"><em>Nat. Commun.</em>, 2023</a></figcaption>
+</figure>
+```
+
+**Collaboration angle**<br>
 We welcome collaborations where multimodal data fusion or cross-signal interpretation is the limiting step.
 
 ### Self-driving and automated microscopy

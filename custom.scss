@@ -374,6 +374,54 @@ a.milestone-card-body:hover {
   white-space: nowrap;
 }
 
+/* ---- Research story figures ---- */
+.research-figure {
+  margin: 1.75rem auto 2rem;
+  text-align: center;
+}
+
+/* Inline figures stay contained panels; the hero spans the column. */
+.research-figure:not(.research-figure-hero) {
+  max-width: 560px;
+}
+
+.research-figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 14px;
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+  background: #f8fafc; /* light mat behind renders/plots with white backgrounds */
+}
+
+.research-figure-hero img {
+  max-width: 600px;
+  width: 100%;
+}
+
+.research-figure figcaption {
+  margin: 0.8rem auto 0;
+  max-width: 640px;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: #94a3b8;
+  text-align: left;
+}
+
+.research-figure figcaption strong {
+  color: #e2e8f0;
+}
+
+.research-figure figcaption a {
+  color: #93c5fd;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.research-figure figcaption a:hover {
+  text-decoration: underline;
+}
+
 /* ---- Publication impact summary banner ---- */
 .pub-summary {
   display: flex;
