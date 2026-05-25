@@ -3,3 +3,6 @@
 /.luarc.json
 
 **/*.quarto_ipynb
+
+# Node dependencies (e.g. img/ image-tooling deps) should never be committed
+node_modules/

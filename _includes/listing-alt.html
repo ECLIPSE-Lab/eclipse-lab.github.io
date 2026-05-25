@@ -1,0 +1,20 @@
+<!-- Backfill alt text on Quarto listing thumbnails.
+     Quarto's grid and default listings emit <img> elements with no alt
+     attribute and provide no per-item alt field, leaving People photos and
+     News post thumbnails inaccessible to screen readers and image search.
+     This sets alt from each card's listing title. Images that already declare
+     an alt (including an intentional empty alt="") are left untouched. -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var imgs = document.querySelectorAll(
+    '.quarto-grid-item img:not([alt]), .quarto-post img:not([alt]), .quarto-listing img:not([alt])'
+  );
+  imgs.forEach(function (img) {
+    var scope = img.closest('.quarto-grid-item, .g-col-1, .quarto-post');
+    if (!scope) return;
+    var titleEl = scope.querySelector('.listing-title, .card-title');
+    var title = titleEl && titleEl.textContent.trim();
+    if (title) img.setAttribute('alt', title);
+  });
+});
+</script>
