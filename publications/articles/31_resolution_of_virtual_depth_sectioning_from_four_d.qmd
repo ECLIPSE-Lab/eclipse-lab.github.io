@@ -15,8 +15,8 @@ categories:
   - imaging
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 13
-fwci: 3.50
-citation_percentile: 92.9
+fwci: 3.43
+citation_percentile: 92.7
 is_top_10_percent: true
 is_oa: true
 oa_status: hybrid
@@ -36,7 +36,7 @@ keywords:
   - "Dark field microscopy"
   - "Scanning transmission electron microscopy"
   - "Scattering"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-05-25T08:40:16Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

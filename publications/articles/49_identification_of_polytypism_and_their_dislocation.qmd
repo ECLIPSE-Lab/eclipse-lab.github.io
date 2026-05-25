@@ -15,8 +15,8 @@ categories:
   - imaging
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 2
-fwci: 0.90
-citation_percentile: 72.9
+fwci: 0.81
+citation_percentile: 70.5
 is_oa: true
 oa_status: gold
 counts_by_year:
@@ -33,7 +33,7 @@ keywords:
   - "Correlative"
   - "Transmission electron microscopy"
   - "Bilayer"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-05-25T08:40:16Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

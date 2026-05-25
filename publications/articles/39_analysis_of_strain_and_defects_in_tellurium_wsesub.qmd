@@ -17,8 +17,8 @@ categories:
   - physics
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 16
-fwci: 1.49
-citation_percentile: 81.1
+fwci: 1.45
+citation_percentile: 80.6
 is_oa: true
 oa_status: hybrid
 counts_by_year:
@@ -36,7 +36,7 @@ keywords:
   - "Semiconductor"
   - "Condensed matter physics"
   - "Moiré pattern"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-05-25T08:40:16Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

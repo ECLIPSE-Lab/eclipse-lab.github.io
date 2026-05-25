@@ -17,8 +17,8 @@ categories:
   - journal article
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 10
-fwci: 1.27
-citation_percentile: 79.9
+fwci: 1.25
+citation_percentile: 79.6
 is_oa: true
 oa_status: gold
 counts_by_year:
@@ -34,7 +34,7 @@ keywords:
   - "Detector"
   - "Crystallite"
   - "Optics"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-05-25T08:40:16Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
