@@ -28,5 +28,7 @@ listing:
 </nav>
 ```
 
+{{< include _includes/pub-summary.qmd >}}
+
 :::{#articles}
 :::

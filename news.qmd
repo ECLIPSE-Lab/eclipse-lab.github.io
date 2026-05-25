@@ -6,6 +6,7 @@ listing:
   sort: "date desc"
   type: default
   categories: true
+  feed: true
   max-items: 12
 description: "Latest news, conference presentations, and lab updates from ECLIPSE Lab at FAU Erlangen-Nürnberg."
 

@@ -22,6 +22,7 @@ USER_AGENT = "ECLIPSE-Lab/1.0 (mailto:philipp.pelz@fau.de)"
 MAILTO = "philipp.pelz@fau.de"
 ARTICLES_DIR = Path("publications/articles")
 METRICS_JSON = Path("publication_metrics.json")
+SUMMARY_INCLUDE = Path("_includes/pub-summary.qmd")
 SPARKLINE_YEARS = 8
 OPENALEX_BATCH_SIZE = 50
 
@@ -42,6 +43,9 @@ KEYWORD_DENYLIST = {
 
 METRICS_BEGIN = "# --- citation metrics (auto-managed; do not edit) ---"
 METRICS_END = "# --- end citation metrics ---"
+
+CAT_KW_BEGIN = "  # --- begin keyword categories (auto-managed) ---"
+CAT_KW_END = "  # --- end keyword categories ---"
 
 
 def normalize_doi(doi):
@@ -157,12 +161,79 @@ def render_managed_block(metrics):
     return "\n".join(lines)
 
 
+CATEGORIES_BLOCK_RE = re.compile(
+    r"^categories:[ \t]*\n((?:[ \t]+[-#][^\n]*\n|[ \t]*\n)*)",
+    re.MULTILINE,
+)
+
+
+def parse_curated_categories(block_body):
+    """Return curated category strings from a `categories:` body, ignoring any managed segment."""
+    items = []
+    in_managed = False
+    for line in block_body.splitlines():
+        stripped = line.strip()
+        if stripped.startswith("# --- begin keyword categories"):
+            in_managed = True
+            continue
+        if stripped.startswith("# --- end keyword categories"):
+            in_managed = False
+            continue
+        if in_managed or not stripped.startswith("- "):
+            continue
+        value = stripped[2:].strip()
+        if len(value) >= 2 and value[0] == value[-1] and value[0] in ('"', "'"):
+            value = value[1:-1]
+        if value:
+            items.append(value)
+    return items
+
+
+def render_categories_block(curated, keyword_extras):
+    lines = ["categories:"]
+    for c in curated:
+        lines.append(f"  - {c}")
+    if keyword_extras:
+        lines.append(CAT_KW_BEGIN)
+        for kw in keyword_extras:
+            safe = str(kw).replace('"', '\\"')
+            lines.append(f'  - "{safe}"')
+        lines.append(CAT_KW_END)
+    return "\n".join(lines) + "\n"
+
+
+def patch_categories_in_frontmatter(fm_text, keywords):
+    """Merge OpenAlex keywords into the `categories:` list, dedup'd against curated entries.
+
+    Idempotent: each run strips the prior managed segment (between begin/end markers
+    inside the categories list) and writes a fresh one. Curated entries are preserved.
+    """
+    match = CATEGORIES_BLOCK_RE.search(fm_text)
+    if not match:
+        return fm_text
+    curated = parse_curated_categories(match.group(1))
+    curated_lower = {c.lower() for c in curated}
+    extras = []
+    seen = set()
+    for kw in keywords or []:
+        kl = str(kw).lower()
+        if kl in curated_lower or kl in seen:
+            continue
+        seen.add(kl)
+        # Lowercase to match the curated style and prevent case-only duplicate
+        # entries in the merged Quarto category sidebar (e.g. "Software" vs "software").
+        extras.append(kl)
+    new_block = render_categories_block(curated, extras)
+    return fm_text[:match.start()] + new_block + fm_text[match.end():]
+
+
 def patch_qmd_file(path, metrics):
     text = path.read_text(encoding="utf-8")
     fm_text, body = split_frontmatter(text)
     if fm_text is None:
         return False
     fm_clean = strip_managed_block(fm_text).rstrip() + "\n"
+    fm_clean = patch_categories_in_frontmatter(fm_clean, (metrics or {}).get("keywords") or [])
     if metrics:
         fm_clean = fm_clean + render_managed_block(metrics) + "\n"
     new_text = f"---\n{fm_clean}---\n{body}"
@@ -286,6 +357,72 @@ def compact_yearly_counts(counts_by_year, n=SPARKLINE_YEARS):
     return [(y, by_year.get(y, 0)) for y in range(start, end + 1)]
 
 
+# ---- aggregate impact summary ----
+
+
+def compute_summary(enriched):
+    """Aggregate per-paper OpenAlex metrics into lab-wide impact figures."""
+    cites = sorted((m.get("cited_by_count") or 0 for m in enriched.values()), reverse=True)
+    n = len(enriched)
+    return {
+        "papers": n,
+        "total_citations": sum(cites),
+        "h_index": sum(1 for i, c in enumerate(cites) if c >= i + 1),
+        "top_1_percent": sum(1 for m in enriched.values() if m.get("is_top_1_percent")),
+        "top_10_percent": sum(1 for m in enriched.values() if m.get("is_top_10_percent")),
+        "open_access": sum(1 for m in enriched.values() if m.get("is_oa")),
+    }
+
+
+def render_summary_include(summary, generated_at):
+    """Render the impact-summary banner as a Quarto include fragment (raw HTML block)."""
+    n = summary["papers"]
+    oa_pct = round(100 * summary["open_access"] / n) if n else 0
+    updated = (generated_at or "")[:10]
+
+    def stat(value, label):
+        return (
+            '  <div class="pub-stat">'
+            f'<span class="pub-stat-value">{value}</span>'
+            f'<span class="pub-stat-label">{label}</span></div>'
+        )
+
+    tiles = [
+        stat(f"{n}", "Publications"),
+        stat(f"{summary['total_citations']:,}", "Citations"),
+        stat(f"{summary['h_index']}", "h-index"),
+        stat(f"{summary['top_10_percent']}", "in world&rsquo;s top 10%"),
+    ]
+    if summary["top_1_percent"]:
+        tiles.append(stat(f"{summary['top_1_percent']}", "in world&rsquo;s top 1%"))
+    tiles.append(stat(f"{oa_pct}%", "Open access"))
+
+    return (
+        "<!-- AUTO-GENERATED by fetch_citation_metrics.py — do not edit by hand -->\n"
+        "```{=html}\n"
+        '<div class="pub-summary" role="group" aria-label="Publication impact summary">\n'
+        + "\n".join(tiles)
+        + "\n"
+        f'  <div class="pub-summary-note">Source: <a href="https://openalex.org/">OpenAlex</a>'
+        f" &middot; updated {updated}</div>\n"
+        "</div>\n"
+        "```\n"
+    )
+
+
+def write_publication_summary(enriched, generated_at):
+    if not enriched:
+        return
+    summary = compute_summary(enriched)
+    SUMMARY_INCLUDE.parent.mkdir(parents=True, exist_ok=True)
+    SUMMARY_INCLUDE.write_text(render_summary_include(summary, generated_at), encoding="utf-8")
+    print(
+        f"Wrote {SUMMARY_INCLUDE} "
+        f"(papers={summary['papers']}, citations={summary['total_citations']}, "
+        f"h-index={summary['h_index']})"
+    )
+
+
 # ---- main ----
 
 
@@ -334,6 +471,8 @@ def main():
         encoding="utf-8",
     )
     print(f"Wrote {METRICS_JSON} with {len(enriched)} entries")
+
+    write_publication_summary(enriched, now_iso)
 
     patched = 0
     for path, doi in pairs:
