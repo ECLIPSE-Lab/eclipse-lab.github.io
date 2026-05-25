@@ -15,14 +15,13 @@ categories:
   - imaging
   - journal article
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 24
-fwci: 3.64
+cited_by_count: 25
+fwci: 3.66
 citation_percentile: 93.5
 is_top_10_percent: true
 is_oa: true
 oa_status: green
 counts_by_year:
-  - [2018, 0]
   - [2019, 0]
   - [2020, 0]
   - [2021, 0]
@@ -30,11 +29,12 @@ counts_by_year:
   - [2023, 11]
   - [2024, 4]
   - [2025, 4]
+  - [2026, 1]
 keywords:
   - "Detector"
   - "Scanning transmission electron microscopy"
   - "Frame rate"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-05-25T08:40:16Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

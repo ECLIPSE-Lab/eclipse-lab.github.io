@@ -15,8 +15,8 @@ categories:
   - X-ray microscopy
   - journal article
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 137
-fwci: 11.57
+cited_by_count: 138
+fwci: 11.62
 citation_percentile: 98.8
 is_top_10_percent: true
 oa_status: closed
@@ -28,12 +28,12 @@ counts_by_year:
   - [2023, 9]
   - [2024, 10]
   - [2025, 8]
-  - [2026, 2]
+  - [2026, 3]
 keywords:
   - "Ptychography"
   - "Optics"
   - "Mesoscopic physics"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-05-25T08:40:16Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

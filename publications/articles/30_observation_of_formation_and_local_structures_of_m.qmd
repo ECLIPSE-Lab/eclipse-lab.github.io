@@ -16,7 +16,7 @@ categories:
   - chemistry
   - journal article
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 43
+cited_by_count: 44
 fwci: 3.23
 citation_percentile: 92.7
 is_top_10_percent: true
@@ -30,11 +30,11 @@ counts_by_year:
   - [2023, 12]
   - [2024, 16]
   - [2025, 11]
-  - [2026, 3]
+  - [2026, 4]
 keywords:
   - "Transmission electron microscopy"
   - "Electron microscope"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-05-25T08:40:16Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

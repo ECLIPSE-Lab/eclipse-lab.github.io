@@ -17,13 +17,13 @@ categories:
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
-citation_percentile: 10.0
+citation_percentile: 9.9
 is_oa: true
 oa_status: diamond
 keywords:
   - "In situ"
   - "Nano-"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-05-25T08:40:16Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

@@ -15,8 +15,8 @@ categories:
   - materials science
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 28
-fwci: 2.60
-citation_percentile: 90.6
+fwci: 2.54
+citation_percentile: 90.3
 is_top_10_percent: true
 is_oa: true
 oa_status: green
@@ -34,7 +34,7 @@ keywords:
   - "Tetrahedron"
   - "Self-assembly"
   - "Curvature"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-05-25T08:40:16Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

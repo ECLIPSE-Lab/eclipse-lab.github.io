@@ -15,8 +15,8 @@ categories:
   - imaging
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 26
-fwci: 7.00
-citation_percentile: 96.5
+fwci: 6.85
+citation_percentile: 96.4
 is_top_10_percent: true
 is_oa: true
 oa_status: gold
@@ -36,7 +36,7 @@ keywords:
   - "Scanning transmission electron microscopy"
   - "Atomic physics"
   - "Valence electron"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-05-25T08:40:16Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
