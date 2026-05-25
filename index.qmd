@@ -104,8 +104,6 @@ toc: false
   We build computational imaging methods that push electron microscopes beyond their textbook limits — from sub-Ångstrom 3D reconstructions to autonomous scanning workflows.
 :::
 
-{{< include _includes/pub-summary.qmd >}}
-
 :::: {.columns}
 
 ::: {.column width="34%"}
@@ -259,3 +257,9 @@ Talks, awards, and other recent lab news.
 :::
 
 ::::
+
+::: {.lead}
+  Our Research in Numbers
+:::
+
+{{< include _includes/pub-summary.qmd >}}
