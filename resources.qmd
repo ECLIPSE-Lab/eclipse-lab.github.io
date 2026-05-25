@@ -13,9 +13,14 @@ description: Software, datasets, and other resources from the ECLIPSE Lab at FAU
 </nav>
 ```
 
-## Software
+## Software & Projects
 
 · [ECLIPSE Lab GitHub](https://github.com/ECLIPSE-Lab) — all open-source projects from the lab
+
+**Featured project pages**
+
+· [End-to-End Ptychographic Electron Tomography](https://pelzlab.science/End2EndPtychoTomo/) — near-isotropic sub-Ångström (0.82 Å) 3D phase-contrast imaging at low dose; includes code, paper, video teaser, and an interactive slice viewer
+· [Multi-slice Ptychographic Tomography (MSPT)](https://pelzlab.science/MSPT/) — 3D phase-contrast microscopy beyond the depth-of-focus limit (2 Å axial / 0.7 Å transverse resolution); includes code and paper
 
 ## Presentations & Teaching
 

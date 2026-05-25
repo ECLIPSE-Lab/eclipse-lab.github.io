@@ -31,7 +31,7 @@ We combine physics-based inverse methods with ptychographic and 4D-STEM reconstr
 **Representative results**
 
 - [Atomic-resolution 3D volume from 4D-STEM tomography (Nature Communications, 2023)](https://www.nature.com/articles/s41467-023-43634-z)
-- [Atomic-resolution phase-contrast volume beyond depth-of-focus limits (Physica Scripta, 2024)](https://doi.org/10.1088/2515-7639/ad9ad2)
+- [Atomic-resolution phase-contrast volume beyond depth-of-focus limits (Physica Scripta, 2024)](https://doi.org/10.1088/2515-7639/ad9ad2) · [project page](https://pelzlab.science/MSPT/)
 
 ## 2) Large-volume 3D reconstruction at practical throughput
 
@@ -46,7 +46,7 @@ We design scalable reconstruction workflows and efficient compute strategies for
 
 **Representative results**
 
-- [Sub-Ångström end-to-end reconstruction pipeline (Physica Scripta, 2024)](https://doi.org/10.1088/1402-4896/ad9a1a)
+- [Sub-Ångström end-to-end reconstruction pipeline (Physica Scripta, 2024)](https://doi.org/10.1088/1402-4896/ad9a1a) · [project page](https://pelzlab.science/End2EndPtychoTomo/)
 - [Fast electron microscopy simulations (>100x) supporting rapid method development (Microscopy and Microanalysis, 2021)](https://academic.oup.com/mam/article/27/4/835/6888048)
 
 ## 3) Robust reconstruction under model mismatch and experimental complexity

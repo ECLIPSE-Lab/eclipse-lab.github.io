@@ -85,8 +85,8 @@ Many important materials problems require 3D information at high resolution, but
 **Representative results**
 
 - [2023: first atomic-resolution 3D volume from 4D-STEM tomography](https://www.nature.com/articles/s41467-023-43634-z)
-- [2024: first atomic-resolution phase-contrast volume beyond the depth of focus limit](https://doi.org/10.1088/2515-7639/ad9ad2)
-- [2024: first end-to-end reconstruction reaching sub-Angstrom resolution](https://doi.org/10.1088/1402-4896/ad9a1a)
+- [2024: first atomic-resolution phase-contrast volume beyond the depth of focus limit](https://doi.org/10.1088/2515-7639/ad9ad2) · [project page](https://pelzlab.science/MSPT/)
+- [2024: first end-to-end reconstruction reaching sub-Angstrom resolution](https://doi.org/10.1088/1402-4896/ad9a1a) · [project page](https://pelzlab.science/End2EndPtychoTomo/)
 
 ```{=html}
 <figure class="research-figure">
@@ -95,7 +95,7 @@ Many important materials problems require 3D information at high resolution, but
     <source type="image/webp" srcset="img/optimized/vol1-600.webp 600w, img/optimized/vol1-900.webp 900w, img/optimized/vol1-1200.webp 1200w" sizes="(max-width: 680px) 100vw, 680px">
     <img src="img/vol1.png" alt="Sub-Angstrom three-dimensional phase-contrast reconstruction inside a volume box" loading="lazy" decoding="async">
   </picture>
-  <figcaption>A <strong>sub-Ångström 3D phase-contrast volume</strong> — a resolution record set by an end-to-end pipeline that recovers more structure per electron, opening low-dose 3D imaging of beam-sensitive materials. <a href="https://doi.org/10.1088/1402-4896/ad9a1a"><em>Phys. Scripta</em>, 2024</a></figcaption>
+  <figcaption>A <strong>sub-Ångström 3D phase-contrast volume</strong> — a resolution record set by an end-to-end pipeline that recovers more structure per electron, opening low-dose 3D imaging of beam-sensitive materials. <a href="https://doi.org/10.1088/1402-4896/ad9a1a"><em>Phys. Scripta</em>, 2024</a> &middot; <a href="https://pelzlab.science/End2EndPtychoTomo/">project page</a></figcaption>
 </figure>
 ```
 
