@@ -26,7 +26,7 @@ Prefer a problem-first view? See [Research by Problem](research-by-problem.qmd).
     <source type="image/webp" srcset="img/optimized/zr_te_structure-300.webp 300w, img/optimized/zr_te_structure-450.webp 450w, img/optimized/zr_te_structure-600.webp 600w" sizes="(max-width: 680px) 100vw, 600px">
     <img src="img/zr_te_structure.png" alt="Three-dimensional atomic-resolution reconstruction of a complex nanostructure" loading="eager" decoding="async">
   </picture>
-  <figcaption>The complete <strong>3D atomic structure</strong> of a complex nanomaterial — recovered from a single 4D-STEM measurement by ptychographic atomic electron tomography, where conventional methods fall short. <a href="https://www.nature.com/articles/s41467-023-43634-z"><em>Nat. Commun.</em>, 2023</a></figcaption>
+  <figcaption>The complete <strong>3D atomic structure</strong> of a complex nanomaterial — recovered from a 4D-STEM tomography dataset by ptychographic atomic electron tomography, where conventional methods fall short. <a href="https://www.nature.com/articles/s41467-023-43634-z"><em>Nat. Commun.</em>, 2023</a></figcaption>
 </figure>
 ```
 
