@@ -1,0 +1,43 @@
+<script>
+(function () {
+  function decodePart(value) {
+    try {
+      return window.atob(value);
+    } catch (error) {
+      return "";
+    }
+  }
+
+  function hydrateEmails(root) {
+    (root || document).querySelectorAll("[data-email-user][data-email-domain]").forEach(function (node) {
+      if (node.dataset.emailHydrated === "true") {
+        return;
+      }
+
+      var user = decodePart(node.dataset.emailUser);
+      var domain = decodePart(node.dataset.emailDomain);
+      if (!user || !domain) {
+        return;
+      }
+
+      var email = user + "@" + domain;
+      var link = document.createElement("a");
+      link.href = "mailto:" + email;
+      if (node.dataset.emailSubject) {
+        link.href += "?subject=" + encodeURIComponent(node.dataset.emailSubject);
+      }
+      link.textContent = node.dataset.emailLabel || "Email";
+      node.replaceChildren(link);
+      node.dataset.emailHydrated = "true";
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", function () {
+      hydrateEmails(document);
+    });
+  } else {
+    hydrateEmails(document);
+  }
+})();
+</script>

@@ -104,7 +104,7 @@ Applications will be reviewed on a rolling basis until the position is filled. E
 
 ### How to Apply
 Please send your application materials as a single PDF file to:
-**Email:** [philipp.pelz@fau.de](mailto:philipp.pelz@fau.de)  
+**Email:** <span data-email-user="cGhpbGlwcC5wZWx6" data-email-domain="ZmF1LmRl" data-email-label="Email Philipp Pelz" data-email-subject="PhD Application - CorMic DP1 Data Fusion">Email link requires JavaScript.</span>  
 **Subject:** "PhD Application - CorMic DP1 Data Fusion"
 
 ## About CorMic Graduate School
@@ -122,4 +122,3 @@ The **CorMic Graduate School** is a collaborative initiative focused on advancin
 *We are committed to diversity and equal opportunity. We welcome applications from candidates of all backgrounds and encourage women and underrepresented groups to apply.*
 
 *For questions about the position, please contact Prof. Philipp Pelz or the CorMic Graduate School administration.*
-
