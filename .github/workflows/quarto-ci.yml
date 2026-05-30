@@ -1,0 +1,57 @@
+name: Quarto CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: quarto-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-link-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Show Quarto version
+        run: quarto --version
+
+      - name: Render site
+        run: quarto render
+
+      - name: Upload rendered site artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: quarto-site
+          path: docs
+          if-no-files-found: error
+
+      - name: Link check (generated docs)
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            --include-fragments
+            --retry-wait-time 2
+            --max-retries 2
+            --accept 200,429
+            --exclude-mail
+            docs/**/*.html
+            docs/**/*.xml
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
