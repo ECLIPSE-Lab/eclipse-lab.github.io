@@ -16,6 +16,14 @@ categories:
   - imaging
   - computational
   - journal article
+  # --- begin keyword categories (auto-managed) ---
+  - "electron tomography"
+  - "scanning confocal electron microscopy"
+  - "transmission electron microscopy"
+  - "scanning transmission electron microscopy"
+  - "microscopy"
+  - "optics"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 13
 fwci: 0.98
@@ -38,7 +46,7 @@ keywords:
   - "Scanning transmission electron microscopy"
   - "Microscopy"
   - "Optics"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-06-29T09:09:13Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

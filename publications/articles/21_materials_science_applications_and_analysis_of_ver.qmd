@@ -16,10 +16,10 @@ categories:
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
-citation_percentile: 5.8
+citation_percentile: 5.9
 is_oa: true
 oa_status: bronze
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-06-29T09:09:13Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

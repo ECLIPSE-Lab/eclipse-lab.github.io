@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,6 +10,9 @@
 
 <title>Publications | ECLIPSE Lab – ECLIPSE Lab</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -40,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ebcf001b64f1f296d2cb020c5267da26.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-bd6bb59f9e2fdb65c21f3a539c9ef08a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-execute','listing-website','listing-format','listing-language','listing-title','listing-type','listing-author','listing-year','listing-publication','listing-preprint','listing-doi','listing-materials','listing-code_url','listing-project_page_url','listing-toc','listing-categories','listing-cited_by_count','listing-fwci','listing-citation_percentile','listing-is_top_10_percent','listing-oa_status','listing-counts_by_year','listing-keywords','listing-metrics_updated','listing-path','listing-outputHref','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-is_oa','listing-is_top_1_percent',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-project','listing-execute','listing-website','listing-format','listing-engines','listing-language','listing-title','listing-type','listing-author','listing-year','listing-publication','listing-preprint','listing-doi','listing-materials','listing-code_url','listing-project_page_url','listing-toc','listing-categories','listing-cited_by_count','listing-fwci','listing-citation_percentile','listing-is_top_10_percent','listing-oa_status','listing-counts_by_year','listing-keywords','listing-metrics_updated','listing-path','listing-outputHref','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-is_oa','listing-is_top_1_percent',{ data: ['index'] },{ data: ['categories'] }],
       page: 20,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-publication","listing-year","listing-type"],
@@ -117,7 +120,7 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 <meta name="twitter:creator" content="@PhilippPelz">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -130,7 +133,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -170,7 +173,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="https://pelzlab.science" class="navbar-brand navbar-brand-logo">
-    <img src="././img/FAU.png" alt="" class="navbar-logo">
+    <img src="././img/FAU.png" alt="" class="navbar-logo light-content">
+    <img src="././img/FAU.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="https://pelzlab.science">
     <span class="navbar-title">ECLIPSE Lab</span>
@@ -237,7 +241,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(51)</span></div><div class="category" data-category="YXRvbWljJTIwcmVzb2x1dGlvbg==">atomic resolution <span class="quarto-category-count">(9)</span></div><div class="category" data-category="YmlvbG9neQ==">biology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y2hlbWlzdHJ5">chemistry <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Y29tcHV0YXRpb25hbA==">computational <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Y3J5by1FTQ==">cryo-EM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5">electron microscopy <span class="quarto-category-count">(26)</span></div><div class="category" data-category="aW1hZ2luZw==">imaging <span class="quarto-category-count">(26)</span></div><div class="category" data-category="am91cm5hbCUyMGFydGljbGU=">journal article <span class="quarto-category-count">(16)</span></div><div class="category" data-category="bWFjaGluZSUyMGxlYXJuaW5n">machine learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bWF0ZXJpYWxzJTIwc2NpZW5jZQ==">materials science <span class="quarto-category-count">(6)</span></div><div class="category" data-category="bmFub3BhcnRpY2xlcw==">nanoparticles <span class="quarto-category-count">(8)</span></div><div class="category" data-category="cGh5c2ljcw==">physics <span class="quarto-category-count">(9)</span></div><div class="category" data-category="cHR5Y2hvZ3JhcGh5">ptychography <span class="quarto-category-count">(13)</span></div><div class="category" data-category="cmVzZWFyY2g=">research <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c29mdHdhcmU=">software <span class="quarto-category-count">(7)</span></div><div class="category" data-category="dG9tb2dyYXBoeQ==">tomography <span class="quarto-category-count">(10)</span></div><div class="category" data-category="WC1yYXklMjBtaWNyb3Njb3B5">X-ray microscopy <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(51)</span></div><div class="category" data-category="YW5ub3RhdGlvbg==">annotation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXRvbWljJTIwcGh5c2ljcw==">atomic physics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YXRvbWljJTIwcmVzb2x1dGlvbg==">atomic resolution <span class="quarto-category-count">(9)</span></div><div class="category" data-category="YXRvbWljJTIwdW5pdHM=">atomic units <span class="quarto-category-count">(3)</span></div><div class="category" data-category="YmlsYXllcg==">bilayer <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YmlvbG9neQ==">biology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y2hlbWlzdHJ5">chemistry <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Y29tcHV0YXRpb25hbA==">computational <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Y29tcHV0YXRpb25hbCUyMHNjaWVuY2U=">computational science <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y29uZGVuc2VkJTIwbWF0dGVyJTIwcGh5c2ljcw==">condensed matter physics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29udmVudGlvbmFsJTIwdHJhbnNtaXNzaW9uJTIwZWxlY3Ryb24lMjBtaWNyb3Njb3Bl">conventional transmission electron microscope <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29wcGVy">copper <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29yZSUyMGNoYXJnZQ==">core charge <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29yZSUyMGVsZWN0cm9u">core electron <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29ycmVsYXRpdmU=">correlative <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y3J5by1FTQ==">cryo-EM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y3J5c3RhbCUyMHR3aW5uaW5n">crystal twinning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y3J5c3RhbGxpdGU=">crystallite <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y3VydmF0dXJl">curvature <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGFyayUyMGZpZWxkJTIwbWljcm9zY29weQ==">dark field microscopy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGV0ZWN0b3I=">detector <span class="quarto-category-count">(5)</span></div><div class="category" data-category="ZGljYXRpb24=">dication <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGlmZnJhY3Rpb24=">diffraction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZG91YmxlJTIwaW9uaXphdGlvbg==">double ionization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZWxlY3Ryb24=">electron <span class="quarto-category-count">(5)</span></div><div class="category" data-category="ZWxlY3Ryb24lMjBkaWZmcmFjdGlvbg==">electron diffraction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZWxlY3Ryb24lMjBtaWNyb3Njb3Bl">electron microscope <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5">electron microscopy <span class="quarto-category-count">(26)</span></div><div class="category" data-category="ZWxlY3Ryb24lMjBzY2F0dGVyaW5n">electron scattering <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZWxlY3Ryb24lMjB0b21vZ3JhcGh5">electron tomography <span class="quarto-category-count">(8)</span></div><div class="category" data-category="ZXhjaXRlZCUyMHN0YXRl">excited state <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZnJhbWUlMjByYXRl">frame rate <span class="quarto-category-count">(2)</span></div><div class="category" data-category="aGV0ZXJvanVuY3Rpb24=">heterojunction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aGlnaC1yZXNvbHV0aW9uJTIwdHJhbnNtaXNzaW9uJTIwZWxlY3Ryb24lMjBtaWNyb3Njb3B5">high-resolution transmission electron microscopy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="aWNvc2FoZWRyYWwlMjBzeW1tZXRyeQ==">icosahedral symmetry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW1hZ2luZw==">imaging <span class="quarto-category-count">(26)</span></div><div class="category" data-category="aW4lMjBzaXR1">in situ <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW50ZXJmZXJvbWV0cnk=">interferometry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW9uaXphdGlvbg==">ionization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aXNvdHJvcHk=">isotropy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="am91cm5hbCUyMGFydGljbGU=">journal article <span class="quarto-category-count">(16)</span></div><div class="category" data-category="bWFjaGluZSUyMGxlYXJuaW5n">machine learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bWF0ZXJpYWxzJTIwc2NpZW5jZQ==">materials science <span class="quarto-category-count">(6)</span></div><div class="category" data-category="bWVzb3Njb3BpYyUyMHBoeXNpY3M=">mesoscopic physics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWljcm9zY29weQ==">microscopy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bW9pciVDMyVBOSUyMHBhdHRlcm4=">moiré pattern <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bW9ub21lcg==">monomer <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmFuby0=">nano- <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmFub2NyeXN0YWw=">nanocrystal <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmFub21hdGVyaWFscw==">nanomaterials <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmFub3BhcnRpY2xl">nanoparticle <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmFub3BhcnRpY2xlcw==">nanoparticles <span class="quarto-category-count">(8)</span></div><div class="category" data-category="bmFub3Njb3BpYyUyMHNjYWxl">nanoscopic scale <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmFub3N0cnVjdHVyZQ==">nanostructure <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bmFub3RlY2hub2xvZ3k=">nanotechnology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmFub3dpcmU=">nanowire <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bnVjbGVhdGlvbg==">nucleation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="b3BlbiUyMHNvdXJjZQ==">open source <span class="quarto-category-count">(1)</span></div><div class="category" data-category="b3B0aWNhbCUyMHNlY3Rpb25pbmc=">optical sectioning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="b3B0aWNz">optics <span class="quarto-category-count">(11)</span></div><div class="category" data-category="cGFyYWxsYXg=">parallax <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cGFyYW1ldHJpYyUyMHN0YXRpc3RpY3M=">parametric statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGhhc2UlMjBjb250cmFzdCUyMG1pY3Jvc2NvcHk=">phase contrast microscopy <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cGhhc2UlMjByZXRyaWV2YWw=">phase retrieval <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGhhc2UtY29udHJhc3QlMjBpbWFnaW5n">phase-contrast imaging <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cGh5c2ljcw==">physics <span class="quarto-category-count">(9)</span></div><div class="category" data-category="cHJpc20=">prism <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHR5Y2hvZ3JhcGh5">ptychography <span class="quarto-category-count">(13)</span></div><div class="category" data-category="cXVhc2ljcnlzdGFs">quasicrystal <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmFtYW4lMjBzcGVjdHJvc2NvcHk=">raman spectroscopy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmVzZWFyY2g=">research <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2NhbGFiaWxpdHk=">scalability <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2Nhbm5pbmclMjBjb25mb2NhbCUyMGVsZWN0cm9uJTIwbWljcm9zY29weQ==">scanning confocal electron microscopy <span class="quarto-category-count">(4)</span></div><div class="category" data-category="c2Nhbm5pbmclMjB0cmFuc21pc3Npb24lMjBlbGVjdHJvbiUyMG1pY3Jvc2NvcHk=">scanning transmission electron microscopy <span class="quarto-category-count">(15)</span></div><div class="category" data-category="c2NhdHRlcmluZw==">scattering <span class="quarto-category-count">(8)</span></div><div class="category" data-category="c2VsZi1hc3NlbWJseQ==">self-assembly <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2VtaWNvbmR1Y3Rvcg==">semiconductor <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2luZ2xldCUyMHN0YXRl">singlet state <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c29mdHdhcmU=">software <span class="quarto-category-count">(8)</span></div><div class="category" data-category="c3VyZmFjZSUyMHBsYXNtb24lMjByZXNvbmFuY2U=">surface plasmon resonance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGVsbHVyaXVt">tellurium <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGV0cmFoZWRyb24=">tetrahedron <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGhyb3VnaHB1dA==">throughput <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dG9tb2dyYXBoeQ==">tomography <span class="quarto-category-count">(10)</span></div><div class="category" data-category="dHJhbnNtaXNzaW9uJTIwZWxlY3Ryb24lMjBtaWNyb3Njb3B5">transmission electron microscopy <span class="quarto-category-count">(11)</span></div><div class="category" data-category="dmFsZW5jZSUyMGVsZWN0cm9u">valence electron <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d2F2ZWZyb250">wavefront <span class="quarto-category-count">(1)</span></div><div class="category" data-category="WC1yYXklMjBtaWNyb3Njb3B5">X-ray microscopy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="eXR0cml1bQ==">yttrium <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
@@ -250,6 +254,16 @@ window.Quarto = {
     <li class="breadcrumb-item active" aria-current="page">Publications</li>
   </ol>
 </nav>
+<!-- AUTO-GENERATED by fetch_citation_metrics.py — do not edit by hand -->
+<div class="pub-summary" role="group" aria-label="Publication impact summary">
+  <div class="pub-stat"><span class="pub-stat-value">50</span><span class="pub-stat-label">Publications</span></div>
+  <div class="pub-stat"><span class="pub-stat-value">1,115</span><span class="pub-stat-label">Citations</span></div>
+  <div class="pub-stat"><span class="pub-stat-value">16</span><span class="pub-stat-label">h-index</span></div>
+  <div class="pub-stat"><span class="pub-stat-value">18</span><span class="pub-stat-label">in world’s top 10%</span></div>
+  <div class="pub-stat"><span class="pub-stat-value">3</span><span class="pub-stat-label">in world’s top 1%</span></div>
+  <div class="pub-stat"><span class="pub-stat-value">92%</span><span class="pub-stat-label">Open access</span></div>
+  <div class="pub-summary-note">Source: <a href="https://openalex.org/">OpenAlex</a> · updated 2026-06-29</div>
+</div>
 <div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
@@ -278,7 +292,7 @@ window.Quarto = {
 </div>
 <ul class="pub-list list">
 
-  <li data-index="0" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDcGh5c2ljcw==" data-listing-file-modified-sort="1777739720877" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
+  <li data-index="0" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDcGh5c2ljcyUyQ3NjYXR0ZXJpbmclMkNwaGFzZS1jb250cmFzdCUyMGltYWdpbmc=" data-listing-file-modified-sort="1782724153491" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
     <span class="listing-title lead">Gap-free Information Transfer in 4D-STEM via Fusion of Complementary Scattering Channels</span><br>
     <span class="listing-author">S. You, G. Varnavides, S. Khavnekar, N. Palatkin, S. Shao, M. Wu, D. G. Stroppa, D. Chernikova, B. Zhu, R. Egoavil, S. Vespucci, X. Ye, F. K. M. Schur, E. Spiecker, P. Pelz</span><br>
     <span class="listing-publication fst-italic ">arXiv (Cornell University)</span>
@@ -338,7 +352,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="1" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZw==" data-listing-file-modified-sort="1777739720876" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
+  <li data-index="1" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZyUyQ3JhbWFuJTIwc3BlY3Ryb3Njb3B5JTJDY29ycmVsYXRpdmUlMkN0cmFuc21pc3Npb24lMjBlbGVjdHJvbiUyMG1pY3Jvc2NvcHklMkNiaWxheWVy" data-listing-file-modified-sort="1782724153490" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
     <span class="listing-title lead">Identification of polytypism and their dislocations in bilayer MoS2 using correlative transmission electron microscopy and Raman spectroscopy</span><br>
     <span class="listing-author">X. Zhou, T. Dierke, M. Wu, S. You, K. Götz, T. Unruh, P. Pelz, J. Will, J. Maultzsch, E. Spiecker</span><br>
     <span class="listing-publication fst-italic ">npj 2D Materials and Applications 9</span>
@@ -432,7 +446,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="2" data-categories="bmFub3BhcnRpY2xlcw==" data-listing-file-modified-sort="1777739720876" data-listing-reading-time-sort="2" data-listing-word-count-sort="289">
+  <li data-index="2" data-categories="bmFub3BhcnRpY2xlcyUyQ25hbm9jcnlzdGFsJTJDbnVjbGVhdGlvbiUyQ3RyYW5zbWlzc2lvbiUyMGVsZWN0cm9uJTIwbWljcm9zY29weSUyQ2NvcHBlciUyQ3N1cmZhY2UlMjBwbGFzbW9uJTIwcmVzb25hbmNlJTJDbW9ub21lcg==" data-listing-file-modified-sort="1782724153491" data-listing-reading-time-sort="2" data-listing-word-count-sort="289">
     <span class="listing-title lead">Kinetically Controlled Seed-Mediated Synthesis of Colloidal Copper Nanotetrahedra with Intricate Internal Structure</span><br>
     <span class="listing-author">S. Jeong, M. Wu, R. X. Skalla, B. Paranzino, A. Kichigin, B. Zhu, A. N. Butrum-Griffith, X. Zhan, Y. Zhong, C. Yan, P. Pelz, C. Ophus, S. Rechberger, Y. Wang, J. Chen, A. Yasuhara, Y. Aoyama, M. Kakefuda, K. A. Willets, E. Spiecker, X. Ye</span><br>
     <span class="listing-publication fst-italic ">Journal of the American Chemical Society 147, 37622-37633</span>
@@ -526,7 +540,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="3" data-categories="cHR5Y2hvZ3JhcGh5JTJDdG9tb2dyYXBoeSUyQ2ltYWdpbmclMkNqb3VybmFsJTIwYXJ0aWNsZQ==" data-listing-file-modified-sort="1777739720876" data-listing-reading-time-sort="2" data-listing-word-count-sort="242">
+  <li data-index="3" data-categories="cHR5Y2hvZ3JhcGh5JTJDdG9tb2dyYXBoeSUyQ2ltYWdpbmclMkNqb3VybmFsJTIwYXJ0aWNsZQ==" data-listing-file-modified-sort="1782724153490" data-listing-reading-time-sort="2" data-listing-word-count-sort="242">
     <span class="listing-title lead">Multi-slice electron ptychographic tomography for three-dimensional phase-contrast microscopy beyond the depth of focus limits</span><br>
     <span class="listing-author">A. Romanov, M. G. Cho, M. C. Scott, P. Pelz</span><br>
     <span class="listing-publication fst-italic ">Journal of Physics: Materials 8, 015005</span>
@@ -581,7 +595,7 @@ window.Quarto = {
       
       <span class="metric metric-fwci" title="Field-Weighted Citation Impact (1.0 = field average)">
         <i class="bi bi-graph-up-arrow"></i>
-        3.0× field avg
+        2.7× field avg
       </span>
       
 
@@ -625,7 +639,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="4" data-categories="cHR5Y2hvZ3JhcGh5JTJDdG9tb2dyYXBoeSUyQ2F0b21pYyUyMHJlc29sdXRpb24lMkNpbWFnaW5nJTJDam91cm5hbCUyMGFydGljbGU=" data-listing-file-modified-sort="1777739720876" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
+  <li data-index="4" data-categories="cHR5Y2hvZ3JhcGh5JTJDdG9tb2dyYXBoeSUyQ2F0b21pYyUyMHJlc29sdXRpb24lMkNpbWFnaW5nJTJDam91cm5hbCUyMGFydGljbGUlMkNpc290cm9weSUyQ3BoYXNlLWNvbnRyYXN0JTIwaW1hZ2luZyUyQ3BoYXNlJTIwY29udHJhc3QlMjBtaWNyb3Njb3B5JTJDb3B0aWNz" data-listing-file-modified-sort="1782724153490" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
     <span class="listing-title lead">Near-isotropic sub-Ångstrom 3d resolution phase contrast imaging achieved by end-to-end ptychographic electron tomography</span><br>
     <span class="listing-author">S. You, A. Romanov, P. M. Pelz</span><br>
     <span class="listing-publication fst-italic ">Physica Scripta 100, 015404</span>
@@ -654,7 +668,7 @@ window.Quarto = {
       
       <span class="metric metric-citations" title="Total citations (OpenAlex)">
         <i class="bi bi-quote"></i>
-        <span class="metric-value">9</span>
+        <span class="metric-value">10</span>
         <span class="metric-label">cits</span>
       </span>
       
@@ -662,9 +676,6 @@ window.Quarto = {
       
       <span class="metric metric-spark" title="Citations per year (last 8 years)">
         <span class="spark">
-          
-            
-            <span class="spark-bar" style="height: 6%;" data-year="2018" data-count="0"></span>
           
             
             <span class="spark-bar" style="height: 6%;" data-year="2019" data-count="0"></span>
@@ -686,6 +697,9 @@ window.Quarto = {
           
             
             <span class="spark-bar" style="height: 100%;" data-year="2025" data-count="7"></span>
+          
+            
+            <span class="spark-bar" style="height: 14%;" data-year="2026" data-count="1"></span>
           
         </span>
       </span>
@@ -738,7 +752,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="5" data-categories="cHR5Y2hvZ3JhcGh5JTJDdG9tb2dyYXBoeSUyQ2F0b21pYyUyMHJlc29sdXRpb24lMkNpbWFnaW5n" data-listing-file-modified-sort="1777738523087" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
+  <li data-index="5" data-categories="cHR5Y2hvZ3JhcGh5JTJDdG9tb2dyYXBoeSUyQ2F0b21pYyUyMHJlc29sdXRpb24lMkNpbWFnaW5n" data-listing-file-modified-sort="1782724137052" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
     <span class="listing-title lead">Sub-Ångstrom 3D Resolution, Volume Imaging Beyond the Depth of Focus Limit, and Automated Tomography Using Electron Ptychography</span><br>
     <span class="listing-author">P. Pelz, S. You, M. Wu, N. Palatkin</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 31</span>
@@ -764,7 +778,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="6" data-categories="cHR5Y2hvZ3JhcGh5JTJDZWxlY3Ryb24lMjBtaWNyb3Njb3B5" data-listing-file-modified-sort="1777739720875" data-listing-reading-time-sort="2" data-listing-word-count-sort="342">
+  <li data-index="6" data-categories="cHR5Y2hvZ3JhcGh5JTJDZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDcGFyYWxsYXglMkNvcHRpY3M=" data-listing-file-modified-sort="1782724153490" data-listing-reading-time-sort="2" data-listing-word-count-sort="342">
     <span class="listing-title lead">Information Transfer Improvement by Parallax Correction and Ptychography Reconstruction Applied to Fast Large-Area 4D STEM Experiments</span><br>
     <span class="listing-author">D. G. Stroppa, S. Ribet, G. Varnavides, C. Ophus, P. Pelz</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 30</span>
@@ -822,7 +836,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="7" data-categories="cHR5Y2hvZ3JhcGh5JTJDZWxlY3Ryb24lMjBtaWNyb3Njb3B5" data-listing-file-modified-sort="1777739720875" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
+  <li data-index="7" data-categories="cHR5Y2hvZ3JhcGh5JTJDZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDcGFyYWxsYXg=" data-listing-file-modified-sort="1782724153490" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
     <span class="listing-title lead">Information Transfer Improvement by Parallax Correction and Ptychography Reconstruction Applied to Large-Area 4D STEM Experiments</span><br>
     <span class="listing-author">D. Stroppa, S. Ribet, G. Varnavides, C. Ophus, P. Pelz</span><br>
     <span class="listing-publication fst-italic ">BIO Web of Conferences 129, 04027</span>
@@ -882,7 +896,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="8" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZw==" data-listing-file-modified-sort="1777739720876" data-listing-reading-time-sort="1" data-listing-word-count-sort="200">
+  <li data-index="8" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZyUyQ2VsZWN0cm9uJTJDc2Nhbm5pbmclMjB0cmFuc21pc3Npb24lMjBlbGVjdHJvbiUyMG1pY3Jvc2NvcHklMkNkZXRlY3RvciUyQ3NjYW5uaW5nJTIwY29uZm9jYWwlMjBlbGVjdHJvbiUyMG1pY3Jvc2NvcHklMkNjb252ZW50aW9uYWwlMjB0cmFuc21pc3Npb24lMjBlbGVjdHJvbiUyMG1pY3Jvc2NvcGUlMkN0cmFuc21pc3Npb24lMjBlbGVjdHJvbiUyMG1pY3Jvc2NvcHk=" data-listing-file-modified-sort="1782724153490" data-listing-reading-time-sort="1" data-listing-word-count-sort="200">
     <span class="listing-title lead">The 4D Camera: An 87 kHz Direct Electron Detector for Scanning/Transmission Electron Microscopy</span><br>
     <span class="listing-author">P. Ercius, I. J. Johnson, P. Pelz, B. H. Savitzky, L. Hughes, H. G. Brown, S. E. Zeltmann, S. Hsu, C. C. S. Pedroso, B. E. Cohen, R. Ramesh, D. Paul, J. M. Joseph, T. Stezelberger, C. Czarnik, M. Lent, E. Fong, J. Ciston, M. C. Scott, C. Ophus, A. M. Minor, P. Denes</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 30, 903-912</span>
@@ -913,7 +927,7 @@ window.Quarto = {
       
       <span class="metric metric-citations" title="Total citations (OpenAlex)">
         <i class="bi bi-quote"></i>
-        <span class="metric-value">29</span>
+        <span class="metric-value">30</span>
         <span class="metric-label">cits</span>
       </span>
       
@@ -944,7 +958,7 @@ window.Quarto = {
             <span class="spark-bar" style="height: 100%;" data-year="2025" data-count="19"></span>
           
             
-            <span class="spark-bar" style="height: 37%;" data-year="2026" data-count="7"></span>
+            <span class="spark-bar" style="height: 42%;" data-year="2026" data-count="8"></span>
           
         </span>
       </span>
@@ -953,7 +967,7 @@ window.Quarto = {
       
       <span class="metric metric-fwci" title="Field-Weighted Citation Impact (1.0 = field average)">
         <i class="bi bi-graph-up-arrow"></i>
-        4.8× field avg
+        4.5× field avg
       </span>
       
 
@@ -989,7 +1003,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="9" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDbmFub3BhcnRpY2xlcyUyQ21hdGVyaWFscyUyMHNjaWVuY2U=" data-listing-file-modified-sort="1777739720875" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
+  <li data-index="9" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDbmFub3BhcnRpY2xlcyUyQ21hdGVyaWFscyUyMHNjaWVuY2UlMkNpbiUyMHNpdHUlMkNuYW5vLQ==" data-listing-file-modified-sort="1782724153489" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
     <span class="listing-title lead">Towards in-situ 4D-STEM observation of texture evolution in nano-crystalline thin films</span><br>
     <span class="listing-author">M. Wu, C. Hsieh, D. Stroppa, P. Pelz, C. Ophus, P. Lu, R. Dunin-Borkowski, C. Harreiss, P. Denninger, E. Spiecker</span><br>
     <span class="listing-publication fst-italic ">BIO Web of Conferences 129, 07006</span>
@@ -1049,7 +1063,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="10" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDbmFub3BhcnRpY2xlcyUyQ2NoZW1pc3RyeSUyQ2Jpb2xvZ3k=" data-listing-file-modified-sort="1777739720875" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
+  <li data-index="10" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDbmFub3BhcnRpY2xlcyUyQ2NoZW1pc3RyeSUyQ2Jpb2xvZ3klMkNwaGFzZSUyMGNvbnRyYXN0JTIwbWljcm9zY29weSUyQ25hbm9zdHJ1Y3R1cmUlMkNuYW5vdGVjaG5vbG9neQ==" data-listing-file-modified-sort="1782724153490" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
     <span class="listing-title lead">Using Phase Contrast 4D-STEM to solve 3D Inorganic and Biological Nanostructures</span><br>
     <span class="listing-author">C. Ophus, S. Ribet, G. Varnavides, P. M. Pelz</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 30</span>
@@ -1107,7 +1121,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="11" data-categories="bmFub3BhcnRpY2xlcyUyQ21hdGVyaWFscyUyMHNjaWVuY2UlMkNtYWNoaW5lJTIwbGVhcm5pbmclMkNwaHlzaWNz" data-listing-file-modified-sort="1777739720874" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
+  <li data-index="11" data-categories="bmFub3BhcnRpY2xlcyUyQ21hdGVyaWFscyUyMHNjaWVuY2UlMkNtYWNoaW5lJTIwbGVhcm5pbmclMkNwaHlzaWNzJTJDaGV0ZXJvanVuY3Rpb24lMkN0ZWxsdXJpdW0lMkNzZW1pY29uZHVjdG9yJTJDY29uZGVuc2VkJTIwbWF0dGVyJTIwcGh5c2ljcyUyQ21vaXIlQzMlQTklMjBwYXR0ZXJu" data-listing-file-modified-sort="1782724153489" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
     <span class="listing-title lead">Analysis of Strain and Defects in Tellurium-WSe<sub>2</sub> Moiré Heterostructures Using Scanning Nanodiffraction</span><br>
     <span class="listing-author">B. Sari, S. E. Zeltmann, C. Zhao, P. M. Pelz, A. Javey, A. M. Minor, C. Ophus, M. C. Scott</span><br>
     <span class="listing-publication fst-italic ">ACS Nano 17, 22326-22333</span>
@@ -1136,7 +1150,7 @@ window.Quarto = {
       
       <span class="metric metric-citations" title="Total citations (OpenAlex)">
         <i class="bi bi-quote"></i>
-        <span class="metric-value">16</span>
+        <span class="metric-value">17</span>
         <span class="metric-label">cits</span>
       </span>
       
@@ -1167,7 +1181,7 @@ window.Quarto = {
             <span class="spark-bar" style="height: 100%;" data-year="2025" data-count="8"></span>
           
             
-            <span class="spark-bar" style="height: 63%;" data-year="2026" data-count="5"></span>
+            <span class="spark-bar" style="height: 75%;" data-year="2026" data-count="6"></span>
           
         </span>
       </span>
@@ -1203,7 +1217,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="12" data-categories="bmFub3BhcnRpY2xlcyUyQ21hdGVyaWFscyUyMHNjaWVuY2U=" data-listing-file-modified-sort="1777739720873" data-listing-reading-time-sort="2" data-listing-word-count-sort="217">
+  <li data-index="12" data-categories="bmFub3BhcnRpY2xlcyUyQ21hdGVyaWFscyUyMHNjaWVuY2UlMkNxdWFzaWNyeXN0YWwlMkN0ZXRyYWhlZHJvbiUyQ3NlbGYtYXNzZW1ibHklMkNjdXJ2YXR1cmU=" data-listing-file-modified-sort="1782724153489" data-listing-reading-time-sort="2" data-listing-word-count-sort="217">
     <span class="listing-title lead">Controlled Self-Assembly of Gold Nanotetrahedra into Quasicrystals and Complex Periodic Supracrystals</span><br>
     <span class="listing-author">Y. Wang, J. Chen, R. Li, A. Götz, D. Drobek, T. Przybilla, S. Hübner, P. Pelz, L. Yang, B. A. Zubiri, E. Spiecker, M. Engel, X. Ye</span><br>
     <span class="listing-publication fst-italic ">Journal of the American Chemical Society 145, 17902-17911</span>
@@ -1230,7 +1244,7 @@ window.Quarto = {
       
       <span class="metric metric-citations" title="Total citations (OpenAlex)">
         <i class="bi bi-quote"></i>
-        <span class="metric-value">28</span>
+        <span class="metric-value">29</span>
         <span class="metric-label">cits</span>
       </span>
       
@@ -1261,7 +1275,7 @@ window.Quarto = {
             <span class="spark-bar" style="height: 71%;" data-year="2025" data-count="10"></span>
           
             
-            <span class="spark-bar" style="height: 29%;" data-year="2026" data-count="4"></span>
+            <span class="spark-bar" style="height: 36%;" data-year="2026" data-count="5"></span>
           
         </span>
       </span>
@@ -1270,7 +1284,7 @@ window.Quarto = {
       
       <span class="metric metric-fwci" title="Field-Weighted Citation Impact (1.0 = field average)">
         <i class="bi bi-graph-up-arrow"></i>
-        2.6× field avg
+        2.5× field avg
       </span>
       
 
@@ -1306,7 +1320,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="13" data-categories="cHR5Y2hvZ3JhcGh5JTJDdG9tb2dyYXBoeSUyQ2ltYWdpbmc=" data-listing-file-modified-sort="1777739720874" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
+  <li data-index="13" data-categories="cHR5Y2hvZ3JhcGh5JTJDdG9tb2dyYXBoeSUyQ2ltYWdpbmclMkNlbGVjdHJvbiUyMHRvbW9ncmFwaHklMkNvcHRpY3MlMkNwaGFzZS1jb250cmFzdCUyMGltYWdpbmc=" data-listing-file-modified-sort="1782724153489" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
     <span class="listing-title lead">High-resolution 3D phase-contrast imaging beyond the depth of field limit via ptychographic multi-slice electron tomography</span><br>
     <span class="listing-author">A. V. Romanov, M. G. Cho, M. Scott, C. Ophus, P. Pelz</span><br>
     <span class="listing-publication fst-italic ">arXiv (Cornell University)</span>
@@ -1398,7 +1412,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="14" data-categories="YXRvbWljJTIwcmVzb2x1dGlvbiUyQ2ltYWdpbmc=" data-listing-file-modified-sort="1777739720873" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
+  <li data-index="14" data-categories="YXRvbWljJTIwcmVzb2x1dGlvbiUyQ2ltYWdpbmclMkNjb3JlJTIwY2hhcmdlJTJDZWxlY3Ryb24lMkNjb3JlJTIwZWxlY3Ryb24lMkNzY2FubmluZyUyMHRyYW5zbWlzc2lvbiUyMGVsZWN0cm9uJTIwbWljcm9zY29weSUyQ2F0b21pYyUyMHBoeXNpY3MlMkN2YWxlbmNlJTIwZWxlY3Ryb24=" data-listing-file-modified-sort="1782724153488" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
     <span class="listing-title lead">Imaging the electron charge density in monolayer MoS2 at the Ångstrom scale</span><br>
     <span class="listing-author">J. Martis, S. Susarla, A. Rayabharam, C. Su, T. Paule, P. Pelz, C. Huff, X. Xu, H. Li, M. Jaikissoon, V. Chen, E. Pop, K. Saraswat, A. Zettl, N. R. Aluru, R. Ramesh, P. Ercius, A. Majumdar</span><br>
     <span class="listing-publication fst-italic ">Nature Communications 14</span>
@@ -1429,7 +1443,7 @@ window.Quarto = {
       
       <span class="metric metric-citations" title="Total citations (OpenAlex)">
         <i class="bi bi-quote"></i>
-        <span class="metric-value">26</span>
+        <span class="metric-value">29</span>
         <span class="metric-label">cits</span>
       </span>
       
@@ -1460,7 +1474,7 @@ window.Quarto = {
             <span class="spark-bar" style="height: 100%;" data-year="2025" data-count="12"></span>
           
             
-            <span class="spark-bar" style="height: 25%;" data-year="2026" data-count="3"></span>
+            <span class="spark-bar" style="height: 50%;" data-year="2026" data-count="6"></span>
           
         </span>
       </span>
@@ -1469,7 +1483,7 @@ window.Quarto = {
       
       <span class="metric metric-fwci" title="Field-Weighted Citation Impact (1.0 = field average)">
         <i class="bi bi-graph-up-arrow"></i>
-        7.0× field avg
+        7.4× field avg
       </span>
       
 
@@ -1505,7 +1519,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="15" data-categories="dG9tb2dyYXBoeSUyQ2F0b21pYyUyMHJlc29sdXRpb24=" data-listing-file-modified-sort="1777739720873" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
+  <li data-index="15" data-categories="dG9tb2dyYXBoeSUyQ2F0b21pYyUyMHJlc29sdXRpb24lMkNjcnlzdGFsJTIwdHdpbm5pbmclMkNlbGVjdHJvbiUyMHRvbW9ncmFwaHklMkNlbGVjdHJvbg==" data-listing-file-modified-sort="1782724153488" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
     <span class="listing-title lead">Observation of Simultaneous Successive Twinning Using Atomic Electron Tomography</span><br>
     <span class="listing-author">P. M. Pelz, C. Groschner, A. Bruefach, C. Ophus, M. C. Scott</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 29, 707-708</span>
@@ -1567,7 +1581,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="16" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZw==" data-listing-file-modified-sort="1777739720873" data-listing-reading-time-sort="1" data-listing-word-count-sort="200">
+  <li data-index="16" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZyUyQ29wdGljYWwlMjBzZWN0aW9uaW5nJTJDb3B0aWNzJTJDcGFyYWxsYXglMkNkYXJrJTIwZmllbGQlMjBtaWNyb3Njb3B5JTJDc2Nhbm5pbmclMjB0cmFuc21pc3Npb24lMjBlbGVjdHJvbiUyMG1pY3Jvc2NvcHklMkNzY2F0dGVyaW5n" data-listing-file-modified-sort="1782724153488" data-listing-reading-time-sort="1" data-listing-word-count-sort="200">
     <span class="listing-title lead">Resolution of Virtual Depth Sectioning from Four-Dimensional Scanning Transmission Electron Microscopy</span><br>
     <span class="listing-author">E. W. C. Terzoudis-Lumsden, T. C. Petersen, H. G. Brown, P. M. Pelz, C. Ophus, S. D. Findlay</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 29, 1409-1421</span>
@@ -1638,7 +1652,7 @@ window.Quarto = {
       
       <span class="metric metric-fwci" title="Field-Weighted Citation Impact (1.0 = field average)">
         <i class="bi bi-graph-up-arrow"></i>
-        3.5× field avg
+        3.3× field avg
       </span>
       
 
@@ -1674,7 +1688,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="17" data-categories="cHR5Y2hvZ3JhcGh5JTJDdG9tb2dyYXBoeSUyQ2F0b21pYyUyMHJlc29sdXRpb24lMkNuYW5vcGFydGljbGVzJTJDam91cm5hbCUyMGFydGljbGU=" data-listing-file-modified-sort="1777739720875" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
+  <li data-index="17" data-categories="cHR5Y2hvZ3JhcGh5JTJDdG9tb2dyYXBoeSUyQ2F0b21pYyUyMHJlc29sdXRpb24lMkNuYW5vcGFydGljbGVzJTJDam91cm5hbCUyMGFydGljbGUlMkNlbGVjdHJvbiUyMHRvbW9ncmFwaHklMkNuYW5vbWF0ZXJpYWxzJTJDYXRvbWljJTIwdW5pdHMlMkNlbGVjdHJvbiUyMGRpZmZyYWN0aW9uJTJDaGlnaC1yZXNvbHV0aW9uJTIwdHJhbnNtaXNzaW9uJTIwZWxlY3Ryb24lMjBtaWNyb3Njb3B5" data-listing-file-modified-sort="1782724153489" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
     <span class="listing-title lead">Solving complex nanostructures with ptychographic atomic electron tomography</span><br>
     <span class="listing-author">P. M. Pelz, S. M. Griffin, S. Stonemeyer, D. Popple, H. DeVyldere, P. Ercius, A. Zettl, M. C. Scott, C. Ophus</span><br>
     <span class="listing-publication fst-italic ">Nature Communications 14</span>
@@ -1703,7 +1717,7 @@ window.Quarto = {
       
       <span class="metric metric-citations" title="Total citations (OpenAlex)">
         <i class="bi bi-quote"></i>
-        <span class="metric-value">48</span>
+        <span class="metric-value">52</span>
         <span class="metric-label">cits</span>
       </span>
       
@@ -1734,7 +1748,7 @@ window.Quarto = {
             <span class="spark-bar" style="height: 100%;" data-year="2025" data-count="25"></span>
           
             
-            <span class="spark-bar" style="height: 12%;" data-year="2026" data-count="3"></span>
+            <span class="spark-bar" style="height: 28%;" data-year="2026" data-count="7"></span>
           
         </span>
       </span>
@@ -1743,7 +1757,7 @@ window.Quarto = {
       
       <span class="metric metric-fwci" title="Field-Weighted Citation Impact (1.0 = field average)">
         <i class="bi bi-graph-up-arrow"></i>
-        16.6× field avg
+        16.9× field avg
       </span>
       
 
@@ -1779,7 +1793,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="18" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDbmFub3BhcnRpY2xlcyUyQ21hdGVyaWFscyUyMHNjaWVuY2U=" data-listing-file-modified-sort="1777739720874" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
+  <li data-index="18" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDbmFub3BhcnRpY2xlcyUyQ21hdGVyaWFscyUyMHNjaWVuY2UlMkNuYW5vc2NvcGljJTIwc2NhbGU=" data-listing-file-modified-sort="1782724153489" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
     <span class="listing-title lead">Using 4D-STEM to measure the nanoscale structure of materials in two and three dimensions</span><br>
     <span class="listing-author">C. Ophus, P. M. Pelz, H. A. Sternlict, B. H. Savitzky, A. Rakowski, A. Bruefach, S. Ribet, M. S. Scott</span><br>
     <span class="listing-publication fst-italic ">Acta Crystallographica Section A Foundations and Advances 79, C251-C251</span>
@@ -1837,7 +1851,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="19" data-categories="aW1hZ2luZyUyQ3BoeXNpY3MlMkNjaGVtaXN0cnklMkNqb3VybmFsJTIwYXJ0aWNsZQ==" data-listing-file-modified-sort="1777739720874" data-listing-reading-time-sort="2" data-listing-word-count-sort="266">
+  <li data-index="19" data-categories="aW1hZ2luZyUyQ3BoeXNpY3MlMkNjaGVtaXN0cnklMkNqb3VybmFsJTIwYXJ0aWNsZSUyQ2RldGVjdG9yJTJDY3J5c3RhbGxpdGUlMkNvcHRpY3M=" data-listing-file-modified-sort="1782724153489" data-listing-reading-time-sort="2" data-listing-word-count-sort="266">
     <span class="listing-title lead">Using a fast hybrid pixel detector for dose-efficient diffraction imaging beam-sensitive organic molecular thin films</span><br>
     <span class="listing-author">M. Wu, D. G. Stroppa, P. Pelz, E. Spiecker</span><br>
     <span class="listing-publication fst-italic ">Journal of Physics: Materials 6, 045008</span>
@@ -1929,7 +1943,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="20" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZyUyQ3BoeXNpY3M=" data-listing-file-modified-sort="1777739720874" data-listing-reading-time-sort="1" data-listing-word-count-sort="144">
+  <li data-index="20" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZyUyQ3BoeXNpY3MlMkNzY2FubmluZyUyMHRyYW5zbWlzc2lvbiUyMGVsZWN0cm9uJTIwbWljcm9zY29weSUyQ3NjYXR0ZXJpbmclMkN0cmFuc21pc3Npb24lMjBlbGVjdHJvbiUyMG1pY3Jvc2NvcHk=" data-listing-file-modified-sort="1782724153489" data-listing-reading-time-sort="1" data-listing-word-count-sort="144">
     <span class="listing-title lead">Virtual imaging enabled by scattering matrix reconstruction from 4D scanning transmission electron microscopy</span><br>
     <span class="listing-author">E. W. C. Terzoudis-Lumsden, T. C. Petersen, H. G. Brown, P. M. Pelz, C. Ophus, S. D. Findlay</span><br>
     <span class="listing-publication fst-italic ">Acta Crystallographica Section A Foundations and Advances 79, C1092-C1092</span>
@@ -1991,7 +2005,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="21" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDc29mdHdhcmUlMkNpbWFnaW5nJTJDY29tcHV0YXRpb25hbCUyQ2pvdXJuYWwlMjBhcnRpY2xl" data-listing-file-modified-sort="1777739720871" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
+  <li data-index="21" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDc29mdHdhcmUlMkNpbWFnaW5nJTJDY29tcHV0YXRpb25hbCUyQ2pvdXJuYWwlMjBhcnRpY2xlJTJDZWxlY3Ryb24lMjB0b21vZ3JhcGh5JTJDc2Nhbm5pbmclMjBjb25mb2NhbCUyMGVsZWN0cm9uJTIwbWljcm9zY29weSUyQ3RyYW5zbWlzc2lvbiUyMGVsZWN0cm9uJTIwbWljcm9zY29weSUyQ3NjYW5uaW5nJTIwdHJhbnNtaXNzaW9uJTIwZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDbWljcm9zY29weSUyQ29wdGljcw==" data-listing-file-modified-sort="1782724153487" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
     <span class="listing-title lead">A Three-Dimensional Reconstruction Algorithm for Scanning Transmission Electron Microscopy Data from a Single Sample Orientation</span><br>
     <span class="listing-author">H. G. Brown, P. M. Pelz, S. Hsu, Z. Zhang, R. Ramesh, K. Inzani, E. Sheridan, S. M. Griffin, M. Schloz, T. C. Pekin, C. T. Koch, S. D. Findlay, L. J. Allen, M. C. Scott, C. Ophus, J. Ciston</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 28, 1632-1640</span>
@@ -2089,7 +2103,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="22" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZyUyQ2NoZW1pc3RyeSUyQ2pvdXJuYWwlMjBhcnRpY2xl" data-listing-file-modified-sort="1777739720873" data-listing-reading-time-sort="2" data-listing-word-count-sort="203">
+  <li data-index="22" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZyUyQ2NoZW1pc3RyeSUyQ2pvdXJuYWwlMjBhcnRpY2xlJTJDdHJhbnNtaXNzaW9uJTIwZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDZWxlY3Ryb24lMjBtaWNyb3Njb3Bl" data-listing-file-modified-sort="1782724153488" data-listing-reading-time-sort="2" data-listing-word-count-sort="203">
     <span class="listing-title lead">Observation of formation and local structures of metal-organic layers via complementary electron microscopy techniques</span><br>
     <span class="listing-author">X. Peng, P. M. Pelz, Q. Zhang, P. Chen, L. Cao, Y. Zhang, H. Liao, H. Zheng, C. Wang, S. Sun, M. C. Scott</span><br>
     <span class="listing-publication fst-italic ">Nature Communications 13</span>
@@ -2112,7 +2126,7 @@ window.Quarto = {
       
       <span class="metric metric-citations" title="Total citations (OpenAlex)">
         <i class="bi bi-quote"></i>
-        <span class="metric-value">43</span>
+        <span class="metric-value">44</span>
         <span class="metric-label">cits</span>
       </span>
       
@@ -2143,7 +2157,7 @@ window.Quarto = {
             <span class="spark-bar" style="height: 69%;" data-year="2025" data-count="11"></span>
           
             
-            <span class="spark-bar" style="height: 19%;" data-year="2026" data-count="3"></span>
+            <span class="spark-bar" style="height: 25%;" data-year="2026" data-count="4"></span>
           
         </span>
       </span>
@@ -2188,7 +2202,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="23" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZw==" data-listing-file-modified-sort="1777739720872" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
+  <li data-index="23" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZyUyQ2ludGVyZmVyb21ldHJ5JTJDcGhhc2UlMjBjb250cmFzdCUyMG1pY3Jvc2NvcHklMkNwaGFzZS1jb250cmFzdCUyMGltYWdpbmc=" data-listing-file-modified-sort="1782724153488" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
     <span class="listing-title lead">Qualitative Phase Contrast Imaging using Interferometric 4DSTEM</span><br>
     <span class="listing-author">A. Ducharme, P. Pelz, L. Brown, P. Ercius, B. McMorran</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 28, 2504-2505</span>
@@ -2250,7 +2264,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="24" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZyUyQ2pvdXJuYWwlMjBhcnRpY2xl" data-listing-file-modified-sort="1777739720872" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
+  <li data-index="24" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZyUyQ2pvdXJuYWwlMjBhcnRpY2xlJTJDZGV0ZWN0b3IlMkNzY2FubmluZyUyMHRyYW5zbWlzc2lvbiUyMGVsZWN0cm9uJTIwbWljcm9zY29weSUyQ2ZyYW1lJTIwcmF0ZQ==" data-listing-file-modified-sort="1782724153487" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
     <span class="listing-title lead">Real-Time Interactive 4D-STEM Phase-Contrast Imaging From Electron Event Representation Data: Less computation with the right representation</span><br>
     <span class="listing-author">P. M. Pelz, I. Johnson, C. Ophus, P. Ercius, M. C. Scott</span><br>
     <span class="listing-publication fst-italic ">IEEE Signal Processing Magazine 39, 25-31</span>
@@ -2275,7 +2289,7 @@ window.Quarto = {
       
       <span class="metric metric-citations" title="Total citations (OpenAlex)">
         <i class="bi bi-quote"></i>
-        <span class="metric-value">24</span>
+        <span class="metric-value">27</span>
         <span class="metric-label">cits</span>
       </span>
       
@@ -2283,9 +2297,6 @@ window.Quarto = {
       
       <span class="metric metric-spark" title="Citations per year (last 8 years)">
         <span class="spark">
-          
-            
-            <span class="spark-bar" style="height: 6%;" data-year="2018" data-count="0"></span>
           
             
             <span class="spark-bar" style="height: 6%;" data-year="2019" data-count="0"></span>
@@ -2308,6 +2319,9 @@ window.Quarto = {
             
             <span class="spark-bar" style="height: 36%;" data-year="2025" data-count="4"></span>
           
+            
+            <span class="spark-bar" style="height: 27%;" data-year="2026" data-count="3"></span>
+          
         </span>
       </span>
       
@@ -2315,7 +2329,7 @@ window.Quarto = {
       
       <span class="metric metric-fwci" title="Field-Weighted Citation Impact (1.0 = field average)">
         <i class="bi bi-graph-up-arrow"></i>
-        3.6× field avg
+        3.7× field avg
       </span>
       
 
@@ -2351,7 +2365,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="25" data-categories="dG9tb2dyYXBoeSUyQ2F0b21pYyUyMHJlc29sdXRpb24lMkNqb3VybmFsJTIwYXJ0aWNsZQ==" data-listing-file-modified-sort="1777739720872" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
+  <li data-index="25" data-categories="dG9tb2dyYXBoeSUyQ2F0b21pYyUyMHJlc29sdXRpb24lMkNqb3VybmFsJTIwYXJ0aWNsZSUyQ2NyeXN0YWwlMjB0d2lubmluZyUyQ2ljb3NhaGVkcmFsJTIwc3ltbWV0cnklMkNuYW5vc3RydWN0dXJlJTJDZWxlY3Ryb24lMjB0b21vZ3JhcGh5JTJDbmFub3BhcnRpY2xlJTJDYXRvbWljJTIwdW5pdHM=" data-listing-file-modified-sort="1782724153488" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
     <span class="listing-title lead">Simultaneous Successive Twinning Captured by Atomic Electron Tomography</span><br>
     <span class="listing-author">P. M. Pelz, C. Groschner, A. Bruefach, A. Satariano, C. Ophus, M. C. Scott</span><br>
     <span class="listing-publication fst-italic ">ACS Nano 16, 588-596</span>
@@ -2382,7 +2396,7 @@ window.Quarto = {
       
       <span class="metric metric-citations" title="Total citations (OpenAlex)">
         <i class="bi bi-quote"></i>
-        <span class="metric-value">24</span>
+        <span class="metric-value">25</span>
         <span class="metric-label">cits</span>
       </span>
       
@@ -2390,9 +2404,6 @@ window.Quarto = {
       
       <span class="metric metric-spark" title="Citations per year (last 8 years)">
         <span class="spark">
-          
-            
-            <span class="spark-bar" style="height: 6%;" data-year="2018" data-count="0"></span>
           
             
             <span class="spark-bar" style="height: 6%;" data-year="2019" data-count="0"></span>
@@ -2414,6 +2425,9 @@ window.Quarto = {
           
             
             <span class="spark-bar" style="height: 57%;" data-year="2025" data-count="4"></span>
+          
+            
+            <span class="spark-bar" style="height: 14%;" data-year="2026" data-count="1"></span>
           
         </span>
       </span>
@@ -2458,7 +2472,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="26" data-categories="cHR5Y2hvZ3JhcGh5JTJDYXRvbWljJTIwcmVzb2x1dGlvbg==" data-listing-file-modified-sort="1777739720872" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+  <li data-index="26" data-categories="cHR5Y2hvZ3JhcGh5JTJDYXRvbWljJTIwcmVzb2x1dGlvbiUyQ2F0b21pYyUyMHVuaXRz" data-listing-file-modified-sort="1782724153488" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
     <span class="listing-title lead">Structured Illumination Electron Ptychography at the Atomic Scale</span><br>
     <span class="listing-author">P. Pelz, H. DeVyldere, P. Ercius, M. Scott</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 28, 388-390</span>
@@ -2548,7 +2562,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="27" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDc29mdHdhcmUlMkNpbWFnaW5nJTJDY29tcHV0YXRpb25hbCUyQ3BoeXNpY3MlMkNqb3VybmFsJTIwYXJ0aWNsZQ==" data-listing-file-modified-sort="1777739720869" data-listing-reading-time-sort="2" data-listing-word-count-sort="212">
+  <li data-index="27" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDc29mdHdhcmUlMkNpbWFnaW5nJTJDY29tcHV0YXRpb25hbCUyQ3BoeXNpY3MlMkNqb3VybmFsJTIwYXJ0aWNsZSUyQ3ByaXNtJTJDc2Nhbm5pbmclMjB0cmFuc21pc3Npb24lMjBlbGVjdHJvbiUyMG1pY3Jvc2NvcHklMkNzY2F0dGVyaW5n" data-listing-file-modified-sort="1782724153486" data-listing-reading-time-sort="2" data-listing-word-count-sort="212">
     <span class="listing-title lead">A Fast Algorithm for Scanning Transmission Electron Microscopy Imaging and 4D-STEM Diffraction Simulations</span><br>
     <span class="listing-author">P. M. Pelz, A. Rakowski, L. R. DaCosta, B. H. Savitzky, M. C. Scott, C. Ophus</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 27, 835-848</span>
@@ -2649,7 +2663,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="28" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDc29mdHdhcmUlMkNpbWFnaW5nJTJDY29tcHV0YXRpb25hbA==" data-listing-file-modified-sort="1777739720871" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
+  <li data-index="28" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDc29mdHdhcmUlMkNpbWFnaW5nJTJDY29tcHV0YXRpb25hbCUyQ3RyYW5zbWlzc2lvbiUyMGVsZWN0cm9uJTIwbWljcm9zY29weSUyQ3NjYW5uaW5nJTIwdHJhbnNtaXNzaW9uJTIwZWxlY3Ryb24lMjBtaWNyb3Njb3B5" data-listing-file-modified-sort="1782724153487" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
     <span class="listing-title lead">A faster image simulation algorithm for scanning transmission electron microscopy</span><br>
     <span class="listing-author">P. Pelz, L. DaCosta, A. M. Rakowski, M. Scott, C. Ophus</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 27, 1272-1275</span>
@@ -2709,7 +2723,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="29" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDbWF0ZXJpYWxzJTIwc2NpZW5jZQ==" data-listing-file-modified-sort="1777739720871" data-listing-reading-time-sort="2" data-listing-word-count-sort="236">
+  <li data-index="29" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDbWF0ZXJpYWxzJTIwc2NpZW5jZQ==" data-listing-file-modified-sort="1782724153487" data-listing-reading-time-sort="2" data-listing-word-count-sort="236">
     <span class="listing-title lead">Materials Science Applications and Analysis of Very Large 4D-STEM Experiments</span><br>
     <span class="listing-author">C. Ophus, B. Savitzky, P. Pelz, A. M. Rakowski, L. R. DaCosta, L. Hughes, S. Zeltmann, K. C. Bustillo, M. Scott, A. Minor</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 27, 14-15</span>
@@ -2761,7 +2775,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="30" data-categories="YXRvbWljJTIwcmVzb2x1dGlvbiUyQ2ltYWdpbmclMkNwaHlzaWNzJTJDam91cm5hbCUyMGFydGljbGU=" data-listing-file-modified-sort="1777739720870" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
+  <li data-index="30" data-categories="YXRvbWljJTIwcmVzb2x1dGlvbiUyQ2ltYWdpbmclMkNwaHlzaWNzJTJDam91cm5hbCUyMGFydGljbGUlMkNzY2F0dGVyaW5nJTJDb3B0aWNz" data-listing-file-modified-sort="1782724153487" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
     <span class="listing-title lead">Phase-contrast imaging of multiply-scattering extended objects at atomic resolution by reconstruction of the scattering matrix</span><br>
     <span class="listing-author">P. M. Pelz, H. G. Brown, S. Stonemeyer, S. D. Findlay, A. Zettl, P. Ercius, Y. Zhang, J. Ciston, M. C. Scott, C. Ophus</span><br>
     <span class="listing-publication fst-italic ">Physical Review Research 3</span>
@@ -2784,7 +2798,7 @@ window.Quarto = {
       
       <span class="metric metric-citations" title="Total citations (OpenAlex)">
         <i class="bi bi-quote"></i>
-        <span class="metric-value">19</span>
+        <span class="metric-value">20</span>
         <span class="metric-label">cits</span>
       </span>
       
@@ -2792,9 +2806,6 @@ window.Quarto = {
       
       <span class="metric metric-spark" title="Citations per year (last 8 years)">
         <span class="spark">
-          
-            
-            <span class="spark-bar" style="height: 6%;" data-year="2018" data-count="0"></span>
           
             
             <span class="spark-bar" style="height: 6%;" data-year="2019" data-count="0"></span>
@@ -2816,6 +2827,9 @@ window.Quarto = {
           
             
             <span class="spark-bar" style="height: 14%;" data-year="2025" data-count="1"></span>
+          
+            
+            <span class="spark-bar" style="height: 14%;" data-year="2026" data-count="1"></span>
           
         </span>
       </span>
@@ -2860,7 +2874,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="31" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDc29mdHdhcmUlMkNpbWFnaW5nJTJDY29tcHV0YXRpb25hbCUyQ2pvdXJuYWwlMjBhcnRpY2xl" data-listing-file-modified-sort="1777739720871" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
+  <li data-index="31" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDc29mdHdhcmUlMkNpbWFnaW5nJTJDY29tcHV0YXRpb25hbCUyQ2pvdXJuYWwlMjBhcnRpY2xlJTJDY29tcHV0YXRpb25hbCUyMHNjaWVuY2UlMkNzY2FubmluZyUyMHRyYW5zbWlzc2lvbiUyMGVsZWN0cm9uJTIwbWljcm9zY29weQ==" data-listing-file-modified-sort="1782724153487" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
     <span class="listing-title lead">Prismatic 2.0 – Simulation software for scanning and high resolution transmission electron microscopy (STEM and HRTEM)</span><br>
     <span class="listing-author">L. R. DaCosta, H. G. Brown, P. M. Pelz, A. Rakowski, N. Barber, P. O’Donovan, P. McBean, L. Jones, J. Ciston, M. Scott, C. Ophus</span><br>
     <span class="listing-publication fst-italic ">Micron 151, 103141</span>
@@ -2883,7 +2897,7 @@ window.Quarto = {
       
       <span class="metric metric-citations" title="Total citations (OpenAlex)">
         <i class="bi bi-quote"></i>
-        <span class="metric-value">94</span>
+        <span class="metric-value">97</span>
         <span class="metric-label">cits</span>
       </span>
       
@@ -2914,7 +2928,7 @@ window.Quarto = {
             <span class="spark-bar" style="height: 74%;" data-year="2025" data-count="20"></span>
           
             
-            <span class="spark-bar" style="height: 11%;" data-year="2026" data-count="3"></span>
+            <span class="spark-bar" style="height: 22%;" data-year="2026" data-count="6"></span>
           
         </span>
       </span>
@@ -2923,7 +2937,7 @@ window.Quarto = {
       
       <span class="metric metric-fwci" title="Field-Weighted Citation Impact (1.0 = field average)">
         <i class="bi bi-graph-up-arrow"></i>
-        12.8× field avg
+        12.9× field avg
       </span>
       
 
@@ -2959,7 +2973,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="32" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDc29mdHdhcmUlMkNpbWFnaW5nJTJDam91cm5hbCUyMGFydGljbGU=" data-listing-file-modified-sort="1777739720869" data-listing-reading-time-sort="2" data-listing-word-count-sort="282">
+  <li data-index="32" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDc29mdHdhcmUlMkNpbWFnaW5nJTJDam91cm5hbCUyMGFydGljbGU=" data-listing-file-modified-sort="1782724153486" data-listing-reading-time-sort="2" data-listing-word-count-sort="282">
     <span class="listing-title lead">Py4DSTEM: A Software Package for Four-Dimensional Scanning Transmission Electron Microscopy Data Analysis</span><br>
     <span class="listing-author">B. H. Savitzky, S. E. Zeltmann, L. A. Hughes, H. G. Brown, S. Zhao, P. M. Pelz, T. C. Pekin, E. S. Barnard, J. Donohue, L. R. DaCosta, E. Kennedy, Y. Xie, M. T. Janish, M. M. Schneider, P. Herring, C. Gopal, A. Anapolsky, R. Dhall, K. C. Bustillo, P. Ercius, M. C. Scott, J. Ciston, A. M. Minor, C. Ophus</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 27, 712-743</span>
@@ -2980,7 +2994,7 @@ window.Quarto = {
       
       <span class="metric metric-citations" title="Total citations (OpenAlex)">
         <i class="bi bi-quote"></i>
-        <span class="metric-value">295</span>
+        <span class="metric-value">310</span>
         <span class="metric-label">cits</span>
       </span>
       
@@ -3002,16 +3016,16 @@ window.Quarto = {
             <span class="spark-bar" style="height: 38%;" data-year="2022" data-count="32"></span>
           
             
-            <span class="spark-bar" style="height: 69%;" data-year="2023" data-count="58"></span>
+            <span class="spark-bar" style="height: 68%;" data-year="2023" data-count="58"></span>
           
             
-            <span class="spark-bar" style="height: 99%;" data-year="2024" data-count="83"></span>
+            <span class="spark-bar" style="height: 98%;" data-year="2024" data-count="83"></span>
           
             
-            <span class="spark-bar" style="height: 100%;" data-year="2025" data-count="84"></span>
+            <span class="spark-bar" style="height: 100%;" data-year="2025" data-count="85"></span>
           
             
-            <span class="spark-bar" style="height: 24%;" data-year="2026" data-count="20"></span>
+            <span class="spark-bar" style="height: 40%;" data-year="2026" data-count="34"></span>
           
         </span>
       </span>
@@ -3020,7 +3034,7 @@ window.Quarto = {
       
       <span class="metric metric-fwci" title="Field-Weighted Citation Impact (1.0 = field average)">
         <i class="bi bi-graph-up-arrow"></i>
-        34.8× field avg
+        34.9× field avg
       </span>
       
 
@@ -3056,7 +3070,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="33" data-categories="cHR5Y2hvZ3JhcGh5" data-listing-file-modified-sort="1777739720870" data-listing-reading-time-sort="1" data-listing-word-count-sort="151">
+  <li data-index="33" data-categories="cHR5Y2hvZ3JhcGh5JTJDZGV0ZWN0b3IlMkNmcmFtZSUyMHJhdGUlMkNzY2FubmluZyUyMHRyYW5zbWlzc2lvbiUyMGVsZWN0cm9uJTIwbWljcm9zY29weQ==" data-listing-file-modified-sort="1782724153487" data-listing-reading-time-sort="1" data-listing-word-count-sort="151">
     <span class="listing-title lead">Real-time interactive ptychography from electron event representation data</span><br>
     <span class="listing-author">P. Pelz, P. Ercius, C. Ophus, I. Johnson, M. Scott</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 27, 188-189</span>
@@ -3155,7 +3169,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="34" data-categories="cmVzZWFyY2g=" data-listing-file-modified-sort="1777739720870" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
+  <li data-index="34" data-categories="cmVzZWFyY2glMkNzY2FsYWJpbGl0eSUyQ3Rocm91Z2hwdXQlMkNjb21wdXRhdGlvbmFsJTIwc2NpZW5jZSUyQ2Fubm90YXRpb24lMkNzb2Z0d2FyZSUyQ3BhcmFtZXRyaWMlMjBzdGF0aXN0aWNz" data-listing-file-modified-sort="1782724153486" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
     <span class="listing-title lead">Scalable multicomponent spectral analysis for high-throughput data
  annotation</span><br>
     <span class="listing-author">R. P. Xian, R. Ernstorfer, P. Pelz</span><br>
@@ -3224,7 +3238,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="35" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDbWF0ZXJpYWxzJTIwc2NpZW5jZSUyQ2ltYWdpbmclMkNwaHlzaWNzJTJDam91cm5hbCUyMGFydGljbGU=" data-listing-file-modified-sort="1777739720870" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
+  <li data-index="35" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDbWF0ZXJpYWxzJTIwc2NpZW5jZSUyQ2ltYWdpbmclMkNwaHlzaWNzJTJDam91cm5hbCUyMGFydGljbGUlMkNzY2F0dGVyaW5nJTJDc2Nhbm5pbmclMjB0cmFuc21pc3Npb24lMjBlbGVjdHJvbiUyMG1pY3Jvc2NvcHklMkNvcHRpY3MlMkN0cmFuc21pc3Npb24lMjBlbGVjdHJvbiUyMG1pY3Jvc2NvcHklMkNlbGVjdHJvbiUyMHNjYXR0ZXJpbmc=" data-listing-file-modified-sort="1782724153486" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
     <span class="listing-title lead">Scattering Matrix Determination in Crystalline Materials from 4D Scanning Transmission Electron Microscopy at a Single Defocus Value</span><br>
     <span class="listing-author">S. D. Findlay, H. G. Brown, P. M. Pelz, C. Ophus, J. Ciston, L. J. Allen</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 27, 744-757</span>
@@ -3320,7 +3334,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="36" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZw==" data-listing-file-modified-sort="1777739720871" data-listing-reading-time-sort="2" data-listing-word-count-sort="222">
+  <li data-index="36" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZyUyQ3BoYXNlJTIwY29udHJhc3QlMjBtaWNyb3Njb3B5JTJDb3BlbiUyMHNvdXJjZQ==" data-listing-file-modified-sort="1782724153487" data-listing-reading-time-sort="2" data-listing-word-count-sort="222">
     <span class="listing-title lead">smpr3d: an open-source toolkit for 3D phase-contrast imaging from 4D-STEM datasets</span><br>
     <span class="listing-author">P. Pelz, H. Brown, P. Ercius, I. Johnson, J. Ciston, M. Scott, C. Ophus</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 27, 1524-1526</span>
@@ -3380,7 +3394,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="37" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDc29mdHdhcmUlMkNpbWFnaW5nJTJDY29tcHV0YXRpb25hbA==" data-listing-file-modified-sort="1777739720869" data-listing-reading-time-sort="1" data-listing-word-count-sort="56">
+  <li data-index="37" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDc29mdHdhcmUlMkNpbWFnaW5nJTJDY29tcHV0YXRpb25hbCUyQ2VsZWN0cm9uJTIwdG9tb2dyYXBoeSUyQ3NjYW5uaW5nJTIwY29uZm9jYWwlMjBlbGVjdHJvbiUyMG1pY3Jvc2NvcHklMkN0cmFuc21pc3Npb24lMjBlbGVjdHJvbiUyMG1pY3Jvc2NvcHklMkNzY2FubmluZyUyMHRyYW5zbWlzc2lvbiUyMGVsZWN0cm9uJTIwbWljcm9zY29weSUyQ21pY3Jvc2NvcHklMkN5dHRyaXVt" data-listing-file-modified-sort="1782724153486" data-listing-reading-time-sort="1" data-listing-word-count-sort="56">
     <span class="listing-title lead">A single-projection three-dimensional reconstruction algorithm for scanning transmission electron microscopy data</span><br>
     <span class="listing-author">H. G. Brown, P. Pelz, S. Hsu, Z. Zhang, R. Ramesh, K. Inzani, E. Sheridan, S. M. Griffin, M. Schloz, T. C. Pekin, C. T. Koch, S. D. Findlay, L. J. Allen, M. Scott, C. Ophus, J. Ciston</span><br>
     <span class="listing-publication fst-italic ">arXiv (Cornell University)</span>
@@ -3448,7 +3462,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="38" data-categories="dG9tb2dyYXBoeQ==" data-listing-file-modified-sort="1777739720868" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
+  <li data-index="38" data-categories="dG9tb2dyYXBoeQ==" data-listing-file-modified-sort="1782724153486" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
     <span class="listing-title lead">Achieving High-resolution of Large Specimens Using Aberration-corrected Tomography</span><br>
     <span class="listing-author">R. Yalisove, S. H. Sung, J. Schwartz, C. Groschner, P. Pelz, H. Zheng, Y. Jiang, C. Ophus, M. Scott, P. Ercius, R. Hovden</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 26, 1860-1862</span>
@@ -3506,7 +3520,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="39" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZyUyQ2NvbXB1dGF0aW9uYWwlMkNwaHlzaWNz" data-listing-file-modified-sort="1777739720868" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
+  <li data-index="39" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZyUyQ2NvbXB1dGF0aW9uYWwlMkNwaHlzaWNzJTJDc2Nhbm5pbmclMjB0cmFuc21pc3Npb24lMjBlbGVjdHJvbiUyMG1pY3Jvc2NvcHklMkNlbGVjdHJvbiUyQ3NjYXR0ZXJpbmclMkN0cmFuc21pc3Npb24lMjBlbGVjdHJvbiUyMG1pY3Jvc2NvcHk=" data-listing-file-modified-sort="1782724153485" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
     <span class="listing-title lead">Improving the Speed and Accuracy of Large-scale Scanning Transmission Electron Microscopy (STEM) Electron Scattering Simulations</span><br>
     <span class="listing-author">C. Ophus, H. Brown, L. R. Dacosta, P. Pelz, J. Schwartz, R. Yalisove, R. Hovden, J. Ciston, B. Savitzky</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 26, 456-458</span>
@@ -3600,7 +3614,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="40" data-categories="aW1hZ2luZw==" data-listing-file-modified-sort="1777739720867" data-listing-reading-time-sort="1" data-listing-word-count-sort="119">
+  <li data-index="40" data-categories="aW1hZ2luZyUyQ3BoYXNlJTIwY29udHJhc3QlMjBtaWNyb3Njb3B5JTJDcGhhc2UtY29udHJhc3QlMjBpbWFnaW5n" data-listing-file-modified-sort="1782724153485" data-listing-reading-time-sort="1" data-listing-word-count-sort="119">
     <span class="listing-title lead">Phase Contrast Imaging in Thick, Heterogeneous Samples via S-Matrix Phase Retrieval and Depth Sectioning</span><br>
     <span class="listing-author">P. Pelz, H. Brown, S. Findlay, M. Scott, J. Ciston, C. Ophus</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 26, 462-464</span>
@@ -3690,7 +3704,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="41" data-categories="cGh5c2ljcw==" data-listing-file-modified-sort="1777739720868" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
+  <li data-index="41" data-categories="cGh5c2ljcyUyQ3NjYXR0ZXJpbmclMkNvcHRpY3MlMkNkaWZmcmFjdGlvbiUyQ3dhdmVmcm9udA==" data-listing-file-modified-sort="1782724153486" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
     <span class="listing-title lead">Reconstructing the Scattering Matrix from Scanning Electron Diffraction Measurements Alone</span><br>
     <span class="listing-author">P. Pelz, H. G. Brown, J. Ciston, S. D. Findlay, Y. Zhang, M. Scott, C. Ophus</span><br>
     <span class="listing-publication fst-italic ">arXiv (Cornell University)</span>
@@ -3784,7 +3798,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="42" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5" data-listing-file-modified-sort="1777739720867" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
+  <li data-index="42" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDZGV0ZWN0b3I=" data-listing-file-modified-sort="1782724153485" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
     <span class="listing-title lead">The 4D Camera – An 87 kHz Frame-rate Detector for Counted 4D-STEM Experiments</span><br>
     <span class="listing-author">P. Ercius, I. Johnson, H. Brown, P. Pelz, S. Hsu, B. Draney, E. Fong, A. Goldschmidt, J. Joseph, J. Lee, J. Ciston, C. Ophus, M. Scott, A. Selvarajan, D. Paul, D. Skinner, M. Hanwell, C. Harris, P. Avery, T. Stezelberger, C. Tindall, R. Ramesh, A. Minor, P. Denes</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 26, 1896-1897</span>
@@ -3881,7 +3895,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="43" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDdG9tb2dyYXBoeSUyQ2F0b21pYyUyMHJlc29sdXRpb24lMkNpbWFnaW5n" data-listing-file-modified-sort="1777739720867" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
+  <li data-index="43" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDdG9tb2dyYXBoeSUyQ2F0b21pYyUyMHJlc29sdXRpb24lMkNpbWFnaW5nJTJDaGlnaC1yZXNvbHV0aW9uJTIwdHJhbnNtaXNzaW9uJTIwZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDZWxlY3Ryb24lMjB0b21vZ3JhcGh5JTJDc2Nhbm5pbmclMjB0cmFuc21pc3Npb24lMjBlbGVjdHJvbiUyMG1pY3Jvc2NvcHk=" data-listing-file-modified-sort="1782724153485" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
     <span class="listing-title lead">3D Imaging Using HAADF-STEM and HRTEM Atomic Electron Tomography</span><br>
     <span class="listing-author">C. Ophus, D. Ren, J. Zhou, H. Devyldere, M. Chen, P. M. Pelz, P. Ercius, J. Miao, M. Scott, L. Waller</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 25, 394-395</span>
@@ -3943,7 +3957,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="44" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZw==" data-listing-file-modified-sort="1777739720866" data-listing-reading-time-sort="2" data-listing-word-count-sort="340">
+  <li data-index="44" data-categories="ZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDaW1hZ2luZyUyQ3NjYW5uaW5nJTIwdHJhbnNtaXNzaW9uJTIwZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDdHJhbnNtaXNzaW9uJTIwZWxlY3Ryb24lMjBtaWNyb3Njb3B5JTJDc2Nhbm5pbmclMjBjb25mb2NhbCUyMGVsZWN0cm9uJTIwbWljcm9zY29weQ==" data-listing-file-modified-sort="1782724153485" data-listing-reading-time-sort="2" data-listing-word-count-sort="340">
     <span class="listing-title lead">Advanced Phase Reconstruction Methods Enabled by Four-Dimensional Scanning Transmission Electron Microscopy</span><br>
     <span class="listing-author">C. Ophus, T. R. Harvey, F. S. Yasin, H. G. Brown, P. M. Pelz, B. H. Savitzky, J. Ciston, B. J. McMorran</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 25, 10-11</span>
@@ -4035,7 +4049,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="45" data-categories="cHR5Y2hvZ3JhcGh5JTJDYmlvbG9neQ==" data-listing-file-modified-sort="1777739720865" data-listing-reading-time-sort="1" data-listing-word-count-sort="123">
+  <li data-index="45" data-categories="cHR5Y2hvZ3JhcGh5JTJDYmlvbG9neQ==" data-listing-file-modified-sort="1782724153484" data-listing-reading-time-sort="1" data-listing-word-count-sort="123">
     <span class="listing-title lead">Electron Ptychography of Single Biological Macromolecules</span><br>
     <span class="listing-author">P. M. Pelz, R. Bücker, G. Ramm, H. Venugopal, G. Kassier, D. Eggert, P. Lu, R. E. Dunin-Borkowski, R. J. D. Miller</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 25, 72-73</span>
@@ -4117,7 +4131,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="46" data-categories="dG9tb2dyYXBoeSUyQ25hbm9wYXJ0aWNsZXMlMkNtYWNoaW5lJTIwbGVhcm5pbmc=" data-listing-file-modified-sort="1777739720866" data-listing-reading-time-sort="1" data-listing-word-count-sort="181">
+  <li data-index="46" data-categories="dG9tb2dyYXBoeSUyQ25hbm9wYXJ0aWNsZXMlMkNtYWNoaW5lJTIwbGVhcm5pbmclMkNuYW5vd2lyZSUyQ2VsZWN0cm9uJTIwdG9tb2dyYXBoeSUyQ2VsZWN0cm9u" data-listing-file-modified-sort="1782724153485" data-listing-reading-time-sort="1" data-listing-word-count-sort="181">
     <span class="listing-title lead">Engineering Chiral Structures Through Strain Release: Electron Tomography Study of Twisted Nanowires</span><br>
     <span class="listing-author">X. Song, A. Bruefach, P. M. Pelz, H. Devyldere, M. Scott</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 25, 1804-1805</span>
@@ -4209,7 +4223,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="47" data-categories="cHR5Y2hvZ3JhcGh5JTJDc29mdHdhcmUlMkNjb21wdXRhdGlvbmFs" data-listing-file-modified-sort="1777739720866" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
+  <li data-index="47" data-categories="cHR5Y2hvZ3JhcGh5JTJDc29mdHdhcmUlMkNjb21wdXRhdGlvbmFs" data-listing-file-modified-sort="1782724153485" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
     <span class="listing-title lead">Towards Ptychography with Structured Illumination, and a Derivative-Based Reconstruction Algorithm</span><br>
     <span class="listing-author">W. V. d. Broek, M. Schloz, T. Pekin, P. Pelz, P. Lu, M. Kruth, V. Grillo, R. Dunin-Borkowski, R. Miller, C. Koch</span><br>
     <span class="listing-publication fst-italic ">Microscopy and Microanalysis 25, 58-59</span>
@@ -4291,7 +4305,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="48" data-categories="cHR5Y2hvZ3JhcGh5JTJDY3J5by1FTSUyQ2pvdXJuYWwlMjBhcnRpY2xl" data-listing-file-modified-sort="1777739720865" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
+  <li data-index="48" data-categories="cHR5Y2hvZ3JhcGh5JTJDY3J5by1FTSUyQ2pvdXJuYWwlMjBhcnRpY2xlJTJDcGhhc2UlMjByZXRyaWV2YWwlMkNvcHRpY3M=" data-listing-file-modified-sort="1782724153484" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
     <span class="listing-title lead">Low-dose cryo electron ptychography via non-convex Bayesian optimization</span><br>
     <span class="listing-author">P. M. Pelz, W. X. Qiu, R. Bücker, G. Kassier, R. J. D. Miller</span><br>
     <span class="listing-publication fst-italic ">Scientific Reports 7</span>
@@ -4316,7 +4330,7 @@ window.Quarto = {
       
       <span class="metric metric-citations" title="Total citations (OpenAlex)">
         <i class="bi bi-quote"></i>
-        <span class="metric-value">83</span>
+        <span class="metric-value">84</span>
         <span class="metric-label">cits</span>
       </span>
       
@@ -4347,7 +4361,7 @@ window.Quarto = {
             <span class="spark-bar" style="height: 45%;" data-year="2025" data-count="9"></span>
           
             
-            <span class="spark-bar" style="height: 6%;" data-year="2026" data-count="1"></span>
+            <span class="spark-bar" style="height: 10%;" data-year="2026" data-count="2"></span>
           
         </span>
       </span>
@@ -4356,7 +4370,7 @@ window.Quarto = {
       
       <span class="metric metric-fwci" title="Field-Weighted Citation Impact (1.0 = field average)">
         <i class="bi bi-graph-up-arrow"></i>
-        8.2× field avg
+        8.3× field avg
       </span>
       
 
@@ -4392,7 +4406,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="49" data-categories="cHR5Y2hvZ3JhcGh5JTJDWC1yYXklMjBtaWNyb3Njb3B5JTJDam91cm5hbCUyMGFydGljbGU=" data-listing-file-modified-sort="1777739720864" data-listing-reading-time-sort="1" data-listing-word-count-sort="131">
+  <li data-index="49" data-categories="cHR5Y2hvZ3JhcGh5JTJDWC1yYXklMjBtaWNyb3Njb3B5JTJDam91cm5hbCUyMGFydGljbGUlMkNvcHRpY3MlMkNtZXNvc2NvcGljJTIwcGh5c2ljcw==" data-listing-file-modified-sort="1782724153484" data-listing-reading-time-sort="1" data-listing-word-count-sort="131">
     <span class="listing-title lead">On-the-fly scans for X-ray ptychography</span><br>
     <span class="listing-author">P. M. Pelz, M. Guizar-Sicairos, P. Thibault, I. Johnson, M. Holler, A. Menzel</span><br>
     <span class="listing-publication fst-italic ">Applied Physics Letters 105</span>
@@ -4417,7 +4431,7 @@ window.Quarto = {
       
       <span class="metric metric-citations" title="Total citations (OpenAlex)">
         <i class="bi bi-quote"></i>
-        <span class="metric-value">137</span>
+        <span class="metric-value">139</span>
         <span class="metric-label">cits</span>
       </span>
       
@@ -4448,7 +4462,7 @@ window.Quarto = {
             <span class="spark-bar" style="height: 31%;" data-year="2025" data-count="8"></span>
           
             
-            <span class="spark-bar" style="height: 8%;" data-year="2026" data-count="2"></span>
+            <span class="spark-bar" style="height: 15%;" data-year="2026" data-count="4"></span>
           
         </span>
       </span>
@@ -4489,7 +4503,7 @@ window.Quarto = {
     
   </li>
 
-  <li data-index="50" data-categories="am91cm5hbCUyMGFydGljbGU=" data-listing-file-modified-sort="1777739720865" data-listing-reading-time-sort="1" data-listing-word-count-sort="79">
+  <li data-index="50" data-categories="am91cm5hbCUyMGFydGljbGUlMkNkaWNhdGlvbiUyQ2RvdWJsZSUyMGlvbml6YXRpb24lMkNpb25pemF0aW9uJTJDYXRvbWljJTIwcGh5c2ljcyUyQ2V4Y2l0ZWQlMjBzdGF0ZSUyQ3NpbmdsZXQlMjBzdGF0ZQ==" data-listing-file-modified-sort="1782724153484" data-listing-reading-time-sort="1" data-listing-word-count-sort="79">
     <span class="listing-title lead">Photo-double-ionization of ethylene and acetylene near threshold</span><br>
     <span class="listing-author">B. Gaire, S. Y. Lee, D. J. Haxton, P. M. Pelz, I. Bocharova, F. P. Sturm, N. Gehrken, M. Honig, M. Pitzer, D. Metz, H. Kim, M. Schöffler, R. Dörner, H. Gassert, S. Zeller, J. Voigtsberger, W. Cao, M. Zohrabi, J. Williams, A. Gatton, D. Reedy, C. Nook, T. Müller, A. L. Landers, C. L. Cocke, I. Ben-Itzhak, T. Jahnke, A. Belkacem, T. Weber</span><br>
     <span class="listing-publication fst-italic ">Physical Review A 89</span>
@@ -4609,6 +4623,69 @@ window.Quarto = {
 
 
 </main> <!-- /main -->
+<!-- Backfill alt text on Quarto listing thumbnails.
+     Quarto's grid and default listings emit <img> elements with no alt
+     attribute and provide no per-item alt field, leaving People photos and
+     News post thumbnails inaccessible to screen readers and image search.
+     This sets alt from each card's listing title. Images that already declare
+     an alt (including an intentional empty alt="") are left untouched. -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var imgs = document.querySelectorAll(
+    '.quarto-grid-item img:not([alt]), .quarto-post img:not([alt]), .quarto-listing img:not([alt])'
+  );
+  imgs.forEach(function (img) {
+    var scope = img.closest('.quarto-grid-item, .g-col-1, .quarto-post');
+    if (!scope) return;
+    var titleEl = scope.querySelector('.listing-title, .card-title');
+    var title = titleEl && titleEl.textContent.trim();
+    if (title) img.setAttribute('alt', title);
+  });
+});
+</script>
+<script>
+(function () {
+  function decodePart(value) {
+    try {
+      return window.atob(value);
+    } catch (error) {
+      return "";
+    }
+  }
+
+  function hydrateEmails(root) {
+    (root || document).querySelectorAll("[data-email-user][data-email-domain]").forEach(function (node) {
+      if (node.dataset.emailHydrated === "true") {
+        return;
+      }
+
+      var user = decodePart(node.dataset.emailUser);
+      var domain = decodePart(node.dataset.emailDomain);
+      if (!user || !domain) {
+        return;
+      }
+
+      var email = user + "@" + domain;
+      var link = document.createElement("a");
+      link.href = "mailto:" + email;
+      if (node.dataset.emailSubject) {
+        link.href += "?subject=" + encodeURIComponent(node.dataset.emailSubject);
+      }
+      link.textContent = node.dataset.emailLabel || "Email";
+      node.replaceChildren(link);
+      node.dataset.emailHydrated = "true";
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", function () {
+      hydrateEmails(document);
+    });
+  } else {
+    hydrateEmails(document);
+  }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -4660,13 +4737,14 @@ window.Quarto = {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

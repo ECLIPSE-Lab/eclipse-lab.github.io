@@ -14,6 +14,9 @@ categories:
   - electron microscopy
   - nanoparticles
   - materials science
+  # --- begin keyword categories (auto-managed) ---
+  - "nanoscopic scale"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
@@ -22,7 +25,7 @@ is_oa: true
 oa_status: bronze
 keywords:
   - "Nanoscopic scale"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-06-29T09:09:13Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

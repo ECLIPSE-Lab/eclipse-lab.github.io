@@ -13,16 +13,20 @@ toc: false
 categories:
   - electron microscopy
   - imaging
+  # --- begin keyword categories (auto-managed) ---
+  - "phase contrast microscopy"
+  - "open source"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
-citation_percentile: 10.5
+citation_percentile: 10.4
 is_oa: true
 oa_status: bronze
 keywords:
   - "Phase contrast microscopy"
   - "Open source"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-06-29T09:09:13Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

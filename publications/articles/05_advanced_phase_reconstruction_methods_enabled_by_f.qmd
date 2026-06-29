@@ -13,6 +13,11 @@ toc: false
 categories:
   - electron microscopy
   - imaging
+  # --- begin keyword categories (auto-managed) ---
+  - "scanning transmission electron microscopy"
+  - "transmission electron microscopy"
+  - "scanning confocal electron microscopy"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 12
 fwci: 1.19
@@ -32,7 +37,7 @@ keywords:
   - "Scanning transmission electron microscopy"
   - "Transmission electron microscopy"
   - "Scanning confocal electron microscopy"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-06-29T09:09:13Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

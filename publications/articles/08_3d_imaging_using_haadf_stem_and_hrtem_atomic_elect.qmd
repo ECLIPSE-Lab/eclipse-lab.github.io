@@ -15,6 +15,11 @@ categories:
   - tomography
   - atomic resolution
   - imaging
+  # --- begin keyword categories (auto-managed) ---
+  - "high-resolution transmission electron microscopy"
+  - "electron tomography"
+  - "scanning transmission electron microscopy"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
@@ -25,7 +30,7 @@ keywords:
   - "High-resolution transmission electron microscopy"
   - "Electron tomography"
   - "Scanning transmission electron microscopy"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-06-29T09:09:13Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

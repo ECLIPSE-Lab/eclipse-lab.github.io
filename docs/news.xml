@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>ECLIPSE Lab</title>
+<link>https://pelzlab.science/news.html</link>
+<atom:link href="https://pelzlab.science/news.xml" rel="self" type="application/rss+xml"/>
+<description>Latest news, conference presentations, and lab updates from ECLIPSE Lab at FAU Erlangen-Nürnberg.</description>
+<image>
+<url>https://pelzlab.science/./img/eclipse_header.png</url>
+<title>ECLIPSE Lab</title>
+<link>https://pelzlab.science/news.html</link>
+<height>74</height>
+<width>144</width>
+</image>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Mon, 18 May 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>OPEN Postdoc position — Multi-modal Sensor Fusion in Electron Microscopy</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/2026-05-18_hyperscaleem_postdoc_sensorfusion/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The ECLIPSE Lab of Prof.&nbsp;Dr.&nbsp;Philipp Pelz at FAU Erlangen-Nürnberg offers a position as</p>
+<section id="postdoc-multi-modal-sensor-fusion-in-electron-microscopy-mfx" class="level2">
+<h2 class="anchored" data-anchor-id="postdoc-multi-modal-sensor-fusion-in-electron-microscopy-mfx">PostDoc Multi-modal Sensor Fusion in Electron Microscopy (m/f/x)</h2>
+<p><strong>(subject to personal qualifications, remuneration: salary group E 13 TV-L 100%)</strong></p>
+<p>starting Oct 15th 2026.</p>
+<p>We are seeking an outstanding postdoctoral researcher to lead the scale-up phase of the ERC-funded HyperScaleEM project during years 3-5. The position focuses on pushing hyperspectral atomic-resolution imaging from proof-of-principle toward scalable, automated, and experimentally validated workflows for 3D chemistry at the atomic scale.</p>
+<p>The successful candidate will work at the interface of computational imaging, electron scattering physics, spectroscopy, and microscope automation. The role will connect large-scale simulation, inversion algorithms, new compressive energy-resolved 5D-STEM acquisition strategies, and their deployment on aberration-corrected scanning transmission electron microscopes.</p>
+<section id="position-and-tasks" class="level3">
+<h3 class="anchored" data-anchor-id="position-and-tasks">Position and Tasks</h3>
+<ul>
+<li>Develop scalable methods for hyperspectral atomic-resolution imaging, with emphasis on core-loss filtered 4D-STEM and energy-resolved XD-STEM.</li>
+<li>Advance large-scale simulation and inversion pipelines for atom-by-atom chemical identification in strongly scattering materials.</li>
+<li>Design and validate automated experimental workflows that couple spectroscopy, diffraction, and tomography at aberration-corrected STEM instruments.</li>
+<li>Help establish robust acquisition strategies for the HyperScaleEM years 3-5 milestones, including proof-of-principle demonstrations and challenging materials applications.</li>
+<li>Collaborate closely with students, microscope scientists, and project partners, and publish and present results internationally.</li>
+</ul>
+</section>
+<section id="position-requirements" class="level3">
+<h3 class="anchored" data-anchor-id="position-requirements">Position Requirements</h3>
+<ul>
+<li>PhD in physics, materials science, electrical engineering, computer science, computational engineering, applied mathematics, or a related discipline.</li>
+<li>Strong track record in computational microscopy, computational imaging, inverse problems, electron microscopy, spectroscopy, or a closely related field.</li>
+<li>Excellent scientific programming skills, preferably in Python, and experience with modern numerical or machine learning frameworks such as PyTorch or JAX.</li>
+<li>Ability to work independently while contributing actively to a collaborative and interdisciplinary research environment.</li>
+<li>Very good communication skills in English.</li>
+</ul>
+</section>
+<section id="preferred-knowledge-skills-and-abilities" class="level3">
+<h3 class="anchored" data-anchor-id="preferred-knowledge-skills-and-abilities">Preferred Knowledge, Skills, and Abilities</h3>
+<ul>
+<li>Background in diffraction physics, inelastic scattering, EELS, 4D-STEM, STEM tomography, or related spectroscopy methods.</li>
+<li>Experience with large-scale optimization, Bayesian inference, or physics-based reconstruction methods.</li>
+<li>Hands-on experience with aberration-corrected STEM instrumentation, detector integration, or microscope automation.</li>
+<li>Experience with high-performance computing, GPU programming, or scalable scientific software development.</li>
+<li>Interest in helping shape a growing research program and mentoring junior researchers.</li>
+</ul>
+</section>
+<section id="research-environment" class="level3">
+<h3 class="anchored" data-anchor-id="research-environment">Research Environment</h3>
+<ul>
+<li>Our group develops advanced algorithms for efficient processing, reliable reconstruction, and automated information extraction from multidimensional microscopy datasets in electron and X-ray microscopy.</li>
+<li>HyperScaleEM aims to unite structural and chemical inversion at atomic resolution, scaling from simulated and synthetic benchmarks to automated experimental demonstrations and, ultimately, in-situ 3D atomic movies.</li>
+<li>The postdoc will contribute directly to the chemical imaging scale-up phase of the project, laying the foundations for later in-situ studies on complex materials.</li>
+<li>We offer access to state-of-the-art aberration-corrected electron microscopes at the Center for Nanoanalysis and Electron Microscopy and high-performance computing resources at the Erlangen National High-Performance Computing Center.</li>
+</ul>
+</section>
+<section id="what-we-offer" class="level3">
+<h3 class="anchored" data-anchor-id="what-we-offer">What We Offer</h3>
+<ul>
+<li>A central scientific role in an ambitious long-term project on next-generation atomic-resolution microscopy.</li>
+<li>A highly interdisciplinary environment spanning computational imaging, microscopy, spectroscopy, and automation.</li>
+<li>The opportunity to build new methods that connect theory, software, and experiment.</li>
+<li>Enthusiastic support from an early-career principal investigator and close interaction with international collaborators.</li>
+</ul>
+</section>
+<section id="application" class="level3">
+<h3 class="anchored" data-anchor-id="application">Application</h3>
+<p>For informal inquiries, please contact Philipp Pelz (philipp.pelz@fau.de).</p>
+<p>Applications from underrepresented groups are particularly welcome. Your application in English or German should include a motivation letter, CV, publication list, and contact information for references. Applications will be accepted until the position is filled.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>announcement</category>
+  <category>job</category>
+  <guid>https://pelzlab.science/posts/2026-05-18_hyperscaleem_postdoc_sensorfusion/</guid>
+  <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/2026-05-18_hyperscaleem_postdoc_sensorfusion/erc_logo.svg" medium="image" type="image/svg+xml"/>
+</item>
+<item>
+  <title>International Microscopy Conference (IMC21)</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/2025-12-02_imc21/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Philipp is giving an invited talk at the International Microscopy Conference (IMC21) in Liverpool, UK.</p>
+
+
+
+ ]]></description>
+  <category>announcement</category>
+  <category>conference</category>
+  <guid>https://pelzlab.science/posts/2025-12-02_imc21/</guid>
+  <pubDate>Tue, 02 Dec 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/2025-12-02_imc21/IMC21-Header-Logo.png" medium="image" type="image/png" height="57" width="144"/>
+</item>
+<item>
+  <title>DPG Spring meeting 2026</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/2025-11-19_dpg/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Philipp is giving an invited talk at the DPG spring meeting Dresden2026 on the topic of “Computational Imaging in Electron Microscopy”.</p>
+
+
+
+ ]]></description>
+  <category>announcement</category>
+  <category>conference</category>
+  <guid>https://pelzlab.science/posts/2025-11-19_dpg/</guid>
+  <pubDate>Wed, 19 Nov 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/2025-11-19_dpg/dd26a.gif" medium="image" type="image/gif"/>
+</item>
+<item>
+  <title>Materials for Sustainable Development Conference (MATSUS26)</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/2025-11-19_matsus/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Philipp is giving an invited talk at the Materials for Sustainable Development Conference (MATSUS26) in Barcelona, Spain on the topic of “Computational Imaging in Electron Microscopy”.</p>
+
+
+
+ ]]></description>
+  <category>announcement</category>
+  <category>conference</category>
+  <guid>https://pelzlab.science/posts/2025-11-19_matsus/</guid>
+  <pubDate>Wed, 19 Nov 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/2025-11-19_matsus/matsus.png" medium="image" type="image/png" height="32" width="144"/>
+</item>
+<item>
+  <title>OPEN Doctoral Researcher or Postdoctoral Researcher position</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/2025-09-11_position/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The Computational Microscopy group of Prof.&nbsp;Dr.&nbsp;Philipp Pelz at FAU Erlangen-Nürnberg offers a position as</p>
+<section id="doctoral-researcher-or-postdoctoral-researcher-computational-imaging-in-electron-microscopy-mfx" class="level2">
+<h2 class="anchored" data-anchor-id="doctoral-researcher-or-postdoctoral-researcher-computational-imaging-in-electron-microscopy-mfx">Doctoral Researcher or Postdoctoral Researcher Computational Imaging in Electron Microscopy (m/f/x)</h2>
+<p><strong>(subject to personal qualifications, remuneration according to salary group E 13 TV-L 75%-100%)</strong></p>
+<p>starting Oct 1st 2025 or earliest date possible.</p>
+<p>Position and tasks</p>
+<ul>
+<li>Develop and test new approaches for real-time 3D imaging in the electron microscope</li>
+<li>Develop approaches for sample-adaptive imaging and diffraction</li>
+<li>Design, optimize, and execute Computational Electron Microscopy experiments at our state-of-the-art microscopes</li>
+<li>Publish and present the results of these studies to the community.</li>
+</ul>
+<p>Position Requirements</p>
+<ul>
+<li>M.Sc. in computer science, computational engineering, physical sciences, applied mathematics or a related discipline.</li>
+<li>Proficiency in scientific Python programming.</li>
+<li>Experience with machine learning frameworks such as PyTorch, Jax</li>
+<li>Excellent communication and interpersonal skills to be able to interact effectively with a diverse group of scientists and technical staff.</li>
+<li>Self-motivated, ambitious and able to work in a team environment.</li>
+</ul>
+<p>Preferred Knowledge, Skills, and Abilities (experience in two or more of the following):</p>
+<ul>
+<li>Background in diffraction physics, crystallography, or modern microscopy methods</li>
+<li>Data acquisition at aberration-corrected STEMs</li>
+<li>Developing and deploying AI models.</li>
+<li>Background in Computer Vision or Computational Imaging</li>
+<li>Demonstrated record of collaborative software development, especially in distributed teams.</li>
+</ul>
+<p>Our group develops advanced algorithms for efficient processing, reliable reconstruction, and automated information extraction from multidimensional microscopy datasets, predominantly in electron and X-ray microscopy. We have ex-pertise in deep learning, large-scale optimization, signal and image processing, and experimental design for advanced X-ray and electron microscopy experiments. We have for the first time reconstructed large phase-contrast volumes at atomic resolution beyond the traditional limits of electron microscopy and hold the resolution record for 3D phase-contrast imaging. We offer access to state-of-the-art aberration-corrected electron microscopes and a lab-based x-ray microscope at the Center for Nanoanalysis and Electron Microscopy, access to high-performance computing resources at the Erlangen National High-Performance Computing Center, and the enthusiastic support of an early-career principal investigator.</p>
+<p>For informal inquiries, please get in touch with Philipp Pelz (<span data-email-user="cGhpbGlwcC5wZWx6" data-email-domain="ZmF1LmRl" data-email-label="Email Philipp Pelz">Email link requires JavaScript.</span>). Applications from underrepresented minorities are particularly welcome. Your application (in English or German) must include a motivation letter and your CV. Applications will be accepted until the position is filled.</p>
+<p>Include in the subject line: “[Realtime3D application]”</p>
+
+
+</section>
+
+ ]]></description>
+  <category>announcement</category>
+  <category>job</category>
+  <guid>https://pelzlab.science/posts/2025-09-11_position/</guid>
+  <pubDate>Thu, 11 Sep 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/2025-09-11_position/4DSTEM_render.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Open PhD Position: Dose-efficient Data Fusion for Crystalline Mapping and Imaging of Functional Thin Films</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/2025-07-17_cormic/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://pelzlab.science/posts/2025-07-17_cormic/cormic.jpg" class="img-fluid figure-img"></p>
+<figcaption>Structure of the new CorMic Graduate School</figcaption>
+</figure>
+</div>
+<section id="about-the-position" class="level2">
+<h2 class="anchored" data-anchor-id="about-the-position">About the Position</h2>
+<p>We are seeking a highly motivated PhD student to join the <strong>CorMic Graduate School</strong> at Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) for an exciting doctoral project focused on <strong>dose-efficient data fusion for crystalline mapping and imaging of functional thin films</strong>.</p>
+<p><strong>Starting Date:</strong> April 1, 2026<br>
+<strong>Duration:</strong> 4 years<br>
+<strong>Location:</strong> Erlangen, Germany</p>
+</section>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p>This doctoral project (DP 1) aims to develop cutting-edge <strong>physics-informed data fusion algorithms</strong> that correlate local crystallinity, crystal orientation, and chemical information from 4D-STEM and 4D-STEM-in-SEM experiments. The primary goal is to significantly enhance the signal-to-noise ratio (SNR) of measurements and apply these methods in experimental settings.</p>
+<section id="key-research-areas" class="level3">
+<h3 class="anchored" data-anchor-id="key-research-areas">Key Research Areas</h3>
+<section id="multi-modal-data-fusion" class="level4">
+<h4 class="anchored" data-anchor-id="multi-modal-data-fusion">1. Multi-modal Data Fusion</h4>
+<ul>
+<li>Develop algorithms to fuse elastic and inelastic spectroscopic signals in STEM</li>
+<li>Enhance SNR through correlation of multiple measurement channels</li>
+<li>Extract local structure-property information from functional thin films</li>
+</ul>
+</section>
+<section id="beam-sensitive-materials-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="beam-sensitive-materials-analysis">2. Beam-sensitive Materials Analysis</h4>
+<ul>
+<li>Focus on organic thin films that require low-dose imaging</li>
+<li>Implement dose-efficient measurement strategies</li>
+<li>Preserve sample integrity while maximizing information extraction</li>
+</ul>
+</section>
+<section id="specific-applications" class="level4">
+<h4 class="anchored" data-anchor-id="specific-applications">3. Specific Applications:</h4>
+<ul>
+<li><strong>Inorganic semiconductor layers</strong><br>
+</li>
+<li><strong>Organic absorber layers and electrolyzers</strong><br>
+</li>
+<li><strong>3D correlation studies combining SECM-AFM and 4D-STEM:</strong></li>
+</ul>
+</section>
+<section id="validation-and-comparison" class="level4">
+<h4 class="anchored" data-anchor-id="validation-and-comparison">4. Validation and Comparison</h4>
+<ul>
+<li>Compare developed approaches with ensemble statistics from spatially averaging X-ray scattering measurements</li>
+<li>Validate methods against established techniques</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="your-profile" class="level2">
+<h2 class="anchored" data-anchor-id="your-profile">Your Profile</h2>
+<section id="required-qualifications" class="level3">
+<h3 class="anchored" data-anchor-id="required-qualifications">Required Qualifications</h3>
+<ul>
+<li><strong>Master’s degree</strong> in Physics, Materials Science, Electrical Engineering, or related fields</li>
+<li>Strong background in <strong>electron microscopy</strong> and/or <strong>data analysis</strong></li>
+<li>Experience with <strong>Python, Pytorch, or similar machine learning frameworks</strong></li>
+<li>Excellent analytical and problem-solving skills</li>
+<li>Strong written and oral communication skills in English</li>
+</ul>
+</section>
+<section id="preferred-qualifications" class="level3">
+<h3 class="anchored" data-anchor-id="preferred-qualifications">Preferred Qualifications</h3>
+<ul>
+<li>Experience with <strong>4D-STEM, EELS, or EDS</strong> techniques</li>
+<li>Knowledge of <strong>machine learning</strong> and <strong>signal processing</strong></li>
+<li>Familiarity with <strong>thin film characterization</strong> methods</li>
+<li>Experience with <strong>scientific computing</strong> and <strong>data fusion algorithms</strong></li>
+</ul>
+</section>
+</section>
+<section id="what-we-offer" class="level2">
+<h2 class="anchored" data-anchor-id="what-we-offer">What We Offer</h2>
+<section id="research-environment" class="level3">
+<h3 class="anchored" data-anchor-id="research-environment">Research Environment</h3>
+<ul>
+<li>Access to state-of-the-art <strong>electron microscopy facilities</strong> at CENEM</li>
+<li>Integration into the <strong>CorMic Graduate School</strong> network</li>
+<li>Interdisciplinary research environment with experts in materials science, physics, and chemistry</li>
+</ul>
+</section>
+<section id="professional-development" class="level3">
+<h3 class="anchored" data-anchor-id="professional-development">Professional Development</h3>
+<ul>
+<li>Structured PhD program with regular progress reviews</li>
+<li>Opportunities to present at international conferences</li>
+<li>Training in advanced microscopy techniques</li>
+<li>Networking with industry partners and research institutions</li>
+</ul>
+</section>
+<section id="benefits" class="level3">
+<h3 class="anchored" data-anchor-id="benefits">Benefits</h3>
+<ul>
+<li>Competitive salary according to German public service scale (TV-L E13, 100%)</li>
+<li>Health insurance and social security benefits</li>
+<li>Modern research facilities and equipment</li>
+</ul>
+</section>
+</section>
+<section id="application-process" class="level2">
+<h2 class="anchored" data-anchor-id="application-process">Application Process</h2>
+<section id="required-documents" class="level3">
+<h3 class="anchored" data-anchor-id="required-documents">Required Documents</h3>
+<ol type="1">
+<li><strong>Cover letter</strong> explaining your motivation and research interests</li>
+<li><strong>Curriculum vitae</strong> with publication list (if applicable)</li>
+<li><strong>Academic transcripts</strong> and certificates</li>
+<li><strong>Master’s thesis</strong> or equivalent research work</li>
+<li><strong>Two letters of recommendation</strong> from academic supervisors</li>
+</ol>
+</section>
+<section id="application-deadline" class="level3">
+<h3 class="anchored" data-anchor-id="application-deadline">Application Deadline</h3>
+<p>Applications will be reviewed on a rolling basis until the position is filled. Early applications are encouraged.</p>
+</section>
+<section id="how-to-apply" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-apply">How to Apply</h3>
+<p>Please send your application materials as a single PDF file to: <strong>Email:</strong> <span data-email-user="cGhpbGlwcC5wZWx6" data-email-domain="ZmF1LmRl" data-email-label="Email Philipp Pelz" data-email-subject="PhD Application - CorMic DP1 Data Fusion">Email link requires JavaScript.</span><br>
+<strong>Subject:</strong> “PhD Application - CorMic DP1 Data Fusion”</p>
+</section>
+</section>
+<section id="about-cormic-graduate-school" class="level2">
+<h2 class="anchored" data-anchor-id="about-cormic-graduate-school">About CorMic Graduate School</h2>
+<p>The <strong>CorMic Graduate School</strong> is a collaborative initiative focused on advancing microscopy techniques for materials characterization. Our research spans from fundamental physics to applied materials science, with a strong emphasis on developing next-generation analytical tools.</p>
+</section>
+<section id="about-fau-and-cenem" class="level2">
+<h2 class="anchored" data-anchor-id="about-fau-and-cenem">About FAU and CENEM</h2>
+<p><strong>Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)</strong> is one of Germany’s leading research universities, consistently ranked among the top institutions for materials science and physics research.</p>
+<p><strong>CENEM (Center for Nanoanalysis and Electron Microscopy)</strong> provides world-class electron microscopy facilities and expertise, serving as a hub for advanced materials characterization in Germany.</p>
+<hr>
+<p><em>We are committed to diversity and equal opportunity. We welcome applications from candidates of all backgrounds and encourage women and underrepresented groups to apply.</em></p>
+<p><em>For questions about the position, please contact Prof.&nbsp;Philipp Pelz or the CorMic Graduate School administration.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>announcement</category>
+  <guid>https://pelzlab.science/posts/2025-07-17_cormic/</guid>
+  <pubDate>Thu, 17 Jul 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/2025-07-17_cormic/cormic_logo.png" medium="image" type="image/png" height="42" width="144"/>
+</item>
+<item>
+  <title>Philipp will chair a session at the Swiss NanoConvention 2025</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/2024-11-23_SwissNonoConvention/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>“The Swiss NanoConvention brings together Swiss and international leaders from science and industry in the field of «nano», key figures in innovation and technology, entrepreneurs, investors, administrators and politicians. The Swiss NanoConvention is a platform for connecting people, networking, debating and exchanging ideas – or even generating new ones. Key players are able to gather the best available information on the potential, but also on the risks of one of the key emerging technologies of the 21st century, and its opportunities for innovative technologies, products and services. The Swiss NanoConvention is the prime showcase for nanotechnology in Switzerland, jointly organized by the «who-is-who» in the Swiss nano scene. It is the venue for meeting the great minds in nanoscience and technology.”</p>
+
+
+
+ ]]></description>
+  <category>announcement</category>
+  <category>conference</category>
+  <guid>https://pelzlab.science/posts/2024-11-23_SwissNonoConvention/</guid>
+  <pubDate>Sat, 23 Nov 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/2024-11-23_SwissNonoConvention/swissnanoconventionbanner_master_2025.png" medium="image" type="image/png" height="131" width="144"/>
+</item>
+<item>
+  <title>Philipp will give an invited talk at M&amp;M 2025 about the frontiers of ptychographic electron tomography</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/2024-11-23_mandm2025/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The M&amp;M 2025 meeting will be hosted in SaltLake City from July 20-25.</p>
+
+
+
+ ]]></description>
+  <category>announcement</category>
+  <category>conference</category>
+  <guid>https://pelzlab.science/posts/2024-11-23_mandm2025/</guid>
+  <pubDate>Sat, 23 Nov 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/2024-11-23_mandm2025/mandm.png" medium="image" type="image/png" height="145" width="144"/>
+</item>
+<item>
+  <title>ERC Stg Postdoctoral Scientist position OPEN</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/2024-09-03_HyperScaleEM_postdoc/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The Computational Microscopy group of Prof.&nbsp;Dr.&nbsp;Philipp Pelz at FAU Erlangen-Nürnberg offers a position as</p>
+<section id="postdoctoral-researcher-hyperspectral-atomic-resolution-tomography-mfx" class="level2">
+<h2 class="anchored" data-anchor-id="postdoctoral-researcher-hyperspectral-atomic-resolution-tomography-mfx">Postdoctoral Researcher Hyperspectral Atomic Resolution Tomography (m/f/x)</h2>
+<p><strong>(subject to personal qualifications, remuneration according to salary group E 13 TV-L 100% (approx. 3200 EUR/month after taxes))</strong></p>
+<p>starting Nov 1st 2024 or earliest date possible.</p>
+<p>Position and tasks</p>
+<ul>
+<li>Develop and test new approaches and algorithms for the large-scale reconstruction hyperspectral volumes at atomic resolution from 4D-STEM measurements</li>
+<li>Design, optimize, automate, and execute multidimensional STEM experiments at our Spectra 30-200 microscope equipped with an DECTRIS ARINA direct electron detector and a modern EELS imaging spectrometer</li>
+<li>Publish and present the results of these studies to the community.</li>
+</ul>
+<p>Position Requirements</p>
+<ul>
+<li>Ph.D.&nbsp;in physics (preferred), computer science, computational engineering, materials science, applied mathematics or a related discipline.</li>
+<li>Proficiency in scientific Python programming.</li>
+<li>Excellent communication and interpersonal skills to be able to interact effectively with a diverse group of scien-tists and technical staff.</li>
+<li>Self-motivated and able to work in a team environment.</li>
+</ul>
+<p>Preferred Knowledge, Skills, and Abilities (experience in one or more of the following):</p>
+<ul>
+<li>Experience with machine learning frameworks such as PyTorch, TensorFlow, Jax</li>
+<li>Background in diffraction physics, crystallography, or modern microscopy methods</li>
+<li>Data acquisition at aberration-corrected STEMs</li>
+<li>Developing and deploying AI models.</li>
+<li>Background in Computer Vision or Computational Imaging</li>
+<li>Demonstrated record of collaborative software development, especially in distributed teams.</li>
+</ul>
+<p>Our group develops advanced algorithms for efficient processing, reliable reconstruction, and automated information extraction from multidimensional microscopy datasets, predominantly in electron and X-ray microscopy.</p>
+<p>We have for the first time reconstructed large phase-contrast volumes at atomic resolution beyond the traditional limits of electron microscopy.</p>
+<p>The HyperScaleEM project aims at extending the technique to large-volume reconstructions of the typical sample geometries in electron microscopy. Think: imaging whole transistors in 3D, visualizing every atom and it’s element.</p>
+<p>The postdoctoral researcher will be responsible for developing and implementing hyperspectral reconstruction algorithms and demonstrating them on challenging materials systems. The position is initially limited to 2 years and can be extended to a total of up to 5 years.</p>
+<p>We offer access to state-of-the-art aberration-corrected electron microscopes (TFS Spectra 30-200, ARINA detector, CEOS CEFID filter) at the Center for Nanoanalysis and Electron Microscopy, access to high-performance computing resources at the Erlangen National High-Performance Computing Center, and the enthusiastic support of an early-career principal investigator.</p>
+<p>For informal inquiries, please get in touch with Philipp Pelz (<span data-email-user="cGhpbGlwcC5wZWx6" data-email-domain="ZmF1LmRl" data-email-label="Email Philipp Pelz">Email link requires JavaScript.</span>). Applications from underrepresented minorities are particularly welcome. Your application (in English or German) must include a motivation letter and your CV.</p>
+<p>Applications will be accepted until the position is filled.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>announcement</category>
+  <category>job</category>
+  <guid>https://pelzlab.science/posts/2024-09-03_HyperScaleEM_postdoc/</guid>
+  <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/2024-09-03_HyperScaleEM_postdoc/erc_logo.svg" medium="image" type="image/svg+xml"/>
+</item>
+<item>
+  <title>ERC Stg PhD position FILLED</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/2024-09-03_HyperScaleEM_phd/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The Computational Microscopy group of Prof.&nbsp;Dr.&nbsp;Philipp Pelz at FAU Erlangen-Nürnberg offers a position as</p>
+<section id="ph.d.-student-dr.-ing.-computational-imaging-in-electron-microscopy-mfx" class="level2">
+<h2 class="anchored" data-anchor-id="ph.d.-student-dr.-ing.-computational-imaging-in-electron-microscopy-mfx">Ph.D.&nbsp;Student (Dr.&nbsp;Ing.) Computational Imaging in Electron Microscopy (m/f/x)</h2>
+<p><strong>(subject to personal qualifications, remuneration according to salary group E 13 TV-L 75% (approx. 2300 EUR/month after taxes))</strong></p>
+<p>starting Nov 1st 2024 or earliest date possible.</p>
+<p>Position and tasks</p>
+<ul>
+<li>Develop and test new approaches and algorithms for large-scale multi-dimensional, multi-modal reconstruction of electron-microscopy datasets at the atomic scale</li>
+<li>Design, optimize, and execute multidimensional STEM experiments at our Spectra 30-200 microscope equipped with an DECTRIS ARINA direct electron detector</li>
+<li>Publish and present the results of these studies to the community.</li>
+</ul>
+<p>Position Requirements</p>
+<ul>
+<li>M.Sc. in physical sciences (preferred), computer science, computational engineering, materials science, applied mathematics or a related discipline.</li>
+<li>Proficiency in scientific Python programming.</li>
+<li>Excellent communication and interpersonal skills to be able to interact effectively with a diverse group of scien-tists and technical staff.</li>
+<li>Self-motivated and able to work in a team environment.</li>
+</ul>
+<p>Preferred Knowledge, Skills, and Abilities (experience in one or more of the following):</p>
+<ul>
+<li>Experience with machine learning frameworks such as PyTorch, TensorFlow, Jax</li>
+<li>Background in diffraction physics, crystallography, or modern microscopy methods</li>
+<li>Data acquisition at aberration-corrected STEMs</li>
+<li>Developing and deploying AI models.</li>
+<li>Background in Computer Vision or Computational Imaging</li>
+<li>Demonstrated record of collaborative software development, especially in distributed teams.</li>
+</ul>
+<p>Our group develops advanced algorithms for efficient processing, reliable reconstruction, and automated information extraction from multidimensional microscopy datasets, predominantly in electron and X-ray microscopy.</p>
+<p>We have for the first time reconstructed large phase-contrast volumes at atomic resolution beyond the traditional limits of electron microscopy.</p>
+<p>The HyperScaleEM project aims at extending the technique to large-volume reconstructions of the typical sample geometries in electron microscopy. Think: imaging whole transistors in 3D, visualizing every atom and it’s element.</p>
+<p>We offer access to state-of-the-art aberration-corrected electron microscopes (TFS Spectra 30-200, ARINA detector, CEOS CEFID filter) at the Center for Nanoanalysis and Electron Microscopy, access to high-performance computing resources at the Erlangen National High-Performance Computing Center, and the enthusiastic support of an early-career principal investigator.</p>
+<p>For informal inquiries, please get in touch with Philipp Pelz (<span data-email-user="cGhpbGlwcC5wZWx6" data-email-domain="ZmF1LmRl" data-email-label="Email Philipp Pelz">Email link requires JavaScript.</span>). Applications from underrepresented minorities are particularly welcome. Your application (in English or German) must include a motivation letter and your CV.</p>
+<p>The position is limited to 4 years.</p>
+<p>Applications will be accepted until the position is filled.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>announcement</category>
+  <category>job</category>
+  <guid>https://pelzlab.science/posts/2024-09-03_HyperScaleEM_phd/</guid>
+  <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/2024-09-03_HyperScaleEM_phd/erc_logo.svg" medium="image" type="image/svg+xml"/>
+</item>
+<item>
+  <title>PhD position open</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/24-04-position/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The Computational Microscopy group of Prof.&nbsp;Dr.&nbsp;Philipp Pelz at FAU Erlangen-Nürnberg offers a position as</p>
+<section id="ph.d.-student-computational-imaging-in-electron-microscopy-mfx" class="level2">
+<h2 class="anchored" data-anchor-id="ph.d.-student-computational-imaging-in-electron-microscopy-mfx">Ph.D.&nbsp;Student Computational Imaging in Electron Microscopy (m/f/x)</h2>
+<p><strong>(subject to personal qualifications, remuneration according to salary group E 13 TV-L 75-100%)</strong></p>
+<p>starting September 15th 2024 or earliest date possible.</p>
+<p>Position and tasks</p>
+<ul>
+<li>Develop and test new approaches and algorithms for large-scale multi-dimensional, multi-modal reconstruction of electron-microscopy datasets at the atomic-, nano-, and microscale</li>
+<li>Design, optimize, and execute multidimensional STEM experiments</li>
+<li>Publish and present the results of these studies to the community.</li>
+</ul>
+<p>Position Requirements</p>
+<ul>
+<li>M.Sc. in computer science, computational engineering, physical sciences, materials science, applied mathematics or a related discipline.</li>
+<li>Proficiency in scientific Python programming.</li>
+<li>Excellent communication and interpersonal skills to be able to interact effectively with a diverse group of scien-tists and technical staff.</li>
+<li>Self-motivated and able to work in a team environment.</li>
+</ul>
+<p>Preferred Knowledge, Skills, and Abilities (experience in one or more of the following):</p>
+<ul>
+<li>Experience with machine learning frameworks such as PyTorch, TensorFlow, Jax</li>
+<li>Background in diffraction physics, crystallography, or modern microscopy methods</li>
+<li>Data acquisition at aberration-corrected STEMs</li>
+<li>Developing and deploying AI models.</li>
+<li>Background in Computer Vision or Computational Imaging</li>
+<li>Demonstrated record of collaborative software development, especially in distributed teams.</li>
+</ul>
+<p>Our group develops advanced algorithms for efficient processing, reliable reconstruction, and automated information extraction from multidimensional microscopy datasets, predominantly in electron and X-ray microscopy.</p>
+<p>We have for the first time reconstructed large phase-contrast volumes at atomic resolution beyond the traditional limits of electron microscopy.</p>
+<p>You project will revolve around further developing the algorithms and applying them to image challenging materials systems, like metal-organic frameworks and other beam-sensitive materials.</p>
+<p>We offer access to state-of-the-art aberration-corrected electron microscopes and a lab-based x-ray microscope at the Center for Nanoanalysis and Electron Microscopy, access to high-performance computing resources at the Erlangen National High-Performance Computing Center, and the enthusiastic support of an early-career principal investigator.</p>
+<p>For informal inquiries, please get in touch with Philipp Pelz (<span data-email-user="cGhpbGlwcC5wZWx6" data-email-domain="ZmF1LmRl" data-email-label="Email Philipp Pelz">Email link requires JavaScript.</span>). Applications from underrepresented minorities are particularly welcome. Your application (in English or German) must include a motivation letter and your CV.</p>
+<p>Applications will be accepted until the position is filled.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>announcement</category>
+  <category>job</category>
+  <guid>https://pelzlab.science/posts/24-04-position/</guid>
+  <pubDate>Mon, 15 Jul 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/24-04-position/4DSTEM_render.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Study Commission in “AI for Materials Technology”</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/24-07_study_commission/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>FAU is starting Germany’s first undergraduate program combining AI and Materials Science under the name <a href="https://www.mat.studium.fau.de/neu-ki-materialtechnologie/">KI-Materialtechnologie</a>. Philipp becomes Chair of the Study Commission of the new program in October 2024.</p>
+
+
+
+ ]]></description>
+  <category>announcement</category>
+  <guid>https://pelzlab.science/posts/24-07_study_commission/</guid>
+  <pubDate>Fri, 12 Jul 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/24-07_study_commission/ai4mat.png" medium="image" type="image/png" height="103" width="144"/>
+</item>
+<item>
+  <title>HKIAS Forum and 5th Sino-German Symposium on Advanced Electron Microscopy and Instrumentation</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/23-12-hongkong/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Philipp will attend the HKIAS Forum and 5th Sino-German Symposium on Advanced Electron Microscopy <a href="https://www.cityu.edu.hk/hkiasforum/2023/">Forum link</a> <img src="https://pelzlab.science/posts/23-12-hongkong/hongkong.png" class="img-fluid" alt="https://www.cityu.edu.hk/hkiasforum/2023/"></p>
+
+
+
+ ]]></description>
+  <category>announcement</category>
+  <category>conference</category>
+  <guid>https://pelzlab.science/posts/23-12-hongkong/</guid>
+  <pubDate>Wed, 29 Nov 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/23-12-hongkong/hongkong.png" medium="image" type="image/png" height="165" width="144"/>
+</item>
+<item>
+  <title>DPG Spring meeting 2024</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/2023_DPG_spring/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Philipp is organizing a topical session at the DPG spring meeting 2024 together with Christian Liebscher and Luca Ghiringhelli.</p>
+<p>Title: In Situ and Multimodal Microscopy in Materials Physics</p>
+<p>Abstract: Observing and analyzing materials under realistic conditions using multiple signals with advanced microscopy techniques is becoming increasingly important to elucidate their underlying physical properties. The advancement of in situ capabilities and new detector technologies have enabled to probe the dynamic evolution of materials under different stimuli, such as temperature, cryogenic conditions, in liquid and magnetic as well as electric fields with high spatial and temporal resolution. Furthermore, with the advent of pixelated, direct electron detectors, it has become possible to design novel imaging modalities by using the full diffraction information in each scan position, termed 4D-STEM. This technique opens the door to mappingcrystal orientations in nanomaterials, measuring strain with high spatial resolution or even imaging light elements in complex compounds at atomic resolution. Modern detectors’ increasing speed even allows combining in situ experiments with 4D-STEM or other spectroscopic techniques to holistically explore material evolution. The ever-growing data streams associated with such experiments also require the development of novel analysis algorithms. Fast and automated data analysis routines will provide on-the-fly feedback while performing the experiment and the implementation of machine-learning based tools will eventually facilitate an autonomous exploration of the data spaces providing pathways to new material discoveries.</p>
+<p>The symposium aims to bring together experts in in situ and multimodal microscopies to address new developments in method and data analysis. The microscopy techniques include scanning and transmission electron microscopy, scanning electron microscopy, atomic force microscopy and related techniques. The focus also lies in developments combining in situ experiments with multimodal probing of materials and the advancement of novel data analysis and machine learning algorithms. More specifically the symposium focuses on:</p>
+<p>• Microscopy techniques, including scanning and transmission electron microscopy, scanning electron microscopy, atomic force microscopy, scanning probe microscopy, scanning tunneling microscopy • In situ techniques that study materials exposed to strain, temperature, cryogenic conditions, electric and magnetic fields, in liquid or gas atmosphere • Developments in multimodal microscopy, such as 4D-STEM, energy dispersive X-ray spectroscopy in combination with electron energy-loss spectroscopy or related methods • Advancements in automated and open source-based data analysis of multidimensional datasets or on-the-fly data analysis • Machine learning based tools for autonomous data analysis and data exploration, including supervised and unsupervised approaches, Gaussian processes, deep learning and related techniques • Metallic materials, functional oxides, nanomaterials, catalysts, surfaces, magnetic materials, quantum materials and related solid-state materials</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://pelzlab.science/posts/2023_DPG_spring/dpg_spring.png" class="img-fluid figure-img"></p>
+<figcaption>https://berlin24.dpg-tagungen.de/programm/abstract</figcaption>
+</figure>
+</div>
+
+
+
+ ]]></description>
+  <category>announcement</category>
+  <category>conference</category>
+  <guid>https://pelzlab.science/posts/2023_DPG_spring/</guid>
+  <pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/2023_DPG_spring/dpg.png" medium="image" type="image/png" height="71" width="144"/>
+</item>
+<item>
+  <title>Radin Rahimi joins the team</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/radin_joins/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Radin Rahimi joins the team working on 4D-STEM method development.</p>
+<p><img src="https://pelzlab.science/posts/radin_joins/radin.jpg" class="img-fluid"></p>
+
+
+
+ ]]></description>
+  <category>announcement</category>
+  <guid>https://pelzlab.science/posts/radin_joins/</guid>
+  <pubDate>Fri, 15 Sep 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/radin_joins/radin.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Shengbo You joins the team</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/shengbo_joins/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Shengbo joins the team working on ptychographic tomography.</p>
+<p><img src="https://pelzlab.science/posts/shengbo_joins/shengbo.jpg" class="img-fluid"></p>
+
+
+
+ ]]></description>
+  <category>announcement</category>
+  <guid>https://pelzlab.science/posts/shengbo_joins/</guid>
+  <pubDate>Fri, 15 Sep 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/shengbo_joins/shengbo.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>EMC 2024 conference</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/emc2024/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Philipp will attend the European Microscopy conference 2024 in Copenhagen and give an invited talk in the session ‘Phase-related Techniques (IM-03)’</p>
+<p><img src="https://pelzlab.science/posts/emc2024/emc2024.png" class="img-fluid"></p>
+
+
+
+ ]]></description>
+  <category>announcement</category>
+  <category>conference</category>
+  <guid>https://pelzlab.science/posts/emc2024/</guid>
+  <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/emc2024/emc2024.png" medium="image" type="image/png" height="58" width="144"/>
+</item>
+<item>
+  <title>Andrey Romanov joins the team</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/andrey_joins/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Andrey Romanov joins the group after completing his PhD in Physics on Inverse Problems in Light Scattering.</p>
+<p><img src="https://pelzlab.science/posts/andrey_joins/andrey.jpg" class="img-fluid"></p>
+
+
+
+ ]]></description>
+  <category>announcement</category>
+  <guid>https://pelzlab.science/posts/andrey_joins/</guid>
+  <pubDate>Sat, 01 Jul 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/andrey_joins/andrey.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>International Microscopy Congress 2023</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/imc20/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Philipp will attend the International Microscopy Conference 2023 in Busan, Korea and give an invited talk in the ptychography session.</p>
+<p><img src="https://pelzlab.science/posts/imc20/imc.png" class="img-fluid"></p>
+
+
+
+ ]]></description>
+  <category>announcement</category>
+  <category>conference</category>
+  <guid>https://pelzlab.science/posts/imc20/</guid>
+  <pubDate>Tue, 11 Apr 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/imc20/imc.png" medium="image" type="image/png" height="62" width="144"/>
+</item>
+<item>
+  <title>MRS Fall 2023 conference</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/mrs2023/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Philipp will attend the MRS Fall 2023 conference in Boston, US and give an invited talk in the session ‘CH04: Emerging Electron Microscopy Techniques to Understand Structure-Property Relationship in Quantum Materials’.</p>
+<p><img src="https://pelzlab.science/posts/mrs2023/mrs_fall_2023.png" class="img-fluid"></p>
+
+
+
+ ]]></description>
+  <category>announcement</category>
+  <category>conference</category>
+  <guid>https://pelzlab.science/posts/mrs2023/</guid>
+  <pubDate>Tue, 11 Apr 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/mrs2023/mrs_fall_2023.png" medium="image" type="image/png" height="57" width="144"/>
+</item>
+</channel>
+</rss>

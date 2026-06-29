@@ -12,9 +12,14 @@ project_page_url: ""
 toc: false
 categories:
   - ptychography
+  # --- begin keyword categories (auto-managed) ---
+  - "detector"
+  - "frame rate"
+  - "scanning transmission electron microscopy"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 6
-fwci: 1.64
+fwci: 1.61
 citation_percentile: 82.5
 is_oa: true
 oa_status: bronze
@@ -32,7 +37,7 @@ keywords:
   - "Ptychography"
   - "Frame rate"
   - "Scanning transmission electron microscopy"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-06-29T09:09:13Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

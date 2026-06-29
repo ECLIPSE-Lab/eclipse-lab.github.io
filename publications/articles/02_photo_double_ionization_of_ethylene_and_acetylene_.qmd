@@ -12,6 +12,14 @@ project_page_url: ""
 toc: false
 categories:
   - journal article
+  # --- begin keyword categories (auto-managed) ---
+  - "dication"
+  - "double ionization"
+  - "ionization"
+  - "atomic physics"
+  - "excited state"
+  - "singlet state"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 50
 fwci: 3.71
@@ -35,7 +43,7 @@ keywords:
   - "Atomic physics"
   - "Excited state"
   - "Singlet state"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-06-29T09:09:13Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

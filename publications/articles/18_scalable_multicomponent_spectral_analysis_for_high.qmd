@@ -12,6 +12,14 @@ project_page_url: ""
 toc: false
 categories:
   - research
+  # --- begin keyword categories (auto-managed) ---
+  - "scalability"
+  - "throughput"
+  - "computational science"
+  - "annotation"
+  - "software"
+  - "parametric statistics"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 is_oa: true
@@ -23,7 +31,7 @@ keywords:
   - "Annotation"
   - "Software"
   - "Parametric statistics"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-06-29T09:09:13Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

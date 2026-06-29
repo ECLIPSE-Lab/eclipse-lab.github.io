@@ -13,16 +13,20 @@ toc: false
 categories:
   - ptychography
   - electron microscopy
+  # --- begin keyword categories (auto-managed) ---
+  - "parallax"
+  - "optics"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
-citation_percentile: 11.8
+citation_percentile: 10.8
 oa_status: closed
 keywords:
   - "Parallax"
   - "Ptychography"
   - "Optics"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-06-29T09:09:13Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

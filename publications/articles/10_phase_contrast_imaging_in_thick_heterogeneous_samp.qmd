@@ -12,10 +12,14 @@ project_page_url: ""
 toc: false
 categories:
   - imaging
+  # --- begin keyword categories (auto-managed) ---
+  - "phase contrast microscopy"
+  - "phase-contrast imaging"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 2
 fwci: 0.51
-citation_percentile: 65.8
+citation_percentile: 66.1
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -30,7 +34,7 @@ counts_by_year:
 keywords:
   - "Phase contrast microscopy"
   - "Phase-contrast imaging"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-06-29T09:09:13Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

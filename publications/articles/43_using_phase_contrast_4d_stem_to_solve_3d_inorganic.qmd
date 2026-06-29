@@ -15,16 +15,21 @@ categories:
   - nanoparticles
   - chemistry
   - biology
+  # --- begin keyword categories (auto-managed) ---
+  - "phase contrast microscopy"
+  - "nanostructure"
+  - "nanotechnology"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
-citation_percentile: 4.8
+citation_percentile: 5.3
 oa_status: closed
 keywords:
   - "Phase contrast microscopy"
   - "Nanostructure"
   - "Nanotechnology"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-06-29T09:09:13Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

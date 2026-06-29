@@ -13,6 +13,9 @@ toc: false
 categories:
   - ptychography
   - atomic resolution
+  # --- begin keyword categories (auto-managed) ---
+  - "atomic units"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 4
 fwci: 1.06
@@ -31,7 +34,7 @@ counts_by_year:
 keywords:
   - "Atomic units"
   - "Ptychography"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-06-29T09:09:13Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
