@@ -15,12 +15,92 @@ description: Software, datasets, and other resources from the ECLIPSE Lab at FAU
 
 ## Software
 
-· [ECLIPSE Lab GitHub](https://github.com/ECLIPSE-Lab) — all open-source projects from the lab
+The lab releases code, teaching notebooks, and reproducible project material through the [ECLIPSE Lab GitHub organization](https://github.com/ECLIPSE-Lab).
+
+::: {.resource-grid}
+::: {.resource-card}
+### [MSPT_code](https://github.com/ECLIPSE-Lab/MSPT_code)
+
+Code for multi-slice electron ptychographic tomography in three-dimensional phase-contrast microscopy beyond conventional depth-of-focus limits.
+
+`Python` `ptychography` `tomography`
+:::
+
+::: {.resource-card}
+### [End2EndPtychoTomo_code](https://github.com/ECLIPSE-Lab/End2EndPtychoTomo_code)
+
+Reproducible code for end-to-end ptychographic electron tomography and near-isotropic sub-angstrom 3D phase-contrast imaging.
+
+`Python` `4D-STEM` `reconstruction`
+:::
+
+::: {.resource-card}
+### [PtychographicElectronTomography2023](https://github.com/ECLIPSE-Lab/PtychographicElectronTomography2023)
+
+Project code and supporting material for solving complex nanostructures with ptychographic atomic electron tomography.
+
+`electron tomography` `atomic structure`
+:::
+
+::: {.resource-card}
+### [marimo](https://github.com/ECLIPSE-Lab/marimo)
+
+Interactive marimo notebooks and small apps from the group for computational microscopy workflows, demonstrations, and teaching.
+
+`notebooks` `interactive`
+:::
+:::
+
+More repositories are available at [github.com/ECLIPSE-Lab](https://github.com/ECLIPSE-Lab).
 
 ## Presentations & Teaching
 
-· [Lecture slides & course materials](https://pelzlab.science/public_presentations/) — slides, decks, and course presentations from the ECLIPSE Lab teaching programme
+::: {.resource-grid}
+::: {.resource-card}
+### [Lecture slides & course materials](https://pelzlab.science/public_presentations/)
+
+Slides, decks, and public course presentations from the ECLIPSE Lab teaching programme.
+:::
+
+::: {.resource-card}
+### [Data Science for Electron Microscopy](https://github.com/ECLIPSE-Lab/DataScienceForElectronMicroscopy)
+
+Lecture website and notebooks for data-driven electron microscopy, including practical computational microscopy material.
+:::
+
+::: {.resource-card}
+### [Machine Learning for Characterization and Processing](https://github.com/ECLIPSE-Lab/MachineLearningForCharacterizationAndProcessing)
+
+Course material on machine learning methods for experimental materials characterization and processing data.
+:::
+:::
 
 ## Datasets
 
-Stay tuned
+Public dataset releases are being prepared alongside reproducible code packages.
+
+::: {.resource-grid}
+::: {.resource-card}
+### [EMDatasets](https://github.com/ECLIPSE-Lab/EMDatasets)
+
+Repository for electron microscopy datasets and dataset utilities from the lab.
+
+`released repository`
+:::
+
+::: {.resource-card}
+### Ptychographic tomography benchmark data
+
+Benchmark datasets connected to ptychographic atomic electron tomography publications, intended for reproducibility and method comparison.
+
+`planned release`
+:::
+
+::: {.resource-card}
+### HyperScaleEM scale-bridging datasets
+
+Large-volume 4D-STEM and hyperspectral electron tomography datasets generated through the HyperScaleEM project.
+
+`coming soon`
+:::
+:::

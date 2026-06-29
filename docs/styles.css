@@ -61,3 +61,88 @@ iframe.slide-deck {
   width: 100%;
   height: 475px;
 }
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.resource-card {
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  border-radius: 8px;
+  padding: 1rem;
+  background: rgba(15, 23, 42, 0.45);
+  min-height: 100%;
+}
+
+.resource-card h3 {
+  font-size: 1.05rem;
+  margin-top: 0;
+}
+
+.resource-card p:last-child {
+  margin-bottom: 0;
+}
+
+.hyperscale-timeline {
+  display: grid;
+  gap: 1rem;
+  margin: 1.25rem 0 2rem;
+  position: relative;
+}
+
+.hyperscale-milestone {
+  border-left: 4px solid #64748b;
+  border-radius: 8px;
+  padding: 1rem 1rem 1rem 1.25rem;
+  background: rgba(15, 23, 42, 0.5);
+}
+
+.hyperscale-milestone.is-achieved {
+  border-left-color: #22c55e;
+}
+
+.hyperscale-milestone.is-active {
+  border-left-color: #38bdf8;
+}
+
+.hyperscale-milestone h3 {
+  font-size: 1.1rem;
+  margin: 0.35rem 0 0.5rem;
+}
+
+.milestone-marker {
+  display: inline-block;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  border-radius: 999px;
+  padding: 0.1rem 0.55rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #e2e8f0;
+}
+
+.is-achieved .milestone-marker {
+  border-color: rgba(34, 197, 94, 0.55);
+  color: #86efac;
+}
+
+.is-active .milestone-marker {
+  border-color: rgba(56, 189, 248, 0.55);
+  color: #7dd3fc;
+}
+
+@media (min-width: 900px) {
+  .hyperscale-timeline {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .hyperscale-milestone {
+    border-left: 0;
+    border-top: 4px solid #64748b;
+    padding: 1rem;
+  }
+}
