@@ -1,0 +1,46 @@
+---
+title: "Sebastian Kruber"
+subtitle: "Postdoc"
+image: sebastian_kruber.jpg
+started: "April 2025"
+interests: "4D-STEM · Computational reconstruction · ML for EM"
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: book-half
+      text: scholar
+      href: https://scholar.google.com/citations?user=Ziy5uPQAAAAJ&hl=en
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Postdocs</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Research Interests
+
+- 4D-STEM imaging and analysis
+- Computational image reconstruction
+- Machine learning for electron microscopy
+- Automated acquisition and reconstruction pipelines
+
+## Brief Bio
+
+Sebastian joined the ECLIPSE Lab as a postdoctoral researcher in April 2025. His work focuses on developing and applying 4D-STEM methods for high-resolution, dose-efficient imaging, with a particular interest in combining physics-informed models and machine learning to push the limits of what electron microscopes can reveal.
+
+## Background
+
+Sebastian holds a PhD in Physics from the Max Planck Institute for the Structure and Dynamics of Matter in Hamburg. His research experience spans laser physics, electron microscopy, and scientific software development.
+
+**Contact:** sebastian.kruber@fau.de

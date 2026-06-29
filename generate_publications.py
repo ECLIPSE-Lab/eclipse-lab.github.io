@@ -1,22 +1,515 @@
 # %%
-from bs4 import BeautifulSoup
-import json
 import requests
-import orcid
 import time
 import os
 import re
 from datetime import datetime
 import html
 import csv
+from pathlib import Path
+from urllib.parse import parse_qs, urlparse
 
 # %%
 
+USER_AGENT = "ECLIPSE-Lab/1.0 (mailto:philipp.pelz@fau.de)"
+ACTIVE_PEOPLE_DIRS = {"staff", "bsc", "msc", "ras", "admins"}
+
+
+def normalize_doi(doi):
+    """Normalize DOI values for deduplication and URL generation."""
+    if not doi:
+        return ""
+    doi = str(doi).strip()
+    doi = re.sub(r"^https?://(dx\.)?doi\.org/", "", doi, flags=re.IGNORECASE)
+    doi = re.sub(r"^doi:\s*", "", doi, flags=re.IGNORECASE)
+    return doi.strip().lower()
+
+
+def normalize_title(title):
+    """Normalize titles enough to merge DOI-free records from multiple sources."""
+    if not title:
+        return ""
+    title = html.unescape(str(title)).lower()
+    title = title.replace("å", "a").replace("ä", "a").replace("ö", "o").replace("ü", "u")
+    title = re.sub(r"[^a-z0-9]+", " ", title)
+    return re.sub(r"\s+", " ", title).strip()
+
+
+def request_json(url, params=None, headers=None, timeout=30):
+    """GET JSON from an API, returning None on non-fatal failures."""
+    request_headers = {"User-Agent": USER_AGENT}
+    if headers:
+        request_headers.update(headers)
+    try:
+        response = requests.get(url, params=params, headers=request_headers, timeout=timeout)
+        if response.status_code == 404:
+            return None
+        if response.status_code == 429:
+            print(f"Rate limited by {url}; skipping this request")
+            return None
+        if response.status_code >= 400:
+            print(f"API error for {url}: {response.status_code}")
+            return None
+        return response.json()
+    except Exception as e:
+        print(f"Error fetching {url}: {e}")
+        return None
+
+
+def extract_front_matter(text):
+    """Return the YAML front matter block as text without requiring PyYAML."""
+    if not text.startswith("---"):
+        return ""
+    match = re.match(r"^---\s*\n(.*?)\n---", text, flags=re.DOTALL)
+    return match.group(1) if match else ""
+
+
+def extract_scalar(front_matter, key):
+    match = re.search(rf"^{re.escape(key)}:\s*['\"]?(.+?)['\"]?\s*$", front_matter, flags=re.MULTILINE)
+    if not match:
+        return ""
+    return match.group(1).strip().strip("'\"")
+
+
+def extract_uncommented_hrefs(front_matter):
+    hrefs = []
+    for line in front_matter.splitlines():
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+        match = re.match(r"href:\s*(.+?)\s*$", stripped)
+        if match:
+            hrefs.append(match.group(1).strip().strip("'\""))
+    return hrefs
+
+
+def extract_profile_ids(urls):
+    ids = {}
+    for url in urls:
+        parsed = urlparse(url)
+        host = parsed.netloc.lower()
+        path = parsed.path
+        query = parse_qs(parsed.query)
+
+        orcid_match = re.search(r"\d{4}-\d{4}-\d{4}-\d{3}[\dX]", url, flags=re.IGNORECASE)
+        if "orcid.org" in host and orcid_match:
+            ids["orcid"] = orcid_match.group(0).upper()
+
+        if "scholar.google" in host and query.get("user"):
+            ids["google_scholar"] = query["user"][0]
+
+        if "scopus.com" in host and query.get("authorId"):
+            ids["scopus"] = query["authorId"][0]
+
+        wos_match = re.search(r"/wos/author/record/([^/?#\s]+)", path)
+        if "webofscience.com" in host and wos_match:
+            ids["webofscience"] = wos_match.group(1)
+    return ids
+
+
+def discover_people_profiles(people_dir="people"):
+    """Discover active non-alumni people with publication profile identifiers."""
+    people_path = Path(people_dir)
+    profiles = []
+    for qmd_path in sorted(people_path.glob("*/*.qmd")):
+        group = qmd_path.parent.name
+        if group == "alumni" or group not in ACTIVE_PEOPLE_DIRS:
+            continue
+        front_matter = extract_front_matter(qmd_path.read_text(encoding="utf-8"))
+        if not front_matter:
+            continue
+        ids = extract_profile_ids(extract_uncommented_hrefs(front_matter))
+        if not ids:
+            continue
+        profiles.append({
+            "name": extract_scalar(front_matter, "title") or qmd_path.stem,
+            "path": str(qmd_path),
+            "group": group,
+            "ids": ids,
+        })
+    return profiles
+
+
+def source_candidate(source, profile, title, doi="", year="", journal_title="", work_type="", publication_date=None, authors=None, extra=None):
+    title = html.unescape(str(title or "")).strip()
+    if not title:
+        return None
+    candidate = {
+        "title": title,
+        "doi": normalize_doi(doi),
+        "year": str(year or ""),
+        "journal_title": journal_title or "",
+        "work_type": work_type or "",
+        "publication_date": publication_date or {"year": str(year or ""), "month": None, "day": None},
+        "authors": authors or [],
+        "source": source,
+        "matched_people": [profile["name"]],
+    }
+    if extra:
+        candidate.update(extra)
+    return candidate
+
+
+def is_preprint_doi(doi):
+    return normalize_doi(doi).startswith("10.48550/arxiv.")
+
+
+def arxiv_id_to_doi(arxiv_id):
+    if not arxiv_id:
+        return ""
+    arxiv_id = str(arxiv_id).strip()
+    arxiv_id = re.sub(r"^arxiv:\s*", "", arxiv_id, flags=re.IGNORECASE)
+    return f"10.48550/arxiv.{arxiv_id.lower()}"
+
+
+def is_repository_artifact(candidate):
+    title = normalize_title(candidate.get("title", ""))
+    doi = normalize_doi(candidate.get("doi"))
+    work_type = str(candidate.get("work_type") or "").lower()
+    journal_title = normalize_title(candidate.get("journal_title", ""))
+
+    if title.startswith(("data for ", "codes for ", "code for ", "datasets acquired ", "dataset ")):
+        return True
+    if doi.startswith("10.5281/zenodo."):
+        return True
+    if work_type in {"dataset", "data-set", "software", "other"}:
+        return True
+    if not doi and any(marker in journal_title for marker in ["repository", "publication server", "elib"]):
+        return True
+    return False
+
+
+def filter_publication_candidates(candidates):
+    """Keep paper-like records and drop raw repository artifacts/noisy DOI-free records."""
+    filtered = []
+    for candidate in candidates:
+        if not candidate:
+            continue
+        if is_repository_artifact(candidate):
+            continue
+        if not normalize_doi(candidate.get("doi")):
+            continue
+        filtered.append(candidate)
+    return filtered
+
+
+def merge_candidate_fields(target, candidate):
+    doi = normalize_doi(candidate.get("doi"))
+    if doi and (not target.get("doi") or (is_preprint_doi(target.get("doi")) and not is_preprint_doi(doi))):
+        target["doi"] = doi
+        for field in ["title", "year", "journal_title", "work_type", "publication_date", "authors"]:
+            if candidate.get(field):
+                target[field] = candidate[field]
+    else:
+        for field in ["year", "journal_title", "work_type"]:
+            if not target.get(field) and candidate.get(field):
+                target[field] = candidate[field]
+        if not target.get("authors") and candidate.get("authors"):
+            target["authors"] = candidate["authors"]
+        if candidate.get("publication_date") and not target.get("publication_date"):
+            target["publication_date"] = candidate["publication_date"]
+    target["sources"] = sorted(set(target.get("sources", [])) | ({candidate.get("source", "")} - {""}))
+    target["matched_people"] = sorted(set(target.get("matched_people", [])) | set(candidate.get("matched_people", [])))
+
+
+def merge_publication_candidates(candidates):
+    """Merge records by DOI first, falling back to a normalized title key."""
+    merged = {}
+    order = []
+    for candidate in candidates:
+        if not candidate or not candidate.get("title"):
+            continue
+        doi = normalize_doi(candidate.get("doi"))
+        title_key = normalize_title(candidate.get("title"))
+        key = f"doi:{doi}" if doi else f"title:{title_key}"
+        if not title_key:
+            continue
+        if key not in merged:
+            item = dict(candidate)
+            item["doi"] = doi
+            item["sources"] = sorted({candidate.get("source", "")} - {""})
+            item["matched_people"] = sorted(set(candidate.get("matched_people", [])))
+            merged[key] = item
+            order.append(key)
+            continue
+
+        item = merged[key]
+        merge_candidate_fields(item, candidate)
+
+    collapsed = {}
+    collapsed_order = []
+    for key in order:
+        item = merged[key]
+        title_key = normalize_title(item.get("title"))
+        if title_key not in collapsed:
+            collapsed[title_key] = item
+            collapsed_order.append(title_key)
+            continue
+        merge_candidate_fields(collapsed[title_key], item)
+    return [collapsed[key] for key in collapsed_order]
+
+
+def date_from_orcid(publication_date):
+    if not publication_date:
+        return {"year": "", "month": None, "day": None}
+    def value(part):
+        part_value = publication_date.get(part) or {}
+        return str(part_value.get("value", "") or "") or None
+    return {
+        "year": value("year") or "",
+        "month": value("month"),
+        "day": value("day"),
+    }
+
+
+def date_from_crossref(item):
+    date_obj = (
+        item.get("published-print")
+        or item.get("published-online")
+        or item.get("published")
+        or item.get("issued")
+        or {}
+    )
+    parts = date_obj.get("date-parts", [[]])[0] if date_obj else []
+    return {
+        "year": str(parts[0]) if len(parts) > 0 else "",
+        "month": str(parts[1]).zfill(2) if len(parts) > 1 else None,
+        "day": str(parts[2]).zfill(2) if len(parts) > 2 else None,
+    }
+
+
+def date_from_openalex(work):
+    date_value = str(work.get("publication_date") or "")
+    if re.match(r"^\d{4}-\d{2}-\d{2}$", date_value):
+        year, month, day = date_value.split("-")
+        return {"year": year, "month": month, "day": day}
+    year = work.get("publication_year")
+    return {"year": str(year or ""), "month": None, "day": None}
+
+
+def authors_from_crossref(item):
+    authors = []
+    for author in item.get("author", []) or []:
+        if author.get("given") and author.get("family"):
+            authors.append(f"{author['given']} {author['family']}")
+        elif author.get("family"):
+            authors.append(author["family"])
+        elif author.get("name"):
+            authors.append(author["name"])
+    return authors
+
+
+def authors_from_openalex(work):
+    authors = []
+    for authorship in work.get("authorships", []) or []:
+        author = authorship.get("author", {}) or {}
+        if author.get("display_name"):
+            authors.append(author["display_name"])
+    return authors
+
+
+def candidate_from_orcid_summary(summary, profile):
+    title = summary.get("title", {}).get("title", {}).get("value", "")
+    doi = ""
+    arxiv_id = ""
+    for external_id in summary.get("external-ids", {}).get("external-id", []) or []:
+        external_type = str(external_id.get("external-id-type", "")).lower()
+        if external_type == "doi":
+            doi = external_id.get("external-id-value", "")
+            break
+        if external_type == "arxiv":
+            arxiv_id = external_id.get("external-id-value", "")
+    if not doi and arxiv_id:
+        doi = arxiv_id_to_doi(arxiv_id)
+    pub_date = date_from_orcid(summary.get("publication-date"))
+    journal_title = ""
+    if summary.get("journal-title"):
+        journal_title = summary["journal-title"].get("value", "")
+    return source_candidate(
+        "orcid",
+        profile,
+        title=title,
+        doi=doi,
+        year=pub_date["year"],
+        journal_title=journal_title,
+        work_type=summary.get("type", ""),
+        publication_date=pub_date,
+    )
+
+
+def candidate_from_crossref_item(item, profile):
+    titles = item.get("title") or []
+    containers = item.get("container-title") or []
+    pub_date = date_from_crossref(item)
+    return source_candidate(
+        "crossref",
+        profile,
+        title=titles[0] if titles else "",
+        doi=item.get("DOI", ""),
+        year=pub_date["year"],
+        journal_title=containers[0] if containers else "",
+        work_type=item.get("type", ""),
+        publication_date=pub_date,
+        authors=authors_from_crossref(item),
+    )
+
+
+def candidate_from_openalex_work(work, profile):
+    source = (work.get("primary_location") or {}).get("source") or {}
+    pub_date = date_from_openalex(work)
+    return source_candidate(
+        "openalex",
+        profile,
+        title=work.get("display_name") or work.get("title", ""),
+        doi=work.get("doi") or (work.get("ids") or {}).get("doi", ""),
+        year=pub_date["year"],
+        journal_title=source.get("display_name", ""),
+        work_type=work.get("type", ""),
+        publication_date=pub_date,
+        authors=authors_from_openalex(work),
+    )
+
+
+def collect_orcid_candidates(profile):
+    orcid_id = profile["ids"].get("orcid")
+    if not orcid_id:
+        return []
+    url = f"https://pub.orcid.org/v3.0/{orcid_id}/works"
+    data = request_json(url, headers={"Accept": "application/orcid+json"})
+    candidates = []
+    for group in (data or {}).get("group", []) or []:
+        for summary in group.get("work-summary", []) or []:
+            candidate = candidate_from_orcid_summary(summary, profile)
+            if candidate:
+                candidates.append(candidate)
+    print(f"  ORCID: {len(candidates)} candidates for {profile['name']}")
+    return candidates
+
+
+def collect_crossref_candidates(profile, max_pages=10):
+    orcid_id = profile["ids"].get("orcid")
+    if not orcid_id:
+        return []
+    candidates = []
+    cursor = "*"
+    for _ in range(max_pages):
+        data = request_json(
+            "https://api.crossref.org/works",
+            params={
+                "filter": f"orcid:{orcid_id}",
+                "rows": 100,
+                "cursor": cursor,
+                "mailto": "philipp.pelz@fau.de",
+            },
+        )
+        message = (data or {}).get("message", {})
+        items = message.get("items", []) or []
+        for item in items:
+            candidate = candidate_from_crossref_item(item, profile)
+            if candidate:
+                candidates.append(candidate)
+        next_cursor = message.get("next-cursor")
+        if not items or not next_cursor or next_cursor == cursor:
+            break
+        cursor = next_cursor
+        time.sleep(0.1)
+    print(f"  Crossref ORCID filter: {len(candidates)} candidates for {profile['name']}")
+    return candidates
+
+
+def collect_openalex_candidates(profile, max_pages=10):
+    orcid_id = profile["ids"].get("orcid")
+    if not orcid_id:
+        return []
+    author = request_json(
+        f"https://api.openalex.org/authors/https://orcid.org/{orcid_id}",
+        params={"mailto": "philipp.pelz@fau.de"},
+    )
+    if not author or not author.get("id"):
+        print(f"  OpenAlex: no author match for {profile['name']}")
+        return []
+
+    candidates = []
+    cursor = "*"
+    for _ in range(max_pages):
+        data = request_json(
+            "https://api.openalex.org/works",
+            params={
+                "filter": f"authorships.author.id:{author['id']}",
+                "per-page": 200,
+                "cursor": cursor,
+                "mailto": "philipp.pelz@fau.de",
+            },
+        )
+        results = (data or {}).get("results", []) or []
+        for work in results:
+            candidate = candidate_from_openalex_work(work, profile)
+            if candidate:
+                candidates.append(candidate)
+        next_cursor = ((data or {}).get("meta") or {}).get("next_cursor")
+        if not results or not next_cursor or next_cursor == cursor:
+            break
+        cursor = next_cursor
+        time.sleep(0.1)
+    print(f"  OpenAlex: {len(candidates)} candidates for {profile['name']}")
+    return candidates
+
+
+def collect_scopus_candidates(profile, max_pages=5):
+    scopus_id = profile["ids"].get("scopus")
+    api_key = os.environ.get("SCOPUS_API_KEY")
+    if not scopus_id:
+        return []
+    if not api_key:
+        print(f"  Scopus ID found for {profile['name']}, but SCOPUS_API_KEY is not set; skipping Scopus API")
+        return []
+
+    candidates = []
+    start = 0
+    for _ in range(max_pages):
+        data = request_json(
+            "https://api.elsevier.com/content/search/scopus",
+            params={
+                "query": f"AU-ID({scopus_id})",
+                "start": start,
+                "count": 25,
+                "field": "dc:title,prism:doi,prism:coverDate,prism:publicationName,subtypeDescription,dc:creator",
+                "httpAccept": "application/json",
+            },
+            headers={"X-ELS-APIKey": api_key, "Accept": "application/json"},
+        )
+        entries = ((data or {}).get("search-results") or {}).get("entry", []) or []
+        for entry in entries:
+            cover_date = entry.get("prism:coverDate", "")
+            year = cover_date[:4] if cover_date else ""
+            pub_date = {"year": year, "month": cover_date[5:7] if len(cover_date) >= 7 else None, "day": cover_date[8:10] if len(cover_date) >= 10 else None}
+            candidate = source_candidate(
+                "scopus",
+                profile,
+                title=entry.get("dc:title", ""),
+                doi=entry.get("prism:doi", ""),
+                year=year,
+                journal_title=entry.get("prism:publicationName", ""),
+                work_type=entry.get("subtypeDescription", ""),
+                publication_date=pub_date,
+                authors=[entry["dc:creator"]] if entry.get("dc:creator") else [],
+            )
+            if candidate:
+                candidates.append(candidate)
+        if len(entries) < 25:
+            break
+        start += 25
+        time.sleep(0.2)
+    print(f"  Scopus: {len(candidates)} candidates for {profile['name']}")
+    return candidates
+
+
 def get_publication_info_from_crossref(doi):
     """Fetch complete publication information from Crossref API using DOI"""
+    doi = normalize_doi(doi)
     url = f"https://api.crossref.org/works/{doi}"
     try:
-        response = requests.get(url, headers={'User-Agent': 'ECLIPSE-Lab/1.0 (mailto:philipp.pelz@fau.de)'})
+        response = requests.get(url, headers={'User-Agent': USER_AGENT}, timeout=30)
         if response.status_code == 200:
             data = response.json()
             work = data.get('message', {})
@@ -74,9 +567,10 @@ def get_publication_info_from_crossref(doi):
 
 def get_abstract_from_semantic_scholar(doi):
     """Fetch abstract from Semantic Scholar API as fallback"""
+    doi = normalize_doi(doi)
     url = f"https://api.semanticscholar.org/graph/v1/paper/{doi}?fields=abstract"
     try:
-        response = requests.get(url, headers={'User-Agent': 'ECLIPSE-Lab/1.0 (mailto:philipp.pelz@fau.de)'})
+        response = requests.get(url, headers={'User-Agent': USER_AGENT}, timeout=30)
         if response.status_code == 200:
             data = response.json()
             return data.get('abstract', '')
@@ -88,9 +582,10 @@ def get_abstract_from_semantic_scholar(doi):
 
 def get_keywords_from_semantic_scholar(doi):
     """Fetch keywords from Semantic Scholar API"""
+    doi = normalize_doi(doi)
     url = f"https://api.semanticscholar.org/graph/v1/paper/{doi}?fields=topics"
     try:
-        response = requests.get(url, headers={'User-Agent': 'ECLIPSE-Lab/1.0 (mailto:philipp.pelz@fau.de)'})
+        response = requests.get(url, headers={'User-Agent': USER_AGENT}, timeout=30)
         if response.status_code == 200:
             data = response.json()
             topics = data.get('topics', [])
@@ -324,96 +819,80 @@ categories:
     
     return filename, qmd_content
 
+def empty_publication_info():
+    return {'authors': [], 'abstract': '', 'volume': '', 'page': '', 'container_title': '', 'keywords': []}
+
+
+def collect_candidates_for_profiles(profiles):
+    candidates = []
+    for profile in profiles:
+        ids = ", ".join(f"{key}={value}" for key, value in sorted(profile["ids"].items()))
+        print(f"\nCollecting publications for {profile['name']} ({ids})")
+        candidates.extend(collect_orcid_candidates(profile))
+        candidates.extend(collect_crossref_candidates(profile))
+        candidates.extend(collect_openalex_candidates(profile))
+        candidates.extend(collect_scopus_candidates(profile))
+        if profile["ids"].get("webofscience") and not os.environ.get("WOS_API_KEY"):
+            print(f"  Web of Science ID found for {profile['name']}, but WOS_API_KEY is not set; skipping WoS API")
+        if profile["ids"].get("google_scholar"):
+            print(f"  Google Scholar ID found for {profile['name']}; no stable official API is available, so it is not scraped")
+    return candidates
+
+
+def publication_from_candidate(candidate):
+    doi = normalize_doi(candidate.get("doi"))
+    if doi:
+        print(f"\nProcessing: {candidate['title']}")
+        crossref_info = get_publication_info_with_fallback(doi)
+        time.sleep(0.2)
+    else:
+        print(f"\nProcessing DOI-free candidate: {candidate['title']}")
+        crossref_info = empty_publication_info()
+
+    if not crossref_info.get("authors") and candidate.get("authors"):
+        crossref_info["authors"] = candidate["authors"]
+    if not crossref_info.get("container_title") and candidate.get("journal_title"):
+        crossref_info["container_title"] = candidate["journal_title"]
+
+    keywords = crossref_info.get('keywords', [])
+    if keywords:
+        print(f"  Keywords found: {', '.join(keywords[:5])}")
+
+    return {
+        'title': candidate['title'],
+        'authors': crossref_info.get('authors', []),
+        'year': candidate.get('year') or candidate.get('publication_date', {}).get('year', ''),
+        'journal_title': candidate.get('journal_title', ''),
+        'doi': doi,
+        'work_type': candidate.get('work_type', ''),
+        'publication_date': candidate.get('publication_date') or {
+            'year': candidate.get('year', ''),
+            'month': None,
+            'day': None,
+        },
+        'crossref_info': crossref_info,
+        'sources': candidate.get('sources', [candidate.get('source', '')]),
+        'matched_people': candidate.get('matched_people', []),
+    }
+
+
 def main(output_dir="publications/articles"):
-    """Main function to fetch ORCID data and generate qmd files"""
-    
-    # Load publication links from CSV
+    """Fetch active people publications and generate qmd files."""
     publication_links = load_publication_links()
-    
-    print("Fetching ORCID data...")
-    resp = requests.get("http://pub.orcid.org/0000-0002-8009-4515/works",
-                        headers={'Accept': 'application/orcid+json'})
-    results = resp.json()
-    
-    g = results['group']
-    
-    # Initialize lists
-    publications = []
-    
-    print("Processing publications...")
-    for i, gi in enumerate(g):
-        ws = gi['work-summary']
-        for wsi in ws:
-            # Extract title
-            title = str(wsi['title']['title']['value'])
-            
-            # Extract DOI
-            doi = None
-            v = wsi['external-ids']['external-id']
-            for eid in v:
-                if eid['external-id-type'] == 'doi':
-                    doi = str(eid['external-id-value'])
-                    break
-            
-            # Extract journal title
-            journal_title = None
-            if 'journal-title' in wsi and wsi['journal-title']:
-                journal_title = str(wsi['journal-title']['value'])
-            
-            # Extract publication date
-            pub_year = None
-            pub_month = None
-            pub_day = None
-            if 'publication-date' in wsi:
-                pub_date = wsi['publication-date']
-                if 'year' in pub_date and pub_date['year']:
-                    pub_year = str(pub_date['year']['value'])
-                if 'month' in pub_date and pub_date['month']:
-                    pub_month = str(pub_date['month']['value'])
-                if 'day' in pub_date and pub_date['day']:
-                    pub_day = str(pub_date['day']['value'])
-            
-            # Extract work type
-            work_type = None
-            if 'type' in wsi:
-                work_type = str(wsi['type'])
-            
-            # Filter out arXiv entries and duplicates
-            if doi is not None and ('arXiv' not in doi):
-                # Check if we already have this title
-                if not any(pub['title'] == title for pub in publications):
-                    print(f"\nProcessing: {title}")
-                    
-                    # Fetch complete publication info from Crossref with Semantic Scholar fallback
-                    crossref_info = get_publication_info_with_fallback(doi)
-                    
-                    # Debug: Show keywords if found
-                    keywords = crossref_info.get('keywords', [])
-                    if keywords:
-                        print(f"  Keywords found: {', '.join(keywords[:5])}")  # Show first 5 keywords
-                    
-                    publication_data = {
-                        'title': title,
-                        'authors': crossref_info['authors'],
-                        'year': pub_year,
-                        'journal_title': journal_title,
-                        'doi': doi,
-                        'work_type': work_type,
-                        'publication_date': {
-                            'year': pub_year,
-                            'month': pub_month,
-                            'day': pub_day
-                        },
-                        'crossref_info': crossref_info
-                    }
-                    
-                    publications.append(publication_data)
-                    
-                    # Be nice to the API
-                    time.sleep(0.2)
-    
-    print(f"\nFound {len(publications)} publications to process")
-    
+
+    profiles = discover_people_profiles("people")
+    print(f"Discovered {len(profiles)} active people profiles with publication IDs")
+    if not profiles:
+        print("No active people profiles with publication IDs found; nothing to generate.")
+        return
+
+    candidates = collect_candidates_for_profiles(profiles)
+    paper_candidates = filter_publication_candidates(candidates)
+    print(f"\nCollected {len(candidates)} raw candidates; kept {len(paper_candidates)} paper-like candidates")
+    publications = [publication_from_candidate(candidate) for candidate in merge_publication_candidates(paper_candidates)]
+
+    print(f"\nFound {len(publications)} publications to process after deduplication")
+
     # Sort publications from oldest to newest
     def pub_sort_key(pub):
         y = pub['year']
@@ -429,6 +908,8 @@ def main(output_dir="publications/articles"):
     
     # Generate qmd files
     os.makedirs(output_dir, exist_ok=True)
+    for old_file in Path(output_dir).glob("*.qmd"):
+        old_file.unlink()
     
     print(f"\nGenerating qmd files in {output_dir}...")
     for i, pub in enumerate(publications):

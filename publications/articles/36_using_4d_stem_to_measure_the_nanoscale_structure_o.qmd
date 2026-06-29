@@ -1,0 +1,39 @@
+---
+title: "Using 4D-STEM to measure the nanoscale structure of materials in two and three dimensions"
+type: "article"
+author: "C. Ophus, P. M. Pelz, H. A. Sternlict, B. H. Savitzky, A. Rakowski, A. Bruefach, S. Ribet, M. S. Scott"
+year: "2023"
+publication: "Acta Crystallographica Section A Foundations and Advances 79, C251-C251"
+preprint: ""
+doi: "10.1107/s2053273323093609"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - nanoparticles
+  - materials science
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 0
+fwci: 0.00
+citation_percentile: 21.9
+is_oa: true
+oa_status: bronze
+keywords:
+  - "Nanoscopic scale"
+metrics_updated: "2026-05-02T16:35:20Z"
+# --- end citation metrics ---
+---
+## Citation (APA 7)
+
+> Using 4D-STEM to measure the nanoscale structure of materials in two and three dimensions
+C. Ophus, P. M. Pelz, H. A. Sternlict, B. H. Savitzky, A. Rakowski, A. Bruefach, S. Ribet, M. S. Scott
+Acta Crystallographica Section A Foundations and Advances 79, C251-C251
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+

@@ -110,8 +110,7 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="https://pelzlab.science" class="navbar-brand navbar-brand-logo">
-    <img src="././img/FAU.png" alt="" class="navbar-logo light-content">
-    <img src="././img/FAU.png" alt="" class="navbar-logo dark-content">
+    <img src="././img/FAU.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="https://pelzlab.science">
     <span class="navbar-title">ECLIPSE Lab</span>
@@ -384,14 +383,13 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

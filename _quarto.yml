@@ -77,6 +77,9 @@ format:
       - custom.scss
     css: styles.css
     toc: true
+    include-after-body:
+      - _includes/listing-alt.html
+      - _includes/email-obfuscation.html
     header-includes:
       - <link rel="canonical" href="https://pelzlab.science{{ page_url }}">
       - <meta property="og:site_name" content="ECLIPSE Lab">

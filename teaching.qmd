@@ -5,140 +5,141 @@ email-obfuscation: javascript
 description: "Teaching materials and courses offered by Prof. Philipp Pelz at FAU Erlangen-Nürnberg, covering computational imaging and electron microscopy."
 resources:
   - "img/lecturecard_*.jpg"
-header-includes:
-  - |
-    <script type="application/ld+json">
+---
+
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
     {
-      "@context": "https://schema.org",
-      "@type": "ItemList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "item": {
-            "@type": "Course",
-            "name": "Materialgenomik",
-            "description": "Computational materials discovery through databases, simulation, structure representations, and machine learning. Part of the ECLIPSE Lab teaching programme at FAU Erlangen-Nürnberg.",
-            "url": "https://pelzlab.science/MaterialsGenomics/",
-            "instructor": {
-              "@type": "Person",
-              "name": "Prof. Philipp Pelz",
-              "sameAs": "https://orcid.org/0000-0002-8009-4515"
-            },
-            "provider": {
-              "@type": "Organization",
-              "name": "ECLIPSE Lab, FAU Erlangen-Nürnberg",
-              "sameAs": "https://pelzlab.science"
-            },
-            "eventStatus": "https://schema.org/EventScheduled",
-            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-            "location": {
-              "@type": "Place",
-              "name": "0.68 WW building, FAU Erlangen-Nürnberg"
-            },
-            "startDate": "2026-04-14",
-            "endDate": "2026-07-17",
-            "timeRequired": "PT2H30M",
-            "hasCourseInstance": {
-              "@type": "CourseInstance",
-              "courseMode": "face-to-face",
-              "courseSchedule": {
-                "@type": "Schedule",
-                "byDay": ["Tuesday"],
-                "startTime": "16:15",
-                "endTime": "17:45",
-                "duration": "PT1H30M",
-                "repeatFrequency": "P1W"
-              }
-            }
-          }
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Course",
+        "name": "Materialgenomik",
+        "description": "Computational materials discovery through databases, simulation, structure representations, and machine learning. Part of the ECLIPSE Lab teaching programme at FAU Erlangen-Nürnberg.",
+        "url": "https://pelzlab.science/MaterialsGenomics/",
+        "instructor": {
+          "@type": "Person",
+          "name": "Prof. Philipp Pelz",
+          "sameAs": "https://orcid.org/0000-0002-8009-4515"
         },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "item": {
-            "@type": "Course",
-            "name": "Machine Learning for Processing & Characterization",
-            "description": "Application-focused course on machine learning for experimental materials data, from images and spectra to process signals. Part of the ECLIPSE Lab teaching programme at FAU Erlangen-Nürnberg.",
-            "url": "https://pelzlab.science/MachineLearningForCharacterizationAndProcessing/",
-            "instructor": {
-              "@type": "Person",
-              "name": "Prof. Philipp Pelz",
-              "sameAs": "https://orcid.org/0000-0002-8009-4515"
-            },
-            "provider": {
-              "@type": "Organization",
-              "name": "ECLIPSE Lab, FAU Erlangen-Nürnberg",
-              "sameAs": "https://pelzlab.science"
-            },
-            "eventStatus": "https://schema.org/EventScheduled",
-            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-            "location": {
-              "@type": "Place",
-              "name": "0.68 WW building, FAU Erlangen-Nürnberg"
-            },
-            "startDate": "2026-04-14",
-            "endDate": "2026-07-17",
-            "timeRequired": "PT2H30M",
-            "hasCourseInstance": {
-              "@type": "CourseInstance",
-              "courseMode": "face-to-face",
-              "courseSchedule": {
-                "@type": "Schedule",
-                "byDay": ["Tuesday"],
-                "startTime": "14:15",
-                "endTime": "15:45",
-                "duration": "PT1H30M",
-                "repeatFrequency": "P1W"
-              }
-            }
-          }
+        "provider": {
+          "@type": "Organization",
+          "name": "ECLIPSE Lab, FAU Erlangen-Nürnberg",
+          "sameAs": "https://pelzlab.science"
         },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "item": {
-            "@type": "Course",
-            "name": "Mathematical Foundations of AI/ML",
-            "description": "Foundations course for the ECLIPSE teaching track in machine learning, computational imaging, and materials data science. Covers mathematical underpinnings of modern AI/ML methods with emphasis on applications in microscopy and imaging.",
-            "url": "https://pelzlab.science/MathematicalFoundationsForAIML/",
-            "instructor": {
-              "@type": "Person",
-              "name": "Prof. Philipp Pelz",
-              "sameAs": "https://orcid.org/0000-0002-8009-4515"
-            },
-            "provider": {
-              "@type": "Organization",
-              "name": "ECLIPSE Lab, FAU Erlangen-Nürnberg",
-              "sameAs": "https://pelzlab.science"
-            },
-            "eventStatus": "https://schema.org/EventScheduled",
-            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-            "location": {
-              "@type": "Place",
-              "name": "Rm 01.156 IZNF, FAU Erlangen-Nürnberg"
-            },
-            "startDate": "2026-04-14",
-            "endDate": "2026-07-17",
-            "timeRequired": "PT2H30M",
-            "hasCourseInstance": {
-              "@type": "CourseInstance",
-              "courseMode": "face-to-face",
-              "courseSchedule": {
-                "@type": "Schedule",
-                "byDay": ["Monday"],
-                "startTime": "10:15",
-                "endTime": "11:45",
-                "duration": "PT1H30M",
-                "repeatFrequency": "P1W"
-              }
-            }
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+          "@type": "Place",
+          "name": "0.68 WW building, FAU Erlangen-Nürnberg"
+        },
+        "startDate": "2026-04-14",
+        "endDate": "2026-07-17",
+        "timeRequired": "PT2H30M",
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "face-to-face",
+          "courseSchedule": {
+            "@type": "Schedule",
+            "byDay": ["Tuesday"],
+            "startTime": "16:15",
+            "endTime": "17:45",
+            "duration": "PT1H30M",
+            "repeatFrequency": "P1W"
           }
         }
-      ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Course",
+        "name": "Machine Learning for Processing & Characterization",
+        "description": "Application-focused course on machine learning for experimental materials data, from images and spectra to process signals. Part of the ECLIPSE Lab teaching programme at FAU Erlangen-Nürnberg.",
+        "url": "https://pelzlab.science/MachineLearningForCharacterizationAndProcessing/",
+        "instructor": {
+          "@type": "Person",
+          "name": "Prof. Philipp Pelz",
+          "sameAs": "https://orcid.org/0000-0002-8009-4515"
+        },
+        "provider": {
+          "@type": "Organization",
+          "name": "ECLIPSE Lab, FAU Erlangen-Nürnberg",
+          "sameAs": "https://pelzlab.science"
+        },
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+          "@type": "Place",
+          "name": "0.68 WW building, FAU Erlangen-Nürnberg"
+        },
+        "startDate": "2026-04-14",
+        "endDate": "2026-07-17",
+        "timeRequired": "PT2H30M",
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "face-to-face",
+          "courseSchedule": {
+            "@type": "Schedule",
+            "byDay": ["Tuesday"],
+            "startTime": "14:15",
+            "endTime": "15:45",
+            "duration": "PT1H30M",
+            "repeatFrequency": "P1W"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Course",
+        "name": "Mathematical Foundations of AI/ML",
+        "description": "Foundations course for the ECLIPSE teaching track in machine learning, computational imaging, and materials data science. Covers mathematical underpinnings of modern AI/ML methods with emphasis on applications in microscopy and imaging.",
+        "url": "https://pelzlab.science/MathematicalFoundationsForAIML/",
+        "instructor": {
+          "@type": "Person",
+          "name": "Prof. Philipp Pelz",
+          "sameAs": "https://orcid.org/0000-0002-8009-4515"
+        },
+        "provider": {
+          "@type": "Organization",
+          "name": "ECLIPSE Lab, FAU Erlangen-Nürnberg",
+          "sameAs": "https://pelzlab.science"
+        },
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+          "@type": "Place",
+          "name": "Rm 01.156 IZNF, FAU Erlangen-Nürnberg"
+        },
+        "startDate": "2026-04-14",
+        "endDate": "2026-07-17",
+        "timeRequired": "PT2H30M",
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "face-to-face",
+          "courseSchedule": {
+            "@type": "Schedule",
+            "byDay": ["Monday"],
+            "startTime": "10:15",
+            "endTime": "11:45",
+            "duration": "PT1H30M",
+            "repeatFrequency": "P1W"
+          }
+        }
+      }
     }
-    </script>
----
+  ]
+}
+</script>
+```
 
 The ECLIPSE Lab teaches undergraduate and graduate courses in materials science and applied data science at FAU Erlangen-Nürnberg. All courses are open to students in Materials Science and related programmes — see individual course cards below for enrollment links and lecture details.
 
@@ -251,3 +252,255 @@ The ECLIPSE Lab teaches undergraduate and graduate courses in materials science 
 :::
 
 ::::
+
+## Summer Semester 2025
+
+:::: {.columns}
+
+::: {.column .lecture-card style="width: 50%; background: linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Materials & Structure <br>(Clean Energy)</div>
+  <div class="lecture-meta">
+    🗓️ Tue 10:15h - 11:45h<br>
+    📍 0.68 WW building
+  </div>
+  <a href="https://www.studon.fau.de/studon" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
+
+::: {.column .lecture-card style="width: 50%; background: linear-gradient(135deg,#2d1b4e 0%,#1a1030 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Data Science for <br>Electron Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Tue 16:15h - 17:45h<br>
+    📍 IZNF Rm 01.160
+  </div>
+  <a href="https://pelzlab.science/DataScienceForElectronMicroscopy/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
+</div>
+```
+:::
+
+::: {.column .lecture-card style="width: 50%; background: linear-gradient(135deg,#1b4a3a 0%,#0d2820 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Machine Learning <br>for Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Thu 16:15h - 17:45h<br>
+    📍 IZNF Rm 01.160
+  </div>
+  <a href="https://pelzlab.science/MachineLearningForMicroscopy/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
+</div>
+```
+:::
+
+::: {.column .lecture-card style="width: 50%; background: linear-gradient(135deg,#3a2d1b 0%,#201510 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Materials & Structure <br>Seminar</div>
+  <div class="lecture-meta">
+    🗓️ Thu 16:15h - 17:45h<br>
+    📍 0.68 WW building
+  </div>
+  <a href="https://pelzlab.science/MaterialsAndStructureSeminar/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
+</div>
+```
+:::
+
+::::
+
+## Winter Semester 2024
+
+:::: {.columns}
+
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Materials & <br>Structure (MAP)</div>
+  <div class="lecture-meta">
+    🗓️ Fri 10:15h – 11:45h<br>
+    📍 Seminar Room 0.68 WW building
+  </div>
+  <a href="https://www.studon.fau.de/studon" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
+
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#2d1b4e 0%,#1a1030 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Data Science for <br>Electron Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Fri 8:30h – 10:00h<br>
+    📍 IZNF Rm 01.160
+  </div>
+  <a href="https://pelzlab.science/DataScienceForElectronMicroscopy/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
+</div>
+```
+:::
+
+::: {.column .lecture-card style="width: 34%; background: linear-gradient(135deg,#1b4a3a 0%,#0d2820 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Machine Learning <br>for Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Wed 8:30h – 10:00h<br>
+    📍 IZNF Rm 01.140
+  </div>
+  <a href="https://www.studon.fau.de/campo/course/421966" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
+
+::::
+
+## Summer Semester 2024
+
+:::: {.columns}
+
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Materials & Structure <br>(BSc Clean Energy)</div>
+  <div class="lecture-meta">
+    🗓️ Thu 10:15h – 11:45h<br>
+    📍 FAU
+  </div>
+  <a href="https://www.studon.fau.de/studon/goto.php?target=crs_5609585&client_id=StudOn" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
+
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#2d1b4e 0%,#1a1030 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Data Science for <br>Electron Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Wed 10:15h – 11:45h<br>
+    📍 IZNF Rm 01.160
+  </div>
+  <a href="https://www.studon.fau.de/campo/course/421992" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
+
+::: {.column .lecture-card style="width: 34%; background: linear-gradient(135deg,#1b4a3a 0%,#0d2820 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Machine Learning <br>for Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Wed 8:30h – 10:00h<br>
+    📍 IZNF Rm 01.160
+  </div>
+  <a href="https://www.studon.fau.de/campo/course/421966" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
+
+::::
+
+## Winter Semester 2023
+
+:::: {.columns}
+
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Materials & <br>Structure</div>
+  <div class="lecture-meta">
+    🗓️ Check Studon for schedule
+  </div>
+  <a href="https://www.studon.fau.de/crs5223702_join.html" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
+
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#2d1b4e 0%,#1a1030 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Data Science for <br>Electron Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Tue 8:30h – 10:00h<br>
+    📍 IZNF Rm 01.160
+  </div>
+  <a href="https://www.studon.fau.de/campo/course/401180" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
+
+::: {.column .lecture-card style="width: 34%; background: linear-gradient(135deg,#1b4a3a 0%,#0d2820 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Machine Learning <br>for Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Thu 8:30h – 10:00h<br>
+    📍 IZNF Rm 01.160
+  </div>
+  <a href="https://www.studon.fau.de/campo/course/401181" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
+
+::::
+
+## Summer Semester 2023
+
+:::: {.columns}
+
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Materials & <br>Structure</div>
+  <div class="lecture-meta">
+    🗓️ Check Studon for schedule
+  </div>
+  <a href="https://www.studon.fau.de/studon" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
+
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#2d1b4e 0%,#1a1030 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Data Science for <br>Electron Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Check Studon for schedule
+  </div>
+  <a href="https://pelzlab.science/DataScienceForElectronMicroscopy/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
+</div>
+```
+:::
+
+::: {.column .lecture-card style="width: 34%; background: linear-gradient(135deg,#1b4a3a 0%,#0d2820 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Machine Learning <br>for Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Check Studon for schedule
+  </div>
+  <a href="https://www.studon.fau.de/studon" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
+</div>
+```
+:::
+
+::::
+
+

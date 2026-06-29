@@ -29,5 +29,4 @@ The ECLIPSE Lab is located in the **Interdisciplinary Center for Nanostructured 
 
 ## Email Us
 
-<a href="mailto:philipp.pelz@fau.de">philipp.pelz@fau.de</a>
-
+<span data-email-user="cGhpbGlwcC5wZWx6" data-email-domain="ZmF1LmRl" data-email-label="Email Philipp Pelz">Email link requires JavaScript.</span>

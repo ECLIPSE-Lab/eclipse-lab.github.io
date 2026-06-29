@@ -1,0 +1,48 @@
+---
+title: "Structured Illumination Electron Ptychography at the Atomic Scale"
+type: "article"
+author: "P. Pelz, H. DeVyldere, P. Ercius, M. Scott"
+year: "2022"
+publication: "Microscopy and Microanalysis 28, 388-390"
+preprint: ""
+doi: "10.1017/s1431927622002288"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - ptychography
+  - atomic resolution
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 4
+fwci: 1.06
+citation_percentile: 74.7
+is_oa: true
+oa_status: bronze
+counts_by_year:
+  - [2017, 0]
+  - [2018, 0]
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 0]
+  - [2022, 0]
+  - [2023, 3]
+  - [2024, 1]
+keywords:
+  - "Atomic units"
+  - "Ptychography"
+metrics_updated: "2026-05-02T16:35:20Z"
+# --- end citation metrics ---
+---
+## Citation (APA 7)
+
+> Structured Illumination Electron Ptychography at the Atomic Scale
+P. Pelz, H. DeVyldere, P. Ercius, M. Scott
+Microscopy and Microanalysis 28, 388-390
+
+
+## Abstract
+
+With the advent of fast direct electron detectors, electron ptychography is becoming increasingly popular as a high-resolution, high-sensitivity phase-contrast method in electron microscopy. Electron ptychography is a computational phase-contrast imaging method that reconstructs phase-contrast images from scanning diffraction measurements, acquired by raster-scanning a spatially confined beam over the field of view.
+
+

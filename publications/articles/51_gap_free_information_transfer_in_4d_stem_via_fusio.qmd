@@ -1,0 +1,37 @@
+---
+title: "Gap-free Information Transfer in 4D-STEM via Fusion of Complementary Scattering Channels"
+type: "article"
+author: "S. You, G. Varnavides, S. Khavnekar, N. Palatkin, S. Shao, M. Wu, D. G. Stroppa, D. Chernikova, B. Zhu, R. Egoavil, S. Vespucci, X. Ye, F. K. M. Schur, E. Spiecker, P. Pelz"
+year: "2025"
+publication: "arXiv (Cornell University)"
+preprint: ""
+doi: "10.48550/arxiv.2512.19460"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - physics
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 0
+is_oa: true
+oa_status: green
+keywords:
+  - "Scattering"
+  - "Phase-contrast imaging"
+metrics_updated: "2026-05-02T16:35:20Z"
+# --- end citation metrics ---
+---
+## Citation (APA 7)
+
+> Gap-free Information Transfer in 4D-STEM via Fusion of Complementary Scattering Channels
+S. You, G. Varnavides, S. Khavnekar, N. Palatkin, S. Shao, M. Wu, D. G. Stroppa, D. Chernikova, B. Zhu, R. Egoavil, S. Vespucci, X. Ye, F. K. M. Schur, E. Spiecker, P. Pelz
+arXiv (Cornell University)
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+

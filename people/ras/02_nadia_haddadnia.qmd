@@ -1,0 +1,50 @@
+---
+title: "Nadia Haddadnia"
+sortby: "2"
+subtitle: "MSc Student"
+image: nadia.png
+started: "Apr 2026"
+interests: "Computational microscopy · Micro/nano characterization · Materials simulation"
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:nadia.haddadnia@fau.de
+
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">MSc Students</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Research Interests
+
+- Computational microscopy and data analysis
+- Micro/nano characterization
+- Materials simulation for functional materials
+ 
+
+## Work Experience
+
+- **Khoramdasht Rees Industrial Group** · Quality Control Laboratory Assistant · 2024 – 2025
+
+## Research Experience
+
+- **Tehran University of Medical Sciences (TUMS)** · Research Intern · 2022 – 2024
+  - Analyzed rs-fMRI data to study relationships with biomarker signatures across the Alzheimer's disease spectrum.
+- **Amirkabir University of Technology** · Undergraduate Researcher · 2022 – 2023
+  - Developed a computational and statistical framework for neuro-biomarker analysis in neurodegenerative diseases.
+ 

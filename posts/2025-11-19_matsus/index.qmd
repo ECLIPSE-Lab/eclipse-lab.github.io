@@ -6,7 +6,8 @@ date: "2025-11-19"
 image: matsus.png
 draft: false
 categories:
-  - announcement  
+  - announcement 
+  - conference 
 ---
 
 Philipp is giving an invited talk at the Materials for Sustainable Development Conference (MATSUS26) in Barcelona, Spain on the topic of "Computational Imaging in Electron Microscopy".

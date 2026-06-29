@@ -7,6 +7,7 @@ image: dpg.png
 draft: false
 categories:
   - announcement  
+  - conference
 ---
 
 Philipp is organizing a topical session at the DPG spring meeting 2024 together with Christian Liebscher and Luca Ghiringhelli. 
