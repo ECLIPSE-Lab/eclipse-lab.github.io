@@ -75,11 +75,14 @@ iframe.slide-deck {
   padding: 1rem;
   background: rgba(15, 23, 42, 0.45);
   min-height: 100%;
+  min-width: 0; /* allow grid item to shrink so long repo names can wrap */
 }
 
 .resource-card h3 {
   font-size: 1.05rem;
   margin-top: 0;
+  overflow-wrap: anywhere; /* break long unbroken repo names instead of overflowing */
+  word-break: break-word;
 }
 
 .resource-card p:last-child {

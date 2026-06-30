@@ -43,7 +43,7 @@ Project code and supporting material for solving complex nanostructures with pty
 :::
 
 ::: {.resource-card}
-### [marimo](https://github.com/ECLIPSE-Lab/marimo)
+### [marimo](https://pelzlab.science/marimo/)
 
 Interactive marimo notebooks and small apps from the group for computational microscopy workflows, demonstrations, and teaching.
 
