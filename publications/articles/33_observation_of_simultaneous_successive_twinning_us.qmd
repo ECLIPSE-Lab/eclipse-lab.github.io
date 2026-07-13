@@ -13,17 +13,22 @@ toc: false
 categories:
   - tomography
   - atomic resolution
+  # --- begin keyword categories (auto-managed) ---
+  - "crystal twinning"
+  - "electron tomography"
+  - "electron"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
-citation_percentile: 9.2
+citation_percentile: 8.7
 is_oa: true
 oa_status: bronze
 keywords:
   - "Crystal twinning"
   - "Electron tomography"
   - "Electron"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-07-13T07:38:08Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

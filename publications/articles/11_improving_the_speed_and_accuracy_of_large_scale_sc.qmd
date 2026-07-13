@@ -15,10 +15,16 @@ categories:
   - imaging
   - computational
   - physics
+  # --- begin keyword categories (auto-managed) ---
+  - "scanning transmission electron microscopy"
+  - "electron"
+  - "scattering"
+  - "transmission electron microscopy"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 2
 fwci: 0.17
-citation_percentile: 46.3
+citation_percentile: 46.4
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -35,7 +41,7 @@ keywords:
   - "Electron"
   - "Scattering"
   - "Transmission electron microscopy"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-07-13T07:38:08Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

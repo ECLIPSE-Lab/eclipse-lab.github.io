@@ -16,10 +16,17 @@ categories:
   - imaging
   - physics
   - journal article
+  # --- begin keyword categories (auto-managed) ---
+  - "scattering"
+  - "scanning transmission electron microscopy"
+  - "optics"
+  - "transmission electron microscopy"
+  - "electron scattering"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 9
-fwci: 1.47
-citation_percentile: 86.4
+fwci: 1.36
+citation_percentile: 85.4
 is_oa: true
 oa_status: green
 counts_by_year:
@@ -37,7 +44,7 @@ keywords:
   - "Optics"
   - "Transmission electron microscopy"
   - "Electron scattering"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-07-13T07:38:08Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

@@ -14,6 +14,11 @@ categories:
   - ptychography
   - tomography
   - imaging
+  # --- begin keyword categories (auto-managed) ---
+  - "electron tomography"
+  - "optics"
+  - "phase-contrast imaging"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 1
 is_oa: true
@@ -31,7 +36,7 @@ keywords:
   - "Electron tomography"
   - "Optics"
   - "Phase-contrast imaging"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-07-13T07:38:08Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
