@@ -12,6 +12,9 @@ project_page_url: ""
 toc: false
 categories:
   - electron microscopy
+  # --- begin keyword categories (auto-managed) ---
+  - "detector"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 37
 fwci: 7.23
@@ -30,7 +33,7 @@ counts_by_year:
   - [2025, 2]
 keywords:
   - "Detector"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-07-13T07:38:08Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

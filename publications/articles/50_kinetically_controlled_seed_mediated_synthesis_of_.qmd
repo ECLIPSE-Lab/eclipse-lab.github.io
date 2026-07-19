@@ -12,10 +12,18 @@ project_page_url: ""
 toc: false
 categories:
   - nanoparticles
+  # --- begin keyword categories (auto-managed) ---
+  - "nanocrystal"
+  - "nucleation"
+  - "transmission electron microscopy"
+  - "copper"
+  - "surface plasmon resonance"
+  - "monomer"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 1
-fwci: 0.38
-citation_percentile: 61.1
+fwci: 0.30
+citation_percentile: 54.7
 oa_status: closed
 counts_by_year:
   - [2019, 0]
@@ -33,7 +41,7 @@ keywords:
   - "Copper"
   - "Surface plasmon resonance"
   - "Monomer"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-07-13T07:38:08Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

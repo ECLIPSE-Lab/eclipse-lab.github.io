@@ -13,10 +13,18 @@ toc: false
 categories:
   - atomic resolution
   - imaging
+  # --- begin keyword categories (auto-managed) ---
+  - "core charge"
+  - "electron"
+  - "core electron"
+  - "scanning transmission electron microscopy"
+  - "atomic physics"
+  - "valence electron"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 26
-fwci: 7.00
-citation_percentile: 96.5
+cited_by_count: 29
+fwci: 6.63
+citation_percentile: 96.2
 is_top_10_percent: true
 is_oa: true
 oa_status: gold
@@ -28,7 +36,7 @@ counts_by_year:
   - [2023, 1]
   - [2024, 10]
   - [2025, 12]
-  - [2026, 3]
+  - [2026, 6]
 keywords:
   - "Core charge"
   - "Electron"
@@ -36,7 +44,7 @@ keywords:
   - "Scanning transmission electron microscopy"
   - "Atomic physics"
   - "Valence electron"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-07-13T07:38:08Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
