@@ -28,7 +28,7 @@ counts_by_year:
   - [2024, 0]
   - [2025, 0]
   - [2026, 2]
-metrics_updated: "2026-07-13T07:38:08Z"
+metrics_updated: "2026-07-20T07:30:01Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

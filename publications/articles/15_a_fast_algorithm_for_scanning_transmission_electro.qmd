@@ -23,13 +23,12 @@ categories:
   - "scattering"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 16
-fwci: 2.38
-citation_percentile: 89.6
+cited_by_count: 17
+fwci: 2.19
+citation_percentile: 88.7
 is_oa: true
 oa_status: hybrid
 counts_by_year:
-  - [2018, 0]
   - [2019, 0]
   - [2020, 0]
   - [2021, 2]
@@ -37,11 +36,12 @@ counts_by_year:
   - [2023, 3]
   - [2024, 4]
   - [2025, 2]
+  - [2026, 1]
 keywords:
   - "Prism"
   - "Scanning transmission electron microscopy"
   - "Scattering"
-metrics_updated: "2026-07-13T07:38:08Z"
+metrics_updated: "2026-07-20T07:30:01Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

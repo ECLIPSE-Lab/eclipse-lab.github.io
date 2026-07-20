@@ -16,14 +16,13 @@ categories:
   - imaging
   - journal article
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 6
-fwci: 2.45
-citation_percentile: 90.6
+cited_by_count: 7
+fwci: 2.58
+citation_percentile: 90.9
 is_top_10_percent: true
 is_oa: true
 oa_status: gold
 counts_by_year:
-  - [2018, 0]
   - [2019, 0]
   - [2020, 0]
   - [2021, 0]
@@ -31,7 +30,8 @@ counts_by_year:
   - [2023, 0]
   - [2024, 0]
   - [2025, 6]
-metrics_updated: "2026-07-13T07:38:08Z"
+  - [2026, 1]
+metrics_updated: "2026-07-20T07:30:01Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

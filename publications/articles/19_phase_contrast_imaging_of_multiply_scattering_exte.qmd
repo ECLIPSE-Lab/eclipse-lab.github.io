@@ -21,8 +21,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 20
-fwci: 4.61
-citation_percentile: 95.6
+fwci: 3.98
+citation_percentile: 94.8
 is_top_10_percent: true
 is_oa: true
 oa_status: gold
@@ -38,7 +38,7 @@ counts_by_year:
 keywords:
   - "Scattering"
   - "Optics"
-metrics_updated: "2026-07-13T07:38:08Z"
+metrics_updated: "2026-07-20T07:30:01Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

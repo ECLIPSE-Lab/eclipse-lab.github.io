@@ -1,28 +1,5 @@
 [
   {
-    "listing": "/people.html",
-    "items": [
-      "/people/pi/00_pelz_philipp.html",
-      "/people/postdocs/02_shengbo_you.html",
-      "/people/postdocs/04_sebastian_kruber.html",
-      "/people/phd/06_williams.html",
-      "/people/phd/03_nikita_palatkin.html",
-      "/people/phd/05_sihan_shao.html",
-      "/people/msc/02_bardia_nasiri_sharaf.html",
-      "/people/msc/03_mohsen_moazam.html",
-      "/people/ras/01_huseyn_shahuseynov.html",
-      "/people/ras/02_nadia_haddadnia.html",
-      "/people/admins/birke.html",
-      "/people/admins/yesim_tosun.html",
-      "/people/honorary/07_yan_mei.html",
-      "/people/alumni/01_andrey_romanov.html",
-      "/people/alumni/04_philipp_herz.html",
-      "/people/alumni/06_radin_rahimi.html",
-      "/people/alumni/07_dasun_ranakawa.html",
-      "/people/alumni/gaurab_dhungana.html"
-    ]
-  },
-  {
     "listing": "/news.html",
     "items": [
       "/posts/2026-05-18_hyperscaleem_postdoc_sensorfusion/index.html",
@@ -102,6 +79,29 @@
       "/publications/articles/03_low_dose_cryo_electron_ptychography_via_non_convex.html",
       "/publications/articles/01_on_the_fly_scans_for_x_ray_ptychography.html",
       "/publications/articles/02_photo_double_ionization_of_ethylene_and_acetylene_.html"
+    ]
+  },
+  {
+    "listing": "/people.html",
+    "items": [
+      "/people/pi/00_pelz_philipp.html",
+      "/people/postdocs/02_shengbo_you.html",
+      "/people/postdocs/04_sebastian_kruber.html",
+      "/people/phd/06_williams.html",
+      "/people/phd/03_nikita_palatkin.html",
+      "/people/phd/05_sihan_shao.html",
+      "/people/msc/02_bardia_nasiri_sharaf.html",
+      "/people/msc/03_mohsen_moazam.html",
+      "/people/ras/01_huseyn_shahuseynov.html",
+      "/people/ras/02_nadia_haddadnia.html",
+      "/people/admins/birke.html",
+      "/people/admins/yesim_tosun.html",
+      "/people/honorary/07_yan_mei.html",
+      "/people/alumni/01_andrey_romanov.html",
+      "/people/alumni/04_philipp_herz.html",
+      "/people/alumni/06_radin_rahimi.html",
+      "/people/alumni/07_dasun_ranakawa.html",
+      "/people/alumni/gaurab_dhungana.html"
     ]
   }
 ]

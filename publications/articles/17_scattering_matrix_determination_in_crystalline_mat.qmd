@@ -25,8 +25,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 9
-fwci: 1.36
-citation_percentile: 85.4
+fwci: 1.25
+citation_percentile: 84.2
 is_oa: true
 oa_status: green
 counts_by_year:
@@ -44,7 +44,7 @@ keywords:
   - "Optics"
   - "Transmission electron microscopy"
   - "Electron scattering"
-metrics_updated: "2026-07-13T07:38:08Z"
+metrics_updated: "2026-07-20T07:30:01Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

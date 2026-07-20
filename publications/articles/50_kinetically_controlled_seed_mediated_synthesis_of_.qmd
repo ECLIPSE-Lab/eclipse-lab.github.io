@@ -22,8 +22,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 1
-fwci: 0.30
-citation_percentile: 54.7
+fwci: 0.27
+citation_percentile: 51.5
 oa_status: closed
 counts_by_year:
   - [2019, 0]
@@ -41,7 +41,7 @@ keywords:
   - "Copper"
   - "Surface plasmon resonance"
   - "Monomer"
-metrics_updated: "2026-07-13T07:38:08Z"
+metrics_updated: "2026-07-20T07:30:01Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

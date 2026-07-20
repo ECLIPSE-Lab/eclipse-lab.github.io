@@ -36,7 +36,7 @@ keywords:
   - "Optics"
   - "Diffraction"
   - "Wavefront"
-metrics_updated: "2026-07-13T07:38:08Z"
+metrics_updated: "2026-07-20T07:30:01Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
