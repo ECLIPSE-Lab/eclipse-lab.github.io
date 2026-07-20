@@ -24,8 +24,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 25
-fwci: 3.40
-citation_percentile: 93.0
+fwci: 3.13
+citation_percentile: 92.4
 is_top_10_percent: true
 is_oa: true
 oa_status: green
@@ -45,7 +45,7 @@ keywords:
   - "Electron tomography"
   - "Nanoparticle"
   - "Atomic units"
-metrics_updated: "2026-07-13T07:38:08Z"
+metrics_updated: "2026-07-20T07:30:01Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

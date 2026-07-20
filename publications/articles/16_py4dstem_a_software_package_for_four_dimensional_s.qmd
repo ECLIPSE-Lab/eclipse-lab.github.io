@@ -16,8 +16,8 @@ categories:
   - imaging
   - journal article
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 313
-fwci: 32.36
+cited_by_count: 314
+fwci: 29.69
 citation_percentile: 99.7
 is_top_1_percent: true
 is_top_10_percent: true
@@ -31,10 +31,10 @@ counts_by_year:
   - [2023, 58]
   - [2024, 83]
   - [2025, 84]
-  - [2026, 38]
+  - [2026, 39]
 keywords:
   - "Software"
-metrics_updated: "2026-07-13T07:38:08Z"
+metrics_updated: "2026-07-20T07:30:01Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

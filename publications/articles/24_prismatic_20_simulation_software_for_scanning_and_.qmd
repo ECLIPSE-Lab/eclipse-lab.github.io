@@ -21,9 +21,9 @@ categories:
   - "scanning transmission electron microscopy"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 97
-fwci: 11.92
-citation_percentile: 99.0
+cited_by_count: 99
+fwci: 10.94
+citation_percentile: 98.9
 is_top_10_percent: true
 is_oa: true
 oa_status: hybrid
@@ -35,11 +35,11 @@ counts_by_year:
   - [2023, 17]
   - [2024, 20]
   - [2025, 20]
-  - [2026, 6]
+  - [2026, 8]
 keywords:
   - "Computational science"
   - "Scanning transmission electron microscopy"
-metrics_updated: "2026-07-13T07:38:08Z"
+metrics_updated: "2026-07-20T07:30:01Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

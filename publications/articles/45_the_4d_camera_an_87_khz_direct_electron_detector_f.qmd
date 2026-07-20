@@ -23,8 +23,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 30
-fwci: 4.28
-citation_percentile: 95.3
+fwci: 3.55
+citation_percentile: 94.3
 is_top_10_percent: true
 is_oa: true
 oa_status: hybrid
@@ -44,7 +44,7 @@ keywords:
   - "Scanning confocal electron microscopy"
   - "Conventional transmission electron microscope"
   - "Transmission electron microscopy"
-metrics_updated: "2026-07-13T07:38:08Z"
+metrics_updated: "2026-07-20T07:30:01Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

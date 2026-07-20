@@ -25,8 +25,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 54
-fwci: 16.35
-citation_percentile: 99.6
+fwci: 13.37
+citation_percentile: 99.4
 is_top_1_percent: true
 is_top_10_percent: true
 is_oa: true
@@ -46,7 +46,7 @@ keywords:
   - "Atomic units"
   - "Electron diffraction"
   - "High-resolution transmission electron microscopy"
-metrics_updated: "2026-07-13T07:38:08Z"
+metrics_updated: "2026-07-20T07:30:01Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
