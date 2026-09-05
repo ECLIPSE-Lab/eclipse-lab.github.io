@@ -12,4 +12,8 @@ categories:
 
 Philipp is giving an invited talk at the International Microscopy Conference (IMC21) in Liverpool, UK.
 
+**Title:** *Advances in Electron Ptychography: Sub-Ångström 3D Resolution, Automated Tomography and Transverse Quantum State Characterization*
+
+[Slides](https://pelzlab.science/public_presentations/conference_talks/2026_09_imc21/imc21.html) · [Source](https://github.com/ECLIPSE-Lab/public_presentations/tree/main/conference_talks/2026_09_imc21)
+
 
