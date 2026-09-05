@@ -22,8 +22,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 99
-fwci: 10.94
-citation_percentile: 98.9
+fwci: 10.61
+citation_percentile: 98.8
 is_top_10_percent: true
 is_oa: true
 oa_status: hybrid
@@ -39,7 +39,7 @@ counts_by_year:
 keywords:
   - "Computational science"
   - "Scanning transmission electron microscopy"
-metrics_updated: "2026-07-20T07:30:01Z"
+metrics_updated: "2026-09-05T17:16:21Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

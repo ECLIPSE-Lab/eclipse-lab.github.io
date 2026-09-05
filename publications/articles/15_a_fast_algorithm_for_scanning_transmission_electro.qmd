@@ -24,8 +24,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 17
-fwci: 2.19
-citation_percentile: 88.7
+fwci: 2.12
+citation_percentile: 88.4
 is_oa: true
 oa_status: hybrid
 counts_by_year:
@@ -41,7 +41,7 @@ keywords:
   - "Prism"
   - "Scanning transmission electron microscopy"
   - "Scattering"
-metrics_updated: "2026-07-20T07:30:01Z"
+metrics_updated: "2026-09-05T17:16:21Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

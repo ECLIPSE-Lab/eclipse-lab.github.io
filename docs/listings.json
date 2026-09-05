@@ -1,31 +1,5 @@
 [
   {
-    "listing": "/news.html",
-    "items": [
-      "/posts/2026-05-18_hyperscaleem_postdoc_sensorfusion/index.html",
-      "/posts/2025-12-02_imc21/index.html",
-      "/posts/2025-11-19_dpg/index.html",
-      "/posts/2025-11-19_matsus/index.html",
-      "/posts/2025-09-11_position/index.html",
-      "/posts/2025-07-17_cormic/index.html",
-      "/posts/2024-11-23_SwissNonoConvention/index.html",
-      "/posts/2024-11-23_mandm2025/index.html",
-      "/posts/2024-09-03_HyperScaleEM_postdoc/index.html",
-      "/posts/2024-09-03_HyperScaleEM_phd/index.html",
-      "/posts/24-04-position/index.html",
-      "/posts/24-07_study_commission/index.html",
-      "/posts/23-12-hongkong/index.html",
-      "/posts/2023_DPG_spring/index.html",
-      "/posts/radin_joins/index.html",
-      "/posts/shengbo_joins/index.html",
-      "/posts/emc2024/index.html",
-      "/posts/andrey_joins/index.html",
-      "/posts/imc20/index.html",
-      "/posts/mrs2023/index.html",
-      "/posts/crc1411/index.html"
-    ]
-  },
-  {
     "listing": "/publications.html",
     "items": [
       "/publications/articles/51_gap_free_information_transfer_in_4d_stem_via_fusio.html",
@@ -39,7 +13,7 @@
       "/publications/articles/45_the_4d_camera_an_87_khz_direct_electron_detector_f.html",
       "/publications/articles/41_towards_in_situ_4d_stem_observation_of_texture_evo.html",
       "/publications/articles/43_using_phase_contrast_4d_stem_to_solve_3d_inorganic.html",
-      "/publications/articles/39_analysis_of_strain_and_defects_in_tellurium_wsesub.html",
+      "/publications/articles/39_analysis_of_strain_and_defects_in_tellurium_wse2_m.html",
       "/publications/articles/34_controlled_self_assembly_of_gold_nanotetrahedra_in.html",
       "/publications/articles/38_high_resolution_3d_phase_contrast_imaging_beyond_t.html",
       "/publications/articles/32_imaging_the_electron_charge_density_in_monolayer_m.html",
@@ -72,8 +46,8 @@
       "/publications/articles/13_reconstructing_the_scattering_matrix_from_scanning.html",
       "/publications/articles/09_the_4d_camera_an_87_khz_frame_rate_detector_for_co.html",
       "/publications/articles/08_3d_imaging_using_haadf_stem_and_hrtem_atomic_elect.html",
-      "/publications/articles/05_advanced_phase_reconstruction_methods_enabled_by_f.html",
-      "/publications/articles/04_electron_ptychography_of_single_biological_macromo.html",
+      "/publications/articles/04_advanced_phase_reconstruction_methods_enabled_by_f.html",
+      "/publications/articles/05_electron_ptychography_of_single_biological_macromo.html",
       "/publications/articles/07_engineering_chiral_structures_through_strain_relea.html",
       "/publications/articles/06_towards_ptychography_with_structured_illumination_.html",
       "/publications/articles/03_low_dose_cryo_electron_ptychography_via_non_convex.html",
@@ -102,6 +76,32 @@
       "/people/alumni/06_radin_rahimi.html",
       "/people/alumni/07_dasun_ranakawa.html",
       "/people/alumni/gaurab_dhungana.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/posts/2026-05-18_hyperscaleem_postdoc_sensorfusion/index.html",
+      "/posts/2025-12-02_imc21/index.html",
+      "/posts/2025-11-19_dpg/index.html",
+      "/posts/2025-11-19_matsus/index.html",
+      "/posts/2025-09-11_position/index.html",
+      "/posts/2025-07-17_cormic/index.html",
+      "/posts/2024-11-23_SwissNonoConvention/index.html",
+      "/posts/2024-11-23_mandm2025/index.html",
+      "/posts/2024-09-03_HyperScaleEM_postdoc/index.html",
+      "/posts/2024-09-03_HyperScaleEM_phd/index.html",
+      "/posts/24-04-position/index.html",
+      "/posts/24-07_study_commission/index.html",
+      "/posts/23-12-hongkong/index.html",
+      "/posts/2023_DPG_spring/index.html",
+      "/posts/radin_joins/index.html",
+      "/posts/shengbo_joins/index.html",
+      "/posts/emc2024/index.html",
+      "/posts/andrey_joins/index.html",
+      "/posts/imc20/index.html",
+      "/posts/mrs2023/index.html",
+      "/posts/crc1411/index.html"
     ]
   }
 ]

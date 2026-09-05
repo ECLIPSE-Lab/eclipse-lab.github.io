@@ -21,9 +21,9 @@ categories:
   - "monomer"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 1
-fwci: 0.27
-citation_percentile: 51.5
+cited_by_count: 6
+fwci: 1.26
+citation_percentile: 78.7
 oa_status: closed
 counts_by_year:
   - [2019, 0]
@@ -33,7 +33,7 @@ counts_by_year:
   - [2023, 0]
   - [2024, 0]
   - [2025, 0]
-  - [2026, 1]
+  - [2026, 6]
 keywords:
   - "Nanocrystal"
   - "Nucleation"
@@ -41,7 +41,7 @@ keywords:
   - "Copper"
   - "Surface plasmon resonance"
   - "Monomer"
-metrics_updated: "2026-07-20T07:30:01Z"
+metrics_updated: "2026-09-05T17:16:21Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

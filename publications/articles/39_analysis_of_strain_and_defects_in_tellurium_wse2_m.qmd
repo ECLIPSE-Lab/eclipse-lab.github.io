@@ -1,5 +1,5 @@
 ---
-title: "Analysis of Strain and Defects in Tellurium-WSe<sub>2</sub> Moiré Heterostructures Using Scanning Nanodiffraction"
+title: "Analysis of Strain and Defects in Tellurium-WSe2 Moiré Heterostructures Using Scanning Nanodiffraction"
 type: "article"
 author: "B. Sari, S. E. Zeltmann, C. Zhao, P. M. Pelz, A. Javey, A. M. Minor, C. Ophus, M. C. Scott"
 year: "2023"
@@ -23,9 +23,9 @@ categories:
   - "moiré pattern"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 17
-fwci: 1.29
-citation_percentile: 78.1
+cited_by_count: 18
+fwci: 1.34
+citation_percentile: 79.0
 is_oa: true
 oa_status: hybrid
 counts_by_year:
@@ -36,19 +36,19 @@ counts_by_year:
   - [2023, 0]
   - [2024, 3]
   - [2025, 8]
-  - [2026, 6]
+  - [2026, 7]
 keywords:
   - "Heterojunction"
   - "Tellurium"
   - "Semiconductor"
   - "Condensed matter physics"
   - "Moiré pattern"
-metrics_updated: "2026-07-20T07:30:01Z"
+metrics_updated: "2026-09-05T17:16:21Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
 
-> Analysis of Strain and Defects in Tellurium-WSe<sub>2</sub> Moiré Heterostructures Using Scanning Nanodiffraction
+> Analysis of Strain and Defects in Tellurium-WSe2 Moiré Heterostructures Using Scanning Nanodiffraction
 B. Sari, S. E. Zeltmann, C. Zhao, P. M. Pelz, A. Javey, A. M. Minor, C. Ophus, M. C. Scott
 ACS Nano 17, 22326-22333
 

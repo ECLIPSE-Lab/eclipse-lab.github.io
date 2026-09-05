@@ -23,9 +23,9 @@ categories:
   - "atomic units"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 25
-fwci: 3.13
-citation_percentile: 92.4
+cited_by_count: 26
+fwci: 3.05
+citation_percentile: 92.2
 is_top_10_percent: true
 is_oa: true
 oa_status: green
@@ -37,7 +37,7 @@ counts_by_year:
   - [2023, 6]
   - [2024, 7]
   - [2025, 4]
-  - [2026, 1]
+  - [2026, 2]
 keywords:
   - "Crystal twinning"
   - "Icosahedral symmetry"
@@ -45,7 +45,7 @@ keywords:
   - "Electron tomography"
   - "Nanoparticle"
   - "Atomic units"
-metrics_updated: "2026-07-20T07:30:01Z"
+metrics_updated: "2026-09-05T17:16:21Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

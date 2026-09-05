@@ -22,9 +22,9 @@ categories:
   - "scattering"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 13
-fwci: 2.59
-citation_percentile: 90.3
+cited_by_count: 14
+fwci: 2.71
+citation_percentile: 90.7
 is_top_10_percent: true
 is_oa: true
 oa_status: hybrid
@@ -36,7 +36,7 @@ counts_by_year:
   - [2023, 0]
   - [2024, 6]
   - [2025, 4]
-  - [2026, 3]
+  - [2026, 4]
 keywords:
   - "Optical sectioning"
   - "Optics"
@@ -44,7 +44,7 @@ keywords:
   - "Dark field microscopy"
   - "Scanning transmission electron microscopy"
   - "Scattering"
-metrics_updated: "2026-07-20T07:30:01Z"
+metrics_updated: "2026-09-05T17:16:21Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

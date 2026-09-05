@@ -13,17 +13,20 @@ toc: false
 categories:
   - ptychography
   - electron microscopy
+  - conference paper
   # --- begin keyword categories (auto-managed) ---
   - "parallax"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
+fwci: 0.00
+citation_percentile: 35.4
 is_oa: true
 oa_status: diamond
 keywords:
   - "Parallax"
   - "Ptychography"
-metrics_updated: "2026-07-20T07:30:01Z"
+metrics_updated: "2026-09-05T17:16:21Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
