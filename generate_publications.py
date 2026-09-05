@@ -12,7 +12,11 @@ from urllib.parse import parse_qs, urlparse
 # %%
 
 USER_AGENT = "ECLIPSE-Lab/1.0 (mailto:philipp.pelz@fau.de)"
-ACTIVE_PEOPLE_DIRS = {"staff", "bsc", "msc", "ras", "admins"}
+# Active (non-alumni, non-honorary) people directories under people/.
+# NOTE: keep this in sync with the actual people/ subdirectories. A stale "staff"
+# entry here (a directory that no longer exists) meant discovery silently found
+# 0 profiles and the script regenerated nothing at all.
+ACTIVE_PEOPLE_DIRS = {"pi", "postdocs", "phd", "staff", "msc", "bsc", "ras", "admins"}
 
 
 def normalize_doi(doi):
@@ -626,8 +630,18 @@ def get_publication_info_with_fallback(doi):
     
     return crossref_info
 
+# Unicode dash/hyphen variants that publishers (notably Wiley) use in titles.
+# They are not \w, \s or ASCII "-", so without this they were stripped outright
+# and "Gap-Free ... 4D-STEM" slugged to "gapfree...4dstem" instead of
+# "gap_free..._4d_stem", silently changing the published URL.
+_DASH_CHARS = "‐‑‒–—―−"
+_DASH_TABLE = {ord(c): "-" for c in _DASH_CHARS}
+
+
 def clean_filename(title):
     """Convert title to a clean filename"""
+    # Fold Unicode dashes to ASCII hyphens so they act as word separators
+    title = str(title).translate(_DASH_TABLE)
     # Remove special characters and replace spaces with underscores
     clean = re.sub(r'[^\w\s-]', '', title)
     clean = re.sub(r'[-\s]+', '_', clean)
