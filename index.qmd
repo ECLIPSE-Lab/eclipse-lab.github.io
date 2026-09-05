@@ -138,6 +138,16 @@ toc: false
 <div class="splide" role="group" aria-label="Image Slider">
   <div class="splide__track">
 		<ul class="splide__list">
+      <li class="splide__slide" aria-label="Gap-Free Information Transfer in 4D-STEM via Fusion of Complementary Scattering Channels (Adv Sci 2026)">
+        <div>
+          <a href="https://doi.org/10.1002/advs.76620">Gap-Free Information Transfer in 4D-STEM via Fusion of Complementary Scattering Channels
+ (Adv Sci 2026)</a>
+        </div>
+        <picture>
+          <source type="image/webp" srcset="img/optimized/gdox_ffstem-600.webp 600w" sizes="100vw">
+          <img src="img/gdox_ffstem.gif" alt="Animation alternating between a direct-ptychography reconstruction and a fused full-field STEM reconstruction of Gd2O3 nanohelices, showing the gap-free contrast of the fused result" loading="lazy" decoding="async">
+        </picture>
+      </li>
       <li class="splide__slide" aria-label="New Resolution Record in 3D Phase-Contrast Imaging (Phys Scripta 2024)">
         <div>
           <a href="https://doi.org/10.1088/1402-4896/ad9a1a">New Resolution Record in 3D Phase-Contrast Imaging
