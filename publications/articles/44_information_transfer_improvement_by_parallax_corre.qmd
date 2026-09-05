@@ -20,13 +20,13 @@ categories:
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
-citation_percentile: 10.8
+citation_percentile: 12.5
 oa_status: closed
 keywords:
   - "Parallax"
   - "Ptychography"
   - "Optics"
-metrics_updated: "2026-07-20T07:30:01Z"
+metrics_updated: "2026-09-05T17:16:21Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

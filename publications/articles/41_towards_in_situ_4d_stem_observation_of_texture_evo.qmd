@@ -14,18 +14,21 @@ categories:
   - electron microscopy
   - nanoparticles
   - materials science
+  - conference paper
   # --- begin keyword categories (auto-managed) ---
   - "in situ"
   - "nano-"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
+fwci: 0.00
+citation_percentile: 18.2
 is_oa: true
 oa_status: diamond
 keywords:
   - "In situ"
   - "Nano-"
-metrics_updated: "2026-07-20T07:30:01Z"
+metrics_updated: "2026-09-05T17:16:21Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

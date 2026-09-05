@@ -20,8 +20,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 85
-fwci: 7.91
-citation_percentile: 98.0
+fwci: 6.85
+citation_percentile: 97.6
 is_top_10_percent: true
 is_oa: true
 oa_status: gold
@@ -38,7 +38,7 @@ keywords:
   - "Ptychography"
   - "Phase retrieval"
   - "Optics"
-metrics_updated: "2026-07-20T07:30:01Z"
+metrics_updated: "2026-09-05T17:16:21Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

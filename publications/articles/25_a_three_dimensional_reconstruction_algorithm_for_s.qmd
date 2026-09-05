@@ -25,13 +25,12 @@ categories:
   - "optics"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 13
+cited_by_count: 14
 fwci: 0.89
-citation_percentile: 68.3
+citation_percentile: 68.5
 is_oa: true
 oa_status: green
 counts_by_year:
-  - [2018, 0]
   - [2019, 0]
   - [2020, 0]
   - [2021, 0]
@@ -39,6 +38,7 @@ counts_by_year:
   - [2023, 3]
   - [2024, 6]
   - [2025, 1]
+  - [2026, 1]
 keywords:
   - "Electron tomography"
   - "Scanning confocal electron microscopy"
@@ -46,7 +46,7 @@ keywords:
   - "Scanning transmission electron microscopy"
   - "Microscopy"
   - "Optics"
-metrics_updated: "2026-07-20T07:30:01Z"
+metrics_updated: "2026-09-05T17:16:21Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

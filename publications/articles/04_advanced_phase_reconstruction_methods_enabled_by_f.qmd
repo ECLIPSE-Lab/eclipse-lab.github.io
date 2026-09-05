@@ -19,13 +19,12 @@ categories:
   - "scanning confocal electron microscopy"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 12
-fwci: 1.19
-citation_percentile: 85.7
+cited_by_count: 14
+fwci: 1.03
+citation_percentile: 83.4
 is_oa: true
 oa_status: bronze
 counts_by_year:
-  - [2018, 0]
   - [2019, 0]
   - [2020, 2]
   - [2021, 2]
@@ -33,11 +32,12 @@ counts_by_year:
   - [2023, 1]
   - [2024, 3]
   - [2025, 1]
+  - [2026, 2]
 keywords:
   - "Scanning transmission electron microscopy"
   - "Transmission electron microscopy"
   - "Scanning confocal electron microscopy"
-metrics_updated: "2026-07-20T07:30:01Z"
+metrics_updated: "2026-09-05T17:16:21Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

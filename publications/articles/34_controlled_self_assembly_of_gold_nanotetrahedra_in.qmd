@@ -20,9 +20,9 @@ categories:
   - "curvature"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 29
-fwci: 2.20
-citation_percentile: 88.7
+cited_by_count: 32
+fwci: 2.39
+citation_percentile: 89.8
 is_oa: true
 oa_status: green
 counts_by_year:
@@ -33,13 +33,13 @@ counts_by_year:
   - [2023, 0]
   - [2024, 14]
   - [2025, 10]
-  - [2026, 5]
+  - [2026, 8]
 keywords:
   - "Quasicrystal"
   - "Tetrahedron"
   - "Self-assembly"
   - "Curvature"
-metrics_updated: "2026-07-20T07:30:01Z"
+metrics_updated: "2026-09-05T17:16:21Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

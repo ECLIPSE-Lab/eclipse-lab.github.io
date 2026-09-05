@@ -22,9 +22,9 @@ categories:
   - "transmission electron microscopy"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 30
-fwci: 3.55
-citation_percentile: 94.3
+cited_by_count: 35
+fwci: 3.90
+citation_percentile: 94.9
 is_top_10_percent: true
 is_oa: true
 oa_status: hybrid
@@ -36,7 +36,7 @@ counts_by_year:
   - [2023, 1]
   - [2024, 2]
   - [2025, 19]
-  - [2026, 8]
+  - [2026, 13]
 keywords:
   - "Electron"
   - "Scanning transmission electron microscopy"
@@ -44,7 +44,7 @@ keywords:
   - "Scanning confocal electron microscopy"
   - "Conventional transmission electron microscope"
   - "Transmission electron microscopy"
-metrics_updated: "2026-07-20T07:30:01Z"
+metrics_updated: "2026-09-05T17:16:21Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

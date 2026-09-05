@@ -23,9 +23,9 @@ categories:
   - "optics"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 10
-fwci: 4.05
-citation_percentile: 95.1
+cited_by_count: 11
+fwci: 4.44
+citation_percentile: 95.7
 is_top_10_percent: true
 is_oa: true
 oa_status: hybrid
@@ -37,14 +37,14 @@ counts_by_year:
   - [2023, 0]
   - [2024, 2]
   - [2025, 7]
-  - [2026, 1]
+  - [2026, 2]
 keywords:
   - "Tomography"
   - "Isotropy"
   - "Phase-contrast imaging"
   - "Phase contrast microscopy"
   - "Optics"
-metrics_updated: "2026-07-20T07:30:01Z"
+metrics_updated: "2026-09-05T17:16:21Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

@@ -20,9 +20,9 @@ categories:
   - "electron microscope"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 44
-fwci: 2.79
-citation_percentile: 91.5
+cited_by_count: 45
+fwci: 2.81
+citation_percentile: 91.6
 is_top_10_percent: true
 is_oa: true
 oa_status: gold
@@ -34,11 +34,11 @@ counts_by_year:
   - [2023, 12]
   - [2024, 16]
   - [2025, 11]
-  - [2026, 4]
+  - [2026, 5]
 keywords:
   - "Transmission electron microscopy"
   - "Electron microscope"
-metrics_updated: "2026-07-20T07:30:01Z"
+metrics_updated: "2026-09-05T17:16:21Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

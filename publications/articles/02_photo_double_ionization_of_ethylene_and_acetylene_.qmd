@@ -22,8 +22,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 50
-fwci: 3.08
-citation_percentile: 92.1
+fwci: 3.05
+citation_percentile: 92.0
 is_top_10_percent: true
 is_oa: true
 oa_status: bronze
@@ -43,7 +43,7 @@ keywords:
   - "Atomic physics"
   - "Excited state"
   - "Singlet state"
-metrics_updated: "2026-07-20T07:30:01Z"
+metrics_updated: "2026-09-05T17:16:21Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
