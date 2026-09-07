@@ -4,68 +4,39 @@ toc: false
 listing:
   - id: pi
     contents: "people/pi/*.qmd"
-    type: grid
-    image-height: 225px
-    grid-columns: 3
-    fields: [image, title, subtitle]
-    grid-item-align: center
+    type: custom
+    template: _templates/people-card.ejs.md
     sort: sortby
   - id: postdocs
     contents: "people/postdocs/*.qmd"
-    type: grid
-    image-height: 225px
-    grid-columns: 3
-    fields: [image, title, subtitle]
-    grid-item-align: center
+    type: custom
+    template: _templates/people-card.ejs.md
     sort: sortby
-    field-display-names: 
-      started: "Started"
   - id: phd-students
     contents: "people/phd/*.qmd"
-    type: grid
-    image-height: 225px
-    grid-columns: 3
-    fields: [image, title, subtitle]
-    grid-item-align: center
+    type: custom
+    template: _templates/people-card.ejs.md
     sort: sortby
-    field-display-names: 
-      started: "Started"
   - id: msc_students
     contents: "people/msc/*.qmd"
-    type: grid
-    image-height: 225px
-    grid-columns: 3
+    type: custom
+    template: _templates/people-card.ejs.md
     sort: sortby
-    fields: [image, title, subtitle, started]
-    field-display-names: 
-      started: "Started"
-    grid-item-align: center
   - id: research-assistants
     contents: "people/ras/*.qmd"
-    type: grid
-    image-height: 225px
-    grid-columns: 3
+    type: custom
+    template: _templates/people-card.ejs.md
     sort: sortby
-    fields: [image, title, subtitle, started]
-    field-display-names: 
-      started: "Started"
-    grid-item-align: center
   - id: admin-assistants
     contents: "people/admins/*.qmd"
-    type: grid
-    image-height: 225px
-    grid-columns: 3
+    type: custom
+    template: _templates/people-card.ejs.md
     sort: sortby
-    fields: [image, title, subtitle, started]
-    grid-item-align: center
   - id: honorary-members
     contents: "people/honorary/*.qmd"
-    type: grid
-    image-height: 225px
-    grid-columns: 3
+    type: custom
+    template: _templates/people-card.ejs.md
     sort: sortby
-    fields: [image, title, subtitle, started]
-    grid-item-align: center
   - id: alumni
     contents: "people/alumni/*.qmd"
     type: table
