@@ -8,7 +8,11 @@ toc: false
 about:
   id: person-profile
   template: jolla
-  # links:
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:yesim.tosun@fau.de
+  # additional links:
     # - icon: link
     #   text: website
     #   href: https://philipppelz.github.io
@@ -44,7 +48,6 @@ Yesim Tosun
 Cauerstraße 3
 91058 Erlangen
 Phone number:+49 9131 85-70397
-Email:jenny.wirth@fau.de
+Email: yesim.tosun@fau.de
 Website:http://www.em.techfak.uni-erlangen.de
-
 
