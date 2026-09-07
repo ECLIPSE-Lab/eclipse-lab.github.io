@@ -73,3 +73,51 @@ def test_people_grid_is_responsive(page, site_url):
     )
     assert len(set(tops)) == cards.count()
     assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
+
+
+def test_hover_and_keyboard_open_and_close(page, site_url):
+    page.goto(f"{site_url}/people.html")
+    card = page.locator(".people-card").first
+    trigger = card.locator(".people-card__trigger")
+    panel = card.locator(".people-card__panel")
+
+    card.hover()
+    assert panel.is_visible()
+    trigger.focus()
+    assert trigger.get_attribute("aria-expanded") == "true"
+    trigger.press("Escape")
+    assert trigger.get_attribute("aria-expanded") == "false"
+    trigger.press("Space")
+    assert trigger.get_attribute("aria-expanded") == "true"
+
+
+def test_only_one_touch_panel_opens(browser, site_url):
+    context = browser.new_context(
+        viewport={"width": 390, "height": 844},
+        has_touch=True,
+        is_mobile=True,
+    )
+    page = context.new_page()
+    page.goto(f"{site_url}/people.html")
+    triggers = page.locator(".people-card__trigger")
+
+    triggers.nth(0).tap()
+    assert triggers.nth(0).get_attribute("aria-expanded") == "true"
+    triggers.nth(1).tap()
+    assert triggers.nth(0).get_attribute("aria-expanded") == "false"
+    assert triggers.nth(1).get_attribute("aria-expanded") == "true"
+    assert page.locator(".people-card.is-open").count() == 1
+    context.close()
+
+
+def test_open_panels_stay_inside_viewport(page, site_url):
+    page.set_viewport_size({"width": 1024, "height": 800})
+    page.goto(f"{site_url}/people.html")
+    cards = page.locator("#phd-students .people-card")
+
+    for index in range(cards.count()):
+        card = cards.nth(index)
+        card.hover()
+        rect = card.locator(".people-card__panel").bounding_box()
+        assert rect["x"] >= 16
+        assert rect["x"] + rect["width"] <= 1008

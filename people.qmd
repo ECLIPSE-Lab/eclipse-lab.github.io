@@ -2,6 +2,8 @@
 pagetitle: "People | ECLIPSE Lab"
 toc: false
 css: people-cards.css
+resources:
+  - people-cards.js
 listing:
   - id: pi
     contents: "people/pi/*.qmd"
@@ -113,3 +115,7 @@ Currently no BSc students are listed.
 
 :::{#alumni}
 :::
+
+```{=html}
+<script src="people-cards.js" defer></script>
+```

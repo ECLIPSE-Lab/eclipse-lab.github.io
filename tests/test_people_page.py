@@ -18,7 +18,7 @@ def front_matter(relative_path):
 @pytest.fixture(scope="session")
 def people_page():
     result = subprocess.run(
-        ["quarto", "render"],
+        ["quarto", "render", "people.qmd"],
         cwd=ROOT,
         text=True,
         capture_output=True,
