@@ -1,6 +1,7 @@
 ---
 pagetitle: "People | ECLIPSE Lab"
 toc: false
+css: people-cards.css
 listing:
   - id: pi
     contents: "people/pi/*.qmd"
