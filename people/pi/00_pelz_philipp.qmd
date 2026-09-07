@@ -4,6 +4,7 @@ sortby: "1"
 subtitle: "Principal Investigator"
 image: pelz_philipp.jpg
 started: "Fall 2022"
+interests: "Computational imaging & microscopy · Autonomous systems · Large-scale inverse problems · Electron & X-ray microscopy"
 toc: false
 resources: 
   - "girard_cv.pdf"
