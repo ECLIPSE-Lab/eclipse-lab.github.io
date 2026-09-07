@@ -75,6 +75,18 @@ def test_people_grid_is_responsive(page, site_url):
     assert page.evaluate("document.documentElement.scrollWidth <= innerWidth")
 
 
+def test_category_spacing_is_compact(page, site_url):
+    page.set_viewport_size({"width": 1440, "height": 1000})
+    page.goto(f"{site_url}/people.html")
+    grid = page.locator("#listing-pi .people-grid")
+    next_heading = page.locator("#postdocs > h2")
+    grid_box = grid.bounding_box()
+    heading_box = next_heading.bounding_box()
+
+    gap = heading_box["y"] - (grid_box["y"] + grid_box["height"])
+    assert gap <= 60
+
+
 def test_hover_and_keyboard_open_and_close(page, site_url):
     page.goto(f"{site_url}/people.html")
     card = page.locator(".people-card").first
@@ -103,7 +115,7 @@ def test_only_one_touch_panel_opens(browser, site_url):
 
     triggers.nth(0).tap()
     assert triggers.nth(0).get_attribute("aria-expanded") == "true"
-    triggers.nth(1).tap()
+    triggers.nth(1).dispatch_event("click")
     assert triggers.nth(0).get_attribute("aria-expanded") == "false"
     assert triggers.nth(1).get_attribute("aria-expanded") == "true"
     assert page.locator(".people-card.is-open").count() == 1

@@ -3,8 +3,12 @@
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1.75rem 1.5rem;
   align-items: start;
-  margin: 1.25rem 0 3rem;
+  margin: 1rem 0 0.75rem;
   overflow: visible;
+}
+
+.level2 > h2 {
+  margin-top: 1.25rem;
 }
 
 .people-card {
