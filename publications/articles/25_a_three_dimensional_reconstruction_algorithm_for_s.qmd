@@ -26,8 +26,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 13
-fwci: 0.89
-citation_percentile: 68.3
+fwci: 0.98
+citation_percentile: 71.3
 is_oa: true
 oa_status: green
 counts_by_year:
@@ -46,7 +46,7 @@ keywords:
   - "Scanning transmission electron microscopy"
   - "Microscopy"
   - "Optics"
-metrics_updated: "2026-07-20T07:30:01Z"
+metrics_updated: "2026-05-02T16:35:20Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

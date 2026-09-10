@@ -33,7 +33,7 @@ counts_by_year:
   - [2025, 2]
 keywords:
   - "Detector"
-metrics_updated: "2026-07-20T07:30:01Z"
+metrics_updated: "2026-05-02T16:35:20Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
