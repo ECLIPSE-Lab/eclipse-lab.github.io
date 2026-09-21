@@ -16,7 +16,7 @@ categories:
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 5
 fwci: 0.44
-citation_percentile: 78.0
+citation_percentile: 77.5
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -28,7 +28,7 @@ counts_by_year:
   - [2024, 0]
   - [2025, 0]
   - [2026, 2]
-metrics_updated: "2026-09-05T17:16:21Z"
+metrics_updated: "2026-09-21T09:58:18Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

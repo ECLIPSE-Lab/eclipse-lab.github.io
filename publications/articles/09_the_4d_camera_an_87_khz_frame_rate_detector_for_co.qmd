@@ -17,7 +17,7 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 38
-fwci: 6.41
+fwci: 6.34
 citation_percentile: 96.7
 is_top_10_percent: true
 is_oa: true
@@ -33,7 +33,7 @@ counts_by_year:
   - [2026, 1]
 keywords:
   - "Detector"
-metrics_updated: "2026-09-05T17:16:21Z"
+metrics_updated: "2026-09-21T09:58:18Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
