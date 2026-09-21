@@ -1,0 +1,44 @@
+---
+title: "Magnetic Phase Imaging using Lorentz Near-field Electron Ptychography"
+type: "article"
+author: "S. You, P. Lu, A. Kovács, T. Schachinger, F. Allars, R. E. Dunin‐Borkowski, A. Maiden"
+year: "2023"
+publication: "arXiv (Cornell University)"
+preprint: ""
+doi: "10.48550/arxiv.2308.10870"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - ptychography
+  - imaging
+  # --- begin keyword categories (auto-managed) ---
+  - "optics"
+  - "amplitude"
+  - "diffraction"
+  # --- end keyword categories ---
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 0
+is_oa: true
+oa_status: green
+keywords:
+  - "Optics"
+  - "Ptychography"
+  - "Amplitude"
+  - "Diffraction"
+metrics_updated: "2026-09-21T09:58:18Z"
+# --- end citation metrics ---
+---
+## Citation (APA 7)
+
+> Magnetic Phase Imaging using Lorentz Near-field Electron Ptychography
+S. You, P. Lu, A. Kovács, T. Schachinger, F. Allars, R. E. Dunin‐Borkowski, A. Maiden
+arXiv (Cornell University)
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+

@@ -1,0 +1,41 @@
+---
+title: "Electron Ptychography in the Fresnel Diffraction Regime"
+type: "article"
+author: "A. Maiden, P. Lu, S. You, F. Allars"
+year: "2025"
+publication: "Microscopy and Microanalysis 31"
+preprint: ""
+doi: "10.1093/mam/ozaf048.044"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - ptychography
+  - physics
+  # --- begin keyword categories (auto-managed) ---
+  - "fresnel diffraction"
+  # --- end keyword categories ---
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 0
+fwci: 0.00
+citation_percentile: 20.3
+oa_status: closed
+keywords:
+  - "Ptychography"
+  - "Fresnel diffraction"
+metrics_updated: "2026-09-21T09:58:18Z"
+# --- end citation metrics ---
+---
+## Citation (APA 7)
+
+> Electron Ptychography in the Fresnel Diffraction Regime
+A. Maiden, P. Lu, S. You, F. Allars
+Microscopy and Microanalysis 31
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+

@@ -1,0 +1,48 @@
+---
+title: "Gap‐Free Information Transfer in 4D‐STEM via Fusion of Complementary Scattering Channels"
+type: "article"
+author: "S. You, G. Varnavides, S. Khavnekar, N. Palatkin, S. Shao, M. Wu, D. Stroppa, D. Chernikova, B. Zhu, R. Egoavil, S. Vespucci, D. Krishnan, X. Ye, F. K. M. Schur, E. Spiecker, P. Pelz"
+year: "2026"
+publication: "Advanced Science"
+preprint: ""
+doi: "10.1002/advs.76620"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - physics
+  - journal article
+  # --- begin keyword categories (auto-managed) ---
+  - "scattering"
+  - "phase-contrast imaging"
+  - "contrast transfer function"
+  - "upsampling"
+  # --- end keyword categories ---
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 0
+fwci: 0.00
+citation_percentile: 67.1
+is_oa: true
+oa_status: gold
+keywords:
+  - "Scattering"
+  - "Phase-contrast imaging"
+  - "Contrast transfer function"
+  - "Upsampling"
+metrics_updated: "2026-09-21T09:58:18Z"
+# --- end citation metrics ---
+---
+## Citation (APA 7)
+
+> Gap‐Free Information Transfer in 4D‐STEM via Fusion of Complementary Scattering Channels
+S. You, G. Varnavides, S. Khavnekar, N. Palatkin, S. Shao, M. Wu, D. Stroppa, D. Chernikova, B. Zhu, R. Egoavil, S. Vespucci, D. Krishnan, X. Ye, F. K. M. Schur, E. Spiecker, P. Pelz
+Advanced Science
+
+
+## Abstract
+
+Linear phase‐contrast scanning transmission electron microscopy (STEM) techniques compatible with high‐throughput 4D‐STEM acquisition are widely used to enhance phase contrast in weakly scattering and beam‐sensitive materials. In these modalities, contrast transfer is often suppressed at low spatial frequencies, resulting in a characteristic contrast gap that limits contrast. Approaches that retain low‐frequency phase contrast exist but typically require substantially increased experimental complexity, restricting routine use. Dark‐field STEM imaging captures this missing low‐frequency information through electrons scattered outside the bright‐field disk, but discards a large fraction of the scattered signal and is therefore dose‐inefficient. Fused Full‐field STEM (FF‐STEM) is introduced as a 4D‐STEM imaging modality that overcomes these limitations by combining ptychographic phase reconstruction with tilt‐corrected dark‐field imaging within a single acquisition. Bright‐field data are used to estimate probe aberrations and reconstruct a high‐resolution phase image, while dark‐field data provide complementary low‐frequency contrast. The two channels are fused in Fourier space using Wiener‐band weighting based on the spectral signal‐to‐noise ratio, yielding transfer‐gap‐free images with high contrast. FF‐STEM preserves the upsampling and depth‐sectioning capabilities of ptychography, adds robust low‐frequency contrast characteristic of dark‐field imaging, and enables dose‐efficient, near–real‐time reconstruction.
+
+

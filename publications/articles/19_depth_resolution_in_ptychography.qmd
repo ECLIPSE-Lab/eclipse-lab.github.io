@@ -1,0 +1,37 @@
+---
+title: "Depth Resolution in Ptychography"
+type: "article"
+author: "T. U. o. Sheffield, S. You"
+year: "2021"
+publication: "Proceedings of the European Microscopy Congress 2020"
+preprint: ""
+doi: "10.22443/rms.emc2020.657"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - ptychography
+  - conference paper
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 0
+fwci: 0.00
+citation_percentile: 3.7
+oa_status: closed
+keywords:
+  - "Ptychography"
+metrics_updated: "2026-09-21T09:58:18Z"
+# --- end citation metrics ---
+---
+## Citation (APA 7)
+
+> Depth Resolution in Ptychography
+T. U. o. Sheffield, S. You
+Proceedings of the European Microscopy Congress 2020
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+

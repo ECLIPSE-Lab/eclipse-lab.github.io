@@ -1,0 +1,56 @@
+---
+title: "Lorentz near-field electron ptychography"
+type: "article"
+author: "S. You, P. Lu, T. Schachinger, A. Kovács, R. E. Dunin-Borkowski, A. M. Maiden"
+year: "2023"
+publication: "Applied Physics Letters 123"
+preprint: ""
+doi: "10.1063/5.0169788"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - ptychography
+  - journal article
+  # --- begin keyword categories (auto-managed) ---
+  - "electron holography"
+  - "optics"
+  - "holography"
+  # --- end keyword categories ---
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 12
+fwci: 3.02
+citation_percentile: 91.8
+is_top_10_percent: true
+is_oa: true
+oa_status: hybrid
+counts_by_year:
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 0]
+  - [2022, 0]
+  - [2023, 1]
+  - [2024, 3]
+  - [2025, 6]
+  - [2026, 2]
+keywords:
+  - "Electron holography"
+  - "Ptychography"
+  - "Optics"
+  - "Holography"
+metrics_updated: "2026-09-21T09:58:18Z"
+# --- end citation metrics ---
+---
+## Citation (APA 7)
+
+> Lorentz near-field electron ptychography
+S. You, P. Lu, T. Schachinger, A. Kovács, R. E. Dunin-Borkowski, A. M. Maiden
+Applied Physics Letters 123
+
+
+## Abstract
+
+Over the past few years, electron ptychography has drawn considerable attention for its ability to recover high contrast and ultra-high resolution images without the need for high quality electron optics. In this Letter, we focus on electron ptychography's other potential benefits: quantitatively mapping phase variations resulting from magnetic and electric fields over extended fields of view. To this end, we propose an implementation of near-field ptychography that employs an amplitude mask located in the electron microscope's condenser aperture plane. We demonstrate the capabilities of our method by imaging a magnetic Permalloy sample and compare our results with those of off-axis electron holography.
+
+
