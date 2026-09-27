@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.7.30">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,16 +10,10 @@
 
 <title>Teaching – ECLIPSE Lab</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -44,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2b3e328b71be8d25427581baeb23079b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f61568a8b504095b9dd18425855556c8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-28ad62e134ba97a1f8a7449ddd3400a3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -115,8 +109,7 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="https://pelzlab.science" class="navbar-brand navbar-brand-logo">
-    <img src="././img/FAU.png" alt="" class="navbar-logo light-content">
-    <img src="././img/FAU.png" alt="" class="navbar-logo dark-content">
+    <img src="././img/FAU.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="https://pelzlab.science">
     <span class="navbar-title">ECLIPSE Lab</span>
@@ -327,6 +320,42 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
     <li class="breadcrumb-item active" aria-current="page">Teaching</li>
   </ol>
 </nav>
+<section id="winter-semester-20262027" class="level2">
+<h2 class="anchored" data-anchor-id="winter-semester-20262027">Winter Semester 2026/2027</h2>
+<div class="columns">
+<div class="column lecture-card" style="width: 33%; background: linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);">
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Materials &amp; <br>Structure</div>
+  <div class="lecture-meta">
+    🗓️ Thu 08:15h - 09:45h<br>
+    📍 0.68 WW building
+  </div>
+  <a href="https://pelzlab.science/MaterialsAndStructureSeminar/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
+</div>
+</div><div class="column lecture-card" style="width: 33%; background: linear-gradient(135deg,#2d1b4e 0%,#1a1030 100%);">
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Data Science for <br>Electron Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Fri 08:15h - 09:45h<br>
+    📍 0.68 WW building
+  </div>
+  <a href="https://pelzlab.science/DataScienceForElectronMicroscopy/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
+</div>
+</div><div class="column lecture-card" style="width: 34%; background: linear-gradient(135deg,#1b4a3a 0%,#0d2820 100%);">
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Machine Learning <br>for Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Wed 16:00h - 17:30h<br>
+    📍 IZNF Rm 01.140
+  </div>
+  <a href="https://pelzlab.science/MachineLearningForMicroscopy/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
+</div>
+</div>
+</div>
+</section>
 <section id="summer-semester-2026" class="level2">
 <h2 class="anchored" data-anchor-id="summer-semester-2026">Summer Semester 2026</h2>
 <div class="columns">
@@ -705,14 +734,13 @@ document.addEventListener('DOMContentLoaded', function () {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
