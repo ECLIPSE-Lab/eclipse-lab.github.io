@@ -16,39 +16,8 @@
 <height>74</height>
 <width>144</width>
 </image>
-<generator>quarto-1.7.32</generator>
-<lastBuildDate>Sat, 26 Sep 2026 22:00:00 GMT</lastBuildDate>
-<item>
-  <title>TMS 2027 Annual Meeting &amp; Exhibition</title>
-  <dc:creator>Philipp Pelz</dc:creator>
-  <link>https://pelzlab.science/posts/2026-09-27_tms2027/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><img src="https://pelzlab.science/posts/2026-09-27_tms2027/tms2027.jpg" class="img-fluid" alt="TMS 2027 156th Annual Meeting &amp; Exhibition logo"></p>
-<p>Philipp is giving an invited talk at the <a href="https://www.programmaster.org/TMS2027">TMS 2027 Annual Meeting &amp; Exhibition</a> (March 14–18, 2027, Orlando, Florida, USA) in the symposium <em>Four-Dimensional Scanning Transmission Electron Microscopy (4D STEM) for Quantitative Materials Characterization</em>.</p>
-<p><strong>Title:</strong> <em>Computational Electron Microscopy at Scale: From 4D-STEM Data to Quantitative, Multimodal 3D Structures</em></p>
-<p>4D-STEM records a full diffraction pattern at every probe position, and those datasets can support much richer reconstructions than any single detector geometry allows. The talk covers five lines of work from the lab that make 4D-STEM a quantitative, multimodal, three-dimensional and time-resolved measurement platform:</p>
-<ul>
-<li>multislice ptychographic electron tomography at sub-Ångström, near-isotropic 3D resolution</li>
-<li>scalable, differentiable forward models that couple imaging and spectroscopy beyond one million atoms on a single GPU</li>
-<li>fused full-field STEM for gap-free, aberration-free phase contrast in under a second</li>
-<li>a 3D “movie mode” for tracking evolving crystalline phases in liquid-cell experiments</li>
-<li>mixed-state ptychography to characterize the quantum state of beams from programmable electron optics</li>
-</ul>
-<p>The common thread: in each case, the new capability came from removing an approximation from the forward model rather than from adding a detector.</p>
-
-
-
- ]]></description>
-  <category>announcement</category>
-  <category>conference</category>
-  <guid>https://pelzlab.science/posts/2026-09-27_tms2027/</guid>
-  <pubDate>Sat, 26 Sep 2026 22:00:00 GMT</pubDate>
-  <media:content url="https://pelzlab.science/posts/2026-09-27_tms2027/tms2027.jpg" medium="image" type="image/jpeg"/>
-</item>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Mon, 18 May 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>OPEN Postdoc position — Multi-modal Sensor Fusion in Electron Microscopy</title>
   <dc:creator>Philipp Pelz</dc:creator>
@@ -126,7 +95,7 @@
   <category>announcement</category>
   <category>job</category>
   <guid>https://pelzlab.science/posts/2026-05-18_hyperscaleem_postdoc_sensorfusion/</guid>
-  <pubDate>Sun, 17 May 2026 22:00:00 GMT</pubDate>
+  <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2026-05-18_hyperscaleem_postdoc_sensorfusion/erc_logo.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
@@ -148,7 +117,7 @@
   <category>announcement</category>
   <category>conference</category>
   <guid>https://pelzlab.science/posts/2025-12-02_imc21/</guid>
-  <pubDate>Mon, 01 Dec 2025 23:00:00 GMT</pubDate>
+  <pubDate>Tue, 02 Dec 2025 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2025-12-02_imc21/IMC21-Header-Logo.png" medium="image" type="image/png" height="57" width="144"/>
 </item>
 <item>
@@ -168,7 +137,7 @@
   <category>announcement</category>
   <category>conference</category>
   <guid>https://pelzlab.science/posts/2025-11-19_dpg/</guid>
-  <pubDate>Tue, 18 Nov 2025 23:00:00 GMT</pubDate>
+  <pubDate>Wed, 19 Nov 2025 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2025-11-19_dpg/dd26a.gif" medium="image" type="image/gif"/>
 </item>
 <item>
@@ -188,7 +157,7 @@
   <category>announcement</category>
   <category>conference</category>
   <guid>https://pelzlab.science/posts/2025-11-19_matsus/</guid>
-  <pubDate>Tue, 18 Nov 2025 23:00:00 GMT</pubDate>
+  <pubDate>Wed, 19 Nov 2025 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2025-11-19_matsus/matsus.png" medium="image" type="image/png" height="32" width="144"/>
 </item>
 <item>
@@ -229,7 +198,7 @@
 <li>Demonstrated record of collaborative software development, especially in distributed teams.</li>
 </ul>
 <p>Our group develops advanced algorithms for efficient processing, reliable reconstruction, and automated information extraction from multidimensional microscopy datasets, predominantly in electron and X-ray microscopy. We have ex-pertise in deep learning, large-scale optimization, signal and image processing, and experimental design for advanced X-ray and electron microscopy experiments. We have for the first time reconstructed large phase-contrast volumes at atomic resolution beyond the traditional limits of electron microscopy and hold the resolution record for 3D phase-contrast imaging. We offer access to state-of-the-art aberration-corrected electron microscopes and a lab-based x-ray microscope at the Center for Nanoanalysis and Electron Microscopy, access to high-performance computing resources at the Erlangen National High-Performance Computing Center, and the enthusiastic support of an early-career principal investigator.</p>
-<p>For informal inquiries, please get in touch with Philipp Pelz (philipp.pelz@fau.de). Applications from underrepresented minorities are particularly welcome. Your application (in English or German) must include a motivation letter and your CV. Applications will be accepted until the position is filled.</p>
+<p>For informal inquiries, please get in touch with Philipp Pelz (<span data-email-user="cGhpbGlwcC5wZWx6" data-email-domain="ZmF1LmRl" data-email-label="Email Philipp Pelz">Email link requires JavaScript.</span>). Applications from underrepresented minorities are particularly welcome. Your application (in English or German) must include a motivation letter and your CV. Applications will be accepted until the position is filled.</p>
 <p>Include in the subject line: “[Realtime3D application]”</p>
 
 
@@ -239,7 +208,7 @@
   <category>announcement</category>
   <category>job</category>
   <guid>https://pelzlab.science/posts/2025-09-11_position/</guid>
-  <pubDate>Wed, 10 Sep 2025 22:00:00 GMT</pubDate>
+  <pubDate>Thu, 11 Sep 2025 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2025-09-11_position/4DSTEM_render.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -372,7 +341,7 @@
 </section>
 <section id="how-to-apply" class="level3">
 <h3 class="anchored" data-anchor-id="how-to-apply">How to Apply</h3>
-<p>Please send your application materials as a single PDF file to: <strong>Email:</strong> <a href="mailto:philipp.pelz@fau.de">philipp.pelz@fau.de</a><br>
+<p>Please send your application materials as a single PDF file to: <strong>Email:</strong> <span data-email-user="cGhpbGlwcC5wZWx6" data-email-domain="ZmF1LmRl" data-email-label="Email Philipp Pelz" data-email-subject="PhD Application - CorMic DP1 Data Fusion">Email link requires JavaScript.</span><br>
 <strong>Subject:</strong> “PhD Application - CorMic DP1 Data Fusion”</p>
 </section>
 </section>
@@ -394,7 +363,7 @@
  ]]></description>
   <category>announcement</category>
   <guid>https://pelzlab.science/posts/2025-07-17_cormic/</guid>
-  <pubDate>Wed, 16 Jul 2025 22:00:00 GMT</pubDate>
+  <pubDate>Thu, 17 Jul 2025 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2025-07-17_cormic/cormic_logo.png" medium="image" type="image/png" height="42" width="144"/>
 </item>
 <item>
@@ -414,7 +383,7 @@
   <category>announcement</category>
   <category>conference</category>
   <guid>https://pelzlab.science/posts/2024-11-23_SwissNonoConvention/</guid>
-  <pubDate>Fri, 22 Nov 2024 23:00:00 GMT</pubDate>
+  <pubDate>Sat, 23 Nov 2024 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2024-11-23_SwissNonoConvention/swissnanoconventionbanner_master_2025.png" medium="image" type="image/png" height="131" width="144"/>
 </item>
 <item>
@@ -434,7 +403,7 @@
   <category>announcement</category>
   <category>conference</category>
   <guid>https://pelzlab.science/posts/2024-11-23_mandm2025/</guid>
-  <pubDate>Fri, 22 Nov 2024 23:00:00 GMT</pubDate>
+  <pubDate>Sat, 23 Nov 2024 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2024-11-23_mandm2025/mandm.png" medium="image" type="image/png" height="145" width="144"/>
 </item>
 <item>
@@ -478,7 +447,7 @@
 <p>The HyperScaleEM project aims at extending the technique to large-volume reconstructions of the typical sample geometries in electron microscopy. Think: imaging whole transistors in 3D, visualizing every atom and it’s element.</p>
 <p>The postdoctoral researcher will be responsible for developing and implementing hyperspectral reconstruction algorithms and demonstrating them on challenging materials systems. The position is initially limited to 2 years and can be extended to a total of up to 5 years.</p>
 <p>We offer access to state-of-the-art aberration-corrected electron microscopes (TFS Spectra 30-200, ARINA detector, CEOS CEFID filter) at the Center for Nanoanalysis and Electron Microscopy, access to high-performance computing resources at the Erlangen National High-Performance Computing Center, and the enthusiastic support of an early-career principal investigator.</p>
-<p>For informal inquiries, please get in touch with Philipp Pelz (philipp.pelz@fau.de). Applications from underrepresented minorities are particularly welcome. Your application (in English or German) must include a motivation letter and your CV.</p>
+<p>For informal inquiries, please get in touch with Philipp Pelz (<span data-email-user="cGhpbGlwcC5wZWx6" data-email-domain="ZmF1LmRl" data-email-label="Email Philipp Pelz">Email link requires JavaScript.</span>). Applications from underrepresented minorities are particularly welcome. Your application (in English or German) must include a motivation letter and your CV.</p>
 <p>Applications will be accepted until the position is filled.</p>
 
 
@@ -488,7 +457,7 @@
   <category>announcement</category>
   <category>job</category>
   <guid>https://pelzlab.science/posts/2024-09-03_HyperScaleEM_postdoc/</guid>
-  <pubDate>Wed, 04 Sep 2024 22:00:00 GMT</pubDate>
+  <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2024-09-03_HyperScaleEM_postdoc/erc_logo.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
@@ -531,7 +500,7 @@
 <p>We have for the first time reconstructed large phase-contrast volumes at atomic resolution beyond the traditional limits of electron microscopy.</p>
 <p>The HyperScaleEM project aims at extending the technique to large-volume reconstructions of the typical sample geometries in electron microscopy. Think: imaging whole transistors in 3D, visualizing every atom and it’s element.</p>
 <p>We offer access to state-of-the-art aberration-corrected electron microscopes (TFS Spectra 30-200, ARINA detector, CEOS CEFID filter) at the Center for Nanoanalysis and Electron Microscopy, access to high-performance computing resources at the Erlangen National High-Performance Computing Center, and the enthusiastic support of an early-career principal investigator.</p>
-<p>For informal inquiries, please get in touch with Philipp Pelz (philipp.pelz@fau.de). Applications from underrepresented minorities are particularly welcome. Your application (in English or German) must include a motivation letter and your CV.</p>
+<p>For informal inquiries, please get in touch with Philipp Pelz (<span data-email-user="cGhpbGlwcC5wZWx6" data-email-domain="ZmF1LmRl" data-email-label="Email Philipp Pelz">Email link requires JavaScript.</span>). Applications from underrepresented minorities are particularly welcome. Your application (in English or German) must include a motivation letter and your CV.</p>
 <p>The position is limited to 4 years.</p>
 <p>Applications will be accepted until the position is filled.</p>
 
@@ -542,7 +511,7 @@
   <category>announcement</category>
   <category>job</category>
   <guid>https://pelzlab.science/posts/2024-09-03_HyperScaleEM_phd/</guid>
-  <pubDate>Mon, 02 Sep 2024 22:00:00 GMT</pubDate>
+  <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2024-09-03_HyperScaleEM_phd/erc_logo.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
@@ -585,7 +554,7 @@
 <p>We have for the first time reconstructed large phase-contrast volumes at atomic resolution beyond the traditional limits of electron microscopy.</p>
 <p>You project will revolve around further developing the algorithms and applying them to image challenging materials systems, like metal-organic frameworks and other beam-sensitive materials.</p>
 <p>We offer access to state-of-the-art aberration-corrected electron microscopes and a lab-based x-ray microscope at the Center for Nanoanalysis and Electron Microscopy, access to high-performance computing resources at the Erlangen National High-Performance Computing Center, and the enthusiastic support of an early-career principal investigator.</p>
-<p>For informal inquiries, please get in touch with Philipp Pelz (philipp.pelz@fau.de). Applications from underrepresented minorities are particularly welcome. Your application (in English or German) must include a motivation letter and your CV.</p>
+<p>For informal inquiries, please get in touch with Philipp Pelz (<span data-email-user="cGhpbGlwcC5wZWx6" data-email-domain="ZmF1LmRl" data-email-label="Email Philipp Pelz">Email link requires JavaScript.</span>). Applications from underrepresented minorities are particularly welcome. Your application (in English or German) must include a motivation letter and your CV.</p>
 <p>Applications will be accepted until the position is filled.</p>
 
 
@@ -595,7 +564,7 @@
   <category>announcement</category>
   <category>job</category>
   <guid>https://pelzlab.science/posts/24-04-position/</guid>
-  <pubDate>Sun, 14 Jul 2024 22:00:00 GMT</pubDate>
+  <pubDate>Mon, 15 Jul 2024 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/24-04-position/4DSTEM_render.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -614,7 +583,7 @@
  ]]></description>
   <category>announcement</category>
   <guid>https://pelzlab.science/posts/24-07_study_commission/</guid>
-  <pubDate>Thu, 11 Jul 2024 22:00:00 GMT</pubDate>
+  <pubDate>Fri, 12 Jul 2024 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/24-07_study_commission/ai4mat.png" medium="image" type="image/png" height="103" width="144"/>
 </item>
 <item>
@@ -634,7 +603,7 @@
   <category>announcement</category>
   <category>conference</category>
   <guid>https://pelzlab.science/posts/23-12-hongkong/</guid>
-  <pubDate>Tue, 28 Nov 2023 23:00:00 GMT</pubDate>
+  <pubDate>Wed, 29 Nov 2023 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/23-12-hongkong/hongkong.png" medium="image" type="image/png" height="165" width="144"/>
 </item>
 <item>
@@ -664,7 +633,7 @@
   <category>announcement</category>
   <category>conference</category>
   <guid>https://pelzlab.science/posts/2023_DPG_spring/</guid>
-  <pubDate>Fri, 20 Oct 2023 22:00:00 GMT</pubDate>
+  <pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2023_DPG_spring/dpg.png" medium="image" type="image/png" height="71" width="144"/>
 </item>
 <item>
@@ -684,7 +653,7 @@
  ]]></description>
   <category>announcement</category>
   <guid>https://pelzlab.science/posts/radin_joins/</guid>
-  <pubDate>Thu, 14 Sep 2023 22:00:00 GMT</pubDate>
+  <pubDate>Fri, 15 Sep 2023 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/radin_joins/radin.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -704,7 +673,7 @@
  ]]></description>
   <category>announcement</category>
   <guid>https://pelzlab.science/posts/shengbo_joins/</guid>
-  <pubDate>Thu, 14 Sep 2023 22:00:00 GMT</pubDate>
+  <pubDate>Fri, 15 Sep 2023 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/shengbo_joins/shengbo.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -725,7 +694,7 @@
   <category>announcement</category>
   <category>conference</category>
   <guid>https://pelzlab.science/posts/emc2024/</guid>
-  <pubDate>Wed, 06 Sep 2023 22:00:00 GMT</pubDate>
+  <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/emc2024/emc2024.png" medium="image" type="image/png" height="58" width="144"/>
 </item>
 <item>
@@ -745,7 +714,7 @@
  ]]></description>
   <category>announcement</category>
   <guid>https://pelzlab.science/posts/andrey_joins/</guid>
-  <pubDate>Fri, 30 Jun 2023 22:00:00 GMT</pubDate>
+  <pubDate>Sat, 01 Jul 2023 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/andrey_joins/andrey.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -766,8 +735,29 @@
   <category>announcement</category>
   <category>conference</category>
   <guid>https://pelzlab.science/posts/imc20/</guid>
-  <pubDate>Mon, 10 Apr 2023 22:00:00 GMT</pubDate>
+  <pubDate>Tue, 11 Apr 2023 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/imc20/imc.png" medium="image" type="image/png" height="62" width="144"/>
+</item>
+<item>
+  <title>MRS Fall 2023 conference</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/mrs2023/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Philipp will attend the MRS Fall 2023 conference in Boston, US and give an invited talk in the session ‘CH04: Emerging Electron Microscopy Techniques to Understand Structure-Property Relationship in Quantum Materials’.</p>
+<p><img src="https://pelzlab.science/posts/mrs2023/mrs_fall_2023.png" class="img-fluid"></p>
+
+
+
+ ]]></description>
+  <category>announcement</category>
+  <category>conference</category>
+  <guid>https://pelzlab.science/posts/mrs2023/</guid>
+  <pubDate>Tue, 11 Apr 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/mrs2023/mrs_fall_2023.png" medium="image" type="image/png" height="57" width="144"/>
 </item>
 </channel>
 </rss>

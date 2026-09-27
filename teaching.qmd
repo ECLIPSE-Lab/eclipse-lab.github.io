@@ -153,6 +153,56 @@ The ECLIPSE Lab teaches undergraduate and graduate courses in materials science 
 </nav>
 ```
 
+## Winter Semester 2026/2027
+
+:::: {.columns}
+
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Materials & <br>Structure</div>
+  <div class="lecture-meta">
+    🗓️ Thu 08:15h - 09:45h<br>
+    📍 0.68 WW building
+  </div>
+  <a href="https://pelzlab.science/MaterialsAndStructureSeminar/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
+</div>
+```
+:::
+
+::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#2d1b4e 0%,#1a1030 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Data Science for <br>Electron Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Fri 08:15h - 09:45h<br>
+    📍 0.68 WW building
+  </div>
+  <a href="https://pelzlab.science/DataScienceForElectronMicroscopy/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
+</div>
+```
+:::
+
+::: {.column .lecture-card style="width: 34%; background: linear-gradient(135deg,#1b4a3a 0%,#0d2820 100%);"}
+```{=html}
+<div class="lecture-card-overlay"></div>
+<div class="lecture-card-body">
+  <div class="lecture-title">Machine Learning <br>for Microscopy</div>
+  <div class="lecture-meta">
+    🗓️ Wed 16:00h - 17:30h<br>
+    📍 IZNF Rm 01.140
+  </div>
+  <a href="https://pelzlab.science/MachineLearningForMicroscopy/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
+</div>
+```
+:::
+
+::::
+
+
+
 ## Summer Semester 2026
 
 :::: {.columns}
@@ -204,51 +254,6 @@ The ECLIPSE Lab teaches undergraduate and graduate courses in materials science 
 ::::
 
 
-
-## Winter Semester 2026/2027
-
-:::: {.columns}
-
-::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);"}
-```{=html}
-<div class="lecture-card-overlay"></div>
-<div class="lecture-card-body">
-  <div class="lecture-title">Materials & <br>Structure (MAP)</div>
-  <div class="lecture-meta">
-    🗓️ TBD
-  </div>
-  <a href="https://www.studon.fau.de/studon" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
-</div>
-```
-:::
-
-::: {.column .lecture-card style="width: 33%; background: linear-gradient(135deg,#2d1b4e 0%,#1a1030 100%);"}
-```{=html}
-<div class="lecture-card-overlay"></div>
-<div class="lecture-card-body">
-  <div class="lecture-title">Data Science for <br>Electron Microscopy</div>
-  <div class="lecture-meta">
-    🗓️ TBD
-  </div>
-  <a href="https://pelzlab.science/DataScienceForElectronMicroscopy/" class="btn btn-primary lecture-link" style="align-self: flex-start;">Website</a>
-</div>
-```
-:::
-
-::: {.column .lecture-card style="width: 34%; background: linear-gradient(135deg,#1b4a3a 0%,#0d2820 100%);"}
-```{=html}
-<div class="lecture-card-overlay"></div>
-<div class="lecture-card-body">
-  <div class="lecture-title">Machine Learning <br>for Microscopy</div>
-  <div class="lecture-meta">
-    🗓️ TBD
-  </div>
-  <a href="https://www.studon.fau.de/campo/course/421966" class="btn btn-primary lecture-link" style="align-self: flex-start;">Studon</a>
-</div>
-```
-:::
-
-::::
 
 ## Winter Semester 2025/2026
 

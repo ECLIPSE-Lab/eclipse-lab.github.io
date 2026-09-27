@@ -4,11 +4,16 @@ sortby: "1"
 subtitle: "Postdoc"
 image: shengbo_crop.JPG
 started: "Oct 2023"
+interests: "Computational imaging & microscopy · Tomography · Ptychography"
 toc: false
 about:
   id: person-profile
   template: jolla
-  # links:
+  links:
+    - icon: book-fill
+      text: ORCID
+      href: https://orcid.org/0009-0008-0739-9903
+  # additional links:
   #   - icon: link
   #     text: website
   #     href: https://philipppelz.github.io
@@ -48,6 +53,5 @@ computational imaging & microscopy, tomography, ptychography
 Shengbo got his Ph.D. in Electrical Engineering at the University of Sheffield working iwth Andrew Maiden and John Rodenburg. 
 
 ## Experience
-
 
 

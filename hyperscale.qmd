@@ -20,13 +20,67 @@ The core challenge isn't the hardware — it's that the computational methods re
 
 ## Project roadmap
 
-| Milestone | Target | Status |
-|:---|:---|:---|
-| 3D atomic resolution in volumes >10nm | 2023–2024 | ✅ Achieved — [Multi-slice electron ptychographic tomography for three-dimensional phase-contrast microscopy beyond the depth of focus limits](https://iopscience.iop.org/article/10.1088/2515-7639/ad9ad2), [arXiv:2512.19460](https://arxiv.org/abs/2512.19460) |
-| Scale-bridging imaging pipeline | 2025 - 2027 | 🔬 In progress — [Progress](https://academic.oup.com/mam/article/31/Supplement_1/ozaf048.070/8212757?guestAccessKey=) |
-| Automated 3D chemical mapping across volumes | 2026 - 2028 | 🔬 Ramping up |
-| In-situ dynamics capture with autonomous acquisition | 2027–2029 | 🔬 Ramping up |
-| Cross-scale integration: atomic-to-nanometre bridging | 2028–2030 | 🔬 Ramping up |
+::: {.hyperscale-timeline}
+::: {.hyperscale-milestone .is-achieved}
+::: {.milestone-marker}
+Achieved
+:::
+
+### 3D atomic resolution in volumes >10 nm
+
+**2023-2024**
+
+[Multi-slice electron ptychographic tomography](https://iopscience.iop.org/article/10.1088/2515-7639/ad9ad2) demonstrated three-dimensional phase-contrast microscopy beyond conventional depth-of-focus limits. See also [arXiv:2512.19460](https://arxiv.org/abs/2512.19460).
+:::
+
+::: {.hyperscale-milestone .is-active}
+::: {.milestone-marker}
+In progress
+:::
+
+### Scale-bridging imaging pipeline
+
+**2025-2027**
+
+Pipeline work is connecting acquisition, reconstruction, and analysis for larger 4D-STEM volumes. [Progress update](https://academic.oup.com/mam/article/31/Supplement_1/ozaf048.070/8212757?guestAccessKey=).
+:::
+
+::: {.hyperscale-milestone .is-active}
+::: {.milestone-marker}
+Ramping up
+:::
+
+### Automated 3D chemical mapping across volumes
+
+**2026-2028**
+
+Integrating hyperspectral signals with scalable 3D reconstruction so structure and chemistry can be recovered together.
+:::
+
+::: {.hyperscale-milestone}
+::: {.milestone-marker}
+Ramping up
+:::
+
+### In-situ dynamics capture with autonomous acquisition
+
+**2027-2029**
+
+Closed-loop acquisition will target dynamic processes and decide where to measure next based on the evolving reconstruction.
+:::
+
+::: {.hyperscale-milestone}
+::: {.milestone-marker}
+Ramping up
+:::
+
+### Cross-scale integration: atomic-to-nanometre bridging
+
+**2028-2030**
+
+The final integration step links atomic detail with nanometre-scale context across large reconstructed volumes.
+:::
+:::
 
 ## Team & open positions
 

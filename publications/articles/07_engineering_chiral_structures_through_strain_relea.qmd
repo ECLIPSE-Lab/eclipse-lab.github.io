@@ -21,8 +21,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 1
-fwci: 0.10
-citation_percentile: 42.6
+fwci: 0.08
+citation_percentile: 39.4
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -38,7 +38,7 @@ keywords:
   - "Nanowire"
   - "Electron tomography"
   - "Electron"
-metrics_updated: "2026-05-02T16:35:20Z"
+metrics_updated: "2026-09-05T17:16:21Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

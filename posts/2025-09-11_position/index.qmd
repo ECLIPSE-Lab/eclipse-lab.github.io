@@ -45,7 +45,6 @@ Our group develops advanced algorithms for efficient processing, reliable recons
 We have for the first time reconstructed large phase-contrast volumes at atomic resolution beyond the traditional limits of electron microscopy and hold the resolution record for 3D phase-contrast imaging. 
 We offer access to state-of-the-art aberration-corrected electron microscopes and a lab-based x-ray microscope at the Center for Nanoanalysis and Electron Microscopy, access to high-performance computing resources at the Erlangen National High-Performance Computing Center, and the enthusiastic support of an early-career principal investigator.
 
-For informal inquiries, please get in touch with Philipp Pelz (philipp.pelz@fau.de). Applications from underrepresented minorities are particularly welcome. Your application (in English or German) must include a motivation letter and your CV. Applications will be accepted until the position is filled. 
+For informal inquiries, please get in touch with Philipp Pelz (<span data-email-user="cGhpbGlwcC5wZWx6" data-email-domain="ZmF1LmRl" data-email-label="Email Philipp Pelz">Email link requires JavaScript.</span>). Applications from underrepresented minorities are particularly welcome. Your application (in English or German) must include a motivation letter and your CV. Applications will be accepted until the position is filled. 
 
 Include in the subject line: "[Realtime3D application]"
-

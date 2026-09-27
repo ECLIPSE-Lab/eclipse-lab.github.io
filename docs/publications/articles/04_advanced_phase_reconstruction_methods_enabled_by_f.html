@@ -2,18 +2,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="P. M. Pelz, R. Bücker, G. Ramm, H. Venugopal, G. Kassier, D. Eggert, P. Lu, R. E. Dunin-Borkowski, R. J. D. Miller">
+<meta name="author" content="C. Ophus, T. R. Harvey, F. S. Yasin, H. G. Brown, P. M. Pelz, B. H. Savitzky, J. Ciston, B. J. McMorran">
+<meta name="keywords" content="Scanning transmission electron microscopy, Transmission electron microscopy, Scanning confocal electron microscopy">
 
-<title>Electron Ptychography of Single Biological Macromolecules – ECLIPSE Lab</title>
+<title>Advanced Phase Reconstruction Methods Enabled by Four-Dimensional Scanning Transmission Electron Microscopy – ECLIPSE Lab</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -38,10 +45,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-4f273fa42057291f5cabd1dd1793ed50.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-f61568a8b504095b9dd18425855556c8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -86,10 +93,12 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Electron Ptychography of Single Biological Macromolecules – ECLIPSE Lab">
+<meta property="og:title" content="Advanced Phase Reconstruction Methods Enabled by Four-Dimensional Scanning Transmission Electron Microscopy – ECLIPSE Lab">
+<meta property="og:description" content="">
 <meta property="og:image" content="https://pelzlab.science/publications/articles/img/eclipse_header.png">
 <meta property="og:site_name" content="ECLIPSE Lab">
-<meta name="twitter:title" content="Electron Ptychography of Single Biological Macromolecules – ECLIPSE Lab">
+<meta name="twitter:title" content="Advanced Phase Reconstruction Methods Enabled by Four-Dimensional Scanning Transmission Electron Microscopy – ECLIPSE Lab">
+<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://pelzlab.science/publications/articles/img/eclipse_header.png">
 <meta name="twitter:creator" content="@PhilippPelz">
 <meta name="twitter:card" content="summary_large_image">
@@ -103,7 +112,8 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="https://pelzlab.science" class="navbar-brand navbar-brand-logo">
-    <img src="../.././img/FAU.png" alt="" class="navbar-logo">
+    <img src="../.././img/FAU.png" alt="" class="navbar-logo light-content">
+    <img src="../.././img/FAU.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="https://pelzlab.science">
     <span class="navbar-title">ECLIPSE Lab</span>
@@ -175,10 +185,13 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Electron Ptychography of Single Biological Macromolecules</h1>
+<h1 class="title">Advanced Phase Reconstruction Methods Enabled by Four-Dimensional Scanning Transmission Electron Microscopy</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">ptychography</div>
-    <div class="quarto-category">biology</div>
+    <div class="quarto-category">electron microscopy</div>
+    <div class="quarto-category">imaging</div>
+    <div class="quarto-category">scanning transmission electron microscopy</div>
+    <div class="quarto-category">transmission electron microscopy</div>
+    <div class="quarto-category">scanning confocal electron microscopy</div>
   </div>
   </div>
 
@@ -189,7 +202,7 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>P. M. Pelz, R. Bücker, G. Ramm, H. Venugopal, G. Kassier, D. Eggert, P. Lu, R. E. Dunin-Borkowski, R. J. D. Miller </p>
+             <p>C. Ophus, T. R. Harvey, F. S. Yasin, H. G. Brown, P. M. Pelz, B. H. Savitzky, J. Ciston, B. J. McMorran </p>
           </div>
   </div>
     
@@ -199,13 +212,19 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
     <div class="quarto-title-meta-heading">Doi</div>
     <div class="quarto-title-meta-contents">
       <p class="doi">
-        <a href="https://doi.org/10.1017/s1431927619001090">10.1017/s1431927619001090</a>
+        <a href="https://doi.org/10.1017/s1431927619000783">10.1017/s1431927619000783</a>
       </p>
     </div>
   </div>
   </div>
   
 
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>Scanning transmission electron microscopy, Transmission electron microscopy, Scanning confocal electron microscopy</p>
+  </div>
+</div>
 
 </header>
 
@@ -213,14 +232,12 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 <section id="citation-apa-7" class="level2">
 <h2 class="anchored" data-anchor-id="citation-apa-7">Citation (APA 7)</h2>
 <blockquote class="blockquote">
-<p>Electron Ptychography of Single Biological Macromolecules P. M. Pelz, R. Bücker, G. Ramm, H. Venugopal, G. Kassier, D. Eggert, P. Lu, R. E. Dunin-Borkowski, R. J. D. Miller Microscopy and Microanalysis 25, 72-73</p>
+<p>Advanced Phase Reconstruction Methods Enabled by Four-Dimensional Scanning Transmission Electron Microscopy C. Ophus, T. R. Harvey, F. S. Yasin, H. G. Brown, P. M. Pelz, B. H. Savitzky, J. Ciston, B. J. McMorran Microscopy and Microanalysis 25, 10-11</p>
 </blockquote>
 </section>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<ol type="1">
-<li>Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany 2. Department of Chemistry and Physics, University of Toronto, Toronto, Canada 3. Monash Ramaciotti Centre for Cryo-Electron Microscopy, Monash University, Melbourne, VIC, 3800, Australia 4. Department of Biochemistry and Molecular Biology, Monash University, Melbourne, Australia 5. Biomedicine Discovery Institute, Monash University, Melbourne, Australia 6. Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons and Peter Grünberg Institute, Forschungszentrum Jülich, Jülich, Germany 7. Materials Science and Engineering, UC Berkeley, Berkeley, CA 8. Molecular Foundry, Lawrence Berkeley National Laboratory, Berkeley, USA</li>
-</ol>
+<p>By converging an electron probe to small dimensions and measuring the diffracted signal, we can measure atomic-scale information about a sample’s structure, orientation, deformation, composition, and more. A measurement of full 2D diffraction images over a 2D grid of probe positions produces a 4D dataset, referred to as four-dimensional scanning transmission electron microscopy (4D-STEM). With modern electron detectors, we can now measure thousands of diffraction patterns, which enables many new imaging methods. A large class of useful 4D-STEM imaging modes produce phase contrast images of specimens, for example differential phase contrast (DPC) and ptychography [1]. By combining 4DSTEM with phase plates, additional phase contrast imaging methods become possible [2]. The first topic of this talk will be to describe a related phase plate method called STEM holography (STEM-H) [3, 4], and its extension using ptychographic reconstruction. STEM-H is performed by using a diffraction grating in the probe forming aperture to produce multiple STEM beams, and then using a pixelated detector to measure the holographic fringe patterns, shown in Figure 1a. The primary advantage of STEM-H is that it produces phase contrast images on an absolute scale, which for example can be used to measure weak, extended electrostatic or electromagnetic fields as in Figures 1b. There, we see that for a conductive lacey carbon sample both the HAADF intensity and STEM-H phase shift show a similar decay into the vacuum. By contrast, for a semiconducting nanoparticle sample, we measure a phase shift due to an electrostatic field extending from the vacuum edge beyond the sample, which does not generate contrast in the HAADF channel. We have also extended STEM-H imaging to atomic resolution, shown in Figure 1c. STEM-H can quantitatively image the absolute phase shift of a sample, with the simple addition of a diffraction grating and large area, high speed direct electron detector.</p>
 
 
 </section>
@@ -245,6 +262,49 @@ document.addEventListener('DOMContentLoaded', function () {
     if (title) img.setAttribute('alt', title);
   });
 });
+</script>
+<script>
+(function () {
+  function decodePart(value) {
+    try {
+      return window.atob(value);
+    } catch (error) {
+      return "";
+    }
+  }
+
+  function hydrateEmails(root) {
+    (root || document).querySelectorAll("[data-email-user][data-email-domain]").forEach(function (node) {
+      if (node.dataset.emailHydrated === "true") {
+        return;
+      }
+
+      var user = decodePart(node.dataset.emailUser);
+      var domain = decodePart(node.dataset.emailDomain);
+      if (!user || !domain) {
+        return;
+      }
+
+      var email = user + "@" + domain;
+      var link = document.createElement("a");
+      link.href = "mailto:" + email;
+      if (node.dataset.emailSubject) {
+        link.href += "?subject=" + encodeURIComponent(node.dataset.emailSubject);
+      }
+      link.textContent = node.dataset.emailLabel || "Email";
+      node.replaceChildren(link);
+      node.dataset.emailHydrated = "true";
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", function () {
+      hydrateEmails(document);
+    });
+  } else {
+    hydrateEmails(document);
+  }
+})();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -297,13 +357,14 @@ document.addEventListener('DOMContentLoaded', function () {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -669,7 +730,7 @@ document.addEventListener('DOMContentLoaded', function () {
 </a>
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/ECLIPSE-Lab/eclipse-lab.github.io/blob/main/publications/articles/04_electron_ptychography_of_single_biological_macromo.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ECLIPSE-Lab/eclipse-lab.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/ECLIPSE-Lab/eclipse-lab.github.io/blob/main/publications/articles/04_advanced_phase_reconstruction_methods_enabled_by_f.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ECLIPSE-Lab/eclipse-lab.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

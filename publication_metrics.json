@@ -1,13 +1,13 @@
 {
   "count": 50,
-  "generated_at": "2026-05-02T16:35:20Z",
+  "generated_at": "2026-09-05T17:16:21Z",
   "metrics": {
     "10.1016/j.micron.2021.103141": {
-      "citation_percentile": 99.06432699999999,
-      "cited_by_count": 94,
+      "citation_percentile": 98.819084,
+      "cited_by_count": 99,
       "counts_by_year": [
         {
-          "cited_by_count": 3,
+          "cited_by_count": 8,
           "year": 2026
         },
         {
@@ -66,24 +66,28 @@
         ],
         [
           2026,
-          3
+          8
         ]
       ],
-      "fwci": 12.8199,
+      "fwci": 10.6082,
       "is_oa": true,
       "is_top_10_percent": true,
-      "is_top_1_percent": true,
+      "is_top_1_percent": false,
       "keywords": [
         "Computational science",
         "Scanning transmission electron microscopy"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "hybrid"
     },
     "10.1017/s1431927619000783": {
-      "citation_percentile": 85.735513,
-      "cited_by_count": 12,
+      "citation_percentile": 83.38092499999999,
+      "cited_by_count": 14,
       "counts_by_year": [
+        {
+          "cited_by_count": 2,
+          "year": 2026
+        },
         {
           "cited_by_count": 1,
           "year": 2025
@@ -111,10 +115,6 @@
       ],
       "counts_by_year_compact": [
         [
-          2018,
-          0
-        ],
-        [
           2019,
           0
         ],
@@ -141,9 +141,13 @@
         [
           2025,
           1
+        ],
+        [
+          2026,
+          2
         ]
       ],
-      "fwci": 1.192,
+      "fwci": 1.0296,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -152,11 +156,11 @@
         "Transmission electron microscopy",
         "Scanning confocal electron microscopy"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927619001028": {
-      "citation_percentile": 74.740758,
+      "citation_percentile": 70.408061,
       "cited_by_count": 7,
       "counts_by_year": [
         {
@@ -202,20 +206,20 @@
           4
         ]
       ],
-      "fwci": 0.9015,
+      "fwci": 0.741,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927619001090": {
-      "citation_percentile": 81.217309,
-      "cited_by_count": 4,
+      "citation_percentile": 77.980605,
+      "cited_by_count": 5,
       "counts_by_year": [
         {
-          "cited_by_count": 1,
+          "cited_by_count": 2,
           "year": 2026
         },
         {
@@ -258,19 +262,19 @@
         ],
         [
           2026,
-          1
+          2
         ]
       ],
-      "fwci": 0.525,
+      "fwci": 0.4419,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927619002708": {
-      "citation_percentile": 5.745419,
+      "citation_percentile": 5.476326,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -283,11 +287,11 @@
         "Electron tomography",
         "Scanning transmission electron microscopy"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927619009759": {
-      "citation_percentile": 42.599396,
+      "citation_percentile": 39.35904,
       "cited_by_count": 1,
       "counts_by_year": [
         {
@@ -329,7 +333,7 @@
           1
         ]
       ],
-      "fwci": 0.0978,
+      "fwci": 0.0843,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -338,11 +342,11 @@
         "Electron tomography",
         "Electron"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927620014725": {
-      "citation_percentile": 46.302587,
+      "citation_percentile": 43.680428,
       "cited_by_count": 2,
       "counts_by_year": [
         {
@@ -384,7 +388,7 @@
           2
         ]
       ],
-      "fwci": 0.1729,
+      "fwci": 0.1615,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -394,11 +398,11 @@
         "Scattering",
         "Transmission electron microscopy"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927620014749": {
-      "citation_percentile": 65.813654,
+      "citation_percentile": 61.329944999999995,
       "cited_by_count": 2,
       "counts_by_year": [
         {
@@ -440,7 +444,7 @@
           2
         ]
       ],
-      "fwci": 0.5148,
+      "fwci": 0.4317,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -448,11 +452,11 @@
         "Phase contrast microscopy",
         "Phase-contrast imaging"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927620019625": {
-      "citation_percentile": 3.5161739999999995,
+      "citation_percentile": 3.06392,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -463,13 +467,17 @@
       "keywords": [
         "Tomography"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927620019753": {
-      "citation_percentile": 97.120279,
-      "cited_by_count": 37,
+      "citation_percentile": 96.682243,
+      "cited_by_count": 38,
       "counts_by_year": [
+        {
+          "cited_by_count": 1,
+          "year": 2026
+        },
         {
           "cited_by_count": 2,
           "year": 2025
@@ -492,10 +500,6 @@
         }
       ],
       "counts_by_year_compact": [
-        [
-          2018,
-          0
-        ],
         [
           2019,
           0
@@ -523,28 +527,32 @@
         [
           2025,
           2
+        ],
+        [
+          2026,
+          1
         ]
       ],
-      "fwci": 7.2273,
+      "fwci": 6.4091,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
       "keywords": [
         "Detector"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621000477": {
-      "citation_percentile": 99.766082,
-      "cited_by_count": 295,
+      "citation_percentile": 99.71658,
+      "cited_by_count": 345,
       "counts_by_year": [
         {
-          "cited_by_count": 20,
+          "cited_by_count": 69,
           "year": 2026
         },
         {
-          "cited_by_count": 84,
+          "cited_by_count": 85,
           "year": 2025
         },
         {
@@ -595,25 +603,25 @@
         ],
         [
           2025,
-          84
+          85
         ],
         [
           2026,
-          20
+          69
         ]
       ],
-      "fwci": 34.7969,
+      "fwci": 28.7936,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": true,
       "keywords": [
         "Software"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "hybrid"
     },
     "10.1017/s1431927621000490": {
-      "citation_percentile": 86.432749,
+      "citation_percentile": 83.751776,
       "cited_by_count": 9,
       "counts_by_year": [
         {
@@ -671,7 +679,7 @@
           1
         ]
       ],
-      "fwci": 1.4651,
+      "fwci": 1.2089,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -682,11 +690,11 @@
         "Transmission electron microscopy",
         "Electron scattering"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "green"
     },
     "10.1017/s1431927621000635": {
-      "citation_percentile": 5.826836,
+      "citation_percentile": 3.9355139999999995,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -695,11 +703,11 @@
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621001288": {
-      "citation_percentile": 82.481562,
+      "citation_percentile": 78.866145,
       "cited_by_count": 6,
       "counts_by_year": [
         {
@@ -753,7 +761,7 @@
           1
         ]
       ],
-      "fwci": 1.6426,
+      "fwci": 1.3396,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -763,11 +771,11 @@
         "Frame rate",
         "Scanning transmission electron microscopy"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621004773": {
-      "citation_percentile": 6.565448999999999,
+      "citation_percentile": 4.789000000000001,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -779,11 +787,11 @@
         "Transmission electron microscopy",
         "Scanning transmission electron microscopy"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621005638": {
-      "citation_percentile": 10.476441,
+      "citation_percentile": 9.538098999999999,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -795,13 +803,17 @@
         "Phase contrast microscopy",
         "Open source"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621012083": {
-      "citation_percentile": 90.29239799999999,
-      "cited_by_count": 16,
+      "citation_percentile": 88.379783,
+      "cited_by_count": 17,
       "counts_by_year": [
+        {
+          "cited_by_count": 1,
+          "year": 2026
+        },
         {
           "cited_by_count": 2,
           "year": 2025
@@ -824,10 +836,6 @@
         }
       ],
       "counts_by_year_compact": [
-        [
-          2018,
-          0
-        ],
         [
           2019,
           0
@@ -855,22 +863,26 @@
         [
           2025,
           2
+        ],
+        [
+          2026,
+          1
         ]
       ],
-      "fwci": 2.564,
+      "fwci": 2.1216,
       "is_oa": true,
-      "is_top_10_percent": true,
+      "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
         "Prism",
         "Scanning transmission electron microscopy",
         "Scattering"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "hybrid"
     },
     "10.1017/s1431927622002288": {
-      "citation_percentile": 74.721397,
+      "citation_percentile": 70.207431,
       "cited_by_count": 4,
       "counts_by_year": [
         {
@@ -916,7 +928,7 @@
           1
         ]
       ],
-      "fwci": 1.0552,
+      "fwci": 0.8874,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -924,11 +936,11 @@
         "Atomic units",
         "Ptychography"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927622009576": {
-      "citation_percentile": 9.426077,
+      "citation_percentile": 6.302713,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -941,13 +953,17 @@
         "Phase contrast microscopy",
         "Phase-contrast imaging"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927622012090": {
-      "citation_percentile": 71.333907,
-      "cited_by_count": 13,
+      "citation_percentile": 68.53149499999999,
+      "cited_by_count": 14,
       "counts_by_year": [
+        {
+          "cited_by_count": 1,
+          "year": 2026
+        },
         {
           "cited_by_count": 1,
           "year": 2025
@@ -966,10 +982,6 @@
         }
       ],
       "counts_by_year_compact": [
-        [
-          2018,
-          0
-        ],
         [
           2019,
           0
@@ -997,9 +1009,13 @@
         [
           2025,
           1
+        ],
+        [
+          2026,
+          1
         ]
       ],
-      "fwci": 0.98,
+      "fwci": 0.8949,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -1011,13 +1027,17 @@
         "Microscopy",
         "Optics"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "green"
     },
     "10.1021/acsnano.1c07772": {
-      "citation_percentile": 93.489279,
-      "cited_by_count": 24,
+      "citation_percentile": 92.176387,
+      "cited_by_count": 26,
       "counts_by_year": [
+        {
+          "cited_by_count": 2,
+          "year": 2026
+        },
         {
           "cited_by_count": 4,
           "year": 2025
@@ -1036,10 +1056,6 @@
         }
       ],
       "counts_by_year_compact": [
-        [
-          2018,
-          0
-        ],
         [
           2019,
           0
@@ -1067,9 +1083,13 @@
         [
           2025,
           4
+        ],
+        [
+          2026,
+          2
         ]
       ],
-      "fwci": 3.6628,
+      "fwci": 3.048,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -1081,15 +1101,15 @@
         "Nanoparticle",
         "Atomic units"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "green"
     },
     "10.1021/acsnano.3c04283": {
-      "citation_percentile": 81.105458,
-      "cited_by_count": 16,
+      "citation_percentile": 78.988857,
+      "cited_by_count": 18,
       "counts_by_year": [
         {
-          "cited_by_count": 5,
+          "cited_by_count": 7,
           "year": 2026
         },
         {
@@ -1132,10 +1152,10 @@
         ],
         [
           2026,
-          5
+          7
         ]
       ],
-      "fwci": 1.4873,
+      "fwci": 1.341,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -1146,15 +1166,15 @@
         "Condensed matter physics",
         "Moir\u00e9 pattern"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "hybrid"
     },
     "10.1021/jacs.3c05299": {
-      "citation_percentile": 90.606493,
-      "cited_by_count": 28,
+      "citation_percentile": 89.842322,
+      "cited_by_count": 32,
       "counts_by_year": [
         {
-          "cited_by_count": 4,
+          "cited_by_count": 8,
           "year": 2026
         },
         {
@@ -1197,12 +1217,12 @@
         ],
         [
           2026,
-          4
+          8
         ]
       ],
-      "fwci": 2.6028,
+      "fwci": 2.3879,
       "is_oa": true,
-      "is_top_10_percent": true,
+      "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
         "Quasicrystal",
@@ -1210,15 +1230,15 @@
         "Self-assembly",
         "Curvature"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "green"
     },
     "10.1021/jacs.5c12614": {
-      "citation_percentile": 61.081111,
-      "cited_by_count": 1,
+      "citation_percentile": 78.705384,
+      "cited_by_count": 6,
       "counts_by_year": [
         {
-          "cited_by_count": 1,
+          "cited_by_count": 6,
           "year": 2026
         }
       ],
@@ -1253,10 +1273,10 @@
         ],
         [
           2026,
-          1
+          6
         ]
       ],
-      "fwci": 0.3812,
+      "fwci": 1.2574,
       "is_oa": false,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -1268,15 +1288,15 @@
         "Surface plasmon resonance",
         "Monomer"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "closed"
     },
     "10.1038/s41467-022-32330-z": {
-      "citation_percentile": 92.685315,
-      "cited_by_count": 43,
+      "citation_percentile": 91.550438,
+      "cited_by_count": 45,
       "counts_by_year": [
         {
-          "cited_by_count": 3,
+          "cited_by_count": 5,
           "year": 2026
         },
         {
@@ -1327,10 +1347,10 @@
         ],
         [
           2026,
-          3
+          5
         ]
       ],
-      "fwci": 3.2307,
+      "fwci": 2.8052,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -1338,15 +1358,15 @@
         "Transmission electron microscopy",
         "Electron microscope"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "gold"
     },
     "10.1038/s41467-023-39304-9": {
-      "citation_percentile": 96.462639,
-      "cited_by_count": 26,
+      "citation_percentile": 95.993991,
+      "cited_by_count": 33,
       "counts_by_year": [
         {
-          "cited_by_count": 3,
+          "cited_by_count": 10,
           "year": 2026
         },
         {
@@ -1393,10 +1413,10 @@
         ],
         [
           2026,
-          3
+          10
         ]
       ],
-      "fwci": 7.0014,
+      "fwci": 6.3581,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -1408,15 +1428,15 @@
         "Atomic physics",
         "Valence electron"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "gold"
     },
     "10.1038/s41467-023-43634-z": {
-      "citation_percentile": 99.509804,
-      "cited_by_count": 48,
+      "citation_percentile": 99.490625,
+      "cited_by_count": 56,
       "counts_by_year": [
         {
-          "cited_by_count": 3,
+          "cited_by_count": 11,
           "year": 2026
         },
         {
@@ -1463,10 +1483,10 @@
         ],
         [
           2026,
-          3
+          11
         ]
       ],
-      "fwci": 16.569,
+      "fwci": 14.6058,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": true,
@@ -1477,15 +1497,15 @@
         "Electron diffraction",
         "High-resolution transmission electron microscopy"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "gold"
     },
     "10.1038/s41598-017-07488-y": {
-      "citation_percentile": 98.01394,
-      "cited_by_count": 83,
+      "citation_percentile": 97.552448,
+      "cited_by_count": 85,
       "counts_by_year": [
         {
-          "cited_by_count": 1,
+          "cited_by_count": 3,
           "year": 2026
         },
         {
@@ -1556,10 +1576,10 @@
         ],
         [
           2026,
-          1
+          3
         ]
       ],
-      "fwci": 8.1463,
+      "fwci": 6.8519,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -1568,11 +1588,11 @@
         "Phase retrieval",
         "Optics"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "gold"
     },
     "10.1038/s41699-025-00575-z": {
-      "citation_percentile": 72.927215,
+      "citation_percentile": 57.045517000000004,
       "cited_by_count": 2,
       "counts_by_year": [
         {
@@ -1614,7 +1634,7 @@
           2
         ]
       ],
-      "fwci": 0.9002,
+      "fwci": 0.5041,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -1624,11 +1644,11 @@
         "Transmission electron microscopy",
         "Bilayer"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "gold"
     },
     "10.1051/bioconf/202412904027": {
-      "citation_percentile": 26.459961,
+      "citation_percentile": 35.424986000000004,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -1640,11 +1660,11 @@
         "Parallax",
         "Ptychography"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "diamond"
     },
     "10.1051/bioconf/202412907006": {
-      "citation_percentile": 9.965896,
+      "citation_percentile": 18.215613,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -1656,15 +1676,15 @@
         "In situ",
         "Nano-"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "diamond"
     },
     "10.1063/1.4904943": {
-      "citation_percentile": 98.813479,
-      "cited_by_count": 137,
+      "citation_percentile": 98.61260200000001,
+      "cited_by_count": 141,
       "counts_by_year": [
         {
-          "cited_by_count": 2,
+          "cited_by_count": 6,
           "year": 2026
         },
         {
@@ -1747,11 +1767,11 @@
         ],
         [
           2026,
-          2
+          6
         ]
       ],
-      "fwci": 11.5705,
-      "is_oa": false,
+      "fwci": 10.1889,
+      "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
       "keywords": [
@@ -1759,13 +1779,17 @@
         "Optics",
         "Mesoscopic physics"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
-      "oa_status": "closed"
+      "metrics_updated": "2026-09-05T17:16:21Z",
+      "oa_status": "green"
     },
     "10.1088/1402-4896/ad9a1a": {
-      "citation_percentile": 96.486942,
-      "cited_by_count": 9,
+      "citation_percentile": 95.67174899999999,
+      "cited_by_count": 11,
       "counts_by_year": [
+        {
+          "cited_by_count": 2,
+          "year": 2026
+        },
         {
           "cited_by_count": 7,
           "year": 2025
@@ -1776,10 +1800,6 @@
         }
       ],
       "counts_by_year_compact": [
-        [
-          2018,
-          0
-        ],
         [
           2019,
           0
@@ -1807,9 +1827,13 @@
         [
           2025,
           7
+        ],
+        [
+          2026,
+          2
         ]
       ],
-      "fwci": 5.2444,
+      "fwci": 4.4374,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -1820,15 +1844,15 @@
         "Phase contrast microscopy",
         "Optics"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "hybrid"
     },
     "10.1088/2515-7639/acf524": {
-      "citation_percentile": 79.899835,
-      "cited_by_count": 10,
+      "citation_percentile": 71.051785,
+      "cited_by_count": 11,
       "counts_by_year": [
         {
-          "cited_by_count": 1,
+          "cited_by_count": 2,
           "year": 2026
         },
         {
@@ -1871,10 +1895,10 @@
         ],
         [
           2026,
-          1
+          2
         ]
       ],
-      "fwci": 1.2734,
+      "fwci": 0.9133,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -1883,23 +1907,23 @@
         "Crystallite",
         "Optics"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "gold"
     },
     "10.1088/2515-7639/ad9ad2": {
-      "citation_percentile": 92.500952,
-      "cited_by_count": 6,
+      "citation_percentile": 90.97291899999999,
+      "cited_by_count": 8,
       "counts_by_year": [
+        {
+          "cited_by_count": 2,
+          "year": 2026
+        },
         {
           "cited_by_count": 6,
           "year": 2025
         }
       ],
       "counts_by_year_compact": [
-        [
-          2018,
-          0
-        ],
         [
           2019,
           0
@@ -1927,18 +1951,22 @@
         [
           2025,
           6
+        ],
+        [
+          2026,
+          2
         ]
       ],
-      "fwci": 3.0166,
+      "fwci": 2.6367,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
       "keywords": [],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "gold"
     },
     "10.1093/mam/ozae044.149": {
-      "citation_percentile": 11.842777,
+      "citation_percentile": 12.524302,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -1951,11 +1979,11 @@
         "Ptychography",
         "Optics"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "closed"
     },
     "10.1093/mam/ozae044.883": {
-      "citation_percentile": 4.810726,
+      "citation_percentile": 4.90982,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -1968,15 +1996,15 @@
         "Nanostructure",
         "Nanotechnology"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "closed"
     },
     "10.1093/mam/ozae086": {
-      "citation_percentile": 96.01288799999999,
-      "cited_by_count": 29,
+      "citation_percentile": 94.905291,
+      "cited_by_count": 35,
       "counts_by_year": [
         {
-          "cited_by_count": 7,
+          "cited_by_count": 13,
           "year": 2026
         },
         {
@@ -2023,10 +2051,10 @@
         ],
         [
           2026,
-          7
+          13
         ]
       ],
-      "fwci": 4.7743,
+      "fwci": 3.897,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -2038,11 +2066,28 @@
         "Conventional transmission electron microscope",
         "Transmission electron microscopy"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "hybrid"
     },
+    "10.1093/mam/ozaf048.041": {
+      "citation_percentile": 5.059646,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": 0.0,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "keywords": [
+        "Ptychography",
+        "Tomography",
+        "Electron tomography"
+      ],
+      "metrics_updated": "2026-09-05T17:16:21Z",
+      "oa_status": "bronze"
+    },
     "10.1093/micmic/ozad067.348": {
-      "citation_percentile": 9.183994,
+      "citation_percentile": 6.948525,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -2055,15 +2100,15 @@
         "Electron tomography",
         "Electron"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "bronze"
     },
     "10.1093/micmic/ozad068": {
-      "citation_percentile": 92.888359,
-      "cited_by_count": 13,
+      "citation_percentile": 90.740741,
+      "cited_by_count": 14,
       "counts_by_year": [
         {
-          "cited_by_count": 3,
+          "cited_by_count": 4,
           "year": 2026
         },
         {
@@ -2106,10 +2151,10 @@
         ],
         [
           2026,
-          3
+          4
         ]
       ],
-      "fwci": 3.5021,
+      "fwci": 2.7053,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -2121,11 +2166,11 @@
         "Scanning transmission electron microscopy",
         "Scattering"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "hybrid"
     },
     "10.1103/physreva.89.013403": {
-      "citation_percentile": 93.588083,
+      "citation_percentile": 92.02541199999999,
       "cited_by_count": 50,
       "counts_by_year": [
         {
@@ -2215,7 +2260,7 @@
           3
         ]
       ],
-      "fwci": 3.7059,
+      "fwci": 3.0455,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -2227,13 +2272,17 @@
         "Excited state",
         "Singlet state"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "bronze"
     },
     "10.1103/physrevresearch.3.023159": {
-      "citation_percentile": 95.799189,
-      "cited_by_count": 19,
+      "citation_percentile": 94.889414,
+      "cited_by_count": 21,
       "counts_by_year": [
+        {
+          "cited_by_count": 2,
+          "year": 2026
+        },
         {
           "cited_by_count": 1,
           "year": 2025
@@ -2256,10 +2305,6 @@
         }
       ],
       "counts_by_year_compact": [
-        [
-          2018,
-          0
-        ],
         [
           2019,
           0
@@ -2287,9 +2332,13 @@
         [
           2025,
           1
+        ],
+        [
+          2026,
+          2
         ]
       ],
-      "fwci": 4.8143,
+      "fwci": 4.013,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -2297,11 +2346,11 @@
         "Scattering",
         "Optics"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "gold"
     },
     "10.1107/s2053273323085297": {
-      "citation_percentile": 21.787257,
+      "citation_percentile": 12.936611000000001,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -2314,11 +2363,11 @@
         "Scattering",
         "Transmission electron microscopy"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "bronze"
     },
     "10.1107/s2053273323093609": {
-      "citation_percentile": 21.946282,
+      "citation_percentile": 13.146831,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -2329,13 +2378,17 @@
       "keywords": [
         "Nanoscopic scale"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "bronze"
     },
     "10.1109/msp.2021.3120981": {
-      "citation_percentile": 93.46199299999999,
-      "cited_by_count": 24,
+      "citation_percentile": 92.223803,
+      "cited_by_count": 28,
       "counts_by_year": [
+        {
+          "cited_by_count": 4,
+          "year": 2026
+        },
         {
           "cited_by_count": 4,
           "year": 2025
@@ -2354,10 +2407,6 @@
         }
       ],
       "counts_by_year_compact": [
-        [
-          2018,
-          0
-        ],
         [
           2019,
           0
@@ -2385,9 +2434,13 @@
         [
           2025,
           4
+        ],
+        [
+          2026,
+          4
         ]
       ],
-      "fwci": 3.6418,
+      "fwci": 3.048,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -2396,7 +2449,7 @@
         "Scanning transmission electron microscopy",
         "Frame rate"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "green"
     },
     "10.48550/arxiv.2008.12768": {
@@ -2456,7 +2509,7 @@
         "Diffraction",
         "Wavefront"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "green"
     },
     "10.48550/arxiv.2011.07652": {
@@ -2476,7 +2529,7 @@
         "Microscopy",
         "Yttrium"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "green"
     },
     "10.48550/arxiv.2102.05604": {
@@ -2496,7 +2549,7 @@
         "Software",
         "Parametric statistics"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "green"
     },
     "10.48550/arxiv.2311.02580": {
@@ -2551,23 +2604,7 @@
         "Optics",
         "Phase-contrast imaging"
       ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
-      "oa_status": "green"
-    },
-    "10.48550/arxiv.2512.19460": {
-      "citation_percentile": null,
-      "cited_by_count": 0,
-      "counts_by_year": [],
-      "counts_by_year_compact": [],
-      "fwci": null,
-      "is_oa": true,
-      "is_top_10_percent": false,
-      "is_top_1_percent": false,
-      "keywords": [
-        "Scattering",
-        "Phase-contrast imaging"
-      ],
-      "metrics_updated": "2026-05-02T16:35:20Z",
+      "metrics_updated": "2026-09-05T17:16:21Z",
       "oa_status": "green"
     }
   },
