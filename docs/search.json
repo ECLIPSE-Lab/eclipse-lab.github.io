@@ -1278,7 +1278,7 @@
     "href": "news.html#highlights-by-topic",
     "title": "ECLIPSE Lab",
     "section": "Highlights by topic",
-    "text": "Highlights by topic\n\n\n\nTalks & conferences\n\nInternational Microscopy Conference (IMC21)\nMaterials for Sustainable Development Conference (MATSUS26)\nDPG Spring meeting 2026\n\n\n\n\nPeople & positions\n\nOpen Postdoc: Multi-modal Sensor Fusion\nShengbo You joins the team\nRadin Rahimi joins the team\n\n\n\n\nGrants, projects & lab momentum\n\nStudy commission update\nCRC 1411 Symposium\nMore research stories and updates"
+    "text": "Highlights by topic\n\n\n\nTalks & conferences\n\nTMS 2027 Annual Meeting & Exhibition\nInternational Microscopy Conference (IMC21)\nMaterials for Sustainable Development Conference (MATSUS26)\nDPG Spring meeting 2026\n\n\n\n\nPeople & positions\n\nOpen Postdoc: Multi-modal Sensor Fusion\nShengbo You joins the team\nRadin Rahimi joins the team\n\n\n\n\nGrants, projects & lab momentum\n\nStudy commission update\nCRC 1411 Symposium\nMore research stories and updates"
   },
   {
     "objectID": "news.html#recent-updates",
@@ -2322,5 +2322,12 @@
     "title": "Gaurab Dhungana",
     "section": "Education",
     "text": "Education"
+  },
+  {
+    "objectID": "posts/2026-09-27_tms2027/index.html",
+    "href": "posts/2026-09-27_tms2027/index.html",
+    "title": "TMS 2027 Annual Meeting & Exhibition",
+    "section": "",
+    "text": "Philipp is giving an invited talk at the TMS 2027 Annual Meeting & Exhibition (March 14–18, 2027, Orlando, Florida, USA) in the symposium Four-Dimensional Scanning Transmission Electron Microscopy (4D STEM) for Quantitative Materials Characterization.\nTitle: Computational Electron Microscopy at Scale: From 4D-STEM Data to Quantitative, Multimodal 3D Structures\n4D-STEM records a full diffraction pattern at every probe position, and those datasets can support much richer reconstructions than any single detector geometry allows. The talk covers five lines of work from the lab that make 4D-STEM a quantitative, multimodal, three-dimensional and time-resolved measurement platform:\n\nmultislice ptychographic electron tomography at sub-Ångström, near-isotropic 3D resolution\nscalable, differentiable forward models that couple imaging and spectroscopy beyond one million atoms on a single GPU\nfused full-field STEM for gap-free, aberration-free phase contrast in under a second\na 3D “movie mode” for tracking evolving crystalline phases in liquid-cell experiments\nmixed-state ptychography to characterize the quantum state of beams from programmable electron optics\n\nThe common thread: in each case, the new capability came from removing an approximation from the forward model rather than from adding a detector."
   }
 ]

@@ -39,6 +39,7 @@ This page collects recent lab highlights across talks, awards, positions, people
 
 ::: {.column width="33%"}
 ### Talks & conferences
+- [TMS 2027 Annual Meeting & Exhibition](posts/2026-09-27_tms2027/index.qmd)
 - [International Microscopy Conference (IMC21)](posts/2025-12-02_imc21/index.qmd)
 - [Materials for Sustainable Development Conference (MATSUS26)](posts/2025-11-19_matsus/index.qmd)
 - [DPG Spring meeting 2026](posts/2025-11-19_dpg/index.qmd)

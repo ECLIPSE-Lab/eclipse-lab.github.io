@@ -1,0 +1,27 @@
+---
+title: "TMS 2027 Annual Meeting & Exhibition"
+description: "Philipp is giving an invited talk at the TMS 2027 Annual Meeting & Exhibition in Orlando, Florida, USA"
+author: "Philipp Pelz"
+date: "2026-09-27"
+image: tms2027.jpg
+draft: false
+categories:
+  - announcement
+  - conference
+---
+
+![](tms2027.jpg){fig-alt="TMS 2027 156th Annual Meeting & Exhibition logo"}
+
+Philipp is giving an invited talk at the [TMS 2027 Annual Meeting & Exhibition](https://www.programmaster.org/TMS2027) (March 14–18, 2027, Orlando, Florida, USA) in the symposium *Four-Dimensional Scanning Transmission Electron Microscopy (4D STEM) for Quantitative Materials Characterization*.
+
+**Title:** *Computational Electron Microscopy at Scale: From 4D-STEM Data to Quantitative, Multimodal 3D Structures*
+
+4D-STEM records a full diffraction pattern at every probe position, and those datasets can support much richer reconstructions than any single detector geometry allows. The talk covers five lines of work from the lab that make 4D-STEM a quantitative, multimodal, three-dimensional and time-resolved measurement platform:
+
+- multislice ptychographic electron tomography at sub-Ångström, near-isotropic 3D resolution
+- scalable, differentiable forward models that couple imaging and spectroscopy beyond one million atoms on a single GPU
+- fused full-field STEM for gap-free, aberration-free phase contrast in under a second
+- a 3D "movie mode" for tracking evolving crystalline phases in liquid-cell experiments
+- mixed-state ptychography to characterize the quantum state of beams from programmable electron optics
+
+The common thread: in each case, the new capability came from removing an approximation from the forward model rather than from adding a detector.
