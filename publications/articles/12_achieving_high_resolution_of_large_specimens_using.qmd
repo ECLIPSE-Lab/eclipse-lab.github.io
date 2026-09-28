@@ -20,7 +20,7 @@ is_oa: true
 oa_status: bronze
 keywords:
   - "Tomography"
-metrics_updated: "2026-09-05T17:16:21Z"
+metrics_updated: "2026-09-28T10:56:26Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

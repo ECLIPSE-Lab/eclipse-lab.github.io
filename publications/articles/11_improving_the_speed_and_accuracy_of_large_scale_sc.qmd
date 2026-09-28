@@ -22,9 +22,9 @@ categories:
   - "transmission electron microscopy"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 2
-fwci: 0.16
-citation_percentile: 43.7
+cited_by_count: 1
+fwci: 0.08
+citation_percentile: 35.1
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -35,13 +35,13 @@ counts_by_year:
   - [2018, 0]
   - [2019, 0]
   - [2020, 0]
-  - [2021, 2]
+  - [2021, 1]
 keywords:
   - "Scanning transmission electron microscopy"
   - "Electron"
   - "Scattering"
   - "Transmission electron microscopy"
-metrics_updated: "2026-09-05T17:16:21Z"
+metrics_updated: "2026-09-28T10:56:26Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

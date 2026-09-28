@@ -1,7 +1,7 @@
 ---
 title: "A single-projection three-dimensional reconstruction algorithm for scanning transmission electron microscopy data"
 type: "article"
-author: "H. G. Brown, P. Pelz, S. Hsu, Z. Zhang, R. Ramesh, K. Inzani, E. Sheridan, S. M. Griffin, M. Schloz, T. C. Pekin, C. T. Koch, S. D. Findlay, L. J. Allen, M. Scott, C. Ophus, J. Ciston"
+author: "H. G. Brown, P. Pelz, S. Hsu, Z. Zhang, R. Ramesh, K. Inzani, E. Sheridan, S. M. Griffin, M. Schloz, T. C. Pekin, C. T. Koch, S. D. Findlay, L. J. Allen, M. C. Scott, C. Ophus, J. Ciston"
 year: "2020"
 publication: "arXiv (Cornell University)"
 preprint: ""
@@ -34,13 +34,13 @@ keywords:
   - "Scanning transmission electron microscopy"
   - "Microscopy"
   - "Yttrium"
-metrics_updated: "2026-09-05T17:16:21Z"
+metrics_updated: "2026-09-28T10:56:26Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
 
 > A single-projection three-dimensional reconstruction algorithm for scanning transmission electron microscopy data
-H. G. Brown, P. Pelz, S. Hsu, Z. Zhang, R. Ramesh, K. Inzani, E. Sheridan, S. M. Griffin, M. Schloz, T. C. Pekin, C. T. Koch, S. D. Findlay, L. J. Allen, M. Scott, C. Ophus, J. Ciston
+H. G. Brown, P. Pelz, S. Hsu, Z. Zhang, R. Ramesh, K. Inzani, E. Sheridan, S. M. Griffin, M. Schloz, T. C. Pekin, C. T. Koch, S. D. Findlay, L. J. Allen, M. C. Scott, C. Ophus, J. Ciston
 arXiv (Cornell University)
 
 
