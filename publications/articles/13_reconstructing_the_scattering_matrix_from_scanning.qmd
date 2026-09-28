@@ -1,7 +1,7 @@
 ---
 title: "Reconstructing the Scattering Matrix from Scanning Electron Diffraction Measurements Alone"
 type: "article"
-author: "P. Pelz, H. G. Brown, J. Ciston, S. D. Findlay, Y. Zhang, M. Scott, C. Ophus"
+author: "P. Pelz, H. G. Brown, J. Ciston, S. D. Findlay, Y. Zhang, M. C. Scott, C. Ophus"
 year: "2020"
 publication: "arXiv (Cornell University)"
 preprint: ""
@@ -19,7 +19,7 @@ categories:
   - "wavefront"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 6
+cited_by_count: 5
 is_oa: true
 oa_status: green
 counts_by_year:
@@ -30,19 +30,19 @@ counts_by_year:
   - [2018, 0]
   - [2019, 0]
   - [2020, 1]
-  - [2021, 5]
+  - [2021, 4]
 keywords:
   - "Scattering"
   - "Optics"
   - "Diffraction"
   - "Wavefront"
-metrics_updated: "2026-09-05T17:16:21Z"
+metrics_updated: "2026-09-28T10:56:26Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
 
 > Reconstructing the Scattering Matrix from Scanning Electron Diffraction Measurements Alone
-P. Pelz, H. G. Brown, J. Ciston, S. D. Findlay, Y. Zhang, M. Scott, C. Ophus
+P. Pelz, H. G. Brown, J. Ciston, S. D. Findlay, Y. Zhang, M. C. Scott, C. Ophus
 arXiv (Cornell University)
 
 

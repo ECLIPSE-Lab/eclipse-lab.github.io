@@ -17,7 +17,38 @@
 <width>144</width>
 </image>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Mon, 18 May 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 27 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>TMS 2027 Annual Meeting &amp; Exhibition</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/2026-09-27_tms2027/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://pelzlab.science/posts/2026-09-27_tms2027/tms2027.jpg" class="img-fluid" alt="TMS 2027 156th Annual Meeting &amp; Exhibition logo"></p>
+<p>Philipp is giving an invited talk at the <a href="https://www.programmaster.org/TMS2027">TMS 2027 Annual Meeting &amp; Exhibition</a> (March 14–18, 2027, Orlando, Florida, USA) in the symposium <em>Four-Dimensional Scanning Transmission Electron Microscopy (4D STEM) for Quantitative Materials Characterization</em>.</p>
+<p><strong>Title:</strong> <em>Computational Electron Microscopy at Scale: From 4D-STEM Data to Quantitative, Multimodal 3D Structures</em></p>
+<p>4D-STEM records a full diffraction pattern at every probe position, and those datasets can support much richer reconstructions than any single detector geometry allows. The talk covers five lines of work from the lab that make 4D-STEM a quantitative, multimodal, three-dimensional and time-resolved measurement platform:</p>
+<ul>
+<li>multislice ptychographic electron tomography at sub-Ångström, near-isotropic 3D resolution</li>
+<li>scalable, differentiable forward models that couple imaging and spectroscopy beyond one million atoms on a single GPU</li>
+<li>fused full-field STEM for gap-free, aberration-free phase contrast in under a second</li>
+<li>a 3D “movie mode” for tracking evolving crystalline phases in liquid-cell experiments</li>
+<li>mixed-state ptychography to characterize the quantum state of beams from programmable electron optics</li>
+</ul>
+<p>The common thread: in each case, the new capability came from removing an approximation from the forward model rather than from adding a detector.</p>
+
+
+
+ ]]></description>
+  <category>announcement</category>
+  <category>conference</category>
+  <guid>https://pelzlab.science/posts/2026-09-27_tms2027/</guid>
+  <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/2026-09-27_tms2027/tms2027.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>OPEN Postdoc position — Multi-modal Sensor Fusion in Electron Microscopy</title>
   <dc:creator>Philipp Pelz</dc:creator>
@@ -737,27 +768,6 @@
   <guid>https://pelzlab.science/posts/imc20/</guid>
   <pubDate>Tue, 11 Apr 2023 00:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/imc20/imc.png" medium="image" type="image/png" height="62" width="144"/>
-</item>
-<item>
-  <title>MRS Fall 2023 conference</title>
-  <dc:creator>Philipp Pelz</dc:creator>
-  <link>https://pelzlab.science/posts/mrs2023/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Philipp will attend the MRS Fall 2023 conference in Boston, US and give an invited talk in the session ‘CH04: Emerging Electron Microscopy Techniques to Understand Structure-Property Relationship in Quantum Materials’.</p>
-<p><img src="https://pelzlab.science/posts/mrs2023/mrs_fall_2023.png" class="img-fluid"></p>
-
-
-
- ]]></description>
-  <category>announcement</category>
-  <category>conference</category>
-  <guid>https://pelzlab.science/posts/mrs2023/</guid>
-  <pubDate>Tue, 11 Apr 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://pelzlab.science/posts/mrs2023/mrs_fall_2023.png" medium="image" type="image/png" height="57" width="144"/>
 </item>
 </channel>
 </rss>

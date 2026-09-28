@@ -17,9 +17,9 @@ categories:
   - "phase-contrast imaging"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 2
-fwci: 0.43
-citation_percentile: 61.3
+cited_by_count: 1
+fwci: 0.21
+citation_percentile: 52.2
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -30,11 +30,11 @@ counts_by_year:
   - [2018, 0]
   - [2019, 0]
   - [2020, 0]
-  - [2021, 2]
+  - [2021, 1]
 keywords:
   - "Phase contrast microscopy"
   - "Phase-contrast imaging"
-metrics_updated: "2026-09-05T17:16:21Z"
+metrics_updated: "2026-09-28T10:56:26Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
