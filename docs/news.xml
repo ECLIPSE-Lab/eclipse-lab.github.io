@@ -16,8 +16,205 @@
 <height>74</height>
 <width>144</width>
 </image>
-<generator>quarto-1.10.18</generator>
-<lastBuildDate>Mon, 18 May 2026 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Tue, 29 Sep 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Open PhD Position: Dose-efficient Data Fusion for Crystalline Mapping and Imaging of Functional Thin Films</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/2026-09-30_cormic_phd_datafusion/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://pelzlab.science/posts/2026-09-30_cormic_phd_datafusion/cormic.jpg" class="img-fluid figure-img"></p>
+<figcaption>Structure of the CorMic Graduate School</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>This position in the <strong>CorMic Graduate School</strong> is open again, with a start date of <strong>November 1, 2026</strong>. <a href="cormic_phd_datafusion_2026.pdf">Download the full job ad (PDF)</a>.</p>
+</div>
+</div>
+</div>
+<section id="about-the-position" class="level2">
+<h2 class="anchored" data-anchor-id="about-the-position">About the Position</h2>
+<p>We are seeking a highly motivated PhD student to join the <strong>CorMic Graduate School</strong> at Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) for an exciting doctoral project focused on <strong>dose-efficient data fusion for crystalline mapping and imaging of functional thin films</strong>.</p>
+<p><strong>Starting Date:</strong> November 1, 2026<br>
+<strong>Duration:</strong> 4 years<br>
+<strong>Location:</strong> Erlangen, Germany</p>
+</section>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p>This doctoral project (DP 1) aims to develop cutting-edge <strong>physics-informed data fusion algorithms</strong> that correlate local crystallinity, crystal orientation, and chemical information from 4D-STEM and 4D-STEM-in-SEM experiments. The primary goal is to significantly enhance the signal-to-noise ratio (SNR) of measurements and apply these methods in experimental settings.</p>
+<section id="key-research-areas" class="level3">
+<h3 class="anchored" data-anchor-id="key-research-areas">Key Research Areas</h3>
+<section id="multi-modal-data-fusion" class="level4">
+<h4 class="anchored" data-anchor-id="multi-modal-data-fusion">1. Multi-modal Data Fusion</h4>
+<ul>
+<li>Develop algorithms to fuse elastic and inelastic spectroscopic signals in STEM</li>
+<li>Enhance SNR through correlation of multiple measurement channels</li>
+<li>Extract local structure-property information from functional thin films</li>
+</ul>
+</section>
+<section id="beam-sensitive-materials-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="beam-sensitive-materials-analysis">2. Beam-sensitive Materials Analysis</h4>
+<ul>
+<li>Focus on organic thin films that require low-dose imaging</li>
+<li>Implement dose-efficient measurement strategies</li>
+<li>Preserve sample integrity while maximizing information extraction</li>
+</ul>
+</section>
+<section id="specific-applications" class="level4">
+<h4 class="anchored" data-anchor-id="specific-applications">3. Specific Applications:</h4>
+<ul>
+<li><strong>Inorganic semiconductor layers</strong><br>
+</li>
+<li><strong>Organic absorber layers and electrolyzers</strong><br>
+</li>
+<li><strong>3D correlation studies combining SECM-AFM and 4D-STEM:</strong></li>
+</ul>
+</section>
+<section id="validation-and-comparison" class="level4">
+<h4 class="anchored" data-anchor-id="validation-and-comparison">4. Validation and Comparison</h4>
+<ul>
+<li>Compare developed approaches with ensemble statistics from spatially averaging X-ray scattering measurements</li>
+<li>Validate methods against established techniques</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="your-profile" class="level2">
+<h2 class="anchored" data-anchor-id="your-profile">Your Profile</h2>
+<section id="required-qualifications" class="level3">
+<h3 class="anchored" data-anchor-id="required-qualifications">Required Qualifications</h3>
+<ul>
+<li><strong>Master’s degree</strong> in Physics, Materials Science, Electrical Engineering, or related fields</li>
+<li>Strong background in <strong>electron microscopy</strong> and/or <strong>data analysis</strong></li>
+<li>Experience with <strong>Python, Pytorch, or similar machine learning frameworks</strong></li>
+<li>Excellent analytical and problem-solving skills</li>
+<li>Strong written and oral communication skills in English</li>
+</ul>
+</section>
+<section id="preferred-qualifications" class="level3">
+<h3 class="anchored" data-anchor-id="preferred-qualifications">Preferred Qualifications</h3>
+<ul>
+<li>Experience with <strong>4D-STEM, EELS, or EDS</strong> techniques</li>
+<li>Knowledge of <strong>machine learning</strong> and <strong>signal processing</strong></li>
+<li>Familiarity with <strong>thin film characterization</strong> methods</li>
+<li>Experience with <strong>scientific computing</strong> and <strong>data fusion algorithms</strong></li>
+</ul>
+</section>
+</section>
+<section id="what-we-offer" class="level2">
+<h2 class="anchored" data-anchor-id="what-we-offer">What We Offer</h2>
+<section id="research-environment" class="level3">
+<h3 class="anchored" data-anchor-id="research-environment">Research Environment</h3>
+<ul>
+<li>Access to state-of-the-art <strong>electron microscopy facilities</strong> at CENEM</li>
+<li>Integration into the <strong>CorMic Graduate School</strong> network</li>
+<li>Interdisciplinary research environment with experts in materials science, physics, and chemistry</li>
+</ul>
+</section>
+<section id="professional-development" class="level3">
+<h3 class="anchored" data-anchor-id="professional-development">Professional Development</h3>
+<ul>
+<li>Structured PhD program with regular progress reviews</li>
+<li>Opportunities to present at international conferences</li>
+<li>Training in advanced microscopy techniques</li>
+<li>Networking with industry partners and research institutions</li>
+</ul>
+</section>
+<section id="benefits" class="level3">
+<h3 class="anchored" data-anchor-id="benefits">Benefits</h3>
+<ul>
+<li>Competitive salary according to German public service scale (TV-L E13, 100%)</li>
+<li>Health insurance and social security benefits</li>
+<li>Modern research facilities and equipment</li>
+</ul>
+</section>
+</section>
+<section id="application-process" class="level2">
+<h2 class="anchored" data-anchor-id="application-process">Application Process</h2>
+<section id="required-documents" class="level3">
+<h3 class="anchored" data-anchor-id="required-documents">Required Documents</h3>
+<ol type="1">
+<li><strong>Cover letter</strong> explaining your motivation and research interests</li>
+<li><strong>Curriculum vitae</strong> with publication list (if applicable)</li>
+<li><strong>Academic transcripts</strong> and certificates</li>
+<li><strong>Master’s thesis</strong> or equivalent research work</li>
+<li><strong>Two letters of recommendation</strong> from academic supervisors</li>
+</ol>
+</section>
+<section id="application-deadline" class="level3">
+<h3 class="anchored" data-anchor-id="application-deadline">Application Deadline</h3>
+<p>Applications will be reviewed on a rolling basis until the position is filled. Early applications are encouraged.</p>
+</section>
+<section id="how-to-apply" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-apply">How to Apply</h3>
+<p>Please send your application materials as a single PDF file to: <strong>Email:</strong> <span data-email-user="cGhpbGlwcC5wZWx6" data-email-domain="ZmF1LmRl" data-email-label="Email Philipp Pelz" data-email-subject="PhD Application - CorMic DP1 Data Fusion">Email link requires JavaScript.</span><br>
+<strong>Subject:</strong> “PhD Application - CorMic DP1 Data Fusion”</p>
+</section>
+</section>
+<section id="about-cormic-graduate-school" class="level2">
+<h2 class="anchored" data-anchor-id="about-cormic-graduate-school">About CorMic Graduate School</h2>
+<p>The <strong>CorMic Graduate School</strong> is a collaborative initiative focused on advancing microscopy techniques for materials characterization. Our research spans from fundamental physics to applied materials science, with a strong emphasis on developing next-generation analytical tools.</p>
+</section>
+<section id="about-fau-and-cenem" class="level2">
+<h2 class="anchored" data-anchor-id="about-fau-and-cenem">About FAU and CENEM</h2>
+<p><strong>Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)</strong> is one of Germany’s leading research universities, consistently ranked among the top institutions for materials science and physics research.</p>
+<p><strong>CENEM (Center for Nanoanalysis and Electron Microscopy)</strong> provides world-class electron microscopy facilities and expertise, serving as a hub for advanced materials characterization in Germany.</p>
+<hr>
+<p><em>We are committed to diversity and equal opportunity. We welcome applications from candidates of all backgrounds and encourage women and underrepresented groups to apply.</em></p>
+<p><em>For questions about the position, please contact Prof.&nbsp;Philipp Pelz or the CorMic Graduate School administration.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>announcement</category>
+  <category>job</category>
+  <guid>https://pelzlab.science/posts/2026-09-30_cormic_phd_datafusion/</guid>
+  <pubDate>Tue, 29 Sep 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/2026-09-30_cormic_phd_datafusion/cormic_logo.png" medium="image" type="image/png" height="42" width="144"/>
+</item>
+<item>
+  <title>TMS 2027 Annual Meeting &amp; Exhibition</title>
+  <dc:creator>Philipp Pelz</dc:creator>
+  <link>https://pelzlab.science/posts/2026-09-27_tms2027/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://pelzlab.science/posts/2026-09-27_tms2027/tms2027.jpg" class="img-fluid" alt="TMS 2027 156th Annual Meeting &amp; Exhibition logo"></p>
+<p>Philipp is giving an invited talk at the <a href="https://www.programmaster.org/TMS2027">TMS 2027 Annual Meeting &amp; Exhibition</a> (March 14–18, 2027, Orlando, Florida, USA) in the symposium <em>Four-Dimensional Scanning Transmission Electron Microscopy (4D STEM) for Quantitative Materials Characterization</em>.</p>
+<p><strong>Title:</strong> <em>Computational Electron Microscopy at Scale: From 4D-STEM Data to Quantitative, Multimodal 3D Structures</em></p>
+<p>4D-STEM records a full diffraction pattern at every probe position, and those datasets can support much richer reconstructions than any single detector geometry allows. The talk covers five lines of work from the lab that make 4D-STEM a quantitative, multimodal, three-dimensional and time-resolved measurement platform:</p>
+<ul>
+<li>multislice ptychographic electron tomography at sub-Ångström, near-isotropic 3D resolution</li>
+<li>scalable, differentiable forward models that couple imaging and spectroscopy beyond one million atoms on a single GPU</li>
+<li>fused full-field STEM for gap-free, aberration-free phase contrast in under a second</li>
+<li>a 3D “movie mode” for tracking evolving crystalline phases in liquid-cell experiments</li>
+<li>mixed-state ptychography to characterize the quantum state of beams from programmable electron optics</li>
+</ul>
+<p>The common thread: in each case, the new capability came from removing an approximation from the forward model rather than from adding a detector.</p>
+
+
+
+ ]]></description>
+  <category>announcement</category>
+  <category>conference</category>
+  <guid>https://pelzlab.science/posts/2026-09-27_tms2027/</guid>
+  <pubDate>Sat, 26 Sep 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://pelzlab.science/posts/2026-09-27_tms2027/tms2027.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>OPEN Postdoc position — Multi-modal Sensor Fusion in Electron Microscopy</title>
   <dc:creator>Philipp Pelz</dc:creator>
@@ -95,7 +292,7 @@
   <category>announcement</category>
   <category>job</category>
   <guid>https://pelzlab.science/posts/2026-05-18_hyperscaleem_postdoc_sensorfusion/</guid>
-  <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+  <pubDate>Sun, 17 May 2026 22:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2026-05-18_hyperscaleem_postdoc_sensorfusion/erc_logo.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
@@ -117,7 +314,7 @@
   <category>announcement</category>
   <category>conference</category>
   <guid>https://pelzlab.science/posts/2025-12-02_imc21/</guid>
-  <pubDate>Tue, 02 Dec 2025 00:00:00 GMT</pubDate>
+  <pubDate>Mon, 01 Dec 2025 23:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2025-12-02_imc21/IMC21-Header-Logo.png" medium="image" type="image/png" height="57" width="144"/>
 </item>
 <item>
@@ -137,7 +334,7 @@
   <category>announcement</category>
   <category>conference</category>
   <guid>https://pelzlab.science/posts/2025-11-19_dpg/</guid>
-  <pubDate>Wed, 19 Nov 2025 00:00:00 GMT</pubDate>
+  <pubDate>Tue, 18 Nov 2025 23:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2025-11-19_dpg/dd26a.gif" medium="image" type="image/gif"/>
 </item>
 <item>
@@ -157,7 +354,7 @@
   <category>announcement</category>
   <category>conference</category>
   <guid>https://pelzlab.science/posts/2025-11-19_matsus/</guid>
-  <pubDate>Wed, 19 Nov 2025 00:00:00 GMT</pubDate>
+  <pubDate>Tue, 18 Nov 2025 23:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2025-11-19_matsus/matsus.png" medium="image" type="image/png" height="32" width="144"/>
 </item>
 <item>
@@ -208,7 +405,7 @@
   <category>announcement</category>
   <category>job</category>
   <guid>https://pelzlab.science/posts/2025-09-11_position/</guid>
-  <pubDate>Thu, 11 Sep 2025 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 10 Sep 2025 22:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2025-09-11_position/4DSTEM_render.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -363,7 +560,7 @@
  ]]></description>
   <category>announcement</category>
   <guid>https://pelzlab.science/posts/2025-07-17_cormic/</guid>
-  <pubDate>Thu, 17 Jul 2025 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 16 Jul 2025 22:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2025-07-17_cormic/cormic_logo.png" medium="image" type="image/png" height="42" width="144"/>
 </item>
 <item>
@@ -383,7 +580,7 @@
   <category>announcement</category>
   <category>conference</category>
   <guid>https://pelzlab.science/posts/2024-11-23_SwissNonoConvention/</guid>
-  <pubDate>Sat, 23 Nov 2024 00:00:00 GMT</pubDate>
+  <pubDate>Fri, 22 Nov 2024 23:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2024-11-23_SwissNonoConvention/swissnanoconventionbanner_master_2025.png" medium="image" type="image/png" height="131" width="144"/>
 </item>
 <item>
@@ -403,7 +600,7 @@
   <category>announcement</category>
   <category>conference</category>
   <guid>https://pelzlab.science/posts/2024-11-23_mandm2025/</guid>
-  <pubDate>Sat, 23 Nov 2024 00:00:00 GMT</pubDate>
+  <pubDate>Fri, 22 Nov 2024 23:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2024-11-23_mandm2025/mandm.png" medium="image" type="image/png" height="145" width="144"/>
 </item>
 <item>
@@ -457,7 +654,7 @@
   <category>announcement</category>
   <category>job</category>
   <guid>https://pelzlab.science/posts/2024-09-03_HyperScaleEM_postdoc/</guid>
-  <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 04 Sep 2024 22:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2024-09-03_HyperScaleEM_postdoc/erc_logo.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
@@ -511,7 +708,7 @@
   <category>announcement</category>
   <category>job</category>
   <guid>https://pelzlab.science/posts/2024-09-03_HyperScaleEM_phd/</guid>
-  <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
+  <pubDate>Mon, 02 Sep 2024 22:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2024-09-03_HyperScaleEM_phd/erc_logo.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
@@ -564,7 +761,7 @@
   <category>announcement</category>
   <category>job</category>
   <guid>https://pelzlab.science/posts/24-04-position/</guid>
-  <pubDate>Mon, 15 Jul 2024 00:00:00 GMT</pubDate>
+  <pubDate>Sun, 14 Jul 2024 22:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/24-04-position/4DSTEM_render.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -583,7 +780,7 @@
  ]]></description>
   <category>announcement</category>
   <guid>https://pelzlab.science/posts/24-07_study_commission/</guid>
-  <pubDate>Fri, 12 Jul 2024 00:00:00 GMT</pubDate>
+  <pubDate>Thu, 11 Jul 2024 22:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/24-07_study_commission/ai4mat.png" medium="image" type="image/png" height="103" width="144"/>
 </item>
 <item>
@@ -603,7 +800,7 @@
   <category>announcement</category>
   <category>conference</category>
   <guid>https://pelzlab.science/posts/23-12-hongkong/</guid>
-  <pubDate>Wed, 29 Nov 2023 00:00:00 GMT</pubDate>
+  <pubDate>Tue, 28 Nov 2023 23:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/23-12-hongkong/hongkong.png" medium="image" type="image/png" height="165" width="144"/>
 </item>
 <item>
@@ -633,7 +830,7 @@
   <category>announcement</category>
   <category>conference</category>
   <guid>https://pelzlab.science/posts/2023_DPG_spring/</guid>
-  <pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate>
+  <pubDate>Fri, 20 Oct 2023 22:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/2023_DPG_spring/dpg.png" medium="image" type="image/png" height="71" width="144"/>
 </item>
 <item>
@@ -653,7 +850,7 @@
  ]]></description>
   <category>announcement</category>
   <guid>https://pelzlab.science/posts/radin_joins/</guid>
-  <pubDate>Fri, 15 Sep 2023 00:00:00 GMT</pubDate>
+  <pubDate>Thu, 14 Sep 2023 22:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/radin_joins/radin.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -673,7 +870,7 @@
  ]]></description>
   <category>announcement</category>
   <guid>https://pelzlab.science/posts/shengbo_joins/</guid>
-  <pubDate>Fri, 15 Sep 2023 00:00:00 GMT</pubDate>
+  <pubDate>Thu, 14 Sep 2023 22:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/shengbo_joins/shengbo.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -694,7 +891,7 @@
   <category>announcement</category>
   <category>conference</category>
   <guid>https://pelzlab.science/posts/emc2024/</guid>
-  <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 06 Sep 2023 22:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/emc2024/emc2024.png" medium="image" type="image/png" height="58" width="144"/>
 </item>
 <item>
@@ -714,50 +911,8 @@
  ]]></description>
   <category>announcement</category>
   <guid>https://pelzlab.science/posts/andrey_joins/</guid>
-  <pubDate>Sat, 01 Jul 2023 00:00:00 GMT</pubDate>
+  <pubDate>Fri, 30 Jun 2023 22:00:00 GMT</pubDate>
   <media:content url="https://pelzlab.science/posts/andrey_joins/andrey.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>International Microscopy Congress 2023</title>
-  <dc:creator>Philipp Pelz</dc:creator>
-  <link>https://pelzlab.science/posts/imc20/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Philipp will attend the International Microscopy Conference 2023 in Busan, Korea and give an invited talk in the ptychography session.</p>
-<p><img src="https://pelzlab.science/posts/imc20/imc.png" class="img-fluid"></p>
-
-
-
- ]]></description>
-  <category>announcement</category>
-  <category>conference</category>
-  <guid>https://pelzlab.science/posts/imc20/</guid>
-  <pubDate>Tue, 11 Apr 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://pelzlab.science/posts/imc20/imc.png" medium="image" type="image/png" height="62" width="144"/>
-</item>
-<item>
-  <title>MRS Fall 2023 conference</title>
-  <dc:creator>Philipp Pelz</dc:creator>
-  <link>https://pelzlab.science/posts/mrs2023/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Philipp will attend the MRS Fall 2023 conference in Boston, US and give an invited talk in the session ‘CH04: Emerging Electron Microscopy Techniques to Understand Structure-Property Relationship in Quantum Materials’.</p>
-<p><img src="https://pelzlab.science/posts/mrs2023/mrs_fall_2023.png" class="img-fluid"></p>
-
-
-
- ]]></description>
-  <category>announcement</category>
-  <category>conference</category>
-  <guid>https://pelzlab.science/posts/mrs2023/</guid>
-  <pubDate>Tue, 11 Apr 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://pelzlab.science/posts/mrs2023/mrs_fall_2023.png" medium="image" type="image/png" height="57" width="144"/>
 </item>
 </channel>
 </rss>

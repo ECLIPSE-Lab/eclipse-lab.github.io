@@ -1327,7 +1327,7 @@
     "href": "news.html#highlights-by-topic",
     "title": "ECLIPSE Lab",
     "section": "Highlights by topic",
-    "text": "Highlights by topic\n\n\n\nTalks & conferences\n\nInternational Microscopy Conference (IMC21)\nMaterials for Sustainable Development Conference (MATSUS26)\nDPG Spring meeting 2026\n\n\n\n\nPeople & positions\n\nOpen Postdoc: Multi-modal Sensor Fusion\nShengbo You joins the team\nRadin Rahimi joins the team\n\n\n\n\nGrants, projects & lab momentum\n\nStudy commission update\nCRC 1411 Symposium\nMore research stories and updates"
+    "text": "Highlights by topic\n\n\n\nTalks & conferences\n\nTMS 2027 Annual Meeting & Exhibition\nInternational Microscopy Conference (IMC21)\nMaterials for Sustainable Development Conference (MATSUS26)\nDPG Spring meeting 2026\n\n\n\n\nPeople & positions\n\nOpen PhD: Dose-efficient Data Fusion (CorMic)\nOpen Postdoc: Multi-modal Sensor Fusion\nShengbo You joins the team\nRadin Rahimi joins the team\n\n\n\n\nGrants, projects & lab momentum\n\nStudy commission update\nCRC 1411 Symposium\nMore research stories and updates"
   },
   {
     "objectID": "news.html#recent-updates",
@@ -2322,5 +2322,61 @@
     "title": "ECLIPSE Lab",
     "section": "Winter Semester 2026/2027",
     "text": "Winter Semester 2026/2027\n\n\n\n\n  Materials & Structure\n  \n    🗓️ Thu 08:15h - 09:45h\n    📍 0.68 WW building\n  \n  Website\n\n\n\n\n  Data Science for Electron Microscopy\n  \n    🗓️ Fri 08:15h - 09:45h\n    📍 0.68 WW building\n  \n  Website\n\n\n\n\n  Machine Learning for Microscopy\n  \n    🗓️ Wed 16:00h - 17:30h\n    📍 IZNF Rm 01.140\n  \n  Website"
+  },
+  {
+    "objectID": "posts/2026-09-30_cormic_phd_datafusion/index.html",
+    "href": "posts/2026-09-30_cormic_phd_datafusion/index.html",
+    "title": "Open PhD Position: Dose-efficient Data Fusion for Crystalline Mapping and Imaging of Functional Thin Films",
+    "section": "",
+    "text": "Structure of the CorMic Graduate School"
+  },
+  {
+    "objectID": "posts/2026-09-30_cormic_phd_datafusion/index.html#about-the-position",
+    "href": "posts/2026-09-30_cormic_phd_datafusion/index.html#about-the-position",
+    "title": "Open PhD Position: Dose-efficient Data Fusion for Crystalline Mapping and Imaging of Functional Thin Films",
+    "section": "About the Position",
+    "text": "About the Position\nWe are seeking a highly motivated PhD student to join the CorMic Graduate School at Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) for an exciting doctoral project focused on dose-efficient data fusion for crystalline mapping and imaging of functional thin films.\nStarting Date: November 1, 2026\nDuration: 4 years\nLocation: Erlangen, Germany"
+  },
+  {
+    "objectID": "posts/2026-09-30_cormic_phd_datafusion/index.html#project-overview",
+    "href": "posts/2026-09-30_cormic_phd_datafusion/index.html#project-overview",
+    "title": "Open PhD Position: Dose-efficient Data Fusion for Crystalline Mapping and Imaging of Functional Thin Films",
+    "section": "Project Overview",
+    "text": "Project Overview\nThis doctoral project (DP 1) aims to develop cutting-edge physics-informed data fusion algorithms that correlate local crystallinity, crystal orientation, and chemical information from 4D-STEM and 4D-STEM-in-SEM experiments. The primary goal is to significantly enhance the signal-to-noise ratio (SNR) of measurements and apply these methods in experimental settings.\n\nKey Research Areas\n\n1. Multi-modal Data Fusion\n\nDevelop algorithms to fuse elastic and inelastic spectroscopic signals in STEM\nEnhance SNR through correlation of multiple measurement channels\nExtract local structure-property information from functional thin films\n\n\n\n2. Beam-sensitive Materials Analysis\n\nFocus on organic thin films that require low-dose imaging\nImplement dose-efficient measurement strategies\nPreserve sample integrity while maximizing information extraction\n\n\n\n3. Specific Applications:\n\nInorganic semiconductor layers\n\nOrganic absorber layers and electrolyzers\n\n3D correlation studies combining SECM-AFM and 4D-STEM:\n\n\n\n4. Validation and Comparison\n\nCompare developed approaches with ensemble statistics from spatially averaging X-ray scattering measurements\nValidate methods against established techniques"
+  },
+  {
+    "objectID": "posts/2026-09-30_cormic_phd_datafusion/index.html#your-profile",
+    "href": "posts/2026-09-30_cormic_phd_datafusion/index.html#your-profile",
+    "title": "Open PhD Position: Dose-efficient Data Fusion for Crystalline Mapping and Imaging of Functional Thin Films",
+    "section": "Your Profile",
+    "text": "Your Profile\n\nRequired Qualifications\n\nMaster’s degree in Physics, Materials Science, Electrical Engineering, or related fields\nStrong background in electron microscopy and/or data analysis\nExperience with Python, Pytorch, or similar machine learning frameworks\nExcellent analytical and problem-solving skills\nStrong written and oral communication skills in English\n\n\n\nPreferred Qualifications\n\nExperience with 4D-STEM, EELS, or EDS techniques\nKnowledge of machine learning and signal processing\nFamiliarity with thin film characterization methods\nExperience with scientific computing and data fusion algorithms"
+  },
+  {
+    "objectID": "posts/2026-09-30_cormic_phd_datafusion/index.html#what-we-offer",
+    "href": "posts/2026-09-30_cormic_phd_datafusion/index.html#what-we-offer",
+    "title": "Open PhD Position: Dose-efficient Data Fusion for Crystalline Mapping and Imaging of Functional Thin Films",
+    "section": "What We Offer",
+    "text": "What We Offer\n\nResearch Environment\n\nAccess to state-of-the-art electron microscopy facilities at CENEM\nIntegration into the CorMic Graduate School network\nInterdisciplinary research environment with experts in materials science, physics, and chemistry\n\n\n\nProfessional Development\n\nStructured PhD program with regular progress reviews\nOpportunities to present at international conferences\nTraining in advanced microscopy techniques\nNetworking with industry partners and research institutions\n\n\n\nBenefits\n\nCompetitive salary according to German public service scale (TV-L E13, 100%)\nHealth insurance and social security benefits\nModern research facilities and equipment"
+  },
+  {
+    "objectID": "posts/2026-09-30_cormic_phd_datafusion/index.html#application-process",
+    "href": "posts/2026-09-30_cormic_phd_datafusion/index.html#application-process",
+    "title": "Open PhD Position: Dose-efficient Data Fusion for Crystalline Mapping and Imaging of Functional Thin Films",
+    "section": "Application Process",
+    "text": "Application Process\n\nRequired Documents\n\nCover letter explaining your motivation and research interests\nCurriculum vitae with publication list (if applicable)\nAcademic transcripts and certificates\nMaster’s thesis or equivalent research work\nTwo letters of recommendation from academic supervisors\n\n\n\nApplication Deadline\nApplications will be reviewed on a rolling basis until the position is filled. Early applications are encouraged.\n\n\nHow to Apply\nPlease send your application materials as a single PDF file to: Email: Email link requires JavaScript.\nSubject: “PhD Application - CorMic DP1 Data Fusion”"
+  },
+  {
+    "objectID": "posts/2026-09-30_cormic_phd_datafusion/index.html#about-cormic-graduate-school",
+    "href": "posts/2026-09-30_cormic_phd_datafusion/index.html#about-cormic-graduate-school",
+    "title": "Open PhD Position: Dose-efficient Data Fusion for Crystalline Mapping and Imaging of Functional Thin Films",
+    "section": "About CorMic Graduate School",
+    "text": "About CorMic Graduate School\nThe CorMic Graduate School is a collaborative initiative focused on advancing microscopy techniques for materials characterization. Our research spans from fundamental physics to applied materials science, with a strong emphasis on developing next-generation analytical tools."
+  },
+  {
+    "objectID": "posts/2026-09-30_cormic_phd_datafusion/index.html#about-fau-and-cenem",
+    "href": "posts/2026-09-30_cormic_phd_datafusion/index.html#about-fau-and-cenem",
+    "title": "Open PhD Position: Dose-efficient Data Fusion for Crystalline Mapping and Imaging of Functional Thin Films",
+    "section": "About FAU and CENEM",
+    "text": "About FAU and CENEM\nFriedrich-Alexander-Universität Erlangen-Nürnberg (FAU) is one of Germany’s leading research universities, consistently ranked among the top institutions for materials science and physics research.\nCENEM (Center for Nanoanalysis and Electron Microscopy) provides world-class electron microscopy facilities and expertise, serving as a hub for advanced materials characterization in Germany.\n\nWe are committed to diversity and equal opportunity. We welcome applications from candidates of all backgrounds and encourage women and underrepresented groups to apply.\nFor questions about the position, please contact Prof. Philipp Pelz or the CorMic Graduate School administration."
   }
 ]
