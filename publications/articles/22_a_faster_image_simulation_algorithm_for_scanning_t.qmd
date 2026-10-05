@@ -16,8 +16,12 @@ categories:
   - imaging
   - computational
   # --- begin keyword categories (auto-managed) ---
-  - "transmission electron microscopy"
   - "scanning transmission electron microscopy"
+  - "image simulation"
+  - "fourier interpolation"
+  - "beamlets"
+  - "natural neighbor interpolation"
+  - "simulation acceleration"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
@@ -26,9 +30,13 @@ citation_percentile: 4.8
 is_oa: true
 oa_status: bronze
 keywords:
-  - "Transmission electron microscopy"
-  - "Scanning transmission electron microscopy"
-metrics_updated: "2026-09-05T17:16:21Z"
+  - "scanning transmission electron microscopy"
+  - "image simulation"
+  - "Fourier interpolation"
+  - "beamlets"
+  - "natural neighbor interpolation"
+  - "simulation acceleration"
+metrics_updated: "2026-10-05T11:31:30Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

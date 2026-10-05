@@ -17,17 +17,17 @@ categories:
   - computational
   - journal article
   # --- begin keyword categories (auto-managed) ---
-  - "electron tomography"
-  - "scanning confocal electron microscopy"
-  - "transmission electron microscopy"
-  - "scanning transmission electron microscopy"
-  - "microscopy"
-  - "optics"
+  - "3d reconstruction"
+  - "4d-stem"
+  - "focal series"
+  - "yttria-stabilized zirconia"
+  - "heterostructures"
+  - "depth sectioning"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 14
-fwci: 0.89
-citation_percentile: 68.5
+fwci: 0.87
+citation_percentile: 67.4
 is_oa: true
 oa_status: green
 counts_by_year:
@@ -40,13 +40,13 @@ counts_by_year:
   - [2025, 1]
   - [2026, 1]
 keywords:
-  - "Electron tomography"
-  - "Scanning confocal electron microscopy"
-  - "Transmission electron microscopy"
-  - "Scanning transmission electron microscopy"
-  - "Microscopy"
-  - "Optics"
-metrics_updated: "2026-09-05T17:16:21Z"
+  - "3D reconstruction"
+  - "4D-STEM"
+  - "focal series"
+  - "yttria-stabilized zirconia"
+  - "heterostructures"
+  - "depth sectioning"
+metrics_updated: "2026-10-05T11:31:30Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

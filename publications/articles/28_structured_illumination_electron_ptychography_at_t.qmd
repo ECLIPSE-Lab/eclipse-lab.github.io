@@ -14,12 +14,17 @@ categories:
   - ptychography
   - atomic resolution
   # --- begin keyword categories (auto-managed) ---
-  - "atomic units"
+  - "electron ptychography"
+  - "structured illumination"
+  - "atomic resolution imaging"
+  - "phase retrieval"
+  - "electron microscopy"
+  - "coherent diffraction imaging"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 4
-fwci: 0.89
-citation_percentile: 70.2
+cited_by_count: 3
+fwci: 0.64
+citation_percentile: 63.5
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -29,12 +34,16 @@ counts_by_year:
   - [2020, 0]
   - [2021, 0]
   - [2022, 0]
-  - [2023, 3]
+  - [2023, 2]
   - [2024, 1]
 keywords:
-  - "Atomic units"
-  - "Ptychography"
-metrics_updated: "2026-09-05T17:16:21Z"
+  - "electron ptychography"
+  - "structured illumination"
+  - "atomic resolution imaging"
+  - "phase retrieval"
+  - "electron microscopy"
+  - "coherent diffraction imaging"
+metrics_updated: "2026-10-05T11:31:30Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

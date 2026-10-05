@@ -14,21 +14,23 @@ categories:
   - electron microscopy
   - imaging
   # --- begin keyword categories (auto-managed) ---
-  - "interferometry"
-  - "phase contrast microscopy"
-  - "phase-contrast imaging"
+  - "phase contrast imaging"
+  - "differential phase contrast"
+  - "ptychography"
+  - "low-z materials"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
-citation_percentile: 6.3
+citation_percentile: 6.1
 is_oa: true
 oa_status: bronze
 keywords:
-  - "Interferometry"
-  - "Phase contrast microscopy"
-  - "Phase-contrast imaging"
-metrics_updated: "2026-09-05T17:16:21Z"
+  - "phase contrast imaging"
+  - "differential phase contrast"
+  - "ptychography"
+  - "low-Z materials"
+metrics_updated: "2026-10-05T11:31:30Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

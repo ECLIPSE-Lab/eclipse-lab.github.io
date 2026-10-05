@@ -14,17 +14,17 @@ categories:
   - atomic resolution
   - imaging
   # --- begin keyword categories (auto-managed) ---
-  - "core charge"
-  - "electron"
-  - "core electron"
-  - "scanning transmission electron microscopy"
-  - "atomic physics"
-  - "valence electron"
+  - "monolayer mos2"
+  - "electron density"
+  - "4d-stem"
+  - "annular dark-field imaging"
+  - "core electrons"
+  - "valence electrons"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 33
-fwci: 6.36
-citation_percentile: 96.0
+cited_by_count: 35
+fwci: 6.83
+citation_percentile: 96.3
 is_top_10_percent: true
 is_oa: true
 oa_status: gold
@@ -34,17 +34,17 @@ counts_by_year:
   - [2021, 0]
   - [2022, 0]
   - [2023, 1]
-  - [2024, 10]
+  - [2024, 11]
   - [2025, 12]
-  - [2026, 10]
+  - [2026, 11]
 keywords:
-  - "Core charge"
-  - "Electron"
-  - "Core electron"
-  - "Scanning transmission electron microscopy"
-  - "Atomic physics"
-  - "Valence electron"
-metrics_updated: "2026-09-05T17:16:21Z"
+  - "monolayer MoS2"
+  - "electron density"
+  - "4D-STEM"
+  - "annular dark-field imaging"
+  - "core electrons"
+  - "valence electrons"
+metrics_updated: "2026-10-05T11:31:30Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

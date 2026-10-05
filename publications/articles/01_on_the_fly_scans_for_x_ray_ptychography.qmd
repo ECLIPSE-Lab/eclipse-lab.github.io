@@ -15,13 +15,14 @@ categories:
   - X-ray microscopy
   - journal article
   # --- begin keyword categories (auto-managed) ---
-  - "optics"
-  - "mesoscopic physics"
+  - "x-ray ptychography"
+  - "scan time reduction"
+  - "nanometer resolution imaging"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 141
-fwci: 10.19
-citation_percentile: 98.6
+cited_by_count: 143
+fwci: 9.87
+citation_percentile: 98.5
 is_top_10_percent: true
 is_oa: true
 oa_status: green
@@ -33,12 +34,12 @@ counts_by_year:
   - [2023, 9]
   - [2024, 10]
   - [2025, 8]
-  - [2026, 6]
+  - [2026, 8]
 keywords:
-  - "Ptychography"
-  - "Optics"
-  - "Mesoscopic physics"
-metrics_updated: "2026-09-05T17:16:21Z"
+  - "X-ray ptychography"
+  - "scan time reduction"
+  - "nanometer resolution imaging"
+metrics_updated: "2026-10-05T11:31:30Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

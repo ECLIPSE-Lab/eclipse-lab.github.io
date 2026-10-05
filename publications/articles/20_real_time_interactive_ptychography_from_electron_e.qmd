@@ -13,14 +13,13 @@ toc: false
 categories:
   - ptychography
   # --- begin keyword categories (auto-managed) ---
-  - "detector"
-  - "frame rate"
-  - "scanning transmission electron microscopy"
+  - "real-time imaging"
+  - "electron diffraction"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 6
-fwci: 1.34
-citation_percentile: 78.9
+fwci: 1.30
+citation_percentile: 78.0
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -33,11 +32,10 @@ counts_by_year:
   - [2023, 1]
   - [2024, 1]
 keywords:
-  - "Detector"
-  - "Ptychography"
-  - "Frame rate"
-  - "Scanning transmission electron microscopy"
-metrics_updated: "2026-09-05T17:16:21Z"
+  - "ptychography"
+  - "real-time imaging"
+  - "electron diffraction"
+metrics_updated: "2026-10-05T11:31:30Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

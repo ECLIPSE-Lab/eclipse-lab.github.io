@@ -13,27 +13,29 @@ toc: false
 categories:
   - electron microscopy
   # --- begin keyword categories (auto-managed) ---
-  - "detector"
+  - "4d-stem"
+  - "electron diffraction"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 38
-fwci: 6.41
-citation_percentile: 96.7
+cited_by_count: 36
+fwci: 5.60
+citation_percentile: 96.1
 is_top_10_percent: true
 is_oa: true
 oa_status: bronze
 counts_by_year:
   - [2019, 0]
   - [2020, 0]
-  - [2021, 14]
-  - [2022, 13]
+  - [2021, 13]
+  - [2022, 12]
   - [2023, 5]
   - [2024, 3]
   - [2025, 2]
   - [2026, 1]
 keywords:
-  - "Detector"
-metrics_updated: "2026-09-05T17:16:21Z"
+  - "4D-STEM"
+  - "electron diffraction"
+metrics_updated: "2026-10-05T11:31:30Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
