@@ -14,21 +14,27 @@ categories:
   - tomography
   - atomic resolution
   # --- begin keyword categories (auto-managed) ---
-  - "crystal twinning"
-  - "electron tomography"
-  - "electron"
+  - "palladium nanoparticles"
+  - "atomic electron tomography"
+  - "decahedral nanoparticles"
+  - "icosahedral nanoparticles"
+  - "nanoparticle growth"
+  - "wet chemical synthesis"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
-citation_percentile: 6.9
+citation_percentile: 7.0
 is_oa: true
 oa_status: bronze
 keywords:
-  - "Crystal twinning"
-  - "Electron tomography"
-  - "Electron"
-metrics_updated: "2026-09-05T17:16:21Z"
+  - "palladium nanoparticles"
+  - "atomic electron tomography"
+  - "decahedral nanoparticles"
+  - "icosahedral nanoparticles"
+  - "nanoparticle growth"
+  - "wet chemical synthesis"
+metrics_updated: "2026-10-05T11:31:30Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

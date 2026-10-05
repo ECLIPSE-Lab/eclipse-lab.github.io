@@ -15,14 +15,14 @@ categories:
   - nanoparticles
   - machine learning
   # --- begin keyword categories (auto-managed) ---
-  - "nanowire"
+  - "chiral nanostructures"
+  - "strain release"
   - "electron tomography"
-  - "electron"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 1
 fwci: 0.08
-citation_percentile: 39.4
+citation_percentile: 37.9
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -35,10 +35,10 @@ counts_by_year:
   - [2019, 0]
   - [2020, 1]
 keywords:
-  - "Nanowire"
-  - "Electron tomography"
-  - "Electron"
-metrics_updated: "2026-09-05T17:16:21Z"
+  - "chiral nanostructures"
+  - "strain release"
+  - "electron tomography"
+metrics_updated: "2026-10-05T11:31:30Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

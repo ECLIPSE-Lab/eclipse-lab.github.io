@@ -16,21 +16,23 @@ categories:
   - atomic resolution
   - imaging
   # --- begin keyword categories (auto-managed) ---
-  - "high-resolution transmission electron microscopy"
-  - "electron tomography"
-  - "scanning transmission electron microscopy"
+  - "atomic electron tomography"
+  - "haadf-stem"
+  - "high-resolution tem"
+  - "3d imaging"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
-citation_percentile: 5.5
+citation_percentile: 5.6
 is_oa: true
 oa_status: bronze
 keywords:
-  - "High-resolution transmission electron microscopy"
-  - "Electron tomography"
-  - "Scanning transmission electron microscopy"
-metrics_updated: "2026-09-05T17:16:21Z"
+  - "atomic electron tomography"
+  - "HAADF-STEM"
+  - "high-resolution TEM"
+  - "3D imaging"
+metrics_updated: "2026-10-05T11:31:30Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

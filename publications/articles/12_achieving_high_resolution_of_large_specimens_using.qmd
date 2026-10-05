@@ -12,15 +12,24 @@ project_page_url: ""
 toc: false
 categories:
   - tomography
+  # --- begin keyword categories (auto-managed) ---
+  - "high-resolution tomography"
+  - "large specimens"
+  - "aberration correction"
+  - "electron tomography"
+  # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
-citation_percentile: 3.1
+citation_percentile: 3.0
 is_oa: true
 oa_status: bronze
 keywords:
-  - "Tomography"
-metrics_updated: "2026-09-05T17:16:21Z"
+  - "high-resolution tomography"
+  - "large specimens"
+  - "aberration correction"
+  - "electron tomography"
+metrics_updated: "2026-10-05T11:31:30Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

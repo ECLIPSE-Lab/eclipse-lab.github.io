@@ -1,10 +1,29 @@
 {
-  "count": 50,
-  "generated_at": "2026-09-05T17:16:21Z",
+  "count": 55,
+  "generated_at": "2026-10-05T11:31:30Z",
   "metrics": {
+    "10.1002/advs.76620": {
+      "citation_percentile": 57.229211,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": 0.0,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "keywords": [
+        "4D-STEM",
+        "dark-field imaging",
+        "ptychography",
+        "Wiener filter",
+        "dose efficiency"
+      ],
+      "metrics_updated": "2026-10-05T11:31:30Z",
+      "oa_status": "gold"
+    },
     "10.1016/j.micron.2021.103141": {
-      "citation_percentile": 98.819084,
-      "cited_by_count": 99,
+      "citation_percentile": 98.616094,
+      "cited_by_count": 97,
       "counts_by_year": [
         {
           "cited_by_count": 8,
@@ -15,7 +34,7 @@
           "year": 2025
         },
         {
-          "cited_by_count": 20,
+          "cited_by_count": 21,
           "year": 2024
         },
         {
@@ -23,11 +42,11 @@
           "year": 2023
         },
         {
-          "cited_by_count": 27,
+          "cited_by_count": 26,
           "year": 2022
         },
         {
-          "cited_by_count": 6,
+          "cited_by_count": 4,
           "year": 2021
         },
         {
@@ -46,11 +65,11 @@
         ],
         [
           2021,
-          6
+          4
         ],
         [
           2022,
-          27
+          26
         ],
         [
           2023,
@@ -58,7 +77,7 @@
         ],
         [
           2024,
-          20
+          21
         ],
         [
           2025,
@@ -69,19 +88,23 @@
           8
         ]
       ],
-      "fwci": 10.6082,
+      "fwci": 9.4974,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
       "keywords": [
-        "Computational science",
-        "Scanning transmission electron microscopy"
+        "prism method",
+        "multislice method",
+        "electron scattering simulation",
+        "GPU acceleration",
+        "aberration-corrected STEM",
+        "atomic resolution imaging"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "hybrid"
     },
     "10.1017/s1431927619000783": {
-      "citation_percentile": 83.38092499999999,
+      "citation_percentile": 83.110571,
       "cited_by_count": 14,
       "counts_by_year": [
         {
@@ -147,24 +170,25 @@
           2
         ]
       ],
-      "fwci": 1.0296,
+      "fwci": 1.0171,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Scanning transmission electron microscopy",
-        "Transmission electron microscopy",
-        "Scanning confocal electron microscopy"
+        "phase retrieval",
+        "4D-STEM",
+        "phase contrast imaging",
+        "electron diffraction"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927619001028": {
-      "citation_percentile": 70.408061,
-      "cited_by_count": 7,
+      "citation_percentile": 69.66360900000001,
+      "cited_by_count": 6,
       "counts_by_year": [
         {
-          "cited_by_count": 4,
+          "cited_by_count": 3,
           "year": 2023
         },
         {
@@ -203,19 +227,24 @@
         ],
         [
           2023,
-          4
+          3
         ]
       ],
-      "fwci": 0.741,
+      "fwci": 0.7293,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "keywords": [],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "keywords": [
+        "ptychography",
+        "structured illumination",
+        "phase retrieval",
+        "coherent diffraction imaging"
+      ],
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927619001090": {
-      "citation_percentile": 77.980605,
+      "citation_percentile": 77.27825,
       "cited_by_count": 5,
       "counts_by_year": [
         {
@@ -265,16 +294,22 @@
           2
         ]
       ],
-      "fwci": 0.4419,
+      "fwci": 0.4359,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "keywords": [],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "keywords": [
+        "electron ptychography",
+        "single-molecule imaging",
+        "biological macromolecules",
+        "phase retrieval",
+        "cryo-electron microscopy"
+      ],
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927619002708": {
-      "citation_percentile": 5.476326,
+      "citation_percentile": 5.589307000000001,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -283,15 +318,16 @@
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "High-resolution transmission electron microscopy",
-        "Electron tomography",
-        "Scanning transmission electron microscopy"
+        "atomic electron tomography",
+        "HAADF-STEM",
+        "high-resolution TEM",
+        "3D imaging"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927619009759": {
-      "citation_percentile": 39.35904,
+      "citation_percentile": 37.948949999999996,
       "cited_by_count": 1,
       "counts_by_year": [
         {
@@ -333,24 +369,24 @@
           1
         ]
       ],
-      "fwci": 0.0843,
+      "fwci": 0.0828,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Nanowire",
-        "Electron tomography",
-        "Electron"
+        "chiral nanostructures",
+        "strain release",
+        "electron tomography"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927620014725": {
-      "citation_percentile": 43.680428,
-      "cited_by_count": 2,
+      "citation_percentile": 35.070804,
+      "cited_by_count": 1,
       "counts_by_year": [
         {
-          "cited_by_count": 2,
+          "cited_by_count": 1,
           "year": 2021
         }
       ],
@@ -385,28 +421,29 @@
         ],
         [
           2021,
-          2
+          1
         ]
       ],
-      "fwci": 0.1615,
+      "fwci": 0.0766,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Scanning transmission electron microscopy",
-        "Electron",
-        "Scattering",
-        "Transmission electron microscopy"
+        "scanning transmission electron microscopy",
+        "electron scattering simulation",
+        "simulation accuracy",
+        "large-scale simulation",
+        "electron diffraction"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927620014749": {
-      "citation_percentile": 61.329944999999995,
-      "cited_by_count": 2,
+      "citation_percentile": 51.959504,
+      "cited_by_count": 1,
       "counts_by_year": [
         {
-          "cited_by_count": 2,
+          "cited_by_count": 1,
           "year": 2021
         }
       ],
@@ -441,22 +478,24 @@
         ],
         [
           2021,
-          2
+          1
         ]
       ],
-      "fwci": 0.4317,
+      "fwci": 0.2107,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Phase contrast microscopy",
-        "Phase-contrast imaging"
+        "phase contrast imaging",
+        "depth sectioning",
+        "thick samples",
+        "heterogeneous samples"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927620019625": {
-      "citation_percentile": 3.06392,
+      "citation_percentile": 2.976531,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -465,14 +504,17 @@
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Tomography"
+        "high-resolution tomography",
+        "large specimens",
+        "aberration correction",
+        "electron tomography"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927620019753": {
-      "citation_percentile": 96.682243,
-      "cited_by_count": 38,
+      "citation_percentile": 96.132027,
+      "cited_by_count": 36,
       "counts_by_year": [
         {
           "cited_by_count": 1,
@@ -491,11 +533,11 @@
           "year": 2023
         },
         {
-          "cited_by_count": 13,
+          "cited_by_count": 12,
           "year": 2022
         },
         {
-          "cited_by_count": 14,
+          "cited_by_count": 13,
           "year": 2021
         }
       ],
@@ -510,11 +552,11 @@
         ],
         [
           2021,
-          14
+          13
         ],
         [
           2022,
-          13
+          12
         ],
         [
           2023,
@@ -533,22 +575,23 @@
           1
         ]
       ],
-      "fwci": 6.4091,
+      "fwci": 5.6008,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
       "keywords": [
-        "Detector"
+        "4D-STEM",
+        "electron diffraction"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621000477": {
-      "citation_percentile": 99.71658,
-      "cited_by_count": 345,
+      "citation_percentile": 99.557767,
+      "cited_by_count": 355,
       "counts_by_year": [
         {
-          "cited_by_count": 69,
+          "cited_by_count": 78,
           "year": 2026
         },
         {
@@ -556,7 +599,7 @@
           "year": 2025
         },
         {
-          "cited_by_count": 83,
+          "cited_by_count": 85,
           "year": 2024
         },
         {
@@ -568,7 +611,7 @@
           "year": 2022
         },
         {
-          "cited_by_count": 17,
+          "cited_by_count": 16,
           "year": 2021
         },
         {
@@ -587,7 +630,7 @@
         ],
         [
           2021,
-          17
+          16
         ],
         [
           2022,
@@ -599,7 +642,7 @@
         ],
         [
           2024,
-          83
+          85
         ],
         [
           2025,
@@ -607,22 +650,25 @@
         ],
         [
           2026,
-          69
+          78
         ]
       ],
-      "fwci": 28.7936,
+      "fwci": 18.3976,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": true,
       "keywords": [
-        "Software"
+        "4D-STEM",
+        "electron diffraction",
+        "HDF5",
+        "open source software"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "hybrid"
     },
     "10.1017/s1431927621000490": {
-      "citation_percentile": 83.751776,
-      "cited_by_count": 9,
+      "citation_percentile": 80.984111,
+      "cited_by_count": 8,
       "counts_by_year": [
         {
           "cited_by_count": 1,
@@ -641,7 +687,7 @@
           "year": 2022
         },
         {
-          "cited_by_count": 2,
+          "cited_by_count": 1,
           "year": 2021
         }
       ],
@@ -660,7 +706,7 @@
         ],
         [
           2021,
-          2
+          1
         ],
         [
           2022,
@@ -679,22 +725,22 @@
           1
         ]
       ],
-      "fwci": 1.2089,
+      "fwci": 0.9777,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Scattering",
-        "Scanning transmission electron microscopy",
-        "Optics",
-        "Transmission electron microscopy",
-        "Electron scattering"
+        "scattering matrix",
+        "multiple scattering",
+        "crystalline materials",
+        "shot noise",
+        "atomic resolution structure determination"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "green"
     },
     "10.1017/s1431927621000635": {
-      "citation_percentile": 3.9355139999999995,
+      "citation_percentile": 3.8954379999999995,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -702,12 +748,16 @@
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
-      "keywords": [],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "keywords": [
+        "4D-STEM",
+        "materials science applications",
+        "electron diffraction"
+      ],
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621001288": {
-      "citation_percentile": 78.866145,
+      "citation_percentile": 78.026708,
       "cited_by_count": 6,
       "counts_by_year": [
         {
@@ -761,21 +811,20 @@
           1
         ]
       ],
-      "fwci": 1.3396,
+      "fwci": 1.303,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Detector",
-        "Ptychography",
-        "Frame rate",
-        "Scanning transmission electron microscopy"
+        "ptychography",
+        "real-time imaging",
+        "electron diffraction"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621004773": {
-      "citation_percentile": 4.789000000000001,
+      "citation_percentile": 4.818042,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -784,14 +833,18 @@
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Transmission electron microscopy",
-        "Scanning transmission electron microscopy"
+        "scanning transmission electron microscopy",
+        "image simulation",
+        "Fourier interpolation",
+        "beamlets",
+        "natural neighbor interpolation",
+        "simulation acceleration"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621005638": {
-      "citation_percentile": 9.538098999999999,
+      "citation_percentile": 9.469154,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -800,15 +853,16 @@
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Phase contrast microscopy",
-        "Open source"
+        "4D-STEM",
+        "open source software",
+        "phase contrast tomography"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621012083": {
-      "citation_percentile": 88.379783,
-      "cited_by_count": 17,
+      "citation_percentile": 89.595079,
+      "cited_by_count": 20,
       "counts_by_year": [
         {
           "cited_by_count": 1,
@@ -823,7 +877,7 @@
           "year": 2024
         },
         {
-          "cited_by_count": 3,
+          "cited_by_count": 5,
           "year": 2023
         },
         {
@@ -831,7 +885,7 @@
           "year": 2022
         },
         {
-          "cited_by_count": 2,
+          "cited_by_count": 3,
           "year": 2021
         }
       ],
@@ -846,7 +900,7 @@
         ],
         [
           2021,
-          2
+          3
         ],
         [
           2022,
@@ -854,7 +908,7 @@
         ],
         [
           2023,
-          3
+          5
         ],
         [
           2024,
@@ -869,28 +923,29 @@
           1
         ]
       ],
-      "fwci": 2.1216,
+      "fwci": 2.3744,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Prism",
-        "Scanning transmission electron microscopy",
-        "Scattering"
+        "4D-STEM",
+        "natural neighbor interpolation",
+        "electron scattering simulation",
+        "computational efficiency"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "hybrid"
     },
     "10.1017/s1431927622002288": {
-      "citation_percentile": 70.207431,
-      "cited_by_count": 4,
+      "citation_percentile": 63.540197,
+      "cited_by_count": 3,
       "counts_by_year": [
         {
           "cited_by_count": 1,
           "year": 2024
         },
         {
-          "cited_by_count": 3,
+          "cited_by_count": 2,
           "year": 2023
         }
       ],
@@ -921,26 +976,30 @@
         ],
         [
           2023,
-          3
+          2
         ],
         [
           2024,
           1
         ]
       ],
-      "fwci": 0.8874,
+      "fwci": 0.6442,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Atomic units",
-        "Ptychography"
+        "electron ptychography",
+        "structured illumination",
+        "atomic resolution imaging",
+        "phase retrieval",
+        "electron microscopy",
+        "coherent diffraction imaging"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927622009576": {
-      "citation_percentile": 6.302713,
+      "citation_percentile": 6.088387,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -949,15 +1008,16 @@
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Interferometry",
-        "Phase contrast microscopy",
-        "Phase-contrast imaging"
+        "phase contrast imaging",
+        "differential phase contrast",
+        "ptychography",
+        "low-Z materials"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927622012090": {
-      "citation_percentile": 68.53149499999999,
+      "citation_percentile": 67.381655,
       "cited_by_count": 14,
       "counts_by_year": [
         {
@@ -1015,23 +1075,23 @@
           1
         ]
       ],
-      "fwci": 0.8949,
+      "fwci": 0.8709,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Electron tomography",
-        "Scanning confocal electron microscopy",
-        "Transmission electron microscopy",
-        "Scanning transmission electron microscopy",
-        "Microscopy",
-        "Optics"
+        "3D reconstruction",
+        "4D-STEM",
+        "focal series",
+        "yttria-stabilized zirconia",
+        "heterostructures",
+        "depth sectioning"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "green"
     },
     "10.1021/acsnano.1c07772": {
-      "citation_percentile": 92.176387,
+      "citation_percentile": 91.542799,
       "cited_by_count": 26,
       "counts_by_year": [
         {
@@ -1089,23 +1149,20 @@
           2
         ]
       ],
-      "fwci": 3.048,
+      "fwci": 2.7934,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
       "keywords": [
-        "Crystal twinning",
-        "Icosahedral symmetry",
-        "Nanostructure",
-        "Electron tomography",
-        "Nanoparticle",
-        "Atomic units"
+        "palladium nanoparticles",
+        "shape-controlled synthesis",
+        "atomic electron tomography"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
-      "oa_status": "green"
+      "metrics_updated": "2026-10-05T11:31:30Z",
+      "oa_status": "hybrid"
     },
     "10.1021/acsnano.3c04283": {
-      "citation_percentile": 78.988857,
+      "citation_percentile": 77.74585499999999,
       "cited_by_count": 18,
       "counts_by_year": [
         {
@@ -1155,26 +1212,27 @@
           7
         ]
       ],
-      "fwci": 1.341,
+      "fwci": 1.2758,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Heterojunction",
-        "Tellurium",
-        "Semiconductor",
-        "Condensed matter physics",
-        "Moir\u00e9 pattern"
+        "tellurium",
+        "WSe2",
+        "moir\u00e9 heterostructures",
+        "van der Waals semiconductors",
+        "strain relaxation",
+        "misfit dislocations"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "hybrid"
     },
     "10.1021/jacs.3c05299": {
-      "citation_percentile": 89.842322,
-      "cited_by_count": 32,
+      "citation_percentile": 91.230688,
+      "cited_by_count": 37,
       "counts_by_year": [
         {
-          "cited_by_count": 8,
+          "cited_by_count": 13,
           "year": 2026
         },
         {
@@ -1217,24 +1275,26 @@
         ],
         [
           2026,
-          8
+          13
         ]
       ],
-      "fwci": 2.3879,
+      "fwci": 2.6225,
       "is_oa": true,
-      "is_top_10_percent": false,
+      "is_top_10_percent": true,
       "is_top_1_percent": false,
       "keywords": [
-        "Quasicrystal",
-        "Tetrahedron",
-        "Self-assembly",
-        "Curvature"
+        "self-assembly",
+        "quasicrystals",
+        "supracrystals",
+        "tetrahedral packing",
+        "surface curvature",
+        "surface ligands"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "green"
     },
     "10.1021/jacs.5c12614": {
-      "citation_percentile": 78.705384,
+      "citation_percentile": 73.576777,
       "cited_by_count": 6,
       "counts_by_year": [
         {
@@ -1276,23 +1336,22 @@
           6
         ]
       ],
-      "fwci": 1.2574,
+      "fwci": 1.0262,
       "is_oa": false,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Nanocrystal",
-        "Nucleation",
-        "Transmission electron microscopy",
-        "Copper",
-        "Surface plasmon resonance",
-        "Monomer"
+        "seed-mediated synthesis",
+        "twin boundaries",
+        "reduction kinetics",
+        "localized surface plasmon resonance",
+        "surface-enhanced Raman scattering"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "closed"
     },
     "10.1038/s41467-022-32330-z": {
-      "citation_percentile": 91.550438,
+      "citation_percentile": 91.223268,
       "cited_by_count": 45,
       "counts_by_year": [
         {
@@ -1350,23 +1409,27 @@
           5
         ]
       ],
-      "fwci": 2.8052,
+      "fwci": 2.7073,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
       "keywords": [
-        "Transmission electron microscopy",
-        "Electron microscope"
+        "metal-organic layers",
+        "liquid cell electron microscopy",
+        "cryo-electron microscopy",
+        "electron ptychography",
+        "layer growth mechanism",
+        "precursor clusters"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "gold"
     },
     "10.1038/s41467-023-39304-9": {
-      "citation_percentile": 95.993991,
-      "cited_by_count": 33,
+      "citation_percentile": 96.328294,
+      "cited_by_count": 35,
       "counts_by_year": [
         {
-          "cited_by_count": 10,
+          "cited_by_count": 11,
           "year": 2026
         },
         {
@@ -1374,7 +1437,7 @@
           "year": 2025
         },
         {
-          "cited_by_count": 10,
+          "cited_by_count": 11,
           "year": 2024
         },
         {
@@ -1405,7 +1468,7 @@
         ],
         [
           2024,
-          10
+          11
         ],
         [
           2025,
@@ -1413,27 +1476,27 @@
         ],
         [
           2026,
-          10
+          11
         ]
       ],
-      "fwci": 6.3581,
+      "fwci": 6.8297,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
       "keywords": [
-        "Core charge",
-        "Electron",
-        "Core electron",
-        "Scanning transmission electron microscopy",
-        "Atomic physics",
-        "Valence electron"
+        "monolayer MoS2",
+        "electron density",
+        "4D-STEM",
+        "annular dark-field imaging",
+        "core electrons",
+        "valence electrons"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "gold"
     },
     "10.1038/s41467-023-43634-z": {
-      "citation_percentile": 99.490625,
-      "cited_by_count": 56,
+      "citation_percentile": 99.443641,
+      "cited_by_count": 57,
       "counts_by_year": [
         {
           "cited_by_count": 11,
@@ -1448,7 +1511,7 @@
           "year": 2024
         },
         {
-          "cited_by_count": 4,
+          "cited_by_count": 5,
           "year": 2023
         }
       ],
@@ -1471,7 +1534,7 @@
         ],
         [
           2023,
-          4
+          5
         ],
         [
           2024,
@@ -1486,26 +1549,25 @@
           11
         ]
       ],
-      "fwci": 14.6058,
+      "fwci": 13.9733,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": true,
       "keywords": [
-        "Electron tomography",
-        "Nanomaterials",
-        "Atomic units",
-        "Electron diffraction",
-        "High-resolution transmission electron microscopy"
+        "atomic electron tomography",
+        "light element imaging",
+        "three-dimensional atomic structure",
+        "tilt series reconstruction"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "gold"
     },
     "10.1038/s41598-017-07488-y": {
-      "citation_percentile": 97.552448,
+      "citation_percentile": 97.577325,
       "cited_by_count": 85,
       "counts_by_year": [
         {
-          "cited_by_count": 3,
+          "cited_by_count": 4,
           "year": 2026
         },
         {
@@ -1521,7 +1583,7 @@
           "year": 2023
         },
         {
-          "cited_by_count": 11,
+          "cited_by_count": 10,
           "year": 2022
         },
         {
@@ -1560,7 +1622,7 @@
         ],
         [
           2022,
-          11
+          10
         ],
         [
           2023,
@@ -1576,27 +1638,30 @@
         ],
         [
           2026,
-          3
+          4
         ]
       ],
-      "fwci": 6.8519,
+      "fwci": 6.8935,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
       "keywords": [
-        "Ptychography",
-        "Phase retrieval",
-        "Optics"
+        "electron ptychography",
+        "low-dose imaging",
+        "phase retrieval",
+        "cryo-electron microscopy",
+        "single-particle reconstruction",
+        "biological macromolecules"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "gold"
     },
     "10.1038/s41699-025-00575-z": {
-      "citation_percentile": 57.045517000000004,
-      "cited_by_count": 2,
+      "citation_percentile": 60.569205000000004,
+      "cited_by_count": 3,
       "counts_by_year": [
         {
-          "cited_by_count": 2,
+          "cited_by_count": 3,
           "year": 2026
         }
       ],
@@ -1631,24 +1696,26 @@
         ],
         [
           2026,
-          2
+          3
         ]
       ],
-      "fwci": 0.5041,
+      "fwci": 0.6316,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Raman spectroscopy",
-        "Correlative",
-        "Transmission electron microscopy",
-        "Bilayer"
+        "bilayer MoS2",
+        "polytypism",
+        "stacking sequence",
+        "dislocations",
+        "partial dislocations",
+        "van der Waals materials"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "gold"
     },
     "10.1051/bioconf/202412904027": {
-      "citation_percentile": 35.424986000000004,
+      "citation_percentile": 35.152211,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -1657,14 +1724,18 @@
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Parallax",
-        "Ptychography"
+        "parallax correction",
+        "ptychography",
+        "4D-STEM",
+        "large-area imaging",
+        "information transmission",
+        "phase retrieval"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "diamond"
     },
     "10.1051/bioconf/202412907006": {
-      "citation_percentile": 18.215613,
+      "citation_percentile": 17.073171000000002,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -1673,18 +1744,21 @@
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "In situ",
-        "Nano-"
+        "4D-STEM",
+        "in situ observation",
+        "texture evolution",
+        "nano-crystalline thin films",
+        "nanostructured materials"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "diamond"
     },
     "10.1063/1.4904943": {
-      "citation_percentile": 98.61260200000001,
-      "cited_by_count": 141,
+      "citation_percentile": 98.54851,
+      "cited_by_count": 143,
       "counts_by_year": [
         {
-          "cited_by_count": 6,
+          "cited_by_count": 8,
           "year": 2026
         },
         {
@@ -1767,23 +1841,93 @@
         ],
         [
           2026,
-          6
+          8
         ]
       ],
-      "fwci": 10.1889,
+      "fwci": 9.8702,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
       "keywords": [
-        "Ptychography",
-        "Optics",
-        "Mesoscopic physics"
+        "X-ray ptychography",
+        "scan time reduction",
+        "nanometer resolution imaging"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "green"
     },
+    "10.1063/5.0169788": {
+      "citation_percentile": 91.498832,
+      "cited_by_count": 12,
+      "counts_by_year": [
+        {
+          "cited_by_count": 2,
+          "year": 2026
+        },
+        {
+          "cited_by_count": 6,
+          "year": 2025
+        },
+        {
+          "cited_by_count": 3,
+          "year": 2024
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2023
+        }
+      ],
+      "counts_by_year_compact": [
+        [
+          2019,
+          0
+        ],
+        [
+          2020,
+          0
+        ],
+        [
+          2021,
+          0
+        ],
+        [
+          2022,
+          0
+        ],
+        [
+          2023,
+          1
+        ],
+        [
+          2024,
+          3
+        ],
+        [
+          2025,
+          6
+        ],
+        [
+          2026,
+          2
+        ]
+      ],
+      "fwci": 2.9417,
+      "is_oa": true,
+      "is_top_10_percent": true,
+      "is_top_1_percent": false,
+      "keywords": [
+        "electron ptychography",
+        "amplitude mask",
+        "magnetic field mapping",
+        "electric field mapping",
+        "permalloy",
+        "off-axis electron holography"
+      ],
+      "metrics_updated": "2026-10-05T11:31:30Z",
+      "oa_status": "hybrid"
+    },
     "10.1088/1402-4896/ad9a1a": {
-      "citation_percentile": 95.67174899999999,
+      "citation_percentile": 95.083558,
       "cited_by_count": 11,
       "counts_by_year": [
         {
@@ -1833,22 +1977,21 @@
           2
         ]
       ],
-      "fwci": 4.4374,
+      "fwci": 3.9816,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
       "keywords": [
-        "Tomography",
-        "Isotropy",
-        "Phase-contrast imaging",
-        "Phase contrast microscopy",
-        "Optics"
+        "phase contrast imaging",
+        "4D-STEM",
+        "core-shell nanoparticles",
+        "sub-angstrom resolution"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "hybrid"
     },
     "10.1088/2515-7639/acf524": {
-      "citation_percentile": 71.051785,
+      "citation_percentile": 69.60923700000001,
       "cited_by_count": 11,
       "counts_by_year": [
         {
@@ -1898,20 +2041,23 @@
           2
         ]
       ],
-      "fwci": 0.9133,
+      "fwci": 0.8694,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Detector",
-        "Crystallite",
-        "Optics"
+        "hybrid pixel detectors",
+        "4D-STEM",
+        "PC71BM",
+        "nanocrystals",
+        "\u03c0-\u03c0 stacking",
+        "beam-sensitive materials"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "gold"
     },
     "10.1088/2515-7639/ad9ad2": {
-      "citation_percentile": 90.97291899999999,
+      "citation_percentile": 90.539054,
       "cited_by_count": 8,
       "counts_by_year": [
         {
@@ -1957,16 +2103,23 @@
           2
         ]
       ],
-      "fwci": 2.6367,
+      "fwci": 2.4371,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
-      "keywords": [],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "keywords": [
+        "electron ptychography",
+        "phase contrast electron microscopy",
+        "depth of field",
+        "axial resolution",
+        "4D-STEM",
+        "atomic resolution imaging"
+      ],
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "gold"
     },
     "10.1093/mam/ozae044.149": {
-      "citation_percentile": 12.524302,
+      "citation_percentile": 10.490566,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -1975,15 +2128,18 @@
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Parallax",
-        "Ptychography",
-        "Optics"
+        "4D-STEM",
+        "parallax correction",
+        "ptychography",
+        "phase imaging",
+        "defocus correction",
+        "image reconstruction"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "closed"
     },
     "10.1093/mam/ozae044.883": {
-      "citation_percentile": 4.90982,
+      "citation_percentile": 5.225523,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -1992,27 +2148,30 @@
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Phase contrast microscopy",
-        "Nanostructure",
-        "Nanotechnology"
+        "atomic electron tomography",
+        "dose efficiency",
+        "light element imaging",
+        "depth resolution",
+        "biological nanostructures",
+        "inorganic nanostructures"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "closed"
     },
     "10.1093/mam/ozae086": {
-      "citation_percentile": 94.905291,
-      "cited_by_count": 35,
+      "citation_percentile": 95.541513,
+      "cited_by_count": 40,
       "counts_by_year": [
         {
           "cited_by_count": 13,
           "year": 2026
         },
         {
-          "cited_by_count": 19,
+          "cited_by_count": 21,
           "year": 2025
         },
         {
-          "cited_by_count": 2,
+          "cited_by_count": 5,
           "year": 2024
         },
         {
@@ -2043,34 +2202,34 @@
         ],
         [
           2024,
-          2
+          5
         ],
         [
           2025,
-          19
+          21
         ],
         [
           2026,
           13
         ]
       ],
-      "fwci": 3.897,
+      "fwci": 4.057,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
       "keywords": [
-        "Electron",
-        "Scanning transmission electron microscopy",
-        "Detector",
-        "Scanning confocal electron microscopy",
-        "Conventional transmission electron microscope",
-        "Transmission electron microscopy"
+        "direct electron detectors",
+        "active pixel sensor",
+        "scanning transmission electron microscopy",
+        "scanning electron microscopy",
+        "back-illuminated detectors",
+        "single-electron detection"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "hybrid"
     },
     "10.1093/mam/ozaf048.041": {
-      "citation_percentile": 5.059646,
+      "citation_percentile": 5.390335,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -2079,15 +2238,38 @@
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Ptychography",
-        "Tomography",
-        "Electron tomography"
+        "electron ptychography",
+        "3D electron microscopy",
+        "sub-angstrom resolution",
+        "depth of focus",
+        "missing wedge",
+        "tellurium nanoparticles"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
+    "10.1093/mam/ozaf048.044": {
+      "citation_percentile": 19.876889000000002,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": 0.0,
+      "is_oa": false,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "keywords": [
+        "electron ptychography",
+        "Fresnel diffraction",
+        "phase retrieval",
+        "quantitative phase imaging",
+        "amplitude modulator",
+        "phase plate"
+      ],
+      "metrics_updated": "2026-10-05T11:31:30Z",
+      "oa_status": "closed"
+    },
     "10.1093/micmic/ozad067.348": {
-      "citation_percentile": 6.948525,
+      "citation_percentile": 6.988496,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -2096,15 +2278,18 @@
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Crystal twinning",
-        "Electron tomography",
-        "Electron"
+        "palladium nanoparticles",
+        "atomic electron tomography",
+        "decahedral nanoparticles",
+        "icosahedral nanoparticles",
+        "nanoparticle growth",
+        "wet chemical synthesis"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
     "10.1093/micmic/ozad068": {
-      "citation_percentile": 90.740741,
+      "citation_percentile": 90.49676,
       "cited_by_count": 14,
       "counts_by_year": [
         {
@@ -2154,23 +2339,23 @@
           4
         ]
       ],
-      "fwci": 2.7053,
+      "fwci": 2.7319,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
       "keywords": [
-        "Optical sectioning",
-        "Optics",
-        "Parallax",
-        "Dark field microscopy",
-        "Scanning transmission electron microscopy",
-        "Scattering"
+        "parallax method",
+        "contrast transfer function",
+        "point spread function",
+        "shot noise",
+        "doped silicon",
+        "weakly scattering objects"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "hybrid"
     },
     "10.1103/physreva.89.013403": {
-      "citation_percentile": 92.02541199999999,
+      "citation_percentile": 92.172686,
       "cited_by_count": 50,
       "counts_by_year": [
         {
@@ -2260,24 +2445,24 @@
           3
         ]
       ],
-      "fwci": 3.0455,
+      "fwci": 3.1025,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
       "keywords": [
-        "Dication",
-        "Double ionization",
-        "Ionization",
-        "Atomic physics",
-        "Excited state",
-        "Singlet state"
+        "photo-double ionization",
+        "ethylene",
+        "acetylene",
+        "ionization threshold",
+        "conical intersections",
+        "propensity rules"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
     "10.1103/physrevresearch.3.023159": {
-      "citation_percentile": 94.889414,
-      "cited_by_count": 21,
+      "citation_percentile": 94.216974,
+      "cited_by_count": 20,
       "counts_by_year": [
         {
           "cited_by_count": 2,
@@ -2296,7 +2481,7 @@
           "year": 2023
         },
         {
-          "cited_by_count": 5,
+          "cited_by_count": 4,
           "year": 2022
         },
         {
@@ -2319,7 +2504,7 @@
         ],
         [
           2022,
-          5
+          4
         ],
         [
           2023,
@@ -2338,19 +2523,22 @@
           2
         ]
       ],
-      "fwci": 4.013,
+      "fwci": 3.6919,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
       "keywords": [
-        "Scattering",
-        "Optics"
+        "phase contrast imaging",
+        "scanning transmission electron microscopy",
+        "X-ray phase contrast",
+        "multi-walled carbon nanotubes",
+        "3D imaging"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "gold"
     },
     "10.1107/s2053273323085297": {
-      "citation_percentile": 12.936611000000001,
+      "citation_percentile": 13.445091000000001,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -2359,15 +2547,14 @@
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Scanning transmission electron microscopy",
-        "Scattering",
-        "Transmission electron microscopy"
+        "virtual imaging",
+        "electron diffraction"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
     "10.1107/s2053273323093609": {
-      "citation_percentile": 13.146831,
+      "citation_percentile": 13.667465,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -2376,13 +2563,18 @@
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Nanoscopic scale"
+        "4D-STEM",
+        "nanostructures",
+        "3D imaging",
+        "two-dimensional imaging",
+        "electron diffraction",
+        "aberration-corrected electron microscopy"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "bronze"
     },
     "10.1109/msp.2021.3120981": {
-      "citation_percentile": 92.223803,
+      "citation_percentile": 91.594054,
       "cited_by_count": 28,
       "counts_by_year": [
         {
@@ -2440,24 +2632,46 @@
           4
         ]
       ],
-      "fwci": 3.048,
+      "fwci": 2.7934,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
       "keywords": [
-        "Detector",
-        "Scanning transmission electron microscopy",
-        "Frame rate"
+        "4D-STEM",
+        "phase contrast imaging",
+        "direct electron detectors",
+        "scanning transmission electron microscopy",
+        "windowing",
+        "diffraction patterns"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "green"
+    },
+    "10.22443/rms.emc2020.657": {
+      "citation_percentile": 3.5765379999999998,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": 0.0,
+      "is_oa": false,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "keywords": [
+        "ptychography",
+        "depth resolution",
+        "phase retrieval",
+        "3D imaging",
+        "coherent diffraction imaging"
+      ],
+      "metrics_updated": "2026-10-05T11:31:30Z",
+      "oa_status": "closed"
     },
     "10.48550/arxiv.2008.12768": {
       "citation_percentile": null,
-      "cited_by_count": 6,
+      "cited_by_count": 5,
       "counts_by_year": [
         {
-          "cited_by_count": 5,
+          "cited_by_count": 4,
           "year": 2021
         },
         {
@@ -2496,7 +2710,7 @@
         ],
         [
           2021,
-          5
+          4
         ]
       ],
       "fwci": null,
@@ -2504,32 +2718,13 @@
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Scattering",
-        "Optics",
-        "Diffraction",
-        "Wavefront"
+        "scattering matrix",
+        "scanning electron diffraction",
+        "phase contrast imaging",
+        "3D imaging",
+        "material characterization"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
-      "oa_status": "green"
-    },
-    "10.48550/arxiv.2011.07652": {
-      "citation_percentile": null,
-      "cited_by_count": 0,
-      "counts_by_year": [],
-      "counts_by_year_compact": [],
-      "fwci": null,
-      "is_oa": true,
-      "is_top_10_percent": false,
-      "is_top_1_percent": false,
-      "keywords": [
-        "Electron tomography",
-        "Scanning confocal electron microscopy",
-        "Transmission electron microscopy",
-        "Scanning transmission electron microscopy",
-        "Microscopy",
-        "Yttrium"
-      ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "green"
     },
     "10.48550/arxiv.2102.05604": {
@@ -2542,14 +2737,25 @@
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Scalability",
-        "Throughput",
-        "Computational science",
-        "Annotation",
-        "Software",
-        "Parametric statistics"
+        "MapReduce",
+        "high-performance computing",
+        "photoemission spectroscopy",
+        "material characterization"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
+      "oa_status": "green"
+    },
+    "10.48550/arxiv.2308.10870": {
+      "citation_percentile": null,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": null,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "keywords": [],
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "green"
     },
     "10.48550/arxiv.2311.02580": {
@@ -2600,11 +2806,32 @@
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
-        "Electron tomography",
-        "Optics",
-        "Phase-contrast imaging"
+        "electron ptychography",
+        "phase contrast imaging",
+        "depth of field",
+        "4D-STEM",
+        "tilt series reconstruction",
+        "single-atom resolution"
       ],
-      "metrics_updated": "2026-09-05T17:16:21Z",
+      "metrics_updated": "2026-10-05T11:31:30Z",
+      "oa_status": "green"
+    },
+    "10.48550/arxiv.2608.05749": {
+      "citation_percentile": null,
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "counts_by_year_compact": [],
+      "fwci": null,
+      "is_oa": true,
+      "is_top_10_percent": false,
+      "is_top_1_percent": false,
+      "keywords": [
+        "spiral phase plate",
+        "beam purity",
+        "coherent electron beams",
+        "partial coherence"
+      ],
+      "metrics_updated": "2026-10-05T11:31:30Z",
       "oa_status": "green"
     }
   },

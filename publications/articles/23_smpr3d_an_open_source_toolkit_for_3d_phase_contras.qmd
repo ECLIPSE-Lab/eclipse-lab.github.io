@@ -14,8 +14,9 @@ categories:
   - electron microscopy
   - imaging
   # --- begin keyword categories (auto-managed) ---
-  - "phase contrast microscopy"
-  - "open source"
+  - "4d-stem"
+  - "open source software"
+  - "phase contrast tomography"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
@@ -24,9 +25,10 @@ citation_percentile: 9.5
 is_oa: true
 oa_status: bronze
 keywords:
-  - "Phase contrast microscopy"
-  - "Open source"
-metrics_updated: "2026-09-05T17:16:21Z"
+  - "4D-STEM"
+  - "open source software"
+  - "phase contrast tomography"
+metrics_updated: "2026-10-05T11:31:30Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

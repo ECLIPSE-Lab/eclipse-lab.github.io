@@ -16,13 +16,17 @@ categories:
   - chemistry
   - journal article
   # --- begin keyword categories (auto-managed) ---
-  - "transmission electron microscopy"
-  - "electron microscope"
+  - "metal-organic layers"
+  - "liquid cell electron microscopy"
+  - "cryo-electron microscopy"
+  - "electron ptychography"
+  - "layer growth mechanism"
+  - "precursor clusters"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 45
-fwci: 2.81
-citation_percentile: 91.6
+fwci: 2.71
+citation_percentile: 91.2
 is_top_10_percent: true
 is_oa: true
 oa_status: gold
@@ -36,9 +40,13 @@ counts_by_year:
   - [2025, 11]
   - [2026, 5]
 keywords:
-  - "Transmission electron microscopy"
-  - "Electron microscope"
-metrics_updated: "2026-09-05T17:16:21Z"
+  - "metal-organic layers"
+  - "liquid cell electron microscopy"
+  - "cryo-electron microscopy"
+  - "electron ptychography"
+  - "layer growth mechanism"
+  - "precursor clusters"
+metrics_updated: "2026-10-05T11:31:30Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

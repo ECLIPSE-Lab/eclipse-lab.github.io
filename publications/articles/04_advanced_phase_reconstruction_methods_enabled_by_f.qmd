@@ -14,14 +14,15 @@ categories:
   - electron microscopy
   - imaging
   # --- begin keyword categories (auto-managed) ---
-  - "scanning transmission electron microscopy"
-  - "transmission electron microscopy"
-  - "scanning confocal electron microscopy"
+  - "phase retrieval"
+  - "4d-stem"
+  - "phase contrast imaging"
+  - "electron diffraction"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 14
-fwci: 1.03
-citation_percentile: 83.4
+fwci: 1.02
+citation_percentile: 83.1
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -34,10 +35,11 @@ counts_by_year:
   - [2025, 1]
   - [2026, 2]
 keywords:
-  - "Scanning transmission electron microscopy"
-  - "Transmission electron microscopy"
-  - "Scanning confocal electron microscopy"
-metrics_updated: "2026-09-05T17:16:21Z"
+  - "phase retrieval"
+  - "4D-STEM"
+  - "phase contrast imaging"
+  - "electron diffraction"
+metrics_updated: "2026-10-05T11:31:30Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

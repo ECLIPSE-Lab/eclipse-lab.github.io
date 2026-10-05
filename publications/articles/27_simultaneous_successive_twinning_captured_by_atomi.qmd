@@ -15,20 +15,17 @@ categories:
   - atomic resolution
   - journal article
   # --- begin keyword categories (auto-managed) ---
-  - "crystal twinning"
-  - "icosahedral symmetry"
-  - "nanostructure"
-  - "electron tomography"
-  - "nanoparticle"
-  - "atomic units"
+  - "palladium nanoparticles"
+  - "shape-controlled synthesis"
+  - "atomic electron tomography"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 26
-fwci: 3.05
-citation_percentile: 92.2
+fwci: 2.79
+citation_percentile: 91.5
 is_top_10_percent: true
 is_oa: true
-oa_status: green
+oa_status: hybrid
 counts_by_year:
   - [2019, 0]
   - [2020, 0]
@@ -39,13 +36,10 @@ counts_by_year:
   - [2025, 4]
   - [2026, 2]
 keywords:
-  - "Crystal twinning"
-  - "Icosahedral symmetry"
-  - "Nanostructure"
-  - "Electron tomography"
-  - "Nanoparticle"
-  - "Atomic units"
-metrics_updated: "2026-09-05T17:16:21Z"
+  - "palladium nanoparticles"
+  - "shape-controlled synthesis"
+  - "atomic electron tomography"
+metrics_updated: "2026-10-05T11:31:30Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
