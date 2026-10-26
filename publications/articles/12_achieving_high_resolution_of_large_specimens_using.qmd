@@ -21,7 +21,7 @@ categories:
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
-citation_percentile: 7.5
+citation_percentile: 7.6
 is_oa: true
 oa_status: bronze
 keywords:
@@ -29,7 +29,7 @@ keywords:
   - "large specimens"
   - "aberration correction"
   - "electron tomography"
-metrics_updated: "2026-10-12T12:02:49Z"
+metrics_updated: "2026-10-26T10:09:22Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
@@ -41,6 +41,6 @@ Microscopy and Microanalysis 26, 1860-1862
 
 ## Abstract
 
-Aberration-corrected electron microscopy can resolve the smallest atomic bond-lengths in nature [1-3]. However, the high-convergence angles that enable spectacular resolution in 2D can only achieve limited 3D atomic resolution for all but the smallest objects (c.a. 5 - 10 nm). We show aberration-corrected electron tomography can offer new limits to 3D imaging by sampling several focal planes at each specimen tilt. We present a theoretical foundation for aberration-corrected electron tomography by establishing analytic descriptions for resolution, sampling, object size, and dose—with direct analogy to the Crowther-Klug criterion. 2D resolving power to 3D objects >
+[Abstract will be added manually]
 
 

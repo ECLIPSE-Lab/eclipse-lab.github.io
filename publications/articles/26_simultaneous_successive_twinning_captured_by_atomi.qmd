@@ -1,0 +1,55 @@
+---
+title: "Simultaneous Successive Twinning Captured by Atomic Electron Tomography"
+type: "article"
+author: "P. M. Pelz, C. Groschner, A. Bruefach, A. Satariano, C. Ophus, M. C. Scott"
+year: "2022"
+publication: "ACS Nano 16, 588-596"
+preprint: ""
+doi: "10.1021/acsnano.1c07772"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - tomography
+  - atomic resolution
+  - journal article
+  # --- begin keyword categories (auto-managed) ---
+  - "palladium nanoparticles"
+  - "shape-controlled synthesis"
+  - "atomic electron tomography"
+  # --- end keyword categories ---
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 25
+fwci: 1.84
+citation_percentile: 86.7
+is_oa: true
+oa_status: hybrid
+counts_by_year:
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 0]
+  - [2022, 7]
+  - [2023, 4]
+  - [2024, 7]
+  - [2025, 4]
+  - [2026, 3]
+keywords:
+  - "palladium nanoparticles"
+  - "shape-controlled synthesis"
+  - "atomic electron tomography"
+metrics_updated: "2026-10-26T10:09:22Z"
+# --- end citation metrics ---
+---
+## Citation (APA 7)
+
+> Simultaneous Successive Twinning Captured by Atomic Electron Tomography
+P. M. Pelz, C. Groschner, A. Bruefach, A. Satariano, C. Ophus, M. C. Scott
+ACS Nano 16, 588-596
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+

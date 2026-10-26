@@ -21,7 +21,7 @@ categories:
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 1
 fwci: 0.10
-citation_percentile: 45.9
+citation_percentile: 45.6
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -38,7 +38,7 @@ keywords:
   - "depth sectioning"
   - "thick samples"
   - "heterogeneous samples"
-metrics_updated: "2026-10-12T12:02:49Z"
+metrics_updated: "2026-10-26T10:09:22Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

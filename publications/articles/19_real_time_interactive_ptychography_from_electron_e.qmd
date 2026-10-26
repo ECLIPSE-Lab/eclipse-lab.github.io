@@ -1,0 +1,52 @@
+---
+title: "Real-time interactive ptychography from electron event representation data"
+type: "article"
+author: "P. Pelz, P. Ercius, C. Ophus, I. Johnson, M. Scott"
+year: "2021"
+publication: "Microscopy and Microanalysis 27, 188-189"
+preprint: ""
+doi: "10.1017/s1431927621001288"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - ptychography
+  # --- begin keyword categories (auto-managed) ---
+  - "real-time imaging"
+  - "electron diffraction"
+  # --- end keyword categories ---
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 6
+fwci: 0.62
+citation_percentile: 68.6
+is_oa: true
+oa_status: bronze
+counts_by_year:
+  - [2017, 0]
+  - [2018, 0]
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 1]
+  - [2022, 3]
+  - [2023, 1]
+  - [2024, 1]
+keywords:
+  - "ptychography"
+  - "real-time imaging"
+  - "electron diffraction"
+metrics_updated: "2026-10-26T10:09:22Z"
+# --- end citation metrics ---
+---
+## Citation (APA 7)
+
+> Real-time interactive ptychography from electron event representation data
+P. Pelz, P. Ercius, C. Ophus, I. Johnson, M. Scott
+Microscopy and Microanalysis 27, 188-189
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+
