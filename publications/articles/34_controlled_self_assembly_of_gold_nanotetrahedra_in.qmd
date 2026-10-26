@@ -1,0 +1,61 @@
+---
+title: "Controlled Self-Assembly of Gold Nanotetrahedra into Quasicrystals and Complex Periodic Supracrystals"
+type: "article"
+author: "Y. Wang, J. Chen, R. Li, A. Götz, D. Drobek, T. Przybilla, S. Hübner, P. Pelz, L. Yang, B. A. Zubiri, E. Spiecker, M. Engel, X. Ye"
+year: "2023"
+publication: "Journal of the American Chemical Society 145, 17902-17911"
+preprint: ""
+doi: "10.1021/jacs.3c05299"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - nanoparticles
+  - materials science
+  # --- begin keyword categories (auto-managed) ---
+  - "self-assembly"
+  - "quasicrystals"
+  - "supracrystals"
+  - "tetrahedral packing"
+  - "surface curvature"
+  - "surface ligands"
+  # --- end keyword categories ---
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 38
+fwci: 2.67
+citation_percentile: 91.6
+is_top_10_percent: true
+is_oa: true
+oa_status: green
+counts_by_year:
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 0]
+  - [2022, 0]
+  - [2023, 0]
+  - [2024, 14]
+  - [2025, 10]
+  - [2026, 14]
+keywords:
+  - "self-assembly"
+  - "quasicrystals"
+  - "supracrystals"
+  - "tetrahedral packing"
+  - "surface curvature"
+  - "surface ligands"
+metrics_updated: "2026-10-26T10:09:22Z"
+# --- end citation metrics ---
+---
+## Citation (APA 7)
+
+> Controlled Self-Assembly of Gold Nanotetrahedra into Quasicrystals and Complex Periodic Supracrystals
+Y. Wang, J. Chen, R. Li, A. Götz, D. Drobek, T. Przybilla, S. Hübner, P. Pelz, L. Yang, B. A. Zubiri, E. Spiecker, M. Engel, X. Ye
+Journal of the American Chemical Society 145, 17902-17911
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+

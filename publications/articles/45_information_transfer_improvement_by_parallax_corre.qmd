@@ -1,0 +1,49 @@
+---
+title: "Information Transfer Improvement by Parallax Correction and Ptychography Reconstruction Applied to Fast Large-Area 4D STEM Experiments"
+type: "article"
+author: "D. G. Stroppa, S. Ribet, G. Varnavides, C. Ophus, P. Pelz"
+year: "2024"
+publication: "Microscopy and Microanalysis 30"
+preprint: ""
+doi: "10.1093/mam/ozae044.149"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - ptychography
+  - electron microscopy
+  # --- begin keyword categories (auto-managed) ---
+  - "4d-stem"
+  - "parallax correction"
+  - "phase imaging"
+  - "defocus correction"
+  - "image reconstruction"
+  # --- end keyword categories ---
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 0
+fwci: 0.00
+citation_percentile: 20.5
+oa_status: closed
+keywords:
+  - "4D-STEM"
+  - "parallax correction"
+  - "ptychography"
+  - "phase imaging"
+  - "defocus correction"
+  - "image reconstruction"
+metrics_updated: "2026-10-26T10:09:22Z"
+# --- end citation metrics ---
+---
+## Citation (APA 7)
+
+> Information Transfer Improvement by Parallax Correction and Ptychography Reconstruction Applied to Fast Large-Area 4D STEM Experiments
+D. G. Stroppa, S. Ribet, G. Varnavides, C. Ophus, P. Pelz
+Microscopy and Microanalysis 30
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+

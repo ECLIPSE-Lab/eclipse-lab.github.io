@@ -24,7 +24,7 @@ categories:
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
-citation_percentile: 11.6
+citation_percentile: 11.7
 is_oa: true
 oa_status: bronze
 keywords:
@@ -32,7 +32,7 @@ keywords:
   - "HAADF-STEM"
   - "high-resolution TEM"
   - "3D imaging"
-metrics_updated: "2026-10-12T12:02:49Z"
+metrics_updated: "2026-10-26T10:09:22Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
@@ -44,6 +44,6 @@ Microscopy and Microanalysis 25, 394-395
 
 ## Abstract
 
-1. NCEM, Molecular Foundry, Lawrence Berkeley National Laboratory, Berkeley, USA. 2. Dept. of Electrical Engineering and Computer Sciences, Univ. of California Berkeley, Berkeley, USA. 3. Dept. of Physics and Astronomy, Univ. of California Los Angeles, Los Angeles, USA. 4. Dept. of Materials Science and Engineering, Univ. of California Berkeley, Berkeley, USA. * Corresponding author: cophus@gmail.com
+[Abstract will be added manually]
 
 

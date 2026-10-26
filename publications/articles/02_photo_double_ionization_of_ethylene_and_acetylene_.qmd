@@ -22,7 +22,7 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 50
-fwci: 2.84
+fwci: 2.83
 citation_percentile: 91.3
 is_top_10_percent: true
 is_oa: true
@@ -43,7 +43,7 @@ keywords:
   - "ionization threshold"
   - "conical intersections"
   - "propensity rules"
-metrics_updated: "2026-10-12T12:02:49Z"
+metrics_updated: "2026-10-26T10:09:22Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

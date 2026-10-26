@@ -22,7 +22,7 @@ categories:
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 6
 fwci: 0.62
-citation_percentile: 65.2
+citation_percentile: 65.0
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -39,7 +39,7 @@ keywords:
   - "structured illumination"
   - "phase retrieval"
   - "coherent diffraction imaging"
-metrics_updated: "2026-10-12T12:02:49Z"
+metrics_updated: "2026-10-26T10:09:22Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
@@ -51,6 +51,6 @@ Microscopy and Microanalysis 25, 58-59
 
 ## Abstract
 
-1. Institut für Physik & IRIS Adlershof, Humboldt-Universität zu Berlin, Berlin, Germany 2. Max Planck Institute for the Structure and Dynamics of Matter, Center for Free Electron Laser Science, Hamburg, Germany 3. Ernst Ruska-Centre (ER-C) for Microscopy and Spectroscopy with Electrons, Forschungszentrum Jülich, Jülich, Germany 4. CNR-Istituto Nanoscienze, Centro S3, Modena, Italy 5. Departments of Chemistry and Physics, University of Toronto, Toronto, Canada. * Corresponding author: vandenbroek@physik.hu-berlin.de
+[Abstract will be added manually]
 
 

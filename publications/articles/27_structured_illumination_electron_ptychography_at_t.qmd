@@ -1,0 +1,60 @@
+---
+title: "Structured Illumination Electron Ptychography at the Atomic Scale"
+type: "article"
+author: "P. Pelz, H. DeVyldere, P. Ercius, M. Scott"
+year: "2022"
+publication: "Microscopy and Microanalysis 28, 388-390"
+preprint: ""
+doi: "10.1017/s1431927622002288"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - ptychography
+  - atomic resolution
+  # --- begin keyword categories (auto-managed) ---
+  - "electron ptychography"
+  - "structured illumination"
+  - "atomic resolution imaging"
+  - "phase retrieval"
+  - "electron microscopy"
+  - "coherent diffraction imaging"
+  # --- end keyword categories ---
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 3
+fwci: 0.35
+citation_percentile: 56.2
+is_oa: true
+oa_status: bronze
+counts_by_year:
+  - [2017, 0]
+  - [2018, 0]
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 0]
+  - [2022, 0]
+  - [2023, 2]
+  - [2024, 1]
+keywords:
+  - "electron ptychography"
+  - "structured illumination"
+  - "atomic resolution imaging"
+  - "phase retrieval"
+  - "electron microscopy"
+  - "coherent diffraction imaging"
+metrics_updated: "2026-10-26T10:09:22Z"
+# --- end citation metrics ---
+---
+## Citation (APA 7)
+
+> Structured Illumination Electron Ptychography at the Atomic Scale
+P. Pelz, H. DeVyldere, P. Ercius, M. Scott
+Microscopy and Microanalysis 28, 388-390
+
+
+## Abstract
+
+[Abstract will be added manually]
+
+

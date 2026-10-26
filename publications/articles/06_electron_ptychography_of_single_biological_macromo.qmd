@@ -22,8 +22,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 5
-fwci: 0.33
-citation_percentile: 63.1
+fwci: 0.34
+citation_percentile: 63.0
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -41,7 +41,7 @@ keywords:
   - "biological macromolecules"
   - "phase retrieval"
   - "cryo-electron microscopy"
-metrics_updated: "2026-10-12T12:02:49Z"
+metrics_updated: "2026-10-26T10:09:22Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
@@ -53,6 +53,6 @@ Microscopy and Microanalysis 25, 72-73
 
 ## Abstract
 
-1. Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany 2. Department of Chemistry and Physics, University of Toronto, Toronto, Canada 3. Monash Ramaciotti Centre for Cryo-Electron Microscopy, Monash University, Melbourne, VIC, 3800, Australia 4. Department of Biochemistry and Molecular Biology, Monash University, Melbourne, Australia 5. Biomedicine Discovery Institute, Monash University, Melbourne, Australia 6. Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons and Peter Grünberg Institute, Forschungszentrum Jülich, Jülich, Germany 7. Materials Science and Engineering, UC Berkeley, Berkeley, CA 8. Molecular Foundry, Lawrence Berkeley National Laboratory, Berkeley, USA
+[Abstract will be added manually]
 
 
