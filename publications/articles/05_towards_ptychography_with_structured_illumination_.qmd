@@ -21,8 +21,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 6
-fwci: 0.62
-citation_percentile: 65.2
+fwci: 0.66
+citation_percentile: 65.5
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -39,7 +39,7 @@ keywords:
   - "structured illumination"
   - "phase retrieval"
   - "coherent diffraction imaging"
-metrics_updated: "2026-10-12T12:02:49Z"
+metrics_updated: "2026-11-02T12:26:33Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

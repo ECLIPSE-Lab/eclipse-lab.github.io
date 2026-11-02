@@ -10,13 +10,13 @@
 <atom:link href="https://pelzlab.science/news.xml" rel="self" type="application/rss+xml"/>
 <description>Latest news, conference presentations, and lab updates from ECLIPSE Lab at FAU Erlangen-Nürnberg.</description>
 <image>
-<url>https://pelzlab.science/./img/eclipse_header.png</url>
+<url>https://pelzlab.science/img/eclipse_header.png</url>
 <title>ECLIPSE Lab</title>
 <link>https://pelzlab.science/news.html</link>
 <height>74</height>
 <width>144</width>
 </image>
-<generator>quarto-1.10.19</generator>
+<generator>quarto-1.11.9</generator>
 <lastBuildDate>Wed, 30 Sep 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Open PhD Position: Dose-efficient Data Fusion for Crystalline Mapping and Imaging of Functional Thin Films</title>
@@ -213,7 +213,7 @@
   <category>conference</category>
   <guid>https://pelzlab.science/posts/2026-09-27_tms2027/</guid>
   <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://pelzlab.science/posts/2026-09-27_tms2027/tms2027.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://pelzlab.science/posts/2026-09-27_tms2027/tms2027.jpg" medium="image" type="image/jpeg" height="29" width="144"/>
 </item>
 <item>
   <title>OPEN Postdoc position — Multi-modal Sensor Fusion in Electron Microscopy</title>
@@ -406,7 +406,7 @@
   <category>job</category>
   <guid>https://pelzlab.science/posts/2025-09-11_position/</guid>
   <pubDate>Thu, 11 Sep 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://pelzlab.science/posts/2025-09-11_position/4DSTEM_render.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://pelzlab.science/posts/2025-09-11_position/4DSTEM_render.jpg" medium="image" type="image/jpeg" height="169" width="144"/>
 </item>
 <item>
   <title>Open PhD Position: Dose-efficient Data Fusion for Crystalline Mapping and Imaging of Functional Thin Films</title>
@@ -762,7 +762,7 @@
   <category>job</category>
   <guid>https://pelzlab.science/posts/24-04-position/</guid>
   <pubDate>Mon, 15 Jul 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://pelzlab.science/posts/24-04-position/4DSTEM_render.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://pelzlab.science/posts/24-04-position/4DSTEM_render.jpg" medium="image" type="image/jpeg" height="169" width="144"/>
 </item>
 <item>
   <title>Study Commission in “AI for Materials Technology”</title>
@@ -851,7 +851,7 @@
   <category>announcement</category>
   <guid>https://pelzlab.science/posts/radin_joins/</guid>
   <pubDate>Fri, 15 Sep 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://pelzlab.science/posts/radin_joins/radin.jpeg" medium="image" type="image/jpeg"/>
+  <media:content url="https://pelzlab.science/posts/radin_joins/radin.jpeg" medium="image" type="image/jpeg" height="144" width="144"/>
 </item>
 <item>
   <title>Shengbo You joins the team</title>
@@ -912,7 +912,7 @@
   <category>announcement</category>
   <guid>https://pelzlab.science/posts/andrey_joins/</guid>
   <pubDate>Sat, 01 Jul 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://pelzlab.science/posts/andrey_joins/andrey.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://pelzlab.science/posts/andrey_joins/andrey.jpg" medium="image" type="image/jpeg" height="184" width="144"/>
 </item>
 </channel>
 </rss>

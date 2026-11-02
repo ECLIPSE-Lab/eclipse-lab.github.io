@@ -25,7 +25,7 @@ categories:
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 1
 fwci: 0.10
-citation_percentile: 47.6
+citation_percentile: 48.2
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -43,7 +43,7 @@ keywords:
   - "simulation accuracy"
   - "large-scale simulation"
   - "electron diffraction"
-metrics_updated: "2026-10-12T12:02:49Z"
+metrics_updated: "2026-11-02T12:26:33Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
