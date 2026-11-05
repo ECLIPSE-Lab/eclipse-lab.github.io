@@ -22,8 +22,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 5
-fwci: 0.33
-citation_percentile: 63.1
+fwci: 0.37
+citation_percentile: 64.0
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -41,7 +41,7 @@ keywords:
   - "biological macromolecules"
   - "phase retrieval"
   - "cryo-electron microscopy"
-metrics_updated: "2026-10-12T12:02:49Z"
+metrics_updated: "2026-11-02T12:26:33Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

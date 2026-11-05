@@ -21,7 +21,7 @@ categories:
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
-citation_percentile: 7.5
+citation_percentile: 7.6
 is_oa: true
 oa_status: bronze
 keywords:
@@ -29,7 +29,7 @@ keywords:
   - "large specimens"
   - "aberration correction"
   - "electron tomography"
-metrics_updated: "2026-10-12T12:02:49Z"
+metrics_updated: "2026-11-02T12:26:33Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
