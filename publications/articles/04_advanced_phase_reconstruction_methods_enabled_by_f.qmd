@@ -21,8 +21,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 14
-fwci: 0.87
-citation_percentile: 76.2
+fwci: 0.88
+citation_percentile: 75.1
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -39,7 +39,7 @@ keywords:
   - "4D-STEM"
   - "phase contrast imaging"
   - "electron diffraction"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

@@ -1,0 +1,49 @@
+---
+title: "End-to-end reconstruction for cryo electron ptychographic single-particle analysis"
+type: "article"
+author: "S. You, N. Palatkin, S. Shao, P. M. Pelz"
+year: "2026"
+publication: "bioRxiv (Cold Spring Harbor Laboratory)"
+preprint: ""
+doi: "10.64898/2026.10.31.763295"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - ptychography
+  - cryo-EM
+  # --- begin keyword categories (auto-managed) ---
+  - "single-particle analysis"
+  - "end-to-end reconstruction"
+  - "4d-stem"
+  - "protein structure determination"
+  - "hemoglobin"
+  - "apoferritin"
+  # --- end keyword categories ---
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 0
+is_oa: true
+oa_status: green
+keywords:
+  - "single-particle analysis"
+  - "end-to-end reconstruction"
+  - "4D-STEM"
+  - "protein structure determination"
+  - "hemoglobin"
+  - "apoferritin"
+metrics_updated: "2026-11-09T12:54:34Z"
+# --- end citation metrics ---
+---
+## Citation (APA 7)
+
+> End-to-end reconstruction for cryo electron ptychographic single-particle analysis
+S. You, N. Palatkin, S. Shao, P. M. Pelz
+bioRxiv (Cold Spring Harbor Laboratory)
+
+
+## Abstract
+
+Cryo-electron ptychographic (cryo-ptycho) single-particle analysis (SPA) is a diffractive imaging method for protein structure determination. Current reconstruction workflows sequentially reconstruct a 2D phase micrograph from each scan, and then apply conventional SPA software to the resulting projections to obtain a 3D potential map. Here, we introduce End2EndPtychoSPA, an end-to-end reconstruction algorithm that directly fits a 3D electrostatic potential volume and particle poses to 4D-STEM diffraction data using a differentiable multislice forward model. On simulated haemoglobin data where the sequential route recovers initial poses, End2EndPtychoSPA with a learnable vitreous-ice layer reaches 3.22 A resolution against the ground truth (FSC 0.5), compared with 3.41 A for the sequential route. We also compare End2EndPtychoSPA with the sequential route on four published experimental cryo-ptycho SPA datasets. On apoferritin (11,552 particles), the End2EndPtychoSPA map improves agreement with an external atomic model over both our matched sequential route on the same particles and the deposited EMD-19425 half-map mean, and shifts the unmasked half-map FSC 0.143 crossing from 6.83 A to 5.99 A. On T20S, TMV and Phi92, End2EndPtychoSPA does not yet improve upon the 2D route.
+
+

@@ -23,27 +23,28 @@ categories:
   - "3d imaging"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 25
-fwci: 2.20
-citation_percentile: 89.6
+cited_by_count: 28
+fwci: 2.77
+citation_percentile: 91.9
+is_top_10_percent: true
 is_oa: true
 oa_status: gold
 counts_by_year:
   - [2019, 0]
   - [2020, 1]
-  - [2021, 6]
+  - [2021, 8]
   - [2022, 4]
   - [2023, 4]
   - [2024, 7]
   - [2025, 1]
-  - [2026, 2]
+  - [2026, 3]
 keywords:
   - "phase contrast imaging"
   - "scanning transmission electron microscopy"
   - "X-ray phase contrast"
   - "multi-walled carbon nanotubes"
   - "3D imaging"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

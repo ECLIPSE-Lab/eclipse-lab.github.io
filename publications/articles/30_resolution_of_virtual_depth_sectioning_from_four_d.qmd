@@ -22,9 +22,9 @@ categories:
   - "weakly scattering objects"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 13
-fwci: 1.15
-citation_percentile: 82.4
+cited_by_count: 16
+fwci: 1.69
+citation_percentile: 87.9
 is_oa: true
 oa_status: hybrid
 counts_by_year:
@@ -34,8 +34,8 @@ counts_by_year:
   - [2022, 0]
   - [2023, 0]
   - [2024, 5]
-  - [2025, 4]
-  - [2026, 4]
+  - [2025, 5]
+  - [2026, 6]
 keywords:
   - "parallax method"
   - "contrast transfer function"
@@ -43,7 +43,7 @@ keywords:
   - "shot noise"
   - "doped silicon"
   - "weakly scattering objects"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

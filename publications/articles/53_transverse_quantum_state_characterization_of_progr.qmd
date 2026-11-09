@@ -27,7 +27,7 @@ keywords:
   - "beam purity"
   - "coherent electron beams"
   - "partial coherence"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

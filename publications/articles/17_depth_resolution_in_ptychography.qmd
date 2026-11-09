@@ -22,7 +22,7 @@ categories:
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
-citation_percentile: 4.1
+citation_percentile: 3.7
 oa_status: closed
 keywords:
   - "ptychography"
@@ -30,7 +30,7 @@ keywords:
   - "phase retrieval"
   - "3D imaging"
   - "coherent diffraction imaging"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

@@ -22,9 +22,9 @@ categories:
   - "surface ligands"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 38
-fwci: 2.81
-citation_percentile: 92.2
+cited_by_count: 37
+fwci: 2.53
+citation_percentile: 91.0
 is_top_10_percent: true
 is_oa: true
 oa_status: green
@@ -36,7 +36,7 @@ counts_by_year:
   - [2023, 0]
   - [2024, 14]
   - [2025, 10]
-  - [2026, 14]
+  - [2026, 13]
 keywords:
   - "self-assembly"
   - "quasicrystals"
@@ -44,7 +44,7 @@ keywords:
   - "tetrahedral packing"
   - "surface curvature"
   - "surface ligands"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

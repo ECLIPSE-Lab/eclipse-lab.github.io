@@ -24,7 +24,7 @@ categories:
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
-citation_percentile: 13.7
+citation_percentile: 10.2
 is_oa: true
 oa_status: bronze
 keywords:
@@ -34,7 +34,7 @@ keywords:
   - "icosahedral nanoparticles"
   - "nanoparticle growth"
   - "wet chemical synthesis"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

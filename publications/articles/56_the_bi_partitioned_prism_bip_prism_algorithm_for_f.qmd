@@ -1,0 +1,47 @@
+---
+title: "The bi-partitioned PRISM (BiP-PRISM) algorithm for fast and scalable core-loss STEM-EELS simulations"
+type: "article"
+author: "P. Pelz"
+year: "2026"
+publication: "Journal of Physics: Materials"
+preprint: ""
+doi: "10.1088/2515-7639/aebdd0"
+materials: ""
+code_url: ""
+project_page_url: ""
+toc: false
+categories:
+  - electron microscopy
+  - software
+  - computational
+  - journal article
+  # --- begin keyword categories (auto-managed) ---
+  - "natural neighbor interpolation"
+  - "memory-efficient simulation"
+  - "gpu memory reduction"
+  # --- end keyword categories ---
+# --- citation metrics (auto-managed; do not edit) ---
+cited_by_count: 0
+fwci: 0.00
+citation_percentile: 31.5
+is_oa: true
+oa_status: gold
+keywords:
+  - "natural neighbor interpolation"
+  - "memory-efficient simulation"
+  - "GPU memory reduction"
+metrics_updated: "2026-11-09T12:54:34Z"
+# --- end citation metrics ---
+---
+## Citation (APA 7)
+
+> The bi-partitioned PRISM (BiP-PRISM) algorithm for fast and scalable core-loss STEM-EELS simulations
+P. Pelz
+Journal of Physics: Materials
+
+
+## Abstract
+
+Quantitative interpretation of atomic-resolution STEM-EELS requires dynamical simulation of the electron probe before and after core-loss transitions, which is computationally expensive. While the PRISM algorithm accelerates this by reusing scattering matrices, we introduce beam partitioning for both the probe-forming (S₁) and detector-propagating (S₂) PRISM matrices to further reduce computational and memory costs. Each matrix is calculated on a sparse set of parent beams and reconstructed via natural-neighbor interpolation locally at the ionized atom. A locality result shows that the interpolation error enters the simulation only through the reconstruction on that window, so the error is controlled by on-window diagnostics rather than by the probe error across the full field of view. The resulting BiP-PRISM algorithm removes per-scan exit wave propagation and significantly reduces memory requirements, enabling full-resolution elemental mapping within the memory budget of a single GPU. The same formulation also supports energy-filtered 4D datasets and momentum-resolved output as reductions over the detector beams, which we demonstrate at demonstration scale rather than benchmark at full resolution. We characterize the approximation's validity regime and demonstrate the simulation of a map of five elements across an oxide interface. In a FePt nanoparticle, 61 parent beams per matrix reduce peak memory from 63.18 to 2.91 GB, with 1.67% relative error against the unpartitioned reference at the same PRISM factor and a 1.62-fold speed-up.
+
+

@@ -23,9 +23,9 @@ categories:
   - "sub-angstrom resolution"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 12
-fwci: 2.20
-citation_percentile: 88.7
+cited_by_count: 13
+fwci: 2.12
+citation_percentile: 89.0
 is_oa: true
 oa_status: hybrid
 counts_by_year:
@@ -36,13 +36,13 @@ counts_by_year:
   - [2023, 0]
   - [2024, 2]
   - [2025, 8]
-  - [2026, 2]
+  - [2026, 3]
 keywords:
   - "phase contrast imaging"
   - "4D-STEM"
   - "core-shell nanoparticles"
   - "sub-angstrom resolution"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

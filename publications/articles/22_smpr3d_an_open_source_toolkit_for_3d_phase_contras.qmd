@@ -21,14 +21,14 @@ categories:
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
-citation_percentile: 22.6
+citation_percentile: 17.2
 is_oa: true
 oa_status: bronze
 keywords:
   - "4D-STEM"
   - "open source software"
   - "phase contrast tomography"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
