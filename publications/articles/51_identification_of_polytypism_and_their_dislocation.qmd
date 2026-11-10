@@ -22,9 +22,9 @@ categories:
   - "van der waals materials"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 3
-fwci: 0.64
-citation_percentile: 59.3
+cited_by_count: 4
+fwci: 0.75
+citation_percentile: 63.2
 is_oa: true
 oa_status: gold
 counts_by_year:
@@ -35,7 +35,7 @@ counts_by_year:
   - [2023, 0]
   - [2024, 0]
   - [2025, 0]
-  - [2026, 3]
+  - [2026, 4]
 keywords:
   - "bilayer MoS2"
   - "polytypism"
@@ -43,7 +43,7 @@ keywords:
   - "dislocations"
   - "partial dislocations"
   - "van der Waals materials"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

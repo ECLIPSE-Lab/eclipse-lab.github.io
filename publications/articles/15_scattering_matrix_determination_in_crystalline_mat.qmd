@@ -24,27 +24,27 @@ categories:
   - "atomic resolution structure determination"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 8
-fwci: 0.74
-citation_percentile: 71.9
+cited_by_count: 10
+fwci: 0.84
+citation_percentile: 73.0
 is_oa: true
 oa_status: green
 counts_by_year:
-  - [2018, 0]
   - [2019, 0]
   - [2020, 0]
   - [2021, 1]
   - [2022, 1]
   - [2023, 3]
   - [2024, 2]
-  - [2025, 1]
+  - [2025, 2]
+  - [2026, 1]
 keywords:
   - "scattering matrix"
   - "multiple scattering"
   - "crystalline materials"
   - "shot noise"
   - "atomic resolution structure determination"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

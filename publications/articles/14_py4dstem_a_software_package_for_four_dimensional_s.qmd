@@ -22,28 +22,28 @@ categories:
   - "open source software"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 355
-fwci: 20.09
-citation_percentile: 99.6
+cited_by_count: 406
+fwci: 25.40
+citation_percentile: 99.7
 is_top_1_percent: true
 is_top_10_percent: true
 is_oa: true
 oa_status: hybrid
 counts_by_year:
   - [2019, 0]
-  - [2020, 1]
-  - [2021, 18]
-  - [2022, 32]
-  - [2023, 56]
-  - [2024, 83]
-  - [2025, 85]
-  - [2026, 80]
+  - [2020, 7]
+  - [2021, 29]
+  - [2022, 38]
+  - [2023, 60]
+  - [2024, 84]
+  - [2025, 91]
+  - [2026, 97]
 keywords:
   - "4D-STEM"
   - "electron diffraction"
   - "HDF5"
   - "open source software"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

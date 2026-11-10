@@ -19,15 +19,24 @@ categories:
   - "material characterization"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 0
+cited_by_count: 1
 is_oa: true
 oa_status: green
+counts_by_year:
+  - [2015, 0]
+  - [2016, 0]
+  - [2017, 0]
+  - [2018, 0]
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 0]
+  - [2022, 1]
 keywords:
   - "MapReduce"
   - "high-performance computing"
   - "photoemission spectroscopy"
   - "material characterization"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

@@ -17,9 +17,9 @@ categories:
   - "electron diffraction"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 6
-fwci: 0.64
-citation_percentile: 69.7
+cited_by_count: 7
+fwci: 0.84
+citation_percentile: 72.4
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -29,13 +29,13 @@ counts_by_year:
   - [2020, 0]
   - [2021, 1]
   - [2022, 3]
-  - [2023, 1]
+  - [2023, 2]
   - [2024, 1]
 keywords:
   - "ptychography"
   - "real-time imaging"
   - "electron diffraction"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

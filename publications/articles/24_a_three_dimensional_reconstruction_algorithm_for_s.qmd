@@ -25,15 +25,15 @@ categories:
   - "depth sectioning"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 14
-fwci: 1.61
-citation_percentile: 83.5
+cited_by_count: 16
+fwci: 1.73
+citation_percentile: 84.6
 is_oa: true
 oa_status: green
 counts_by_year:
   - [2019, 0]
   - [2020, 0]
-  - [2021, 0]
+  - [2021, 2]
   - [2022, 3]
   - [2023, 3]
   - [2024, 6]
@@ -46,7 +46,7 @@ keywords:
   - "yttria-stabilized zirconia"
   - "heterostructures"
   - "depth sectioning"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

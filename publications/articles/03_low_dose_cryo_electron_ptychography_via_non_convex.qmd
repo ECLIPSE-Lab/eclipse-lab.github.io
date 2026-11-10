@@ -23,9 +23,9 @@ categories:
   - "biological macromolecules"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 83
-fwci: 2.60
-citation_percentile: 91.7
+cited_by_count: 84
+fwci: 2.65
+citation_percentile: 92.0
 is_top_10_percent: true
 is_oa: true
 oa_status: gold
@@ -36,8 +36,8 @@ counts_by_year:
   - [2022, 10]
   - [2023, 20]
   - [2024, 11]
-  - [2025, 9]
-  - [2026, 3]
+  - [2025, 10]
+  - [2026, 4]
 keywords:
   - "electron ptychography"
   - "low-dose imaging"
@@ -45,7 +45,7 @@ keywords:
   - "cryo-electron microscopy"
   - "single-particle reconstruction"
   - "biological macromolecules"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

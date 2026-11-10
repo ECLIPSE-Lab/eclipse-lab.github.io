@@ -24,9 +24,9 @@ categories:
   - "atomic resolution imaging"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 8
-fwci: 1.46
-citation_percentile: 83.2
+cited_by_count: 9
+fwci: 1.47
+citation_percentile: 83.1
 is_oa: true
 oa_status: gold
 counts_by_year:
@@ -37,7 +37,7 @@ counts_by_year:
   - [2023, 0]
   - [2024, 0]
   - [2025, 6]
-  - [2026, 2]
+  - [2026, 3]
 keywords:
   - "electron ptychography"
   - "phase contrast electron microscopy"
@@ -45,7 +45,7 @@ keywords:
   - "axial resolution"
   - "4D-STEM"
   - "atomic resolution imaging"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

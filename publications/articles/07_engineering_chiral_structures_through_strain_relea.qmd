@@ -21,8 +21,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 1
-fwci: 0.12
-citation_percentile: 48.7
+fwci: 0.13
+citation_percentile: 45.7
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -38,7 +38,7 @@ keywords:
   - "chiral nanostructures"
   - "strain release"
   - "electron tomography"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

@@ -22,9 +22,9 @@ categories:
   - "single-electron detection"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 39
-fwci: 6.96
-citation_percentile: 98.0
+cited_by_count: 44
+fwci: 7.01
+citation_percentile: 98.2
 is_top_10_percent: true
 is_oa: true
 oa_status: hybrid
@@ -34,9 +34,9 @@ counts_by_year:
   - [2021, 0]
   - [2022, 0]
   - [2023, 1]
-  - [2024, 4]
-  - [2025, 21]
-  - [2026, 13]
+  - [2024, 3]
+  - [2025, 22]
+  - [2026, 18]
 keywords:
   - "direct electron detectors"
   - "active pixel sensor"
@@ -44,7 +44,7 @@ keywords:
   - "scanning electron microscopy"
   - "back-illuminated detectors"
   - "single-electron detection"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

@@ -24,9 +24,9 @@ categories:
   - "misfit dislocations"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 17
-fwci: 1.25
-citation_percentile: 76.9
+cited_by_count: 18
+fwci: 1.23
+citation_percentile: 76.6
 is_oa: true
 oa_status: hybrid
 counts_by_year:
@@ -34,7 +34,7 @@ counts_by_year:
   - [2020, 0]
   - [2021, 0]
   - [2022, 0]
-  - [2023, 0]
+  - [2023, 1]
   - [2024, 3]
   - [2025, 7]
   - [2026, 7]
@@ -45,7 +45,7 @@ keywords:
   - "van der Waals semiconductors"
   - "strain relaxation"
   - "misfit dislocations"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

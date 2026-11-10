@@ -24,9 +24,9 @@ categories:
   - "beam-sensitive materials"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 11
-fwci: 0.98
-citation_percentile: 80.7
+cited_by_count: 13
+fwci: 1.37
+citation_percentile: 84.8
 is_oa: true
 oa_status: gold
 counts_by_year:
@@ -36,8 +36,8 @@ counts_by_year:
   - [2022, 0]
   - [2023, 0]
   - [2024, 6]
-  - [2025, 3]
-  - [2026, 2]
+  - [2025, 4]
+  - [2026, 3]
 keywords:
   - "hybrid pixel detectors"
   - "4D-STEM"
@@ -45,7 +45,7 @@ keywords:
   - "nanocrystals"
   - "π-π stacking"
   - "beam-sensitive materials"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

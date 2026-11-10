@@ -22,18 +22,28 @@ categories:
   - "dose efficiency"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 0
-fwci: 0.00
-citation_percentile: 34.8
+cited_by_count: 3
+fwci: 4.53
+citation_percentile: 95.5
+is_top_10_percent: true
 is_oa: true
 oa_status: gold
+counts_by_year:
+  - [2019, 0]
+  - [2020, 0]
+  - [2021, 0]
+  - [2022, 0]
+  - [2023, 0]
+  - [2024, 0]
+  - [2025, 0]
+  - [2026, 3]
 keywords:
   - "4D-STEM"
   - "dark-field imaging"
   - "ptychography"
   - "Wiener filter"
   - "dose efficiency"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

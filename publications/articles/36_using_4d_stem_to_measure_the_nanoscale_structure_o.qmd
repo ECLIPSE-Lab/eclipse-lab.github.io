@@ -25,7 +25,7 @@ categories:
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 0
 fwci: 0.00
-citation_percentile: 29.2
+citation_percentile: 29.5
 is_oa: true
 oa_status: bronze
 keywords:
@@ -35,7 +35,7 @@ keywords:
   - "two-dimensional imaging"
   - "electron diffraction"
   - "aberration-corrected electron microscopy"
-metrics_updated: "2026-11-02T12:26:33Z"
+metrics_updated: "2026-11-09T12:54:34Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
