@@ -23,10 +23,9 @@ categories:
   - "diffraction patterns"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 29
-fwci: 2.41
-citation_percentile: 90.5
-is_top_10_percent: true
+cited_by_count: 30
+fwci: 2.38
+citation_percentile: 89.9
 is_oa: true
 oa_status: green
 counts_by_year:
@@ -37,7 +36,7 @@ counts_by_year:
   - [2023, 11]
   - [2024, 4]
   - [2025, 4]
-  - [2026, 5]
+  - [2026, 6]
 keywords:
   - "4D-STEM"
   - "phase contrast imaging"
@@ -45,7 +44,7 @@ keywords:
   - "scanning transmission electron microscopy"
   - "windowing"
   - "diffraction patterns"
-metrics_updated: "2026-11-09T12:54:34Z"
+metrics_updated: "2026-11-16T12:47:49Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

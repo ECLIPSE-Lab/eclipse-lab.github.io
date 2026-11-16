@@ -1,9 +1,9 @@
 {
   "count": 56,
-  "generated_at": "2026-11-09T12:54:34Z",
+  "generated_at": "2026-11-16T12:47:49Z",
   "metrics": {
     "10.1002/advs.76620": {
-      "citation_percentile": 95.485327,
+      "citation_percentile": 92.445439,
       "cited_by_count": 3,
       "counts_by_year": [
         {
@@ -45,7 +45,7 @@
           3
         ]
       ],
-      "fwci": 4.5307,
+      "fwci": 3.9354,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -56,15 +56,15 @@
         "Wiener filter",
         "dose efficiency"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "gold"
     },
     "10.1016/j.micron.2021.103141": {
-      "citation_percentile": 98.638204,
-      "cited_by_count": 98,
+      "citation_percentile": 98.528871,
+      "cited_by_count": 99,
       "counts_by_year": [
         {
-          "cited_by_count": 12,
+          "cited_by_count": 13,
           "year": 2026
         },
         {
@@ -123,10 +123,10 @@
         ],
         [
           2026,
-          12
+          13
         ]
       ],
-      "fwci": 7.9438,
+      "fwci": 7.8575,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -138,11 +138,11 @@
         "aberration-corrected STEM",
         "atomic resolution imaging"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "hybrid"
     },
     "10.1017/s1431927619000783": {
-      "citation_percentile": 75.11391499999999,
+      "citation_percentile": 73.974044,
       "cited_by_count": 14,
       "counts_by_year": [
         {
@@ -208,7 +208,7 @@
           2
         ]
       ],
-      "fwci": 0.8827,
+      "fwci": 0.883,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -218,11 +218,11 @@
         "phase contrast imaging",
         "electron diffraction"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927619001028": {
-      "citation_percentile": 63.805392000000005,
+      "citation_percentile": 60.857366,
       "cited_by_count": 6,
       "counts_by_year": [
         {
@@ -268,7 +268,7 @@
           3
         ]
       ],
-      "fwci": 0.6234,
+      "fwci": 0.6184,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -278,12 +278,12 @@
         "phase retrieval",
         "coherent diffraction imaging"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927619001090": {
-      "citation_percentile": 61.268840000000004,
-      "cited_by_count": 5,
+      "citation_percentile": 63.645943,
+      "cited_by_count": 6,
       "counts_by_year": [
         {
           "cited_by_count": 2,
@@ -296,12 +296,16 @@
         {
           "cited_by_count": 1,
           "year": 2020
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2019
         }
       ],
       "counts_by_year_compact": [
         [
           2019,
-          0
+          1
         ],
         [
           2020,
@@ -332,7 +336,7 @@
           2
         ]
       ],
-      "fwci": 0.3783,
+      "fwci": 0.5029,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -343,11 +347,11 @@
         "phase retrieval",
         "cryo-electron microscopy"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927619002708": {
-      "citation_percentile": 9.288468,
+      "citation_percentile": 0.0,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -361,11 +365,11 @@
         "high-resolution TEM",
         "3D imaging"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927619009759": {
-      "citation_percentile": 45.671223,
+      "citation_percentile": 41.833509,
       "cited_by_count": 1,
       "counts_by_year": [
         {
@@ -407,7 +411,7 @@
           1
         ]
       ],
-      "fwci": 0.1261,
+      "fwci": 0.1257,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -416,11 +420,11 @@
         "strain release",
         "electron tomography"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927620014725": {
-      "citation_percentile": 41.453831,
+      "citation_percentile": 35.399285000000006,
       "cited_by_count": 1,
       "counts_by_year": [
         {
@@ -462,7 +466,7 @@
           1
         ]
       ],
-      "fwci": 0.0952,
+      "fwci": 0.0927,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -473,11 +477,11 @@
         "large-scale simulation",
         "electron diffraction"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927620014749": {
-      "citation_percentile": 40.392927,
+      "citation_percentile": 35.399285000000006,
       "cited_by_count": 1,
       "counts_by_year": [
         {
@@ -519,7 +523,7 @@
           1
         ]
       ],
-      "fwci": 0.0952,
+      "fwci": 0.0927,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -529,11 +533,11 @@
         "thick samples",
         "heterogeneous samples"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927620019625": {
-      "citation_percentile": 7.347741000000001,
+      "citation_percentile": 0.0,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -547,12 +551,12 @@
         "aberration correction",
         "electron tomography"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927620019753": {
-      "citation_percentile": 94.263261,
-      "cited_by_count": 37,
+      "citation_percentile": 93.921335,
+      "cited_by_count": 38,
       "counts_by_year": [
         {
           "cited_by_count": 2,
@@ -563,7 +567,7 @@
           "year": 2025
         },
         {
-          "cited_by_count": 3,
+          "cited_by_count": 4,
           "year": 2024
         },
         {
@@ -602,7 +606,7 @@
         ],
         [
           2024,
-          3
+          4
         ],
         [
           2025,
@@ -613,7 +617,7 @@
           2
         ]
       ],
-      "fwci": 2.8548,
+      "fwci": 2.781,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -621,27 +625,27 @@
         "4D-STEM",
         "electron diffraction"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621000477": {
-      "citation_percentile": 99.70555800000001,
-      "cited_by_count": 406,
+      "citation_percentile": 99.701381,
+      "cited_by_count": 422,
       "counts_by_year": [
         {
-          "cited_by_count": 97,
+          "cited_by_count": 108,
           "year": 2026
         },
         {
-          "cited_by_count": 91,
+          "cited_by_count": 92,
           "year": 2025
         },
         {
-          "cited_by_count": 84,
+          "cited_by_count": 85,
           "year": 2024
         },
         {
-          "cited_by_count": 60,
+          "cited_by_count": 61,
           "year": 2023
         },
         {
@@ -649,12 +653,16 @@
           "year": 2022
         },
         {
-          "cited_by_count": 29,
+          "cited_by_count": 30,
           "year": 2021
         },
         {
           "cited_by_count": 7,
           "year": 2020
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2014
         }
       ],
       "counts_by_year_compact": [
@@ -668,7 +676,7 @@
         ],
         [
           2021,
-          29
+          30
         ],
         [
           2022,
@@ -676,22 +684,22 @@
         ],
         [
           2023,
-          60
+          61
         ],
         [
           2024,
-          84
+          85
         ],
         [
           2025,
-          91
+          92
         ],
         [
           2026,
-          97
+          108
         ]
       ],
-      "fwci": 25.3962,
+      "fwci": 25.1533,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": true,
@@ -701,11 +709,11 @@
         "HDF5",
         "open source software"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "hybrid"
     },
     "10.1017/s1431927621000490": {
-      "citation_percentile": 73.021715,
+      "citation_percentile": 71.26989999999999,
       "cited_by_count": 10,
       "counts_by_year": [
         {
@@ -767,7 +775,7 @@
           1
         ]
       ],
-      "fwci": 0.8425,
+      "fwci": 0.8338,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -778,11 +786,11 @@
         "shot noise",
         "atomic resolution structure determination"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "green"
     },
     "10.1017/s1431927621000635": {
-      "citation_percentile": 10.047847,
+      "citation_percentile": 0.0,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -795,11 +803,11 @@
         "materials science applications",
         "electron diffraction"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621001288": {
-      "citation_percentile": 72.35922000000001,
+      "citation_percentile": 71.423317,
       "cited_by_count": 7,
       "counts_by_year": [
         {
@@ -853,7 +861,7 @@
           1
         ]
       ],
-      "fwci": 0.8425,
+      "fwci": 0.8334,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -862,11 +870,11 @@
         "real-time imaging",
         "electron diffraction"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621004773": {
-      "citation_percentile": 12.256165,
+      "citation_percentile": 0.0,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -882,11 +890,11 @@
         "natural neighbor interpolation",
         "simulation acceleration"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621005638": {
-      "citation_percentile": 17.15127,
+      "citation_percentile": 0.0,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -899,11 +907,11 @@
         "open source software",
         "phase contrast tomography"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927621012083": {
-      "citation_percentile": 84.284137,
+      "citation_percentile": 83.85783,
       "cited_by_count": 19,
       "counts_by_year": [
         {
@@ -965,7 +973,7 @@
           2
         ]
       ],
-      "fwci": 1.6851,
+      "fwci": 1.6675,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -975,11 +983,11 @@
         "electron scattering simulation",
         "computational efficiency"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "hybrid"
     },
     "10.1017/s1431927622002288": {
-      "citation_percentile": 57.12520599999999,
+      "citation_percentile": 54.372151,
       "cited_by_count": 3,
       "counts_by_year": [
         {
@@ -1025,7 +1033,7 @@
           1
         ]
       ],
-      "fwci": 0.3989,
+      "fwci": 0.3935,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -1037,11 +1045,11 @@
         "electron microscopy",
         "coherent diffraction imaging"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927622009576": {
-      "citation_percentile": 17.298188,
+      "citation_percentile": 0.0,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -1055,12 +1063,12 @@
         "ptychography",
         "low-Z materials"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1017/s1431927622012090": {
-      "citation_percentile": 84.555189,
-      "cited_by_count": 16,
+      "citation_percentile": 83.673469,
+      "cited_by_count": 17,
       "counts_by_year": [
         {
           "cited_by_count": 1,
@@ -1083,7 +1091,7 @@
           "year": 2022
         },
         {
-          "cited_by_count": 2,
+          "cited_by_count": 3,
           "year": 2021
         }
       ],
@@ -1098,7 +1106,7 @@
         ],
         [
           2021,
-          2
+          3
         ],
         [
           2022,
@@ -1121,7 +1129,7 @@
           1
         ]
       ],
-      "fwci": 1.7287,
+      "fwci": 1.6995,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -1133,15 +1141,15 @@
         "heterostructures",
         "depth sectioning"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "green"
     },
     "10.1021/acsnano.1c07772": {
-      "citation_percentile": 89.04411800000001,
-      "cited_by_count": 27,
+      "citation_percentile": 88.27229,
+      "cited_by_count": 28,
       "counts_by_year": [
         {
-          "cited_by_count": 5,
+          "cited_by_count": 6,
           "year": 2026
         },
         {
@@ -1192,10 +1200,10 @@
         ],
         [
           2026,
-          5
+          6
         ]
       ],
-      "fwci": 2.1474,
+      "fwci": 2.1457,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -1204,15 +1212,15 @@
         "shape-controlled synthesis",
         "atomic electron tomography"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "hybrid"
     },
     "10.1021/acsnano.3c04283": {
-      "citation_percentile": 76.601034,
-      "cited_by_count": 18,
+      "citation_percentile": 76.33497700000001,
+      "cited_by_count": 19,
       "counts_by_year": [
         {
-          "cited_by_count": 7,
+          "cited_by_count": 8,
           "year": 2026
         },
         {
@@ -1259,10 +1267,10 @@
         ],
         [
           2026,
-          7
+          8
         ]
       ],
-      "fwci": 1.231,
+      "fwci": 1.2724,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -1274,12 +1282,12 @@
         "strain relaxation",
         "misfit dislocations"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "hybrid"
     },
     "10.1021/jacs.3c05299": {
-      "citation_percentile": 90.95344300000001,
-      "cited_by_count": 37,
+      "citation_percentile": 90.82050000000001,
+      "cited_by_count": 38,
       "counts_by_year": [
         {
           "cited_by_count": 13,
@@ -1292,6 +1300,10 @@
         {
           "cited_by_count": 14,
           "year": 2024
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2023
         }
       ],
       "counts_by_year_compact": [
@@ -1313,7 +1325,7 @@
         ],
         [
           2023,
-          0
+          1
         ],
         [
           2024,
@@ -1328,7 +1340,7 @@
           13
         ]
       ],
-      "fwci": 2.5303,
+      "fwci": 2.5447,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -1340,11 +1352,11 @@
         "surface curvature",
         "surface ligands"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "green"
     },
     "10.1021/jacs.5c12614": {
-      "citation_percentile": 75.18664000000001,
+      "citation_percentile": 70.385039,
       "cited_by_count": 6,
       "counts_by_year": [
         {
@@ -1386,7 +1398,7 @@
           6
         ]
       ],
-      "fwci": 1.1237,
+      "fwci": 1.0616,
       "is_oa": false,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -1397,19 +1409,19 @@
         "localized surface plasmon resonance",
         "surface-enhanced Raman scattering"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "closed"
     },
     "10.1038/s41467-022-32330-z": {
-      "citation_percentile": 96.04612900000001,
-      "cited_by_count": 43,
+      "citation_percentile": 95.918367,
+      "cited_by_count": 46,
       "counts_by_year": [
         {
-          "cited_by_count": 5,
+          "cited_by_count": 7,
           "year": 2026
         },
         {
-          "cited_by_count": 11,
+          "cited_by_count": 12,
           "year": 2025
         },
         {
@@ -1452,14 +1464,14 @@
         ],
         [
           2025,
-          11
+          12
         ],
         [
           2026,
-          5
+          7
         ]
       ],
-      "fwci": 5.0532,
+      "fwci": 5.0984,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -1471,19 +1483,19 @@
         "layer growth mechanism",
         "precursor clusters"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "gold"
     },
     "10.1038/s41467-023-39304-9": {
-      "citation_percentile": 96.264856,
-      "cited_by_count": 38,
+      "citation_percentile": 96.58848599999999,
+      "cited_by_count": 43,
       "counts_by_year": [
         {
-          "cited_by_count": 13,
+          "cited_by_count": 17,
           "year": 2026
         },
         {
-          "cited_by_count": 13,
+          "cited_by_count": 14,
           "year": 2025
         },
         {
@@ -1522,14 +1534,14 @@
         ],
         [
           2025,
-          13
+          14
         ],
         [
           2026,
-          13
+          17
         ]
       ],
-      "fwci": 4.0071,
+      "fwci": 4.3273,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -1541,19 +1553,19 @@
         "core electrons",
         "valence electrons"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "gold"
     },
     "10.1038/s41467-023-43634-z": {
-      "citation_percentile": 98.259762,
-      "cited_by_count": 59,
+      "citation_percentile": 98.208955,
+      "cited_by_count": 62,
       "counts_by_year": [
         {
           "cited_by_count": 14,
           "year": 2026
         },
         {
-          "cited_by_count": 26,
+          "cited_by_count": 27,
           "year": 2025
         },
         {
@@ -1561,7 +1573,7 @@
           "year": 2024
         },
         {
-          "cited_by_count": 4,
+          "cited_by_count": 6,
           "year": 2023
         },
         {
@@ -1588,7 +1600,7 @@
         ],
         [
           2023,
-          4
+          6
         ],
         [
           2024,
@@ -1596,14 +1608,14 @@
         ],
         [
           2025,
-          26
+          27
         ],
         [
           2026,
           14
         ]
       ],
-      "fwci": 6.1161,
+      "fwci": 6.144,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -1613,19 +1625,19 @@
         "three-dimensional atomic structure",
         "tilt series reconstruction"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "gold"
     },
     "10.1038/s41598-017-07488-y": {
-      "citation_percentile": 91.95088700000001,
-      "cited_by_count": 84,
+      "citation_percentile": 92.368241,
+      "cited_by_count": 89,
       "counts_by_year": [
         {
-          "cited_by_count": 4,
+          "cited_by_count": 6,
           "year": 2026
         },
         {
-          "cited_by_count": 10,
+          "cited_by_count": 11,
           "year": 2025
         },
         {
@@ -1649,7 +1661,7 @@
           "year": 2020
         },
         {
-          "cited_by_count": 9,
+          "cited_by_count": 10,
           "year": 2019
         },
         {
@@ -1659,12 +1671,16 @@
         {
           "cited_by_count": 1,
           "year": 2017
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2016
         }
       ],
       "counts_by_year_compact": [
         [
           2019,
-          9
+          10
         ],
         [
           2020,
@@ -1688,14 +1704,14 @@
         ],
         [
           2025,
-          10
+          11
         ],
         [
           2026,
-          4
+          6
         ]
       ],
-      "fwci": 2.6498,
+      "fwci": 2.7411,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -1707,16 +1723,20 @@
         "single-particle reconstruction",
         "biological macromolecules"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "gold"
     },
     "10.1038/s41699-025-00575-z": {
-      "citation_percentile": 63.16455199999999,
-      "cited_by_count": 4,
+      "citation_percentile": 65.143705,
+      "cited_by_count": 5,
       "counts_by_year": [
         {
           "cited_by_count": 4,
           "year": 2026
+        },
+        {
+          "cited_by_count": 1,
+          "year": 2025
         }
       ],
       "counts_by_year_compact": [
@@ -1746,14 +1766,14 @@
         ],
         [
           2025,
-          0
+          1
         ],
         [
           2026,
           4
         ]
       ],
-      "fwci": 0.7491,
+      "fwci": 0.8895,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -1765,11 +1785,11 @@
         "partial dislocations",
         "van der Waals materials"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "gold"
     },
     "10.1051/bioconf/202412904027": {
-      "citation_percentile": 37.966468,
+      "citation_percentile": 0.0,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -1785,11 +1805,11 @@
         "information transmission",
         "phase retrieval"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "diamond"
     },
     "10.1051/bioconf/202412907006": {
-      "citation_percentile": 8.333333,
+      "citation_percentile": 0.0,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -1804,11 +1824,11 @@
         "nano-crystalline thin films",
         "nanostructured materials"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "diamond"
     },
     "10.1063/1.4904943": {
-      "citation_percentile": 98.636845,
+      "citation_percentile": 98.56125,
       "cited_by_count": 142,
       "counts_by_year": [
         {
@@ -1898,7 +1918,7 @@
           8
         ]
       ],
-      "fwci": 9.2203,
+      "fwci": 8.906,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -1907,11 +1927,11 @@
         "scan time reduction",
         "nanometer resolution imaging"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "green"
     },
     "10.1063/5.0169788": {
-      "citation_percentile": 82.088285,
+      "citation_percentile": 79.957356,
       "cited_by_count": 11,
       "counts_by_year": [
         {
@@ -1965,7 +1985,7 @@
           2
         ]
       ],
-      "fwci": 1.1599,
+      "fwci": 1.107,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -1977,11 +1997,11 @@
         "permalloy",
         "off-axis electron holography"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "hybrid"
     },
     "10.1088/1402-4896/ad9a1a": {
-      "citation_percentile": 89.03930100000001,
+      "citation_percentile": 87.142228,
       "cited_by_count": 13,
       "counts_by_year": [
         {
@@ -2031,7 +2051,7 @@
           3
         ]
       ],
-      "fwci": 2.1207,
+      "fwci": 2.097,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -2041,11 +2061,11 @@
         "core-shell nanoparticles",
         "sub-angstrom resolution"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "hybrid"
     },
     "10.1088/2515-7639/acf524": {
-      "citation_percentile": 84.762309,
+      "citation_percentile": 83.326226,
       "cited_by_count": 13,
       "counts_by_year": [
         {
@@ -2095,7 +2115,7 @@
           3
         ]
       ],
-      "fwci": 1.3708,
+      "fwci": 1.3083,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -2107,19 +2127,19 @@
         "\u03c0-\u03c0 stacking",
         "beam-sensitive materials"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "gold"
     },
     "10.1088/2515-7639/ad9ad2": {
-      "citation_percentile": 83.056769,
-      "cited_by_count": 9,
+      "citation_percentile": 84.191986,
+      "cited_by_count": 11,
       "counts_by_year": [
         {
-          "cited_by_count": 3,
+          "cited_by_count": 4,
           "year": 2026
         },
         {
-          "cited_by_count": 6,
+          "cited_by_count": 7,
           "year": 2025
         }
       ],
@@ -2150,14 +2170,14 @@
         ],
         [
           2025,
-          6
+          7
         ],
         [
           2026,
-          3
+          4
         ]
       ],
-      "fwci": 1.4682,
+      "fwci": 1.772,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -2169,11 +2189,11 @@
         "4D-STEM",
         "atomic resolution imaging"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "gold"
     },
     "10.1088/2515-7639/aebdd0": {
-      "citation_percentile": 31.540204,
+      "citation_percentile": 0.0,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -2186,11 +2206,11 @@
         "memory-efficient simulation",
         "GPU memory reduction"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "gold"
     },
     "10.1093/mam/ozae044.149": {
-      "citation_percentile": 15.641476,
+      "citation_percentile": 0.0,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -2206,11 +2226,11 @@
         "defocus correction",
         "image reconstruction"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "closed"
     },
     "10.1093/mam/ozae044.883": {
-      "citation_percentile": 11.643234,
+      "citation_percentile": 0.0,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -2226,15 +2246,15 @@
         "biological nanostructures",
         "inorganic nanostructures"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "closed"
     },
     "10.1093/mam/ozae086": {
-      "citation_percentile": 98.16593900000001,
-      "cited_by_count": 44,
+      "citation_percentile": 98.45882900000001,
+      "cited_by_count": 49,
       "counts_by_year": [
         {
-          "cited_by_count": 18,
+          "cited_by_count": 19,
           "year": 2026
         },
         {
@@ -2242,7 +2262,7 @@
           "year": 2025
         },
         {
-          "cited_by_count": 3,
+          "cited_by_count": 7,
           "year": 2024
         },
         {
@@ -2273,7 +2293,7 @@
         ],
         [
           2024,
-          3
+          7
         ],
         [
           2025,
@@ -2281,10 +2301,10 @@
         ],
         [
           2026,
-          18
+          19
         ]
       ],
-      "fwci": 7.0146,
+      "fwci": 7.7323,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -2296,11 +2316,11 @@
         "back-illuminated detectors",
         "single-electron detection"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "hybrid"
     },
     "10.1093/mam/ozaf048.041": {
-      "citation_percentile": 18.350515,
+      "citation_percentile": 0.0,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -2316,11 +2336,11 @@
         "missing wedge",
         "tellurium nanoparticles"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1093/mam/ozaf048.044": {
-      "citation_percentile": 20.777341,
+      "citation_percentile": 0.0,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -2336,11 +2356,11 @@
         "amplitude modulator",
         "phase plate"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "closed"
     },
     "10.1093/micmic/ozad067.348": {
-      "citation_percentile": 10.186757,
+      "citation_percentile": 0.0,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -2356,11 +2376,11 @@
         "nanoparticle growth",
         "wet chemical synthesis"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1093/micmic/ozad068": {
-      "citation_percentile": 87.903226,
+      "citation_percentile": 86.82302800000001,
       "cited_by_count": 16,
       "counts_by_year": [
         {
@@ -2410,7 +2430,7 @@
           6
         ]
       ],
-      "fwci": 1.6872,
+      "fwci": 1.6102,
       "is_oa": true,
       "is_top_10_percent": false,
       "is_top_1_percent": false,
@@ -2422,11 +2442,11 @@
         "doped silicon",
         "weakly scattering objects"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "hybrid"
     },
     "10.1103/physreva.89.013403": {
-      "citation_percentile": 90.416206,
+      "citation_percentile": 89.312876,
       "cited_by_count": 50,
       "counts_by_year": [
         {
@@ -2516,9 +2536,9 @@
           3
         ]
       ],
-      "fwci": 2.6114,
+      "fwci": 2.5052,
       "is_oa": true,
-      "is_top_10_percent": true,
+      "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
         "photo-double ionization",
@@ -2528,11 +2548,11 @@
         "conical intersections",
         "propensity rules"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1103/physrevresearch.3.023159": {
-      "citation_percentile": 91.902834,
+      "citation_percentile": 91.564928,
       "cited_by_count": 28,
       "counts_by_year": [
         {
@@ -2598,7 +2618,7 @@
           3
         ]
       ],
-      "fwci": 2.7683,
+      "fwci": 2.7417,
       "is_oa": true,
       "is_top_10_percent": true,
       "is_top_1_percent": false,
@@ -2609,11 +2629,11 @@
         "multi-walled carbon nanotubes",
         "3D imaging"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "gold"
     },
     "10.1107/s2053273323085297": {
-      "citation_percentile": 24.91511,
+      "citation_percentile": 0.0,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -2625,11 +2645,11 @@
         "virtual imaging",
         "electron diffraction"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1107/s2053273323093609": {
-      "citation_percentile": 29.499151,
+      "citation_percentile": 0.0,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -2645,15 +2665,15 @@
         "electron diffraction",
         "aberration-corrected electron microscopy"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "bronze"
     },
     "10.1109/msp.2021.3120981": {
-      "citation_percentile": 90.467427,
-      "cited_by_count": 29,
+      "citation_percentile": 89.855609,
+      "cited_by_count": 30,
       "counts_by_year": [
         {
-          "cited_by_count": 5,
+          "cited_by_count": 6,
           "year": 2026
         },
         {
@@ -2704,12 +2724,12 @@
         ],
         [
           2026,
-          5
+          6
         ]
       ],
-      "fwci": 2.4072,
+      "fwci": 2.3822,
       "is_oa": true,
-      "is_top_10_percent": true,
+      "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [
         "4D-STEM",
@@ -2719,11 +2739,11 @@
         "windowing",
         "diffraction patterns"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "green"
     },
     "10.22443/rms.emc2020.657": {
-      "citation_percentile": 3.6898060000000004,
+      "citation_percentile": 0.0,
       "cited_by_count": 0,
       "counts_by_year": [],
       "counts_by_year_compact": [],
@@ -2738,7 +2758,7 @@
         "3D imaging",
         "coherent diffraction imaging"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "closed"
     },
     "10.48550/arxiv.2102.05604": {
@@ -2794,7 +2814,7 @@
         "photoemission spectroscopy",
         "material characterization"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "green"
     },
     "10.48550/arxiv.2308.10870": {
@@ -2807,15 +2827,15 @@
       "is_top_10_percent": false,
       "is_top_1_percent": false,
       "keywords": [],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "green"
     },
     "10.48550/arxiv.2311.02580": {
       "citation_percentile": null,
-      "cited_by_count": 1,
+      "cited_by_count": 2,
       "counts_by_year": [
         {
-          "cited_by_count": 1,
+          "cited_by_count": 2,
           "year": 2025
         }
       ],
@@ -2850,7 +2870,7 @@
         ],
         [
           2025,
-          1
+          2
         ]
       ],
       "fwci": null,
@@ -2865,7 +2885,7 @@
         "tilt series reconstruction",
         "single-atom resolution"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "green"
     },
     "10.48550/arxiv.2608.05749": {
@@ -2883,7 +2903,7 @@
         "coherent electron beams",
         "partial coherence"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "green"
     },
     "10.64898/2026.10.31.763295": {
@@ -2903,7 +2923,7 @@
         "hemoglobin",
         "apoferritin"
       ],
-      "metrics_updated": "2026-11-09T12:54:34Z",
+      "metrics_updated": "2026-11-16T12:47:49Z",
       "oa_status": "green"
     }
   },

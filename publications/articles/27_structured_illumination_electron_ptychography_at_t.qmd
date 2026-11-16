@@ -23,8 +23,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 3
-fwci: 0.40
-citation_percentile: 57.1
+fwci: 0.39
+citation_percentile: 54.4
 is_oa: true
 oa_status: bronze
 counts_by_year:
@@ -43,7 +43,7 @@ keywords:
   - "phase retrieval"
   - "electron microscopy"
   - "coherent diffraction imaging"
-metrics_updated: "2026-11-09T12:54:34Z"
+metrics_updated: "2026-11-16T12:47:49Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

@@ -21,8 +21,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 6
-fwci: 1.12
-citation_percentile: 75.2
+fwci: 1.06
+citation_percentile: 70.4
 oa_status: closed
 counts_by_year:
   - [2019, 0]
@@ -39,7 +39,7 @@ keywords:
   - "reduction kinetics"
   - "localized surface plasmon resonance"
   - "surface-enhanced Raman scattering"
-metrics_updated: "2026-11-09T12:54:34Z"
+metrics_updated: "2026-11-16T12:47:49Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

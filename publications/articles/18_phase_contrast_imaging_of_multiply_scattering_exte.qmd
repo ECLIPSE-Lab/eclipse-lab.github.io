@@ -24,8 +24,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 28
-fwci: 2.77
-citation_percentile: 91.9
+fwci: 2.74
+citation_percentile: 91.6
 is_top_10_percent: true
 is_oa: true
 oa_status: gold
@@ -44,7 +44,7 @@ keywords:
   - "X-ray phase contrast"
   - "multi-walled carbon nanotubes"
   - "3D imaging"
-metrics_updated: "2026-11-09T12:54:34Z"
+metrics_updated: "2026-11-16T12:47:49Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

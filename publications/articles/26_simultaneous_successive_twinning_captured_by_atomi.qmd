@@ -20,9 +20,9 @@ categories:
   - "atomic electron tomography"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 27
+cited_by_count: 28
 fwci: 2.15
-citation_percentile: 89.0
+citation_percentile: 88.3
 is_oa: true
 oa_status: hybrid
 counts_by_year:
@@ -33,12 +33,12 @@ counts_by_year:
   - [2023, 4]
   - [2024, 7]
   - [2025, 4]
-  - [2026, 5]
+  - [2026, 6]
 keywords:
   - "palladium nanoparticles"
   - "shape-controlled synthesis"
   - "atomic electron tomography"
-metrics_updated: "2026-11-09T12:54:34Z"
+metrics_updated: "2026-11-16T12:47:49Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

@@ -24,9 +24,9 @@ categories:
   - "misfit dislocations"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 18
-fwci: 1.23
-citation_percentile: 76.6
+cited_by_count: 19
+fwci: 1.27
+citation_percentile: 76.3
 is_oa: true
 oa_status: hybrid
 counts_by_year:
@@ -37,7 +37,7 @@ counts_by_year:
   - [2023, 1]
   - [2024, 3]
   - [2025, 7]
-  - [2026, 7]
+  - [2026, 8]
 keywords:
   - "tellurium"
   - "WSe2"
@@ -45,7 +45,7 @@ keywords:
   - "van der Waals semiconductors"
   - "strain relaxation"
   - "misfit dislocations"
-metrics_updated: "2026-11-09T12:54:34Z"
+metrics_updated: "2026-11-16T12:47:49Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

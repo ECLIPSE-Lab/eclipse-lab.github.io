@@ -36,7 +36,7 @@ keywords:
   - "high-performance computing"
   - "photoemission spectroscopy"
   - "material characterization"
-metrics_updated: "2026-11-09T12:54:34Z"
+metrics_updated: "2026-11-16T12:47:49Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)
