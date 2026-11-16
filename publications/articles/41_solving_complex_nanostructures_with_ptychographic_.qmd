@@ -23,9 +23,9 @@ categories:
   - "tilt series reconstruction"
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
-cited_by_count: 59
-fwci: 6.12
-citation_percentile: 98.3
+cited_by_count: 62
+fwci: 6.14
+citation_percentile: 98.2
 is_top_10_percent: true
 is_oa: true
 oa_status: gold
@@ -34,16 +34,16 @@ counts_by_year:
   - [2020, 0]
   - [2021, 0]
   - [2022, 1]
-  - [2023, 4]
+  - [2023, 6]
   - [2024, 14]
-  - [2025, 26]
+  - [2025, 27]
   - [2026, 14]
 keywords:
   - "atomic electron tomography"
   - "light element imaging"
   - "three-dimensional atomic structure"
   - "tilt series reconstruction"
-metrics_updated: "2026-11-09T12:54:34Z"
+metrics_updated: "2026-11-16T12:47:49Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

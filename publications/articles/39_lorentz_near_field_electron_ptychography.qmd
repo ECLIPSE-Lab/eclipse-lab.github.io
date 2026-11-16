@@ -23,8 +23,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 11
-fwci: 1.16
-citation_percentile: 82.1
+fwci: 1.11
+citation_percentile: 80.0
 is_oa: true
 oa_status: hybrid
 counts_by_year:
@@ -43,7 +43,7 @@ keywords:
   - "electric field mapping"
   - "permalloy"
   - "off-axis electron holography"
-metrics_updated: "2026-11-09T12:54:34Z"
+metrics_updated: "2026-11-16T12:47:49Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

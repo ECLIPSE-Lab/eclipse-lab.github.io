@@ -25,8 +25,8 @@ categories:
   # --- end keyword categories ---
 # --- citation metrics (auto-managed; do not edit) ---
 cited_by_count: 19
-fwci: 1.69
-citation_percentile: 84.3
+fwci: 1.67
+citation_percentile: 83.9
 is_oa: true
 oa_status: hybrid
 counts_by_year:
@@ -43,7 +43,7 @@ keywords:
   - "natural neighbor interpolation"
   - "electron scattering simulation"
   - "computational efficiency"
-metrics_updated: "2026-11-09T12:54:34Z"
+metrics_updated: "2026-11-16T12:47:49Z"
 # --- end citation metrics ---
 ---
 ## Citation (APA 7)

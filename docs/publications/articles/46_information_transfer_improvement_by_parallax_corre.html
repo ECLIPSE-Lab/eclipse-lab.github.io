@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="C. Ophus, S. Ribet, G. Varnavides, P. M. Pelz">
-<meta name="keywords" content="atomic electron tomography, dose efficiency, light element imaging, depth resolution, biological nanostructures, inorganic nanostructures">
+<meta name="author" content="D. Stroppa, S. Ribet, G. Varnavides, C. Ophus, P. Pelz">
+<meta name="keywords" content="parallax correction, ptychography, 4D-STEM, large-area imaging, information transmission, phase retrieval">
 
-<title>Using Phase Contrast 4D-STEM to solve 3D Inorganic and Biological Nanostructures – ECLIPSE Lab</title>
+<title>Information Transfer Improvement by Parallax Correction and Ptychography Reconstruction Applied to Large-Area 4D STEM Experiments – ECLIPSE Lab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -49,7 +49,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-447e42e69aaa9833c0ba1b986f430b20.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-bc92a36ba7f00ea2e0b85bede34bd7c0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-5430560868946f81487c072c2d461b8c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -94,13 +94,13 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Using Phase Contrast 4D-STEM to solve 3D Inorganic and Biological Nanostructures – ECLIPSE Lab">
+<meta property="og:title" content="Information Transfer Improvement by Parallax Correction and Ptychography Reconstruction Applied to Large-Area 4D STEM Experiments – ECLIPSE Lab">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://pelzlab.science/img/eclipse_header.png">
 <meta property="og:site_name" content="ECLIPSE Lab">
 <meta property="og:image:height" content="554">
 <meta property="og:image:width" content="1080">
-<meta name="twitter:title" content="Using Phase Contrast 4D-STEM to solve 3D Inorganic and Biological Nanostructures – ECLIPSE Lab">
+<meta name="twitter:title" content="Information Transfer Improvement by Parallax Correction and Ptychography Reconstruction Applied to Large-Area 4D STEM Experiments – ECLIPSE Lab">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://pelzlab.science/img/eclipse_header.png">
 <meta name="twitter:creator" content="@PhilippPelz">
@@ -188,18 +188,16 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Using Phase Contrast 4D-STEM to solve 3D Inorganic and Biological Nanostructures</h1>
+<h1 class="title">Information Transfer Improvement by Parallax Correction and Ptychography Reconstruction Applied to Large-Area 4D STEM Experiments</h1>
   <div class="quarto-categories">
+    <div class="quarto-category">ptychography</div>
     <div class="quarto-category">electron microscopy</div>
-    <div class="quarto-category">nanoparticles</div>
-    <div class="quarto-category">chemistry</div>
-    <div class="quarto-category">biology</div>
-    <div class="quarto-category">atomic electron tomography</div>
-    <div class="quarto-category">dose efficiency</div>
-    <div class="quarto-category">light element imaging</div>
-    <div class="quarto-category">depth resolution</div>
-    <div class="quarto-category">biological nanostructures</div>
-    <div class="quarto-category">inorganic nanostructures</div>
+    <div class="quarto-category">conference paper</div>
+    <div class="quarto-category">parallax correction</div>
+    <div class="quarto-category">4d-stem</div>
+    <div class="quarto-category">large-area imaging</div>
+    <div class="quarto-category">information transmission</div>
+    <div class="quarto-category">phase retrieval</div>
   </div>
   </div>
 
@@ -210,7 +208,7 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>C. Ophus, S. Ribet, G. Varnavides, P. M. Pelz </p>
+             <p>D. Stroppa, S. Ribet, G. Varnavides, C. Ophus, P. Pelz </p>
           </div>
   </div>
     
@@ -220,7 +218,7 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
     <div class="quarto-title-meta-heading">Doi</div>
     <div class="quarto-title-meta-contents">
       <p class="doi">
-        <a href="https://doi.org/10.1093/mam/ozae044.883">10.1093/mam/ozae044.883</a>
+        <a href="https://doi.org/10.1051/bioconf/202412904027">10.1051/bioconf/202412904027</a>
       </p>
     </div>
   </div>
@@ -230,7 +228,7 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 <div>
   <div class="keywords">
     <div class="block-title">Keywords</div>
-    <p>atomic electron tomography, dose efficiency, light element imaging, depth resolution, biological nanostructures, inorganic nanostructures</p>
+    <p>parallax correction, ptychography, 4D-STEM, large-area imaging, information transmission, phase retrieval</p>
   </div>
 </div>
 
@@ -240,7 +238,7 @@ gtag('config', 'G-TVZKKP7YNR', { 'anonymize_ip': true});
 <section id="citation-apa-7" class="level2">
 <h2 class="anchored" data-anchor-id="citation-apa-7">Citation (APA 7)</h2>
 <blockquote class="blockquote">
-<p>Using Phase Contrast 4D-STEM to solve 3D Inorganic and Biological Nanostructures C. Ophus, S. Ribet, G. Varnavides, P. M. Pelz Microscopy and Microanalysis 30</p>
+<p>Information Transfer Improvement by Parallax Correction and Ptychography Reconstruction Applied to Large-Area 4D STEM Experiments D. Stroppa, S. Ribet, G. Varnavides, C. Ophus, P. Pelz BIO Web of Conferences 129, 04027</p>
 </blockquote>
 </section>
 <section id="abstract" class="level2">
@@ -814,7 +812,7 @@ document.addEventListener('DOMContentLoaded', function () {
 </a>
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/ECLIPSE-Lab/eclipse-lab.github.io/blob/main/publications/articles/44_using_phase_contrast_4d_stem_to_solve_3d_inorganic.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ECLIPSE-Lab/eclipse-lab.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/ECLIPSE-Lab/eclipse-lab.github.io/blob/main/publications/articles/46_information_transfer_improvement_by_parallax_corre.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/ECLIPSE-Lab/eclipse-lab.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
